@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>四大皆空，啥也没有</title>
+      <link href="/404.html"/>
+      <url>/404.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>软路由Openwrt overlay分区</title>
+      <link href="2021/06/20/Openwrt%20overlay/"/>
+      <url>2021/06/20/Openwrt%20overlay/</url>
+      
+        <content type="html"><![CDATA[<p>目的扩容overlay分区，docker分区</p><h2 id="cfdisk"><a href="#cfdisk" class="headerlink" title="cfdisk"></a>cfdisk</h2><blockquote><p>cfdisk 分区</p></blockquote><p>清理shell<br>clear</p><h2 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h2><p>修改分区sda3 ext4<br>mkfs.ext4 /dev/sda3<br>完成done</p><p>修改分区sda4 ext4<br>mkfs.ext4 /dev/sda4<br>完成done</p><h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><p>挂载sda3<br>mount /dev/sda3 /mnt/sda3<br>挂载sda4<br>mount /dev/sda4 /mnt/sda4<br>检查查看sda3<br>ls /mnt/sda3<br>到overlay检查<br>cd /overlay<br>ls</p><h2 id="复制overlay"><a href="#复制overlay" class="headerlink" title="复制overlay"></a>复制overlay</h2><p>复制overlay到sda3<br>cp -r /overlay/* /mnt/sda3</p><blockquote><p>openwrt挂载</p></blockquote><p>by：<a href="https://www.youtube.com/channel/UCOhkliOps3IS48ly-MgPC2A">esir</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> openwrt </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Magisk多种开机动画分享</title>
+      <link href="2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/"/>
+      <url>2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/</url>
+      
+        <content type="html"><![CDATA[<h2 id="开头"><a href="#开头" class="headerlink" title="开头"></a>开头</h2><p>今天玩机开机动画用的有点腻了，分享一下开机动画（天天开关机bushi）<br>收集了一些比较好的原厂或者修改版的开机壁纸 ٩(๑❛ᴗ❛๑)۶<br>全部都是Magisk的模块，不用套模板。部分测试过如果怕开不了机请自备mm管理器 |ू･ω･` )</p><blockquote><p>因为是github搭建的速度可能慢点不过动画就这么小不怕下面有高速链接(σﾟ∀ﾟ)σ..:*☆你能访问这博客就能下确实|ू･ω･` )<br><img src="/images/file.jpg" loading="lazy"><br><img src="/images/zipfileimages.jpg" loading="lazy"></p></blockquote><h2 id="Github直链下载"><a href="#Github直链下载" class="headerlink" title="Github直链下载"></a>Github直链下载</h2><p>原厂开机动画：</p><p><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/Flyme%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">Flyme开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/Google%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%BB%91.zip">Google开机动画黑.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/OPPO%20Find%20X%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">OPPO Find X开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/RR-N%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">RR-N开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/RRN%20GET%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">RRN GET开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/Redmi%20Note7%20%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">Redmi Note7 开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/mix%E5%BC%80%E6%9C%BAmiui11.zip">mix开机miui11.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/rogphone%E7%8E%A9%E5%AE%B6%E5%9B%BD%E5%BA%A6%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">rogphone玩家国度开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E5%B0%8F%E7%B1%B3%E6%96%B0%E7%89%885G%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">小米新版5G开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E8%B0%B7%E6%AD%8C%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E7%99%BD%E5%BA%952.zip">谷歌开机动画白底2.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E8%B0%B7%E6%AD%8C%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%BB%91%E5%BA%951.zip">谷歌开机动画黑底1.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E9%B8%BF%E8%92%99%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E6%9C%89%E5%A3%B0%20for%20MIUI.zip">鸿蒙开机动画有声 for MIUI.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E9%B8%BF%E8%92%99%E6%97%A0%E5%A3%B0%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">鸿蒙无声开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E5%8D%8E%E4%B8%BAHarmony60fps.zip">华为Harmony60fps.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E7%B1%BB%E5%8E%9F%E7%94%9F%E9%AD%94%E8%B6%A3%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">类原生魔趣开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E7%B1%BB%E5%8E%9F%E7%94%9Flineage%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">类原生lineage开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/vivo5g%E9%9D%99%E6%80%81%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">vivo5g静态开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/vivo%E9%9D%99%E6%80%81%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">vivo静态开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/win10%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">win10开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E9%94%A4%E5%AD%90%E7%BA%A2%E8%89%B2%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">锤子红色开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%89%E6%98%9F%E6%B5%AE%E5%8A%A8%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">三星浮动开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E6%B0%B4%E6%BB%B4%E5%B1%8FCC%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%AB%98%E7%94%BB%E8%B4%A8%E9%9D%9Egif.zip">水滴屏小米CC系列开机动画高画质非gif.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E6%96%B0%E5%B0%8F%E7%B1%B3MIUI%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%9D%9E5G.zip">新小米MIUI开机动画非5G.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%80%E5%8A%A0%E6%B0%A2OS%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">一加氢OS开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%80%E5%8A%A0%E8%BD%AC%E5%9C%88%E5%9C%88%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">一加转圈圈开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/IQOO%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">IQOO开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E8%AF%BA%E5%9F%BA%E4%BA%9A%E6%8F%A1%E6%89%8B%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">诺基亚握手开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E5%AE%8C%E6%95%B4%E6%96%B0%E6%8B%9F%E6%80%81MIUI12.5%E6%97%A05G%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">完整新拟态MIUI12.5无5G开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%80%E5%8A%A0%E6%B0%A7OS%20Oxygen%20OS%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">一加氧OS Oxygen OS开机动画.zip</a></p><h2 id="Magsik问题"><a href="#Magsik问题" class="headerlink" title="Magsik问题"></a>Magsik问题</h2><p>1.原生的目录可能和MIUI的不一样，遇到安装上了一样的可自行提取修改路径或者直接安装到系统开机动画下<br>大部分国产UI开机动画目录/system/media/bootanimation.zip 模块就是替换这个的，Magisk下移除即恢复<br>2.遇到错误的，请在文件管理器下选择包进行安装请不要在原生快捷目录下选择大几率报错</p><h2 id="目前遇到的问题"><a href="#目前遇到的问题" class="headerlink" title="目前遇到的问题"></a>目前遇到的问题</h2><p>谷歌的动画刷了不显示暂时没有解决方案如果可以用请联系我</p><h2 id="国内高速镜像"><a href="#国内高速镜像" class="headerlink" title="国内高速镜像"></a>国内高速镜像</h2><p>本博文蓝奏云国内镜像：<a href="https://wwr.lanzoui.com/b02c3h7kh">https://wwr.lanzoui.com/b02c3h7kh</a><br>密码:miao</p><h2 id="谢谢他们…"><a href="#谢谢他们…" class="headerlink" title="谢谢他们…"></a>谢谢他们…</h2><p>感谢以下酷安大佬分享🙏：爱多功能手机，LeoFG，leleleha，余空_Yuk，Huang_xuan，连接彼此动脉，昨日夜色恰似她，宝藏退隐…等热忠于分享的大佬👍<br>Thank xda：redsmith<br>感谢以下酷安大佬提供宣献：叫我轩轩就好了呀</p><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>暂时更新怎么多，后面还会不定期更新(  ｰ̀ωｰ́ )⊃⌒欢迎给我点赞！让更多人看到(ﾉﾟ▽ﾟ)ﾉ<br>版权声明 部分模板套用项目：<a href="github.com/E7KMbb/Bootanimation-Module-template">Bootanimation-Module-template</a><br>收集于酷安和xda，和一些当年的存货分享出来，侵权请联系电报或者给我发e-mail o(╥﹏╥)o</p><blockquote><p>如果有开机动画能够分享出来的，欢迎往我邮箱和电报投稿并且带上社交名字，为表示感谢上面的感谢会有你的贡献！目前有意收集原创、优质的开机动画。</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Magisk </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CSGO各种实用代码分享</title>
+      <link href="2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/"/>
+      <url>2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
+      
+        <content type="html"><![CDATA[<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>-perfectworld -worldwide<br>网络状态 net_graph 1<br>持枪方向 cl_righthand 1<br>Alt换持枪方向 BindToggle “ALT” “cl_righthand”;<br>清血 r_cleardecals<br>清血绑定F bind f”+lookatweapon;r_cleardecals<br>一键跳投 alias +jumpthrow”+jump;-attack”; alias -jumpthrow -jump bind v +jumpthrow<br>全屏准星 bind “h” “toggle cl_crosshairsize 5 1000”<br>Tab显示计分板网络 bind “TAB” “+showscores_custom”; alias “+showscores_custom” “+showscores;net_graphheight 64; alias “-showscores_custom” “-showscores;net_graphheight 9999”; net_graph “1”; net_graphheight “9999”; net_graphpos “2”;<br>减少手臂摇摆 cl_bob_lower_amt “5”; cl_bobamt_lat “0.1”; cl_bobamt_vert “0.1”; cl_viewmodel_shift_left_amt “0.5”; cl_viewmodel_shift_right_amt “0.25”;<br>踢掉 bot bot kick<br>绑定飞行 bind “alt” “noclip”<br>投掷物轨迹 cl_grenadepreview 0</p><h2 id="外挂类"><a href="#外挂类" class="headerlink" title="外挂类"></a>外挂类</h2><p>开启作弊 sv_cheats 1<br>无限子弹 sv_infinite_ammo 1<br>锁 god<br>飞天 noclip<br>第一人称 cam_command 1<br>透视 r_drawothermodels 2<br>自瞄 ent_fire !picker addoutputmodelscale 0<br>子弹穿墙 cl_showothermodels 3<br>灵敏度假转 bind X “toggle m_yaw 0.022 1000”<br>无后座 sv_cheats “1”;weapon_accuracy_nospread “1”;weapon_debug_spread_gap “1”;weapon_recoil_cooldown “0”;weapon_recoil_decay1_exp “99999”;weapon_recoil_decay2_exp “99999”;weapon_recoil_decay2_lin “99999”;weapon_recoil_scale “0”;weapon_recoil_suppression_shots “500”;weapon_recoil_view_punch_extra 0<br>大地球滑步 sv_standable_normal 1000<br>允许连跳 sv_enablebunnyhopping 1<br>自动连跳 sv_autobunnyhopping 1<br>空中速度 sv_airaccelerate 20000<br>血量 ent_fire !self addoutput “health 233”</p><h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 mp_drop_knife_enable 1<br>海豹短刀 give weapon_knife_css; ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>刺刀 give weapon_bayonet;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>折叠刀 give weapon_knife_flip;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>穿肠刀 give weapon_knife_gut;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>爪子刀 give weapon_knife_karambit;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>M9 give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>猎杀者匕首 give weapon_knife_tactical;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>蝴蝶刀 give weapon_knife_butterfly;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>弯刀 give weapon_knife_falchion;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>双匕 give weapon_knife_push;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>鲍伊 give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>熊刀 give weapon_knife_ursus;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>折刀 give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>短剑 give weapon_knife_stiletto;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>锯齿爪 give weapon_knife_widowmaker;ent_fire weapon_knife addoutput “classname weapon_knifegg”</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> csgo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Doge</title>
+      <link href="2021/05/14/Doge/"/>
+      <url>2021/05/14/Doge/</url>
+      
+        <content type="html"><![CDATA[<p>可爱的Doge，柴犬镇楼！<br><img src="/images/a0126590_22301391.jpg" loading="lazy"><br><img src="/images/a0126590_22302718.jpg" loading="lazy"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一些不得人知的软件</title>
+      <link href="2021/05/14/%E8%BD%AF%E4%BB%B6/"/>
+      <url>2021/05/14/%E8%BD%AF%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<p>Soft Download</p><p>Clash For Android : <a href="https://github.com/Kr328/ClashForAndroid/releases/download/v2.3.21/app-arm64-v8a-release.apk">https://github.com/Kr328/ClashForAndroid/releases/download/v2.3.21/app-arm64-v8a-release.apk</a><br>V2rayNG：<a href="https://github.com/2dust/v2rayNG/releases/download/1.6.7/v2rayNG_1.6.7_arm64-v8a.apk">https://github.com/2dust/v2rayNG/releases/download/1.6.7/v2rayNG_1.6.7_arm64-v8a.apk</a><br>Clash For Windows：<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.6/Clash.for.Windows.Setup.0.15.6.exe">https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.6/Clash.for.Windows.Setup.0.15.6.exe</a><br>Clashnet {需要下载.NET 5}: <a href="https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Clash.NET.1.0.4.x64.Setup.exe">https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Clash.NET.1.0.4.x64.Setup.exe</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 软件分享 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
