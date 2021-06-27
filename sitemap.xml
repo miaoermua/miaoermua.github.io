@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://miaoermua.github.io/about/index.html</loc>
+    
+    <lastmod>2021-06-27</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://miaoermua.github.io/links/index.html</loc>
     
     <lastmod>2021-06-27</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://miaoermua.github.io/2020/08/12/test/</loc>
     
     <lastmod>2021-06-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://miaoermua.github.io/about/index.html</loc>
-    
-    <lastmod>2021-06-20</lastmod>
     
   </url>
   
