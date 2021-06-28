@@ -102,6 +102,13 @@
 
   
   <url>
+    <loc>https://miaoermua.github.io/tags/csgo/</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://miaoermua.github.io/tags/openwrt/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
@@ -109,7 +116,7 @@
   </url>
   
   <url>
-    <loc>https://miaoermua.github.io/tags/csgo/</loc>
+    <loc>https://miaoermua.github.io/tags/Magisk/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -124,13 +131,6 @@
   
   <url>
     <loc>https://miaoermua.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/</loc>
-    <lastmod>2021-06-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://miaoermua.github.io/tags/Magisk/</loc>
     <lastmod>2021-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
