@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://miaoermua.github.io/links/index.html</loc>
+    
+    <lastmod>2021-07-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://miaoermua.github.io/about/index.html</loc>
     
     <lastmod>2021-07-02</lastmod>
@@ -72,13 +79,6 @@
   </url>
   
   <url>
-    <loc>https://miaoermua.github.io/links/index.html</loc>
-    
-    <lastmod>2021-06-29</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://miaoermua.github.io/2020/08/12/test/</loc>
     
     <lastmod>2021-06-26</lastmod>
@@ -137,6 +137,13 @@
   </url>
   
   <url>
+    <loc>https://miaoermua.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2021-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://miaoermua.github.io/tags/%E7%A4%BE%E4%BA%A4/</loc>
     <lastmod>2021-07-02</lastmod>
     <changefreq>daily</changefreq>
@@ -145,13 +152,6 @@
   
   <url>
     <loc>https://miaoermua.github.io/tags/Windows/</loc>
-    <lastmod>2021-07-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://miaoermua.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2021-07-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
