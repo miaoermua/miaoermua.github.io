@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>博客的CDN没法正常使用了...本站裸奔进会慢</title>
-      <link href="2021/07/02/CDN%E6%97%A0%E6%95%88/"/>
-      <url>2021/07/02/CDN%E6%97%A0%E6%95%88/</url>
+      <title>关于访问博客慢的问题 CDN与云主机</title>
+      <link href="2021/07/02/CDN/"/>
+      <url>2021/07/02/CDN/</url>
       
-        <content type="html"><![CDATA[<p>博客的<a href="https://www.jsdelivr.com/">CDN jsDelivr</a>好像没法给我的博客加速了<br>请访问博客的自带”加速器”或者各大协议<del>V2ray,Xray,SS</del>访问<br>目前好像就头像和打赏能正常进CDN了，目前博客规模还用不上商用CDN<br>有CDN合作或者推荐的在评论区或者<a href="https://t.me/miaoer">Telegram</a>联系我</p><span id="more"></span><p>jsDelivr无法加速的原因是博客部分内容不能超过50m</p>]]></content>
+        <content type="html"><![CDATA[<p>博客的<a href="https://www.jsdelivr.com/">CDN jsDelivr</a>好像没法给我的博客加速了<br>请访问博客的自带”加速器”或者各大协议<del>V2ray,Xray,SS</del>访问<br>目前好像就头像和打赏能正常进CDN了，目前博客规模还用不上商用CDN<br>有CDN合作或者推荐的在评论区或者<a href="https://t.me/miaoer">Telegram</a>联系我</p><span id="more"></span><p>jsDelivr无法加速的原因是博客部分内容不能超过50m</p><h2 id="2021-7-3"><a href="#2021-7-3" class="headerlink" title="2021.7.3"></a>2021.7.3</h2><p>今天我购买了云主机和套用了免费非商用的<a href="https://www.cloudflare.com/">Couldflare</a>，尝试使用独立虚拟服务器搭建博客<br>因为镜像站不是一直用的,使用云主机的还是原来Github搭建的博客镜像,如果主站进不去速度慢请使用镜像<br>我还注册了一个新的域名很便宜很方便<br><a href="https://miaoermua.github.io/">主站: miaoermua.github.io</a> &amp; <a href="https://blog.miaoer.xyz/">镜像: blog.miaoer.xyz</a></p><p>这次我花费了半天时间搭建完<del>Xray+宝塔面板</del>使用的<a href="https://www.youtube.com/watch?v=JakjD0vMdKY">波仔的视频</a></p><p>如果博客运营的下去有价值，我会一直续费并且保持主站，镜像模式使用的<br>暗示<del>预览量和打赏</del></p>]]></content>
       
       
       <categories>
@@ -52,7 +52,7 @@
       <link href="2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/"/>
       <url>2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</url>
       
-        <content type="html"><![CDATA[<p>交换<a href="https://miaoermua.github.io/links/">友链</a>啦啦啦啦o(ﾟДﾟ)っ！<br>来找我看到必回！ <a href="https://t.me/miaoer">Telegram</a>或者邮箱:<a href="mailto:&#109;&#105;&#x61;&#111;&#101;&#x72;&#109;&#x75;&#x61;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#109;&#105;&#x61;&#111;&#101;&#x72;&#109;&#x75;&#x61;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a></p><blockquote><p>支持各种正常的博客框架，仅允许在允许的内容上架友链*</p></blockquote><p><img src="/images/links.jpg" alt="links" loading="lazy"></p><span id="more"></span><h1 id="这是我的友链信息♪-´∇"><a href="#这是我的友链信息♪-´∇" class="headerlink" title="这是我的友链信息♪(´∇`*)"></a>这是我的友链信息♪(´∇`*)</h1><p><a href="https://miaoermua.github.io/links/">(｡･∀･)ﾉﾞ相关内容戳我到友链页面</a></p><h2 id="原头像地址"><a href="#原头像地址" class="headerlink" title="原头像地址"></a>原头像地址</h2><p>详细信息的CDN不可用请使用ta，默认的那个是有CDN的！<br><a href="https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png">https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png</a></p><p>*:<del>那种魔法协议的博文可以接受</del>，<em>但不接受反动轮子</em><br><img src="https://raw.githubusercontent.com/miaoermua/miaoer-gitdown/main/meme/%E6%BB%91%E7%A8%BD%E9%9B%AA%E7%90%83.gif" alt="滑稽" loading="lazy"></p>]]></content>
+        <content type="html"><![CDATA[<p>交换<a href="https://miaoermua.github.io/links/">友链</a>啦啦啦啦o(ﾟДﾟ)っ！<br>来找我看到必回！ <a href="https://t.me/miaoer">Telegram</a>或者邮箱:<a href="mailto:&#x6d;&#x69;&#97;&#x6f;&#101;&#114;&#109;&#x75;&#97;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x6d;&#x69;&#97;&#x6f;&#101;&#114;&#109;&#x75;&#97;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></p><blockquote><p>支持各种正常的博客框架，仅允许在允许的内容上架友链*</p></blockquote><p><img src="/images/links.jpg" alt="links" loading="lazy"></p><span id="more"></span><h1 id="这是我的友链信息♪-´∇"><a href="#这是我的友链信息♪-´∇" class="headerlink" title="这是我的友链信息♪(´∇`*)"></a>这是我的友链信息♪(´∇`*)</h1><p><a href="https://miaoermua.github.io/links/">(｡･∀･)ﾉﾞ相关内容戳我到友链页面</a></p><h2 id="原头像地址"><a href="#原头像地址" class="headerlink" title="原头像地址"></a>原头像地址</h2><p>详细信息的CDN不可用请使用ta，默认的那个是有CDN的！<br><a href="https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png">https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png</a></p><p>*:<del>那种魔法协议的博文可以接受</del>，<em>但不接受反动轮子</em><br><img src="https://raw.githubusercontent.com/miaoermua/miaoer-gitdown/main/meme/%E6%BB%91%E7%A8%BD%E9%9B%AA%E7%90%83.gif" alt="滑稽" loading="lazy"></p>]]></content>
       
       
       
