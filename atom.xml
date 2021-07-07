@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>喵二の小博客</title>
+  
+  <subtitle>喜欢分享一些东西 ୧(﹒ ᴗ﹒ )୨</subtitle>
+  <link href="https://miaoermua.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://miaoermua.github.io/"/>
+  <updated>2021-07-07T12:46:59.999Z</updated>
+  <id>https://miaoermua.github.io/</id>
+  
+  <author>
+    <name>Miaoer</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于访问博客慢的问题 CDN与云主机</title>
+    <link href="https://miaoermua.github.io/2021/07/02/CDN/"/>
+    <id>https://miaoermua.github.io/2021/07/02/CDN/</id>
+    <published>2021-07-02T15:01:23.000Z</published>
+    <updated>2021-07-07T12:46:59.999Z</updated>
+    
+    <content type="html"><![CDATA[<p>博客的<a href="https://www.jsdelivr.com/">CDN jsDelivr</a>好像没法给我的博客加速了<br>请访问博客的自带”加速器”或者各大协议<del>V2ray,Xray,SS</del>访问<br>目前好像就头像和打赏能正常进CDN了，目前博客规模还用不上商用CDN<br>有CDN合作或者推荐的在评论区或者<a href="https://t.me/miaoer">Telegram</a>联系我</p><span id="more"></span><p>jsDelivr无法加速的原因是博客部分内容不能超过50m</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;博客的&lt;a href=&quot;https://www.jsdelivr.com/&quot;&gt;CDN jsDelivr&lt;/a&gt;好像没法给我的博客加速了&lt;br&gt;请访问博客的自带”加速器”或者各大协议&lt;del&gt;V2ray,Xray,SS&lt;/del&gt;访问&lt;br&gt;目前好像就头像和打赏能正常进CDN了，目前博客规模还用不上商用CDN&lt;br&gt;有CDN合作或者推荐的在评论区或者&lt;a href=&quot;https://t.me/miaoer&quot;&gt;Telegram&lt;/a&gt;联系我&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Blog" scheme="https://miaoermua.github.io/categories/Blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>检查Windows为什么不能更新11</title>
+    <link href="https://miaoermua.github.io/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/"/>
+    <id>https://miaoermua.github.io/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/</id>
+    <published>2021-06-29T08:23:33.000Z</published>
+    <updated>2021-07-01T15:33:32.112Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="做好准备o-▽-o"><a href="#做好准备o-▽-o" class="headerlink" title="做好准备o(^▽^)o"></a>做好准备o(^▽^)o</h1><p>前几天Windows11放出预览版的时候，我下载了<a href="https://www.microsoft.com/windows/windows-11#pchealthcheck">电脑健康状况检查</a>官方链接挂了放一下副本<br><a href="https://github.com/miaoermua/miaoer-gitdown/raw/main/download/WindowsPCHealthCheckSetup.msi">电脑健康状况检查-blog副本下载</a><br>发现我根本不过，但是又不知道检查了什么不过…<br><img src="https://www.hualigs.cn/image/60dafa2b47fcb.jpg" alt="notdate" loading="lazy"></p><span id="more"></span><h2 id="警告！∑-っ-°Д-°-っ"><a href="#警告！∑-っ-°Д-°-っ" class="headerlink" title="警告！∑(っ °Д °;)っ"></a>警告！∑(っ °Д °;)っ</h2><blockquote><p>升级Windows11不保证软件稳定性，请进行备份系统盘里面的资料再升级操作，数据无价！请谨慎升级！</p></blockquote><p>如果升级后或者升级过程出现电脑无法正常使用的问题不承担任何法律责任！<br>把资料备份NAS，网盘里面安全第一！</p><h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>于是好心的基友发来了大神<a href="https://github.com/rcmaehl">rcmaehl</a>的检测软件WhyNotWin11<br><a href="https://github.com/rcmaehl/WhyNotWin11">Why Not Win11-Github</a></p><h2 id="软件界面"><a href="#软件界面" class="headerlink" title="软件界面"></a>软件界面</h2><p><img src="https://user-images.githubusercontent.com/716581/123747880-7ded0c00-d881-11eb-9fdc-cd49a6ff74dc.png" alt="rcmaehl" loading="lazy"></p><h2 id="WhyNotWin11下载教程"><a href="#WhyNotWin11下载教程" class="headerlink" title="WhyNotWin11下载教程"></a>WhyNotWin11下载教程</h2><p>下载<a href="https://github.com/rcmaehl/WhyNotWin11/releases">WhyNotWin11-releases</a><br>选择最新版的找到Assets，32位的系统选择 WhyNotWin11.exe ，64位选择 WhyNotWin11_x86.exe<br><img src="https://www.hualigs.cn/image/60dafa371b519.jpg" alt="downwnw" loading="lazy"></p><h1 id="检查"><a href="#检查" class="headerlink" title="检查"></a>检查</h1><p>发现我只有安全启动、CPU、TPM不过 (作者更新真快)<br><img src="https://www.hualigs.cn/image/60dafa2f1fa6f.jpg" alt="old" loading="lazy"><br>那时候找TPM教程是真的难，自己在主板里面折腾半天在CPU选项里找到了【AMD fTPM】</p><h2 id="TPM"><a href="#TPM" class="headerlink" title="TPM"></a>TPM</h2><p>TPMlist：</p><p>AMD:<br>华擎-高级-CPU配置-AMD fTPM switch[AMD CPU fTPM]<br>华硕-高级-AMD fTPM设置-选择TPM设备[开启固件TPM]<br>MSI-设置-安全-可信任计算模块-AMD fTPM switch[AMD CPU fTPM]</p><p>Intel:<br>华硕-Advanced-PCH-FW Configuration-Intel Platform Trust Technology[确认]<br>华硕-Advanced-PCH-FW Configuration-PTT-Enable<br>华硕-Advanced-PCH-FW Configuration-TPM Device Selection-Enable Firmware TPM</p><p>这是华擎主板的bios开启AMD fTPM switch<br><img src="https://www.hualigs.cn/image/60daf9afd2b66.jpg" alt="bios" loading="lazy"></p><p>只收集到这些其他主板平台请善用搜索引擎<br><img src="https://www.hualigs.cn/image/60dafa345f55a.jpg" alt="baidutpm" loading="lazy"><br>尝试搜索：主板(笔记本)名字{可选:型号}+处理器平台+bios开启tpm<br>【如：技嘉x570主板AMD开启TPM】</p><h2 id="安全启动-SecureBoot"><a href="#安全启动-SecureBoot" class="headerlink" title="安全启动 SecureBoot"></a>安全启动 SecureBoot</h2><p>华擎-安全-SecureBoot-安装默认安全密钥-安全引导[开启]<br><img src="https://www.hualigs.cn/image/60dafa16f32e1.jpg" alt="secureboot" loading="lazy"><br>其他主板大差不差，都一般在安全和引导里面开启密钥再开启安全引导<br>要么叫安全启动要么叫安全引导【SecureBoot】<br>尝试搜索：主板+开启安全启动<br>【如：华硕主板开启安全启动】</p><h2 id="硬盘-Disk"><a href="#硬盘-Disk" class="headerlink" title="硬盘 Disk"></a>硬盘 Disk</h2><p>一定是GPT的分区才能安装Win10和Win11，在使用以前系统分区是MBR的只能分区修改GPT的<br>这个也能在搜索引擎找到方法，一般正常在Win10iso里面安装都是GPT的<br>MBR的用户就没办法照顾了，分个区或者出现完整安装Win10iso再升级吧<br>Windows镜像下载MSDN,我告诉你<a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn</a> 和 <a href="https://next.itellyou.cn/">新版我告诉你</a></p><p>硬盘需要64GB+存储空间，安装时保留更多存储空间<br>GPT分区</p><h2 id="CPU"><a href="#CPU" class="headerlink" title="CPU"></a>CPU</h2><p>我的CPU不在CPU支持list里面，但是一样可以更新，但是不一定更老的CPU是否后面会有限制。</p><p>AMD list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors">Supported AMD Processors-AMD处理器平台支持列表</a></p><p>Intel list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors">Supported Intel Processors-Intel英特尔处理器平台支持列表</a></p><p>Qualcomm list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors">Supported Qualcomm Processors-Qualcomm高通处理器平台支持列表</a></p><p>1 GHz+的处理器和64位的<br>暂时不知道支不支持32位x86的</p><h2 id="显卡-amp-显示分辨率-DirectX-WDDM2"><a href="#显卡-amp-显示分辨率-DirectX-WDDM2" class="headerlink" title="显卡&amp;显示分辨率 DirectX+WDDM2"></a>显卡&amp;显示分辨率 DirectX+WDDM2</h2><p>支持 DirectX 12+，不知道老显卡支不支持？<br>分辨率是720P+<br>支持驱动程序模型 WDDM 2.0</p><h2 id="内存-RAM"><a href="#内存-RAM" class="headerlink" title="内存 RAM"></a>内存 RAM</h2><p>4G+无限制频率和DDR版本</p><h1 id="微软官方推荐配置"><a href="#微软官方推荐配置" class="headerlink" title="微软官方推荐配置"></a>微软官方推荐配置</h1><p><a href="https://www.microsoft.com/zh-cn/windows/windows-11-specifications">推荐配置</a><br>处理器：<br>1 GHz 或更快的支持 64 位的处理器（双核或多核）或系统单芯片 (SoC)</p><p>RAM：<br>4 GB</p><p>存储：<br>64 GB 或更大的存储设备</p><p>系统固件：<br>支持 UEFI 安全启动</p><p>TPM：<br><a href="https://docs.microsoft.com/zh-CN/windows/security/information-protection/tpm/trusted-platform-module-overview">受信任的平台模块 (TPM)</a> 版本 2.0</p><p>显卡：<br>支持 DirectX 12 或更高版本，支持 WDDM 2.0 驱动程序</p><p>显示屏：<br>对角线长大于 9 英寸的高清 (720p) 显示屏，每个颜色通道为 8 位</p><p>Internet 连接和 Microsoft 帐户：<br>Windows 11 家庭版需要有 Internet 连接和 Microsoft 帐户才能在首次使用时完成设备设置。<br>将设备切换出 Windows 11 家庭版 S 模式也需要有 Internet 连接。<a href="https://support.microsoft.com/help/4020089/windows-10-in-s-mode-faq">在此处详细了解 S 模式</a>。<br>对于所有 Windows 11 版本，Internet 访问对于执行更新和某些功能的下载和使用都是必需的。</p><h1 id="完成了-是时候秀一下了-・∀・"><a href="#完成了-是时候秀一下了-・∀・" class="headerlink" title="完成了,是时候秀一下了(・∀・*)"></a>完成了,是时候秀一下了(・∀・*)</h1><p><img src="https://www.hualigs.cn/image/60daf9a660dbf.jpg" alt="update..." loading="lazy"><br><img src="https://www.hualigs.cn/image/60dafa3179e6b.jpg" alt="whynotwin11" loading="lazy"></p><h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>博文部分内容可能会做出修改，请善用搜索引擎搜索相关开启教程只收入部分开启方法<br>喜欢这个博文就分享出去吧，有能力可以向我打钱投喂ε(*´･∀･｀)зﾞ<br>如果遇到问题了或者博文不完善可以在下面开启Github问题评论，你的提交的问题会直接显示在博客评论区中！</p>]]></content>
+    
+    
+    <summary type="html">今天解决一下win11不能更新的问题</summary>
+    
+    
+    
+    <category term="教程" scheme="https://miaoermua.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Windows" scheme="https://miaoermua.github.io/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>喵喵交换友链啦</title>
+    <link href="https://miaoermua.github.io/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/"/>
+    <id>https://miaoermua.github.io/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</id>
+    <published>2021-06-27T10:09:00.000Z</published>
+    <updated>2021-07-07T12:24:19.401Z</updated>
+    
+    <content type="html"><![CDATA[<p>交换<a href="https://miaoermua.github.io/links/">友链</a>啦啦啦啦o(ﾟДﾟ)っ！<br>来找我看到必回！ <a href="https://t.me/miaoer">Telegram</a>或者邮箱:<a href="mailto:&#109;&#x69;&#97;&#111;&#101;&#x72;&#109;&#117;&#97;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#109;&#x69;&#97;&#111;&#101;&#x72;&#109;&#117;&#97;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></p><blockquote><p>支持各种正常的博客框架，仅允许在允许的内容上架友链*</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/links.jpg" alt="links" loading="lazy"></p><span id="more"></span><h1 id="这是我的友链信息♪-´∇"><a href="#这是我的友链信息♪-´∇" class="headerlink" title="这是我的友链信息♪(´∇`*)"></a>这是我的友链信息♪(´∇`*)</h1><p><a href="https://miaoermua.github.io/links/">(｡･∀･)ﾉﾞ相关内容戳我到友链页面</a></p><h2 id="原头像地址"><a href="#原头像地址" class="headerlink" title="原头像地址"></a>原头像地址</h2><p>详细信息的CDN不可用请使用ta，默认的那个是有CDN的！<br><a href="https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png">https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png</a></p><p>*:<del>那种魔法协议的博文可以接受</del>，<em>但不接受反动轮子</em><br><img src="https://raw.githubusercontent.com/miaoermua/miaoer-gitdown/main/meme/%E6%BB%91%E7%A8%BD%E9%9B%AA%E7%90%83.gif" alt="滑稽" loading="lazy"></p>]]></content>
+    
+    
+    <summary type="html">交换友链啦啦啦啦o(ﾟДﾟ)っ！</summary>
+    
+    
+    
+    
+    <category term="社交" scheme="https://miaoermua.github.io/tags/%E7%A4%BE%E4%BA%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>四大皆空，啥也没有</title>
+    <link href="https://miaoermua.github.io/404.html"/>
+    <id>https://miaoermua.github.io/404.html</id>
+    <published>2021-06-26T11:10:05.162Z</published>
+    <updated>2021-05-19T12:45:29.054Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>软路由Openwrt overlay分区</title>
+    <link href="https://miaoermua.github.io/2021/06/20/Openwrt%20overlay/"/>
+    <id>https://miaoermua.github.io/2021/06/20/Openwrt%20overlay/</id>
+    <published>2021-06-20T03:23:33.000Z</published>
+    <updated>2021-07-01T16:04:24.653Z</updated>
+    
+    <content type="html"><![CDATA[<p>目的扩容overlay分区，docker分区</p><span id="more"></span><h2 id="cfdisk"><a href="#cfdisk" class="headerlink" title="cfdisk"></a>cfdisk</h2><blockquote><p>cfdisk 分区</p></blockquote><p>清理shell<br>clear</p><h2 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h2><p>修改分区sda3 ext4<br>mkfs.ext4 /dev/sda3<br>完成done</p><p>修改分区sda4 ext4<br>mkfs.ext4 /dev/sda4<br>完成done</p><h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><p>挂载sda3<br>mount /dev/sda3 /mnt/sda3<br>挂载sda4<br>mount /dev/sda4 /mnt/sda4<br>检查查看sda3<br>ls /mnt/sda3<br>到overlay检查<br>cd /overlay<br>ls</p><h2 id="复制overlay"><a href="#复制overlay" class="headerlink" title="复制overlay"></a>复制overlay</h2><p>复制overlay到sda3<br>cp -r /overlay/* /mnt/sda3</p><blockquote><p>openwrt挂载</p></blockquote><p>by：<a href="https://www.youtube.com/channel/UCOhkliOps3IS48ly-MgPC2A">esir</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;目的扩容overlay分区，docker分区&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="教程" scheme="https://miaoermua.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="openwrt" scheme="https://miaoermua.github.io/tags/openwrt/"/>
+    
+    <category term="软路由" scheme="https://miaoermua.github.io/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Magisk多种开机动画分享</title>
+    <link href="https://miaoermua.github.io/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/"/>
+    <id>https://miaoermua.github.io/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/</id>
+    <published>2021-05-20T02:23:33.000Z</published>
+    <updated>2021-07-01T15:37:44.925Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="开头"><a href="#开头" class="headerlink" title="开头"></a>开头</h2><p>今天玩机开机动画用的有点腻了，分享一下开机动画（天天开关机bushi）<br>收集了一些比较好的原厂或者修改版的开机壁纸 ٩(๑❛ᴗ❛๑)۶<br>全部都是Magisk的模块，不用套模板。部分测试过如果怕开不了机请自备mm管理器 |ू･ω･` )</p><blockquote><p>因为是github搭建的速度可能慢点不过动画就这么小不怕下面有高速链接(σﾟ∀ﾟ)σ..:*☆你能访问这博客就能下确实|ू･ω･` )</p></blockquote><p><img src="https://www.hualigs.cn/image/60d7dcc242c46.jpg" loading="lazy"></p><span id="more"></span><p><img src="https://www.hualigs.cn/image/60d7dc78f2c6a.jpg" loading="lazy"></p><h2 id="Github直链下载"><a href="#Github直链下载" class="headerlink" title="Github直链下载"></a>Github直链下载</h2><p>原厂开机动画：</p><p><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/Flyme%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">Flyme开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/Google%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%BB%91.zip">Google开机动画黑.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/OPPO%20Find%20X%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">OPPO Find X开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/RR-N%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">RR-N开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/RRN%20GET%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">RRN GET开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/Redmi%20Note7%20%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">Redmi Note7 开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/mix%E5%BC%80%E6%9C%BAmiui11.zip">mix开机miui11.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/rogphone%E7%8E%A9%E5%AE%B6%E5%9B%BD%E5%BA%A6%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">rogphone玩家国度开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E5%B0%8F%E7%B1%B3%E6%96%B0%E7%89%885G%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">小米新版5G开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E8%B0%B7%E6%AD%8C%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E7%99%BD%E5%BA%952.zip">谷歌开机动画白底2.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E8%B0%B7%E6%AD%8C%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%BB%91%E5%BA%951.zip">谷歌开机动画黑底1.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E9%B8%BF%E8%92%99%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E6%9C%89%E5%A3%B0%20for%20MIUI.zip">鸿蒙开机动画有声 for MIUI.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E9%B8%BF%E8%92%99%E6%97%A0%E5%A3%B0%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">鸿蒙无声开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E5%8D%8E%E4%B8%BAHarmony60fps.zip">华为Harmony60fps.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E7%B1%BB%E5%8E%9F%E7%94%9F%E9%AD%94%E8%B6%A3%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">类原生魔趣开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E7%B1%BB%E5%8E%9F%E7%94%9Flineage%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">类原生lineage开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/vivo5g%E9%9D%99%E6%80%81%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">vivo5g静态开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/vivo%E9%9D%99%E6%80%81%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">vivo静态开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/win10%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">win10开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E9%94%A4%E5%AD%90%E7%BA%A2%E8%89%B2%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">锤子红色开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%89%E6%98%9F%E6%B5%AE%E5%8A%A8%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">三星浮动开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E6%B0%B4%E6%BB%B4%E5%B1%8FCC%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%AB%98%E7%94%BB%E8%B4%A8%E9%9D%9Egif.zip">水滴屏小米CC系列开机动画高画质非gif.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E6%96%B0%E5%B0%8F%E7%B1%B3MIUI%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%9D%9E5G.zip">新小米MIUI开机动画非5G.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%80%E5%8A%A0%E6%B0%A2OS%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">一加氢OS开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%80%E5%8A%A0%E8%BD%AC%E5%9C%88%E5%9C%88%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">一加转圈圈开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/IQOO%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">IQOO开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E8%AF%BA%E5%9F%BA%E4%BA%9A%E6%8F%A1%E6%89%8B%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">诺基亚握手开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E5%AE%8C%E6%95%B4%E6%96%B0%E6%8B%9F%E6%80%81MIUI12.5%E6%97%A05G%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">完整新拟态MIUI12.5无5G开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%80%E5%8A%A0%E6%B0%A7OS%20Oxygen%20OS%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">一加氧OS Oxygen OS开机动画.zip</a></p><h2 id="Magsik问题"><a href="#Magsik问题" class="headerlink" title="Magsik问题"></a>Magsik问题</h2><p>1.原生的目录可能和MIUI的不一样，遇到安装上了一样的可自行提取修改路径或者直接安装到系统开机动画下<br>大部分国产UI开机动画目录/system/media/bootanimation.zip 模块就是替换这个的，Magisk下移除即恢复<br>2.遇到错误的，请在文件管理器下选择包进行安装请不要在原生快捷目录下选择大几率报错</p><h2 id="目前遇到的问题"><a href="#目前遇到的问题" class="headerlink" title="目前遇到的问题"></a>目前遇到的问题</h2><p>谷歌的动画刷了不显示暂时没有解决方案如果可以用请联系我</p><h2 id="国内高速镜像"><a href="#国内高速镜像" class="headerlink" title="国内高速镜像"></a>国内高速镜像</h2><p>本博文蓝奏云国内镜像：<a href="https://wwr.lanzoui.com/b02c3h7kh">https://wwr.lanzoui.com/b02c3h7kh</a><br>密码:miao</p><h2 id="谢谢他们…"><a href="#谢谢他们…" class="headerlink" title="谢谢他们…"></a>谢谢他们…</h2><p>感谢以下酷安大佬分享🙏：爱多功能手机，LeoFG，leleleha，余空_Yuk，Huang_xuan，连接彼此动脉，昨日夜色恰似她，宝藏退隐…等热忠于分享的大佬👍<br>Thank xda：redsmith<br>感谢以下酷安大佬提供宣献：叫我轩轩就好了呀</p><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>暂时更新怎么多，后面还会不定期更新(  ｰ̀ωｰ́ )⊃⌒欢迎给我点赞！让更多人看到(ﾉﾟ▽ﾟ)ﾉ<br>版权声明 部分模板套用项目：<a href="www.github.com/E7KMbb/Bootanimation-Module-template">Bootanimation-Module-template</a><br>收集于酷安和xda，和一些当年的存货分享出来，侵权请联系电报或者给我发e-mail o(╥﹏╥)o</p><blockquote><p>如果有开机动画能够分享出来的，欢迎往我邮箱和电报投稿并且带上社交名字，为表示感谢上面的感谢会有你的贡献！目前有意收集原创、优质的开机动画。</p></blockquote>]]></content>
+    
+    
+    <summary type="html">今天玩机开机动画用的有点腻了，分享一下开机动画٩(๑❛ᴗ❛๑)۶</summary>
+    
+    
+    
+    <category term="分享" scheme="https://miaoermua.github.io/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="Magisk" scheme="https://miaoermua.github.io/tags/Magisk/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSGO各种实用代码分享</title>
+    <link href="https://miaoermua.github.io/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/"/>
+    <id>https://miaoermua.github.io/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</id>
+    <published>2021-05-16T02:27:00.000Z</published>
+    <updated>2021-07-01T15:38:58.588Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>-perfectworld -worldwide<br>网络状态 net_graph 1<br>持枪方向 cl_righthand 1<br>Alt换持枪方向 BindToggle “ALT” “cl_righthand”;<br>清血 r_cleardecals<br>清血绑定F bind f”+lookatweapon;r_cleardecals<br>一键跳投 alias +jumpthrow”+jump;-attack”; alias -jumpthrow -jump bind v +jumpthrow<br>全屏准星 bind “h” “toggle cl_crosshairsize 5 1000”<br>Tab显示计分板网络 bind “TAB” “+showscores_custom”; alias “+showscores_custom” “+showscores;net_graphheight 64; alias “-showscores_custom” “-showscores;net_graphheight 9999”; net_graph “1”; net_graphheight “9999”; net_graphpos “2”;<br>减少手臂摇摆 cl_bob_lower_amt “5”; cl_bobamt_lat “0.1”; cl_bobamt_vert “0.1”; cl_viewmodel_shift_left_amt “0.5”; cl_viewmodel_shift_right_amt “0.25”;<br>踢掉 bot bot kick<br>绑定飞行 bind “alt” “noclip”<br>投掷物轨迹 cl_grenadepreview 0</p><h2 id="外挂类"><a href="#外挂类" class="headerlink" title="外挂类"></a>外挂类</h2><p>开启作弊 sv_cheats 1<br>无限子弹 sv_infinite_ammo 1<br>锁 god<br>飞天 noclip<br>第一人称 cam_command 1<br>透视 r_drawothermodels 2<br>自瞄 ent_fire !picker addoutputmodelscale 0<br>子弹穿墙 cl_showothermodels 3<br>灵敏度假转 bind X “toggle m_yaw 0.022 1000”<br>无后座 sv_cheats “1”;weapon_accuracy_nospread “1”;weapon_debug_spread_gap “1”;weapon_recoil_cooldown “0”;weapon_recoil_decay1_exp “99999”;weapon_recoil_decay2_exp “99999”;weapon_recoil_decay2_lin “99999”;weapon_recoil_scale “0”;weapon_recoil_suppression_shots “500”;weapon_recoil_view_punch_extra 0<br>大地球滑步 sv_standable_normal 1000<br>允许连跳 sv_enablebunnyhopping 1<br>自动连跳 sv_autobunnyhopping 1<br>空中速度 sv_airaccelerate 20000<br>血量 ent_fire !self addoutput “health 233”</p><h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 mp_drop_knife_enable 1<br>海豹短刀 give weapon_knife_css; ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>刺刀 give weapon_bayonet;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>折叠刀 give weapon_knife_flip;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>穿肠刀 give weapon_knife_gut;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>爪子刀 give weapon_knife_karambit;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>M9 give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>猎杀者匕首 give weapon_knife_tactical;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>蝴蝶刀 give weapon_knife_butterfly;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>弯刀 give weapon_knife_falchion;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>双匕 give weapon_knife_push;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>鲍伊 give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>熊刀 give weapon_knife_ursus;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>折刀 give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>短剑 give weapon_knife_stiletto;ent_fire weapon_knife addoutput “classname weapon_knifegg”<br>锯齿爪 give weapon_knife_widowmaker;ent_fire weapon_knife addoutput “classname weapon_knifegg”</p>]]></content>
+    
+    
+    <summary type="html">CSGO的代码</summary>
+    
+    
+    
+    <category term="分享" scheme="https://miaoermua.github.io/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="csgo" scheme="https://miaoermua.github.io/tags/csgo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Doge</title>
+    <link href="https://miaoermua.github.io/2021/05/14/Doge/"/>
+    <id>https://miaoermua.github.io/2021/05/14/Doge/</id>
+    <published>2021-05-14T13:50:24.000Z</published>
+    <updated>2021-07-01T13:00:54.521Z</updated>
+    
+    <content type="html"><![CDATA[<p>可爱的Doge，柴犬镇楼！<br><img src="/images/a0126590_22301391.jpg" loading="lazy"></p><span id="more"></span><p><img src="/images/a0126590_22302718.jpg" loading="lazy"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;可爱的Doge，柴犬镇楼！&lt;br&gt;&lt;img src=&quot;/images/a0126590_22301391.jpg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一些不得人知的软件</title>
+    <link href="https://miaoermua.github.io/2021/05/14/%E8%BD%AF%E4%BB%B6/"/>
+    <id>https://miaoermua.github.io/2021/05/14/%E8%BD%AF%E4%BB%B6/</id>
+    <published>2021-05-14T02:23:33.000Z</published>
+    <updated>2021-07-01T15:38:05.899Z</updated>
+    
+    <content type="html"><![CDATA[<p>Soft Download</p><p>Clash For Android : <a href="https://github.com/Kr328/ClashForAndroid/releases/download/v2.3.21/app-arm64-v8a-release.apk">https://github.com/Kr328/ClashForAndroid/releases/download/v2.3.21/app-arm64-v8a-release.apk</a><br>V2rayNG：<a href="https://github.com/2dust/v2rayNG/releases/download/1.6.7/v2rayNG_1.6.7_arm64-v8a.apk">https://github.com/2dust/v2rayNG/releases/download/1.6.7/v2rayNG_1.6.7_arm64-v8a.apk</a><br>Clash For Windows：<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.6/Clash.for.Windows.Setup.0.15.6.exe">https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.6/Clash.for.Windows.Setup.0.15.6.exe</a><br>Clashnet {需要下载.NET 5}: <a href="https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Clash.NET.1.0.4.x64.Setup.exe">https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Clash.NET.1.0.4.x64.Setup.exe</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Soft Download&lt;/p&gt;
+&lt;p&gt;Clash For Android : &lt;a href=&quot;https://github.com/Kr328/ClashForAndroid/releases/download/v2.3.21/app-arm64-v8a-releas</summary>
+      
+    
+    
+    
+    <category term="软件分享" scheme="https://miaoermua.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="软件分享" scheme="https://miaoermua.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://miaoermua.github.io/2020/08/12/test/"/>
+    <id>https://miaoermua.github.io/2020/08/12/test/</id>
+    <published>2020-08-12T02:23:33.000Z</published>
+    <updated>2021-06-26T11:34:51.856Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="language-test" data-language="test"><code class="language-test">&#x2F;etc&#x2F;network</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre class=&quot;language-test&quot; data-language=&quot;test&quot;&gt;&lt;code class=&quot;language-test&quot;&gt;&amp;#x2F;etc&amp;#x2F;network&lt;/code&gt;&lt;/pre&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
