@@ -142,6 +142,20 @@
   </url>
   
   <url>
+    <loc>https://miaoermua.github.io/live2d/bilibili-22/index.json</loc>
+    
+    <lastmod>2021-01-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://miaoermua.github.io/live2d/bilibili-22/textures_order.json</loc>
+    
+    <lastmod>2021-01-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://miaoermua.github.io/live2d/bilibili-33/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
@@ -164,20 +178,6 @@
   
   <url>
     <loc>https://miaoermua.github.io/live2d/potion-Maker-Pio/index.json</loc>
-    
-    <lastmod>2021-01-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://miaoermua.github.io/live2d/bilibili-22/index.json</loc>
-    
-    <lastmod>2021-01-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://miaoermua.github.io/live2d/bilibili-22/textures_order.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -214,6 +214,13 @@
   </url>
   
   <url>
+    <loc>https://miaoermua.github.io/tags/%E7%A4%BE%E4%BA%A4/</loc>
+    <lastmod>2021-07-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://miaoermua.github.io/tags/Magisk/</loc>
     <lastmod>2021-07-10</lastmod>
     <changefreq>daily</changefreq>
@@ -234,14 +241,14 @@
     <priority>0.6</priority>
   </url>
   
+
+  
   <url>
-    <loc>https://miaoermua.github.io/tags/%E7%A4%BE%E4%BA%A4/</loc>
+    <loc>https://miaoermua.github.io/categories/Blog/</loc>
     <lastmod>2021-07-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
-  
-
   
   <url>
     <loc>https://miaoermua.github.io/categories/%E5%88%86%E4%BA%AB/</loc>
@@ -252,13 +259,6 @@
   
   <url>
     <loc>https://miaoermua.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2021-07-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://miaoermua.github.io/categories/Blog/</loc>
     <lastmod>2021-07-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
