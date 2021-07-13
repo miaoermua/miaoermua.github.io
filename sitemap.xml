@@ -142,7 +142,7 @@
   </url>
   
   <url>
-    <loc>https://miaoermua.github.io/live2d/bilibili-22/index.json</loc>
+    <loc>https://miaoermua.github.io/live2d/bilibili-33/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -156,7 +156,7 @@
   </url>
   
   <url>
-    <loc>https://miaoermua.github.io/live2d/bilibili-33/index.json</loc>
+    <loc>https://miaoermua.github.io/live2d/bilibili-22/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -193,6 +193,13 @@
 
   
   <url>
+    <loc>https://miaoermua.github.io/tags/csgo/</loc>
+    <lastmod>2021-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://miaoermua.github.io/tags/openwrt/</loc>
     <lastmod>2021-07-13</lastmod>
     <changefreq>daily</changefreq>
@@ -207,7 +214,7 @@
   </url>
   
   <url>
-    <loc>https://miaoermua.github.io/tags/csgo/</loc>
+    <loc>https://miaoermua.github.io/tags/%E7%A4%BE%E4%BA%A4/</loc>
     <lastmod>2021-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -234,17 +241,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://miaoermua.github.io/tags/%E7%A4%BE%E4%BA%A4/</loc>
-    <lastmod>2021-07-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://miaoermua.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://miaoermua.github.io/categories/Blog/</loc>
     <lastmod>2021-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -258,7 +258,7 @@
   </url>
   
   <url>
-    <loc>https://miaoermua.github.io/categories/Blog/</loc>
+    <loc>https://miaoermua.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
