@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://miaoer.xyz/about/index.html</loc>
+    
+    <lastmod>2021-09-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://miaoer.xyz/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/</loc>
     
     <lastmod>2021-09-14</lastmod>
@@ -52,13 +59,6 @@
   
   <url>
     <loc>https://miaoer.xyz/about/site.html</loc>
-    
-    <lastmod>2021-09-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://miaoer.xyz/about/index.html</loc>
     
     <lastmod>2021-09-14</lastmod>
     
@@ -177,14 +177,14 @@
   </url>
   
   <url>
-    <loc>https://miaoer.xyz/live2d/bilibili-22/textures_order.json</loc>
+    <loc>https://miaoer.xyz/live2d/bilibili-22/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://miaoer.xyz/live2d/bilibili-22/index.json</loc>
+    <loc>https://miaoer.xyz/live2d/bilibili-22/textures_order.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
