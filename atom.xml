@@ -6,7 +6,7 @@
   <link href="https://miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://miaoer.xyz/"/>
-  <updated>2021-09-10T15:06:51.838Z</updated>
+  <updated>2021-09-14T07:55:50.075Z</updated>
   <id>https://miaoer.xyz/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BlogTime</title>
+    <link href="https://miaoer.xyz/2021/09/14/BlogTime/"/>
+    <id>https://miaoer.xyz/2021/09/14/BlogTime/</id>
+    <published>2021-09-14T07:31:50.000Z</published>
+    <updated>2021-09-14T07:55:50.075Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>原来的关于站点无法在阿里云上访问索性就改到这里来了</p></blockquote><h2 id="2021-9-14"><a href="#2021-9-14" class="headerlink" title="2021.9.14"></a>2021.9.14</h2><p>今天10点手机信息传来喜报备案通过了，刚刚好开了电脑就把友链的所以人通知了一遍，把博客的链接改回<a href="https://miaoer.xyz就够累了，这次出乎想象的好域名也能解析了，接下来就佛系更新了心里的石头落了有空可以在[自习室](https://miaoer.xyz/2021/09/10/学习/)见到我">https://miaoer.xyz就够累了，这次出乎想象的好域名也能解析了，接下来就佛系更新了心里的石头落了有空可以在[自习室](https://miaoer.xyz/2021/09/10/学习/)见到我</a></p><span id="more"></span><h2 id="2021-7-29"><a href="#2021-7-29" class="headerlink" title="2021.7.29"></a>2021.7.29</h2><p>今天准备吧在日本的亚马逊服务器迁移到国内，因为备案卡住了，折腾半天发现国外域名还需要转入国内才能实名登记，但只有实名登记才能访问博客的网站，只能先搭frp联机先用了，如果60天过了还不能转移就是浪费钱了，国内弄挺麻烦<br>8月31号域名才解锁<code>域名转移</code>，为了保住miaoer.xyz域名然后还要多掏36转移miaoer.xyz并且续费得到这个域名的703天，一共花费142[哭]一波三折先用githubpage(本站)搭建的吧</p><p>进度条: 已经完成转移<br>亚马逊是8月左右过期，过期后指向<a href="https://miaoermua.github.io/">https://miaoermua.github.io/</a></p><h2 id="2021-7-15"><a href="#2021-7-15" class="headerlink" title="2021.7.15"></a>2021.7.15</h2><p>今天查询博客有没有被收入搜索引擎，结果还是谷歌厉害，今天查询就收入了就连<a href="https://blog.miaoer.xyz/">镜像</a>也收入了，然后试了几个海外的搜索引擎<br>必应支持中文搜索: <code>喵二的小博客</code> ，雅虎仅支持: <code>喵二の小博客</code><br>但是百度爬虫爬到了但是没完全爬到，爬到了也搜索不到估计要等个一个月<br>搜索site:miaoermua.github.io也无果</p><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/googlesite.jpg" alt="google" loading="lazy"></p><h2 id="2021-7-9"><a href="#2021-7-9" class="headerlink" title="2021.7.9"></a>2021.7.9</h2><p>服务器可以正常访问了，重新还原部署果然用了俩小时<br>然后试图在服务器进行编译<a href="https://github.com/coolsnowwolf/lede">openwrt</a>，都以失败告终<br>只能在虚拟机中获取DHCP路由器中进行全局上网不影响其他设备,最后在Ubuntu开始编译时都2点多了…</p><p>还<del>不要脸的申请</del>上了主题作者<a href="https://www.yunyoujun.cn/">云游君</a>的主题示例站点<a href="https://yun.yunyoujun.cn/demo/">https://yun.yunyoujun.cn/demo/</a><br><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/yunyoujun-demo.jpg" alt="demo" loading="lazy"></p><h2 id="2021-7-7"><a href="#2021-7-7" class="headerlink" title="2021.7.7"></a>2021.7.7</h2><p>今天服务器ip炸了，明天才能重新部署所有的服务 -2h<br>目前<a href="https://www.cloudflare.com/">Couldflare</a>已指向主站</p><h2 id="2021-7-3"><a href="#2021-7-3" class="headerlink" title="2021.7.3"></a>2021.7.3</h2><p>今天我购买了云主机和套用了免费非商用的<a href="https://www.cloudflare.com/">Couldflare</a>，尝试使用独立虚拟服务器搭建博客<br>因为镜像站不是一直用的,使用云主机的还是原来Github搭建的博客镜像,如果主站进不去速度慢请使用镜像<br>我还注册了一个新的域名很便宜很方便<br><a href="https://miaoermua.github.io/">主站: miaoermua.github.io</a> &amp; <a href="https://blog.miaoer.xyz/">镜像: blog.miaoer.xyz</a></p><p><del>这次我花费了半天时间搭建某某面板</del></p><p>如果博客运营的下去有价值，我会一直续费并且保持主站，镜像模式使用的 暗示<del>预览量和打赏</del></p>]]></content>
+    
+    
+    <summary type="html">博客日记</summary>
+    
+    
+    
+    <category term="Blog" scheme="https://miaoer.xyz/categories/Blog/"/>
+    
+    
+    <category term="Blog" scheme="https://miaoer.xyz/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Privacy 隐私</title>
+    <link href="https://miaoer.xyz/2021/09/14/Privacy/"/>
+    <id>https://miaoer.xyz/2021/09/14/Privacy/</id>
+    <published>2021-09-14T07:19:09.704Z</published>
+    <updated>2021-09-14T07:23:05.151Z</updated>
+    
+    <content type="html"><![CDATA[<p>我们非常重视您的隐私，并在2021年9月3日更新了<a href="https://blog.miaoer.xyz/about/site">隐私政策</a>，并且生效于2021年9月14日</p><blockquote><p>我们不会和如何个人和企业共享你的隐私数据，如有疑问请在侧栏找到相关联系方式。</p></blockquote><h2 id="我们是怎么收集你的隐私"><a href="#我们是怎么收集你的隐私" class="headerlink" title="我们是怎么收集你的隐私"></a>我们是怎么收集你的隐私</h2><ul><li>访问</li></ul><p>当你访问我们提供的站点服务时我们将收集你的访问IP，并且进行无限期的保留。</p><ul><li>评论</li></ul><p>当你使用我们提供的站点评论服务时我们将收集你的访问IP和浏览器的User-Agent，以及您发送的评论图片信息，我们将无限期保留并且用于评论展示。</p><h2 id="我们怎么利用你的隐私"><a href="#我们怎么利用你的隐私" class="headerlink" title="我们怎么利用你的隐私"></a>我们怎么利用你的隐私</h2><p>当你访问本站并且产生的相关信息(如:IP地址，浏览器的User-Agent，以及您发送的评论图片信息)，我们将无限期进行保留，如国家网络相关部门需要我们会提供</p><h2 id="您对您的产生的信息有什么权利"><a href="#您对您的产生的信息有什么权利" class="headerlink" title="您对您的产生的信息有什么权利"></a>您对您的产生的信息有什么权利</h2><p>我们将提供评论撤回功能，并且您有权利将您信息在服务器保留三个月后进行删除操作。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;我们非常重视您的隐私，并在2021年9月3日更新了&lt;a href=&quot;https://blog.miaoer.xyz/about/site&quot;&gt;隐私政策&lt;/a&gt;，并且生效于2021年9月14日&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们不会和如何个人和企业共享你的隐私数据，如</summary>
+      
+    
+    
+    
+    <category term="Blog" scheme="https://miaoer.xyz/categories/Blog/"/>
+    
+    
+    <category term="Blog" scheme="https://miaoer.xyz/tags/Blog/"/>
+    
+  </entry>
   
   <entry>
     <title>直播？是云监督啦</title>
@@ -36,9 +83,9 @@
     <category term="学习" scheme="https://miaoer.xyz/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="生活" scheme="https://miaoer.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="学习" scheme="https://miaoer.xyz/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="生活" scheme="https://miaoer.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -89,16 +136,22 @@
   </entry>
   
   <entry>
-    <title>博客一些事</title>
-    <link href="https://miaoer.xyz/2021/08/20/%E5%8D%9A%E5%AE%A2%E5%8F%AF%E7%94%A8%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E6%90%9C%E7%B4%A2%E5%88%B0%E4%BA%86/"/>
-    <id>https://miaoer.xyz/2021/08/20/%E5%8D%9A%E5%AE%A2%E5%8F%AF%E7%94%A8%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E6%90%9C%E7%B4%A2%E5%88%B0%E4%BA%86/</id>
+    <title>教程不要跳着看</title>
+    <link href="https://miaoer.xyz/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/"/>
+    <id>https://miaoer.xyz/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/</id>
     <published>2021-08-20T05:06:59.968Z</published>
-    <updated>2021-08-03T14:55:01.626Z</updated>
+    <updated>2021-09-14T08:06:15.889Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="阿里-amp-域名"><a href="#阿里-amp-域名" class="headerlink" title="阿里&amp;域名"></a>阿里&amp;域名</h1><p>今天准备吧在日本的亚马逊服务器迁移到国内，因为备案卡住了，折腾半天发现国外域名还需要转入国内才能实名登记，但只有实名登记才能访问博客的网站，只能先搭frp联机先用了，如果60天过了还不能转移就是浪费钱了，国内弄挺麻烦<br>8月31号域名才解锁<code>域名转移</code>，为了保住miaoer.xyz域名然后还要多掏36转移miaoer.xyz并且续费得到这个域名的703天，一共花费142[哭]一波三折先用githubpage(本站)搭建的吧<br>详情进度可看<a href="https://miaoermua.github.io/about/site">https://miaoermua.github.io/about/site</a></p><p>今天查询博客有没有被收入搜索引擎，结果还是谷歌厉害，今天查询就收入了就连<a href="https://blog.miaoer.xyz/">镜像</a>也收入了，然后试了几个海外的搜索引擎<br>必应支持中文搜索: <code>喵二的小博客</code> ，雅虎仅支持: <code>喵二の小博客</code><br>但是百度爬虫爬到了但是没完全爬到，爬到了也搜索不到估计要等个一个月<br>搜索site:miaoermua.github.io也无果</p><span id="more"></span><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/googlesite.jpg" alt="google" style="zoom: 85%;" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/bingsite.jpg" alt="google" style="zoom: 80%;" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/yahoosite.jpg" alt="google" style="zoom: 80%;" loading="lazy"><h3 id="请不要跳着看教程"><a href="#请不要跳着看教程" class="headerlink" title="请不要跳着看教程"></a>请不要跳着看教程</h3><p>有些看教程不认真的，经常跳着看再评论区问怎么开启这个选项</p><p>一般我图文都有相关的内容</p><p>比如why not win11那开启安全启动需要先“安装默认密钥”才能开启安全启动选项这里就不点名了</p><p>就算跳着看也要大概的审一下题，不然弄错了从头来过就不只省下的时间了</p>]]></content>
+    <content type="html"><![CDATA[<p>有些看教程不认真的，经常跳着看再评论区问怎么开启这个选项</p><p>一般我图文都有相关的内容</p><p>比如why not win11那开启安全启动需要先“安装默认密钥”才能开启安全启动选项这里就不点名了</p><p>就算跳着看也要大概的审一下题，不然弄错了从头来过就不只省下的时间了</p>]]></content>
     
     
-    <summary type="html">关于“域名转入阿里云导致还需要等30天”和我的“教程应该怎么看”</summary>
+      
+      
+    <summary type="html">&lt;p&gt;有些看教程不认真的，经常跳着看再评论区问怎么开启这个选项&lt;/p&gt;
+&lt;p&gt;一般我图文都有相关的内容&lt;/p&gt;
+&lt;p&gt;比如why not win11那开启安全启动需要先“安装默认密钥”才能开启安全启动选项这里就不点名了&lt;/p&gt;
+&lt;p&gt;就算跳着看也要大概的审一下题，不然弄错了从头来</summary>
+      
     
     
     
@@ -108,11 +161,11 @@
   </entry>
   
   <entry>
-    <title>关于我等备案的阿里云当frp的事还穿透给内网我的世界服务器</title>
-    <link href="https://miaoer.xyz/2021/08/20/%E5%85%B3%E4%BA%8E%E6%88%91%E7%AD%89%E5%A4%87%E6%A1%88%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E5%BD%93frp%E7%9A%84%E4%BA%8B/"/>
-    <id>https://miaoer.xyz/2021/08/20/%E5%85%B3%E4%BA%8E%E6%88%91%E7%AD%89%E5%A4%87%E6%A1%88%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E5%BD%93frp%E7%9A%84%E4%BA%8B/</id>
+    <title>海外转移国内服务器的坑</title>
+    <link href="https://miaoer.xyz/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/"/>
+    <id>https://miaoer.xyz/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</id>
     <published>2021-08-20T05:06:59.960Z</published>
-    <updated>2021-09-14T03:17:25.955Z</updated>
+    <updated>2021-09-14T07:48:05.225Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/meme/lp-meme.jpg" loading="lazy"></p><p>前几天在阿里云上买了一台轻量应用的云服务器，准备要搭建我的博客的，结果…</p><p>拿到机器先Ping了一下延迟，还行深圳到广州也就12ms左右，日本亚马逊的80ms左右</p><p>就兴冲冲的去安装稍微有点熟悉的宝塔面板，那时候日本的服务器检查抽风挂逼没来得及对着抄配置，就搭好了，结果电脑上的chrome显示404进不去？折腾半天还是上日本的服务器看看结果又能进去了…一通操作猛如虎，还是404纳闷了，检查了宝塔和cloudflare正确啊，然后用手机输上域名好家伙直接显示我没有备案<del>(具体看博客<a href="https://miaoermua.github.io/2021/07/15/%E5%8D%9A%E5%AE%A2%E5%8F%AF%E7%94%A8%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E6%90%9C%E7%B4%A2%E5%88%B0%E4%BA%86/">事件经过</a>)</del>…然而大意了，傻乎乎的就买入了国内的服务器，没办法那就实名呗，大不了删一点内容</p><span id="more"></span><h1 id="大意"><a href="#大意" class="headerlink" title="大意"></a>大意</h1><p>只能认命了，之前也没弄过备案的服务器，一步步来结果服务器备案需要域名备案，域名备案还需要阿里云万网下，其他要在域名商那弄，但是我的域名商是<a href="https://www.namesilo.com/">namesilo</a>哪有什么备案相关的玩意啊，只能花36转移到阿里万网下了，按着别人博客写的内容一步步把namesilo转移，结果需要60天才能转移，那天才刚好30天，也只能等了</p><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/meme/kengdie-meme.jpg" loading="lazy"></p><h1 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h1><p>接着去弄Frp内网穿透，在阿里上使用脚本搭建的Frp，绑定端口、Http和Https…</p><p>然后去Openwrt设置Frp内网穿透服务</p><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/openwrtfrp.jpg" loading="lazy"></p><p>然后就可以在我的世界服务器里输入ip:端口了，就找到我穿透出来的内网服务器</p><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/mcserverdaoshi.jpg" loading="lazy"></p><p>因为是电脑本机做的服务器，难免会因为别人跑图使用红石破坏了我的游戏体验啊，我毕竟都上了<a href="https://irisshaders.net/">iris</a>不跑满高帧光影真说不过去</p><p>于是我吧我家的软路由<del>利用</del>出来当我的世界服务器，只要不是故意跑图炸服也不会有啥问题了（<del>服务端开机慢</del></p><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/exsi-mccentos.jpg" loading="lazy"></p><p>使用的是一个J4105的低功耗CPU做的成品软路由，TDP功耗10w，待机功耗只有6.6w！满载功耗只有13w！起码不用怎么担心耗电了，性能吧还行纯生存是够了</p><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/jackstone-j4105.jpg" alt="老白" loading="lazy"></p><p>大概前前后后用了大概4天左右没有啥问题，最高6个人同时在线建筑也不过20-30%的CPU占用</p><p>最重要是延迟真的很低了多人联机广东地区才20-40ms，四川地区50-60ms！</p><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/2021-08-03_18.39.57.png" alt="daoshi" loading="lazy"></p><p>等8月过了就换到阿里云了，域名和服务器应该会用个俩三年</p><p>有兴趣Frp和我的世界可以联系我目前是白名单模式</p><h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>博客已经转移成功，备案也好了，<a href="https://miaoer.xyz/about/site">详情</a></p>]]></content>
     
@@ -145,54 +198,16 @@
   </entry>
   
   <entry>
-    <title>暂停腹泻性更新</title>
-    <link href="https://miaoer.xyz/2021/07/07/%E6%9A%82%E5%81%9C%E8%85%B9%E6%B3%BB%E6%80%A7%E6%9B%B4%E6%96%B0/"/>
-    <id>https://miaoer.xyz/2021/07/07/%E6%9A%82%E5%81%9C%E8%85%B9%E6%B3%BB%E6%80%A7%E6%9B%B4%E6%96%B0/</id>
-    <published>2021-07-07T15:06:00.000Z</published>
-    <updated>2021-07-07T15:20:15.776Z</updated>
-    
-    <content type="html"><![CDATA[<p>目前更新正常但是不会腹泻性更新，写博客废的时间有点多了<br>有相关内容再考虑分享博客，支持友链提交，学业繁重告辞</p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/a0126590_22301391.jpg" alt="doge" loading="lazy"></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;目前更新正常但是不会腹泻性更新，写博客废的时间有点多了&lt;br&gt;有相关内容再考虑分享博客，支持友链提交，学业繁重告辞&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="博客公告" scheme="https://miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>关于博客</title>
     <link href="https://miaoer.xyz/2021/07/07/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/"/>
     <id>https://miaoer.xyz/2021/07/07/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</id>
     <published>2021-07-07T14:24:23.000Z</published>
-    <updated>2021-07-15T12:02:54.367Z</updated>
+    <updated>2021-09-14T07:54:41.129Z</updated>
     
     <content type="html"><![CDATA[<p>关于我域名下的博客技术展示分享经验，让你更了解喵二の小博客</p><span id="more"></span>]]></content>
     
     
     <summary type="html">&lt;p&gt;关于我域名下的博客技术展示分享经验，让你更了解喵二の小博客&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Blog" scheme="https://miaoer.xyz/categories/Blog/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>关于访问博客慢的问题&quot;CDN与云主机&quot;</title>
-    <link href="https://miaoer.xyz/2021/07/02/CDN/"/>
-    <id>https://miaoer.xyz/2021/07/02/CDN/</id>
-    <published>2021-07-02T15:01:23.000Z</published>
-    <updated>2021-07-15T12:25:58.463Z</updated>
-    
-    <content type="html"><![CDATA[<p>博客的<a href="https://www.jsdelivr.com/">CDN jsDelivr</a>好像对我我的博客加速不是太明显<br>请访问博客的自带”加速器”或者各大协议<del>V2ray,Xray,SS</del>访问<br>目前好像就头像和打赏能正常进CDN了，目前博客规模还用不上商用CDN<br>有CDN合作或者推荐的在评论区或者<a href="https://t.me/miaoer">Telegram</a>联系我</p><span id="more"></span><p>jsDelivr无法加速的原因是博客部分内容不能超过50m</p><p><a href="https://miaoermua.github.io/about/site">了解我的博客更进一步</a></p><p>但是后面使用jsdelivr加速图床还不错</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;博客的&lt;a href=&quot;https://www.jsdelivr.com/&quot;&gt;CDN jsDelivr&lt;/a&gt;好像对我我的博客加速不是太明显&lt;br&gt;请访问博客的自带”加速器”或者各大协议&lt;del&gt;V2ray,Xray,SS&lt;/del&gt;访问&lt;br&gt;目前好像就头像和打赏能正常进CDN了，目前博客规模还用不上商用CDN&lt;br&gt;有CDN合作或者推荐的在评论区或者&lt;a href=&quot;https://t.me/miaoer&quot;&gt;Telegram&lt;/a&gt;联系我&lt;/p&gt;</summary>
     
     
     
@@ -229,7 +244,7 @@
     <published>2021-06-27T10:09:00.000Z</published>
     <updated>2021-07-15T12:13:34.382Z</updated>
     
-    <content type="html"><![CDATA[<p>交换<a href="https://miaoermua.github.io/links/">友链</a>啦啦啦啦o(ﾟДﾟ)っ！<br>来找我看到必回！ <a href="https://t.me/miaoer">Telegram</a>或者邮箱:<a href="mailto:&#x6d;&#105;&#97;&#x6f;&#x65;&#x72;&#x6d;&#117;&#x61;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x6d;&#105;&#97;&#x6f;&#x65;&#x72;&#x6d;&#117;&#x61;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></p><blockquote><p>支持各种正常的博客框架，仅允许在允许的内容上架友链*</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/links.jpg" alt="links" loading="lazy"></p><span id="more"></span><h1 id="这是我的友链信息♪-´∇"><a href="#这是我的友链信息♪-´∇" class="headerlink" title="这是我的友链信息♪(´∇`*)"></a>这是我的友链信息♪(´∇`*)</h1><p><a href="https://miaoermua.github.io/links/">(｡･∀･)ﾉﾞ相关内容戳我到友链页面</a></p><h2 id="原头像地址"><a href="#原头像地址" class="headerlink" title="原头像地址"></a>原头像地址</h2><p>详细信息的CDN不可用请使用ta，默认的那个是有CDN的！<br><a href="https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png">https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png</a></p><p>*:<del>那种魔法协议的博文可以接受</del>，<em>但不接受反动轮子</em><br><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/meme/%E6%BB%91%E7%A8%BD%E9%9B%AA%E7%90%83.gif" alt="滑稽" loading="lazy"></p>]]></content>
+    <content type="html"><![CDATA[<p>交换<a href="https://miaoermua.github.io/links/">友链</a>啦啦啦啦o(ﾟДﾟ)っ！<br>来找我看到必回！ <a href="https://t.me/miaoer">Telegram</a>或者邮箱:<a href="mailto:&#x6d;&#x69;&#97;&#x6f;&#101;&#x72;&#x6d;&#x75;&#97;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x6d;&#x69;&#97;&#x6f;&#101;&#x72;&#x6d;&#x75;&#97;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></p><blockquote><p>支持各种正常的博客框架，仅允许在允许的内容上架友链*</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/links.jpg" alt="links" loading="lazy"></p><span id="more"></span><h1 id="这是我的友链信息♪-´∇"><a href="#这是我的友链信息♪-´∇" class="headerlink" title="这是我的友链信息♪(´∇`*)"></a>这是我的友链信息♪(´∇`*)</h1><p><a href="https://miaoermua.github.io/links/">(｡･∀･)ﾉﾞ相关内容戳我到友链页面</a></p><h2 id="原头像地址"><a href="#原头像地址" class="headerlink" title="原头像地址"></a>原头像地址</h2><p>详细信息的CDN不可用请使用ta，默认的那个是有CDN的！<br><a href="https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png">https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png</a></p><p>*:<del>那种魔法协议的博文可以接受</del>，<em>但不接受反动轮子</em><br><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/meme/%E6%BB%91%E7%A8%BD%E9%9B%AA%E7%90%83.gif" alt="滑稽" loading="lazy"></p>]]></content>
     
     
     <summary type="html">交换友链啦啦啦啦o(ﾟДﾟ)っ！</summary>
@@ -271,17 +286,12 @@
     <link href="https://miaoer.xyz/2021/05/23/%E6%B4%8B%E8%91%B1%E5%90%88%E7%A7%9F%E5%8E%9F%E5%88%99/"/>
     <id>https://miaoer.xyz/2021/05/23/%E6%B4%8B%E8%91%B1%E5%90%88%E7%A7%9F%E5%8E%9F%E5%88%99/</id>
     <published>2021-05-23T02:23:33.000Z</published>
-    <updated>2021-08-23T05:03:34.594Z</updated>
+    <updated>2021-09-14T07:57:58.351Z</updated>
     
-    <content type="html"><![CDATA[<p>目前仅合租一人上车即删博文，侧栏可以找到我的B站，QQ和telegram</p><p>高中数学5月15日开通6个月<br><img src="/images/IMG_20210515_230433.jpg" loading="lazy"></p><p>近日就和一个酷友合租，还缺一个</p><p>1.合理使用尽量不要使用IDM下载会员视频，使用代理工具频繁切换ip（防封）<br>2.不要更换绑定，修改密码，只有使用权（安全）<br>3.需要学生证原图（包含：地址信息，相机型号)证明你是学生，不管是初中预习高中内容还是高中/高职学习，大学复习。没有学生证提供校卡</p><p>可以使用web端，app端<br>放此博客是因为方便联系不是天天上酷安的，需要联系的QQ备注 来自/合租<br>欢迎加入合租，一起学习</p>]]></content>
+    <content type="html"><![CDATA[<p>目前仅合租一人上车即删博文，侧栏可以找到我的B站，QQ和telegram</p><p>高中数学5月15日开通6个月<br><img src="/images/IMG_20210515_230433.jpg" loading="lazy"></p><p>近日就和一个酷友合租，还缺一个</p><span id="more"></span><p>1.合理使用尽量不要使用IDM下载会员视频，使用代理工具频繁切换ip（防封）<br>2.不要更换绑定，修改密码，只有使用权（安全）<br>3.需要学生证原图（包含：地址信息，相机型号)证明你是学生，不管是初中预习高中内容还是高中/高职学习，大学复习。没有学生证提供校卡</p><p>可以使用web端，app端<br>放此博客是因为方便联系不是天天上酷安的，需要联系的QQ备注 来自/合租<br>欢迎加入合租，一起学习</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;目前仅合租一人上车即删博文，侧栏可以找到我的B站，QQ和telegram&lt;/p&gt;
-&lt;p&gt;高中数学5月15日开通6个月&lt;br&gt;&lt;img src=&quot;/images/IMG_20210515_230433.jpg&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;
-&lt;p&gt;近日就和一个酷友合</summary>
-      
+    <summary type="html">快来合租一起学习!</summary>
     
     
     
@@ -293,9 +303,9 @@
     <link href="https://miaoer.xyz/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/"/>
     <id>https://miaoer.xyz/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/</id>
     <published>2021-05-20T02:23:33.000Z</published>
-    <updated>2021-08-26T06:43:06.071Z</updated>
+    <updated>2021-09-14T07:47:04.181Z</updated>
     
-    <content type="html"><![CDATA[<p>今天玩机开机动画用的有点腻了，分享一下开机动画（天天开关机bushi）<br>收集了一些比较好的原厂或者修改版的开机壁纸 ٩(๑❛ᴗ❛๑)۶<br>全部都是Magisk的模块，不用套模板。部分测试过如果怕开不了机请自备mm管理器 |ू･ω･` )</p><blockquote><p>因为是github搭建的速度可能慢点不过动画就这么小不怕下面有高速链接(σﾟ∀ﾟ)σ..:*☆你能访问这博客就能下确实|ू･ω･` )</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/file.jpg" loading="lazy"></p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/zipfileimages.jpg" loading="lazy"></p><h2 id="Github直链下载"><a href="#Github直链下载" class="headerlink" title="Github直链下载"></a>Github直链下载</h2><p>原厂开机动画：</p><p><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/Flyme%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">Flyme开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/Google%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%BB%91.zip">Google开机动画黑.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/OPPO%20Find%20X%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">OPPO Find X开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/RR-N%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">RR-N开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/RRN%20GET%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">RRN GET开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/Redmi%20Note7%20%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">Redmi Note7 开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/mix%E5%BC%80%E6%9C%BAmiui11.zip">mix开机miui11.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/rogphone%E7%8E%A9%E5%AE%B6%E5%9B%BD%E5%BA%A6%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">rogphone玩家国度开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E5%B0%8F%E7%B1%B3%E6%96%B0%E7%89%885G%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">小米新版5G开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E8%B0%B7%E6%AD%8C%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E7%99%BD%E5%BA%952.zip">谷歌开机动画白底2.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E8%B0%B7%E6%AD%8C%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%BB%91%E5%BA%951.zip">谷歌开机动画黑底1.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E9%B8%BF%E8%92%99%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E6%9C%89%E5%A3%B0%20for%20MIUI.zip">鸿蒙开机动画有声 for MIUI.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E9%B8%BF%E8%92%99%E6%97%A0%E5%A3%B0%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">鸿蒙无声开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E5%8D%8E%E4%B8%BAHarmony60fps.zip">华为Harmony60fps.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E7%B1%BB%E5%8E%9F%E7%94%9F%E9%AD%94%E8%B6%A3%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">类原生魔趣开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E7%B1%BB%E5%8E%9F%E7%94%9Flineage%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">类原生lineage开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/vivo5g%E9%9D%99%E6%80%81%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">vivo5g静态开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/vivo%E9%9D%99%E6%80%81%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">vivo静态开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/win10%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">win10开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E9%94%A4%E5%AD%90%E7%BA%A2%E8%89%B2%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">锤子红色开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%89%E6%98%9F%E6%B5%AE%E5%8A%A8%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">三星浮动开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E6%B0%B4%E6%BB%B4%E5%B1%8FCC%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%AB%98%E7%94%BB%E8%B4%A8%E9%9D%9Egif.zip">水滴屏小米CC系列开机动画高画质非gif.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E6%96%B0%E5%B0%8F%E7%B1%B3MIUI%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%9D%9E5G.zip">新小米MIUI开机动画非5G.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%80%E5%8A%A0%E6%B0%A2OS%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">一加氢OS开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%80%E5%8A%A0%E8%BD%AC%E5%9C%88%E5%9C%88%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">一加转圈圈开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/IQOO%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">IQOO开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E8%AF%BA%E5%9F%BA%E4%BA%9A%E6%8F%A1%E6%89%8B%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">诺基亚握手开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E5%AE%8C%E6%95%B4%E6%96%B0%E6%8B%9F%E6%80%81MIUI12.5%E6%97%A05G%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">完整新拟态MIUI12.5无5G开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%80%E5%8A%A0%E6%B0%A7OS%20Oxygen%20OS%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">一加氧OS Oxygen OS开机动画.zip</a></p><h2 id="Magsik问题"><a href="#Magsik问题" class="headerlink" title="Magsik问题"></a>Magsik问题</h2><p>1.原生的目录可能和MIUI的不一样，遇到安装上了一样的可自行提取修改路径或者直接安装到系统开机动画下<br>大部分国产UI开机动画目录/system/media/bootanimation.zip 模块就是替换这个的，Magisk下移除即恢复<br>2.遇到错误的，请在文件管理器下选择包进行安装请不要在原生快捷目录下选择大几率报错</p><h2 id="目前遇到的问题"><a href="#目前遇到的问题" class="headerlink" title="目前遇到的问题"></a>目前遇到的问题</h2><p>谷歌的动画刷了不显示暂时没有解决方案如果可以用请联系我</p><h2 id="国内高速镜像"><a href="#国内高速镜像" class="headerlink" title="国内高速镜像"></a>国内高速镜像</h2><h3 id="蓝奏云镜像"><a href="#蓝奏云镜像" class="headerlink" title="蓝奏云镜像"></a>蓝奏云镜像</h3><p><a href="https://wwr.lanzoui.com/b02c3h7kh">https://wwr.lanzoui.com/b02c3h7kh</a><br>密码:miao</p><h3 id="码云Gitee镜像"><a href="#码云Gitee镜像" class="headerlink" title="码云Gitee镜像"></a>码云Gitee镜像</h3><p><a href="https://gitee.com/miaoermua/miaoermua.gitee.io/tree/master/download/magisk%20bootanimation%20share">https://gitee.com/miaoermua/miaoermua.gitee.io/tree/master/download/magisk%20bootanimation%20share</a></p><h2 id="感谢他们…"><a href="#感谢他们…" class="headerlink" title="感谢他们…"></a>感谢他们…</h2><p>感谢以下酷安大佬分享🙏：爱多功能手机，LeoFG，leleleha，余空_Yuk，Huang_xuan，连接彼此动脉，昨日夜色恰似她，宝藏退隐…等热忠于分享的大佬👍<br>Thank xda：redsmith<br>感谢以下酷安大佬提供宣献：叫我轩轩就好了呀</p><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>暂时更新怎么多，后面还会不定期更新(  ｰ̀ωｰ́ )⊃⌒欢迎给我点赞！让更多人看到(ﾉﾟ▽ﾟ)ﾉ<br>版权声明 部分模板套用项目：<a href="www.github.com/E7KMbb/Bootanimation-Module-template">Bootanimation-Module-template</a><br>收集于酷安和xda，和一些当年的存货分享出来，侵权请联系电报或者给我发e-mail o(╥﹏╥)o</p><blockquote><p>如果有开机动画能够分享出来的，欢迎往我邮箱和电报投稿并且带上社交名字，为表示感谢上面的感谢会有你的贡献！目前有意收集原创、优质的开机动画。</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>今天玩机开机动画用的有点腻了，分享一下开机动画（天天开关机bushi）<br>收集了一些比较好的原厂或者修改版的开机壁纸 ٩(๑❛ᴗ❛๑)۶<br>全部都是Magisk的模块，不用套模板。部分测试过如果怕开不了机请自备mm管理器 |ू･ω･` )</p><blockquote><p>因为是github搭建的速度可能慢点不过动画就这么小不怕下面有高速链接(σﾟ∀ﾟ)σ..:*☆你能访问这博客就能下确实|ू･ω･` )</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/file.jpg" loading="lazy"></p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-gitdown@latest/images/zipfileimages.jpg" loading="lazy"></p><h2 id="Github直链下载"><a href="#Github直链下载" class="headerlink" title="Github直链下载"></a>Github直链下载</h2><p>原厂开机动画：</p><p><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/Flyme%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">Flyme开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/Google%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%BB%91.zip">Google开机动画黑.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/OPPO%20Find%20X%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">OPPO Find X开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/RR-N%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">RR-N开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/RRN%20GET%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">RRN GET开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/Redmi%20Note7%20%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">Redmi Note7 开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/mix%E5%BC%80%E6%9C%BAmiui11.zip">mix开机miui11.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/rogphone%E7%8E%A9%E5%AE%B6%E5%9B%BD%E5%BA%A6%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">rogphone玩家国度开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E5%B0%8F%E7%B1%B3%E6%96%B0%E7%89%885G%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">小米新版5G开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E8%B0%B7%E6%AD%8C%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E7%99%BD%E5%BA%952.zip">谷歌开机动画白底2.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E8%B0%B7%E6%AD%8C%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%BB%91%E5%BA%951.zip">谷歌开机动画黑底1.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E9%B8%BF%E8%92%99%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E6%9C%89%E5%A3%B0%20for%20MIUI.zip">鸿蒙开机动画有声 for MIUI.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E9%B8%BF%E8%92%99%E6%97%A0%E5%A3%B0%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">鸿蒙无声开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E5%8D%8E%E4%B8%BAHarmony60fps.zip">华为Harmony60fps.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E7%B1%BB%E5%8E%9F%E7%94%9F%E9%AD%94%E8%B6%A3%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">类原生魔趣开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E7%B1%BB%E5%8E%9F%E7%94%9Flineage%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">类原生lineage开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/vivo5g%E9%9D%99%E6%80%81%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">vivo5g静态开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/vivo%E9%9D%99%E6%80%81%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">vivo静态开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/win10%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">win10开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E9%94%A4%E5%AD%90%E7%BA%A2%E8%89%B2%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">锤子红色开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%89%E6%98%9F%E6%B5%AE%E5%8A%A8%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">三星浮动开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E6%B0%B4%E6%BB%B4%E5%B1%8FCC%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%AB%98%E7%94%BB%E8%B4%A8%E9%9D%9Egif.zip">水滴屏小米CC系列开机动画高画质非gif.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E6%96%B0%E5%B0%8F%E7%B1%B3MIUI%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E9%9D%9E5G.zip">新小米MIUI开机动画非5G.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%80%E5%8A%A0%E6%B0%A2OS%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">一加氢OS开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%80%E5%8A%A0%E8%BD%AC%E5%9C%88%E5%9C%88%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">一加转圈圈开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/IQOO%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">IQOO开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E8%AF%BA%E5%9F%BA%E4%BA%9A%E6%8F%A1%E6%89%8B%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">诺基亚握手开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E5%AE%8C%E6%95%B4%E6%96%B0%E6%8B%9F%E6%80%81MIUI12.5%E6%97%A05G%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">完整新拟态MIUI12.5无5G开机动画.zip</a><br><a href="https://github.com/miaoermua/miaoermua.github.io/raw/master/download/magisk%20bootanimation%20share/%E4%B8%80%E5%8A%A0%E6%B0%A7OS%20Oxygen%20OS%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB.zip">一加氧OS Oxygen OS开机动画.zip</a></p><h2 id="Magsik问题"><a href="#Magsik问题" class="headerlink" title="Magsik问题"></a>Magsik问题</h2><p>1.原生的目录可能和MIUI的不一样，遇到安装上了一样的可自行提取修改路径或者直接安装到系统开机动画下<br>大部分国产UI开机动画目录/system/media/bootanimation.zip 模块就是替换这个的，Magisk下移除即恢复<br>2.遇到错误的，请在文件管理器下选择包进行安装请不要在原生快捷目录下选择大几率报错</p><h2 id="目前遇到的问题"><a href="#目前遇到的问题" class="headerlink" title="目前遇到的问题"></a>目前遇到的问题</h2><p>谷歌的动画刷了不显示暂时没有解决方案如果可以用请联系我</p><h2 id="国内高速镜像"><a href="#国内高速镜像" class="headerlink" title="国内高速镜像"></a>国内高速镜像</h2><p>博客不提供国内直接下载<del>流量贵</del></p><h3 id="蓝奏云镜像"><a href="#蓝奏云镜像" class="headerlink" title="蓝奏云镜像"></a>蓝奏云镜像</h3><p><a href="https://wwr.lanzoui.com/b02c3h7kh">https://wwr.lanzoui.com/b02c3h7kh</a><br>密码:miao</p><h3 id="码云Gitee镜像"><a href="#码云Gitee镜像" class="headerlink" title="码云Gitee镜像"></a>码云Gitee镜像</h3><p><a href="https://gitee.com/miaoermua/miaoermua.gitee.io/tree/master/download/magisk%20bootanimation%20share">https://gitee.com/miaoermua/miaoermua.gitee.io/tree/master/download/magisk%20bootanimation%20share</a></p><h2 id="感谢他们…"><a href="#感谢他们…" class="headerlink" title="感谢他们…"></a>感谢他们…</h2><p>感谢以下酷安大佬分享🙏：爱多功能手机，LeoFG，leleleha，余空_Yuk，Huang_xuan，连接彼此动脉，昨日夜色恰似她，宝藏退隐…等热忠于分享的大佬👍<br>Thank xda：redsmith<br>感谢以下酷安大佬提供宣献：叫我轩轩就好了呀</p><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>暂时更新怎么多，后面还会不定期更新(  ｰ̀ωｰ́ )⊃⌒欢迎给我点赞！让更多人看到(ﾉﾟ▽ﾟ)ﾉ<br>版权声明 部分模板套用项目：<a href="www.github.com/E7KMbb/Bootanimation-Module-template">Bootanimation-Module-template</a><br>收集于酷安和xda，和一些当年的存货分享出来，侵权请联系电报或者给我发e-mail o(╥﹏╥)o</p><blockquote><p>如果有开机动画能够分享出来的，欢迎往我邮箱和电报投稿并且带上社交名字，为表示感谢上面的感谢会有你的贡献！目前有意收集原创、优质的开机动画。</p></blockquote>]]></content>
     
     
     <summary type="html">今天玩机开机动画用的有点腻了，分享一下开机动画٩(๑❛ᴗ❛๑)۶</summary>
@@ -314,12 +324,12 @@
     <link href="https://miaoer.xyz/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/"/>
     <id>https://miaoer.xyz/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</id>
     <published>2021-05-16T02:27:00.000Z</published>
-    <updated>2021-08-29T04:43:51.439Z</updated>
+    <updated>2021-09-14T07:59:28.671Z</updated>
     
     <content type="html"><![CDATA[<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>国服 <code>-perfectworld</code><br>国际服 <code>-worldwide</code></p><p>网络FPS状态 <code>net_graph 1</code><br>调小网络于FPS状态 <code>net_graphproportionalfont 1</code><br>持枪方向 <code>cl_righthand 1</code><br>Alt换持枪方向 <code>BindToggle &quot;ALT&quot; &quot;cl_righthand&quot;;</code><br>清血 <code>r_cleardecals</code><br>清血绑定Shift <code>bind shift&quot;+lookatweapon;r_cleardecals</code><br>一键跳投 <code>alias +jumpthrow&quot;+jump;-attack&quot;; alias -jumpthrow -jump bind v +jumpthrow</code><br>全屏准星 <code>bind &quot;h&quot; &quot;toggle cl_crosshairsize 5 1000&quot;</code><br>Tab显示计分板网络 <code>bind &quot;TAB&quot; &quot;+showscores_custom&quot;; alias &quot;+showscores_custom&quot; &quot;+showscores;net_graphheight 64; alias &quot;-showscores_custom&quot; &quot;-showscores;net_graphheight 9999&quot;; net_graph &quot;1&quot;; net_graphheight &quot;9999&quot;; net_graphpos &quot;2&quot;;</code><br>减少手臂摇摆 <code>cl_bob_lower_amt &quot;5&quot;; cl_bobamt_lat &quot;0.1&quot;; cl_bobamt_vert &quot;0.1&quot;; cl_viewmodel_shift_left_amt &quot;0.5&quot;; cl_viewmodel_shift_right_amt &quot;0.25&quot;;</code><br>绑定飞行 <code>bind &quot;alt&quot; &quot;noclip&quot;</code></p><h2 id="作弊类"><a href="#作弊类" class="headerlink" title="作弊类"></a>作弊类</h2><p>开启作弊 <code>sv_cheats 1</code></p><p>无限子弹 <code>sv_infinite_ammo 1</code><br>上帝模式_锁 <code>god</code><br>飞天 <code>noclip</code><br>第一人称 <code>cam_command 1</code><br>实体透视 <code>r_drawothermodels 2</code><br>(无效)自瞄 <code>ent_fire !picker addoutputmodelscale 0</code><br>(无效)子弹穿墙 <code>cl_showothermodels 3</code><br>灵敏度假转 <code>bind j &quot;toggle m_yaw 0.022 1000&quot;</code><br>无后座 <code>sv_cheats &quot;1&quot;;weapon_accuracy_nospread &quot;1&quot;;weapon_debug_spread_gap &quot;1&quot;;weapon_recoil_cooldown &quot;0&quot;;weapon_recoil_decay1_exp &quot;99999&quot;;weapon_recoil_decay2_exp &quot;99999&quot;;weapon_recoil_decay2_lin &quot;99999&quot;;weapon_recoil_scale &quot;0&quot;;weapon_recoil_suppression_shots &quot;500&quot;;weapon_recoil_view_punch_extra 0</code><br>大地球滑步 <code>sv_standable_normal 1000</code><br>允许连跳 <code>sv_enablebunnyhopping 1</code><br>自动连跳 <code>sv_autobunnyhopping 1</code><br>空中速度 <code>sv_airaccelerate 20000</code><br>血量 <code>ent_fire !self addoutput &quot;health 233&quot;</code></p><h2 id="房间"><a href="#房间" class="headerlink" title="房间"></a>房间</h2><p>1秒刷新房间 <code>mp_restartgame &quot;1&quot;</code><br>禁止自动平衡人数 <code>mp_autoteambalance 0</code><br>金钱上限 <code>mp_maxmoney &quot;16000&quot;</code><br>出生金钱 <code>mp_startmoney &quot;16000&quot;</code><br>任意地点购买 <code>mp_buy_anywhere &quot;1&quot;</code><br>显示10秒投掷物轨迹 <code>sv_grenade_trajectory_time &quot;10&quot;</code><br>射击命中点显示 <code>sv_showimpacts 1</code><br>踢掉bot <code>bot kick</code><br>杀掉所有bot <code>bot_kill</code><br>随机增加bot <code>bot_add</code><br>增加bot到CT <code>bot_add_ct</code><br>增加bot到T <code>bot_add_t</code></p><h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 <code>mp_drop_knife_enable 1</code></p><p>海豹短刀 <code>give weapon_knife_css; ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>刺刀 <code>give weapon_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>折叠刀 <code>give weapon_knife_flip;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>穿肠刀 <code>give weapon_knife_gut;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>爪子刀 <code>give weapon_knife_karambit;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>M9 <code>give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>猎杀者匕首 <code>give weapon_knife_tactical;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>蝴蝶刀 <code>give weapon_knife_butterfly;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>弯刀 <code>give weapon_knife_falchion;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>双匕 <code>give weapon_knife_push;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>鲍伊 <code>give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>熊刀 <code>give weapon_knife_ursus;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>折刀 <code>give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>短剑 <code>give weapon_knife_stiletto;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code><br>锯齿爪 <code>give weapon_knife_widowmaker;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>]]></content>
     
     
-    <summary type="html">CSGO的代码</summary>
+    <summary type="html">太实用了</summary>
     
     
     
@@ -352,7 +362,7 @@
     <link href="https://miaoer.xyz/2021/05/14/%E8%BD%AF%E4%BB%B6/"/>
     <id>https://miaoer.xyz/2021/05/14/%E8%BD%AF%E4%BB%B6/</id>
     <published>2021-05-14T02:23:33.000Z</published>
-    <updated>2021-07-01T15:38:05.899Z</updated>
+    <updated>2021-09-14T07:21:06.394Z</updated>
     
     <content type="html"><![CDATA[<p>Soft Download</p><p>Clash For Android : <a href="https://github.com/Kr328/ClashForAndroid/releases/download/v2.3.21/app-arm64-v8a-release.apk">https://github.com/Kr328/ClashForAndroid/releases/download/v2.3.21/app-arm64-v8a-release.apk</a><br>V2rayNG：<a href="https://github.com/2dust/v2rayNG/releases/download/1.6.7/v2rayNG_1.6.7_arm64-v8a.apk">https://github.com/2dust/v2rayNG/releases/download/1.6.7/v2rayNG_1.6.7_arm64-v8a.apk</a><br>Clash For Windows：<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.6/Clash.for.Windows.Setup.0.15.6.exe">https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.6/Clash.for.Windows.Setup.0.15.6.exe</a><br>Clashnet {需要下载.NET 5}: <a href="https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Clash.NET.1.0.4.x64.Setup.exe">https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.4/Clash.NET.1.0.4.x64.Setup.exe</a></p>]]></content>
     
