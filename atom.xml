@@ -6,7 +6,7 @@
   <link href="https://www.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.miaoer.xyz/"/>
-  <updated>2021-09-16T02:18:23.983Z</updated>
+  <updated>2021-09-16T13:10:40.631Z</updated>
   <id>https://www.miaoer.xyz/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>岛市极限 服务器规则</title>
+    <link href="https://www.miaoer.xyz/2021/09/16/%E5%B2%9B%E5%B8%82/"/>
+    <id>https://www.miaoer.xyz/2021/09/16/%E5%B2%9B%E5%B8%82/</id>
+    <published>2021-09-16T12:03:07.357Z</published>
+    <updated>2021-09-16T13:10:40.631Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎来到岛市服务器！</p><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/server-icon.png" loading="lazy"></p><blockquote><p>此服务器是早期是网易极限生存修改而来，为服务器获取帮助</p></blockquote><pre class="language-none"><code class="language-none">版本: 1.16.5玩法: 原版纯净客户端: 2021-9-16 20:16:12兼容: Fabric &#x2F; Forge权限管理: 默认玩家权限组为PlayerOP: 不对外开放模式: 生存白名单: 开启死亡不掉落: 开启</code></pre><h1 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h1><p>主城 <code>/spawn</code></p><p>回家 <code>/home</code></p><p>设置家 <code>/sethome</code></p><p>返回上一个点 <code>/back</code></p><p>延迟: <code>/ping</code>或者<code>/ping [tab切换玩家]</code></p><p>传送 <code>/tp [tab切换玩家]</code>如 /tp Miaotwo</p><p>资源世界 <code>/mv tp zy</code></p><p>海底神殿 <code>/tp -3932 63 -2289</code></p><p>末地 <code>/tp -4290 38 -3314</code></p><h1 id="坐标"><a href="#坐标" class="headerlink" title="坐标"></a>坐标</h1><p>家 <code>-3798 77 -1542</code></p><p>海底神殿 <code>-3932 63 -2289</code></p><p>末地 <code>-4290 38 -3314</code></p><h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><p>不允许作弊</p><p>禁止未经允许在主城建筑保护区范围内挖矿，请到矿道开挖</p><p>房子主题不限，尽量避免火柴盒B站有建筑视频</p><p>临时建筑用完就拆</p><p>建筑完成后可申请飞行观赏</p><p>可以使用服务器提供的指令高效游戏</p><p>新人刚刚进来等待授予Player权限</p><blockquote><p>最近不要跑图等服务器换硬盘</p></blockquote><h1 id="主城描述"><a href="#主城描述" class="headerlink" title="主城描述"></a>主城描述</h1><p>主城上城</p><p><img src="/images/daoshishang.jpg" loading="lazy"></p><p>主城中 居民区</p><p><img src="/images/daoshizhong.jpg" loading="lazy"></p><p>主城下城 开发区</p><p><img src="/images/daoshixia.jpg" loading="lazy"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;欢迎来到岛市服务器！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/server-icon.png&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>BlogTime</title>
@@ -244,7 +266,7 @@
     <published>2021-06-27T10:09:00.000Z</published>
     <updated>2021-09-16T02:02:56.949Z</updated>
     
-    <content type="html"><![CDATA[<p>交换<a href="https://miaoermua.github.io/links/">友链</a>啦啦啦啦o(ﾟДﾟ)っ！<br>来找我看到必回！ <a href="https://t.me/miaoer">Telegram</a>或者邮箱:<a href="mailto:&#109;&#x69;&#x61;&#x6f;&#x65;&#114;&#x6d;&#117;&#97;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">&#109;&#x69;&#x61;&#x6f;&#x65;&#114;&#x6d;&#117;&#97;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;</a></p><blockquote><p>支持各种正常的博客框架，仅允许在允许的内容上架友链*</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/links.jpg" alt="links" loading="lazy"></p><span id="more"></span><h1 id="这是我的友链信息♪-´∇"><a href="#这是我的友链信息♪-´∇" class="headerlink" title="这是我的友链信息♪(´∇`*)"></a>这是我的友链信息♪(´∇`*)</h1><p><a href="https://miaoermua.github.io/links/">(｡･∀･)ﾉﾞ相关内容戳我到友链页面</a></p><h2 id="原头像地址"><a href="#原头像地址" class="headerlink" title="原头像地址"></a>原头像地址</h2><p>详细信息的CDN不可用请使用ta，默认的那个是有CDN的！<br><a href="https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png">https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png</a></p><p>*:<del>那种魔法协议的博文可以接受</del>，<em>但不接受反动轮子</em><br><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/%E6%BB%91%E7%A8%BD%E9%9B%AA%E7%90%83.gif" alt="滑稽" loading="lazy"></p>]]></content>
+    <content type="html"><![CDATA[<p>交换<a href="https://miaoermua.github.io/links/">友链</a>啦啦啦啦o(ﾟДﾟ)っ！<br>来找我看到必回！ <a href="https://t.me/miaoer">Telegram</a>或者邮箱:<a href="mailto:&#x6d;&#x69;&#97;&#111;&#101;&#x72;&#109;&#x75;&#97;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#x6d;&#x69;&#97;&#111;&#101;&#x72;&#109;&#x75;&#97;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></p><blockquote><p>支持各种正常的博客框架，仅允许在允许的内容上架友链*</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/links.jpg" alt="links" loading="lazy"></p><span id="more"></span><h1 id="这是我的友链信息♪-´∇"><a href="#这是我的友链信息♪-´∇" class="headerlink" title="这是我的友链信息♪(´∇`*)"></a>这是我的友链信息♪(´∇`*)</h1><p><a href="https://miaoermua.github.io/links/">(｡･∀･)ﾉﾞ相关内容戳我到友链页面</a></p><h2 id="原头像地址"><a href="#原头像地址" class="headerlink" title="原头像地址"></a>原头像地址</h2><p>详细信息的CDN不可用请使用ta，默认的那个是有CDN的！<br><a href="https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png">https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png</a></p><p>*:<del>那种魔法协议的博文可以接受</del>，<em>但不接受反动轮子</em><br><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/%E6%BB%91%E7%A8%BD%E9%9B%AA%E7%90%83.gif" alt="滑稽" loading="lazy"></p>]]></content>
     
     
     <summary type="html">交换友链啦啦啦啦o(ﾟДﾟ)っ！</summary>
