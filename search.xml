@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
+      <link href="2021/10/02/%E6%95%99%E4%BD%A0%E4%BC%98%E5%8C%96windows-%E7%9B%AE%E5%BD%95/"/>
+      <url>2021/10/02/%E6%95%99%E4%BD%A0%E4%BC%98%E5%8C%96windows-%E7%9B%AE%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p><p>主要是做一些自己的文章，不依赖转载吃流量博眼球，才能吸引更多的新观众和高质友链</p><p>本博文发布出来是做个链接方便后面的文章，预计要一个月内出文章，有想关注的可以RSS订阅我的博客或者随时来博客玩hh</p><p>RSS:<a href="https://www.miaoer.xyz/atom.xml">https://www.miaoer.xyz/atom.xml</a></p><span id="more"></span><p>【demo】</p><p>因为讲解一次这些优化类的就要去重置一遍系统去还原定位问题，现在就从系统开始讲解保证小白也能看懂，不懂的我这里也会写出搜索的关键词</p><blockquote><p>当文章中出现搜索时他的格式是这样的</p><p>这里的<code>品牌</code>是指<code>华硕</code>，<code>微星</code>，<code>华擎</code>等品牌板卡厂商(笔记本)，文章简称<code>品牌</code>保证搜索结果的一致性</p><p>文章中: <code>品牌</code>bios怎么进</p><p>您应该搜索: 品牌bios怎么进</p></blockquote><p>【demo】</p><p>本章Windows优化目录</p><p>1.系统篇</p><ul><li>重置、重装、驱动</li></ul><p>2.软件篇</p><ul><li>浏览器、官网、域名、推荐软件</li></ul><p>3.习惯篇</p><ul><li>搜索引擎、web端、下载站</li></ul><p>4.卸载和弹窗篇</p><ul><li>卸载软件、弹窗定位与删除</li></ul><p>本文首发在<a href="https://www.miaoer.xyz/">喵二の小博客</a>，转载请联系我并在文章明显初标记相关原文链接与作者名字</p><p>暂时不会出视频教程篇，敬请关注，欢迎投喂</p><p>【demo】</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>岛市极限 服务器规则</title>
       <link href="2021/09/16/%E5%B2%9B%E5%B8%82/"/>
       <url>2021/09/16/%E5%B2%9B%E5%B8%82/</url>
@@ -226,7 +251,7 @@
       <link href="2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/"/>
       <url>2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</url>
       
-        <content type="html"><![CDATA[<p>交换<a href="https://miaoermua.github.io/links/">友链</a>啦啦啦啦o(ﾟДﾟ)っ！<br>来找我看到必回！ <a href="https://t.me/miaoer">Telegram</a>或者邮箱:<a href="mailto:&#109;&#105;&#97;&#111;&#101;&#114;&#109;&#117;&#x61;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#109;&#105;&#97;&#111;&#101;&#114;&#109;&#117;&#x61;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></p><blockquote><p>支持各种正常的博客框架，仅允许在允许的内容上架友链*</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/links.jpg" alt="links" loading="lazy"></p><span id="more"></span><h1 id="这是我的友链信息♪-´∇"><a href="#这是我的友链信息♪-´∇" class="headerlink" title="这是我的友链信息♪(´∇`*)"></a>这是我的友链信息♪(´∇`*)</h1><p><a href="https://miaoermua.github.io/links/">(｡･∀･)ﾉﾞ相关内容戳我到友链页面</a></p><h2 id="原头像地址"><a href="#原头像地址" class="headerlink" title="原头像地址"></a>原头像地址</h2><p>详细信息的CDN不可用请使用ta，默认的那个是有CDN的！<br><a href="https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png">https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png</a></p><p>*:<del>那种魔法协议的博文可以接受</del>，<em>但不接受反动轮子</em><br><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/%E6%BB%91%E7%A8%BD%E9%9B%AA%E7%90%83.gif" alt="滑稽" loading="lazy"></p>]]></content>
+        <content type="html"><![CDATA[<p>交换<a href="https://miaoermua.github.io/links/">友链</a>啦啦啦啦o(ﾟДﾟ)っ！<br>来找我看到必回！ <a href="https://t.me/miaoer">Telegram</a>或者邮箱:<a href="mailto:&#109;&#105;&#x61;&#111;&#101;&#x72;&#x6d;&#x75;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#109;&#105;&#x61;&#111;&#101;&#x72;&#x6d;&#x75;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></p><blockquote><p>支持各种正常的博客框架，仅允许在允许的内容上架友链*</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/links.jpg" alt="links" loading="lazy"></p><span id="more"></span><h1 id="这是我的友链信息♪-´∇"><a href="#这是我的友链信息♪-´∇" class="headerlink" title="这是我的友链信息♪(´∇`*)"></a>这是我的友链信息♪(´∇`*)</h1><p><a href="https://miaoermua.github.io/links/">(｡･∀･)ﾉﾞ相关内容戳我到友链页面</a></p><h2 id="原头像地址"><a href="#原头像地址" class="headerlink" title="原头像地址"></a>原头像地址</h2><p>详细信息的CDN不可用请使用ta，默认的那个是有CDN的！<br><a href="https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png">https://raw.githubusercontent.com/miaoermua/miaoermua.github.io/master/logo/weblogo.png</a></p><p>*:<del>那种魔法协议的博文可以接受</del>，<em>但不接受反动轮子</em><br><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/%E6%BB%91%E7%A8%BD%E9%9B%AA%E7%90%83.gif" alt="滑稽" loading="lazy"></p>]]></content>
       
       
       <categories>
