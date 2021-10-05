@@ -191,14 +191,14 @@
   </url>
   
   <url>
-    <loc>https://www.miaoer.xyz/live2d/bilibili-22/textures_order.json</loc>
+    <loc>https://www.miaoer.xyz/live2d/bilibili-22/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.miaoer.xyz/live2d/bilibili-22/index.json</loc>
+    <loc>https://www.miaoer.xyz/live2d/bilibili-22/textures_order.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -219,14 +219,14 @@
   </url>
   
   <url>
-    <loc>https://www.miaoer.xyz/live2d/potion-Maker-Pio/index.json</loc>
+    <loc>https://www.miaoer.xyz/live2d/kesshouban/model.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.miaoer.xyz/live2d/kesshouban/model.json</loc>
+    <loc>https://www.miaoer.xyz/live2d/potion-Maker-Pio/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -342,14 +342,14 @@
   </url>
   
   <url>
-    <loc>https://www.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/</loc>
+    <loc>https://www.miaoer.xyz/categories/%E5%B0%8F%E7%B1%B3/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.miaoer.xyz/categories/%E5%B0%8F%E7%B1%B3/</loc>
+    <loc>https://www.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
