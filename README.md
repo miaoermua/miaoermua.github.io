@@ -10,7 +10,7 @@
 
 [友链](https://www.miaoer.xyz/links)
 
-[友链申请](https://www.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/)
+[友链申请](https://www.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/#%E6%8F%90%E4%BA%A4%E4%BD%A0%E7%9A%84%E5%8F%8B%E9%93%BE)
 
 [关于我](https://www.miaoer.xyz/about/)
 
