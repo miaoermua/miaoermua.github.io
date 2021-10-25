@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>喵二の小博客</title>
+  <icon>https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/logo/weblogo.png</icon>
+  <subtitle>喜欢分享一些东西 ୧(﹒ ᴗ﹒ )୨</subtitle>
+  <link href="https://www.miaoer.xyz/atom.xml" rel="self"/>
+  
+  <link href="https://www.miaoer.xyz/"/>
+  <updated>2021-10-18T09:22:59.588Z</updated>
+  <id>https://www.miaoer.xyz/</id>
+  
+  <author>
+    <name>喵二</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>分享自己编译的OpenWrt软路由固件！</title>
+    <link href="https://www.miaoer.xyz/2021/10/10/openwrtv2021.10.10/"/>
+    <id>https://www.miaoer.xyz/2021/10/10/openwrtv2021.10.10/</id>
+    <published>2021-10-10T11:14:10.962Z</published>
+    <updated>2021-10-18T09:22:59.588Z</updated>
+    
+    
+    <summary type="html">Ver:v21.10.10</summary>
+    
+    
+    
+    <category term="OpenWrt" scheme="https://www.miaoer.xyz/categories/OpenWrt/"/>
+    
+    
+    <category term="OpenWrt" scheme="https://www.miaoer.xyz/tags/OpenWrt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
+    <link href="https://www.miaoer.xyz/2021/10/02/%E6%95%99%E4%BD%A0%E4%BC%98%E5%8C%96windows-%E7%9B%AE%E5%BD%95/"/>
+    <id>https://www.miaoer.xyz/2021/10/02/%E6%95%99%E4%BD%A0%E4%BC%98%E5%8C%96windows-%E7%9B%AE%E5%BD%95/</id>
+    <published>2021-10-02T12:20:45.631Z</published>
+    <updated>2021-10-02T12:47:08.365Z</updated>
+    
+    
+    <summary type="html">目录</summary>
+    
+    
+    
+    <category term="教程" scheme="https://www.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Windows" scheme="https://www.miaoer.xyz/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>岛市极限 服务器规则</title>
+    <link href="https://www.miaoer.xyz/2021/09/16/%E5%B2%9B%E5%B8%82/"/>
+    <id>https://www.miaoer.xyz/2021/09/16/%E5%B2%9B%E5%B8%82/</id>
+    <published>2021-09-16T12:03:07.357Z</published>
+    <updated>2021-09-16T13:10:40.631Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;欢迎来到岛市服务器！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/server-icon.png&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>BlogTime</title>
+    <link href="https://www.miaoer.xyz/2021/09/14/BlogTime/"/>
+    <id>https://www.miaoer.xyz/2021/09/14/BlogTime/</id>
+    <published>2021-09-14T07:31:50.000Z</published>
+    <updated>2021-10-21T05:57:45.905Z</updated>
+    
+    
+    <summary type="html">博客日记</summary>
+    
+    
+    
+    <category term="Blog" scheme="https://www.miaoer.xyz/categories/Blog/"/>
+    
+    
+    <category term="Blog" scheme="https://www.miaoer.xyz/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Privacy 隐私</title>
+    <link href="https://www.miaoer.xyz/2021/09/14/Privacy/"/>
+    <id>https://www.miaoer.xyz/2021/09/14/Privacy/</id>
+    <published>2021-09-14T07:19:09.704Z</published>
+    <updated>2021-09-15T11:47:13.217Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我们非常重视您的隐私，并在2021年9月3日更新了&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Blog" scheme="https://www.miaoer.xyz/categories/Blog/"/>
+    
+    
+    <category term="Blog" scheme="https://www.miaoer.xyz/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单编译一个属于自己的openwrt软路由系统</title>
+    <link href="https://www.miaoer.xyz/2021/08/22/%E7%BC%96%E8%AF%91openwrt/"/>
+    <id>https://www.miaoer.xyz/2021/08/22/%E7%BC%96%E8%AF%91openwrt/</id>
+    <published>2021-08-22T14:29:24.754Z</published>
+    <updated>2021-10-14T02:59:35.847Z</updated>
+    
+    
+    <summary type="html">编译一个自己的openwrt系统！</summary>
+    
+    
+    
+    <category term="软路由" scheme="https://www.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+    
+    <category term="软路由" scheme="https://www.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>教你认破二手平台小米有锁机</title>
+    <link href="https://www.miaoer.xyz/2021/08/20/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/"/>
+    <id>https://www.miaoer.xyz/2021/08/20/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/</id>
+    <published>2021-08-20T05:06:59.982Z</published>
+    <updated>2021-09-16T02:00:26.721Z</updated>
+    
+    
+    <summary type="html">揭秘各种二手小米手机的&quot;锁&quot;</summary>
+    
+    
+    
+    <category term="小米" scheme="https://www.miaoer.xyz/categories/%E5%B0%8F%E7%B1%B3/"/>
+    
+    <category term="教程" scheme="https://www.miaoer.xyz/categories/%E5%B0%8F%E7%B1%B3/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="小米" scheme="https://www.miaoer.xyz/tags/%E5%B0%8F%E7%B1%B3/"/>
+    
+    <category term="技巧" scheme="https://www.miaoer.xyz/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>教程不要跳着看</title>
+    <link href="https://www.miaoer.xyz/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/"/>
+    <id>https://www.miaoer.xyz/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/</id>
+    <published>2021-08-20T05:06:59.968Z</published>
+    <updated>2021-09-14T08:06:15.889Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;有些看教程不认真的，经常跳着看再评论区问怎么开启这个选项&lt;/p&gt;
+&lt;p&gt;一般我图文都有相关的内容&lt;/p&gt;
+&lt;p&gt;比如why not</summary>
+        
+      
+    
+    
+    
+    <category term="Blog" scheme="https://www.miaoer.xyz/categories/Blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>海外转移国内服务器的坑</title>
+    <link href="https://www.miaoer.xyz/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/"/>
+    <id>https://www.miaoer.xyz/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</id>
+    <published>2021-08-20T05:06:59.960Z</published>
+    <updated>2021-09-16T02:09:14.991Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/lp-meme.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;前几天在阿里云上买了一台轻量应用的云服务器，准备要搭建我的博客的，结果…&lt;/p&gt;
+&lt;p&gt;拿到机器先Ping了一下延迟，还行深圳到广州也就12ms左右，日本亚马逊的80ms左右&lt;/p&gt;
+&lt;p&gt;就兴冲冲的去安装稍微有点熟悉的宝塔面板，那时候日本的服务器检查抽风挂逼没来得及对着抄配置，就搭好了，结果电脑上的chrome显示404进不去？折腾半天还是上日本的服务器看看结果又能进去了…一通操作猛如虎，还是404纳闷了，检查了宝塔和cloudflare正确啊，然后用手机输上域名好家伙直接显示我没有备案&lt;del&gt;(具体看博客&lt;a href=&quot;https://www.miaoer.xyz/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/&quot;&gt;事件经过&lt;/a&gt;&lt;/del&gt;…然而大意了，傻乎乎的就买入了国内的服务器，没办法那就实名呗，大不了删一点内容&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活" scheme="https://www.miaoer.xyz/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="生活" scheme="https://www.miaoer.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>空空如也！？ 结果出现了问题？绝对不是站点的问题,绝对不是！</title>
+    <link href="https://www.miaoer.xyz/404.html"/>
+    <id>https://www.miaoer.xyz/404.html</id>
+    <published>2021-08-20T05:06:59.934Z</published>
+    <updated>2021-10-02T08:54:42.586Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于博客</title>
+    <link href="https://www.miaoer.xyz/2021/07/07/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/"/>
+    <id>https://www.miaoer.xyz/2021/07/07/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</id>
+    <published>2021-07-07T14:24:23.000Z</published>
+    <updated>2021-09-14T07:54:41.129Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;关于我域名下的博客技术展示分享经验，让你更了解喵二の小博客&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Blog" scheme="https://www.miaoer.xyz/categories/Blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>检查Windows为什么不能更新11</title>
+    <link href="https://www.miaoer.xyz/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/"/>
+    <id>https://www.miaoer.xyz/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/</id>
+    <published>2021-06-29T08:23:33.000Z</published>
+    <updated>2021-10-16T15:17:19.604Z</updated>
+    
+    
+    <summary type="html">今天解决一下win11不能更新的问题</summary>
+    
+    
+    
+    <category term="教程" scheme="https://www.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Windows" scheme="https://www.miaoer.xyz/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>喵喵交换友链啦</title>
+    <link href="https://www.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/"/>
+    <id>https://www.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</id>
+    <published>2021-06-27T10:09:00.000Z</published>
+    <updated>2021-10-21T06:11:20.935Z</updated>
+    
+    
+    <summary type="html">交换友链啦啦啦啦o(ﾟДﾟ)っ！</summary>
+    
+    
+    
+    <category term="Blog" scheme="https://www.miaoer.xyz/categories/Blog/"/>
+    
+    
+    <category term="社交" scheme="https://www.miaoer.xyz/tags/%E7%A4%BE%E4%BA%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软路由Openwrt overlay分区</title>
+    <link href="https://www.miaoer.xyz/2021/06/20/Openwrt%20overlay/"/>
+    <id>https://www.miaoer.xyz/2021/06/20/Openwrt%20overlay/</id>
+    <published>2021-06-20T03:23:33.000Z</published>
+    <updated>2021-07-01T16:04:24.653Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;目的扩容overlay分区，docker分区&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="教程" scheme="https://www.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="openwrt" scheme="https://www.miaoer.xyz/tags/openwrt/"/>
+    
+    <category term="软路由" scheme="https://www.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>洋葱合租原则声明</title>
+    <link href="https://www.miaoer.xyz/2021/05/23/%E6%B4%8B%E8%91%B1%E5%90%88%E7%A7%9F%E5%8E%9F%E5%88%99/"/>
+    <id>https://www.miaoer.xyz/2021/05/23/%E6%B4%8B%E8%91%B1%E5%90%88%E7%A7%9F%E5%8E%9F%E5%88%99/</id>
+    <published>2021-05-23T02:23:33.000Z</published>
+    <updated>2021-09-14T07:57:58.351Z</updated>
+    
+    
+    <summary type="html">快来合租一起学习!</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Magisk多种开机动画分享</title>
+    <link href="https://www.miaoer.xyz/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/"/>
+    <id>https://www.miaoer.xyz/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/</id>
+    <published>2021-05-20T02:23:33.000Z</published>
+    <updated>2021-10-21T06:12:45.444Z</updated>
+    
+    
+    <summary type="html">今天玩机开机动画用的有点腻了，分享一下开机动画٩(๑❛ᴗ❛๑)۶</summary>
+    
+    
+    
+    <category term="分享" scheme="https://www.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="Magisk" scheme="https://www.miaoer.xyz/tags/Magisk/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSGO各种实用代码分享</title>
+    <link href="https://www.miaoer.xyz/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/"/>
+    <id>https://www.miaoer.xyz/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</id>
+    <published>2021-05-16T02:27:00.000Z</published>
+    <updated>2021-10-11T05:15:37.868Z</updated>
+    
+    
+    <summary type="html">太实用了</summary>
+    
+    
+    
+    <category term="分享" scheme="https://www.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="csgo" scheme="https://www.miaoer.xyz/tags/csgo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Doge</title>
+    <link href="https://www.miaoer.xyz/2021/05/14/Doge/"/>
+    <id>https://www.miaoer.xyz/2021/05/14/Doge/</id>
+    <published>2021-05-14T13:50:24.000Z</published>
+    <updated>2021-07-01T13:00:54.521Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;可爱的Doge，柴犬镇楼！&lt;br&gt;&lt;img src=&quot;/images/a0126590_22301391.jpg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一些不得人知的软件</title>
+    <link href="https://www.miaoer.xyz/2021/05/14/%E8%BD%AF%E4%BB%B6/"/>
+    <id>https://www.miaoer.xyz/2021/05/14/%E8%BD%AF%E4%BB%B6/</id>
+    <published>2021-05-14T02:23:33.000Z</published>
+    <updated>2021-09-14T07:21:06.394Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Soft Download&lt;/p&gt;
+&lt;p&gt;Clash For Android : &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="软件分享" scheme="https://www.miaoer.xyz/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="软件分享" scheme="https://www.miaoer.xyz/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://www.miaoer.xyz/2020/08/12/test/"/>
+    <id>https://www.miaoer.xyz/2020/08/12/test/</id>
+    <published>2020-08-12T02:23:33.000Z</published>
+    <updated>2021-10-11T05:00:47.568Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;没有测试内容~&lt;/p&gt;
+&lt;p&gt;::: tip&lt;/p&gt;
+&lt;p&gt;ssssss&lt;/p&gt;
+&lt;p&gt;ssss&lt;/p&gt;
+&lt;p&gt;sss&lt;/p&gt;
+&lt;div</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
