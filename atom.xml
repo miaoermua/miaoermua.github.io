@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>喵二の小博客</title>
   <icon>https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/logo/weblogo.png</icon>
-  <subtitle>喜欢分享一些东西 ୧(﹒ ᴗ﹒ )୨</subtitle>
+  <subtitle>缘，妙不可言</subtitle>
   <link href="https://www.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.miaoer.xyz/"/>
-  <updated>2021-11-02T13:15:06.866Z</updated>
+  <updated>2021-11-06T11:02:33.118Z</updated>
   <id>https://www.miaoer.xyz/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软路由？值得买吗</title>
+    <link href="https://www.miaoer.xyz/2021/11/05/softrouter-de/"/>
+    <id>https://www.miaoer.xyz/2021/11/05/softrouter-de/</id>
+    <published>2021-11-05T13:17:51.147Z</published>
+    <updated>2021-11-06T11:02:33.118Z</updated>
+    
+    
+    <summary type="html">软路由深度体验</summary>
+    
+    
+    
+    <category term="软路由" scheme="https://www.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+    
+    <category term="软路由" scheme="https://www.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>分享自己编译的OpenWrt软路由固件！</title>
@@ -81,7 +100,7 @@
     <link href="https://www.miaoer.xyz/2021/09/14/BlogTime/"/>
     <id>https://www.miaoer.xyz/2021/09/14/BlogTime/</id>
     <published>2021-09-14T07:31:50.000Z</published>
-    <updated>2021-11-01T01:03:50.133Z</updated>
+    <updated>2021-11-06T11:08:31.987Z</updated>
     
     
     <summary type="html">博客日记</summary>
@@ -399,32 +418,6 @@
     
     
     <category term="软件分享" scheme="https://www.miaoer.xyz/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://www.miaoer.xyz/2020/08/12/test/"/>
-    <id>https://www.miaoer.xyz/2020/08/12/test/</id>
-    <published>2020-08-12T02:23:33.000Z</published>
-    <updated>2021-10-11T05:00:47.568Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;没有测试内容~&lt;/p&gt;
-&lt;p&gt;::: tip&lt;/p&gt;
-&lt;p&gt;ssssss&lt;/p&gt;
-&lt;p&gt;ssss&lt;/p&gt;
-&lt;p&gt;sss&lt;/p&gt;
-&lt;div</summary>
-        
-      
-    
-    
-    
     
   </entry>
   

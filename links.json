@@ -165,7 +165,7 @@
     }
     ,
     {
-    "url":"http://wzyblog.com.cn",
+    "url":"https://wzyblog.com.cn",
     "avatar":"https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/friend/wzyblog.jpg",
     "name":"人民の芸術家",
     "blog":"人民の芸術家的小屋",
@@ -207,5 +207,15 @@
     "blog":"杏铃の小本",
     "desc":"一份分享教程,游戏的礼物✧(≖ ◡ ≖✿)",
     "color": "#9DE287"
+    }
+    ,
+    {
+    "url":"http://shuangpisuannai.nov.vin",
+    "avatar":"https://z3.ax1x.com/2021/08/28/hlNPw8.jpg",
+    "name":"双皮酸奶",
+    "blog":"双皮酸奶の酸奶盒",
+    "desc":"只要思想不滑坡，方法总比困难多",
+    "color":"#3E638D",
+    "email":"1769859242@qq.com"
     }
 ]
