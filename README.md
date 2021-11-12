@@ -2,11 +2,14 @@
 
 代码本身可能对你没有价值，更有价值的可能是 [Hexo Yun 主题](https://yun.yunyoujun.cn/) 仅供参考。
 
+如果本站文章你感兴趣可以收藏网址或者Star仓库，Fork也中！
+
 > Tip: 在写21.10.25BlogTime时hexo出现了问题，仓库中的修改时间仅供参考。
 
 🌎 站点地址:
 
 - 国内访问主站 : https://miaoer.xyz/
+- 重定向: https://blog.miaoer.xyz
 - 海外访问: https://miaoermua.github.io/
 
 
