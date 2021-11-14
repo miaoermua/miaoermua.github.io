@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.miaoer.xyz/2021/08/22/%E7%BC%96%E8%AF%91openwrt/</loc>
+    <lastmod>2021-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.miaoer.xyz/2021/10/02/optimize-windows-menu/</loc>
     <lastmod>2021-11-12</lastmod>
   </url>
   <url>
@@ -23,10 +27,6 @@
   <url>
     <loc>https://www.miaoer.xyz//404.html</loc>
     <lastmod>2021-10-31</lastmod>
-  </url>
-  <url>
-    <loc>https://www.miaoer.xyz/2021/10/02/%E6%95%99%E4%BD%A0%E4%BC%98%E5%8C%96windows-%E7%9B%AE%E5%BD%95/</loc>
-    <lastmod>2021-10-30</lastmod>
   </url>
   <url>
     <loc>https://www.miaoer.xyz/2021/09/14/Privacy/</loc>
