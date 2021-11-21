@@ -8,9 +8,9 @@
 
 🌎 站点地址:
 
-- 国内访问主站 : https://miaoer.xyz/
-- 重定向: https://blog.miaoer.xyz
-- 海外访问: https://miaoermua.github.io/
+- 国内访问主站 (hexo) : https://miaoer.xyz/
+- 实验性博客 (mix-space) : https://blog.miaoer.xyz/
+- 海外访问 (hexo) : https://miaoermua.github.io/
 
 
 
