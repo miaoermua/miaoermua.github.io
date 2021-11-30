@@ -46,8 +46,8 @@
   }
   ,
   {
-  "url":"https://blog.lzw-723.xyz",
-  "avatar":"https://blog.lzw-723.xyz/images/avatar.png",
+  "url":"https://blog.lzwi.fun",
+  "avatar":"https://blog.lzwi.fun/images/avatar.png",
   "name":"lzw-723's",
   "blog":"lzw-723's blog",
   "desc":"lzw-723的个人博客✧(◍•ᴗ•◍)✧*。",
@@ -200,7 +200,7 @@
   }
   ,
   {
-  "url":"http://shuangpisuannai.top",
+  "url":"https://shuangpisuannai.top",
   "avatar":"https://z3.ax1x.com/2021/08/28/hlNPw8.jpg",
   "name":"双皮酸奶",
   "blog":"双皮酸奶の酸奶盒",
@@ -216,5 +216,25 @@
   "blog":"MoeDev的悄悄话",
   "desc":"铁路民航 | 轨交摄影 | 街机音游",
   "color":"#674756"
+  }
+  ,
+  {
+  "url":"https://www.57blog.cn",
+  "avatar":"https://i.loli.net/2021/11/29/zVTLkOfih6Uu7I3.png",
+  "name":"无心",
+  "blog":"无心博客",
+  "desc":"生命不等于是呼吸，生命是活动",
+  "color":"#89ECFF",
+  "email":"qingdiwlkj@163.com"
+  }
+  ,
+  {
+  "url":"https://www.feizhuqwq.com",
+  "avatar":"https://cdn.jsdelivr.net/gh/feizhuqwq/loveyou@main/faviconHD.jpg",
+  "name":"肥猪qwq",
+  "blog":"肥猪's Blog",
+  "desc":"一定是最可爱的猪猪！",
+  "color":"#2A762B",
+  "email":"me@feizhuqwq.com"
   }
 ]
