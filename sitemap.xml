@@ -205,13 +205,6 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/live2d/kesshouban/model.json</loc>
-    
-    <lastmod>2021-01-15</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.miaoer.xyz/live2d/bilibili-22/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
@@ -234,6 +227,13 @@
   
   <url>
     <loc>https://blog.miaoer.xyz/live2d/bilibili-33/textures_order.json</loc>
+    
+    <lastmod>2021-01-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.miaoer.xyz/live2d/kesshouban/model.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -263,13 +263,6 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/OpenWrt/</loc>
-    <lastmod>2021-12-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.miaoer.xyz/tags/openwrt/</loc>
     <lastmod>2021-12-06</lastmod>
     <changefreq>daily</changefreq>
@@ -284,6 +277,20 @@
   </url>
   
   <url>
+    <loc>https://blog.miaoer.xyz/tags/OpenWrt/</loc>
+    <lastmod>2021-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.miaoer.xyz/tags/Windows/</loc>
+    <lastmod>2021-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.miaoer.xyz/tags/%E7%A4%BE%E4%BA%A4/</loc>
     <lastmod>2021-12-06</lastmod>
     <changefreq>daily</changefreq>
@@ -292,13 +299,6 @@
   
   <url>
     <loc>https://blog.miaoer.xyz/tags/Magisk/</loc>
-    <lastmod>2021-12-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.miaoer.xyz/tags/Windows/</loc>
     <lastmod>2021-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -349,14 +349,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/categories/OpenWrt/</loc>
+    <loc>https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://blog.miaoer.xyz/categories/OpenWrt/</loc>
     <lastmod>2021-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
