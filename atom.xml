@@ -3,11 +3,11 @@
   <title>喵二の小博客</title>
   <icon>https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/logo/weblogo.png</icon>
   <subtitle>缘，妙不可言</subtitle>
-  <link href="https://www.miaoer.xyz/atom.xml" rel="self"/>
+  <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
-  <link href="https://www.miaoer.xyz/"/>
+  <link href="https://blog.miaoer.xyz/"/>
   <updated>2021-11-30T10:22:45.414Z</updated>
-  <id>https://www.miaoer.xyz/</id>
+  <id>https://blog.miaoer.xyz/</id>
   
   <author>
     <name>喵二</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>在两者之间选择</title>
-    <link href="https://www.miaoer.xyz/2021/11/30/newblog/"/>
-    <id>https://www.miaoer.xyz/2021/11/30/newblog/</id>
+    <link href="https://blog.miaoer.xyz/2021/11/30/newblog/"/>
+    <id>https://blog.miaoer.xyz/2021/11/30/newblog/</id>
     <published>2021-11-30T10:06:43.000Z</published>
     <updated>2021-11-30T10:22:45.414Z</updated>
     
@@ -28,15 +28,15 @@
     
     
     
-    <category term="Blog" scheme="https://www.miaoer.xyz/categories/Blog/"/>
+    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
     
     
   </entry>
   
   <entry>
     <title>软路由？值得买吗</title>
-    <link href="https://www.miaoer.xyz/2021/11/05/softrouter-de/"/>
-    <id>https://www.miaoer.xyz/2021/11/05/softrouter-de/</id>
+    <link href="https://blog.miaoer.xyz/2021/11/05/softrouter-de/"/>
+    <id>https://blog.miaoer.xyz/2021/11/05/softrouter-de/</id>
     <published>2021-11-05T13:17:51.147Z</published>
     <updated>2021-11-11T15:09:36.983Z</updated>
     
@@ -45,17 +45,17 @@
     
     
     
-    <category term="软路由" scheme="https://www.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    <category term="软路由" scheme="https://blog.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
     
-    <category term="软路由" scheme="https://www.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
   </entry>
   
   <entry>
     <title>分享自己编译的OpenWrt软路由固件！</title>
-    <link href="https://www.miaoer.xyz/2021/10/10/openwrtv2021.10.10/"/>
-    <id>https://www.miaoer.xyz/2021/10/10/openwrtv2021.10.10/</id>
+    <link href="https://blog.miaoer.xyz/2021/10/10/openwrtv2021.10.10/"/>
+    <id>https://blog.miaoer.xyz/2021/10/10/openwrtv2021.10.10/</id>
     <published>2021-10-10T11:14:10.962Z</published>
     <updated>2021-11-02T13:15:06.866Z</updated>
     
@@ -64,17 +64,17 @@
     
     
     
-    <category term="OpenWrt" scheme="https://www.miaoer.xyz/categories/OpenWrt/"/>
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/categories/OpenWrt/"/>
     
     
-    <category term="OpenWrt" scheme="https://www.miaoer.xyz/tags/OpenWrt/"/>
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
     
   </entry>
   
   <entry>
     <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
-    <link href="https://www.miaoer.xyz/2021/10/02/optimize-windows-menu/"/>
-    <id>https://www.miaoer.xyz/2021/10/02/optimize-windows-menu/</id>
+    <link href="https://blog.miaoer.xyz/2021/10/02/optimize-windows-menu/"/>
+    <id>https://blog.miaoer.xyz/2021/10/02/optimize-windows-menu/</id>
     <published>2021-10-02T12:20:45.631Z</published>
     <updated>2021-11-12T13:14:55.051Z</updated>
     
@@ -83,17 +83,17 @@
     
     
     
-    <category term="教程" scheme="https://www.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="Windows" scheme="https://www.miaoer.xyz/tags/Windows/"/>
+    <category term="Windows" scheme="https://blog.miaoer.xyz/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>岛市极限 服务器规则</title>
-    <link href="https://www.miaoer.xyz/2021/09/16/%E5%B2%9B%E5%B8%82/"/>
-    <id>https://www.miaoer.xyz/2021/09/16/%E5%B2%9B%E5%B8%82/</id>
+    <link href="https://blog.miaoer.xyz/2021/09/16/%E5%B2%9B%E5%B8%82/"/>
+    <id>https://blog.miaoer.xyz/2021/09/16/%E5%B2%9B%E5%B8%82/</id>
     <published>2021-09-16T12:03:07.357Z</published>
     <updated>2021-09-16T13:10:40.631Z</updated>
     
@@ -114,8 +114,8 @@
   
   <entry>
     <title>BlogTime</title>
-    <link href="https://www.miaoer.xyz/2021/09/14/BlogTime/"/>
-    <id>https://www.miaoer.xyz/2021/09/14/BlogTime/</id>
+    <link href="https://blog.miaoer.xyz/2021/09/14/BlogTime/"/>
+    <id>https://blog.miaoer.xyz/2021/09/14/BlogTime/</id>
     <published>2021-09-14T07:31:50.000Z</published>
     <updated>2021-11-07T01:37:38.167Z</updated>
     
@@ -124,17 +124,17 @@
     
     
     
-    <category term="Blog" scheme="https://www.miaoer.xyz/categories/Blog/"/>
+    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
     
     
-    <category term="Blog" scheme="https://www.miaoer.xyz/tags/Blog/"/>
+    <category term="Blog" scheme="https://blog.miaoer.xyz/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>Privacy 隐私</title>
-    <link href="https://www.miaoer.xyz/2021/09/14/Privacy/"/>
-    <id>https://www.miaoer.xyz/2021/09/14/Privacy/</id>
+    <link href="https://blog.miaoer.xyz/2021/09/14/Privacy/"/>
+    <id>https://blog.miaoer.xyz/2021/09/14/Privacy/</id>
     <published>2021-09-14T07:19:09.704Z</published>
     <updated>2021-10-28T12:10:44.333Z</updated>
     
@@ -149,17 +149,17 @@
     
     
     
-    <category term="Blog" scheme="https://www.miaoer.xyz/categories/Blog/"/>
+    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
     
     
-    <category term="Blog" scheme="https://www.miaoer.xyz/tags/Blog/"/>
+    <category term="Blog" scheme="https://blog.miaoer.xyz/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>简单编译一个属于自己的openwrt软路由系统</title>
-    <link href="https://www.miaoer.xyz/2021/08/22/%E7%BC%96%E8%AF%91openwrt/"/>
-    <id>https://www.miaoer.xyz/2021/08/22/%E7%BC%96%E8%AF%91openwrt/</id>
+    <link href="https://blog.miaoer.xyz/2021/08/22/%E7%BC%96%E8%AF%91openwrt/"/>
+    <id>https://blog.miaoer.xyz/2021/08/22/%E7%BC%96%E8%AF%91openwrt/</id>
     <published>2021-08-22T14:29:24.754Z</published>
     <updated>2021-11-17T02:44:48.941Z</updated>
     
@@ -168,17 +168,17 @@
     
     
     
-    <category term="软路由" scheme="https://www.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    <category term="软路由" scheme="https://blog.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
     
-    <category term="软路由" scheme="https://www.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
   </entry>
   
   <entry>
     <title>教你认破二手平台小米有锁机</title>
-    <link href="https://www.miaoer.xyz/2021/08/20/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/"/>
-    <id>https://www.miaoer.xyz/2021/08/20/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/</id>
+    <link href="https://blog.miaoer.xyz/2021/08/20/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/"/>
+    <id>https://blog.miaoer.xyz/2021/08/20/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/</id>
     <published>2021-08-20T05:06:59.982Z</published>
     <updated>2021-09-16T02:00:26.721Z</updated>
     
@@ -187,21 +187,21 @@
     
     
     
-    <category term="小米" scheme="https://www.miaoer.xyz/categories/%E5%B0%8F%E7%B1%B3/"/>
+    <category term="小米" scheme="https://blog.miaoer.xyz/categories/%E5%B0%8F%E7%B1%B3/"/>
     
-    <category term="教程" scheme="https://www.miaoer.xyz/categories/%E5%B0%8F%E7%B1%B3/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://blog.miaoer.xyz/categories/%E5%B0%8F%E7%B1%B3/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="小米" scheme="https://www.miaoer.xyz/tags/%E5%B0%8F%E7%B1%B3/"/>
+    <category term="小米" scheme="https://blog.miaoer.xyz/tags/%E5%B0%8F%E7%B1%B3/"/>
     
-    <category term="技巧" scheme="https://www.miaoer.xyz/tags/%E6%8A%80%E5%B7%A7/"/>
+    <category term="技巧" scheme="https://blog.miaoer.xyz/tags/%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
   <entry>
     <title>教程不要跳着看</title>
-    <link href="https://www.miaoer.xyz/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/"/>
-    <id>https://www.miaoer.xyz/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/</id>
+    <link href="https://blog.miaoer.xyz/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/"/>
+    <id>https://blog.miaoer.xyz/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/</id>
     <published>2021-08-20T05:06:59.968Z</published>
     <updated>2021-09-14T08:06:15.889Z</updated>
     
@@ -218,15 +218,15 @@
     
     
     
-    <category term="Blog" scheme="https://www.miaoer.xyz/categories/Blog/"/>
+    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
     
     
   </entry>
   
   <entry>
     <title>海外转移国内服务器的坑</title>
-    <link href="https://www.miaoer.xyz/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/"/>
-    <id>https://www.miaoer.xyz/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</id>
+    <link href="https://blog.miaoer.xyz/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/"/>
+    <id>https://blog.miaoer.xyz/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</id>
     <published>2021-08-20T05:06:59.960Z</published>
     <updated>2021-09-16T02:09:14.991Z</updated>
     
@@ -238,17 +238,17 @@
     
     
     
-    <category term="生活" scheme="https://www.miaoer.xyz/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://blog.miaoer.xyz/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-    <category term="生活" scheme="https://www.miaoer.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://blog.miaoer.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>网页走丢了？但你能帮助走丢的它回家！</title>
-    <link href="https://www.miaoer.xyz/404.html"/>
-    <id>https://www.miaoer.xyz/404.html</id>
+    <link href="https://blog.miaoer.xyz/404.html"/>
+    <id>https://blog.miaoer.xyz/404.html</id>
     <published>2021-08-20T05:06:59.934Z</published>
     <updated>2021-10-31T10:58:50.023Z</updated>
     
@@ -270,8 +270,8 @@
   
   <entry>
     <title>关于博客</title>
-    <link href="https://www.miaoer.xyz/2021/07/07/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/"/>
-    <id>https://www.miaoer.xyz/2021/07/07/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</id>
+    <link href="https://blog.miaoer.xyz/2021/07/07/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/"/>
+    <id>https://blog.miaoer.xyz/2021/07/07/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</id>
     <published>2021-07-07T14:24:23.000Z</published>
     <updated>2021-11-17T14:39:30.056Z</updated>
     
@@ -280,15 +280,15 @@
     
     
     
-    <category term="Blog" scheme="https://www.miaoer.xyz/categories/Blog/"/>
+    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
     
     
   </entry>
   
   <entry>
     <title>检查Windows为什么不能更新11</title>
-    <link href="https://www.miaoer.xyz/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/"/>
-    <id>https://www.miaoer.xyz/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/</id>
+    <link href="https://blog.miaoer.xyz/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/"/>
+    <id>https://blog.miaoer.xyz/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/</id>
     <published>2021-06-29T08:23:33.000Z</published>
     <updated>2021-10-16T15:17:19.604Z</updated>
     
@@ -297,17 +297,17 @@
     
     
     
-    <category term="教程" scheme="https://www.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="Windows" scheme="https://www.miaoer.xyz/tags/Windows/"/>
+    <category term="Windows" scheme="https://blog.miaoer.xyz/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>喵喵交换友链啦</title>
-    <link href="https://www.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/"/>
-    <id>https://www.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</id>
+    <link href="https://blog.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/"/>
+    <id>https://blog.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</id>
     <published>2021-06-27T10:09:00.000Z</published>
     <updated>2021-11-29T15:51:12.551Z</updated>
     
@@ -316,17 +316,17 @@
     
     
     
-    <category term="Blog" scheme="https://www.miaoer.xyz/categories/Blog/"/>
+    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
     
     
-    <category term="社交" scheme="https://www.miaoer.xyz/tags/%E7%A4%BE%E4%BA%A4/"/>
+    <category term="社交" scheme="https://blog.miaoer.xyz/tags/%E7%A4%BE%E4%BA%A4/"/>
     
   </entry>
   
   <entry>
     <title>软路由Openwrt overlay分区</title>
-    <link href="https://www.miaoer.xyz/2021/06/20/Openwrt%20overlay/"/>
-    <id>https://www.miaoer.xyz/2021/06/20/Openwrt%20overlay/</id>
+    <link href="https://blog.miaoer.xyz/2021/06/20/Openwrt%20overlay/"/>
+    <id>https://blog.miaoer.xyz/2021/06/20/Openwrt%20overlay/</id>
     <published>2021-06-20T03:23:33.000Z</published>
     <updated>2021-07-01T16:04:24.653Z</updated>
     
@@ -335,19 +335,19 @@
     
     
     
-    <category term="教程" scheme="https://www.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="openwrt" scheme="https://www.miaoer.xyz/tags/openwrt/"/>
+    <category term="openwrt" scheme="https://blog.miaoer.xyz/tags/openwrt/"/>
     
-    <category term="软路由" scheme="https://www.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
   </entry>
   
   <entry>
     <title>洋葱合租原则声明</title>
-    <link href="https://www.miaoer.xyz/2021/05/23/%E6%B4%8B%E8%91%B1%E5%90%88%E7%A7%9F%E5%8E%9F%E5%88%99/"/>
-    <id>https://www.miaoer.xyz/2021/05/23/%E6%B4%8B%E8%91%B1%E5%90%88%E7%A7%9F%E5%8E%9F%E5%88%99/</id>
+    <link href="https://blog.miaoer.xyz/2021/05/23/%E6%B4%8B%E8%91%B1%E5%90%88%E7%A7%9F%E5%8E%9F%E5%88%99/"/>
+    <id>https://blog.miaoer.xyz/2021/05/23/%E6%B4%8B%E8%91%B1%E5%90%88%E7%A7%9F%E5%8E%9F%E5%88%99/</id>
     <published>2021-05-23T02:23:33.000Z</published>
     <updated>2021-09-14T07:57:58.351Z</updated>
     
@@ -361,8 +361,8 @@
   
   <entry>
     <title>Magisk多种开机动画分享</title>
-    <link href="https://www.miaoer.xyz/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/"/>
-    <id>https://www.miaoer.xyz/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/</id>
+    <link href="https://blog.miaoer.xyz/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/"/>
+    <id>https://blog.miaoer.xyz/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/</id>
     <published>2021-05-20T02:23:33.000Z</published>
     <updated>2021-10-21T06:12:45.444Z</updated>
     
@@ -371,17 +371,17 @@
     
     
     
-    <category term="分享" scheme="https://www.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
+    <category term="分享" scheme="https://blog.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="Magisk" scheme="https://www.miaoer.xyz/tags/Magisk/"/>
+    <category term="Magisk" scheme="https://blog.miaoer.xyz/tags/Magisk/"/>
     
   </entry>
   
   <entry>
     <title>CSGO各种实用代码分享</title>
-    <link href="https://www.miaoer.xyz/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/"/>
-    <id>https://www.miaoer.xyz/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</id>
+    <link href="https://blog.miaoer.xyz/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/"/>
+    <id>https://blog.miaoer.xyz/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</id>
     <published>2021-05-16T02:27:00.000Z</published>
     <updated>2021-10-11T05:15:37.868Z</updated>
     
@@ -390,17 +390,17 @@
     
     
     
-    <category term="分享" scheme="https://www.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
+    <category term="分享" scheme="https://blog.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="csgo" scheme="https://www.miaoer.xyz/tags/csgo/"/>
+    <category term="csgo" scheme="https://blog.miaoer.xyz/tags/csgo/"/>
     
   </entry>
   
   <entry>
     <title>Doge</title>
-    <link href="https://www.miaoer.xyz/2021/05/14/Doge/"/>
-    <id>https://www.miaoer.xyz/2021/05/14/Doge/</id>
+    <link href="https://blog.miaoer.xyz/2021/05/14/Doge/"/>
+    <id>https://blog.miaoer.xyz/2021/05/14/Doge/</id>
     <published>2021-05-14T13:50:24.000Z</published>
     <updated>2021-07-01T13:00:54.521Z</updated>
     

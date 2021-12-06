@@ -4,14 +4,16 @@
 
 如果本站文章你感兴趣可以收藏网址或者Star仓库，Fork也中！
 
+>已经更换 <https://www.miaoer.xyz> 为个人主页，本Hexo域名改为 <https://blog.miaoer.xyz> ，[了解更多](https://blog.miaoer.xyz/notes/2)。
+
 > Tip: 在写21.10.25BlogTime时hexo出现了问题，仓库中的修改时间仅供参考。
+
 
 🌎 站点地址:
 
-- 国内访问主站 (hexo) : https://miaoer.xyz/
-- 实验性博客 (mix-space) : https://blog.miaoer.xyz/
-- 海外访问 (hexo) : https://miaoermua.github.io/
-
+- 个人主页 : https://www.miaoer.xyz/
+- Hexo 博客: https://blog.miaoer.xyz/
+- 海外访问Hexo: https://miaoermua.github.io/
 
 
 ⚡ 服务
@@ -28,14 +30,14 @@
 
 ❤️ 相关
 
-- [友链](https://www.miaoer.xyz/links)
+- [友链](https://www.miaoer.xyz/friends)
 
-- [友链申请](https://www.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/#%E6%8F%90%E4%BA%A4%E4%BD%A0%E7%9A%84%E5%8F%8B%E9%93%BE)
+- [友链申请](https://www.miaoer.xyz/cat-friends)
 
-- [BlogTime](https://www.miaoer.xyz/2021/09/14/BlogTime/)
+- [BlogTime](https://www.miaoer.xyz/posts/blog/blogtime)
 
-- [关于我](https://www.miaoer.xyz/about/)
+- [关于我](https://www.miaoer.xyz/about)
 
-- [隐私](https://www.miaoer.xyz/2021/09/14/Privacy/)
+- [隐私](https://blog.miaoer.xyz/privacy)
 
 ![Image text](https://www.hualigs.cn/image/60d83024b29df.jpg)
