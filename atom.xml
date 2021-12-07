@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2021-11-30T10:22:45.414Z</updated>
+  <updated>2021-12-07T09:57:15.011Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客更新啦</title>
+    <link href="https://blog.miaoer.xyz/2021/12/06/blog-update/"/>
+    <id>https://blog.miaoer.xyz/2021/12/06/blog-update/</id>
+    <published>2021-12-06T13:09:43.000Z</published>
+    <updated>2021-12-07T09:57:15.011Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;博客の变化&quot;&gt;&lt;a href=&quot;#博客の变化&quot; class=&quot;headerlink&quot; title=&quot;博客の变化&quot;&gt;&lt;/a&gt;博客の变化&lt;/h1&gt;&lt;p&gt;在今天(2021-12-6 21:09:43)，我更换了由前后端分离部署的 &lt;a href=&quot;https://github.com/mx-space&quot;&gt;Mix-space&lt;/a&gt; ，可能熟悉我们原本Hexo博客的小伙伴会比较陌生，但是为了变化内容我还是写一点小白须知。&lt;/p&gt;
+&lt;p&gt;这次主要更换了之间的二级域名，和内容上的变化;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;个人网站 (Hexo Yun 主题) 部署的域名从 &lt;code&gt;https://www.miaoer.xyz &lt;/code&gt; &amp;gt;&amp;gt;&amp;gt;  &lt;code&gt;https://blog.miaoer.xyz&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;个人博客 (Mix-space) 部署的域名从 &lt;code&gt;https://blog.miaoer.xyz&lt;/code&gt;  &amp;gt;&amp;gt;&amp;gt;  &lt;code&gt;https://www.miaoer.xyz &lt;/code&gt; &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;短域名 miaoer.xyz 自动跳转到 Mix-space 上&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;功能&quot;&gt;&lt;a href=&quot;#功能&quot; class=&quot;headerlink&quot; title=&quot;功能&quot;&gt;&lt;/a&gt;功能&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/Browser-blog.png&quot; alt=&quot;功能详情图&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
+    
+    
+    <category term="Blog" scheme="https://blog.miaoer.xyz/tags/Blog/"/>
+    
+  </entry>
   
   <entry>
     <title>在两者之间选择</title>
@@ -91,33 +120,11 @@
   </entry>
   
   <entry>
-    <title>岛市极限 服务器规则</title>
-    <link href="https://blog.miaoer.xyz/2021/09/16/%E5%B2%9B%E5%B8%82/"/>
-    <id>https://blog.miaoer.xyz/2021/09/16/%E5%B2%9B%E5%B8%82/</id>
-    <published>2021-09-16T12:03:07.357Z</published>
-    <updated>2021-09-16T13:10:40.631Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;欢迎来到岛市服务器！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/miaoermua/miaoermua.github.io@latest/images/server-icon.png&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>BlogTime</title>
     <link href="https://blog.miaoer.xyz/2021/09/14/BlogTime/"/>
     <id>https://blog.miaoer.xyz/2021/09/14/BlogTime/</id>
     <published>2021-09-14T07:31:50.000Z</published>
-    <updated>2021-11-07T01:37:38.167Z</updated>
+    <updated>2021-12-07T10:26:44.629Z</updated>
     
     
     <summary type="html">博客日记</summary>
@@ -136,7 +143,7 @@
     <link href="https://blog.miaoer.xyz/2021/09/14/Privacy/"/>
     <id>https://blog.miaoer.xyz/2021/09/14/Privacy/</id>
     <published>2021-09-14T07:19:09.704Z</published>
-    <updated>2021-10-28T12:10:44.333Z</updated>
+    <updated>2021-12-07T10:21:20.610Z</updated>
     
     
       
@@ -269,23 +276,6 @@
   </entry>
   
   <entry>
-    <title>关于博客</title>
-    <link href="https://blog.miaoer.xyz/2021/07/07/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/"/>
-    <id>https://blog.miaoer.xyz/2021/07/07/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</id>
-    <published>2021-07-07T14:24:23.000Z</published>
-    <updated>2021-11-17T14:39:30.056Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;关于我域名下的博客技术展示分享经验，让你更了解喵二の小博客&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>检查Windows为什么不能更新11</title>
     <link href="https://blog.miaoer.xyz/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/"/>
     <id>https://blog.miaoer.xyz/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/</id>
@@ -309,7 +299,7 @@
     <link href="https://blog.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/"/>
     <id>https://blog.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</id>
     <published>2021-06-27T10:09:00.000Z</published>
-    <updated>2021-11-29T15:51:12.551Z</updated>
+    <updated>2021-12-07T10:57:54.133Z</updated>
     
     
     <summary type="html">交换友链啦啦啦啦o(ﾟДﾟ)っ！</summary>
@@ -406,6 +396,32 @@
     
     
     <summary type="html">&lt;p&gt;可爱的Doge，柴犬镇楼！&lt;br&gt;&lt;img src=&quot;/images/a0126590_22301391.jpg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://blog.miaoer.xyz/2020/08/12/test/"/>
+    <id>https://blog.miaoer.xyz/2020/08/12/test/</id>
+    <published>2020-08-12T02:23:33.000Z</published>
+    <updated>2021-10-11T05:00:47.568Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;没有测试内容~&lt;/p&gt;
+&lt;p&gt;::: tip&lt;/p&gt;
+&lt;p&gt;ssssss&lt;/p&gt;
+&lt;p&gt;ssss&lt;/p&gt;
+&lt;p&gt;sss&lt;/p&gt;
+&lt;div</summary>
+        
+      
     
     
     
