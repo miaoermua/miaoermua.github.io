@@ -4,16 +4,20 @@
 
 如果本站文章你感兴趣可以收藏网址或者Star仓库，Fork也中！
 
->已经更换 <https://www.miaoer.xyz> 为个人主页，本Hexo域名改为 <https://blog.miaoer.xyz> ，[了解更多](https://blog.miaoer.xyz/notes/2)。
+Tip: 在写21.10.25BlogTime时hexo出现了问题，仓库中的修改时间仅供参考。
 
-> Tip: 在写21.10.25BlogTime时hexo出现了问题，仓库中的修改时间仅供参考。
+
+
+>已经更换 <https://www.miaoer.xyz> 为个人网站，个人博客改为 <https://blog.miaoer.xyz> ，具体[了解更多](https://blog.miaoer.xyz/notes/2)。
+
+
 
 
 🌎 站点地址:
 
-- 个人主页 : https://www.miaoer.xyz/
-- Hexo 博客: https://blog.miaoer.xyz/
-- 海外访问Hexo: https://miaoermua.github.io/
+- 个人网站 : https://www.miaoer.xyz/
+- 个人博客: https://blog.miaoer.xyz/
+- 海外个人博客: https://miaoermua.github.io/
 
 
 ⚡ 服务

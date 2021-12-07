@@ -14,8 +14,6 @@ User-agent: googlebot-mobile
 Disallow: 
 User-agent: *
 Disallow: 
-Disallow: /2021/09/16/%E5%B2%9B%E5%B8%82/
-Disallow: /2021/05/14/%E8%BD%AF%E4%BB%B6/
 Sitemap: http://www.miaoer.com/sitemap.xml
 Sitemap: http://blog.miaoer.com/sitemap.xml
 Sitemap: http://miaoermua.github.io/sitemap.xml
