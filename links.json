@@ -155,8 +155,8 @@
   }
   ,
   {
-  "url":"https://wzyblog.com.cn",
-  "avatar":"https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/friend/wzyblog.jpg",
+  "url":"https://wzyblog.cn",
+  "avatar":"https://wzyblog.cn/wp-content/uploads/2021/10/wtx.jpg",
   "name":"人民の芸術家",
   "blog":"人民の芸術家的小屋",
   "desc":"三生有幸遇见你，纵使悲凉也是情",
@@ -236,5 +236,14 @@
   "desc":"一定是最可爱的猪猪！",
   "color":"#2A762B",
   "email":"me@feizhuqwq.com"
+  }
+  ,
+  {
+  "url":"https://www.liziwu.net",
+  "avatar":"https://www.liziwu.net/Contents/static/avatar.jpg",
+  "name":"LiZiWu",
+  "blog":"LiZiWu",
+  "desc":"李自伍的个人技术博客 & 期待与你相逢",
+  "color":"#5E76A2"
   }
 ]
