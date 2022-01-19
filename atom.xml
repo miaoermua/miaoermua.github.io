@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-01-18T05:05:50.489Z</updated>
+  <updated>2022-01-19T06:44:37.838Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>拆卸AMD散热器，清灰</title>
+    <link href="https://blog.miaoer.xyz/2022/01/19/clean-amd-heatsink/"/>
+    <id>https://blog.miaoer.xyz/2022/01/19/clean-amd-heatsink/</id>
+    <published>2022-01-19T06:40:29.000Z</published>
+    <updated>2022-01-19T06:44:37.838Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天闲着没事做给&lt;a href=&quot;https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600&quot;&gt;续集&lt;/a&gt;上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。&lt;/p&gt;
+&lt;p&gt;本文仅限 &lt;strong&gt;AMD “幽灵 Stealth” 散热器（无 LED 灯）&lt;/strong&gt;  和 &lt;strong&gt;AMD“幽灵 Spire” 散热器（无 LED 灯）&lt;/strong&gt; 详情预览: &lt;a href=&quot;https://www.amd.com/zh-hans/technologies/cpu-cooler-solution&quot;&gt;处理器散热解决方案 | “幽灵”散热器 | AMD&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;需要准备:&lt;br&gt;毛巾，酒精，吹风机，可以高压冲洗的花洒（够强也可以用水龙头），一双勤劳的双手，PH1和PH0螺丝刀（至少需要一个PH1）&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="电脑" scheme="https://blog.miaoer.xyz/categories/%E7%94%B5%E8%84%91/"/>
+    
+    
+    <category term="电脑" scheme="https://blog.miaoer.xyz/tags/%E7%94%B5%E8%84%91/"/>
+    
+  </entry>
   
   <entry>
     <title>记录一次换CPU，R5 3600</title>
@@ -146,7 +167,7 @@
     <link href="https://blog.miaoer.xyz/2021/09/14/BlogTime/"/>
     <id>https://blog.miaoer.xyz/2021/09/14/BlogTime/</id>
     <published>2021-09-14T07:31:50.000Z</published>
-    <updated>2022-01-15T09:08:26.641Z</updated>
+    <updated>2022-01-19T06:49:07.390Z</updated>
     
     
     <summary type="html">博客日记</summary>
@@ -406,21 +427,6 @@
     
     
     <category term="csgo" scheme="https://blog.miaoer.xyz/tags/csgo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Doge</title>
-    <link href="https://blog.miaoer.xyz/2021/05/14/Doge/"/>
-    <id>https://blog.miaoer.xyz/2021/05/14/Doge/</id>
-    <published>2021-05-14T13:50:24.000Z</published>
-    <updated>2021-07-01T13:00:54.521Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;可爱的Doge，柴犬镇楼！&lt;br&gt;&lt;img src=&quot;/images/a0126590_22301391.jpg&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
     
   </entry>
   
