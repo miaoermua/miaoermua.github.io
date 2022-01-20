@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.miaoer.xyz/2022/01/20/notes/</loc>
+    <lastmod>2022-01-20</lastmod>
+  </url>
+  <url>
     <loc>https://blog.miaoer.xyz/2021/09/14/BlogTime/</loc>
-    <lastmod>2022-01-19</lastmod>
+    <lastmod>2022-01-20</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.miaoer.xyz/2021/11/30/newblog/</loc>
+    <lastmod>2022-01-20</lastmod>
   </url>
   <url>
     <loc>https://blog.miaoer.xyz/2022/01/19/clean-amd-heatsink/</loc>
@@ -18,10 +26,6 @@
   </url>
   <url>
     <loc>https://blog.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</loc>
-    <lastmod>2021-12-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.miaoer.xyz/2021/11/30/newblog/</loc>
     <lastmod>2021-12-30</lastmod>
   </url>
   <url>
