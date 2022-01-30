@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>【推荐】洗鞋神器-污渍干洗剂</title>
+      <link href="2022/01/31/nianba-ganxi/"/>
+      <url>2022/01/31/nianba-ganxi/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>本篇内容没有商业支持，纯个推。</p></blockquote><p>“年廿八,洗邋遢”<br>是广府文化中传统，每年辞旧迎新的特殊节日，我家里也搞起了清洁，因为今年有点特殊鞋子可以不用换，绝对不是因为钱。2333</p><p>某天在商场被强行推销，拿我的鞋子中脏的地方做演示，我期初还不信但擦完出乎意料，我用手指去摩擦居然还有新鞋子橡胶嘎吱嘎吱的响声，所以…我当时闲钱少我拒绝了，但后面不是要准备过年了嘛整了一瓶，</p><span id="more"></span><p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553805342.jpg" loading="lazy"></p><p>不是推销的品牌，大概30块钱左右；稍微试了试确实有效果，也不是啥漂白剂，<br>[上图为没擦洗，下图为擦洗]</p><p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553793449.jpg" loading="lazy"></p><p>说是干洗，但是打湿了擦也行，干脆就洗澡一起洗了。<br>[图为刚刚洗完的效果]</p><p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553837236.jpg" loading="lazy"></p><p>【注; 31号晚点补干鞋图】</p><p>优点: 可以洗往日留下的污渍，洗汽车胶内饰。<br>缺点: 网面干洗效果一般。</p><p>商家信息已进行处理，需要可以评论留言可避免踩坑。</p><p>本人不玩鞋，我没用过仅表达个人体验随便水一篇；所以觉得挺好用的，稍微写点推荐吧。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 推荐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>记录一次换m.2硬盘</title>
+      <link href="2022/01/31/fs-pm9a1/"/>
+      <url>2022/01/31/fs-pm9a1/</url>
+      
+        <content type="html"><![CDATA[<p>受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)</p><p>有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，<br>三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修</p><p><img src="https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg" loading="lazy"></p><span id="more"></span><p>啪的一下很快啊，快递从南京过来了，快递比我想象中的还要小，更让我惊讶的是M.2硬盘这么小…（SATA固态的泪）</p><p>螺丝没找到直接斜插直连 CPU 的 PCIe 通道的M.2硬盘位，开机稍微分了一下区就开始跑 AS SSD 了</p><p><img src="https://cdn.miaoer.xyz/blog/22-01-29/PM9A1.png" loading="lazy"></p><p>读: 2832MB/s 写: 2763MB/s</p><p>令我惊讶的是 4K 的速度，读: 2109MB/s 写: 1345MB/s，第一次亲眼在自己电脑上这么高的分数。</p><p>用 CrystalDiskInfo 显示都是没问题的，也没去查了，把盘还原打包放置了十来天</p><p>直到1月29日，刚刚好有空就送过去朋友家里，上门服务了属于是</p><p>拆开机箱看到的不知道西数的什么 SSD 蓝盘【这几天查询后修改】，我拆开了另外一侧的盖板好家伙，原来机器吵不是机械硬盘在吵…但是也是要加的因为不知道为什么固态也这么慢，不过他原来的固态插的芯片组引出的 PCIe 通道上，我只需要卸下原来的 M.2 马甲将 PM9A1 安上就好了。</p><p>装后给原来的固态备份质料，然后清空重新单个分区，因为习惯性安装的 Windows 10 ，给 PM9A1 分了2个区，安装驱动…win10已经给我安装完了，显卡驱动也是但是我还是补上了 NVIDIA GeForce Experience 方便更新，安装好常用软件就，坐了一会就走了…</p><p>晚7点半走，等了半天车11点才到家，淦(;´༎ຶД༎ຶ`)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>日记</title>
       <link href="2022/01/20/notes/"/>
       <url>2022/01/20/notes/</url>
