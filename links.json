@@ -64,7 +64,7 @@
   }
   ,
   {
-  "url":"https://www.meowrain.cn",
+  "url":"https://meowrain.cn",
   "avatar":"https://meowrain.cn/img/avater.jpg",
   "name":"猫狗鼠鱼",
   "blog":"猫狗鼠鱼的储物间",
@@ -235,5 +235,14 @@
     "blog":"北熙宝宝",
     "desc":"李自伍的个人技术博客 & 期待与你相逢",
     "color":"#AAD5F8"
-    }
+  }
+  ,
+  {
+    "url":"https://paul.ren",
+    "avatar":"https://paul.ren/static/img/avatar.jpg",
+    "name":"奇趣保罗",
+    "blog":"奇趣保罗",
+    "desc":"Still single, still waiting...",
+    "color":"#554359"
+  }
 ]
