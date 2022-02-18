@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.miaoer.xyz/about/index.html</loc>
+    <loc>https://blog.miaoer.xyz/2020/08/12/test/</loc>
     
     <lastmod>2022-02-18</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/2020/08/12/test/</loc>
+    <loc>https://blog.miaoer.xyz/about/index.html</loc>
     
     <lastmod>2022-02-18</lastmod>
     
@@ -226,13 +226,6 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/index.json</loc>
-    
-    <lastmod>2021-01-15</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.miaoer.xyz/live2d/bilibili-22/textures_order.json</loc>
     
     <lastmod>2021-01-15</lastmod>
@@ -240,7 +233,7 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/live2d/kesshouban/model.json</loc>
+    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -248,6 +241,13 @@
   
   <url>
     <loc>https://blog.miaoer.xyz/live2d/bilibili-33/textures_order.json</loc>
+    
+    <lastmod>2021-01-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.miaoer.xyz/live2d/kesshouban/model.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
