@@ -226,6 +226,13 @@
   </url>
   
   <url>
+    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/index.json</loc>
+    
+    <lastmod>2021-01-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.miaoer.xyz/live2d/bilibili-22/textures_order.json</loc>
     
     <lastmod>2021-01-15</lastmod>
@@ -234,13 +241,6 @@
   
   <url>
     <loc>https://blog.miaoer.xyz/live2d/kesshouban/model.json</loc>
-    
-    <lastmod>2021-01-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
