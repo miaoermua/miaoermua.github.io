@@ -247,12 +247,21 @@
   }
   ,
   {
-   "url":"https://yczheng.top",
-   "avatar":"https://s1.328888.xyz/2022/02/04/yvYI2.png",
-   "name":"Yunc",
-   "blog":"Yunc小站",
-   "desc":"一个终身学习者的自留地",
-   "email":"425237499@qq.com",
-   "color":"blue"
+    "url":"https://yczheng.top",
+    "avatar":"https://s1.328888.xyz/2022/02/04/yvYI2.png",
+    "name":"Yunc",
+    "blog":"Yunc小站",
+    "desc":"一个终身学习者的自留地",
+    "email":"425237499@qq.com",
+    "color":"blue"
+  }
+  ,
+  {
+    "url": "https://blog.cworld.top",
+    "avatar": "https://gravatar.loli.net/avatar/1ffe42aa45a6b1444a786b1f32dfa8aa?s=400",
+    "name": "CWorld's",
+    "blog": "CWorld's Blog",
+    "desc": "求知若愚，虚怀若谷",
+    "color": "#267DBA"
   }
 ]
