@@ -5,8 +5,7 @@
     "name":"云游君",
     "blog":"云游君的小站",
     "desc":"All at sea.",
-    "color": "#0078e7",
-    "email": "me@yunyoujun.cn"
+    "color": "#0078e7"
   }
   ,
   {
@@ -74,7 +73,7 @@
   ,
   {
   "url":"https://linsip.cn",
-  "avatar":"https://linsip.cn/img/wechat.jpg",
+  "avatar":"https://cdn.miaoer.xyz/friend/linsip.cn.jpg?=https://linsip.cn/img/wechat.jpg",
   "name":"Linsip",
   "blog":"Linsip",
   "desc":"个人博客",
@@ -119,7 +118,7 @@
   ,
   {
   "url":"https://innei.ren",
-  "avatar":"https://cdn.jsdelivr.net/gh/Innei/static@master/avatar.png",
+  "avatar":"https://cdn.miaoer.xyz/friend/innei.ren.png?=https://cdn.jsdelivr.net/gh/Innei/static@latest/avatar.png",
   "name":"Innei",
   "blog":"静かな森",
   "desc":"致虚极，守静笃。",
@@ -132,8 +131,7 @@
   "name":"Davinci",
   "blog":"Davinci的红茶馆",
   "desc":"You are all stardust.",
-  "color": "#A6A5B7",
-  "email": "me@davincievans.top"
+  "color": "#A6A5B7"
   }
   ,
   {
@@ -147,7 +145,7 @@
   ,
   {
   "url":"https://wzyblog.cn",
-  "avatar":"https://wzyblog.cn/wp-content/uploads/2021/10/wtx.jpg",
+  "avatar":"https://cdn.miaoer.xyz/friend/wzyblog.cn.jpg?=https://wzyblog.cn/wp-content/uploads/2021/10/wtx.jpg",
   "name":"人民の芸術家",
   "blog":"人民の芸術家的小屋",
   "desc":"三生有幸遇见你，纵使悲凉也是情",
@@ -156,7 +154,7 @@
   ,
   {
   "url":"https://www.timochan.cn",
-  "avatar":"https://sdn.geekzu.org/avatar/c706e7077f01c4518064fa37c7818c1d&quot",
+  "avatar":"https://cdn.miaoer.xyz/friend/timochan.cn.jpg?=https://cdn.timochan.cn/img/avatar.jpg",
   "name":"提莫酱",
   "blog":"提莫酱のBlog",
   "desc":"Let's start learning !",
@@ -196,8 +194,7 @@
   "name":"双皮酸奶",
   "blog":"双皮酸奶の酸奶盒",
   "desc":"只要思想不滑坡，方法总比困难多",
-  "color":"#3E638D",
-  "email":"1769859242@qq.com"
+  "color":"#3E638D"
   }
   ,
   {
@@ -215,8 +212,7 @@
   "name":"肥猪qwq",
   "blog":"肥猪's Blog",
   "desc":"一定是最可爱的猪猪！",
-  "color":"#2A762B",
-  "email":"me@feizhuqwq.com"
+  "color":"#2A762B"
   }
   ,
   {
@@ -239,7 +235,7 @@
   ,
   {
     "url":"https://paul.ren",
-    "avatar":"https://paul.ren/static/img/avatar.jpg",
+    "avatar":"https://cdn.miaoer.xyz/friend/paul.ren.jpg?=https://paul.ren/static/img/avatar.jpg",
     "name":"奇趣保罗",
     "blog":"奇趣保罗",
     "desc":"Still single, still waiting...",
@@ -252,7 +248,6 @@
     "name":"Yunc",
     "blog":"Yunc小站",
     "desc":"一个终身学习者的自留地",
-    "email":"425237499@qq.com",
     "color":"blue"
   }
   ,

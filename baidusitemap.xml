@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.miaoer.xyz/2021/09/14/BlogTime/</loc>
+    <lastmod>2022-03-04</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.miaoer.xyz/2022/01/20/says/</loc>
+    <lastmod>2022-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.miaoer.xyz/2022/01/20/notes/</loc>
+    <lastmod>2022-02-22</lastmod>
+  </url>
+  <url>
     <loc>https://blog.miaoer.xyz/2021/09/14/Privacy/</loc>
     <lastmod>2022-02-22</lastmod>
   </url>
@@ -11,10 +23,6 @@
   <url>
     <loc>https://blog.miaoer.xyz/2021/10/10/openwrtv2021.10.10/</loc>
     <lastmod>2022-02-22</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.miaoer.xyz/2021/09/14/BlogTime/</loc>
-    <lastmod>2022-02-18</lastmod>
   </url>
   <url>
     <loc>https://blog.miaoer.xyz/2020/08/12/test/</loc>
@@ -31,10 +39,6 @@
   <url>
     <loc>https://blog.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</loc>
     <lastmod>2022-01-21</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.miaoer.xyz/2022/01/20/notes/</loc>
-    <lastmod>2022-01-20</lastmod>
   </url>
   <url>
     <loc>https://blog.miaoer.xyz/2021/11/30/newblog/</loc>
