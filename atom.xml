@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-03-21T15:52:37.786Z</updated>
+  <updated>2022-04-09T10:51:57.168Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -17,18 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
+    <link href="https://blog.miaoer.xyz/2022/04/09/magisk-v24-hide/"/>
+    <id>https://blog.miaoer.xyz/2022/04/09/magisk-v24-hide/</id>
+    <published>2022-04-09T10:50:41.033Z</published>
+    <updated>2022-04-09T10:51:57.168Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk</summary>
+        
+      
+    
+    
+    
+    <category term="分享" scheme="https://blog.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="搞机" scheme="https://blog.miaoer.xyz/tags/%E6%90%9E%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>视频-【120帧】小米Mix2s宣传片</title>
     <link href="https://blog.miaoer.xyz/2022/03/21/BV1Jq4y1v7H7/"/>
     <id>https://blog.miaoer.xyz/2022/03/21/BV1Jq4y1v7H7/</id>
     <published>2022-03-21T15:52:27.000Z</published>
-    <updated>2022-03-21T15:52:37.786Z</updated>
+    <updated>2022-04-09T10:53:43.546Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=594951604&amp;bvid=BV1Jq4y1v7H7&amp;cid=554204088&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;视频&quot;&gt;&lt;a href=&quot;#视频&quot; class=&quot;headerlink&quot; title=&quot;视频&quot;&gt;&lt;/a&gt;视频&lt;/h2&gt;&lt;iframe</summary>
         
       
     
@@ -46,14 +71,14 @@
     <link href="https://blog.miaoer.xyz/2022/03/21/BV1QU4y1R75s/"/>
     <id>https://blog.miaoer.xyz/2022/03/21/BV1QU4y1R75s/</id>
     <published>2022-03-21T15:51:27.000Z</published>
-    <updated>2022-03-21T15:51:51.213Z</updated>
+    <updated>2022-04-09T10:53:48.539Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=682380095&amp;bvid=BV1QU4y1R75s&amp;cid=554216386&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;视频&quot;&gt;&lt;a href=&quot;#视频&quot; class=&quot;headerlink&quot; title=&quot;视频&quot;&gt;&lt;/a&gt;视频&lt;/h2&gt;&lt;iframe</summary>
         
       
     
@@ -420,29 +445,6 @@
     
     
     <category term="生活" scheme="https://blog.miaoer.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网页走丢了？</title>
-    <link href="https://blog.miaoer.xyz/404.html"/>
-    <id>https://blog.miaoer.xyz/404.html</id>
-    <published>2021-08-20T05:06:59.934Z</published>
-    <updated>2021-12-30T15:06:41.973Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;页面404了,网页走丢了？&lt;/p&gt;
-&lt;p&gt;嗨，有兴趣访问我的个人主页吗？ &lt;a href=&quot;https://www.miaoer.xyz/&quot;&gt;好啊 ヾ(≧▽≦*)o&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
