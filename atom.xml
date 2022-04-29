@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-04-29T13:14:54.737Z</updated>
+  <updated>2022-04-29T14:42:25.735Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -21,16 +21,12 @@
     <link href="https://blog.miaoer.xyz/2022/04/29/first-pfsense/"/>
     <id>https://blog.miaoer.xyz/2022/04/29/first-pfsense/</id>
     <published>2022-04-29T13:14:08.142Z</published>
-    <updated>2022-04-29T13:14:54.737Z</updated>
+    <updated>2022-04-29T14:42:25.735Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在用过 Router OS 和爱快后我盯上了老外爱玩的 pfSense 拿来完成基本网络应用，在 &lt;a href=&quot;https://www.pfsense.org/&quot;&gt;pfSense官网&lt;/a&gt; 中选择新加坡节点下载非常快，pfSense 是基于 FreeBSD</summary>
-        
-      
+    <summary type="html">&lt;p&gt;在用过 Router OS 和爱快后我盯上了老外爱玩的 pfSense 拿来完成基本网络应用，在 &lt;a href=&quot;https://www.pfsense.org/&quot;&gt;pfSense官网&lt;/a&gt; 中选择新加坡节点下载非常快，pfSense 是基于 FreeBSD 免费开源的系统；&lt;/p&gt;
+&lt;p&gt;我给 pfSense 在 EXSI 虚拟机中分配了 2核2线程CPU 、 512M RAM 、 2G 硬盘(SATA控制器)，在经过基础安装后，设置好网卡，静态 ip，开启 http 后台……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-04-29/pfsense-dash.png&quot;&gt;&lt;/p&gt;</summary>
     
     
     
@@ -46,16 +42,11 @@
     <link href="https://blog.miaoer.xyz/2022/04/09/magisk-v24-hide/"/>
     <id>https://blog.miaoer.xyz/2022/04/09/magisk-v24-hide/</id>
     <published>2022-04-09T10:50:41.033Z</published>
-    <updated>2022-04-09T11:10:03.228Z</updated>
+    <updated>2022-04-29T14:41:56.698Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk</summary>
-        
-      
+    <summary type="html">&lt;p&gt;在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk 的更新，毕竟安装各式的模块和框架好就不动他了。&lt;/p&gt;
+&lt;p&gt;最近才有时间去折腾他刚刚好极客湾也发了视频 &lt;a href=&quot;https://www.bilibili.com/video/BV1BY4y1H7Mc&quot;&gt;【哔哩哔哩】玩机必看！带你入坑安卓刷机，小白也能看懂的ROOT基础指南来啦！&lt;/a&gt; 学到了例如 Recovery,Fastboot,ADB 命令非常值得去复习；也借着东风随便写点方便这次更新后一头雾水的小伙伴去实现以前的功能。&lt;/p&gt;</summary>
     
     
     
