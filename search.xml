@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>第一次用 pfSense</title>
+      <link href="2022/04/29/first-pfsense/"/>
+      <url>2022/04/29/first-pfsense/</url>
+      
+        <content type="html"><![CDATA[<p>在用过 Router OS 和爱快后我盯上了老外爱玩的 pfSense 拿来完成基本网络应用，在 <a href="https://www.pfsense.org/">pfSense官网</a> 中选择新加坡节点下载非常快，pfSense 是基于 FreeBSD 免费开源的系统；</p><p>我给 pfSense 在 EXSI 虚拟机中分配了 2核2线程CPU 、 512M RAM 、 2G 硬盘(SATA控制器)，在经过基础安装后，设置好网卡，静态 ip，开启 http 后台……</p><p><img src="https://cdn.miaoer.xyz/blog/22-04-29/pfsense-dash.png" loading="lazy"></p><!--more---><p>到了 pfSense 最难配置的地方，我先设置好 Wan 口的 PPPoE 拨号、设置 DHCP server、DNS缓存、UPNP</p><p><img src="https://cdn.miaoer.xyz/blog/22-04-29/dnscache.png" loading="lazy"></p><p>哦对了如果你是多网口软路由你会在这里设置一次网桥 (interfaces_bridge) 需要将 Lan 设置成员接口将opt1 opt2 opt3…… 桥接起来，还需要关闭二级隔离 (系统/高级选项/系统可调参数)</p><pre class="language-none"><code class="language-none">net.link.bridge.pfil_member &#x3D;1  ##  Packet filter on the member interfacenet.link.bridge.pfil_bridge &#x3D;0  ##Packet filter on the bridge interface</code></pre><p>因为家里是广移，我需要开启 IPv6 <del>(IPv6推进员)</del>大概是把 IPv6 的防火墙打开 放行<code>IPv6 ICMP/TCP</code> 放行Lan口<code>IPv6 UDP 53</code>端口，设置 Lan 口 IPv6 配置类型 <code>跟踪端口</code>为 Wan，设置 Wan 口 使用IPv4为父接口 <code>通过IPv4连接链路请求IPv6前缀/信息</code>，DHCPv6 服务<code>Enable DHCPv6 server on interface LAN</code>，路由模式 <code>已管理 - RA标志[managed, other stateful]，前缀标志[onlink，router]</code> 没记错应该就这些我也是看别人博客怎么打开的因为太过复杂……</p><p>还有就是他的插件也是比较的少的比起 OpenWrt 少远了不过，还能套 ssl，iperf3，open-vmware-tools……，这个系统优点就是强大的防火墙功能，<del>上面是防火墙白搭系列</del></p><p>这里就不做演示了，我个人认为这个系统是比较难的但是基础的比 RouterOS 简单，只不过步骤烦多非常不人性化……</p><p>稳定、安全、高效才是王道。(●’◡’●)</p><p>安装视频参考: <a href="https://www.youtube.com/c/VedioTalk">VedioTalk</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软路由 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
       <link href="2022/04/09/magisk-v24-hide/"/>
       <url>2022/04/09/magisk-v24-hide/</url>
@@ -565,9 +590,9 @@
       
         <tags>
             
-            <tag> openwrt </tag>
-            
             <tag> 软路由 </tag>
+            
+            <tag> openwrt </tag>
             
         </tags>
       
