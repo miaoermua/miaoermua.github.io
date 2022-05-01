@@ -305,14 +305,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/csgo/</loc>
+    <loc>https://blog.miaoer.xyz/tags/Blog/</loc>
     <lastmod>2022-05-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/Blog/</loc>
+    <loc>https://blog.miaoer.xyz/tags/csgo/</loc>
     <lastmod>2022-05-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -333,14 +333,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/%E6%90%9E%E6%9C%BA/</loc>
+    <loc>https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/</loc>
     <lastmod>2022-05-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/</loc>
+    <loc>https://blog.miaoer.xyz/tags/%E6%90%9E%E6%9C%BA/</loc>
     <lastmod>2022-05-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -354,14 +354,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/OpenWrt/</loc>
+    <loc>https://blog.miaoer.xyz/tags/openwrt/</loc>
     <lastmod>2022-05-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/openwrt/</loc>
+    <loc>https://blog.miaoer.xyz/tags/OpenWrt/</loc>
     <lastmod>2022-05-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -440,14 +440,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/categories/OpenWrt/</loc>
+    <loc>https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-05-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://blog.miaoer.xyz/categories/OpenWrt/</loc>
     <lastmod>2022-05-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
