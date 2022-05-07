@@ -268,14 +268,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/index.json</loc>
+    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/textures_order.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/textures_order.json</loc>
+    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -354,14 +354,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/openwrt/</loc>
+    <loc>https://blog.miaoer.xyz/tags/OpenWrt/</loc>
     <lastmod>2022-05-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/OpenWrt/</loc>
+    <loc>https://blog.miaoer.xyz/tags/openwrt/</loc>
     <lastmod>2022-05-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -440,14 +440,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://blog.miaoer.xyz/categories/OpenWrt/</loc>
     <lastmod>2022-05-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/categories/OpenWrt/</loc>
+    <loc>https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-05-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
