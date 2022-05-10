@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-04-29T14:42:25.735Z</updated>
+  <updated>2022-05-10T15:48:33.764Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给Openwrt套SSL证书</title>
+    <link href="https://blog.miaoer.xyz/2022/05/10/openwrt-ssl/"/>
+    <id>https://blog.miaoer.xyz/2022/05/10/openwrt-ssl/</id>
+    <published>2022-05-10T15:47:01.252Z</published>
+    <updated>2022-05-10T15:48:33.764Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;没什么卵用内网看着爽，外网就不一定了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL，测的时候随手编译了默认以https访问的，正式版没用内网也启用感觉差点意思；&lt;/p&gt;
+&lt;p&gt;浅见的随便写写吧。&lt;/p&gt;
+&lt;p&gt;给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 &lt;code&gt;.key&lt;/code&gt; 和 证书 &lt;code&gt;.crt&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;用固件自带的 系统-文件管理 随便找一个地方放我这里选择 &lt;code&gt;/www&lt;/code&gt;，上传文件俩文件 选择解压的位置 执行上传。&lt;/p&gt;
+&lt;p&gt;用命令检查一下是否上传成功 &lt;code&gt;cd /www &amp;amp;&amp;amp; ls&lt;/code&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+  </entry>
   
   <entry>
     <title>第一次用 pfSense</title>
@@ -414,31 +442,6 @@
     <category term="小米" scheme="https://blog.miaoer.xyz/tags/%E5%B0%8F%E7%B1%B3/"/>
     
     <category term="技巧" scheme="https://blog.miaoer.xyz/tags/%E6%8A%80%E5%B7%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>教程不要跳着看</title>
-    <link href="https://blog.miaoer.xyz/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/"/>
-    <id>https://blog.miaoer.xyz/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/</id>
-    <published>2021-08-20T05:06:59.968Z</published>
-    <updated>2021-09-14T08:06:15.889Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;有些看教程不认真的，经常跳着看再评论区问怎么开启这个选项&lt;/p&gt;
-&lt;p&gt;一般我图文都有相关的内容&lt;/p&gt;
-&lt;p&gt;比如why not</summary>
-        
-      
-    
-    
-    
-    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
-    
     
   </entry>
   
