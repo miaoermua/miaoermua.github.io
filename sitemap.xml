@@ -275,6 +275,13 @@
   </url>
   
   <url>
+    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/index.json</loc>
+    
+    <lastmod>2021-01-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.miaoer.xyz/live2d/bilibili-33/textures_order.json</loc>
     
     <lastmod>2021-01-15</lastmod>
@@ -283,13 +290,6 @@
   
   <url>
     <loc>https://blog.miaoer.xyz/live2d/kesshouban/model.json</loc>
-    
-    <lastmod>2021-01-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -454,14 +454,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/categories/OpenWrt/</loc>
+    <loc>https://blog.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/</loc>
     <lastmod>2022-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/</loc>
+    <loc>https://blog.miaoer.xyz/categories/OpenWrt/</loc>
     <lastmod>2022-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
