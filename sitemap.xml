@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.miaoer.xyz/2022/05/22/xiaomi10-battey/</loc>
+    
+    <lastmod>2022-05-27</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.miaoer.xyz/2021/09/14/BlogTime/</loc>
     
     <lastmod>2022-05-25</lastmod>
@@ -261,6 +268,13 @@
   </url>
   
   <url>
+    <loc>https://blog.miaoer.xyz/live2d/bilibili-22/textures_order.json</loc>
+    
+    <lastmod>2021-01-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.miaoer.xyz/live2d/bilibili-22/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
@@ -268,7 +282,7 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/live2d/bilibili-22/textures_order.json</loc>
+    <loc>https://blog.miaoer.xyz/live2d/kesshouban/model.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -283,13 +297,6 @@
   
   <url>
     <loc>https://blog.miaoer.xyz/live2d/bilibili-33/textures_order.json</loc>
-    
-    <lastmod>2021-01-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.miaoer.xyz/live2d/kesshouban/model.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -312,14 +319,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/Blog/</loc>
+    <loc>https://blog.miaoer.xyz/tags/csgo/</loc>
     <lastmod>2022-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/csgo/</loc>
+    <loc>https://blog.miaoer.xyz/tags/Blog/</loc>
     <lastmod>2022-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -462,6 +469,13 @@
   
   <url>
     <loc>https://blog.miaoer.xyz/categories/OpenWrt/</loc>
+    <lastmod>2022-05-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
