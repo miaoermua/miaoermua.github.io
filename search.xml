@@ -152,15 +152,12 @@
   <entry>
     <title>BlogTime</title>
     <url>/2021/09/14/BlogTime/</url>
-    <content><![CDATA[<blockquote>
-<p>原来的关于站点无法在阿里云上访问索性就改到这里来了</p>
-</blockquote>
-<p>因为以前没做好整理，也不想整了，风格有点乱。<br>因为一般在晚上更新弄好都凌晨了，默认为前一天或者今天算。</p>
-<p>看不懂就看个乐吧<em>哈哈</em></p>
-<div align="center">
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=30431421&auto=0&height=66"></iframe>
-</div>
-
+    <content><![CDATA[<p>因为以前没做好整理，也不想整了，风格有点乱。<br>因为一般在晚上更新弄好都凌晨了，默认为前一天或者今天算。</p>
+<h2 id="2022-5-27"><a href="#2022-5-27" class="headerlink" title="2022.5.27"></a>2022.5.27</h2><ul>
+<li>更新个人主页前端 kami 的新版特性 x2 v3.8.0</li>
+<li>更新个人主页后端 server 的新版特性 x2 v3.28.3</li>
+<li>更新个人博客 yun 的新版特性 v1.10.1</li>
+</ul>
 <h2 id="2022-5-25"><a href="#2022-5-25" class="headerlink" title="2022.5.25"></a>2022.5.25</h2><ul>
 <li>误删库恢复3天前备份</li>
 <li>更新个人主页前端 kami 的新版特性 x3 v3.7.3</li>
@@ -422,34 +419,6 @@
       </tags>
   </entry>
   <entry>
-    <title>拆卸AMD散热器，清灰</title>
-    <url>/2022/01/19/clean-amd-heatsink/</url>
-    <content><![CDATA[<p>今天闲着没事做给<a href="https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600">续集</a>上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。</p>
-<p>本文仅限 <strong>AMD “幽灵 Stealth” 散热器（无 LED 灯）</strong>  和 <strong>AMD“幽灵 Spire” 散热器（无 LED 灯）</strong> 详情预览: <a href="https://www.amd.com/zh-hans/technologies/cpu-cooler-solution">处理器散热解决方案 | “幽灵”散热器 | AMD</a></p>
-<p>需要准备:<br>毛巾，酒精，吹风机，可以高压冲洗的花洒（够强也可以用水龙头），一双勤劳的双手，PH1和PH0螺丝刀（至少需要一个PH1）</p>
-<span id="more"></span>
-
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746752.jpg" loading="lazy"></p>
-<h1 id="拆卸"><a href="#拆卸" class="headerlink" title="拆卸"></a>拆卸</h1><p>主板拆卸我直接引用上期内容了</p>
-<blockquote>
-<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
-</blockquote>
-<p>然后拿下散热将印有 <strong>AMDlogo</strong> 凸起下的两螺丝拧下</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746774.jpg" loading="lazy"></p>
-<p>把印有 <strong>AMDlogo</strong> 的盖子拿开就看到风扇下的 <strong>酷冷</strong> 的标和<strong>四颗螺丝</strong>，拧开即可拿下铝制散热器；拿去找个带冲洗功能的花洒冲干净拿纸巾或者毛巾擦干净表面并清理上面的<strong>硅脂</strong>然后把毛巾垫底用吹风机烤一会，直到无水珠，再晾干。<br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746784.jpg" loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746805.jpg" loading="lazy"></p>
-<p><strong>风扇</strong>和<strong>壳子</strong>我打算用毛巾和纸巾、酒精擦拭，拿手指头卡着扇叶一个一个擦……随后再擦拭风扇外表的灰。<br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746764.jpg" loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746796.jpg" loading="lazy"></p>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642574006422.jpg" loading="lazy"><br>安装同理，<br>将散热鳍片上好四颗螺丝，随后将带有 logo 的壳子放底下用双手压好直到可以（能把螺丝左右的两颗卡扣卡好就行），然后上两小长螺丝，</p>
-<p>上好螺丝到正面将卡扣面向外拉，使卡扣卡好，再按着卡好的卡扣将另外一边也卡进去。</p>
-<p>主板上把背后的扣具找东西压着，或者找个工具人按着；给 CPU 上<strong>硅脂</strong>将四颗弹簧螺丝用力按进扣具并保持另外一边不要翘起太离谱进去转几下就拧对角线压平散热器，再拧紧两螺丝随后把另外两颗也压好，插上 CPU 风扇供电；擦腚楷机。</p>
-]]></content>
-      <categories>
-        <category>电脑</category>
-      </categories>
-      <tags>
-        <tag>电脑</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>博客更新啦</title>
     <url>/2021/12/06/blog-update/</url>
     <content><![CDATA[<h1 id="博客の变化"><a href="#博客の变化" class="headerlink" title="博客の变化"></a>博客の变化</h1><p>在今天(2021-12-6 21:09:43)，我更换了由前后端分离部署的 <a href="https://github.com/mx-space">Mix-space</a> ，可能熟悉我们原本Hexo博客的小伙伴会比较陌生，但是为了变化内容我还是写一点小白须知。</p>
@@ -521,6 +490,34 @@
       </categories>
       <tags>
         <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>拆卸AMD散热器，清灰</title>
+    <url>/2022/01/19/clean-amd-heatsink/</url>
+    <content><![CDATA[<p>今天闲着没事做给<a href="https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600">续集</a>上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。</p>
+<p>本文仅限 <strong>AMD “幽灵 Stealth” 散热器（无 LED 灯）</strong>  和 <strong>AMD“幽灵 Spire” 散热器（无 LED 灯）</strong> 详情预览: <a href="https://www.amd.com/zh-hans/technologies/cpu-cooler-solution">处理器散热解决方案 | “幽灵”散热器 | AMD</a></p>
+<p>需要准备:<br>毛巾，酒精，吹风机，可以高压冲洗的花洒（够强也可以用水龙头），一双勤劳的双手，PH1和PH0螺丝刀（至少需要一个PH1）</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746752.jpg" loading="lazy"></p>
+<h1 id="拆卸"><a href="#拆卸" class="headerlink" title="拆卸"></a>拆卸</h1><p>主板拆卸我直接引用上期内容了</p>
+<blockquote>
+<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
+</blockquote>
+<p>然后拿下散热将印有 <strong>AMDlogo</strong> 凸起下的两螺丝拧下</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746774.jpg" loading="lazy"></p>
+<p>把印有 <strong>AMDlogo</strong> 的盖子拿开就看到风扇下的 <strong>酷冷</strong> 的标和<strong>四颗螺丝</strong>，拧开即可拿下铝制散热器；拿去找个带冲洗功能的花洒冲干净拿纸巾或者毛巾擦干净表面并清理上面的<strong>硅脂</strong>然后把毛巾垫底用吹风机烤一会，直到无水珠，再晾干。<br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746784.jpg" loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746805.jpg" loading="lazy"></p>
+<p><strong>风扇</strong>和<strong>壳子</strong>我打算用毛巾和纸巾、酒精擦拭，拿手指头卡着扇叶一个一个擦……随后再擦拭风扇外表的灰。<br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746764.jpg" loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746796.jpg" loading="lazy"></p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642574006422.jpg" loading="lazy"><br>安装同理，<br>将散热鳍片上好四颗螺丝，随后将带有 logo 的壳子放底下用双手压好直到可以（能把螺丝左右的两颗卡扣卡好就行），然后上两小长螺丝，</p>
+<p>上好螺丝到正面将卡扣面向外拉，使卡扣卡好，再按着卡好的卡扣将另外一边也卡进去。</p>
+<p>主板上把背后的扣具找东西压着，或者找个工具人按着；给 CPU 上<strong>硅脂</strong>将四颗弹簧螺丝用力按进扣具并保持另外一边不要翘起太离谱进去转几下就拧对角线压平散热器，再拧紧两螺丝随后把另外两颗也压好，插上 CPU 风扇供电；擦腚楷机。</p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>电脑</tag>
       </tags>
   </entry>
   <entry>
@@ -1149,18 +1146,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>教程不要跳着看</title>
-    <url>/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/</url>
-    <content><![CDATA[<p>有些看教程不认真的，经常跳着看再评论区问怎么开启这个选项</p>
-<p>一般我图文都有相关的内容</p>
-<p>比如why not win11那开启安全启动需要先“安装默认密钥”才能开启安全启动选项这里就不点名了</p>
-<p>就算跳着看也要大概的审一下题，不然弄错了从头来过就不只省下的时间了</p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Magisk多种开机动画分享</title>
     <url>/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/</url>
     <content><![CDATA[<p>今天玩机手机默认的开机动画用的有点腻了，分享一波面具的开机动画 <del>（天天开关机bushi）</del></p>
@@ -1310,6 +1295,18 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>Magisk</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>教程不要跳着看</title>
+    <url>/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<p>有些看教程不认真的，经常跳着看再评论区问怎么开启这个选项</p>
+<p>一般我图文都有相关的内容</p>
+<p>比如why not win11那开启安全启动需要先“安装默认密钥”才能开启安全启动选项这里就不点名了</p>
+<p>就算跳着看也要大概的审一下题，不然弄错了从头来过就不只省下的时间了</p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
   </entry>
   <entry>
     <title>检查Windows为什么不能更新11</title>
