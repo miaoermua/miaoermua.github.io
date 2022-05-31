@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>视频-【120帧】小米Mix2s宣传片</title>
+    <url>/2022/03/21/BV1Jq4y1v7H7/</url>
+    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=594951604&bvid=BV1Jq4y1v7H7&cid=554204088&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
+
+<hr>
+<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1Jq4y1v7H7">https://www.bilibili.com/video/BV1Jq4y1v7H7</a></p>
+<p>试试湿滑的补帧</p>
+<h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
+<p>文件名: xiaomimix2s.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
+<p>原分辨率: 1920*1080</p>
+<p>补帧分辨率: 1920*1080</p>
+<p>上传分辨率: 1920*1080 > 3840*2160</p>
+<p>原帧: 25fps</p>
+<p>补帧: 120fps</p>
+<p>上传帧率: 25fps x8 > 120fps</p>
+<p>码率: 15 < 20Mbps</p>
+<p>编码: x265</p>
+
+<p>*视频来源B站收集小米宣传片 小米mix2s 因素材过多无来源链接，如侵犯版权请联系我</p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>视频博文</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>网页走丢了？</title>
     <url>//404.html</url>
     <content><![CDATA[<p>页面404了,网页走丢了？</p>
@@ -396,34 +424,6 @@
       </tags>
   </entry>
   <entry>
-    <title>视频-【120帧】小米Mix2s宣传片</title>
-    <url>/2022/03/21/BV1Jq4y1v7H7/</url>
-    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=594951604&bvid=BV1Jq4y1v7H7&cid=554204088&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
-
-<hr>
-<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1Jq4y1v7H7">https://www.bilibili.com/video/BV1Jq4y1v7H7</a></p>
-<p>试试湿滑的补帧</p>
-<h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
-<p>文件名: xiaomimix2s.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
-<p>原分辨率: 1920*1080</p>
-<p>补帧分辨率: 1920*1080</p>
-<p>上传分辨率: 1920*1080 > 3840*2160</p>
-<p>原帧: 25fps</p>
-<p>补帧: 120fps</p>
-<p>上传帧率: 25fps x8 > 120fps</p>
-<p>码率: 15 < 20Mbps</p>
-<p>编码: x265</p>
-
-<p>*视频来源B站收集小米宣传片 小米mix2s 因素材过多无来源链接，如侵犯版权请联系我</p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>视频博文</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>博客更新啦</title>
     <url>/2021/12/06/blog-update/</url>
     <content><![CDATA[<h1 id="博客の变化"><a href="#博客の变化" class="headerlink" title="博客の变化"></a>博客の变化</h1><p>在今天(2021-12-6 21:09:43)，我更换了由前后端分离部署的 <a href="https://github.com/mx-space">Mix-space</a> ，可能熟悉我们原本Hexo博客的小伙伴会比较陌生，但是为了变化内容我还是写一点小白须知。</p>
@@ -498,34 +498,6 @@
       </tags>
   </entry>
   <entry>
-    <title>记录一次换CPU，R5 3600</title>
-    <url>/2022/01/18/dg-replace-ryzen3600/</url>
-    <content><![CDATA[<p>在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031857.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>在 Zen2 架构下这一代性能表现都非常优异，不能光看评测还得自己上手一下，没想到升级的不是我的老锐龙电脑是去年给别人 2800 装的电脑，当时在没有矿潮的时候这张1660在淘宝上购入 1599，矿潮时甚至涨到 3000+ ……；</p>
-<p>在早上5:50起，就检查一下快递有没有到，很可惜我买内存的时候没看清楚地址就下单了，只能先带着处理器奔赴东莞，我卡好点选择下地铁再南站购票，我赶上了 8:06 到的 G6253 高铁，下高铁站后座上东莞轨道交通在珊美地铁站下，很可惜他们那边暂时还没有1号线，以后开通了有机会坐一坐；到朋友家里稍微等了等内存的快递，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031848.jpg" loading="lazy"></p>
-<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；稍微拿纸巾擦拭了一下，把把手往右滑上提到90度拿下旧的 2200g 放一边，因为拿之前看过不少连根拔起的图在操作之前烤鸡了。在包装里拿起 3600 放下拉下把手扣上有原装水泥(硅脂)幽灵散热器，把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031829.jpg" loading="lazy"></p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031838.jpg" loading="lazy"></p>
-<p>换上新的 芝奇 DDR4 8G 2400 (时序: 15-15-15-39) 的非马甲单面条，不要问为什么强调单面条后面就知道了；擦腚，楷机，屏幕轻松点亮。第一次开机重启了，第二次弹出让你选F1还是F2的，我选了F1进了 BIOS 然后重启到系统，打开任务管理器看框框，一下子多了8个框框，因为时间紧迫没有下 afterburner 看帧率但游戏中没有过卡顿和跳帧了；</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031812.jpg" loading="lazy"></p>
-<p>在单通道 8G下 绝地求生:大逃杀 帧率在 100<del>120 波动 最低帧80，在 CS:GO 中帧率在 200</del>300 波动 最低帧150（不包含烟雾弹），我打包票这个配置可以再战3年，节后再补买同样的内存。</p>
-<p>坑点: 就在单双面上，就隔天发货我收到的是双面颗粒的，而在朋友家收到的就是单面条。</p>
-<p>这次升级就算完成了，朋友一场要了点路费就跑了还带走了换下来的CPU和内存挂海鲜市场，过几天还有一个朋友的硬盘换PM9A1敬请关注。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031801.jpg" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>电脑</category>
-      </categories>
-      <tags>
-        <tag>电脑</tag>
-        <tag>装机</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>拆卸AMD散热器，清灰</title>
     <url>/2022/01/19/clean-amd-heatsink/</url>
     <content><![CDATA[<p>今天闲着没事做给<a href="https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600">续集</a>上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。</p>
@@ -545,32 +517,6 @@
 <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642574006422.jpg" loading="lazy"><br>安装同理，<br>将散热鳍片上好四颗螺丝，随后将带有 logo 的壳子放底下用双手压好直到可以（能把螺丝左右的两颗卡扣卡好就行），然后上两小长螺丝，</p>
 <p>上好螺丝到正面将卡扣面向外拉，使卡扣卡好，再按着卡好的卡扣将另外一边也卡进去。</p>
 <p>主板上把背后的扣具找东西压着，或者找个工具人按着；给 CPU 上<strong>硅脂</strong>将四颗弹簧螺丝用力按进扣具并保持另外一边不要翘起太离谱进去转几下就拧对角线压平散热器，再拧紧两螺丝随后把另外两颗也压好，插上 CPU 风扇供电；擦腚楷机。</p>
-]]></content>
-      <categories>
-        <category>电脑</category>
-      </categories>
-      <tags>
-        <tag>电脑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记录一次换m.2硬盘</title>
-    <url>/2022/01/31/fs-pm9a1/</url>
-    <content><![CDATA[<p>受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)</p>
-<p>有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，<br>三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>啪的一下很快啊，快递从南京过来了，快递比我想象中的还要小，更让我惊讶的是M.2硬盘这么小…（SATA固态的泪）</p>
-<p>螺丝没找到直接斜插直连 CPU 的 PCIe 通道的M.2硬盘位，开机稍微分了一下区就开始跑 AS SSD 了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/PM9A1.png" loading="lazy"></p>
-<p>读: 2832MB/s 写: 2763MB/s</p>
-<p>令我惊讶的是 4K 的速度，读: 2109MB/s 写: 1345MB/s，第一次亲眼在自己电脑上这么高的分数。</p>
-<p>用 CrystalDiskInfo 显示都是没问题的，也没去查了，把盘还原打包放置了十来天</p>
-<p>直到1月29日，刚刚好有空就送过去朋友家里，上门服务了属于是</p>
-<p>拆开机箱看到的不知道西数的什么 SSD 蓝盘【这几天查询后修改】，我拆开了另外一侧的盖板好家伙，原来机器吵不是机械硬盘在吵…但是也是要加的因为不知道为什么固态也这么慢，不过他原来的固态插的芯片组引出的 PCIe 通道上，我只需要卸下原来的 M.2 马甲将 PM9A1 安上就好了。</p>
-<p>装后给原来的固态备份质料，然后清空重新单个分区，因为习惯性安装的 Windows 10 ，给 PM9A1 分了2个区，安装驱动…win10已经给我安装完了，显卡驱动也是但是我还是补上了 NVIDIA GeForce Experience 方便更新，安装好常用软件就，坐了一会就走了…</p>
-<p>晚7点半走，等了半天车11点才到家，淦(;´༎ຶД༎ຶ`)</p>
 ]]></content>
       <categories>
         <category>电脑</category>
@@ -607,6 +553,60 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
+    <title>记录一次换CPU，R5 3600</title>
+    <url>/2022/01/18/dg-replace-ryzen3600/</url>
+    <content><![CDATA[<p>在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031857.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>在 Zen2 架构下这一代性能表现都非常优异，不能光看评测还得自己上手一下，没想到升级的不是我的老锐龙电脑是去年给别人 2800 装的电脑，当时在没有矿潮的时候这张1660在淘宝上购入 1599，矿潮时甚至涨到 3000+ ……；</p>
+<p>在早上5:50起，就检查一下快递有没有到，很可惜我买内存的时候没看清楚地址就下单了，只能先带着处理器奔赴东莞，我卡好点选择下地铁再南站购票，我赶上了 8:06 到的 G6253 高铁，下高铁站后座上东莞轨道交通在珊美地铁站下，很可惜他们那边暂时还没有1号线，以后开通了有机会坐一坐；到朋友家里稍微等了等内存的快递，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031848.jpg" loading="lazy"></p>
+<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；稍微拿纸巾擦拭了一下，把把手往右滑上提到90度拿下旧的 2200g 放一边，因为拿之前看过不少连根拔起的图在操作之前烤鸡了。在包装里拿起 3600 放下拉下把手扣上有原装水泥(硅脂)幽灵散热器，把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031829.jpg" loading="lazy"></p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031838.jpg" loading="lazy"></p>
+<p>换上新的 芝奇 DDR4 8G 2400 (时序: 15-15-15-39) 的非马甲单面条，不要问为什么强调单面条后面就知道了；擦腚，楷机，屏幕轻松点亮。第一次开机重启了，第二次弹出让你选F1还是F2的，我选了F1进了 BIOS 然后重启到系统，打开任务管理器看框框，一下子多了8个框框，因为时间紧迫没有下 afterburner 看帧率但游戏中没有过卡顿和跳帧了；</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031812.jpg" loading="lazy"></p>
+<p>在单通道 8G下 绝地求生:大逃杀 帧率在 100<del>120 波动 最低帧80，在 CS:GO 中帧率在 200</del>300 波动 最低帧150（不包含烟雾弹），我打包票这个配置可以再战3年，节后再补买同样的内存。</p>
+<p>坑点: 就在单双面上，就隔天发货我收到的是双面颗粒的，而在朋友家收到的就是单面条。</p>
+<p>这次升级就算完成了，朋友一场要了点路费就跑了还带走了换下来的CPU和内存挂海鲜市场，过几天还有一个朋友的硬盘换PM9A1敬请关注。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031801.jpg" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>电脑</tag>
+        <tag>装机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记录一次换m.2硬盘</title>
+    <url>/2022/01/31/fs-pm9a1/</url>
+    <content><![CDATA[<p>受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)</p>
+<p>有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，<br>三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>啪的一下很快啊，快递从南京过来了，快递比我想象中的还要小，更让我惊讶的是M.2硬盘这么小…（SATA固态的泪）</p>
+<p>螺丝没找到直接斜插直连 CPU 的 PCIe 通道的M.2硬盘位，开机稍微分了一下区就开始跑 AS SSD 了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/PM9A1.png" loading="lazy"></p>
+<p>读: 2832MB/s 写: 2763MB/s</p>
+<p>令我惊讶的是 4K 的速度，读: 2109MB/s 写: 1345MB/s，第一次亲眼在自己电脑上这么高的分数。</p>
+<p>用 CrystalDiskInfo 显示都是没问题的，也没去查了，把盘还原打包放置了十来天</p>
+<p>直到1月29日，刚刚好有空就送过去朋友家里，上门服务了属于是</p>
+<p>拆开机箱看到的不知道西数的什么 SSD 蓝盘【这几天查询后修改】，我拆开了另外一侧的盖板好家伙，原来机器吵不是机械硬盘在吵…但是也是要加的因为不知道为什么固态也这么慢，不过他原来的固态插的芯片组引出的 PCIe 通道上，我只需要卸下原来的 M.2 马甲将 PM9A1 安上就好了。</p>
+<p>装后给原来的固态备份质料，然后清空重新单个分区，因为习惯性安装的 Windows 10 ，给 PM9A1 分了2个区，安装驱动…win10已经给我安装完了，显卡驱动也是但是我还是补上了 NVIDIA GeForce Experience 方便更新，安装好常用软件就，坐了一会就走了…</p>
+<p>晚7点半走，等了半天车11点才到家，淦(;´༎ຶД༎ຶ`)</p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>电脑</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在两者之间选择</title>
     <url>/2021/11/30/newblog/</url>
     <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/images/nowblog.png" loading="lazy"></p>
@@ -616,33 +616,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <categories>
         <category>Blog</category>
       </categories>
-  </entry>
-  <entry>
-    <title>【推荐】洗鞋神器-污渍干洗剂</title>
-    <url>/2022/01/31/nianba-ganxi/</url>
-    <content><![CDATA[<blockquote>
-<p>本篇内容没有商业支持，纯个推。</p>
-</blockquote>
-<p>“年廿八,洗邋遢”<br>是广府文化中传统，每年辞旧迎新的特殊节日，我家里也搞起了清洁，因为今年有点特殊鞋子可以不用换，绝对不是因为钱。2333</p>
-<p>某天在商场被强行推销，拿我的鞋子中脏的地方做演示，我期初还不信但擦完出乎意料，我用手指去摩擦居然还有新鞋子橡胶嘎吱嘎吱的响声，所以…我当时闲钱少我拒绝了，但后面不是要准备过年了嘛整了一瓶，</p>
-<span id="more"></span>
-
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553805342.jpg" loading="lazy"></p>
-<p>不是推销的品牌，大概30块钱左右；稍微试了试确实有效果，也不是啥漂白剂，<br>[上图为没擦洗，下图为擦洗]</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553793449.jpg" loading="lazy"></p>
-<p>说是干洗，但是打湿了擦也行，干脆就洗澡一起洗了。<br>[图为刚刚洗完的效果]</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553837236.jpg" loading="lazy"></p>
-<p>【注; 31号晚点补干鞋图】</p>
-<p>优点: 可以洗往日留下的污渍，洗汽车胶内饰。<br>缺点: 网面干洗效果一般。</p>
-<p>商家信息已进行处理，需要可以评论留言可避免踩坑。</p>
-<p>本人不玩鞋，我没用过仅表达个人体验随便水一篇；所以觉得挺好用的，稍微写点推荐吧。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>推荐</tag>
-      </tags>
   </entry>
   <entry>
     <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
@@ -680,6 +653,41 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
+    <title>【推荐】洗鞋神器-污渍干洗剂</title>
+    <url>/2022/01/31/nianba-ganxi/</url>
+    <content><![CDATA[<blockquote>
+<p>本篇内容没有商业支持，纯个推。</p>
+</blockquote>
+<p>“年廿八,洗邋遢”<br>是广府文化中传统，每年辞旧迎新的特殊节日，我家里也搞起了清洁，因为今年有点特殊鞋子可以不用换，绝对不是因为钱。2333</p>
+<p>某天在商场被强行推销，拿我的鞋子中脏的地方做演示，我期初还不信但擦完出乎意料，我用手指去摩擦居然还有新鞋子橡胶嘎吱嘎吱的响声，所以…我当时闲钱少我拒绝了，但后面不是要准备过年了嘛整了一瓶，</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553805342.jpg" loading="lazy"></p>
+<p>不是推销的品牌，大概30块钱左右；稍微试了试确实有效果，也不是啥漂白剂，<br>[上图为没擦洗，下图为擦洗]</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553793449.jpg" loading="lazy"></p>
+<p>说是干洗，但是打湿了擦也行，干脆就洗澡一起洗了。<br>[图为刚刚洗完的效果]</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553837236.jpg" loading="lazy"></p>
+<p>【注; 31号晚点补干鞋图】</p>
+<p>优点: 可以洗往日留下的污渍，洗汽车胶内饰。<br>缺点: 网面干洗效果一般。</p>
+<p>商家信息已进行处理，需要可以评论留言可避免踩坑。</p>
+<p>本人不玩鞋，我没用过仅表达个人体验随便水一篇；所以觉得挺好用的，稍微写点推荐吧。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>日记</title>
+    <url>/2022/01/20/notes/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+  </entry>
+  <entry>
     <title>软路由Openwrt overlay分区</title>
     <url>/2021/06/20/openwrt-overlay/</url>
     <content><![CDATA[<p>目的扩容overlay分区，docker分区</p>
@@ -707,12 +715,48 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>日记</title>
-    <url>/2022/01/20/notes/</url>
-    <content><![CDATA[]]></content>
+    <title>给Openwrt套SSL证书</title>
+    <url>/2022/05/10/openwrt-ssl/</url>
+    <content><![CDATA[<blockquote>
+<p>没什么卵用内网看着爽，外网就不一定了。</p>
+</blockquote>
+<p>给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL，测的时候随手编译了默认以https访问的，正式版没用内网也启用感觉差点意思；</p>
+<p>浅见的随便写写吧。</p>
+<p>给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png" loading="lazy"></p>
+<p>下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 <code>.key</code> 和 证书 <code>.crt</code></p>
+<p>用固件自带的 系统-文件管理 随便找一个地方放我这里选择 <code>/www</code>，上传文件俩文件 选择解压的位置 执行上传。</p>
+<p>用命令检查一下是否上传成功 <code>cd /www &amp;&amp; ls</code></p>
+<span id="more"></span>
+
+<p>固件没有文件管理可以使用你趁手的 ssh 工具 scp 上传；这里演示 Windows 终端的命令 <code>scp C:\Users\【用户】\Desktop\****.crt root@192.168.1.1:/www</code> 仅供参考哦。</p>
+<p>用vim 修改 <code>vi /etc/config/uhttpd</code></p>
+<pre class="language-none"><code class="language-none">config uhttpd &#39;main&#39;
+        list listen_http &#39;0.0.0.0:80&#39;
+        list listen_http &#39;[::]:80&#39;
+        list listen_https &#39;0.0.0.0:443&#39;
+        list listen_https &#39;[::]:443&#39;
+        option redirect_https &#39;0&#39;
+        option home &#39;&#x2F;www&#39;
+        option rfc1918_filter &#39;1&#39;
+        option max_connections &#39;100&#39;
+        option cert &#39;&#x2F;etc&#x2F;uhttpd.crt&#39;
+        option key &#39;&#x2F;etc&#x2F;uhttpd.key&#39;
+</code></pre>
+
+<p>将 <code>option cert &#39;/etc/uhttpd.crt&#39;</code> 中的 <code>/etc/uhttpd.crt</code> 替换为 <code>/www/****.crt</code><br>将 <code>option cert &#39;/etc/uhttpd.key&#39;</code> 中的 <code>/etc/uhttpd.key</code> 替换为 <code>/www/****.key</code></p>
+<p>如果你有公网 ip 可以看看运营商有没有封锁 443 端口如果有将 443 改为你喜欢的端口并且把 <code>list listen_https &#39;0.0.0.0:443&#39;</code> 中的 <code>&#39;0.0.0.0:443</code> 替换为你喜欢的端口。</p>
+<p>保存 Esc，Shift + ;(:) 输入 wq 退出 vim （<code>:wq</code>）</p>
+<p>接着重启 uhttpd <code>/etc/init.d/uhttpd restart</code></p>
+<p>内网和外网都测试一遍吧，记得做好端口映射、DDNS 域名解析；广移 IPv6 没有限制 443 可以正常访问。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/openwrt-ssl.png" loading="lazy"></p>
+]]></content>
       <categories>
-        <category>Blog</category>
+        <category>软路由</category>
       </categories>
+      <tags>
+        <tag>OpenWrt</tag>
+      </tags>
   </entry>
   <entry>
     <title>分享自己编译的OpenWrt软路由固件！</title>
@@ -777,48 +821,58 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>给Openwrt套SSL证书</title>
-    <url>/2022/05/10/openwrt-ssl/</url>
-    <content><![CDATA[<blockquote>
-<p>没什么卵用内网看着爽，外网就不一定了。</p>
-</blockquote>
-<p>给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL，测的时候随手编译了默认以https访问的，正式版没用内网也启用感觉差点意思；</p>
-<p>浅见的随便写写吧。</p>
-<p>给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png" loading="lazy"></p>
-<p>下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 <code>.key</code> 和 证书 <code>.crt</code></p>
-<p>用固件自带的 系统-文件管理 随便找一个地方放我这里选择 <code>/www</code>，上传文件俩文件 选择解压的位置 执行上传。</p>
-<p>用命令检查一下是否上传成功 <code>cd /www &amp;&amp; ls</code></p>
+    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
+    <url>/2021/10/02/optimize-windows-menu/</url>
+    <content><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p>
+<p>主要是做一些自己的文章，不依赖转载吃流量博眼球，才能吸引更多的新观众和高质友链</p>
+<p>本博文发布出来是做个链接方便后面的文章，有想关注的可以RSS订阅我的博客或者随时来博客玩hh</p>
+<p>RSS:<a href="https://www.miaoer.xyz/atom.xml">https://www.miaoer.xyz/atom.xml</a></p>
 <span id="more"></span>
 
-<p>固件没有文件管理可以使用你趁手的 ssh 工具 scp 上传；这里演示 Windows 终端的命令 <code>scp C:\Users\【用户】\Desktop\****.crt root@192.168.1.1:/www</code> 仅供参考哦。</p>
-<p>用vim 修改 <code>vi /etc/config/uhttpd</code></p>
-<pre class="language-none"><code class="language-none">config uhttpd &#39;main&#39;
-        list listen_http &#39;0.0.0.0:80&#39;
-        list listen_http &#39;[::]:80&#39;
-        list listen_https &#39;0.0.0.0:443&#39;
-        list listen_https &#39;[::]:443&#39;
-        option redirect_https &#39;0&#39;
-        option home &#39;&#x2F;www&#39;
-        option rfc1918_filter &#39;1&#39;
-        option max_connections &#39;100&#39;
-        option cert &#39;&#x2F;etc&#x2F;uhttpd.crt&#39;
-        option key &#39;&#x2F;etc&#x2F;uhttpd.key&#39;
-</code></pre>
-
-<p>将 <code>option cert &#39;/etc/uhttpd.crt&#39;</code> 中的 <code>/etc/uhttpd.crt</code> 替换为 <code>/www/****.crt</code><br>将 <code>option cert &#39;/etc/uhttpd.key&#39;</code> 中的 <code>/etc/uhttpd.key</code> 替换为 <code>/www/****.key</code></p>
-<p>如果你有公网 ip 可以看看运营商有没有封锁 443 端口如果有将 443 改为你喜欢的端口并且把 <code>list listen_https &#39;0.0.0.0:443&#39;</code> 中的 <code>&#39;0.0.0.0:443</code> 替换为你喜欢的端口。</p>
-<p>保存 Esc，Shift + ;(:) 输入 wq 退出 vim （<code>:wq</code>）</p>
-<p>接着重启 uhttpd <code>/etc/init.d/uhttpd restart</code></p>
-<p>内网和外网都测试一遍吧，记得做好端口映射、DDNS 域名解析；广移 IPv6 没有限制 443 可以正常访问。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/openwrt-ssl.png" loading="lazy"></p>
+<p>【demo】</p>
+<p>因为讲解一次这些优化类的就要去重置一遍系统去还原定位问题，现在就从系统开始讲解保证小白也能看懂，不懂的我这里也会写出搜索的关键词</p>
+<blockquote>
+<p>当文章中出现搜索时他的格式是这样的</p>
+<p>这里的<code>品牌</code>是指<code>华硕</code>，<code>微星</code>，<code>华擎</code>等品牌板卡厂商(笔记本)，文章简称<code>品牌</code>保证搜索结果的一致性</p>
+<p>文章中: <code>品牌</code>bios怎么进</p>
+<p>您应该搜索: 品牌bios怎么进</p>
+</blockquote>
+<p>【demo】</p>
+<p>本章Windows优化目录</p>
+<p>1.系统篇</p>
+<ul>
+<li>重置、重装、驱动</li>
+</ul>
+<p>2.软件篇</p>
+<ul>
+<li>浏览器、官网、域名、推荐软件</li>
+</ul>
+<p>3.习惯篇</p>
+<ul>
+<li>搜索引擎、web端、下载站</li>
+</ul>
+<p>4.卸载和弹窗篇</p>
+<ul>
+<li>卸载软件、弹窗定位与删除</li>
+</ul>
+<p>本文首发在<a href="https://www.miaoer.xyz/">喵二の小博客</a>，转载请联系我并在文章明显初标记相关原文链接与作者名字</p>
+<p>暂时不会出视频教程篇，敬请关注，欢迎投喂</p>
+<p>【demo】</p>
 ]]></content>
       <categories>
-        <category>软路由</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>OpenWrt</tag>
+        <tag>Windows</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>一言</title>
+    <url>/2022/01/20/says/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
   </entry>
   <entry>
     <title>软路由？值得买吗</title>
@@ -885,60 +939,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
-    <url>/2021/10/02/optimize-windows-menu/</url>
-    <content><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p>
-<p>主要是做一些自己的文章，不依赖转载吃流量博眼球，才能吸引更多的新观众和高质友链</p>
-<p>本博文发布出来是做个链接方便后面的文章，有想关注的可以RSS订阅我的博客或者随时来博客玩hh</p>
-<p>RSS:<a href="https://www.miaoer.xyz/atom.xml">https://www.miaoer.xyz/atom.xml</a></p>
-<span id="more"></span>
-
-<p>【demo】</p>
-<p>因为讲解一次这些优化类的就要去重置一遍系统去还原定位问题，现在就从系统开始讲解保证小白也能看懂，不懂的我这里也会写出搜索的关键词</p>
-<blockquote>
-<p>当文章中出现搜索时他的格式是这样的</p>
-<p>这里的<code>品牌</code>是指<code>华硕</code>，<code>微星</code>，<code>华擎</code>等品牌板卡厂商(笔记本)，文章简称<code>品牌</code>保证搜索结果的一致性</p>
-<p>文章中: <code>品牌</code>bios怎么进</p>
-<p>您应该搜索: 品牌bios怎么进</p>
-</blockquote>
-<p>【demo】</p>
-<p>本章Windows优化目录</p>
-<p>1.系统篇</p>
-<ul>
-<li>重置、重装、驱动</li>
-</ul>
-<p>2.软件篇</p>
-<ul>
-<li>浏览器、官网、域名、推荐软件</li>
-</ul>
-<p>3.习惯篇</p>
-<ul>
-<li>搜索引擎、web端、下载站</li>
-</ul>
-<p>4.卸载和弹窗篇</p>
-<ul>
-<li>卸载软件、弹窗定位与删除</li>
-</ul>
-<p>本文首发在<a href="https://www.miaoer.xyz/">喵二の小博客</a>，转载请联系我并在文章明显初标记相关原文链接与作者名字</p>
-<p>暂时不会出视频教程篇，敬请关注，欢迎投喂</p>
-<p>【demo】</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一言</title>
-    <url>/2022/01/20/says/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-  </entry>
-  <entry>
     <title>test</title>
     <url>/2020/08/12/test/</url>
     <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
@@ -946,6 +946,158 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
 <li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title>小米10换电池再再钉子户</title>
+    <url>/2022/05/22/xiaomi10-battey/</url>
+    <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
+<h2 id="更换"><a href="#更换" class="headerlink" title="更换"></a>更换</h2><p>包裹里除了电池有B7000胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。<del>因为这样流下来的？</del></p>
+<p>关机后取出卡托（</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>电池本体也和拆下的原装电池也无明显差别，比如字体不同，字号不致</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey.jpg" loading="lazy"></p>
+<p>对后盖进行加热后轻轻撬起后盖缝隙大的地方，我这里是摄像头和红外的位置，沿缝隙慢慢划开内侧密封胶，然后用一个翘片顶着缝隙再去另外旁边翘起缝隙，我看到翘片撬出的白色胶水我挺慌的，因为我买的二手机，我以前拆小米手机的时候没有见过白色的密封胶。</p>
+<p>这里我翻车了，太着急插入翘片受力点在摄像头那边爆了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/dismantling.jpg" loading="lazy"></p>
+<p>拆开可以看到NFC和无线充电线圈的散热？？，将左右扬声器的？？沿主板撕开即可见到螺丝，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/point.jpg" loading="lazy"></p>
+<p>一手拿起屏蔽罩，用撬棒翘起电池排线断电；这里我把扬声器的 btb 不小心拔了出来。</p>
+<p>按照电池的说明卸下电池；先撕开 A 和 B 然后拉起 A，电池很轻松拿出来，取出后把电池上的易拉胶？电池中框上的电池贴纸撕下</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/yilajiao.jpg" loading="lazy"></p>
+<p>将新的电池对好位置贴上，扣上电池排线的btb 简单的扣好主板屏蔽罩和NFC无线充电线圈开机测试。 (此处没贴送的电池背胶)</p>
+<p>开机点亮显示 50% 电量，测试扬声器，无线充电NFC，振动，和有线27w快充；用创建快捷方式找到电池续航，剩余电池实际容量正常了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/Screenshot.png" loading="lazy"></p>
+<p>电池续航为 MIUI13 内置有点像 AccuBattery)))</p>
+<blockquote>
+<p>这是用了半个月的，感觉不是太准确……<br>实际上从以前的一天三充到一天两充，而且用起来会比较安心，仅供参考。</p>
+</blockquote>
+<p>随后关机检查还有什么没扣上便安装上屏蔽罩，不要大力出奇迹~不要问我是怎么知道的</p>
+<p>稍微摆平NFC线圈安装上后盖，因为后盖爆了我就没打胶了后面方便更换，即便是没打胶缝隙也不是太大和拆机前无差。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/lie.jpg" loading="lazy"></p>
+<p>可惜这次爆了盖，哭唧唧。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>搞机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>喵喵交换友链啦</title>
+    <url>/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</url>
+    <content><![CDATA[<h2 id="说说友链"><a href="#说说友链" class="headerlink" title="说说友链"></a>说说友链</h2><p>目前有两个站点，博客友链将在个人网站和博客同步。</p>
+<p>日常接受友链加入，欢迎各位成为朋友！ ヾ(•ω•`)o</p>
+<p><img src="https://cdn.miaoer.xyz/images/web-links.png" loading="lazy"></p>
+<p>这是友链的链接:</p>
+<p><a href="https://www.miaoer.xyz/friends">个人网站-友链</a></p>
+<p><a href="https://blog.miaoer.xyz/links">个人博客-友链</a></p>
+<span id="more"></span>
+
+<br>
+
+<hr>
+<p>关于站点？</p>
+<p>可以查看 <a href="https://www.miaoer.xyz/about">关于</a>，里面写的很清楚了不需要另外列举了。 👻</p>
+<br>
+
+<p>友链已经足够多了，但我们还继续收入友链，为了保证友链质量我们会筛选友链；</p>
+<p>死链、部分内容过少抄袭或者内容低质、长期不更新内容，我们不收录或下架。</p>
+<p>但我们支持个人新人博主良好发展，请使用备案服务器和域名、HTTPS 来提高你的友链质量！下架友链可能不另外进行通知。</p>
+<br>
+<br>
+
+<p>为什么友链消失或不通过呢？</p>
+<details>
+ <summary>不收入以下内容。</summary>
+<br>
+<p>
+如果检查到不通过的友链，我会向你申请的邮箱发送问题原因，假如你修复了，再通过友链申请。
+<br>
+<br>
+<ul>
+申请失败:
+<br>
+   <li>  违规内容  (条例按照: 博客内容不应该出现传统意义上的违规内容  合理: 不包含 涉政，涉黄内容。)</li><br>
+   <li>  博客无法访问  (条例按照: 博客在大部分时间都不可访问  合理: 服务器在大部分时间都因处于开启并可访问状态。)</li><br>
+   <li>  博客动件卡顿  (条例按照: 博客比YouTube播放4K视频占用更高  合理: 瞬间加载占用后保持低占用。)</li><br>
+   <li>  访问速度极慢  (条例按照: 在国内互联网环境下访问速度极慢  合理: 就算是代理软件环境下你的博客都不能太慢，至少能访问。)</li><br>
+   <li>  免费配置  (条例按照: 不建议使用免费机器或域名搭建网站 合理: 使用付费的主机搭建网站稳定运行。)</li><br>
+   <li>  不稳定友链关系  (条例按照: 友链页面包含我站内容不应该出现消失后几天又恢复  合理: 不要删除后再恢复反复横跳，假如你要删除友链可以通知我，友链不应该出现这种问题。)</li><br>
+</ul></p></details><br>
+
+
+<details>
+         <summary>已被移除的异常友链。</summary>
+         <br>
+         <p>请联系我进行修复 - update: 2022-5-29 15:37:18
+         <br>
+         <li>     多次删除: Langford's blog - https://ucany.net</li><br>
+         <li>     链接未修改: Linsip - https://linsip.cn</li><br>
+         <li>     网站被重置: 慕木的小天地 - https://iori-yimaga.top</li><br>
+         <li>     数据库错误: 人民の芸術家的小屋 - https://wzyblog.cn</li><br>
+         <li>     建立新站点: 猫狗鼠鱼的储物间 - https://meowrain.cn</li><br>
+</p></details>
+
+<br>
+<br>
+
+<h2 id="友链内容"><a href="#友链内容" class="headerlink" title="友链内容"></a>友链内容</h2><p>个人主页 <a href="https://www.miaoer.xyz/">https://www.miaoer.xyz</a> 友链：</p>
+<br>
+
+<p>标题: 喵二の小博客</p>
+<p>描述: 缘，妙不可言</p>
+<p>链接: <a href="https://www.miaoer.xyz/">https://www.miaoer.xyz</a></p>
+<p>头像: <a href="https://www.miaoer.xyz/weblogo.png">https://www.miaoer.xyz/weblogo.png</a></p>
+<p>名字: 喵二</p>
+<blockquote>
+<p>与个人博客 blog.miaoer.xyz 保持同步。</p>
+</blockquote>
+<h2 id="提交你的友链"><a href="#提交你的友链" class="headerlink" title="提交你的友链"></a>提交你的友链</h2><p>一般情况下无论是主动申请加入友链建议都使用 <strong>直接提交</strong>，因为这样在站点出现问题时也能更快速的向你发送报告；也可以订阅 <a href="https://t.me/miaoer_subscribe">TG频道</a> 防止失联。</p>
+<p>失联状态下会尽可能的修复，也可以访问个人博客 <a href="https://miaoermua.github.io/">https://miaoermua.github.io</a> 与我取得联系。</p>
+<p>现支持 <a href="https://www.miaoer.xyz/friends">直接提交</a> ， <a href="https://github.com/miaoermua/miaoermua.github.io/blob/master/links.json">提交PR</a> ， <a href="https://t.me/miaoer">Telegram</a> ， <a href="mailto:miaoermua@gmail.com">邮箱</a> 来提交你的友链。</p>
+<p>可以先联系我再添加我的友链，如果你单向添加也无所谓~~</p>
+<details>
+    <summary>提交PR 教程</summary>
+<p>
+<ul>
+<li>先 Fork <a href="https://www.github.com/miaoermua/miaoermua.github.io">miaoermua.github.io</a></li><br>
+<li>进入  <a href="https://github.com/miaoermua/miaoermua.github.io/blob/master/links.json">提交PR</a> 点击小笔头 <a href="https://github.com/miaoermua/miaoermua.github.io/edit/master/links.json">"Edit this file"</a></li><br>
+<li>在编辑模式下增加你的友链信息</li><br>
+复制一下上面已有的友链内容粘贴到代码最地下替换掉 ] ，当你不想写邮箱请把 ,"email": "邮箱" 字段删除。<br>
+不会可以看着友链上面的抄，怕打错我给你修，不过会提PR的人应该都会基础的；或者看结合代码中的内容再看下面代码块也许你就明白了<br>
+<code>
+    ,
+    &#123;
+    "url":"博客链接",
+    "avatar":"博客头像地址",
+    "name":"昵称",
+    "blog":"博客名称",
+    "desc":"个性描述",
+    "color": "颜色",
+    "email": "邮箱"
+    &#125;
+    ]
+</code>
+<li>标题可以写点博客名字无要求，点击 Propose changes 在新页面点击 Pull Request 将你的友链信息并入 PR </li><br>
+<li>等待PR审核</li><br>
+<li>等待 <a href="https://www.miaoer.xyz/links.json">cdn</a> 刷新</li><br>
+
+</ul></p>
+
+</details>
+
+<hr>
+<p>欢迎你哦~</p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
   </entry>
   <entry>
     <title>Magisk多种开机动画分享</title>
@@ -1111,20 +1263,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </categories>
   </entry>
   <entry>
-    <title>洋葱合租原则声明</title>
-    <url>/2021/05/23/%E6%B4%8B%E8%91%B1%E5%90%88%E7%A7%9F%E5%8E%9F%E5%88%99/</url>
-    <content><![CDATA[<p>目前仅合租一人上车即删博文，侧栏可以找到我的B站，QQ和telegram</p>
-<p>高中数学5月15日开通6个月<br><img src="/images/IMG_20210515_230433.jpg" loading="lazy"></p>
-<p>近日就和一个酷友合租，还缺一个</p>
-<span id="more"></span>
-
-
-
-<p>1.合理使用尽量不要使用IDM下载会员视频，使用代理工具频繁切换ip（防封）<br>2.不要更换绑定，修改密码，只有使用权（安全）<br>3.需要学生证原图（包含：地址信息，相机型号)证明你是学生，不管是初中预习高中内容还是高中/高职学习，大学复习。没有学生证提供校卡</p>
-<p>可以使用web端，app端<br>放此博客是因为方便联系不是天天上酷安的，需要联系的QQ备注 来自/合租<br>欢迎加入合租，一起学习</p>
-]]></content>
-  </entry>
-  <entry>
     <title>检查Windows为什么不能更新11</title>
     <url>/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/</url>
     <content><![CDATA[<h1 id="做好准备o-▽-o"><a href="#做好准备o-▽-o" class="headerlink" title="做好准备o(^▽^)o"></a>做好准备o(^▽^)o</h1><p>前几天Windows11放出预览版的时候，我下载了<a href="https://www.microsoft.com/windows/windows-11#pchealthcheck">电脑健康状况检查</a>官方链接挂了放一下副本<br><a href="https://github.com/miaoermua/miaoer-gitdown/raw/main/download/WindowsPCHealthCheckSetup.msi">电脑健康状况检查-blog副本下载</a><br>发现我根本不过，但是又不知道检查了什么不过…<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/notwin11-old.png" alt="notdate" loading="lazy"></p>
@@ -1177,6 +1315,20 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>Windows</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>洋葱合租原则声明</title>
+    <url>/2021/05/23/%E6%B4%8B%E8%91%B1%E5%90%88%E7%A7%9F%E5%8E%9F%E5%88%99/</url>
+    <content><![CDATA[<p>目前仅合租一人上车即删博文，侧栏可以找到我的B站，QQ和telegram</p>
+<p>高中数学5月15日开通6个月<br><img src="/images/IMG_20210515_230433.jpg" loading="lazy"></p>
+<p>近日就和一个酷友合租，还缺一个</p>
+<span id="more"></span>
+
+
+
+<p>1.合理使用尽量不要使用IDM下载会员视频，使用代理工具频繁切换ip（防封）<br>2.不要更换绑定，修改密码，只有使用权（安全）<br>3.需要学生证原图（包含：地址信息，相机型号)证明你是学生，不管是初中预习高中内容还是高中/高职学习，大学复习。没有学生证提供校卡</p>
+<p>可以使用web端，app端<br>放此博客是因为方便联系不是天天上酷安的，需要联系的QQ备注 来自/合租<br>欢迎加入合租，一起学习</p>
+]]></content>
   </entry>
   <entry>
     <title>简单编译一个属于自己的openwrt软路由系统</title>
@@ -1530,171 +1682,6 @@ make[1]: *** [&#x2F;home&#x2F;vk-op&#x2F;lede&#x2F;staging_dir&#x2F;target-x86_6
       </tags>
   </entry>
   <entry>
-    <title>喵喵交换友链啦</title>
-    <url>/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</url>
-    <content><![CDATA[<!--
-![友链](https://cdn.miaoer.xyz/images/links.png)
-
-![博客友链](https://cdn.miaoer.xyz/images/links_blog.png)
--->
-<h1 id="说说友链"><a href="#说说友链" class="headerlink" title="说说友链"></a>说说友链</h1><p>目前有两个站点，博客友链将在个人网站和博客同步。</p>
-<p>日常接受友链加入，欢迎各位成为朋友！ ヾ(•ω•`)o</p>
-<p><img src="https://cdn.miaoer.xyz/images/web-links.png" loading="lazy"></p>
-<p>这是友链的链接:</p>
-<p><a href="https://www.miaoer.xyz/friends">个人网站 友链</a></p>
-<p><a href="https://blog.miaoer.xyz/links">个人博客 友链</a></p>
-<span id="more"></span>
-
-<br>
-
-<hr>
-<p>关于站点？</p>
-<p>可以查看<a href="https://www.miaoer.xyz/about">关于</a>，里面写的很清楚了不需要另外列举了。 👻</p>
-<br>
-
-<p>友链已经足够多了，但我们还继续收入友链，为了保证友链质量我们会筛选友链；</p>
-<p>死链、部分内容过少抄袭或者内容低质、长期不更新内容，我们不收录或下架。</p>
-<p>但我们支持个人新人博主良好发展，请使用备案服务器和域名、Https来提高你的友链质量！下架友链可能不另外进行通知。</p>
-<br>
-<br>
-
-<p>为什么友链消失或不通过呢？</p>
-<details>
- <summary>因为博客含有以下内容。</summary>
-<br>
-<p>
-如果检查到不通过的友链，我会向你申请的邮箱发送问题原因，假如你修复了，再通过友链申请。
-<br>
-<br>
-<ul>
-申请失败:
-<br>
-   <li>  违规内容  (条例按照: 博客内容不应该出现传统意义上的违规内容  合理: 不包含 涉政，涉黄内容。)</li><br>
-   <li>  博客无法访问  (条例按照: 博客在大部分时间都不可访问  合理: 服务器在大部分时间都因处于开启并可访问状态。)</li><br>
-   <li>  博客动件卡顿  (条例按照: 博客比YouTube播放4K视频占用更高  合理: 瞬间加载占用后保持低占用。)</li><br>
-   <li>  访问速度极慢  (条例按照: 在国内互联网环境下访问速度极慢  合理: 就算是代理软件环境下你的博客都不能太慢，至少能访问。)</li><br>
-   <li>  免费配置  (条例按照: 不建议使用免费机器或域名搭建网站 合理: 使用付费的主机搭建网站稳定运行。)</li><br>
-   <li>  不稳定友链关系  (条例按照: 友链页面包含我站内容不应该出现消失后几天又恢复  合理: 不要删除后再恢复反复横跳，假如你要删除友链可以通知我，友链不应该出现这种问题。)</li><br>
-</ul></p></details><br>
-
-
-<details>
-         <summary>已被移除的异常友链。</summary>
-         <br>
-         <p>请联系我进行修复
-         <br>
-         <li>     友链多次删除: Langford's blog - https://ucany.net</li><br>
-         <li>     友链链接未修改: Linsip - https://linsip.cn</li><br>
-         <li>     网站被重置: 慕木的小天地 - https://iori-yimaga.top</li><br>
-         <li>     友链错乱:     猫狗鼠鱼的储物间 - https://meowrain.cn/</li><br>
-</p></details>
-
-<br>
-<br>
-
-<h2 id="友链内容"><a href="#友链内容" class="headerlink" title="友链内容"></a>友链内容</h2><blockquote>
-<p>看个人选择默认请选择个人主页，除非你喜欢个人博客下的内容。</p>
-</blockquote>
-<p>个人主页 <a href="https://www.miaoer.xyz/">https://www.miaoer.xyz</a> 友链：</p>
-<br>
-
-<p>标题: 喵二の小博客</p>
-<p>描述: 缘，妙不可言</p>
-<p>链接: <a href="https://www.miaoer.xyz/">https://www.miaoer.xyz</a></p>
-<p>头像: <a href="https://www.miaoer.xyz/weblogo.png">https://www.miaoer.xyz/weblogo.png</a></p>
-<p>名字: 喵二</p>
-<br>
-<br>
-
-<hr>
-<p>个人博客 <a href="https://blog.miaoer.xyz/links">https://blog.miaoer.xyz/links</a> 友链：</p>
-<br>
-
-<details>
-    <summary>Hexo Blog 友链格式</summary>
-    <p>友链格式：
-    <br>
-    url:     #博客链接
-      <br>
-   avatar:   #博客头像链接
-      <br>
-   name:     #昵称
-      <br>
-   blog:     #博客名字
-      <br>
-   desc:     #个性描述
-      <br>
-   email:    #邮箱
-      <br>
-   color:    #颜色
-      <br>
-    </p>
-</details>
-<!--
-<pre class="language-json" data-language="json"><code class="language-json">- url<span class="token operator">:</span>     #博客链接
- avatar<span class="token operator">:</span>   #博客头像链接
- name<span class="token operator">:</span>     #昵称
- blog<span class="token operator">:</span>     #博客名字
- desc<span class="token operator">:</span>     #个性描述
- email<span class="token operator">:</span>    #邮箱
- color<span class="token operator">:</span>    #颜色</code></pre>
---->
-
-<br>
-
-<p>快速添加 个人博客 的友链信息 ୧(﹒ ᴗ﹒ )୨</p>
-<pre class="language-json" data-language="json"><code class="language-json">- url<span class="token operator">:</span> https<span class="token operator">:</span><span class="token comment">//blog.miaoer.xyz</span>
- avatar<span class="token operator">:</span> https<span class="token operator">:</span><span class="token comment">//www.miaoer.xyz/weblogo.png</span>
- name<span class="token operator">:</span> 喵二
- blog<span class="token operator">:</span> 喵二の小博客
- desc<span class="token operator">:</span> 喜欢分享一些东西 ୧(﹒ ᴗ﹒ )୨
- email<span class="token operator">:</span> miaoermua@gmail.com
- color<span class="token operator">:</span> <span class="token string">"#e4937e"</span></code></pre>
-
-
-<h1 id="提交你的友链"><a href="#提交你的友链" class="headerlink" title="提交你的友链"></a>提交你的友链</h1><p>现支持 <a href="https://www.miaoer.xyz/friends">直接提交</a> ， <a href="https://github.com/miaoermua/miaoermua.github.io/blob/master/links.json">提交PR</a> ， <a href="https://t.me/miaoer">Telegram</a> ， <a href="mailto:miaoermua@gmail.com">邮箱</a> 来提交你的友链。</p>
-<p>可以先联系我再添加我的友链，如果你单向添加也无所谓</p>
-<details>
-    <summary>提交PR 教程</summary>
-<p>
-<ul>
-<li>先 Fork <a href="https://www.github.com/miaoermua/miaoermua.github.io">miaoermua.github.io</a></li><br>
-<li>进入  <a href="https://github.com/miaoermua/miaoermua.github.io/blob/master/links.json">提交PR</a> 点击小笔头 <a href="https://github.com/miaoermua/miaoermua.github.io/edit/master/links.json">"Edit this file"</a></li><br>
-<li>在编辑模式下增加你的友链信息</li><br>
-复制一下上面已有的友链内容粘贴到代码最地下替换掉 ] ，当你不想写邮箱请把 ,"email": "邮箱" 字段删除。<br>
-不会可以看着友链上面的抄，怕打错我给你修，不过会提PR的人应该都会基础的；或者看结合代码中的内容再看下面代码块也许你就明白了<br>
-<code>
-    ,
-    &#123;
-    "url":"博客链接",
-    "avatar":"博客头像地址",
-    "name":"昵称",
-    "blog":"博客名称",
-    "desc":"个性描述",
-    "color": "颜色",
-    "email": "邮箱"
-    &#125;
-    ]
-</code>
-<li>标题可以写点博客名字无要求，点击 Propose changes 在新页面点击 Pull Request 将你的友链信息并入 PR </li><br>
-<li>等待PR审核</li><br>
-<li>等待 <a href="https://www.miaoer.xyz/links.json">cdn</a> 刷新</li><br>
-
-</ul></p>
-
-</details>
-
-<hr>
-<p>欢迎你哦~</p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>海外转移国内服务器的坑</title>
     <url>/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</url>
     <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/lp-meme.jpg" loading="lazy"></p>
@@ -1727,44 +1714,6 @@ make[1]: *** [&#x2F;home&#x2F;vk-op&#x2F;lede&#x2F;staging_dir&#x2F;target-x86_6
       </categories>
       <tags>
         <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小米10换电池再再钉子户</title>
-    <url>/2022/05/22/xiaomi10-battey/</url>
-    <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
-<h2 id="更换"><a href="#更换" class="headerlink" title="更换"></a>更换</h2><p>包裹里除了电池有B7000胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。<del>因为这样流下来的？</del></p>
-<p>关机后取出卡托（</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>电池本体也和拆下的原装电池也无明显差别，比如字体不同，字号不致</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey.jpg" loading="lazy"></p>
-<p>对后盖进行加热后轻轻撬起后盖缝隙大的地方，我这里是摄像头和红外的位置，沿缝隙慢慢划开内侧密封胶，然后用一个翘片顶着缝隙再去另外旁边翘起缝隙，我看到翘片撬出的白色胶水我挺慌的，因为我买的二手机，我以前拆小米手机的时候没有见过白色的密封胶。</p>
-<p>这里我翻车了，太着急插入翘片受力点在摄像头那边爆了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/dismantling.jpg" loading="lazy"></p>
-<p>拆开可以看到NFC和无线充电线圈的散热？？，将左右扬声器的？？沿主板撕开即可见到螺丝，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/point.jpg" loading="lazy"></p>
-<p>一手拿起屏蔽罩，用撬棒翘起电池排线断电；这里我把扬声器的 btb 不小心拔了出来。</p>
-<p>按照电池的说明卸下电池；先撕开 A 和 B 然后拉起 A，电池很轻松拿出来，取出后把电池上的易拉胶？电池中框上的电池贴纸撕下</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/yilajiao.jpg" loading="lazy"></p>
-<p>将新的电池对好位置贴上，扣上电池排线的btb 简单的扣好主板屏蔽罩和NFC无线充电线圈开机测试。 (此处没贴送的电池背胶)</p>
-<p>开机点亮显示 50% 电量，测试扬声器，无线充电NFC，振动，和有线27w快充；用创建快捷方式找到电池续航，剩余电池实际容量正常了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/Screenshot.png" loading="lazy"></p>
-<p>电池续航为 MIUI13 内置有点像 AccuBattery)))</p>
-<blockquote>
-<p>这是用了半个月的，感觉不是太准确……<br>实际上从以前的一天三充到一天两充，而且用起来会比较安心，仅供参考。</p>
-</blockquote>
-<p>随后关机检查还有什么没扣上便安装上屏蔽罩，不要大力出奇迹~不要问我是怎么知道的</p>
-<p>稍微摆平NFC线圈安装上后盖，因为后盖爆了我就没打胶了后面方便更换，即便是没打胶缝隙也不是太大和拆机前无差。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/lie.jpg" loading="lazy"></p>
-<p>可惜这次爆了盖，哭唧唧。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>搞机</tag>
       </tags>
   </entry>
 </search>
