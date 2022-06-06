@@ -29,14 +29,6 @@
       </tags>
   </entry>
   <entry>
-    <title>网页走丢了？</title>
-    <url>//404.html</url>
-    <content><![CDATA[<p>页面404了,网页走丢了？</p>
-<p>嗨，有兴趣访问我的个人主页吗？ <a href="https://www.miaoer.xyz/">好啊 ヾ(≧▽≦*)o</a></p>
-<p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>视频-【120帧】小米Mix Alpha宣传片</title>
     <url>/2022/03/21/BV1QU4y1R75s/</url>
     <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
@@ -63,6 +55,14 @@
       <tags>
         <tag>视频博文</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>网页走丢了？</title>
+    <url>//404.html</url>
+    <content><![CDATA[<p>页面404了,网页走丢了？</p>
+<p>嗨，有兴趣访问我的个人主页吗？ <a href="https://www.miaoer.xyz/">好啊 ヾ(≧▽≦*)o</a></p>
+<p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
+]]></content>
   </entry>
   <entry>
     <title>BlogTime</title>
@@ -581,6 +581,41 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
+    <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
+    <url>/2022/04/09/magisk-v24-hide/</url>
+    <content><![CDATA[<p>在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk 的更新，毕竟安装各式的模块和框架好就不动他了。</p>
+<p>最近才有时间去折腾他刚刚好极客湾也发了视频 <a href="https://www.bilibili.com/video/BV1BY4y1H7Mc">【哔哩哔哩】玩机必看！带你入坑安卓刷机，小白也能看懂的ROOT基础指南来啦！</a> 学到了例如 Recovery,Fastboot,ADB 命令非常值得去复习；也借着东风随便写点方便这次更新后一头雾水的小伙伴去实现以前的功能。</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>你需要下载最新的 <a href="https://github.com/topjohnwu/Magisk">Magisk</a> <code>Magisk-vxx.x.apk</code> - 下载地址 <a href="https://github.com/topjohnwu/Magisk/releases">https://github.com/topjohnwu/Magisk/releases</a></p>
+<blockquote>
+<p>如果你的网络不好可以切换到数据或者 Wi-Fi 网络环境，或使用 “加速器” 等工具进行访问并下载。</p>
+</blockquote>
+<p>下载好的 <code>Magisk-vxx.x.apk</code> 进行安装后将 <code>.apk</code> 后缀改成 <code>.zip</code>记住你的目录在第三方 Recovery 里面刷入这个 Magisk 包，不出意外重启就可以看到 Magisk 下面的超级权限已经是打开的了。</p>
+<p>下载完成打开 Magisk 在 主页-设置-Magisk 打开 <code>Zygisk（Beta）</code> 选项；</p>
+<p>我们需要下载俩个文件</p>
+<ul>
+<li><a href="https://github.com/LSPosed/LSPosed.github.io">Shamiko</a> <code>Shamiko-vx.x.x-xxx-release.zip</code> - 下载地址 <a href="https://github.com/LSPosed/LSPosed.github.io/releases">https://github.com/LSPosed/LSPosed.github.io/releases</a></li>
+<li><a href="https://github.com/LSPosed/LSPosed">Zygisk-LSPosed</a> <code>LSPosed-v1.8.0-6482-zygisk-release.zip</code> - 下载地址 <a href="https://github.com/LSPosed/LSPosed/releases">https://github.com/LSPosed/LSPosed/releases</a></li>
+</ul>
+<blockquote>
+<p>因为每一个浏览器的下载路径都不一样，可以在浏览器的设置-通用-看到默认的下载路径，如果你不知道默认下载路径可以尝试搜索。</p>
+</blockquote>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>返回到主页 在模块-从本地安装选择你刚刚下载好的 <code>Shamiko-vx.x.x-xxx-release.zip</code> 和 <code>LSPosed-v1.8.0-6482-zygisk-release.zip</code>；在 Shamiko 和 Zygisk-LSPosed 安装好后进行重启。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-04-09/magiskfile.png" loading="lazy"></p>
+<p>我使用的软件需要在 主页-设置-Magisk-配置排除列表 进行选择，如果要隐藏的更深可以在 主页-设置-App 改包名来隐藏 Magisk 这里就不详细说了；</p>
+<p>如果使用 Lsposed 框架在桌面上大概率会模块帮你安装好，如果没有则要去检查是不是没有安装好漏步骤了导致没装上。</p>
+<p>这样就安装就好了变得跟以前差不多一样，如果遇到问题请在评论区留言或者给我点赞啥的。</p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>搞机</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>记录一次换m.2硬盘</title>
     <url>/2022/01/31/fs-pm9a1/</url>
     <content><![CDATA[<p>受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)</p>
@@ -616,41 +651,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <categories>
         <category>Blog</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
-    <url>/2022/04/09/magisk-v24-hide/</url>
-    <content><![CDATA[<p>在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk 的更新，毕竟安装各式的模块和框架好就不动他了。</p>
-<p>最近才有时间去折腾他刚刚好极客湾也发了视频 <a href="https://www.bilibili.com/video/BV1BY4y1H7Mc">【哔哩哔哩】玩机必看！带你入坑安卓刷机，小白也能看懂的ROOT基础指南来啦！</a> 学到了例如 Recovery,Fastboot,ADB 命令非常值得去复习；也借着东风随便写点方便这次更新后一头雾水的小伙伴去实现以前的功能。</p>
-<span id="more"></span>
-
-<hr>
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>你需要下载最新的 <a href="https://github.com/topjohnwu/Magisk">Magisk</a> <code>Magisk-vxx.x.apk</code> - 下载地址 <a href="https://github.com/topjohnwu/Magisk/releases">https://github.com/topjohnwu/Magisk/releases</a></p>
-<blockquote>
-<p>如果你的网络不好可以切换到数据或者 Wi-Fi 网络环境，或使用 “加速器” 等工具进行访问并下载。</p>
-</blockquote>
-<p>下载好的 <code>Magisk-vxx.x.apk</code> 进行安装后将 <code>.apk</code> 后缀改成 <code>.zip</code>记住你的目录在第三方 Recovery 里面刷入这个 Magisk 包，不出意外重启就可以看到 Magisk 下面的超级权限已经是打开的了。</p>
-<p>下载完成打开 Magisk 在 主页-设置-Magisk 打开 <code>Zygisk（Beta）</code> 选项；</p>
-<p>我们需要下载俩个文件</p>
-<ul>
-<li><a href="https://github.com/LSPosed/LSPosed.github.io">Shamiko</a> <code>Shamiko-vx.x.x-xxx-release.zip</code> - 下载地址 <a href="https://github.com/LSPosed/LSPosed.github.io/releases">https://github.com/LSPosed/LSPosed.github.io/releases</a></li>
-<li><a href="https://github.com/LSPosed/LSPosed">Zygisk-LSPosed</a> <code>LSPosed-v1.8.0-6482-zygisk-release.zip</code> - 下载地址 <a href="https://github.com/LSPosed/LSPosed/releases">https://github.com/LSPosed/LSPosed/releases</a></li>
-</ul>
-<blockquote>
-<p>因为每一个浏览器的下载路径都不一样，可以在浏览器的设置-通用-看到默认的下载路径，如果你不知道默认下载路径可以尝试搜索。</p>
-</blockquote>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>返回到主页 在模块-从本地安装选择你刚刚下载好的 <code>Shamiko-vx.x.x-xxx-release.zip</code> 和 <code>LSPosed-v1.8.0-6482-zygisk-release.zip</code>；在 Shamiko 和 Zygisk-LSPosed 安装好后进行重启。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-04-09/magiskfile.png" loading="lazy"></p>
-<p>我使用的软件需要在 主页-设置-Magisk-配置排除列表 进行选择，如果要隐藏的更深可以在 主页-设置-App 改包名来隐藏 Magisk 这里就不详细说了；</p>
-<p>如果使用 Lsposed 框架在桌面上大概率会模块帮你安装好，如果没有则要去检查是不是没有安装好漏步骤了导致没装上。</p>
-<p>这样就安装就好了变得跟以前差不多一样，如果遇到问题请在评论区留言或者给我点赞啥的。</p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>搞机</tag>
-      </tags>
   </entry>
   <entry>
     <title>【推荐】洗鞋神器-污渍干洗剂</title>
