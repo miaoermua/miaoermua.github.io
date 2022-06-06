@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>网页走丢了？</title>
+    <url>//404.html</url>
+    <content><![CDATA[<p>页面404了,网页走丢了？</p>
+<p>嗨，有兴趣访问我的个人主页吗？ <a href="https://www.miaoer.xyz/">好啊 ヾ(≧▽≦*)o</a></p>
+<p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>视频-【120帧】小米Mix2s宣传片</title>
     <url>/2022/03/21/BV1Jq4y1v7H7/</url>
     <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=594951604&bvid=BV1Jq4y1v7H7&cid=554204088&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
@@ -29,17 +37,43 @@
       </tags>
   </entry>
   <entry>
-    <title>网页走丢了？</title>
-    <url>//404.html</url>
-    <content><![CDATA[<p>页面404了,网页走丢了？</p>
-<p>嗨，有兴趣访问我的个人主页吗？ <a href="https://www.miaoer.xyz/">好啊 ヾ(≧▽≦*)o</a></p>
-<p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
+    <title>视频-【120帧】小米Mix Alpha宣传片</title>
+    <url>/2022/03/21/BV1QU4y1R75s/</url>
+    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
+
+<hr>
+<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1QU4y1R75s">https://www.bilibili.com/video/BV1QU4y1R75s</a></p>
+<p>试试湿滑的补帧</p>
+<h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
+<p>文件名: xiaomimixalpha.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
+<p>原分辨率: 1920*1080</p>
+<p>补帧分辨率: 1920*1080</p>
+<p>上传分辨率: 1920*1080 > 3840*2160</p>
+<p>原帧: 25fps</p>
+<p>补帧: 120fps</p>
+<p>上传帧率: 25fps x8 > 120fps</p>
+<p>码率: 15 < 20Mbps</p>
+<p>编码: x265</p>
+
+<p>*视频来源小米商城收集小米宣传片 <a href="https://www.mi.com/mixalpha">小米MixAlpha</a></p>
 ]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>视频博文</tag>
+      </tags>
   </entry>
   <entry>
     <title>BlogTime</title>
     <url>/2021/09/14/BlogTime/</url>
     <content><![CDATA[<p>因为以前没做好整理，也不想整了，风格有点乱。<br>因为一般在晚上更新弄好都凌晨了，默认为前一天或者今天算。</p>
+<h2 id="2022-6-6"><a href="#2022-6-6" class="headerlink" title="2022.6.6"></a>2022.6.6</h2><ul>
+<li>更新个人博客 yun 的配置</li>
+<li>更新个人主页前端 kami 的配置</li>
+<li>更新个人主页后端 server 的新版特性 v3.29.2</li>
+<li>重新拉取 CDN 库，与本地同步</li>
+</ul>
 <h2 id="2022-5-27"><a href="#2022-5-27" class="headerlink" title="2022.5.27"></a>2022.5.27</h2><ul>
 <li>更新个人博客 yun 的 algolia 搜索支持</li>
 <li>更新个人主页前端 kami 的新版特性 x2 v3.8.4</li>
@@ -249,119 +283,6 @@
       </categories>
       <tags>
         <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSGO各种实用代码分享</title>
-    <url>/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<p><del>文明游戏,背起行囊</del></p>
-<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>国服 <code>-perfectworld</code></p>
-<p>国际服 <code>-worldwide</code></p>
-<p>网络FPS状态 <code>net_graph 1</code></p>
-<p>调小网络于FPS状态 <code>net_graphproportionalfont 0.7</code></p>
-<p>持枪方向 <code>cl_righthand 1</code></p>
-<p>Alt换持枪方向 <code>BindToggle &quot;ALT&quot; &quot;cl_righthand&quot;;</code></p>
-<p>清血 <code>r_cleardecals</code></p>
-<p>清血绑定Shift <code>bind shift&quot;+lookatweapon;r_cleardecals</code></p>
-<p>一键跳投 <code>alias +jumpthrow&quot;+jump;-attack&quot;; alias -jumpthrow -jump bind v +jumpthrow</code></p>
-<p>全屏准星 <code>bind &quot;h&quot; &quot;toggle cl_crosshairsize 5 1000&quot;</code></p>
-<p>Tab显示计分板网络 <code>bind &quot;TAB&quot; &quot;+showscores_custom&quot;; alias &quot;+showscores_custom&quot; &quot;+showscores;net_graphheight 64; alias &quot;-showscores_custom&quot; &quot;-showscores;net_graphheight 9999&quot;; net_graph &quot;1&quot;; net_graphheight &quot;9999&quot;; net_graphpos &quot;2&quot;;</code></p>
-<p>减少手臂摇摆 <code>cl_bob_lower_amt &quot;5&quot;; cl_bobamt_lat &quot;0.1&quot;; cl_bobamt_vert &quot;0.1&quot;; cl_viewmodel_shift_left_amt &quot;0.5&quot;; cl_viewmodel_shift_right_amt &quot;0.25&quot;;</code></p>
-<p>绑定 Alt 飞行 <code>bind &quot;alt&quot; &quot;noclip&quot;</code></p>
-<h2 id="作弊类"><a href="#作弊类" class="headerlink" title="作弊类"></a>作弊类</h2><p>开启作弊 <code>sv_cheats 1</code></p>
-<p>无限子弹 <code>sv_infinite_ammo 1</code></p>
-<p>上帝模式_锁 <code>god</code></p>
-<p>飞天 <code>noclip</code></p>
-<p>第一人称 <code>cam_command 1</code></p>
-<p>实体透视 <code>r_drawothermodels 2</code></p>
-<p>(无效)自瞄 <code>ent_fire !picker addoutputmodelscale 0</code></p>
-<p>(无效)子弹穿墙 <code>cl_showothermodels 3</code></p>
-<p>灵敏度假转 <code>bind j &quot;toggle m_yaw 0.022 1000&quot;</code></p>
-<p>无后座 <code>sv_cheats &quot;1&quot;;weapon_accuracy_nospread &quot;1&quot;;weapon_debug_spread_gap &quot;1&quot;;weapon_recoil_cooldown &quot;0&quot;;weapon_recoil_decay1_exp &quot;99999&quot;;weapon_recoil_decay2_exp &quot;99999&quot;;weapon_recoil_decay2_lin &quot;99999&quot;;weapon_recoil_scale &quot;0&quot;;weapon_recoil_suppression_shots &quot;500&quot;;weapon_recoil_view_punch_extra 0</code></p>
-<p>大地球滑步 <code>sv_standable_normal 1000</code></p>
-<p>允许连跳 <code>sv_enablebunnyhopping 1</code></p>
-<p>自动连跳 <code>sv_autobunnyhopping 1</code></p>
-<p>空中速度 <code>sv_airaccelerate 20000</code></p>
-<p>血量 <code>ent_fire !self addoutput &quot;health 233&quot;</code></p>
-<h2 id="房间"><a href="#房间" class="headerlink" title="房间"></a>房间</h2><p>1秒刷新房间 <code>mp_restartgame &quot;1&quot;</code></p>
-<p>禁止自动平衡人数 <code>mp_autoteambalance 0</code></p>
-<p>金钱上限 <code>mp_maxmoney &quot;16000&quot;</code></p>
-<p>出生金钱 <code>mp_startmoney &quot;16000&quot;</code></p>
-<p>任意地点购买 <code>mp_buy_anywhere &quot;1&quot;</code></p>
-<p>显示10秒投掷物轨迹 <code>sv_grenade_trajectory_time &quot;10&quot;</code></p>
-<p>射击命中点显示 <code>sv_showimpacts 1</code></p>
-<p>踢掉bot <code>bot kick</code></p>
-<p>杀掉所有bot <code>bot_kill</code></p>
-<p>随机增加bot <code>bot_add</code></p>
-<p>增加bot到CT <code>bot_add_ct</code></p>
-<p>增加bot到T <code>bot_add_t</code></p>
-<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="完美世界竞技平台"><a href="#完美世界竞技平台" class="headerlink" title="完美世界竞技平台"></a>完美世界竞技平台</h3><p>暂停 <code>.pause</code> &amp; <code>!pause</code></p>
-<p>解除暂停 <code>.unpause</code></p>
-<p>发刀 <code>.drop</code></p>
-<p>举报 <code>.report</code></p>
-<p>投降 <code>.gg</code></p>
-<p>队友建议位置 <code>.team</code></p>
-<p>赛前道具 <code>.m</code></p>
-<p>菜单 <code>.menu</code></p>
-<p>聊天框提示 <code>.info</code></p>
-<h3 id="5E对战平台"><a href="#5E对战平台" class="headerlink" title="5E对战平台"></a>5E对战平台</h3><p>暂停 <code>.p</code></p>
-<p>解除暂停 <code>.up</code></p>
-<p>发刀 <code>.d</code></p>
-<p>举报 <code>.r</code></p>
-<p>投降 <code>.g</code> &amp; <code>.gg</code></p>
-<h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 <code>mp_drop_knife_enable 1</code></p>
-<p>海豹短刀 <code>give weapon_knife_css; ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>刺刀 <code>give weapon_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>折叠刀 <code>give weapon_knife_flip;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>穿肠刀 <code>give weapon_knife_gut;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>爪子刀 <code>give weapon_knife_karambit;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>M9 <code>give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>猎杀者匕首 <code>give weapon_knife_tactical;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>蝴蝶刀 <code>give weapon_knife_butterfly;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>弯刀 <code>give weapon_knife_falchion;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>双匕 <code>give weapon_knife_push;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>鲍伊 <code>give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>熊刀 <code>give weapon_knife_ursus;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>折刀 <code>give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>短剑 <code>give weapon_knife_stiletto;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>锯齿爪 <code>give weapon_knife_widowmaker;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p>按键非指令</p>
-<p>打开Demo控制台 <code>shift+f2</code></p>
-<p>x光 <code>x</code></p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>csgo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>视频-【120帧】小米Mix Alpha宣传片</title>
-    <url>/2022/03/21/BV1QU4y1R75s/</url>
-    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
-
-<hr>
-<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1QU4y1R75s">https://www.bilibili.com/video/BV1QU4y1R75s</a></p>
-<p>试试湿滑的补帧</p>
-<h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
-<p>文件名: xiaomimixalpha.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
-<p>原分辨率: 1920*1080</p>
-<p>补帧分辨率: 1920*1080</p>
-<p>上传分辨率: 1920*1080 > 3840*2160</p>
-<p>原帧: 25fps</p>
-<p>补帧: 120fps</p>
-<p>上传帧率: 25fps x8 > 120fps</p>
-<p>码率: 15 < 20Mbps</p>
-<p>编码: x265</p>
-
-<p>*视频来源小米商城收集小米宣传片 <a href="https://www.mi.com/mixalpha">小米MixAlpha</a></p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>视频博文</tag>
       </tags>
   </entry>
   <entry>
@@ -578,31 +499,88 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>记录一次换CPU，R5 3600</title>
-    <url>/2022/01/18/dg-replace-ryzen3600/</url>
-    <content><![CDATA[<p>在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031857.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>在 Zen2 架构下这一代性能表现都非常优异，不能光看评测还得自己上手一下，没想到升级的不是我的老锐龙电脑是去年给别人 2800 装的电脑，当时在没有矿潮的时候这张1660在淘宝上购入 1599，矿潮时甚至涨到 3000+ ……；</p>
-<p>在早上5:50起，就检查一下快递有没有到，很可惜我买内存的时候没看清楚地址就下单了，只能先带着处理器奔赴东莞，我卡好点选择下地铁再南站购票，我赶上了 8:06 到的 G6253 高铁，下高铁站后座上东莞轨道交通在珊美地铁站下，很可惜他们那边暂时还没有1号线，以后开通了有机会坐一坐；到朋友家里稍微等了等内存的快递，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031848.jpg" loading="lazy"></p>
-<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；稍微拿纸巾擦拭了一下，把把手往右滑上提到90度拿下旧的 2200g 放一边，因为拿之前看过不少连根拔起的图在操作之前烤鸡了。在包装里拿起 3600 放下拉下把手扣上有原装水泥(硅脂)幽灵散热器，把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031829.jpg" loading="lazy"></p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031838.jpg" loading="lazy"></p>
-<p>换上新的 芝奇 DDR4 8G 2400 (时序: 15-15-15-39) 的非马甲单面条，不要问为什么强调单面条后面就知道了；擦腚，楷机，屏幕轻松点亮。第一次开机重启了，第二次弹出让你选F1还是F2的，我选了F1进了 BIOS 然后重启到系统，打开任务管理器看框框，一下子多了8个框框，因为时间紧迫没有下 afterburner 看帧率但游戏中没有过卡顿和跳帧了；</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031812.jpg" loading="lazy"></p>
-<p>在单通道 8G下 绝地求生:大逃杀 帧率在 100<del>120 波动 最低帧80，在 CS:GO 中帧率在 200</del>300 波动 最低帧150（不包含烟雾弹），我打包票这个配置可以再战3年，节后再补买同样的内存。</p>
-<p>坑点: 就在单双面上，就隔天发货我收到的是双面颗粒的，而在朋友家收到的就是单面条。</p>
-<p>这次升级就算完成了，朋友一场要了点路费就跑了还带走了换下来的CPU和内存挂海鲜市场，过几天还有一个朋友的硬盘换PM9A1敬请关注。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031801.jpg" loading="lazy"></p>
+    <title>CSGO各种实用代码分享</title>
+    <url>/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<p><del>文明游戏,背起行囊</del></p>
+<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>国服 <code>-perfectworld</code></p>
+<p>国际服 <code>-worldwide</code></p>
+<p>网络FPS状态 <code>net_graph 1</code></p>
+<p>调小网络于FPS状态 <code>net_graphproportionalfont 0.7</code></p>
+<p>持枪方向 <code>cl_righthand 1</code></p>
+<p>Alt换持枪方向 <code>BindToggle &quot;ALT&quot; &quot;cl_righthand&quot;;</code></p>
+<p>清血 <code>r_cleardecals</code></p>
+<p>清血绑定Shift <code>bind shift&quot;+lookatweapon;r_cleardecals</code></p>
+<p>一键跳投 <code>alias +jumpthrow&quot;+jump;-attack&quot;; alias -jumpthrow -jump bind v +jumpthrow</code></p>
+<p>全屏准星 <code>bind &quot;h&quot; &quot;toggle cl_crosshairsize 5 1000&quot;</code></p>
+<p>Tab显示计分板网络 <code>bind &quot;TAB&quot; &quot;+showscores_custom&quot;; alias &quot;+showscores_custom&quot; &quot;+showscores;net_graphheight 64; alias &quot;-showscores_custom&quot; &quot;-showscores;net_graphheight 9999&quot;; net_graph &quot;1&quot;; net_graphheight &quot;9999&quot;; net_graphpos &quot;2&quot;;</code></p>
+<p>减少手臂摇摆 <code>cl_bob_lower_amt &quot;5&quot;; cl_bobamt_lat &quot;0.1&quot;; cl_bobamt_vert &quot;0.1&quot;; cl_viewmodel_shift_left_amt &quot;0.5&quot;; cl_viewmodel_shift_right_amt &quot;0.25&quot;;</code></p>
+<p>绑定 Alt 飞行 <code>bind &quot;alt&quot; &quot;noclip&quot;</code></p>
+<h2 id="作弊类"><a href="#作弊类" class="headerlink" title="作弊类"></a>作弊类</h2><p>开启作弊 <code>sv_cheats 1</code></p>
+<p>无限子弹 <code>sv_infinite_ammo 1</code></p>
+<p>上帝模式_锁 <code>god</code></p>
+<p>飞天 <code>noclip</code></p>
+<p>第一人称 <code>cam_command 1</code></p>
+<p>实体透视 <code>r_drawothermodels 2</code></p>
+<p>(无效)自瞄 <code>ent_fire !picker addoutputmodelscale 0</code></p>
+<p>(无效)子弹穿墙 <code>cl_showothermodels 3</code></p>
+<p>灵敏度假转 <code>bind j &quot;toggle m_yaw 0.022 1000&quot;</code></p>
+<p>无后座 <code>sv_cheats &quot;1&quot;;weapon_accuracy_nospread &quot;1&quot;;weapon_debug_spread_gap &quot;1&quot;;weapon_recoil_cooldown &quot;0&quot;;weapon_recoil_decay1_exp &quot;99999&quot;;weapon_recoil_decay2_exp &quot;99999&quot;;weapon_recoil_decay2_lin &quot;99999&quot;;weapon_recoil_scale &quot;0&quot;;weapon_recoil_suppression_shots &quot;500&quot;;weapon_recoil_view_punch_extra 0</code></p>
+<p>大地球滑步 <code>sv_standable_normal 1000</code></p>
+<p>允许连跳 <code>sv_enablebunnyhopping 1</code></p>
+<p>自动连跳 <code>sv_autobunnyhopping 1</code></p>
+<p>空中速度 <code>sv_airaccelerate 20000</code></p>
+<p>血量 <code>ent_fire !self addoutput &quot;health 233&quot;</code></p>
+<h2 id="房间"><a href="#房间" class="headerlink" title="房间"></a>房间</h2><p>1秒刷新房间 <code>mp_restartgame &quot;1&quot;</code></p>
+<p>禁止自动平衡人数 <code>mp_autoteambalance 0</code></p>
+<p>金钱上限 <code>mp_maxmoney &quot;16000&quot;</code></p>
+<p>出生金钱 <code>mp_startmoney &quot;16000&quot;</code></p>
+<p>任意地点购买 <code>mp_buy_anywhere &quot;1&quot;</code></p>
+<p>显示10秒投掷物轨迹 <code>sv_grenade_trajectory_time &quot;10&quot;</code></p>
+<p>射击命中点显示 <code>sv_showimpacts 1</code></p>
+<p>踢掉bot <code>bot kick</code></p>
+<p>杀掉所有bot <code>bot_kill</code></p>
+<p>随机增加bot <code>bot_add</code></p>
+<p>增加bot到CT <code>bot_add_ct</code></p>
+<p>增加bot到T <code>bot_add_t</code></p>
+<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="完美世界竞技平台"><a href="#完美世界竞技平台" class="headerlink" title="完美世界竞技平台"></a>完美世界竞技平台</h3><p>暂停 <code>.pause</code> &amp; <code>!pause</code></p>
+<p>解除暂停 <code>.unpause</code></p>
+<p>发刀 <code>.drop</code></p>
+<p>举报 <code>.report</code></p>
+<p>投降 <code>.gg</code></p>
+<p>队友建议位置 <code>.team</code></p>
+<p>赛前道具 <code>.m</code></p>
+<p>菜单 <code>.menu</code></p>
+<p>聊天框提示 <code>.info</code></p>
+<h3 id="5E对战平台"><a href="#5E对战平台" class="headerlink" title="5E对战平台"></a>5E对战平台</h3><p>暂停 <code>.p</code></p>
+<p>解除暂停 <code>.up</code></p>
+<p>发刀 <code>.d</code></p>
+<p>举报 <code>.r</code></p>
+<p>投降 <code>.g</code> &amp; <code>.gg</code></p>
+<h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 <code>mp_drop_knife_enable 1</code></p>
+<p>海豹短刀 <code>give weapon_knife_css; ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>刺刀 <code>give weapon_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>折叠刀 <code>give weapon_knife_flip;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>穿肠刀 <code>give weapon_knife_gut;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>爪子刀 <code>give weapon_knife_karambit;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>M9 <code>give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>猎杀者匕首 <code>give weapon_knife_tactical;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>蝴蝶刀 <code>give weapon_knife_butterfly;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>弯刀 <code>give weapon_knife_falchion;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>双匕 <code>give weapon_knife_push;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>鲍伊 <code>give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>熊刀 <code>give weapon_knife_ursus;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>折刀 <code>give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>短剑 <code>give weapon_knife_stiletto;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>锯齿爪 <code>give weapon_knife_widowmaker;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p>按键非指令</p>
+<p>打开Demo控制台 <code>shift+f2</code></p>
+<p>x光 <code>x</code></p>
 ]]></content>
       <categories>
-        <category>电脑</category>
+        <category>分享</category>
       </categories>
       <tags>
-        <tag>电脑</tag>
-        <tag>装机</tag>
+        <tag>csgo</tag>
       </tags>
   </entry>
   <entry>
@@ -631,6 +609,34 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </categories>
       <tags>
         <tag>电脑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记录一次换CPU，R5 3600</title>
+    <url>/2022/01/18/dg-replace-ryzen3600/</url>
+    <content><![CDATA[<p>在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031857.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>在 Zen2 架构下这一代性能表现都非常优异，不能光看评测还得自己上手一下，没想到升级的不是我的老锐龙电脑是去年给别人 2800 装的电脑，当时在没有矿潮的时候这张1660在淘宝上购入 1599，矿潮时甚至涨到 3000+ ……；</p>
+<p>在早上5:50起，就检查一下快递有没有到，很可惜我买内存的时候没看清楚地址就下单了，只能先带着处理器奔赴东莞，我卡好点选择下地铁再南站购票，我赶上了 8:06 到的 G6253 高铁，下高铁站后座上东莞轨道交通在珊美地铁站下，很可惜他们那边暂时还没有1号线，以后开通了有机会坐一坐；到朋友家里稍微等了等内存的快递，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031848.jpg" loading="lazy"></p>
+<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；稍微拿纸巾擦拭了一下，把把手往右滑上提到90度拿下旧的 2200g 放一边，因为拿之前看过不少连根拔起的图在操作之前烤鸡了。在包装里拿起 3600 放下拉下把手扣上有原装水泥(硅脂)幽灵散热器，把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031829.jpg" loading="lazy"></p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031838.jpg" loading="lazy"></p>
+<p>换上新的 芝奇 DDR4 8G 2400 (时序: 15-15-15-39) 的非马甲单面条，不要问为什么强调单面条后面就知道了；擦腚，楷机，屏幕轻松点亮。第一次开机重启了，第二次弹出让你选F1还是F2的，我选了F1进了 BIOS 然后重启到系统，打开任务管理器看框框，一下子多了8个框框，因为时间紧迫没有下 afterburner 看帧率但游戏中没有过卡顿和跳帧了；</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031812.jpg" loading="lazy"></p>
+<p>在单通道 8G下 绝地求生:大逃杀 帧率在 100<del>120 波动 最低帧80，在 CS:GO 中帧率在 200</del>300 波动 最低帧150（不包含烟雾弹），我打包票这个配置可以再战3年，节后再补买同样的内存。</p>
+<p>坑点: 就在单双面上，就隔天发货我收到的是双面颗粒的，而在朋友家收到的就是单面条。</p>
+<p>这次升级就算完成了，朋友一场要了点路费就跑了还带走了换下来的CPU和内存挂海鲜市场，过几天还有一个朋友的硬盘换PM9A1敬请关注。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031801.jpg" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>电脑</tag>
+        <tag>装机</tag>
       </tags>
   </entry>
   <entry>
@@ -733,14 +739,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </categories>
   </entry>
   <entry>
-    <title>日记</title>
-    <url>/2022/01/20/notes/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【推荐】洗鞋神器-污渍干洗剂</title>
     <url>/2022/01/31/nianba-ganxi/</url>
     <content><![CDATA[<blockquote>
@@ -768,6 +766,14 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
+    <title>日记</title>
+    <url>/2022/01/20/notes/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+  </entry>
+  <entry>
     <title>软路由Openwrt overlay分区</title>
     <url>/2021/06/20/openwrt-overlay/</url>
     <content><![CDATA[<p>目的扩容overlay分区，docker分区</p>
@@ -792,50 +798,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>软路由</tag>
         <tag>openwrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>给Openwrt套SSL证书</title>
-    <url>/2022/05/10/openwrt-ssl/</url>
-    <content><![CDATA[<blockquote>
-<p>没什么卵用内网看着爽，外网就不一定了。</p>
-</blockquote>
-<p>给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL，测的时候随手编译了默认以https访问的，正式版没用内网也启用感觉差点意思；</p>
-<p>浅见的随便写写吧。</p>
-<p>给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png" loading="lazy"></p>
-<p>下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 <code>.key</code> 和 证书 <code>.crt</code></p>
-<p>用固件自带的 系统-文件管理 随便找一个地方放我这里选择 <code>/www</code>，上传文件俩文件 选择解压的位置 执行上传。</p>
-<p>用命令检查一下是否上传成功 <code>cd /www &amp;&amp; ls</code></p>
-<span id="more"></span>
-
-<p>固件没有文件管理可以使用你趁手的 ssh 工具 scp 上传；这里演示 Windows 终端的命令 <code>scp C:\Users\【用户】\Desktop\****.crt root@192.168.1.1:/www</code> 仅供参考哦。</p>
-<p>用vim 修改 <code>vi /etc/config/uhttpd</code></p>
-<pre class="language-none"><code class="language-none">config uhttpd &#39;main&#39;
-        list listen_http &#39;0.0.0.0:80&#39;
-        list listen_http &#39;[::]:80&#39;
-        list listen_https &#39;0.0.0.0:443&#39;
-        list listen_https &#39;[::]:443&#39;
-        option redirect_https &#39;0&#39;
-        option home &#39;&#x2F;www&#39;
-        option rfc1918_filter &#39;1&#39;
-        option max_connections &#39;100&#39;
-        option cert &#39;&#x2F;etc&#x2F;uhttpd.crt&#39;
-        option key &#39;&#x2F;etc&#x2F;uhttpd.key&#39;
-</code></pre>
-
-<p>将 <code>option cert &#39;/etc/uhttpd.crt&#39;</code> 中的 <code>/etc/uhttpd.crt</code> 替换为 <code>/www/****.crt</code><br>将 <code>option cert &#39;/etc/uhttpd.key&#39;</code> 中的 <code>/etc/uhttpd.key</code> 替换为 <code>/www/****.key</code></p>
-<p>如果你有公网 ip 可以看看运营商有没有封锁 443 端口如果有将 443 改为你喜欢的端口并且把 <code>list listen_https &#39;0.0.0.0:443&#39;</code> 中的 <code>&#39;0.0.0.0:443</code> 替换为你喜欢的端口。</p>
-<p>保存 Esc，Shift + ;(:) 输入 wq 退出 vim （<code>:wq</code>）</p>
-<p>接着重启 uhttpd <code>/etc/init.d/uhttpd restart</code></p>
-<p>内网和外网都测试一遍吧，记得做好端口映射、DDNS 域名解析；广移 IPv6 没有限制 443 可以正常访问。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/openwrt-ssl.png" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>软路由</category>
-      </categories>
-      <tags>
-        <tag>OpenWrt</tag>
       </tags>
   </entry>
   <entry>
@@ -895,6 +857,50 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
 ]]></content>
       <categories>
         <category>OpenWrt</category>
+      </categories>
+      <tags>
+        <tag>OpenWrt</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>给Openwrt套SSL证书</title>
+    <url>/2022/05/10/openwrt-ssl/</url>
+    <content><![CDATA[<blockquote>
+<p>没什么卵用内网看着爽，外网就不一定了。</p>
+</blockquote>
+<p>给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL，测的时候随手编译了默认以https访问的，正式版没用内网也启用感觉差点意思；</p>
+<p>浅见的随便写写吧。</p>
+<p>给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png" loading="lazy"></p>
+<p>下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 <code>.key</code> 和 证书 <code>.crt</code></p>
+<p>用固件自带的 系统-文件管理 随便找一个地方放我这里选择 <code>/www</code>，上传文件俩文件 选择解压的位置 执行上传。</p>
+<p>用命令检查一下是否上传成功 <code>cd /www &amp;&amp; ls</code></p>
+<span id="more"></span>
+
+<p>固件没有文件管理可以使用你趁手的 ssh 工具 scp 上传；这里演示 Windows 终端的命令 <code>scp C:\Users\【用户】\Desktop\****.crt root@192.168.1.1:/www</code> 仅供参考哦。</p>
+<p>用vim 修改 <code>vi /etc/config/uhttpd</code></p>
+<pre class="language-none"><code class="language-none">config uhttpd &#39;main&#39;
+        list listen_http &#39;0.0.0.0:80&#39;
+        list listen_http &#39;[::]:80&#39;
+        list listen_https &#39;0.0.0.0:443&#39;
+        list listen_https &#39;[::]:443&#39;
+        option redirect_https &#39;0&#39;
+        option home &#39;&#x2F;www&#39;
+        option rfc1918_filter &#39;1&#39;
+        option max_connections &#39;100&#39;
+        option cert &#39;&#x2F;etc&#x2F;uhttpd.crt&#39;
+        option key &#39;&#x2F;etc&#x2F;uhttpd.key&#39;
+</code></pre>
+
+<p>将 <code>option cert &#39;/etc/uhttpd.crt&#39;</code> 中的 <code>/etc/uhttpd.crt</code> 替换为 <code>/www/****.crt</code><br>将 <code>option cert &#39;/etc/uhttpd.key&#39;</code> 中的 <code>/etc/uhttpd.key</code> 替换为 <code>/www/****.key</code></p>
+<p>如果你有公网 ip 可以看看运营商有没有封锁 443 端口如果有将 443 改为你喜欢的端口并且把 <code>list listen_https &#39;0.0.0.0:443&#39;</code> 中的 <code>&#39;0.0.0.0:443</code> 替换为你喜欢的端口。</p>
+<p>保存 Esc，Shift + ;(:) 输入 wq 退出 vim （<code>:wq</code>）</p>
+<p>接着重启 uhttpd <code>/etc/init.d/uhttpd restart</code></p>
+<p>内网和外网都测试一遍吧，记得做好端口映射、DDNS 域名解析；广移 IPv6 没有限制 443 可以正常访问。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/openwrt-ssl.png" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>软路由</category>
       </categories>
       <tags>
         <tag>OpenWrt</tag>
@@ -1343,6 +1349,20 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </categories>
   </entry>
   <entry>
+    <title>洋葱合租原则声明</title>
+    <url>/2021/05/23/%E6%B4%8B%E8%91%B1%E5%90%88%E7%A7%9F%E5%8E%9F%E5%88%99/</url>
+    <content><![CDATA[<p>目前仅合租一人上车即删博文，侧栏可以找到我的B站，QQ和telegram</p>
+<p>高中数学5月15日开通6个月<br><img src="/images/IMG_20210515_230433.jpg" loading="lazy"></p>
+<p>近日就和一个酷友合租，还缺一个</p>
+<span id="more"></span>
+
+
+
+<p>1.合理使用尽量不要使用IDM下载会员视频，使用代理工具频繁切换ip（防封）<br>2.不要更换绑定，修改密码，只有使用权（安全）<br>3.需要学生证原图（包含：地址信息，相机型号)证明你是学生，不管是初中预习高中内容还是高中/高职学习，大学复习。没有学生证提供校卡</p>
+<p>可以使用web端，app端<br>放此博客是因为方便联系不是天天上酷安的，需要联系的QQ备注 来自/合租<br>欢迎加入合租，一起学习</p>
+]]></content>
+  </entry>
+  <entry>
     <title>检查Windows为什么不能更新11</title>
     <url>/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/</url>
     <content><![CDATA[<h1 id="做好准备o-▽-o"><a href="#做好准备o-▽-o" class="headerlink" title="做好准备o(^▽^)o"></a>做好准备o(^▽^)o</h1><p>前几天Windows11放出预览版的时候，我下载了<a href="https://www.microsoft.com/windows/windows-11#pchealthcheck">电脑健康状况检查</a>官方链接挂了放一下副本<br><a href="https://github.com/miaoermua/miaoer-gitdown/raw/main/download/WindowsPCHealthCheckSetup.msi">电脑健康状况检查-blog副本下载</a><br>发现我根本不过，但是又不知道检查了什么不过…<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/notwin11-old.png" alt="notdate" loading="lazy"></p>
@@ -1395,20 +1415,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>Windows</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>洋葱合租原则声明</title>
-    <url>/2021/05/23/%E6%B4%8B%E8%91%B1%E5%90%88%E7%A7%9F%E5%8E%9F%E5%88%99/</url>
-    <content><![CDATA[<p>目前仅合租一人上车即删博文，侧栏可以找到我的B站，QQ和telegram</p>
-<p>高中数学5月15日开通6个月<br><img src="/images/IMG_20210515_230433.jpg" loading="lazy"></p>
-<p>近日就和一个酷友合租，还缺一个</p>
-<span id="more"></span>
-
-
-
-<p>1.合理使用尽量不要使用IDM下载会员视频，使用代理工具频繁切换ip（防封）<br>2.不要更换绑定，修改密码，只有使用权（安全）<br>3.需要学生证原图（包含：地址信息，相机型号)证明你是学生，不管是初中预习高中内容还是高中/高职学习，大学复习。没有学生证提供校卡</p>
-<p>可以使用web端，app端<br>放此博客是因为方便联系不是天天上酷安的，需要联系的QQ备注 来自/合租<br>欢迎加入合租，一起学习</p>
-]]></content>
   </entry>
   <entry>
     <title>简单编译一个属于自己的openwrt软路由系统</title>

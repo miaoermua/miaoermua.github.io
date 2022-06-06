@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.miaoer.xyz/2021/09/14/BlogTime/</loc>
+    <lastmod>2022-06-06</lastmod>
+  </url>
+  <url>
     <loc>https://blog.miaoer.xyz/2022/06/01/app-foldersync/</loc>
     <lastmod>2022-06-06</lastmod>
   </url>
@@ -10,10 +14,6 @@
   </url>
   <url>
     <loc>https://blog.miaoer.xyz/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</loc>
-    <lastmod>2022-05-31</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.miaoer.xyz/2021/09/14/BlogTime/</loc>
     <lastmod>2022-05-31</lastmod>
   </url>
   <url>
