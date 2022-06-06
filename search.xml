@@ -371,14 +371,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Doge</title>
-    <url>/2021/05/14/Doge/</url>
-    <content><![CDATA[<p>可爱的Doge，柴犬镇楼！<br><img src="/images/a0126590_22301391.jpg" loading="lazy"></p>
-<span id="more"></span>
-<p><img src="/images/a0126590_22302718.jpg" loading="lazy"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Privacy 隐私</title>
     <url>/2021/09/14/Privacy/</url>
     <content><![CDATA[<h1 id="Privacy-隐私"><a href="#Privacy-隐私" class="headerlink" title="Privacy 隐私"></a>Privacy 隐私</h1><p>我站非常重视您的个人隐私和企业隐私，我们在 2021年9月3日 开始实行隐私管理条例；<a href="https://www.miaoer.xyz/privacy">隐私政策</a> 更新于 2022年2月22日；生效于 2021年9月14日。</p>
@@ -612,6 +604,14 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </tags>
   </entry>
   <entry>
+    <title>Doge</title>
+    <url>/2021/05/14/Doge/</url>
+    <content><![CDATA[<p>可爱的Doge，柴犬镇楼！<br><img src="/images/a0126590_22301391.jpg" loading="lazy"></p>
+<span id="more"></span>
+<p><img src="/images/a0126590_22302718.jpg" loading="lazy"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>记录一次换CPU，R5 3600</title>
     <url>/2022/01/18/dg-replace-ryzen3600/</url>
     <content><![CDATA[<p>在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600</p>
@@ -739,14 +739,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </categories>
   </entry>
   <entry>
-    <title>日记</title>
-    <url>/2022/01/20/notes/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【推荐】洗鞋神器-污渍干洗剂</title>
     <url>/2022/01/31/nianba-ganxi/</url>
     <content><![CDATA[<blockquote>
@@ -772,6 +764,41 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>推荐</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>软路由Openwrt overlay分区</title>
+    <url>/2021/06/20/openwrt-overlay/</url>
+    <content><![CDATA[<p>目的扩容overlay分区，docker分区</p>
+<span id="more"></span>
+
+<h2 id="cfdisk"><a href="#cfdisk" class="headerlink" title="cfdisk"></a>cfdisk</h2><blockquote>
+<p>cfdisk 分区</p>
+</blockquote>
+<p>清理shell<br>clear</p>
+<h2 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h2><p>修改分区sda3 ext4<br>mkfs.ext4 /dev/sda3<br>完成done</p>
+<p>修改分区sda4 ext4<br>mkfs.ext4 /dev/sda4<br>完成done</p>
+<h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><p>挂载sda3<br>mount /dev/sda3 /mnt/sda3<br>挂载sda4<br>mount /dev/sda4 /mnt/sda4<br>检查查看sda3<br>ls /mnt/sda3<br>到overlay检查<br>cd /overlay<br>ls</p>
+<h2 id="复制overlay"><a href="#复制overlay" class="headerlink" title="复制overlay"></a>复制overlay</h2><p>复制overlay到sda3<br>cp -r /overlay/* /mnt/sda3</p>
+<blockquote>
+<p>openwrt挂载</p>
+</blockquote>
+<p>总结至：<a href="https://www.youtube.com/c/eSirPlayGround">eSir</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+        <tag>openwrt</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>日记</title>
+    <url>/2022/01/20/notes/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
   </entry>
   <entry>
     <title>给Openwrt套SSL证书</title>
@@ -818,30 +845,57 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>软路由Openwrt overlay分区</title>
-    <url>/2021/06/20/openwrt-overlay/</url>
-    <content><![CDATA[<p>目的扩容overlay分区，docker分区</p>
+    <title>一言</title>
+    <url>/2022/01/20/says/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
+    <url>/2021/10/02/optimize-windows-menu/</url>
+    <content><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p>
+<p>主要是做一些自己的文章，不依赖转载吃流量博眼球，才能吸引更多的新观众和高质友链</p>
+<p>本博文发布出来是做个链接方便后面的文章，有想关注的可以RSS订阅我的博客或者随时来博客玩hh</p>
+<p>RSS:<a href="https://www.miaoer.xyz/atom.xml">https://www.miaoer.xyz/atom.xml</a></p>
 <span id="more"></span>
 
-<h2 id="cfdisk"><a href="#cfdisk" class="headerlink" title="cfdisk"></a>cfdisk</h2><blockquote>
-<p>cfdisk 分区</p>
-</blockquote>
-<p>清理shell<br>clear</p>
-<h2 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h2><p>修改分区sda3 ext4<br>mkfs.ext4 /dev/sda3<br>完成done</p>
-<p>修改分区sda4 ext4<br>mkfs.ext4 /dev/sda4<br>完成done</p>
-<h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><p>挂载sda3<br>mount /dev/sda3 /mnt/sda3<br>挂载sda4<br>mount /dev/sda4 /mnt/sda4<br>检查查看sda3<br>ls /mnt/sda3<br>到overlay检查<br>cd /overlay<br>ls</p>
-<h2 id="复制overlay"><a href="#复制overlay" class="headerlink" title="复制overlay"></a>复制overlay</h2><p>复制overlay到sda3<br>cp -r /overlay/* /mnt/sda3</p>
+<p>【demo】</p>
+<p>因为讲解一次这些优化类的就要去重置一遍系统去还原定位问题，现在就从系统开始讲解保证小白也能看懂，不懂的我这里也会写出搜索的关键词</p>
 <blockquote>
-<p>openwrt挂载</p>
+<p>当文章中出现搜索时他的格式是这样的</p>
+<p>这里的<code>品牌</code>是指<code>华硕</code>，<code>微星</code>，<code>华擎</code>等品牌板卡厂商(笔记本)，文章简称<code>品牌</code>保证搜索结果的一致性</p>
+<p>文章中: <code>品牌</code>bios怎么进</p>
+<p>您应该搜索: 品牌bios怎么进</p>
 </blockquote>
-<p>总结至：<a href="https://www.youtube.com/c/eSirPlayGround">eSir</a></p>
+<p>【demo】</p>
+<p>本章Windows优化目录</p>
+<p>1.系统篇</p>
+<ul>
+<li>重置、重装、驱动</li>
+</ul>
+<p>2.软件篇</p>
+<ul>
+<li>浏览器、官网、域名、推荐软件</li>
+</ul>
+<p>3.习惯篇</p>
+<ul>
+<li>搜索引擎、web端、下载站</li>
+</ul>
+<p>4.卸载和弹窗篇</p>
+<ul>
+<li>卸载软件、弹窗定位与删除</li>
+</ul>
+<p>本文首发在<a href="https://www.miaoer.xyz/">喵二の小博客</a>，转载请联系我并在文章明显初标记相关原文链接与作者名字</p>
+<p>暂时不会出视频教程篇，敬请关注，欢迎投喂</p>
+<p>【demo】</p>
 ]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>软路由</tag>
-        <tag>openwrt</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -905,60 +959,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>OpenWrt</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
-    <url>/2021/10/02/optimize-windows-menu/</url>
-    <content><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p>
-<p>主要是做一些自己的文章，不依赖转载吃流量博眼球，才能吸引更多的新观众和高质友链</p>
-<p>本博文发布出来是做个链接方便后面的文章，有想关注的可以RSS订阅我的博客或者随时来博客玩hh</p>
-<p>RSS:<a href="https://www.miaoer.xyz/atom.xml">https://www.miaoer.xyz/atom.xml</a></p>
-<span id="more"></span>
-
-<p>【demo】</p>
-<p>因为讲解一次这些优化类的就要去重置一遍系统去还原定位问题，现在就从系统开始讲解保证小白也能看懂，不懂的我这里也会写出搜索的关键词</p>
-<blockquote>
-<p>当文章中出现搜索时他的格式是这样的</p>
-<p>这里的<code>品牌</code>是指<code>华硕</code>，<code>微星</code>，<code>华擎</code>等品牌板卡厂商(笔记本)，文章简称<code>品牌</code>保证搜索结果的一致性</p>
-<p>文章中: <code>品牌</code>bios怎么进</p>
-<p>您应该搜索: 品牌bios怎么进</p>
-</blockquote>
-<p>【demo】</p>
-<p>本章Windows优化目录</p>
-<p>1.系统篇</p>
-<ul>
-<li>重置、重装、驱动</li>
-</ul>
-<p>2.软件篇</p>
-<ul>
-<li>浏览器、官网、域名、推荐软件</li>
-</ul>
-<p>3.习惯篇</p>
-<ul>
-<li>搜索引擎、web端、下载站</li>
-</ul>
-<p>4.卸载和弹窗篇</p>
-<ul>
-<li>卸载软件、弹窗定位与删除</li>
-</ul>
-<p>本文首发在<a href="https://www.miaoer.xyz/">喵二の小博客</a>，转载请联系我并在文章明显初标记相关原文链接与作者名字</p>
-<p>暂时不会出视频教程篇，敬请关注，欢迎投喂</p>
-<p>【demo】</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一言</title>
-    <url>/2022/01/20/says/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
   </entry>
   <entry>
     <title>软路由？值得买吗</title>
