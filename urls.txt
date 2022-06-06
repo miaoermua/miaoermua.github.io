@@ -8,7 +8,6 @@ https://blog.miaoer.xyz/2022/03/21/BV1QU4y1R75s/
 https://blog.miaoer.xyz/2022/01/31/nianba-ganxi/
 https://blog.miaoer.xyz/2022/01/31/fs-pm9a1/
 https://blog.miaoer.xyz/2022/01/20/notes/
-https://blog.miaoer.xyz/2022/01/20/says/
 https://blog.miaoer.xyz/2022/01/19/clean-amd-heatsink/
 https://blog.miaoer.xyz/2022/01/18/dg-replace-ryzen3600/
 https://blog.miaoer.xyz/2021/12/06/blog-update/
@@ -17,7 +16,6 @@ https://blog.miaoer.xyz/2021/11/05/softrouter-de/
 https://blog.miaoer.xyz/2021/10/10/openwrtv2021.10.10/
 https://blog.miaoer.xyz/2021/10/02/optimize-windows-menu/
 https://blog.miaoer.xyz/2021/09/14/BlogTime/
-https://blog.miaoer.xyz/2021/09/14/Privacy/
 https://blog.miaoer.xyz/2021/08/22/%E7%BC%96%E8%AF%91openwrt/
 https://blog.miaoer.xyz/2021/08/20/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/
 https://blog.miaoer.xyz/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/

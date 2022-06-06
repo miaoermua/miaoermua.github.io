@@ -371,55 +371,12 @@
       </tags>
   </entry>
   <entry>
-    <title>Privacy 隐私</title>
-    <url>/2021/09/14/Privacy/</url>
-    <content><![CDATA[<h1 id="Privacy-隐私"><a href="#Privacy-隐私" class="headerlink" title="Privacy 隐私"></a>Privacy 隐私</h1><p>我站非常重视您的个人隐私和企业隐私，我们在 2021年9月3日 开始实行隐私管理条例；<a href="https://www.miaoer.xyz/privacy">隐私政策</a> 更新于 2022年2月22日；生效于 2021年9月14日。</p>
-<p>本站以下地址均生效:<br> <a href="https://www.miaoer.xyz,https//blog.miaoer.xyz">https://www.miaoer.xyz，https://blog.miaoer.xyz</a></p>
-<ul>
-<li>我们不会和如何个人或企业共享你的隐私数据，如有疑问请在联系我。</li>
-</ul>
-<p>Only in Chinese, if you use the translation software for reference only.<br>本站仅提供简体中文隐私条款，如果你使用翻译软件仅供参考一切按照简体中文为准。</p>
-<h2 id="我们是怎么收集你的隐私"><a href="#我们是怎么收集你的隐私" class="headerlink" title="我们是怎么收集你的隐私"></a>我们是怎么收集你的隐私</h2><ul>
-<li>访问</li>
-</ul>
-<p>当你访问我们提供的站点服务时我们将收集你的访问 IP 记录到数据库缓存和日志文件中；该条例按照工业和信息化要求保留3个月左右但我们进行无限期的保留。</p>
-<ul>
-<li>评论</li>
-</ul>
-<p>当你使用我们提供的站点评论服务时我们将收集你的访问 IP 和浏览器的 User-Agent，以及您发送的评论图片信息 记录到数据库；我们将无限期保留并且用于评论展示。</p>
-<ul>
-<li>统计</li>
-</ul>
-<p>我们通过浏览器单次访问进行统计阅读量和访问量，记录数据库中；用于提高我们服务质量。</p>
-<ul>
-<li>Cookies</li>
-</ul>
-<p>当你访问我们提供的站点服务时我们会在你的浏览器中生成 Cookies，以完成网站基本服务（如: 评论、统计、提高百度SEO值），你可以使用后完全清理我们的Cookies，我们不会利用Cookies收集个人隐私。</p>
-<ul>
-<li>Google Analytics</li>
-</ul>
-<p>我们通过Google Analytics 谷歌分析采集你在本站(如:网页浏览量，滚动次数，出站点击次数，网站搜索，文件下载次数)来提升本站预览服务；Google分析 <a href="https://support.google.com/analytics/answer/9216061?hl=zh_CN&utm_id=ad">详情描述</a>。</p>
-<h2 id="我们怎么利用你的隐私"><a href="#我们怎么利用你的隐私" class="headerlink" title="我们怎么利用你的隐私"></a>我们怎么利用你的隐私</h2><p>我们会不定期通过 Google Analytics 分析用户行为以优化网页用户体验；请放心 Google Analytics 在中国大陆地区可以正常收集，不需要通过 <del>科学上网</del>，如果你在 中国大陆境外 或者 开启代理网络 访问的情况下可能会消耗你的出口数据流量或者漫游数据。</p>
-<p>当你访问本站并且产生的相关信息 (如: IP 地址，浏览器的 User-Agent，以及您发送的评论图片信息…) 会加密保存到我们的后端数据库和缓存中，管理员面板此处简称 后端 可以查看，我们可能将无限期进行保留，如当地监管部门需要我们会如实提供，我们不会和境内外非法组织政企 含NGO 提供任何包含你个人信息的内容。</p>
-<p>当你访问个人主页我们会使用后端进行数据管理，你的 IP 地址会通过内置的 IP 查询 API 进行查询；当你访问国际站( github.io )时我们没有权利追踪你的 IP 和隐私。</p>
-<p>我们无法利用你访问国际站 miaoermua.github.io 产生的日志数据，仅供 github.io 托管访问。</p>
-<h2 id="您对您的产生的信息有什么权利"><a href="#您对您的产生的信息有什么权利" class="headerlink" title="您对您的产生的信息有什么权利"></a>您对您的产生的信息有什么权利</h2><ul>
-<li>评论</li>
-</ul>
-<p>我们将提供评论撤回功能，并且您有权利将您信息在数据库保留三个月后进行删除操作。</p>
-<ul>
-<li>Cookies</li>
-</ul>
-<p>你可以使用我站后完全清理我们的 Cookies；并且不会影响到你的计算机和移动设备。</p>
-<hr>
-<p>本隐私条款会随着时间逐步完善更新，本站会在告示下进行本条例的修改或更新。坚决捍卫守护用户的隐私行为！</p>
+    <title>Doge</title>
+    <url>/2021/05/14/Doge/</url>
+    <content><![CDATA[<p>可爱的Doge，柴犬镇楼！<br><img src="/images/a0126590_22301391.jpg" loading="lazy"></p>
+<span id="more"></span>
+<p><img src="/images/a0126590_22302718.jpg" loading="lazy"></p>
 ]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
   </entry>
   <entry>
     <title>一款好用的SMB备份软件FolderSync</title>
@@ -604,14 +561,6 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>Doge</title>
-    <url>/2021/05/14/Doge/</url>
-    <content><![CDATA[<p>可爱的Doge，柴犬镇楼！<br><img src="/images/a0126590_22301391.jpg" loading="lazy"></p>
-<span id="more"></span>
-<p><img src="/images/a0126590_22302718.jpg" loading="lazy"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>记录一次换CPU，R5 3600</title>
     <url>/2022/01/18/dg-replace-ryzen3600/</url>
     <content><![CDATA[<p>在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600</p>
@@ -693,6 +642,17 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
+    <title>在两者之间选择</title>
+    <url>/2021/11/30/newblog/</url>
+    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/images/nowblog.png" loading="lazy"></p>
+<span id="more"></span>
+
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
     <url>/2022/04/09/magisk-v24-hide/</url>
     <content><![CDATA[<p>在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk 的更新，毕竟安装各式的模块和框架好就不动他了。</p>
@@ -728,17 +688,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>在两者之间选择</title>
-    <url>/2021/11/30/newblog/</url>
-    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/images/nowblog.png" loading="lazy"></p>
-<span id="more"></span>
-
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【推荐】洗鞋神器-污渍干洗剂</title>
     <url>/2022/01/31/nianba-ganxi/</url>
     <content><![CDATA[<blockquote>
@@ -766,6 +715,14 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
+    <title>日记</title>
+    <url>/2022/01/20/notes/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+  </entry>
+  <entry>
     <title>软路由Openwrt overlay分区</title>
     <url>/2021/06/20/openwrt-overlay/</url>
     <content><![CDATA[<p>目的扩容overlay分区，docker分区</p>
@@ -791,14 +748,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
         <tag>软路由</tag>
         <tag>openwrt</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>日记</title>
-    <url>/2022/01/20/notes/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
   </entry>
   <entry>
     <title>给Openwrt套SSL证书</title>
@@ -842,60 +791,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </categories>
       <tags>
         <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一言</title>
-    <url>/2022/01/20/says/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
-    <url>/2021/10/02/optimize-windows-menu/</url>
-    <content><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p>
-<p>主要是做一些自己的文章，不依赖转载吃流量博眼球，才能吸引更多的新观众和高质友链</p>
-<p>本博文发布出来是做个链接方便后面的文章，有想关注的可以RSS订阅我的博客或者随时来博客玩hh</p>
-<p>RSS:<a href="https://www.miaoer.xyz/atom.xml">https://www.miaoer.xyz/atom.xml</a></p>
-<span id="more"></span>
-
-<p>【demo】</p>
-<p>因为讲解一次这些优化类的就要去重置一遍系统去还原定位问题，现在就从系统开始讲解保证小白也能看懂，不懂的我这里也会写出搜索的关键词</p>
-<blockquote>
-<p>当文章中出现搜索时他的格式是这样的</p>
-<p>这里的<code>品牌</code>是指<code>华硕</code>，<code>微星</code>，<code>华擎</code>等品牌板卡厂商(笔记本)，文章简称<code>品牌</code>保证搜索结果的一致性</p>
-<p>文章中: <code>品牌</code>bios怎么进</p>
-<p>您应该搜索: 品牌bios怎么进</p>
-</blockquote>
-<p>【demo】</p>
-<p>本章Windows优化目录</p>
-<p>1.系统篇</p>
-<ul>
-<li>重置、重装、驱动</li>
-</ul>
-<p>2.软件篇</p>
-<ul>
-<li>浏览器、官网、域名、推荐软件</li>
-</ul>
-<p>3.习惯篇</p>
-<ul>
-<li>搜索引擎、web端、下载站</li>
-</ul>
-<p>4.卸载和弹窗篇</p>
-<ul>
-<li>卸载软件、弹窗定位与删除</li>
-</ul>
-<p>本文首发在<a href="https://www.miaoer.xyz/">喵二の小博客</a>，转载请联系我并在文章明显初标记相关原文链接与作者名字</p>
-<p>暂时不会出视频教程篇，敬请关注，欢迎投喂</p>
-<p>【demo】</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -961,6 +856,61 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
+    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
+    <url>/2021/10/02/optimize-windows-menu/</url>
+    <content><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p>
+<p>主要是做一些自己的文章，不依赖转载吃流量博眼球，才能吸引更多的新观众和高质友链</p>
+<p>本博文发布出来是做个链接方便后面的文章，有想关注的可以RSS订阅我的博客或者随时来博客玩hh</p>
+<p>RSS:<a href="https://www.miaoer.xyz/atom.xml">https://www.miaoer.xyz/atom.xml</a></p>
+<span id="more"></span>
+
+<p>【demo】</p>
+<p>因为讲解一次这些优化类的就要去重置一遍系统去还原定位问题，现在就从系统开始讲解保证小白也能看懂，不懂的我这里也会写出搜索的关键词</p>
+<blockquote>
+<p>当文章中出现搜索时他的格式是这样的</p>
+<p>这里的<code>品牌</code>是指<code>华硕</code>，<code>微星</code>，<code>华擎</code>等品牌板卡厂商(笔记本)，文章简称<code>品牌</code>保证搜索结果的一致性</p>
+<p>文章中: <code>品牌</code>bios怎么进</p>
+<p>您应该搜索: 品牌bios怎么进</p>
+</blockquote>
+<p>【demo】</p>
+<p>本章Windows优化目录</p>
+<p>1.系统篇</p>
+<ul>
+<li>重置、重装、驱动</li>
+</ul>
+<p>2.软件篇</p>
+<ul>
+<li>浏览器、官网、域名、推荐软件</li>
+</ul>
+<p>3.习惯篇</p>
+<ul>
+<li>搜索引擎、web端、下载站</li>
+</ul>
+<p>4.卸载和弹窗篇</p>
+<ul>
+<li>卸载软件、弹窗定位与删除</li>
+</ul>
+<p>本文首发在<a href="https://www.miaoer.xyz/">喵二の小博客</a>，转载请联系我并在文章明显初标记相关原文链接与作者名字</p>
+<p>暂时不会出视频教程篇，敬请关注，欢迎投喂</p>
+<p>【demo】</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2020/08/12/test/</url>
+    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
+<ul>
+<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>软路由？值得买吗</title>
     <url>/2021/11/05/softrouter-de/</url>
     <content><![CDATA[<p>随着上网需求逐步提高，普通的无线路由器的性能不能仅满足于当今互联网健康的上网方式。</p>
@@ -1023,15 +973,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>软路由</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2020/08/12/test/</url>
-    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
-<ul>
-<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
-</ul>
-]]></content>
   </entry>
   <entry>
     <title>小米10换电池再再钉子户</title>
