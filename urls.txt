@@ -1,3 +1,4 @@
+https://blog.miaoer.xyz/2022/06/01/app-foldersync/
 https://blog.miaoer.xyz/2022/05/22/xiaomi10-battey/
 https://blog.miaoer.xyz/2022/05/10/openwrt-ssl/
 https://blog.miaoer.xyz/2022/04/29/first-pfsense/

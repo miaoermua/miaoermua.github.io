@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.miaoer.xyz/2022/06/01/app-foldersync/</loc>
+    
+    <lastmod>2022-06-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.miaoer.xyz/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/</loc>
+    
+    <lastmod>2022-06-06</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.miaoer.xyz/links/index.html</loc>
     
     <lastmod>2022-06-01</lastmod>
@@ -101,13 +115,6 @@
   
   <url>
     <loc>https://blog.miaoer.xyz/2021/09/14/Privacy/</loc>
-    
-    <lastmod>2022-02-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.miaoer.xyz/2021/05/20/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E5%88%86%E4%BA%AB/</loc>
     
     <lastmod>2022-02-22</lastmod>
     
@@ -282,14 +289,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/textures_order.json</loc>
+    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/index.json</loc>
+    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/textures_order.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -333,6 +340,13 @@
   </url>
   
   <url>
+    <loc>https://blog.miaoer.xyz/tags/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2022-06-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.miaoer.xyz/tags/%E7%94%B5%E8%84%91/</loc>
     <lastmod>2022-06-06</lastmod>
     <changefreq>daily</changefreq>
@@ -340,14 +354,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/</loc>
+    <loc>https://blog.miaoer.xyz/tags/%E8%A3%85%E6%9C%BA/</loc>
     <lastmod>2022-06-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/%E8%A3%85%E6%9C%BA/</loc>
+    <loc>https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/</loc>
     <lastmod>2022-06-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -433,6 +447,13 @@
   </url>
   
   <url>
+    <loc>https://blog.miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2022-06-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.miaoer.xyz/categories/%E7%94%B5%E8%84%91/</loc>
     <lastmod>2022-06-06</lastmod>
     <changefreq>daily</changefreq>
@@ -469,13 +490,6 @@
   
   <url>
     <loc>https://blog.miaoer.xyz/categories/OpenWrt/</loc>
-    <lastmod>2022-06-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-06-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
