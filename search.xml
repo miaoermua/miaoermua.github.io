@@ -9,15 +9,15 @@
 ]]></content>
   </entry>
   <entry>
-    <title>视频-【120帧】小米Mix2s宣传片</title>
-    <url>/2022/03/21/BV1Jq4y1v7H7/</url>
-    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=594951604&bvid=BV1Jq4y1v7H7&cid=554204088&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
+    <title>视频-【120帧】小米Mix Alpha宣传片</title>
+    <url>/2022/03/21/BV1QU4y1R75s/</url>
+    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
 
 <hr>
-<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1Jq4y1v7H7">https://www.bilibili.com/video/BV1Jq4y1v7H7</a></p>
+<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1QU4y1R75s">https://www.bilibili.com/video/BV1QU4y1R75s</a></p>
 <p>试试湿滑的补帧</p>
 <h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
-<p>文件名: xiaomimix2s.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
+<p>文件名: xiaomimixalpha.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
 <p>原分辨率: 1920*1080</p>
 <p>补帧分辨率: 1920*1080</p>
 <p>上传分辨率: 1920*1080 > 3840*2160</p>
@@ -27,13 +27,188 @@
 <p>码率: 15 < 20Mbps</p>
 <p>编码: x265</p>
 
-<p>*视频来源B站收集小米宣传片 小米mix2s 因素材过多无来源链接，如侵犯版权请联系我</p>
+<p>*视频来源小米商城收集小米宣传片 <a href="https://www.mi.com/mixalpha">小米MixAlpha</a></p>
 ]]></content>
       <categories>
         <category>Blog</category>
       </categories>
       <tags>
         <tag>视频博文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSGO各种实用代码分享</title>
+    <url>/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<p><del>文明游戏,背起行囊</del></p>
+<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>国服 <code>-perfectworld</code></p>
+<p>国际服 <code>-worldwide</code></p>
+<p>网络FPS状态 <code>net_graph 1</code></p>
+<p>调小网络于FPS状态 <code>net_graphproportionalfont 0.7</code></p>
+<p>持枪方向 <code>cl_righthand 1</code></p>
+<p>Alt换持枪方向 <code>BindToggle &quot;ALT&quot; &quot;cl_righthand&quot;;</code></p>
+<p>清血 <code>r_cleardecals</code></p>
+<p>清血绑定Shift <code>bind shift&quot;+lookatweapon;r_cleardecals</code></p>
+<p>一键跳投 <code>alias +jumpthrow&quot;+jump;-attack&quot;; alias -jumpthrow -jump bind v +jumpthrow</code></p>
+<p>全屏准星 <code>bind &quot;h&quot; &quot;toggle cl_crosshairsize 5 1000&quot;</code></p>
+<p>Tab显示计分板网络 <code>bind &quot;TAB&quot; &quot;+showscores_custom&quot;; alias &quot;+showscores_custom&quot; &quot;+showscores;net_graphheight 64; alias &quot;-showscores_custom&quot; &quot;-showscores;net_graphheight 9999&quot;; net_graph &quot;1&quot;; net_graphheight &quot;9999&quot;; net_graphpos &quot;2&quot;;</code></p>
+<p>减少手臂摇摆 <code>cl_bob_lower_amt &quot;5&quot;; cl_bobamt_lat &quot;0.1&quot;; cl_bobamt_vert &quot;0.1&quot;; cl_viewmodel_shift_left_amt &quot;0.5&quot;; cl_viewmodel_shift_right_amt &quot;0.25&quot;;</code></p>
+<p>绑定 Alt 飞行 <code>bind &quot;alt&quot; &quot;noclip&quot;</code></p>
+<h2 id="作弊类"><a href="#作弊类" class="headerlink" title="作弊类"></a>作弊类</h2><p>开启作弊 <code>sv_cheats 1</code></p>
+<p>无限子弹 <code>sv_infinite_ammo 1</code></p>
+<p>上帝模式_锁 <code>god</code></p>
+<p>飞天 <code>noclip</code></p>
+<p>第一人称 <code>cam_command 1</code></p>
+<p>实体透视 <code>r_drawothermodels 2</code></p>
+<p>(无效)自瞄 <code>ent_fire !picker addoutputmodelscale 0</code></p>
+<p>(无效)子弹穿墙 <code>cl_showothermodels 3</code></p>
+<p>灵敏度假转 <code>bind j &quot;toggle m_yaw 0.022 1000&quot;</code></p>
+<p>无后座 <code>sv_cheats &quot;1&quot;;weapon_accuracy_nospread &quot;1&quot;;weapon_debug_spread_gap &quot;1&quot;;weapon_recoil_cooldown &quot;0&quot;;weapon_recoil_decay1_exp &quot;99999&quot;;weapon_recoil_decay2_exp &quot;99999&quot;;weapon_recoil_decay2_lin &quot;99999&quot;;weapon_recoil_scale &quot;0&quot;;weapon_recoil_suppression_shots &quot;500&quot;;weapon_recoil_view_punch_extra 0</code></p>
+<p>大地球滑步 <code>sv_standable_normal 1000</code></p>
+<p>允许连跳 <code>sv_enablebunnyhopping 1</code></p>
+<p>自动连跳 <code>sv_autobunnyhopping 1</code></p>
+<p>空中速度 <code>sv_airaccelerate 20000</code></p>
+<p>血量 <code>ent_fire !self addoutput &quot;health 233&quot;</code></p>
+<h2 id="房间"><a href="#房间" class="headerlink" title="房间"></a>房间</h2><p>1秒刷新房间 <code>mp_restartgame &quot;1&quot;</code></p>
+<p>禁止自动平衡人数 <code>mp_autoteambalance 0</code></p>
+<p>金钱上限 <code>mp_maxmoney &quot;16000&quot;</code></p>
+<p>出生金钱 <code>mp_startmoney &quot;16000&quot;</code></p>
+<p>任意地点购买 <code>mp_buy_anywhere &quot;1&quot;</code></p>
+<p>显示10秒投掷物轨迹 <code>sv_grenade_trajectory_time &quot;10&quot;</code></p>
+<p>射击命中点显示 <code>sv_showimpacts 1</code></p>
+<p>踢掉bot <code>bot kick</code></p>
+<p>杀掉所有bot <code>bot_kill</code></p>
+<p>随机增加bot <code>bot_add</code></p>
+<p>增加bot到CT <code>bot_add_ct</code></p>
+<p>增加bot到T <code>bot_add_t</code></p>
+<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="完美世界竞技平台"><a href="#完美世界竞技平台" class="headerlink" title="完美世界竞技平台"></a>完美世界竞技平台</h3><p>暂停 <code>.pause</code> &amp; <code>!pause</code></p>
+<p>解除暂停 <code>.unpause</code></p>
+<p>发刀 <code>.drop</code></p>
+<p>举报 <code>.report</code></p>
+<p>投降 <code>.gg</code></p>
+<p>队友建议位置 <code>.team</code></p>
+<p>赛前道具 <code>.m</code></p>
+<p>菜单 <code>.menu</code></p>
+<p>聊天框提示 <code>.info</code></p>
+<h3 id="5E对战平台"><a href="#5E对战平台" class="headerlink" title="5E对战平台"></a>5E对战平台</h3><p>暂停 <code>.p</code></p>
+<p>解除暂停 <code>.up</code></p>
+<p>发刀 <code>.d</code></p>
+<p>举报 <code>.r</code></p>
+<p>投降 <code>.g</code> &amp; <code>.gg</code></p>
+<h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 <code>mp_drop_knife_enable 1</code></p>
+<p>海豹短刀 <code>give weapon_knife_css; ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>刺刀 <code>give weapon_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>折叠刀 <code>give weapon_knife_flip;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>穿肠刀 <code>give weapon_knife_gut;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>爪子刀 <code>give weapon_knife_karambit;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>M9 <code>give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>猎杀者匕首 <code>give weapon_knife_tactical;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>蝴蝶刀 <code>give weapon_knife_butterfly;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>弯刀 <code>give weapon_knife_falchion;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>双匕 <code>give weapon_knife_push;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>鲍伊 <code>give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>熊刀 <code>give weapon_knife_ursus;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>折刀 <code>give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>短剑 <code>give weapon_knife_stiletto;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>锯齿爪 <code>give weapon_knife_widowmaker;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p>按键非指令</p>
+<p>打开Demo控制台 <code>shift+f2</code></p>
+<p>x光 <code>x</code></p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>csgo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Doge</title>
+    <url>/2021/05/14/Doge/</url>
+    <content><![CDATA[<p>可爱的Doge，柴犬镇楼！<br><img src="/images/a0126590_22301391.jpg" loading="lazy"></p>
+<span id="more"></span>
+<p><img src="/images/a0126590_22302718.jpg" loading="lazy"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一款好用的SMB备份软件FolderSync</title>
+    <url>/2022/06/01/app-foldersync/</url>
+    <content><![CDATA[<p><i class="ri-bilibili-line"></i> <a href="https://www.bilibili.com/video/BV1Tv4y137oD">哔哩哔哩</a></p>
+<p><i class="ri-youtube-line"></i> <a href="https://www.youtube.com/watch?v=xfjNE3QsarM&t">YouTube</a></p>
+<hr>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>最近我发现一款非常好的 SMB 备份软件叫做 FolderSync，在早一些时候我也是通过数据线一头连电脑进行备份相册目录的，</p>
+<p>因为家境贫寒家里没有品牌 NAS 所以自己在软路由上搭建了 SAMBA 服务，用来储存一些电影和共享资源等……</p>
+<p>今天我们来捣鼓一下。</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/app-web.png" loading="lazy"></p>
+<p>我们可以在谷歌 Play 商店下载到这款软件，我也准备了 APK 包方便大家的下载</p>
+<p><i class="ri-file-download-line"></i> <a href="https://wwd.lanzouy.com/b02dbo1kh">蓝奏云</a> 密码:5cgt</p>
+<blockquote>
+<p>因为软件需要付费，有能力可以用 Play 商店里下免费的，蓝奏云上为绿色版不知道存不存在安全风险。</p>
+</blockquote>
+<hr>
+<p>下载完成以后打开这款软件，可以看到需要我们给予权限，才能正常工作这里推荐打开所有的建议项，</p>
+<p>因系统UI部分设置项可能不同，按照软件里的一个一个同意。</p>
+<p>进入软件在底栏找到账户，点击 <code>添加账户</code> ，可以看到有很多的账户类型，这都不是的重点，</p>
+<p>滑到最底下可以看到 SMB2，为什么不选 SMB1 呢，距我实测 SMB1 怎么设置都是用不了的，如果你 SMB2 也不能用，</p>
+<p>可以将防火墙放行 <code>445</code> 和 <code>139</code> 端口，</p>
+<p>我这里使用宝塔 Linux 面板进行放行端口。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/bt-firewall.png" loading="lazy"></p>
+<h3 id="放行防火墙"><a href="#放行防火墙" class="headerlink" title="放行防火墙"></a>放行防火墙</h3><p>在终端输入 <code>sudo apt-get install iptables-persistent</code>，</p>
+<p>安装页中应该是是否添加 IPv4 和 IPv6 规则，这里都 <code>Yes</code>，</p>
+<p>安装完成后返回再输入；</p>
+<p><code>iptables -I INPUT -p tcp --dport 445 -j ACCEPT &amp;&amp; iptables -I INPUT -p tcp --dport 139 -j ACCEPT</code></p>
+<p>输入 <code>sudo netfilter-persistent save</code> 保存，</p>
+<p>这样端口就放行成功了。</p>
+<blockquote>
+<p>安全问题: 如果你是在外网的话需要进行端口转发到公网，没有接触到外网服务的可以直接把防火墙关了，这里不推荐公开 SMB 端口容易被攻击可以用 Openwrt 中的插件做反向代理，这点后面可能会单独出一期讲解，确实非常简单这里就不买关子了；<br>无非就是找一个域名做 DDNS 然后将端口开放和转发并开启反向代理，记得要开启 <code>接受局域网访问</code> 之后在 手机 APP 里面挂全局代理，就可以在外网访问内网服务了，只要你的代理密码和端口没开放太多这都是安全的。</p>
+</blockquote>
+<h3 id="SAMBA-服务搭建"><a href="#SAMBA-服务搭建" class="headerlink" title="SAMBA 服务搭建"></a>SAMBA 服务搭建</h3><p>如果你没搭建 SAMBA 服务，这里简单说一下，</p>
+<p>这里用户用喵二 <code>miaoer</code> 和共享 <code>nas</code> 进行设置用户名和服务名、位置；请自己替换自己喜欢的格式勿乱、举一反三。</p>
+<pre class="language-none"><code class="language-none">useradd miaoer     &#x2F;&#x2F;新建用户名 miaoer
+
+sudo apt-get install samba     &#x2F;&#x2F;管理员权限安装 samba
+
+sudo smbpasswd -a miaoer     &#x2F;&#x2F;设置 miaoer 的 samba 用户名密码
+
+cd &#x2F; &amp;&amp; mkdir nas     &#x2F;&#x2F;返回根目录创建 nas 共享文件夹
+
+chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
+
+<p>配置文件可以找办法编辑好再上传或者使用 vim 命令，按 <code>i</code> 编辑，按 <code>Esc</code> 后 <code>Shift + :</code> 直到输入 <code>:wq</code> 退出。</p>
+<pre class="language-none"><code class="language-none">[nas]
+        comment &#x3D; nas
+        path &#x3D; &#x2F;nas
+        browseable &#x3D; yes
+        writable &#x3D; yes
+        file mode &#x3D; 660     
+        force file mode &#x3D; 660
+        directory mode &#x3D; 770
+        force directory mode &#x3D; 770</code></pre>
+
+
+<h2 id="软件设置"><a href="#软件设置" class="headerlink" title="软件设置"></a>软件设置</h2><p>好的回到正题，在 SMB2 中设置，在登录这里输入刚刚设置好的用户名和密码，</p>
+<p>连接这里输入内网部署了 SAMBA 的主机地址，和端口号这里默认就好，共享名字输入刚刚设置好的名字文件夹名字。</p>
+<p>然后点保存。</p>
+<p>然后进入左边的 <code>文件夹对</code>，创建文件夹对选择 SMB2，</p>
+<p>进到这里可以看到很多的选项，</p>
+<p>同步类型我这里只需要选择，到远程文件夹。</p>
+<p>点击远程文件夹，因为这里没有用于专门备份的文件夹，新建一个我这里设置的 Mi10 文件夹这里随便你</p>
+<p>新建完成点击进去，点下右下角的勾</p>
+<p>本地文件夹这里相册在 <code>DCIM</code> 里，点击进去然后将勾上，可以先进行测试。</p>
+<h2 id="原图"><a href="#原图" class="headerlink" title="原图"></a>原图</h2><p>好的我们现在没有任何问题了，回到首页现在我们还不能点同步的按钮，我们还需要简单的做几步，首先打开设置，在云服务这里找到相册，相册中选择自动 <code>下载原图</code>，</p>
+<p>点击立即同步，将相册立即同步，我们返回开启 <code>快速同步</code> 这样我们下载原图会更快一些。</p>
+<p>好的，我这里跑了一会总算是把云服务的相册拉了回来，我们继续，</p>
+<p>点击一下 <code>同步</code>，返回到 APP 的首页查看同步状态，如果在跑了就代表正常了，接下来我们再设置计划任务这里按照你个人习惯进行计划任务，我这里就设置自定义的时间也就是睡觉时间备份，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/uploading.png" loading="lazy"></p>
+<p>不过要确定 FolderSync 是否有自启动权限和关闭省电策略，不然前面设置的都是徒劳。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>视频博文</tag>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
@@ -258,15 +433,15 @@
       </tags>
   </entry>
   <entry>
-    <title>视频-【120帧】小米Mix Alpha宣传片</title>
-    <url>/2022/03/21/BV1QU4y1R75s/</url>
-    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
+    <title>视频-【120帧】小米Mix2s宣传片</title>
+    <url>/2022/03/21/BV1Jq4y1v7H7/</url>
+    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=594951604&bvid=BV1Jq4y1v7H7&cid=554204088&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
 
 <hr>
-<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1QU4y1R75s">https://www.bilibili.com/video/BV1QU4y1R75s</a></p>
+<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1Jq4y1v7H7">https://www.bilibili.com/video/BV1Jq4y1v7H7</a></p>
 <p>试试湿滑的补帧</p>
 <h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
-<p>文件名: xiaomimixalpha.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
+<p>文件名: xiaomimix2s.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
 <p>原分辨率: 1920*1080</p>
 <p>补帧分辨率: 1920*1080</p>
 <p>上传分辨率: 1920*1080 > 3840*2160</p>
@@ -276,7 +451,7 @@
 <p>码率: 15 < 20Mbps</p>
 <p>编码: x265</p>
 
-<p>*视频来源小米商城收集小米宣传片 <a href="https://www.mi.com/mixalpha">小米MixAlpha</a></p>
+<p>*视频来源B站收集小米宣传片 小米mix2s 因素材过多无来源链接，如侵犯版权请联系我</p>
 ]]></content>
       <categories>
         <category>Blog</category>
@@ -286,97 +461,85 @@
       </tags>
   </entry>
   <entry>
-    <title>CSGO各种实用代码分享</title>
-    <url>/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<p><del>文明游戏,背起行囊</del></p>
-<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>国服 <code>-perfectworld</code></p>
-<p>国际服 <code>-worldwide</code></p>
-<p>网络FPS状态 <code>net_graph 1</code></p>
-<p>调小网络于FPS状态 <code>net_graphproportionalfont 0.7</code></p>
-<p>持枪方向 <code>cl_righthand 1</code></p>
-<p>Alt换持枪方向 <code>BindToggle &quot;ALT&quot; &quot;cl_righthand&quot;;</code></p>
-<p>清血 <code>r_cleardecals</code></p>
-<p>清血绑定Shift <code>bind shift&quot;+lookatweapon;r_cleardecals</code></p>
-<p>一键跳投 <code>alias +jumpthrow&quot;+jump;-attack&quot;; alias -jumpthrow -jump bind v +jumpthrow</code></p>
-<p>全屏准星 <code>bind &quot;h&quot; &quot;toggle cl_crosshairsize 5 1000&quot;</code></p>
-<p>Tab显示计分板网络 <code>bind &quot;TAB&quot; &quot;+showscores_custom&quot;; alias &quot;+showscores_custom&quot; &quot;+showscores;net_graphheight 64; alias &quot;-showscores_custom&quot; &quot;-showscores;net_graphheight 9999&quot;; net_graph &quot;1&quot;; net_graphheight &quot;9999&quot;; net_graphpos &quot;2&quot;;</code></p>
-<p>减少手臂摇摆 <code>cl_bob_lower_amt &quot;5&quot;; cl_bobamt_lat &quot;0.1&quot;; cl_bobamt_vert &quot;0.1&quot;; cl_viewmodel_shift_left_amt &quot;0.5&quot;; cl_viewmodel_shift_right_amt &quot;0.25&quot;;</code></p>
-<p>绑定 Alt 飞行 <code>bind &quot;alt&quot; &quot;noclip&quot;</code></p>
-<h2 id="作弊类"><a href="#作弊类" class="headerlink" title="作弊类"></a>作弊类</h2><p>开启作弊 <code>sv_cheats 1</code></p>
-<p>无限子弹 <code>sv_infinite_ammo 1</code></p>
-<p>上帝模式_锁 <code>god</code></p>
-<p>飞天 <code>noclip</code></p>
-<p>第一人称 <code>cam_command 1</code></p>
-<p>实体透视 <code>r_drawothermodels 2</code></p>
-<p>(无效)自瞄 <code>ent_fire !picker addoutputmodelscale 0</code></p>
-<p>(无效)子弹穿墙 <code>cl_showothermodels 3</code></p>
-<p>灵敏度假转 <code>bind j &quot;toggle m_yaw 0.022 1000&quot;</code></p>
-<p>无后座 <code>sv_cheats &quot;1&quot;;weapon_accuracy_nospread &quot;1&quot;;weapon_debug_spread_gap &quot;1&quot;;weapon_recoil_cooldown &quot;0&quot;;weapon_recoil_decay1_exp &quot;99999&quot;;weapon_recoil_decay2_exp &quot;99999&quot;;weapon_recoil_decay2_lin &quot;99999&quot;;weapon_recoil_scale &quot;0&quot;;weapon_recoil_suppression_shots &quot;500&quot;;weapon_recoil_view_punch_extra 0</code></p>
-<p>大地球滑步 <code>sv_standable_normal 1000</code></p>
-<p>允许连跳 <code>sv_enablebunnyhopping 1</code></p>
-<p>自动连跳 <code>sv_autobunnyhopping 1</code></p>
-<p>空中速度 <code>sv_airaccelerate 20000</code></p>
-<p>血量 <code>ent_fire !self addoutput &quot;health 233&quot;</code></p>
-<h2 id="房间"><a href="#房间" class="headerlink" title="房间"></a>房间</h2><p>1秒刷新房间 <code>mp_restartgame &quot;1&quot;</code></p>
-<p>禁止自动平衡人数 <code>mp_autoteambalance 0</code></p>
-<p>金钱上限 <code>mp_maxmoney &quot;16000&quot;</code></p>
-<p>出生金钱 <code>mp_startmoney &quot;16000&quot;</code></p>
-<p>任意地点购买 <code>mp_buy_anywhere &quot;1&quot;</code></p>
-<p>显示10秒投掷物轨迹 <code>sv_grenade_trajectory_time &quot;10&quot;</code></p>
-<p>射击命中点显示 <code>sv_showimpacts 1</code></p>
-<p>踢掉bot <code>bot kick</code></p>
-<p>杀掉所有bot <code>bot_kill</code></p>
-<p>随机增加bot <code>bot_add</code></p>
-<p>增加bot到CT <code>bot_add_ct</code></p>
-<p>增加bot到T <code>bot_add_t</code></p>
-<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="完美世界竞技平台"><a href="#完美世界竞技平台" class="headerlink" title="完美世界竞技平台"></a>完美世界竞技平台</h3><p>暂停 <code>.pause</code> &amp; <code>!pause</code></p>
-<p>解除暂停 <code>.unpause</code></p>
-<p>发刀 <code>.drop</code></p>
-<p>举报 <code>.report</code></p>
-<p>投降 <code>.gg</code></p>
-<p>队友建议位置 <code>.team</code></p>
-<p>赛前道具 <code>.m</code></p>
-<p>菜单 <code>.menu</code></p>
-<p>聊天框提示 <code>.info</code></p>
-<h3 id="5E对战平台"><a href="#5E对战平台" class="headerlink" title="5E对战平台"></a>5E对战平台</h3><p>暂停 <code>.p</code></p>
-<p>解除暂停 <code>.up</code></p>
-<p>发刀 <code>.d</code></p>
-<p>举报 <code>.r</code></p>
-<p>投降 <code>.g</code> &amp; <code>.gg</code></p>
-<h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 <code>mp_drop_knife_enable 1</code></p>
-<p>海豹短刀 <code>give weapon_knife_css; ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>刺刀 <code>give weapon_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>折叠刀 <code>give weapon_knife_flip;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>穿肠刀 <code>give weapon_knife_gut;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>爪子刀 <code>give weapon_knife_karambit;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>M9 <code>give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>猎杀者匕首 <code>give weapon_knife_tactical;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>蝴蝶刀 <code>give weapon_knife_butterfly;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>弯刀 <code>give weapon_knife_falchion;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>双匕 <code>give weapon_knife_push;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>鲍伊 <code>give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>熊刀 <code>give weapon_knife_ursus;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>折刀 <code>give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>短剑 <code>give weapon_knife_stiletto;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>锯齿爪 <code>give weapon_knife_widowmaker;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p>按键非指令</p>
-<p>打开Demo控制台 <code>shift+f2</code></p>
-<p>x光 <code>x</code></p>
+    <title>第一次用 pfSense</title>
+    <url>/2022/04/29/first-pfsense/</url>
+    <content><![CDATA[<p>在用过 Router OS 和爱快后我盯上了老外爱玩的 pfSense 拿来完成基本网络应用，在 <a href="https://www.pfsense.org/">pfSense官网</a> 中选择新加坡节点下载非常快，pfSense 是基于 FreeBSD 免费开源的系统；</p>
+<p>我给 pfSense 在 EXSI 虚拟机中分配了 2核2线程CPU 、 512M RAM 、 2G 硬盘(SATA控制器)，在经过基础安装后，设置好网卡，静态 ip，开启 http 后台……</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-04-29/pfsense-dash.png" loading="lazy"></p>
+<span id="more"></span>
+
+<p>到了 pfSense 最难配置的地方，我先设置好 Wan 口的 PPPoE 拨号、设置 DHCP server、DNS缓存、UPNP</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-04-29/dnscache.png" loading="lazy"></p>
+<p>哦对了如果你是多网口软路由你会在这里设置一次网桥 (interfaces_bridge) 需要将 Lan 设置成员接口将opt1 opt2 opt3…… 桥接起来，还需要关闭二级隔离 (系统/高级选项/系统可调参数)</p>
+<pre class="language-none"><code class="language-none">net.link.bridge.pfil_member &#x3D;1  ##  Packet filter on the member interface
+net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</code></pre>
+
+<p>因为家里是广移，我需要开启 IPv6 <del>(IPv6推进员)</del>大概是把 IPv6 的防火墙打开 放行<code>IPv6 ICMP/TCP</code> 放行Lan口<code>IPv6 UDP 53</code>端口，设置 Lan 口 IPv6 配置类型 <code>跟踪端口</code>为 Wan，设置 Wan 口 使用IPv4为父接口 <code>通过IPv4连接链路请求IPv6前缀/信息</code>，DHCPv6 服务<code>Enable DHCPv6 server on interface LAN</code>，路由模式 <code>已管理 - RA标志[managed, other stateful]，前缀标志[onlink，router]</code> 没记错应该就这些我也是看别人博客怎么打开的因为太过复杂……</p>
+<p>还有就是他的插件也是比较的少的比起 OpenWrt 少远了不过，还能套 ssl，iperf3，open-vmware-tools……，这个系统优点就是强大的防火墙功能，<del>上面是防火墙白搭系列</del></p>
+<p>这里就不做演示了，我个人认为这个系统是比较难的但是基础的比 RouterOS 简单，只不过步骤烦多非常不人性化……</p>
+<p>稳定、安全、高效才是王道。(●’◡’●)</p>
+<p>安装视频参考: <a href="https://www.youtube.com/c/VedioTalk">VedioTalk</a></p>
 ]]></content>
       <categories>
-        <category>分享</category>
+        <category>网络</category>
       </categories>
       <tags>
-        <tag>csgo</tag>
+        <tag>软路由</tag>
       </tags>
   </entry>
   <entry>
-    <title>Doge</title>
-    <url>/2021/05/14/Doge/</url>
-    <content><![CDATA[<p>可爱的Doge，柴犬镇楼！<br><img src="/images/a0126590_22301391.jpg" loading="lazy"></p>
+    <title>记录一次换CPU，R5 3600</title>
+    <url>/2022/01/18/dg-replace-ryzen3600/</url>
+    <content><![CDATA[<p>在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031857.jpg" loading="lazy"></p>
 <span id="more"></span>
-<p><img src="/images/a0126590_22302718.jpg" loading="lazy"></p>
+
+<p>在 Zen2 架构下这一代性能表现都非常优异，不能光看评测还得自己上手一下，没想到升级的不是我的老锐龙电脑是去年给别人 2800 装的电脑，当时在没有矿潮的时候这张1660在淘宝上购入 1599，矿潮时甚至涨到 3000+ ……；</p>
+<p>在早上5:50起，就检查一下快递有没有到，很可惜我买内存的时候没看清楚地址就下单了，只能先带着处理器奔赴东莞，我卡好点选择下地铁再南站购票，我赶上了 8:06 到的 G6253 高铁，下高铁站后座上东莞轨道交通在珊美地铁站下，很可惜他们那边暂时还没有1号线，以后开通了有机会坐一坐；到朋友家里稍微等了等内存的快递，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031848.jpg" loading="lazy"></p>
+<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；稍微拿纸巾擦拭了一下，把把手往右滑上提到90度拿下旧的 2200g 放一边，因为拿之前看过不少连根拔起的图在操作之前烤鸡了。在包装里拿起 3600 放下拉下把手扣上有原装水泥(硅脂)幽灵散热器，把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031829.jpg" loading="lazy"></p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031838.jpg" loading="lazy"></p>
+<p>换上新的 芝奇 DDR4 8G 2400 (时序: 15-15-15-39) 的非马甲单面条，不要问为什么强调单面条后面就知道了；擦腚，楷机，屏幕轻松点亮。第一次开机重启了，第二次弹出让你选F1还是F2的，我选了F1进了 BIOS 然后重启到系统，打开任务管理器看框框，一下子多了8个框框，因为时间紧迫没有下 afterburner 看帧率但游戏中没有过卡顿和跳帧了；</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031812.jpg" loading="lazy"></p>
+<p>在单通道 8G下 绝地求生:大逃杀 帧率在 100<del>120 波动 最低帧80，在 CS:GO 中帧率在 200</del>300 波动 最低帧150（不包含烟雾弹），我打包票这个配置可以再战3年，节后再补买同样的内存。</p>
+<p>坑点: 就在单双面上，就隔天发货我收到的是双面颗粒的，而在朋友家收到的就是单面条。</p>
+<p>这次升级就算完成了，朋友一场要了点路费就跑了还带走了换下来的CPU和内存挂海鲜市场，过几天还有一个朋友的硬盘换PM9A1敬请关注。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031801.jpg" loading="lazy"></p>
 ]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>电脑</tag>
+        <tag>装机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记录一次换m.2硬盘</title>
+    <url>/2022/01/31/fs-pm9a1/</url>
+    <content><![CDATA[<p>受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)</p>
+<p>有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，<br>三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>啪的一下很快啊，快递从南京过来了，快递比我想象中的还要小，更让我惊讶的是M.2硬盘这么小…（SATA固态的泪）</p>
+<p>螺丝没找到直接斜插直连 CPU 的 PCIe 通道的M.2硬盘位，开机稍微分了一下区就开始跑 AS SSD 了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/PM9A1.png" loading="lazy"></p>
+<p>读: 2832MB/s 写: 2763MB/s</p>
+<p>令我惊讶的是 4K 的速度，读: 2109MB/s 写: 1345MB/s，第一次亲眼在自己电脑上这么高的分数。</p>
+<p>用 CrystalDiskInfo 显示都是没问题的，也没去查了，把盘还原打包放置了十来天</p>
+<p>直到1月29日，刚刚好有空就送过去朋友家里，上门服务了属于是</p>
+<p>拆开机箱看到的不知道西数的什么 SSD 蓝盘【这几天查询后修改】，我拆开了另外一侧的盖板好家伙，原来机器吵不是机械硬盘在吵…但是也是要加的因为不知道为什么固态也这么慢，不过他原来的固态插的芯片组引出的 PCIe 通道上，我只需要卸下原来的 M.2 马甲将 PM9A1 安上就好了。</p>
+<p>装后给原来的固态备份质料，然后清空重新单个分区，因为习惯性安装的 Windows 10 ，给 PM9A1 分了2个区，安装驱动…win10已经给我安装完了，显卡驱动也是但是我还是补上了 NVIDIA GeForce Experience 方便更新，安装好常用软件就，坐了一会就走了…</p>
+<p>晚7点半走，等了半天车11点才到家，淦(;´༎ຶД༎ຶ`)</p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>电脑</tag>
+      </tags>
   </entry>
   <entry>
     <title>博客更新啦</title>
@@ -453,86 +616,6 @@
       </tags>
   </entry>
   <entry>
-    <title>一款好用的SMB备份软件FolderSync</title>
-    <url>/2022/06/01/app-foldersync/</url>
-    <content><![CDATA[<p><i class="ri-bilibili-line"></i> <a href="https://www.bilibili.com/video/BV1Tv4y137oD">BiliBili -无cc字幕</a></p>
-<p><i class="ri-youtube-line"></i> <a href="https://www.youtube.com/watch?v=xfjNE3QsarM&t">YouTube -cc字幕</a></p>
-<hr>
-<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>最近我发现一款非常好的 SMB 备份软件叫做 FolderSync，在早一些时候我也是通过数据线一头连电脑进行备份相册目录的，</p>
-<p>因为家境贫寒家里没有品牌 NAS 所以自己在软路由上搭建了 SAMBA 服务，用来储存一些电影和共享资源等……</p>
-<p>今天我们来捣鼓一下。</p>
-<span id="more"></span>
-
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/app-web.png" loading="lazy"></p>
-<p>我们可以在谷歌 Play 商店下载到这款软件，我也准备了 APK 包方便大家的下载</p>
-<p><i class="ri-file-download-line"></i> <a href="https://cdn.miaoer.xyz/download/22-06-04/FolderSync-v3.1.15.apk">下载附件 FolderSync-v3.1.15.apk</a></p>
-<p><i class="ri-file-download-line"></i> <a href="https://wwd.lanzouy.com/b02dbo1kh">蓝奏云</a> 密码:5cgt</p>
-<hr>
-<p>下载完成以后打开这款软件，可以看到需要我们给予权限，才能正常工作这里推荐打开所有的建议项，</p>
-<p>因系统UI部分设置项可能不同，按照软件里的一个一个同意。</p>
-<p>进入软件在底栏找到账户，点击 <code>添加账户</code> ，可以看到有很多的账户类型，这都不是的重点，</p>
-<p>滑到最底下可以看到 SMB2，为什么不选 SMB1 呢，距我实测 SMB1 怎么设置都是用不了的，如果你 SMB2 也不能用，</p>
-<p>可以将防火墙放行 <code>445</code> 和 <code>139</code> 端口，</p>
-<p>我这里使用宝塔 Linux 面板进行放行端口。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/bt-firewall.png" loading="lazy"></p>
-<h3 id="放行防火墙"><a href="#放行防火墙" class="headerlink" title="放行防火墙"></a>放行防火墙</h3><p>在终端输入 <code>sudo apt-get install iptables-persistent</code>，</p>
-<p>安装页中应该是是否添加 IPv4 和 IPv6 规则，这里都 <code>Yes</code>，</p>
-<p>安装完成后返回再输入；</p>
-<p><code>iptables -I INPUT -p tcp --dport 445 -j ACCEPT &amp;&amp; iptables -I INPUT -p tcp --dport 139 -j ACCEPT</code></p>
-<p>输入 <code>sudo netfilter-persistent save</code> 保存，</p>
-<p>这样端口就放行成功了。</p>
-<blockquote>
-<p>安全问题: 如果你是在外网的话需要进行端口转发到公网，没有接触到外网服务的可以直接把防火墙关了，这里不推荐公开 SMB 端口容易被攻击可以用 Openwrt 中的插件做反向代理，这点后面可能会单独出一期讲解，确实非常简单这里就不买关子了；<br>无非就是找一个域名做 DDNS 然后将端口开放和转发并开启反向代理，记得要开启 <code>接受局域网访问</code> 之后在 手机 APP 里面挂全局代理，就可以在外网访问内网服务了，只要你的代理密码和端口没开放太多这都是安全的。</p>
-</blockquote>
-<h3 id="SAMBA-服务搭建"><a href="#SAMBA-服务搭建" class="headerlink" title="SAMBA 服务搭建"></a>SAMBA 服务搭建</h3><p>如果你没搭建 SAMBA 服务，这里简单说一下，</p>
-<p>这里用户用喵二 <code>miaoer</code> 和共享 <code>nas</code> 进行设置用户名和服务名、位置；请自己替换自己喜欢的格式勿乱、举一反三。</p>
-<pre class="language-none"><code class="language-none">useradd miaoer     &#x2F;&#x2F;新建用户名 miaoer
-
-sudo apt-get install samba     &#x2F;&#x2F;管理员权限安装 samba
-
-sudo smbpasswd -a miaoer     &#x2F;&#x2F;设置 miaoer 的 samba 用户名密码
-
-cd &#x2F; &amp;&amp; mkdir nas     &#x2F;&#x2F;返回根目录创建 nas 共享文件夹
-
-chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
-
-<p>配置文件可以找办法编辑好再上传或者使用 vim 命令，按 <code>i</code> 编辑，按 <code>Esc</code> 后 <code>Shift + :</code> 直到输入 <code>:wq</code> 退出。</p>
-<pre class="language-none"><code class="language-none">[nas]
-        comment &#x3D; nas
-        path &#x3D; &#x2F;nas
-        browseable &#x3D; yes
-        writable &#x3D; yes
-        file mode &#x3D; 660     
-        force file mode &#x3D; 660
-        directory mode &#x3D; 770
-        force directory mode &#x3D; 770</code></pre>
-
-
-<h2 id="软件设置"><a href="#软件设置" class="headerlink" title="软件设置"></a>软件设置</h2><p>好的回到正题，在 SMB2 中设置，在登录这里输入刚刚设置好的用户名和密码，</p>
-<p>连接这里输入内网部署了 SAMBA 的主机地址，和端口号这里默认就好，共享名字输入刚刚设置好的名字文件夹名字。</p>
-<p>然后点保存。</p>
-<p>然后进入左边的 <code>文件夹对</code>，创建文件夹对选择 SMB2，</p>
-<p>进到这里可以看到很多的选项，</p>
-<p>同步类型我这里只需要选择，到远程文件夹。</p>
-<p>点击远程文件夹，因为这里没有用于专门备份的文件夹，新建一个我这里设置的 Mi10 文件夹这里随便你</p>
-<p>新建完成点击进去，点下右下角的勾</p>
-<p>本地文件夹这里相册在 <code>DCIM</code> 里，点击进去然后将勾上，可以先进行测试。</p>
-<h2 id="原图"><a href="#原图" class="headerlink" title="原图"></a>原图</h2><p>好的我们现在没有任何问题了，回到首页现在我们还不能点同步的按钮，我们还需要简单的做几步，首先打开设置，在云服务这里找到相册，相册中选择自动 <code>下载原图</code>，</p>
-<p>点击立即同步，将相册立即同步，我们返回开启 <code>快速同步</code> 这样我们下载原图会更快一些。</p>
-<p>好的，我这里跑了一会总算是把云服务的相册拉了回来，我们继续，</p>
-<p>点击一下 <code>同步</code>，返回到 APP 的首页查看同步状态，如果在跑了就代表正常了，接下来我们再设置计划任务这里按照你个人习惯进行计划任务，我这里就设置自定义的时间也就是睡觉时间备份，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/uploading.png" loading="lazy"></p>
-<p>不过要确定 FolderSync 是否有自启动权限和关闭省电策略，不然前面设置的都是徒劳。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>视频博文</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>拆卸AMD散热器，清灰</title>
     <url>/2022/01/19/clean-amd-heatsink/</url>
     <content><![CDATA[<p>今天闲着没事做给<a href="https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600">续集</a>上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。</p>
@@ -558,98 +641,6 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </categories>
       <tags>
         <tag>电脑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记录一次换CPU，R5 3600</title>
-    <url>/2022/01/18/dg-replace-ryzen3600/</url>
-    <content><![CDATA[<p>在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031857.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>在 Zen2 架构下这一代性能表现都非常优异，不能光看评测还得自己上手一下，没想到升级的不是我的老锐龙电脑是去年给别人 2800 装的电脑，当时在没有矿潮的时候这张1660在淘宝上购入 1599，矿潮时甚至涨到 3000+ ……；</p>
-<p>在早上5:50起，就检查一下快递有没有到，很可惜我买内存的时候没看清楚地址就下单了，只能先带着处理器奔赴东莞，我卡好点选择下地铁再南站购票，我赶上了 8:06 到的 G6253 高铁，下高铁站后座上东莞轨道交通在珊美地铁站下，很可惜他们那边暂时还没有1号线，以后开通了有机会坐一坐；到朋友家里稍微等了等内存的快递，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031848.jpg" loading="lazy"></p>
-<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；稍微拿纸巾擦拭了一下，把把手往右滑上提到90度拿下旧的 2200g 放一边，因为拿之前看过不少连根拔起的图在操作之前烤鸡了。在包装里拿起 3600 放下拉下把手扣上有原装水泥(硅脂)幽灵散热器，把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031829.jpg" loading="lazy"></p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031838.jpg" loading="lazy"></p>
-<p>换上新的 芝奇 DDR4 8G 2400 (时序: 15-15-15-39) 的非马甲单面条，不要问为什么强调单面条后面就知道了；擦腚，楷机，屏幕轻松点亮。第一次开机重启了，第二次弹出让你选F1还是F2的，我选了F1进了 BIOS 然后重启到系统，打开任务管理器看框框，一下子多了8个框框，因为时间紧迫没有下 afterburner 看帧率但游戏中没有过卡顿和跳帧了；</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031812.jpg" loading="lazy"></p>
-<p>在单通道 8G下 绝地求生:大逃杀 帧率在 100<del>120 波动 最低帧80，在 CS:GO 中帧率在 200</del>300 波动 最低帧150（不包含烟雾弹），我打包票这个配置可以再战3年，节后再补买同样的内存。</p>
-<p>坑点: 就在单双面上，就隔天发货我收到的是双面颗粒的，而在朋友家收到的就是单面条。</p>
-<p>这次升级就算完成了，朋友一场要了点路费就跑了还带走了换下来的CPU和内存挂海鲜市场，过几天还有一个朋友的硬盘换PM9A1敬请关注。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031801.jpg" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>电脑</category>
-      </categories>
-      <tags>
-        <tag>电脑</tag>
-        <tag>装机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记录一次换m.2硬盘</title>
-    <url>/2022/01/31/fs-pm9a1/</url>
-    <content><![CDATA[<p>受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)</p>
-<p>有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，<br>三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>啪的一下很快啊，快递从南京过来了，快递比我想象中的还要小，更让我惊讶的是M.2硬盘这么小…（SATA固态的泪）</p>
-<p>螺丝没找到直接斜插直连 CPU 的 PCIe 通道的M.2硬盘位，开机稍微分了一下区就开始跑 AS SSD 了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/PM9A1.png" loading="lazy"></p>
-<p>读: 2832MB/s 写: 2763MB/s</p>
-<p>令我惊讶的是 4K 的速度，读: 2109MB/s 写: 1345MB/s，第一次亲眼在自己电脑上这么高的分数。</p>
-<p>用 CrystalDiskInfo 显示都是没问题的，也没去查了，把盘还原打包放置了十来天</p>
-<p>直到1月29日，刚刚好有空就送过去朋友家里，上门服务了属于是</p>
-<p>拆开机箱看到的不知道西数的什么 SSD 蓝盘【这几天查询后修改】，我拆开了另外一侧的盖板好家伙，原来机器吵不是机械硬盘在吵…但是也是要加的因为不知道为什么固态也这么慢，不过他原来的固态插的芯片组引出的 PCIe 通道上，我只需要卸下原来的 M.2 马甲将 PM9A1 安上就好了。</p>
-<p>装后给原来的固态备份质料，然后清空重新单个分区，因为习惯性安装的 Windows 10 ，给 PM9A1 分了2个区，安装驱动…win10已经给我安装完了，显卡驱动也是但是我还是补上了 NVIDIA GeForce Experience 方便更新，安装好常用软件就，坐了一会就走了…</p>
-<p>晚7点半走，等了半天车11点才到家，淦(;´༎ຶД༎ຶ`)</p>
-]]></content>
-      <categories>
-        <category>电脑</category>
-      </categories>
-      <tags>
-        <tag>电脑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在两者之间选择</title>
-    <url>/2021/11/30/newblog/</url>
-    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/images/nowblog.png" loading="lazy"></p>
-<span id="more"></span>
-
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>第一次用 pfSense</title>
-    <url>/2022/04/29/first-pfsense/</url>
-    <content><![CDATA[<p>在用过 Router OS 和爱快后我盯上了老外爱玩的 pfSense 拿来完成基本网络应用，在 <a href="https://www.pfsense.org/">pfSense官网</a> 中选择新加坡节点下载非常快，pfSense 是基于 FreeBSD 免费开源的系统；</p>
-<p>我给 pfSense 在 EXSI 虚拟机中分配了 2核2线程CPU 、 512M RAM 、 2G 硬盘(SATA控制器)，在经过基础安装后，设置好网卡，静态 ip，开启 http 后台……</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-04-29/pfsense-dash.png" loading="lazy"></p>
-<span id="more"></span>
-
-<p>到了 pfSense 最难配置的地方，我先设置好 Wan 口的 PPPoE 拨号、设置 DHCP server、DNS缓存、UPNP</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-04-29/dnscache.png" loading="lazy"></p>
-<p>哦对了如果你是多网口软路由你会在这里设置一次网桥 (interfaces_bridge) 需要将 Lan 设置成员接口将opt1 opt2 opt3…… 桥接起来，还需要关闭二级隔离 (系统/高级选项/系统可调参数)</p>
-<pre class="language-none"><code class="language-none">net.link.bridge.pfil_member &#x3D;1  ##  Packet filter on the member interface
-net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</code></pre>
-
-<p>因为家里是广移，我需要开启 IPv6 <del>(IPv6推进员)</del>大概是把 IPv6 的防火墙打开 放行<code>IPv6 ICMP/TCP</code> 放行Lan口<code>IPv6 UDP 53</code>端口，设置 Lan 口 IPv6 配置类型 <code>跟踪端口</code>为 Wan，设置 Wan 口 使用IPv4为父接口 <code>通过IPv4连接链路请求IPv6前缀/信息</code>，DHCPv6 服务<code>Enable DHCPv6 server on interface LAN</code>，路由模式 <code>已管理 - RA标志[managed, other stateful]，前缀标志[onlink，router]</code> 没记错应该就这些我也是看别人博客怎么打开的因为太过复杂……</p>
-<p>还有就是他的插件也是比较的少的比起 OpenWrt 少远了不过，还能套 ssl，iperf3，open-vmware-tools……，这个系统优点就是强大的防火墙功能，<del>上面是防火墙白搭系列</del></p>
-<p>这里就不做演示了，我个人认为这个系统是比较难的但是基础的比 RouterOS 简单，只不过步骤烦多非常不人性化……</p>
-<p>稳定、安全、高效才是王道。(●’◡’●)</p>
-<p>安装视频参考: <a href="https://www.youtube.com/c/VedioTalk">VedioTalk</a></p>
-]]></content>
-      <categories>
-        <category>网络</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
       </tags>
   </entry>
   <entry>
@@ -688,9 +679,12 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>日记</title>
-    <url>/2022/01/20/notes/</url>
-    <content><![CDATA[]]></content>
+    <title>在两者之间选择</title>
+    <url>/2021/11/30/newblog/</url>
+    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/images/nowblog.png" loading="lazy"></p>
+<span id="more"></span>
+
+]]></content>
       <categories>
         <category>Blog</category>
       </categories>
@@ -750,110 +744,12 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>给Openwrt套SSL证书</title>
-    <url>/2022/05/10/openwrt-ssl/</url>
-    <content><![CDATA[<blockquote>
-<p>没什么卵用内网看着爽，外网就不一定了。</p>
-</blockquote>
-<p>给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL，测的时候随手编译了默认以https访问的，正式版没用内网也启用感觉差点意思；</p>
-<p>浅见的随便写写吧。</p>
-<p>给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png" loading="lazy"></p>
-<p>下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 <code>.key</code> 和 证书 <code>.crt</code></p>
-<p>用固件自带的 系统-文件管理 随便找一个地方放我这里选择 <code>/www</code>，上传文件俩文件 选择解压的位置 执行上传。</p>
-<p>用命令检查一下是否上传成功 <code>cd /www &amp;&amp; ls</code></p>
-<span id="more"></span>
-
-<p>固件没有文件管理可以使用你趁手的 ssh 工具 scp 上传；这里演示 Windows 终端的命令 <code>scp C:\Users\【用户】\Desktop\****.crt root@192.168.1.1:/www</code> 仅供参考哦。</p>
-<p>用vim 修改 <code>vi /etc/config/uhttpd</code></p>
-<pre class="language-none"><code class="language-none">config uhttpd &#39;main&#39;
-        list listen_http &#39;0.0.0.0:80&#39;
-        list listen_http &#39;[::]:80&#39;
-        list listen_https &#39;0.0.0.0:443&#39;
-        list listen_https &#39;[::]:443&#39;
-        option redirect_https &#39;0&#39;
-        option home &#39;&#x2F;www&#39;
-        option rfc1918_filter &#39;1&#39;
-        option max_connections &#39;100&#39;
-        option cert &#39;&#x2F;etc&#x2F;uhttpd.crt&#39;
-        option key &#39;&#x2F;etc&#x2F;uhttpd.key&#39;
-</code></pre>
-
-<p>将 <code>option cert &#39;/etc/uhttpd.crt&#39;</code> 中的 <code>/etc/uhttpd.crt</code> 替换为 <code>/www/****.crt</code><br>将 <code>option cert &#39;/etc/uhttpd.key&#39;</code> 中的 <code>/etc/uhttpd.key</code> 替换为 <code>/www/****.key</code></p>
-<p>如果你有公网 ip 可以看看运营商有没有封锁 443 端口如果有将 443 改为你喜欢的端口并且把 <code>list listen_https &#39;0.0.0.0:443&#39;</code> 中的 <code>&#39;0.0.0.0:443</code> 替换为你喜欢的端口。</p>
-<p>保存 Esc，Shift + ;(:) 输入 wq 退出 vim （<code>:wq</code>）</p>
-<p>接着重启 uhttpd <code>/etc/init.d/uhttpd restart</code></p>
-<p>内网和外网都测试一遍吧，记得做好端口映射、DDNS 域名解析；广移 IPv6 没有限制 443 可以正常访问。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/openwrt-ssl.png" loading="lazy"></p>
-]]></content>
+    <title>日记</title>
+    <url>/2022/01/20/notes/</url>
+    <content><![CDATA[]]></content>
       <categories>
-        <category>软路由</category>
+        <category>Blog</category>
       </categories>
-      <tags>
-        <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>分享自己编译的OpenWrt软路由固件！</title>
-    <url>/2021/10/10/openwrtv2021.10.10/</url>
-    <content><![CDATA[<div class="success">
-
-<blockquote>
-<p>版本有点老了，部分插件不是最优效果</p>
-</blockquote>
-</div>
-
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>分享一个自编译 “ <code>稳定</code> <code>够用</code> <code>插件多</code> ” 的软路由OpenWrt固件。<br>目前只有 <code>x86-64</code> 的版本，固件插件够用，外带docker满足容器需求。<br>通吃旁路由，主路由，虚拟机!开箱即用。</p>
-<p>说明要看完！完整插件列表在 <code>插件</code> 段处。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-10-10/wrtluciv21.10.10.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<h1 id="默认设置"><a href="#默认设置" class="headerlink" title="默认设置"></a>默认设置</h1><p>默认分配300m给固件使用还有25m给linux内核使用<br>默认opernwrl luci后台地址: <code>192.168.1.2</code><br>账号: <code>root</code> 密码: <code>password</code></p>
-<h1 id="虚拟化-amp-分区"><a href="#虚拟化-amp-分区" class="headerlink" title="虚拟化&amp;分区"></a>虚拟化&amp;分区</h1><p>如果你是选择了虚拟化OpenWrt，你需要至少分配512m内存和512m的储存，如果设备较多开启了docker建议按照应用进行扩充运行内存和存储空间。<br>使用docker建议以G为单位越大越好，会玩的自然懂，如果没用过可以尝试分配1G安装内网speedtest，或者不分。<br>仅在vmware exsi下测试，pve和其他基于kvm未做测试但有pve和kvm的虚拟硬盘。</p>
-<p><a href="https://www.miaoer.xyz/network/openwrt-overlay">软路由Openwrt overlay分区</a></p>
-<h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><div class="success">
-
-<blockquote>
-<p>完整列表查看Github仓库，我们提供完整的插件列表您可以离线使用已编译的ipk。</p>
-</blockquote>
-</div>
-
-<p>插件仓库: <a href="https://github.com/miaoermua/catwrt">https://github.com/miaoermua/catwrt</a></p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-10-10/wrtv2021.10.10.jpg" loading="lazy"></p>
-<h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><p>固件在 <code>v21.10.10/targets/x86-64</code> 中</p>
-<p><code>squashfs-combined</code> 为传统BIOS启动</p>
-<p><code>squashfs-combined-efi</code> 为UEFI启动</p>
-<p><code>iso</code> 文件建议使用<code>IMG写盘工具</code>或者其他写盘工具进行安装</p>
-<p><code>qcow2</code> 文件是pve或kvm虚拟机的虚拟硬盘文件</p>
-<p><code>vmdk </code>文件是vmware虚拟机的虚拟硬盘文件</p>
-<h2 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h2><p><a href="https://www.aliyundrive.com/s/v8daqMUBG2y">https://www.aliyundrive.com/s/v8daqMUBG2y</a></p>
-<p>提取码: 3pf3</p>
-<blockquote>
-<p>注: 镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。<br>如：修改前 <code>openwrt-x86-64-generic-squashfs-combined.img.exe</code> &gt; 修改后 <code>openwrt-x86-64-generic-squashfs-combined.img</code></p>
-</blockquote>
-<h2 id="天翼云盘"><a href="#天翼云盘" class="headerlink" title="天翼云盘"></a>天翼云盘</h2><p><a href="https://cloud.189.cn/web/share?code=VvAnyi3EVrmu">https://cloud.189.cn/web/share?code=VvAnyi3EVrmu</a></p>
-<p>访问码：gkm6</p>
-<h1 id="支持"><a href="#支持" class="headerlink" title="支持"></a>支持</h1><h3 id="v21-10-10"><a href="#v21-10-10" class="headerlink" title="v21.10.10"></a>v21.10.10</h3><p>开放网友下载</p>
-<p>修复 luci-theme-argon 使用jerrykuku源码编译</p>
-<h3 id="v21-8-10"><a href="#v21-8-10" class="headerlink" title="v21.8.10"></a>v21.8.10</h3><p>支持 ipv6客户端</p>
-<p>支持 vmwaretools</p>
-<p>修复 uu加速器</p>
-<p>首次编译</p>
-<h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><h3 id="怎么修改Openwrt默认后台ip地址？"><a href="#怎么修改Openwrt默认后台ip地址？" class="headerlink" title="怎么修改Openwrt默认后台ip地址？"></a>怎么修改Openwrt默认后台ip地址？</h3><p><code>vi /etc/config/network</code>在窗口修改option ipaddr中的ip地址。</p>
-<p>完成后按<code>Esc</code>，再按下<code>:</code>，在输入框中输入wq！(强制保存退出</p>
-<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code>。</p>
-<h3 id="后续会保持更新吗？"><a href="#后续会保持更新吗？" class="headerlink" title="后续会保持更新吗？"></a>后续会保持更新吗？</h3><p>会！但是得有空，出新的协议或者软件可能会尝鲜一波再发布出来，一般的插件都可以在Openwrt中进行更新操作，更新只是解决依赖，固件稳定才是最重要的。</p>
-<h3 id="你是大佬吗，可以提供帮助吗？"><a href="#你是大佬吗，可以提供帮助吗？" class="headerlink" title="你是大佬吗，可以提供帮助吗？"></a>你是大佬吗，可以提供帮助吗？</h3><p>我不是大佬，我只是分享自编译的Openwrt固件，我觉得好用够用才分享给大家，仅能提供技术访问内的帮助。</p>
-<h3 id="有Bug，怎么反馈？"><a href="#有Bug，怎么反馈？" class="headerlink" title="有Bug，怎么反馈？"></a>有Bug，怎么反馈？</h3><p>可以在评论区向我提问进行排查，openclash和passwall貌似不能用？</p>
-<p>如果你想提出更多插件请在评论区描述。</p>
-<p>如果帮助到你可以在打赏里可以选择二维码给我打赏！</p>
-]]></content>
-      <categories>
-        <category>OpenWrt</category>
-      </categories>
-      <tags>
-        <tag>OpenWrt</tag>
-      </tags>
   </entry>
   <entry>
     <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
@@ -899,6 +795,97 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </categories>
       <tags>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2020/08/12/test/</url>
+    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
+<ul>
+<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>小米10换电池再再钉子户</title>
+    <url>/2022/05/22/xiaomi10-battey/</url>
+    <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
+<h2 id="更换"><a href="#更换" class="headerlink" title="更换"></a>更换</h2><p>包裹里除了电池有B7000胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。<del>因为这样流下来的？</del></p>
+<p>关机后取出卡托（</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>电池本体也和拆下的原装电池也无明显差别，比如字体不同，字号不致</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey.jpg" loading="lazy"></p>
+<p>对后盖进行加热后轻轻撬起后盖缝隙大的地方，我这里是摄像头和红外的位置，沿缝隙慢慢划开内侧密封胶，然后用一个翘片顶着缝隙再去另外旁边翘起缝隙，我看到翘片撬出的白色胶水我挺慌的，因为我买的二手机，我以前拆小米手机的时候没有见过白色的密封胶。</p>
+<p>这里我翻车了，太着急插入翘片受力点在摄像头那边爆了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/dismantling.jpg" loading="lazy"></p>
+<p>拆开可以看到NFC和无线充电线圈的散热？？，将左右扬声器的？？沿主板撕开即可见到螺丝，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/point.jpg" loading="lazy"></p>
+<p>一手拿起屏蔽罩，用撬棒翘起电池排线断电；这里我把扬声器的 btb 不小心拔了出来。</p>
+<p>按照电池的说明卸下电池；先撕开 A 和 B 然后拉起 A，电池很轻松拿出来，取出后把电池上的易拉胶？电池中框上的电池贴纸撕下</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/yilajiao.jpg" loading="lazy"></p>
+<p>将新的电池对好位置贴上，扣上电池排线的btb 简单的扣好主板屏蔽罩和NFC无线充电线圈开机测试。 (此处没贴送的电池背胶)</p>
+<p>开机点亮显示 50% 电量，测试扬声器，无线充电NFC，振动，和有线27w快充；用创建快捷方式找到电池续航，剩余电池实际容量正常了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/Screenshot.png" loading="lazy"></p>
+<p>电池续航为 MIUI13 内置有点像 AccuBattery)))</p>
+<blockquote>
+<p>这是用了半个月的，感觉不是太准确……<br>实际上从以前的一天三充到一天两充，而且用起来会比较安心，仅供参考。</p>
+</blockquote>
+<p>随后关机检查还有什么没扣上便安装上屏蔽罩，不要大力出奇迹~不要问我是怎么知道的</p>
+<p>稍微摆平NFC线圈安装上后盖，因为后盖爆了我就没打胶了后面方便更换，即便是没打胶缝隙也不是太大和拆机前无差。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/lie.jpg" loading="lazy"></p>
+<p>可惜这次爆了盖，哭唧唧。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>搞机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>给Openwrt套SSL证书</title>
+    <url>/2022/05/10/openwrt-ssl/</url>
+    <content><![CDATA[<blockquote>
+<p>没什么卵用内网看着爽，外网就不一定了。</p>
+</blockquote>
+<p>给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL，测的时候随手编译了默认以https访问的，正式版没用内网也启用感觉差点意思；</p>
+<p>浅见的随便写写吧。</p>
+<p>给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png" loading="lazy"></p>
+<p>下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 <code>.key</code> 和 证书 <code>.crt</code></p>
+<p>用固件自带的 系统-文件管理 随便找一个地方放我这里选择 <code>/www</code>，上传文件俩文件 选择解压的位置 执行上传。</p>
+<p>用命令检查一下是否上传成功 <code>cd /www &amp;&amp; ls</code></p>
+<span id="more"></span>
+
+<p>固件没有文件管理可以使用你趁手的 ssh 工具 scp 上传；这里演示 Windows 终端的命令 <code>scp C:\Users\【用户】\Desktop\****.crt root@192.168.1.1:/www</code> 仅供参考哦。</p>
+<p>用vim 修改 <code>vi /etc/config/uhttpd</code></p>
+<pre class="language-none"><code class="language-none">config uhttpd &#39;main&#39;
+        list listen_http &#39;0.0.0.0:80&#39;
+        list listen_http &#39;[::]:80&#39;
+        list listen_https &#39;0.0.0.0:443&#39;
+        list listen_https &#39;[::]:443&#39;
+        option redirect_https &#39;0&#39;
+        option home &#39;&#x2F;www&#39;
+        option rfc1918_filter &#39;1&#39;
+        option max_connections &#39;100&#39;
+        option cert &#39;&#x2F;etc&#x2F;uhttpd.crt&#39;
+        option key &#39;&#x2F;etc&#x2F;uhttpd.key&#39;
+</code></pre>
+
+<p>将 <code>option cert &#39;/etc/uhttpd.crt&#39;</code> 中的 <code>/etc/uhttpd.crt</code> 替换为 <code>/www/****.crt</code><br>将 <code>option cert &#39;/etc/uhttpd.key&#39;</code> 中的 <code>/etc/uhttpd.key</code> 替换为 <code>/www/****.key</code></p>
+<p>如果你有公网 ip 可以看看运营商有没有封锁 443 端口如果有将 443 改为你喜欢的端口并且把 <code>list listen_https &#39;0.0.0.0:443&#39;</code> 中的 <code>&#39;0.0.0.0:443</code> 替换为你喜欢的端口。</p>
+<p>保存 Esc，Shift + ;(:) 输入 wq 退出 vim （<code>:wq</code>）</p>
+<p>接着重启 uhttpd <code>/etc/init.d/uhttpd restart</code></p>
+<p>内网和外网都测试一遍吧，记得做好端口映射、DDNS 域名解析；广移 IPv6 没有限制 443 可以正常访问。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/openwrt-ssl.png" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>软路由</category>
+      </categories>
+      <tags>
+        <tag>OpenWrt</tag>
       </tags>
   </entry>
   <entry>
@@ -966,13 +953,132 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/2020/08/12/test/</url>
-    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
-<ul>
-<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
-</ul>
+    <title>分享自己编译的OpenWrt软路由固件！</title>
+    <url>/2021/10/10/openwrtv2021.10.10/</url>
+    <content><![CDATA[<div class="success">
+
+<blockquote>
+<p>版本有点老了，部分插件不是最优效果</p>
+</blockquote>
+</div>
+
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>分享一个自编译 “ <code>稳定</code> <code>够用</code> <code>插件多</code> ” 的软路由OpenWrt固件。<br>目前只有 <code>x86-64</code> 的版本，固件插件够用，外带docker满足容器需求。<br>通吃旁路由，主路由，虚拟机!开箱即用。</p>
+<p>说明要看完！完整插件列表在 <code>插件</code> 段处。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-10-10/wrtluciv21.10.10.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<h1 id="默认设置"><a href="#默认设置" class="headerlink" title="默认设置"></a>默认设置</h1><p>默认分配300m给固件使用还有25m给linux内核使用<br>默认opernwrl luci后台地址: <code>192.168.1.2</code><br>账号: <code>root</code> 密码: <code>password</code></p>
+<h1 id="虚拟化-amp-分区"><a href="#虚拟化-amp-分区" class="headerlink" title="虚拟化&amp;分区"></a>虚拟化&amp;分区</h1><p>如果你是选择了虚拟化OpenWrt，你需要至少分配512m内存和512m的储存，如果设备较多开启了docker建议按照应用进行扩充运行内存和存储空间。<br>使用docker建议以G为单位越大越好，会玩的自然懂，如果没用过可以尝试分配1G安装内网speedtest，或者不分。<br>仅在vmware exsi下测试，pve和其他基于kvm未做测试但有pve和kvm的虚拟硬盘。</p>
+<p><a href="https://www.miaoer.xyz/network/openwrt-overlay">软路由Openwrt overlay分区</a></p>
+<h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><div class="success">
+
+<blockquote>
+<p>完整列表查看Github仓库，我们提供完整的插件列表您可以离线使用已编译的ipk。</p>
+</blockquote>
+</div>
+
+<p>插件仓库: <a href="https://github.com/miaoermua/catwrt">https://github.com/miaoermua/catwrt</a></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-10-10/wrtv2021.10.10.jpg" loading="lazy"></p>
+<h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><p>固件在 <code>v21.10.10/targets/x86-64</code> 中</p>
+<p><code>squashfs-combined</code> 为传统BIOS启动</p>
+<p><code>squashfs-combined-efi</code> 为UEFI启动</p>
+<p><code>iso</code> 文件建议使用<code>IMG写盘工具</code>或者其他写盘工具进行安装</p>
+<p><code>qcow2</code> 文件是pve或kvm虚拟机的虚拟硬盘文件</p>
+<p><code>vmdk </code>文件是vmware虚拟机的虚拟硬盘文件</p>
+<h2 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h2><p><a href="https://www.aliyundrive.com/s/v8daqMUBG2y">https://www.aliyundrive.com/s/v8daqMUBG2y</a></p>
+<p>提取码: 3pf3</p>
+<blockquote>
+<p>注: 镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。<br>如：修改前 <code>openwrt-x86-64-generic-squashfs-combined.img.exe</code> &gt; 修改后 <code>openwrt-x86-64-generic-squashfs-combined.img</code></p>
+</blockquote>
+<h2 id="天翼云盘"><a href="#天翼云盘" class="headerlink" title="天翼云盘"></a>天翼云盘</h2><p><a href="https://cloud.189.cn/web/share?code=VvAnyi3EVrmu">https://cloud.189.cn/web/share?code=VvAnyi3EVrmu</a></p>
+<p>访问码：gkm6</p>
+<h1 id="支持"><a href="#支持" class="headerlink" title="支持"></a>支持</h1><h3 id="v21-10-10"><a href="#v21-10-10" class="headerlink" title="v21.10.10"></a>v21.10.10</h3><p>开放网友下载</p>
+<p>修复 luci-theme-argon 使用jerrykuku源码编译</p>
+<h3 id="v21-8-10"><a href="#v21-8-10" class="headerlink" title="v21.8.10"></a>v21.8.10</h3><p>支持 ipv6客户端</p>
+<p>支持 vmwaretools</p>
+<p>修复 uu加速器</p>
+<p>首次编译</p>
+<h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><h3 id="怎么修改Openwrt默认后台ip地址？"><a href="#怎么修改Openwrt默认后台ip地址？" class="headerlink" title="怎么修改Openwrt默认后台ip地址？"></a>怎么修改Openwrt默认后台ip地址？</h3><p><code>vi /etc/config/network</code>在窗口修改option ipaddr中的ip地址。</p>
+<p>完成后按<code>Esc</code>，再按下<code>:</code>，在输入框中输入wq！(强制保存退出</p>
+<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code>。</p>
+<h3 id="后续会保持更新吗？"><a href="#后续会保持更新吗？" class="headerlink" title="后续会保持更新吗？"></a>后续会保持更新吗？</h3><p>会！但是得有空，出新的协议或者软件可能会尝鲜一波再发布出来，一般的插件都可以在Openwrt中进行更新操作，更新只是解决依赖，固件稳定才是最重要的。</p>
+<h3 id="你是大佬吗，可以提供帮助吗？"><a href="#你是大佬吗，可以提供帮助吗？" class="headerlink" title="你是大佬吗，可以提供帮助吗？"></a>你是大佬吗，可以提供帮助吗？</h3><p>我不是大佬，我只是分享自编译的Openwrt固件，我觉得好用够用才分享给大家，仅能提供技术访问内的帮助。</p>
+<h3 id="有Bug，怎么反馈？"><a href="#有Bug，怎么反馈？" class="headerlink" title="有Bug，怎么反馈？"></a>有Bug，怎么反馈？</h3><p>可以在评论区向我提问进行排查，openclash和passwall貌似不能用？</p>
+<p>如果你想提出更多插件请在评论区描述。</p>
+<p>如果帮助到你可以在打赏里可以选择二维码给我打赏！</p>
 ]]></content>
+      <categories>
+        <category>OpenWrt</category>
+      </categories>
+      <tags>
+        <tag>OpenWrt</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>检查Windows为什么不能更新11</title>
+    <url>/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/</url>
+    <content><![CDATA[<h1 id="做好准备o-▽-o"><a href="#做好准备o-▽-o" class="headerlink" title="做好准备o(^▽^)o"></a>做好准备o(^▽^)o</h1><p>前几天Windows11放出预览版的时候，我下载了<a href="https://www.microsoft.com/windows/windows-11#pchealthcheck">电脑健康状况检查</a>官方链接挂了放一下副本<br><a href="https://github.com/miaoermua/miaoer-gitdown/raw/main/download/WindowsPCHealthCheckSetup.msi">电脑健康状况检查-blog副本下载</a><br>发现我根本不过，但是又不知道检查了什么不过…<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/notwin11-old.png" alt="notdate" loading="lazy"></p>
+<span id="more"></span>
+
+<h2 id="警告！∑-っ-°Д-°-っ"><a href="#警告！∑-っ-°Д-°-っ" class="headerlink" title="警告！∑(っ °Д °;)っ"></a>警告！∑(っ °Д °;)っ</h2><blockquote>
+<p>升级Windows11不保证软件稳定性，请进行备份系统盘里面的资料再升级操作，数据无价！请谨慎升级！</p>
+</blockquote>
+<p>如果升级后或者升级过程出现电脑无法正常使用的问题不承担任何法律责任！<br>把资料备份NAS，网盘里面安全第一！</p>
+<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>于是好心的基友发来了大神<a href="https://github.com/rcmaehl">rcmaehl</a>的检测软件WhyNotWin11<br><a href="https://github.com/rcmaehl/WhyNotWin11">Why Not Win11-Github</a></p>
+<h2 id="软件界面"><a href="#软件界面" class="headerlink" title="软件界面"></a>软件界面</h2><p><img src="https://user-images.githubusercontent.com/716581/123747880-7ded0c00-d881-11eb-9fdc-cd49a6ff74dc.png" alt="rcmaehl" loading="lazy"></p>
+<h2 id="WhyNotWin11下载教程"><a href="#WhyNotWin11下载教程" class="headerlink" title="WhyNotWin11下载教程"></a>WhyNotWin11下载教程</h2><p>下载<a href="https://github.com/rcmaehl/WhyNotWin11/releases">WhyNotWin11-releases</a><br>选择最新版的找到Assets，<code>32位</code>的系统选择 <code>WhyNotWin11.exe</code> ，<code>64位</code>选择 <code>WhyNotWin11_x86.exe </code><br><img src="https://cdn.miaoer.xyz/blog/21-06-30/whynotwin11-releases.jpg" alt="downwnw" loading="lazy"></p>
+<h1 id="检查"><a href="#检查" class="headerlink" title="检查"></a>检查</h1><p>发现我只有 <code>安全启动</code>、<code>CPU</code>、<code>TPM</code> 不过 (作者更新真快)。</p>
+<p>那时候找TPM教程是真的难，自己在主板里面折腾半天在CPU选项里找到了 <code>AMD fTPM</code> 。</p>
+<h2 id="TPM"><a href="#TPM" class="headerlink" title="TPM"></a>TPM</h2><p>TPMlist：</p>
+<p>AMD:<br>华擎-高级-CPU配置-AMD fTPM switch[AMD CPU fTPM]<br>华硕-高级-AMD fTPM设置-选择TPM设备[开启固件TPM]<br>MSI-设置-安全-可信任计算模块-AMD fTPM switch[AMD CPU fTPM]</p>
+<p>Intel:<br>华硕-Advanced-PCH-FW Configuration-Intel Platform Trust Technology[确认]<br>华硕-Advanced-PCH-FW Configuration-PTT-Enable<br>华硕-Advanced-PCH-FW Configuration-TPM Device Selection-Enable Firmware TPM</p>
+<p>这是华擎主板的bios开启AMD fTPM switch<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/1624961646440.jpg" alt="bios" loading="lazy"></p>
+<p>推荐可以去看B站up主: <a href="https://space.bilibili.com/947625">makazeu</a> 的视频演示了各种品牌的tpm开启方法。</p>
+<p>只收集到这些其他主板平台请善用搜索引擎。<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/baidutpm.jpg" alt="baidutpm" loading="lazy"><br>尝试搜索：主板(笔记本)名字{可选:型号}+处理器平台+bios开启tpm</p>
+<p>【如：技嘉x570主板AMD开启TPM】</p>
+<h2 id="安全启动-SecureBoot"><a href="#安全启动-SecureBoot" class="headerlink" title="安全启动 SecureBoot"></a>安全启动 SecureBoot</h2><p>华擎-安全-SecureBoot-安装默认安全密钥-安全引导[开启]<br>请先找到并且开启<code>安装默认安全密钥</code>再开启<code>安全引导</code><br><img src="https://cdn.miaoer.xyz/blog/21-06-30/1624963795259.jpg" alt="secureboot" loading="lazy"><br>其他主板大差不差，都一般在安全和引导里面开启密钥再开启安全引导<br>要么叫安全启动要么叫安全引导<code>SecureBoot</code><br>尝试搜索：主板+开启安全启动<br>【如：华硕主板开启安全启动】</p>
+<h2 id="硬盘-Disk"><a href="#硬盘-Disk" class="headerlink" title="硬盘 Disk"></a>硬盘 Disk</h2><p>一定是GPT的分区才能安装Win10和Win11，在使用以前系统分区是MBR的只能分区修改GPT的<br>这个也能在搜索引擎找到方法，一般正常在Win10iso里面安装都是GPT的<br>MBR的用户就没办法照顾了，分个区或者出现完整安装Win10iso再升级吧<br>Windows镜像下载MSDN,<a href="https://msdn.itellyou.cn/">我告诉你</a> 和 <a href="https://next.itellyou.cn/">新版我告诉你</a></p>
+<p>硬盘需要64GB+存储空间，安装时保留更多存储空间<br>GPT分区</p>
+<h2 id="CPU"><a href="#CPU" class="headerlink" title="CPU"></a>CPU</h2><p>我的CPU不在CPU支持list里面，但是一样可以更新，但是不一定更老的CPU是否后面会有限制。</p>
+<p>AMD list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors">Supported AMD Processors-AMD处理器平台支持列表</a></p>
+<p>Intel list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors">Supported Intel Processors-Intel英特尔处理器平台支持列表</a></p>
+<p>Qualcomm list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors">Supported Qualcomm Processors-Qualcomm高通处理器平台支持列表</a></p>
+<p>1 GHz+的处理器和64位的<br>暂时不知道支不支持32位x86的</p>
+<h2 id="显卡-amp-显示分辨率-DirectX-WDDM2"><a href="#显卡-amp-显示分辨率-DirectX-WDDM2" class="headerlink" title="显卡&amp;显示分辨率 DirectX+WDDM2"></a>显卡&amp;显示分辨率 DirectX+WDDM2</h2><p>支持 DirectX 12+，不知道老显卡支不支持？<br>分辨率是720P+<br>支持驱动程序模型 WDDM 2.0</p>
+<h2 id="内存-RAM"><a href="#内存-RAM" class="headerlink" title="内存 RAM"></a>内存 RAM</h2><p>4G+无限制频率和DDR版本</p>
+<h1 id="微软官方推荐配置"><a href="#微软官方推荐配置" class="headerlink" title="微软官方推荐配置"></a>微软官方推荐配置</h1><p><a href="https://www.microsoft.com/zh-cn/windows/windows-11-specifications">推荐配置</a><br>处理器：<br>1 GHz 或更快的支持 64 位的处理器（双核或多核）或系统单芯片 (SoC)</p>
+<p>RAM：<br>4 GB</p>
+<p>存储：<br>64 GB 或更大的存储设备</p>
+<p>系统固件：<br>支持 UEFI 安全启动</p>
+<p>TPM：<br><a href="https://docs.microsoft.com/zh-CN/windows/security/information-protection/tpm/trusted-platform-module-overview">受信任的平台模块 (TPM)</a> 版本 2.0</p>
+<p>显卡：<br>支持 DirectX 12 或更高版本，支持 WDDM 2.0 驱动程序</p>
+<p>显示屏：<br>对角线长大于 9 英寸的高清 (720p) 显示屏，每个颜色通道为 8 位</p>
+<p>Internet 连接和 Microsoft 帐户：<br>Windows 11 家庭版需要有 Internet 连接和 Microsoft 帐户才能在首次使用时完成设备设置。<br>将设备切换出 Windows 11 家庭版 S 模式也需要有 Internet 连接。<a href="https://support.microsoft.com/help/4020089/windows-10-in-s-mode-faq">在此处详细了解 S 模式</a>。<br>对于所有 Windows 11 版本，Internet 访问对于执行更新和某些功能的下载和使用都是必需的。</p>
+<h1 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h1><h3 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h3><p>在设置-更新-Windows预览体验计划中申请</p>
+<p>目前有且只有<code>Dev开发者版本</code>才能体验，其次开放win11体验才是<code>Beta</code>，更新时请三十而后行</p>
+<p>极其不推荐工作机更新Windows11!更新后不要清理降级恢复包!</p>
+<h3 id="恢复"><a href="#恢复" class="headerlink" title="恢复"></a>恢复</h3><p>设置-WindowsUpdate-高级选项-恢复</p>
+<h1 id="完成了-是时候秀一下了-・∀・"><a href="#完成了-是时候秀一下了-・∀・" class="headerlink" title="完成了,是时候秀一下了(・∀・*)"></a>完成了,是时候秀一下了(・∀・*)</h1><p><img src="https://cdn.miaoer.xyz/blog/21-06-30/1624960668163.jpg" alt="update..." loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/21-06-30/whynotwin11.jpg" alt="whynotwin11" loading="lazy"></p>
+<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>博文部分内容可能会做出修改，请善用搜索引擎搜索相关开启教程只收入部分开启方法<br>喜欢这个博文就分享出去吧，有能力可以向我打钱投喂ε(*´･∀･｀)зﾞ</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>教程不要跳着看</title>
+    <url>/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<p>有些看教程不认真的，经常跳着看再评论区问怎么开启这个选项</p>
+<p>一般我图文都有相关的内容</p>
+<p>比如why not win11那开启安全启动需要先“安装默认密钥”才能开启安全启动选项这里就不点名了</p>
+<p>就算跳着看也要大概的审一下题，不然弄错了从头来过就不只省下的时间了</p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
   </entry>
   <entry>
     <title>Magisk多种开机动画分享</title>
@@ -1126,44 +1232,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>小米10换电池再再钉子户</title>
-    <url>/2022/05/22/xiaomi10-battey/</url>
-    <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
-<h2 id="更换"><a href="#更换" class="headerlink" title="更换"></a>更换</h2><p>包裹里除了电池有B7000胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。<del>因为这样流下来的？</del></p>
-<p>关机后取出卡托（</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>电池本体也和拆下的原装电池也无明显差别，比如字体不同，字号不致</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey.jpg" loading="lazy"></p>
-<p>对后盖进行加热后轻轻撬起后盖缝隙大的地方，我这里是摄像头和红外的位置，沿缝隙慢慢划开内侧密封胶，然后用一个翘片顶着缝隙再去另外旁边翘起缝隙，我看到翘片撬出的白色胶水我挺慌的，因为我买的二手机，我以前拆小米手机的时候没有见过白色的密封胶。</p>
-<p>这里我翻车了，太着急插入翘片受力点在摄像头那边爆了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/dismantling.jpg" loading="lazy"></p>
-<p>拆开可以看到NFC和无线充电线圈的散热？？，将左右扬声器的？？沿主板撕开即可见到螺丝，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/point.jpg" loading="lazy"></p>
-<p>一手拿起屏蔽罩，用撬棒翘起电池排线断电；这里我把扬声器的 btb 不小心拔了出来。</p>
-<p>按照电池的说明卸下电池；先撕开 A 和 B 然后拉起 A，电池很轻松拿出来，取出后把电池上的易拉胶？电池中框上的电池贴纸撕下</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/yilajiao.jpg" loading="lazy"></p>
-<p>将新的电池对好位置贴上，扣上电池排线的btb 简单的扣好主板屏蔽罩和NFC无线充电线圈开机测试。 (此处没贴送的电池背胶)</p>
-<p>开机点亮显示 50% 电量，测试扬声器，无线充电NFC，振动，和有线27w快充；用创建快捷方式找到电池续航，剩余电池实际容量正常了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/Screenshot.png" loading="lazy"></p>
-<p>电池续航为 MIUI13 内置有点像 AccuBattery)))</p>
-<blockquote>
-<p>这是用了半个月的，感觉不是太准确……<br>实际上从以前的一天三充到一天两充，而且用起来会比较安心，仅供参考。</p>
-</blockquote>
-<p>随后关机检查还有什么没扣上便安装上屏蔽罩，不要大力出奇迹~不要问我是怎么知道的</p>
-<p>稍微摆平NFC线圈安装上后盖，因为后盖爆了我就没打胶了后面方便更换，即便是没打胶缝隙也不是太大和拆机前无差。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/lie.jpg" loading="lazy"></p>
-<p>可惜这次爆了盖，哭唧唧。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>搞机</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>喵喵交换友链啦</title>
     <url>/2021/06/27/%E4%BA%A4%E6%8D%A2%E5%8F%8B%E9%93%BE%E5%95%A6/</url>
     <content><![CDATA[<h2 id="说说友链"><a href="#说说友链" class="headerlink" title="说说友链"></a>说说友链</h2><p>目前有两个站点，博客友链将在个人网站和博客同步。</p>
@@ -1278,69 +1346,38 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>教程不要跳着看</title>
-    <url>/2021/08/20/%E6%95%99%E7%A8%8B%E4%BA%8B%E9%A1%B9/</url>
-    <content><![CDATA[<p>有些看教程不认真的，经常跳着看再评论区问怎么开启这个选项</p>
-<p>一般我图文都有相关的内容</p>
-<p>比如why not win11那开启安全启动需要先“安装默认密钥”才能开启安全启动选项这里就不点名了</p>
-<p>就算跳着看也要大概的审一下题，不然弄错了从头来过就不只省下的时间了</p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>检查Windows为什么不能更新11</title>
-    <url>/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/</url>
-    <content><![CDATA[<h1 id="做好准备o-▽-o"><a href="#做好准备o-▽-o" class="headerlink" title="做好准备o(^▽^)o"></a>做好准备o(^▽^)o</h1><p>前几天Windows11放出预览版的时候，我下载了<a href="https://www.microsoft.com/windows/windows-11#pchealthcheck">电脑健康状况检查</a>官方链接挂了放一下副本<br><a href="https://github.com/miaoermua/miaoer-gitdown/raw/main/download/WindowsPCHealthCheckSetup.msi">电脑健康状况检查-blog副本下载</a><br>发现我根本不过，但是又不知道检查了什么不过…<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/notwin11-old.png" alt="notdate" loading="lazy"></p>
+    <title>海外转移国内服务器的坑</title>
+    <url>/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/lp-meme.jpg" loading="lazy"></p>
+<p>前几天在阿里云上买了一台轻量应用的云服务器，准备要搭建我的博客的，结果…</p>
+<p>拿到机器先Ping了一下延迟，还行深圳到广州也就12ms左右，日本亚马逊的80ms左右</p>
+<p>就兴冲冲的去安装稍微有点熟悉的宝塔面板，那时候日本的服务器检查抽风挂逼没来得及对着抄配置，就搭好了，结果电脑上的chrome显示404进不去？折腾半天还是上日本的服务器看看结果又能进去了…一通操作猛如虎，还是404纳闷了，检查了宝塔和cloudflare正确啊，然后用手机输上域名好家伙直接显示我没有备案…然而大意了，傻乎乎的就买入了国内的服务器，没办法那就实名呗，大不了删一点内容</p>
 <span id="more"></span>
 
-<h2 id="警告！∑-っ-°Д-°-っ"><a href="#警告！∑-っ-°Д-°-っ" class="headerlink" title="警告！∑(っ °Д °;)っ"></a>警告！∑(っ °Д °;)っ</h2><blockquote>
-<p>升级Windows11不保证软件稳定性，请进行备份系统盘里面的资料再升级操作，数据无价！请谨慎升级！</p>
-</blockquote>
-<p>如果升级后或者升级过程出现电脑无法正常使用的问题不承担任何法律责任！<br>把资料备份NAS，网盘里面安全第一！</p>
-<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>于是好心的基友发来了大神<a href="https://github.com/rcmaehl">rcmaehl</a>的检测软件WhyNotWin11<br><a href="https://github.com/rcmaehl/WhyNotWin11">Why Not Win11-Github</a></p>
-<h2 id="软件界面"><a href="#软件界面" class="headerlink" title="软件界面"></a>软件界面</h2><p><img src="https://user-images.githubusercontent.com/716581/123747880-7ded0c00-d881-11eb-9fdc-cd49a6ff74dc.png" alt="rcmaehl" loading="lazy"></p>
-<h2 id="WhyNotWin11下载教程"><a href="#WhyNotWin11下载教程" class="headerlink" title="WhyNotWin11下载教程"></a>WhyNotWin11下载教程</h2><p>下载<a href="https://github.com/rcmaehl/WhyNotWin11/releases">WhyNotWin11-releases</a><br>选择最新版的找到Assets，<code>32位</code>的系统选择 <code>WhyNotWin11.exe</code> ，<code>64位</code>选择 <code>WhyNotWin11_x86.exe </code><br><img src="https://cdn.miaoer.xyz/blog/21-06-30/whynotwin11-releases.jpg" alt="downwnw" loading="lazy"></p>
-<h1 id="检查"><a href="#检查" class="headerlink" title="检查"></a>检查</h1><p>发现我只有 <code>安全启动</code>、<code>CPU</code>、<code>TPM</code> 不过 (作者更新真快)。</p>
-<p>那时候找TPM教程是真的难，自己在主板里面折腾半天在CPU选项里找到了 <code>AMD fTPM</code> 。</p>
-<h2 id="TPM"><a href="#TPM" class="headerlink" title="TPM"></a>TPM</h2><p>TPMlist：</p>
-<p>AMD:<br>华擎-高级-CPU配置-AMD fTPM switch[AMD CPU fTPM]<br>华硕-高级-AMD fTPM设置-选择TPM设备[开启固件TPM]<br>MSI-设置-安全-可信任计算模块-AMD fTPM switch[AMD CPU fTPM]</p>
-<p>Intel:<br>华硕-Advanced-PCH-FW Configuration-Intel Platform Trust Technology[确认]<br>华硕-Advanced-PCH-FW Configuration-PTT-Enable<br>华硕-Advanced-PCH-FW Configuration-TPM Device Selection-Enable Firmware TPM</p>
-<p>这是华擎主板的bios开启AMD fTPM switch<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/1624961646440.jpg" alt="bios" loading="lazy"></p>
-<p>推荐可以去看B站up主: <a href="https://space.bilibili.com/947625">makazeu</a> 的视频演示了各种品牌的tpm开启方法。</p>
-<p>只收集到这些其他主板平台请善用搜索引擎。<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/baidutpm.jpg" alt="baidutpm" loading="lazy"><br>尝试搜索：主板(笔记本)名字{可选:型号}+处理器平台+bios开启tpm</p>
-<p>【如：技嘉x570主板AMD开启TPM】</p>
-<h2 id="安全启动-SecureBoot"><a href="#安全启动-SecureBoot" class="headerlink" title="安全启动 SecureBoot"></a>安全启动 SecureBoot</h2><p>华擎-安全-SecureBoot-安装默认安全密钥-安全引导[开启]<br>请先找到并且开启<code>安装默认安全密钥</code>再开启<code>安全引导</code><br><img src="https://cdn.miaoer.xyz/blog/21-06-30/1624963795259.jpg" alt="secureboot" loading="lazy"><br>其他主板大差不差，都一般在安全和引导里面开启密钥再开启安全引导<br>要么叫安全启动要么叫安全引导<code>SecureBoot</code><br>尝试搜索：主板+开启安全启动<br>【如：华硕主板开启安全启动】</p>
-<h2 id="硬盘-Disk"><a href="#硬盘-Disk" class="headerlink" title="硬盘 Disk"></a>硬盘 Disk</h2><p>一定是GPT的分区才能安装Win10和Win11，在使用以前系统分区是MBR的只能分区修改GPT的<br>这个也能在搜索引擎找到方法，一般正常在Win10iso里面安装都是GPT的<br>MBR的用户就没办法照顾了，分个区或者出现完整安装Win10iso再升级吧<br>Windows镜像下载MSDN,<a href="https://msdn.itellyou.cn/">我告诉你</a> 和 <a href="https://next.itellyou.cn/">新版我告诉你</a></p>
-<p>硬盘需要64GB+存储空间，安装时保留更多存储空间<br>GPT分区</p>
-<h2 id="CPU"><a href="#CPU" class="headerlink" title="CPU"></a>CPU</h2><p>我的CPU不在CPU支持list里面，但是一样可以更新，但是不一定更老的CPU是否后面会有限制。</p>
-<p>AMD list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors">Supported AMD Processors-AMD处理器平台支持列表</a></p>
-<p>Intel list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors">Supported Intel Processors-Intel英特尔处理器平台支持列表</a></p>
-<p>Qualcomm list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors">Supported Qualcomm Processors-Qualcomm高通处理器平台支持列表</a></p>
-<p>1 GHz+的处理器和64位的<br>暂时不知道支不支持32位x86的</p>
-<h2 id="显卡-amp-显示分辨率-DirectX-WDDM2"><a href="#显卡-amp-显示分辨率-DirectX-WDDM2" class="headerlink" title="显卡&amp;显示分辨率 DirectX+WDDM2"></a>显卡&amp;显示分辨率 DirectX+WDDM2</h2><p>支持 DirectX 12+，不知道老显卡支不支持？<br>分辨率是720P+<br>支持驱动程序模型 WDDM 2.0</p>
-<h2 id="内存-RAM"><a href="#内存-RAM" class="headerlink" title="内存 RAM"></a>内存 RAM</h2><p>4G+无限制频率和DDR版本</p>
-<h1 id="微软官方推荐配置"><a href="#微软官方推荐配置" class="headerlink" title="微软官方推荐配置"></a>微软官方推荐配置</h1><p><a href="https://www.microsoft.com/zh-cn/windows/windows-11-specifications">推荐配置</a><br>处理器：<br>1 GHz 或更快的支持 64 位的处理器（双核或多核）或系统单芯片 (SoC)</p>
-<p>RAM：<br>4 GB</p>
-<p>存储：<br>64 GB 或更大的存储设备</p>
-<p>系统固件：<br>支持 UEFI 安全启动</p>
-<p>TPM：<br><a href="https://docs.microsoft.com/zh-CN/windows/security/information-protection/tpm/trusted-platform-module-overview">受信任的平台模块 (TPM)</a> 版本 2.0</p>
-<p>显卡：<br>支持 DirectX 12 或更高版本，支持 WDDM 2.0 驱动程序</p>
-<p>显示屏：<br>对角线长大于 9 英寸的高清 (720p) 显示屏，每个颜色通道为 8 位</p>
-<p>Internet 连接和 Microsoft 帐户：<br>Windows 11 家庭版需要有 Internet 连接和 Microsoft 帐户才能在首次使用时完成设备设置。<br>将设备切换出 Windows 11 家庭版 S 模式也需要有 Internet 连接。<a href="https://support.microsoft.com/help/4020089/windows-10-in-s-mode-faq">在此处详细了解 S 模式</a>。<br>对于所有 Windows 11 版本，Internet 访问对于执行更新和某些功能的下载和使用都是必需的。</p>
-<h1 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h1><h3 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h3><p>在设置-更新-Windows预览体验计划中申请</p>
-<p>目前有且只有<code>Dev开发者版本</code>才能体验，其次开放win11体验才是<code>Beta</code>，更新时请三十而后行</p>
-<p>极其不推荐工作机更新Windows11!更新后不要清理降级恢复包!</p>
-<h3 id="恢复"><a href="#恢复" class="headerlink" title="恢复"></a>恢复</h3><p>设置-WindowsUpdate-高级选项-恢复</p>
-<h1 id="完成了-是时候秀一下了-・∀・"><a href="#完成了-是时候秀一下了-・∀・" class="headerlink" title="完成了,是时候秀一下了(・∀・*)"></a>完成了,是时候秀一下了(・∀・*)</h1><p><img src="https://cdn.miaoer.xyz/blog/21-06-30/1624960668163.jpg" alt="update..." loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/21-06-30/whynotwin11.jpg" alt="whynotwin11" loading="lazy"></p>
-<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>博文部分内容可能会做出修改，请善用搜索引擎搜索相关开启教程只收入部分开启方法<br>喜欢这个博文就分享出去吧，有能力可以向我打钱投喂ε(*´･∀･｀)зﾞ</p>
+<h1 id="大意"><a href="#大意" class="headerlink" title="大意"></a>大意</h1><p>只能认命了，之前也没弄过备案的服务器，一步步来结果服务器备案需要域名备案，域名备案还需要阿里云万网下，其他要在域名商那弄，但是我的域名商是<a href="https://www.namesilo.com/">namesilo</a>哪有什么备案相关的玩意啊，只能花36转移到阿里万网下了，按着别人博客写的内容一步步把namesilo转移，结果需要60天才能转移，那天才刚好30天，也只能等了</p>
+<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/kengdie-meme.jpg" loading="lazy"></p>
+<h1 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h1><p>接着去弄Frp内网穿透，在阿里上使用脚本搭建的Frp，绑定端口、Http和Https…</p>
+<p>然后去Openwrt设置Frp内网穿透服务</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/openwrtfrp.jpg" loading="lazy"></p>
+<p>然后就可以在我的世界服务器里输入ip:端口了，就找到我穿透出来的内网服务器</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/mcserverdaoshi.jpg" loading="lazy"></p>
+<p>因为是电脑本机做的服务器，难免会因为别人跑图使用红石破坏了我的游戏体验啊，我毕竟都上了<a href="https://irisshaders.net/">iris</a>不跑满高帧光影真说不过去</p>
+<p>于是我吧我家的软路由<del>利用</del>出来当我的世界服务器，只要不是故意跑图炸服也不会有啥问题了（<del>服务端开机慢</del></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/exsi-mccentos.jpg" loading="lazy"></p>
+<p>使用的是一个J4105的低功耗CPU做的成品软路由，TDP功耗10w，待机功耗只有6.6w！满载功耗只有13w！起码不用怎么担心耗电了，性能吧还行纯生存是够了</p>
+<p><img src="/.xyz//blog/21-08-16/jackstone-j4105.jpg" alt="老白" loading="lazy"></p>
+<p>大概前前后后用了大概4天左右没有啥问题，最高6个人同时在线建筑也不过20-30%的CPU占用</p>
+<p>最重要是延迟真的很低了多人联机广东地区才20-40ms，四川地区50-60ms！</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/2021-08-03_18.39.57.png" alt="daoshi" loading="lazy"></p>
+<p>等8月过了就换到阿里云了，域名和服务器应该会用个俩三年</p>
+<p>有兴趣Frp和我的世界可以联系我目前是白名单模式</p>
+<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>博客已经转移成功，备案也好了 <a href="https://www.miaoer.xyz/about">详情</a></p>
 ]]></content>
       <categories>
-        <category>教程</category>
+        <category>生活</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -1706,41 +1743,6 @@ make[1]: *** [&#x2F;home&#x2F;vk-op&#x2F;lede&#x2F;staging_dir&#x2F;target-x86_6
       </categories>
       <tags>
         <tag>软路由</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>海外转移国内服务器的坑</title>
-    <url>/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/lp-meme.jpg" loading="lazy"></p>
-<p>前几天在阿里云上买了一台轻量应用的云服务器，准备要搭建我的博客的，结果…</p>
-<p>拿到机器先Ping了一下延迟，还行深圳到广州也就12ms左右，日本亚马逊的80ms左右</p>
-<p>就兴冲冲的去安装稍微有点熟悉的宝塔面板，那时候日本的服务器检查抽风挂逼没来得及对着抄配置，就搭好了，结果电脑上的chrome显示404进不去？折腾半天还是上日本的服务器看看结果又能进去了…一通操作猛如虎，还是404纳闷了，检查了宝塔和cloudflare正确啊，然后用手机输上域名好家伙直接显示我没有备案…然而大意了，傻乎乎的就买入了国内的服务器，没办法那就实名呗，大不了删一点内容</p>
-<span id="more"></span>
-
-<h1 id="大意"><a href="#大意" class="headerlink" title="大意"></a>大意</h1><p>只能认命了，之前也没弄过备案的服务器，一步步来结果服务器备案需要域名备案，域名备案还需要阿里云万网下，其他要在域名商那弄，但是我的域名商是<a href="https://www.namesilo.com/">namesilo</a>哪有什么备案相关的玩意啊，只能花36转移到阿里万网下了，按着别人博客写的内容一步步把namesilo转移，结果需要60天才能转移，那天才刚好30天，也只能等了</p>
-<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/kengdie-meme.jpg" loading="lazy"></p>
-<h1 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h1><p>接着去弄Frp内网穿透，在阿里上使用脚本搭建的Frp，绑定端口、Http和Https…</p>
-<p>然后去Openwrt设置Frp内网穿透服务</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/openwrtfrp.jpg" loading="lazy"></p>
-<p>然后就可以在我的世界服务器里输入ip:端口了，就找到我穿透出来的内网服务器</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/mcserverdaoshi.jpg" loading="lazy"></p>
-<p>因为是电脑本机做的服务器，难免会因为别人跑图使用红石破坏了我的游戏体验啊，我毕竟都上了<a href="https://irisshaders.net/">iris</a>不跑满高帧光影真说不过去</p>
-<p>于是我吧我家的软路由<del>利用</del>出来当我的世界服务器，只要不是故意跑图炸服也不会有啥问题了（<del>服务端开机慢</del></p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/exsi-mccentos.jpg" loading="lazy"></p>
-<p>使用的是一个J4105的低功耗CPU做的成品软路由，TDP功耗10w，待机功耗只有6.6w！满载功耗只有13w！起码不用怎么担心耗电了，性能吧还行纯生存是够了</p>
-<p><img src="/.xyz//blog/21-08-16/jackstone-j4105.jpg" alt="老白" loading="lazy"></p>
-<p>大概前前后后用了大概4天左右没有啥问题，最高6个人同时在线建筑也不过20-30%的CPU占用</p>
-<p>最重要是延迟真的很低了多人联机广东地区才20-40ms，四川地区50-60ms！</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/2021-08-03_18.39.57.png" alt="daoshi" loading="lazy"></p>
-<p>等8月过了就换到阿里云了，域名和服务器应该会用个俩三年</p>
-<p>有兴趣Frp和我的世界可以联系我目前是白名单模式</p>
-<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>博客已经转移成功，备案也好了 <a href="https://www.miaoer.xyz/about">详情</a></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
       </tags>
   </entry>
 </search>

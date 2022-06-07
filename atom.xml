@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-06-06T10:42:18.369Z</updated>
+  <updated>2022-06-07T10:57:09.659Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://blog.miaoer.xyz/2022/06/01/app-foldersync/"/>
     <id>https://blog.miaoer.xyz/2022/06/01/app-foldersync/</id>
     <published>2022-06-01T10:35:05.746Z</published>
-    <updated>2022-06-06T10:42:18.369Z</updated>
+    <updated>2022-06-07T10:57:09.659Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;i class=&quot;ri-bilibili-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.bilibili.com/video/BV1Tv4y137oD&quot;&gt;BiliBili -无cc字幕&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&quot;ri-youtube-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=xfjNE3QsarM&amp;t&quot;&gt;YouTube -cc字幕&lt;/a&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;i class=&quot;ri-bilibili-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.bilibili.com/video/BV1Tv4y137oD&quot;&gt;哔哩哔哩&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;ri-youtube-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=xfjNE3QsarM&amp;t&quot;&gt;YouTube&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;开始&quot;&gt;&lt;a href=&quot;#开始&quot; class=&quot;headerlink&quot; title=&quot;开始&quot;&gt;&lt;/a&gt;开始&lt;/h2&gt;&lt;p&gt;最近我发现一款非常好的 SMB 备份软件叫做 FolderSync，在早一些时候我也是通过数据线一头连电脑进行备份相册目录的，&lt;/p&gt;
 &lt;p&gt;因为家境贫寒家里没有品牌 NAS 所以自己在软路由上搭建了 SAMBA 服务，用来储存一些电影和共享资源等……&lt;/p&gt;
