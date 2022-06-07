@@ -37,6 +37,119 @@
       </tags>
   </entry>
   <entry>
+    <title>视频-【120帧】小米Mix Alpha宣传片</title>
+    <url>/2022/03/21/BV1QU4y1R75s/</url>
+    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
+
+<hr>
+<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1QU4y1R75s">https://www.bilibili.com/video/BV1QU4y1R75s</a></p>
+<p>试试湿滑的补帧</p>
+<h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
+<p>文件名: xiaomimixalpha.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
+<p>原分辨率: 1920*1080</p>
+<p>补帧分辨率: 1920*1080</p>
+<p>上传分辨率: 1920*1080 > 3840*2160</p>
+<p>原帧: 25fps</p>
+<p>补帧: 120fps</p>
+<p>上传帧率: 25fps x8 > 120fps</p>
+<p>码率: 15 < 20Mbps</p>
+<p>编码: x265</p>
+
+<p>*视频来源小米商城收集小米宣传片 <a href="https://www.mi.com/mixalpha">小米MixAlpha</a></p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>视频博文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSGO各种实用代码分享</title>
+    <url>/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<p><del>文明游戏,背起行囊</del></p>
+<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>国服 <code>-perfectworld</code></p>
+<p>国际服 <code>-worldwide</code></p>
+<p>网络FPS状态 <code>net_graph 1</code></p>
+<p>调小网络于FPS状态 <code>net_graphproportionalfont 0.7</code></p>
+<p>持枪方向 <code>cl_righthand 1</code></p>
+<p>Alt换持枪方向 <code>BindToggle &quot;ALT&quot; &quot;cl_righthand&quot;;</code></p>
+<p>清血 <code>r_cleardecals</code></p>
+<p>清血绑定Shift <code>bind shift&quot;+lookatweapon;r_cleardecals</code></p>
+<p>一键跳投 <code>alias +jumpthrow&quot;+jump;-attack&quot;; alias -jumpthrow -jump bind v +jumpthrow</code></p>
+<p>全屏准星 <code>bind &quot;h&quot; &quot;toggle cl_crosshairsize 5 1000&quot;</code></p>
+<p>Tab显示计分板网络 <code>bind &quot;TAB&quot; &quot;+showscores_custom&quot;; alias &quot;+showscores_custom&quot; &quot;+showscores;net_graphheight 64; alias &quot;-showscores_custom&quot; &quot;-showscores;net_graphheight 9999&quot;; net_graph &quot;1&quot;; net_graphheight &quot;9999&quot;; net_graphpos &quot;2&quot;;</code></p>
+<p>减少手臂摇摆 <code>cl_bob_lower_amt &quot;5&quot;; cl_bobamt_lat &quot;0.1&quot;; cl_bobamt_vert &quot;0.1&quot;; cl_viewmodel_shift_left_amt &quot;0.5&quot;; cl_viewmodel_shift_right_amt &quot;0.25&quot;;</code></p>
+<p>绑定 Alt 飞行 <code>bind &quot;alt&quot; &quot;noclip&quot;</code></p>
+<h2 id="作弊类"><a href="#作弊类" class="headerlink" title="作弊类"></a>作弊类</h2><p>开启作弊 <code>sv_cheats 1</code></p>
+<p>无限子弹 <code>sv_infinite_ammo 1</code></p>
+<p>上帝模式_锁 <code>god</code></p>
+<p>飞天 <code>noclip</code></p>
+<p>第一人称 <code>cam_command 1</code></p>
+<p>实体透视 <code>r_drawothermodels 2</code></p>
+<p>(无效)自瞄 <code>ent_fire !picker addoutputmodelscale 0</code></p>
+<p>(无效)子弹穿墙 <code>cl_showothermodels 3</code></p>
+<p>灵敏度假转 <code>bind j &quot;toggle m_yaw 0.022 1000&quot;</code></p>
+<p>无后座 <code>sv_cheats &quot;1&quot;;weapon_accuracy_nospread &quot;1&quot;;weapon_debug_spread_gap &quot;1&quot;;weapon_recoil_cooldown &quot;0&quot;;weapon_recoil_decay1_exp &quot;99999&quot;;weapon_recoil_decay2_exp &quot;99999&quot;;weapon_recoil_decay2_lin &quot;99999&quot;;weapon_recoil_scale &quot;0&quot;;weapon_recoil_suppression_shots &quot;500&quot;;weapon_recoil_view_punch_extra 0</code></p>
+<p>大地球滑步 <code>sv_standable_normal 1000</code></p>
+<p>允许连跳 <code>sv_enablebunnyhopping 1</code></p>
+<p>自动连跳 <code>sv_autobunnyhopping 1</code></p>
+<p>空中速度 <code>sv_airaccelerate 20000</code></p>
+<p>血量 <code>ent_fire !self addoutput &quot;health 233&quot;</code></p>
+<h2 id="房间"><a href="#房间" class="headerlink" title="房间"></a>房间</h2><p>1秒刷新房间 <code>mp_restartgame &quot;1&quot;</code></p>
+<p>禁止自动平衡人数 <code>mp_autoteambalance 0</code></p>
+<p>金钱上限 <code>mp_maxmoney &quot;16000&quot;</code></p>
+<p>出生金钱 <code>mp_startmoney &quot;16000&quot;</code></p>
+<p>任意地点购买 <code>mp_buy_anywhere &quot;1&quot;</code></p>
+<p>显示10秒投掷物轨迹 <code>sv_grenade_trajectory_time &quot;10&quot;</code></p>
+<p>射击命中点显示 <code>sv_showimpacts 1</code></p>
+<p>踢掉bot <code>bot kick</code></p>
+<p>杀掉所有bot <code>bot_kill</code></p>
+<p>随机增加bot <code>bot_add</code></p>
+<p>增加bot到CT <code>bot_add_ct</code></p>
+<p>增加bot到T <code>bot_add_t</code></p>
+<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="完美世界竞技平台"><a href="#完美世界竞技平台" class="headerlink" title="完美世界竞技平台"></a>完美世界竞技平台</h3><p>暂停 <code>.pause</code> &amp; <code>!pause</code></p>
+<p>解除暂停 <code>.unpause</code></p>
+<p>发刀 <code>.drop</code></p>
+<p>举报 <code>.report</code></p>
+<p>投降 <code>.gg</code></p>
+<p>队友建议位置 <code>.team</code></p>
+<p>赛前道具 <code>.m</code></p>
+<p>菜单 <code>.menu</code></p>
+<p>聊天框提示 <code>.info</code></p>
+<h3 id="5E对战平台"><a href="#5E对战平台" class="headerlink" title="5E对战平台"></a>5E对战平台</h3><p>暂停 <code>.p</code></p>
+<p>解除暂停 <code>.up</code></p>
+<p>发刀 <code>.d</code></p>
+<p>举报 <code>.r</code></p>
+<p>投降 <code>.g</code> &amp; <code>.gg</code></p>
+<h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 <code>mp_drop_knife_enable 1</code></p>
+<p>海豹短刀 <code>give weapon_knife_css; ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>刺刀 <code>give weapon_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>折叠刀 <code>give weapon_knife_flip;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>穿肠刀 <code>give weapon_knife_gut;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>爪子刀 <code>give weapon_knife_karambit;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>M9 <code>give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>猎杀者匕首 <code>give weapon_knife_tactical;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>蝴蝶刀 <code>give weapon_knife_butterfly;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>弯刀 <code>give weapon_knife_falchion;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>双匕 <code>give weapon_knife_push;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>鲍伊 <code>give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>熊刀 <code>give weapon_knife_ursus;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>折刀 <code>give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>短剑 <code>give weapon_knife_stiletto;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>锯齿爪 <code>give weapon_knife_widowmaker;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p>按键非指令</p>
+<p>打开Demo控制台 <code>shift+f2</code></p>
+<p>x光 <code>x</code></p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>csgo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>BlogTime</title>
     <url>/2021/09/14/BlogTime/</url>
     <content><![CDATA[<p>因为以前没做好整理，也不想整了，风格有点乱。<br>因为一般在晚上更新弄好都凌晨了，默认为前一天或者今天算。</p>
@@ -255,119 +368,6 @@
       </categories>
       <tags>
         <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>视频-【120帧】小米Mix Alpha宣传片</title>
-    <url>/2022/03/21/BV1QU4y1R75s/</url>
-    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
-
-<hr>
-<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1QU4y1R75s">https://www.bilibili.com/video/BV1QU4y1R75s</a></p>
-<p>试试湿滑的补帧</p>
-<h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
-<p>文件名: xiaomimixalpha.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
-<p>原分辨率: 1920*1080</p>
-<p>补帧分辨率: 1920*1080</p>
-<p>上传分辨率: 1920*1080 > 3840*2160</p>
-<p>原帧: 25fps</p>
-<p>补帧: 120fps</p>
-<p>上传帧率: 25fps x8 > 120fps</p>
-<p>码率: 15 < 20Mbps</p>
-<p>编码: x265</p>
-
-<p>*视频来源小米商城收集小米宣传片 <a href="https://www.mi.com/mixalpha">小米MixAlpha</a></p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>视频博文</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSGO各种实用代码分享</title>
-    <url>/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<p><del>文明游戏,背起行囊</del></p>
-<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>国服 <code>-perfectworld</code></p>
-<p>国际服 <code>-worldwide</code></p>
-<p>网络FPS状态 <code>net_graph 1</code></p>
-<p>调小网络于FPS状态 <code>net_graphproportionalfont 0.7</code></p>
-<p>持枪方向 <code>cl_righthand 1</code></p>
-<p>Alt换持枪方向 <code>BindToggle &quot;ALT&quot; &quot;cl_righthand&quot;;</code></p>
-<p>清血 <code>r_cleardecals</code></p>
-<p>清血绑定Shift <code>bind shift&quot;+lookatweapon;r_cleardecals</code></p>
-<p>一键跳投 <code>alias +jumpthrow&quot;+jump;-attack&quot;; alias -jumpthrow -jump bind v +jumpthrow</code></p>
-<p>全屏准星 <code>bind &quot;h&quot; &quot;toggle cl_crosshairsize 5 1000&quot;</code></p>
-<p>Tab显示计分板网络 <code>bind &quot;TAB&quot; &quot;+showscores_custom&quot;; alias &quot;+showscores_custom&quot; &quot;+showscores;net_graphheight 64; alias &quot;-showscores_custom&quot; &quot;-showscores;net_graphheight 9999&quot;; net_graph &quot;1&quot;; net_graphheight &quot;9999&quot;; net_graphpos &quot;2&quot;;</code></p>
-<p>减少手臂摇摆 <code>cl_bob_lower_amt &quot;5&quot;; cl_bobamt_lat &quot;0.1&quot;; cl_bobamt_vert &quot;0.1&quot;; cl_viewmodel_shift_left_amt &quot;0.5&quot;; cl_viewmodel_shift_right_amt &quot;0.25&quot;;</code></p>
-<p>绑定 Alt 飞行 <code>bind &quot;alt&quot; &quot;noclip&quot;</code></p>
-<h2 id="作弊类"><a href="#作弊类" class="headerlink" title="作弊类"></a>作弊类</h2><p>开启作弊 <code>sv_cheats 1</code></p>
-<p>无限子弹 <code>sv_infinite_ammo 1</code></p>
-<p>上帝模式_锁 <code>god</code></p>
-<p>飞天 <code>noclip</code></p>
-<p>第一人称 <code>cam_command 1</code></p>
-<p>实体透视 <code>r_drawothermodels 2</code></p>
-<p>(无效)自瞄 <code>ent_fire !picker addoutputmodelscale 0</code></p>
-<p>(无效)子弹穿墙 <code>cl_showothermodels 3</code></p>
-<p>灵敏度假转 <code>bind j &quot;toggle m_yaw 0.022 1000&quot;</code></p>
-<p>无后座 <code>sv_cheats &quot;1&quot;;weapon_accuracy_nospread &quot;1&quot;;weapon_debug_spread_gap &quot;1&quot;;weapon_recoil_cooldown &quot;0&quot;;weapon_recoil_decay1_exp &quot;99999&quot;;weapon_recoil_decay2_exp &quot;99999&quot;;weapon_recoil_decay2_lin &quot;99999&quot;;weapon_recoil_scale &quot;0&quot;;weapon_recoil_suppression_shots &quot;500&quot;;weapon_recoil_view_punch_extra 0</code></p>
-<p>大地球滑步 <code>sv_standable_normal 1000</code></p>
-<p>允许连跳 <code>sv_enablebunnyhopping 1</code></p>
-<p>自动连跳 <code>sv_autobunnyhopping 1</code></p>
-<p>空中速度 <code>sv_airaccelerate 20000</code></p>
-<p>血量 <code>ent_fire !self addoutput &quot;health 233&quot;</code></p>
-<h2 id="房间"><a href="#房间" class="headerlink" title="房间"></a>房间</h2><p>1秒刷新房间 <code>mp_restartgame &quot;1&quot;</code></p>
-<p>禁止自动平衡人数 <code>mp_autoteambalance 0</code></p>
-<p>金钱上限 <code>mp_maxmoney &quot;16000&quot;</code></p>
-<p>出生金钱 <code>mp_startmoney &quot;16000&quot;</code></p>
-<p>任意地点购买 <code>mp_buy_anywhere &quot;1&quot;</code></p>
-<p>显示10秒投掷物轨迹 <code>sv_grenade_trajectory_time &quot;10&quot;</code></p>
-<p>射击命中点显示 <code>sv_showimpacts 1</code></p>
-<p>踢掉bot <code>bot kick</code></p>
-<p>杀掉所有bot <code>bot_kill</code></p>
-<p>随机增加bot <code>bot_add</code></p>
-<p>增加bot到CT <code>bot_add_ct</code></p>
-<p>增加bot到T <code>bot_add_t</code></p>
-<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="完美世界竞技平台"><a href="#完美世界竞技平台" class="headerlink" title="完美世界竞技平台"></a>完美世界竞技平台</h3><p>暂停 <code>.pause</code> &amp; <code>!pause</code></p>
-<p>解除暂停 <code>.unpause</code></p>
-<p>发刀 <code>.drop</code></p>
-<p>举报 <code>.report</code></p>
-<p>投降 <code>.gg</code></p>
-<p>队友建议位置 <code>.team</code></p>
-<p>赛前道具 <code>.m</code></p>
-<p>菜单 <code>.menu</code></p>
-<p>聊天框提示 <code>.info</code></p>
-<h3 id="5E对战平台"><a href="#5E对战平台" class="headerlink" title="5E对战平台"></a>5E对战平台</h3><p>暂停 <code>.p</code></p>
-<p>解除暂停 <code>.up</code></p>
-<p>发刀 <code>.d</code></p>
-<p>举报 <code>.r</code></p>
-<p>投降 <code>.g</code> &amp; <code>.gg</code></p>
-<h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 <code>mp_drop_knife_enable 1</code></p>
-<p>海豹短刀 <code>give weapon_knife_css; ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>刺刀 <code>give weapon_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>折叠刀 <code>give weapon_knife_flip;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>穿肠刀 <code>give weapon_knife_gut;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>爪子刀 <code>give weapon_knife_karambit;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>M9 <code>give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>猎杀者匕首 <code>give weapon_knife_tactical;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>蝴蝶刀 <code>give weapon_knife_butterfly;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>弯刀 <code>give weapon_knife_falchion;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>双匕 <code>give weapon_knife_push;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>鲍伊 <code>give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>熊刀 <code>give weapon_knife_ursus;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>折刀 <code>give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>短剑 <code>give weapon_knife_stiletto;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>锯齿爪 <code>give weapon_knife_widowmaker;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p>按键非指令</p>
-<p>打开Demo控制台 <code>shift+f2</code></p>
-<p>x光 <code>x</code></p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>csgo</tag>
       </tags>
   </entry>
   <entry>
@@ -968,15 +968,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/2020/08/12/test/</url>
-    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
-<ul>
-<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>小米10换电池再再钉子户</title>
     <url>/2022/05/22/xiaomi10-battey/</url>
     <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
@@ -1013,6 +1004,15 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>搞机</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2020/08/12/test/</url>
+    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
+<ul>
+<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
+</ul>
+]]></content>
   </entry>
   <entry>
     <title>喵喵交换友链啦</title>
@@ -1360,6 +1360,139 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
 ]]></content>
   </entry>
   <entry>
+    <title>简单编译一个属于自己的openwrt软路由系统</title>
+    <url>/2021/08/22/%E7%BC%96%E8%AF%91openwrt/</url>
+    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/%E5%B0%81%E9%9D%A2.jpg" loading="lazy"></p>
+<p>我一直想编译一个OpenWrt软路由系统，因为之前用<a href="https://www.youtube.com/c/eSirPlayGround/">esir大神</a>的高大全固件插件用的有点多，可能会不稳定还有高大全很多插件用不到，打算自己动手编译定制一个自己的openwrt固件，并且给大家分享一下怎么样给OpenWrt在Windows子系统Ubantu下进行编译。</p>
+<p>因为我的win11十分不稳定，我给重装了原来是ssd分了俩个盘这次单独给ssd一个盘装win11</p>
+<p>在windows里编译openwrt有两个办法</p>
+<ul>
+<li><p>WLS (windows linux subsystem)</p>
+</li>
+<li><p>虚拟机 (如: vmware，hyper-v)</p>
+</li>
+</ul>
+<p>我选择了WLS，这方法大概缺点就是需要占掉C盘空间，选择去微软商店安装ubuntu系统。</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/2021-08-23/microsoftstore-ubuntu.jpg" loading="lazy"></p>
+<h1 id="安装ubuntu"><a href="#安装ubuntu" class="headerlink" title="安装ubuntu"></a>安装ubuntu</h1><ol>
+<li>在微软商店搜索<code>ubuntu</code>，安装。(<code>Ubuntu 18.04 LTS</code>)</li>
+</ol>
+<p>然后信誓旦旦的打开ubuntu发现shell里直接报错，代码: 0x800701bc 按任意键退出ubuntu</p>
+<blockquote>
+<p>这里推荐安装Ubuntu 18.04 LTS，安装其他版本可能连编译的界面的进不了？因为仅测试了Ubuntu 18.04 LTS</p>
+</blockquote>
+<ol start="2">
+<li>解决报错安装wls。</li>
+</ol>
+<p>启用 WLS  在管理员权限下 *powershell *运行</p>
+<p><code>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</code></p>
+<p>启用 虚拟机平台 在管理员权限下 <em>powershell</em> 运行</p>
+<p><code>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart</code></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/setting.jpg" loading="lazy"></p>
+<p>重启电脑</p>
+<p>下载 Linux内核更新包</p>
+<p><a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi">https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi</a></p>
+<p>（无脑下一步</p>
+<p>设置 wls2位默认版本 在下 <em>powershell</em> 运行（不一定可选)</p>
+<p><code>wsl --set-default-version 2</code></p>
+<ol start="3">
+<li>继续打开Ubuntu<br> 然后就可以继续，设置账户和密码，<a href="https://github.com/coolsnowwolf/lede">Lean</a>大神的不能使用root用户进行编译！输入自己的用户名即可</li>
+</ol>
+<h1 id="第一次编译"><a href="#第一次编译" class="headerlink" title="第一次编译"></a>第一次编译</h1><ol>
+<li><p>命令行输入 <code>sudo apt-get update</code> ，然后输入 <code>sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync</code></p>
+</li>
+<li><p>使用 <code>git clone https://github.com/coolsnowwolf/lede</code> 命令下载好lean的源代码，然后 <code>cd lede</code> 进入lede目录</p>
+</li>
+<li><p><code>./scripts/feeds update -a</code><br><code>./scripts/feeds install -a</code><br><code>make menuconfig</code></p>
+<p>当<code>make menuconfig</code>能成功进去就可以退出添加插件</p>
+</li>
+</ol>
+<blockquote>
+<p>此步骤容易因为依赖不完全无法进行编译，请看有没有出现错误一直下不动的问题，可以考虑换源和重新安装Ubuntu子系统进行解决。</p>
+</blockquote>
+<h2 id="添加自己要的插件"><a href="#添加自己要的插件" class="headerlink" title="添加自己要的插件"></a>添加自己要的插件</h2><p>先添加kenzo的<a href="https://github.com/kenzok8/openwrt-packages">openwrt-packages</a>openwrt软件包和依赖包里面包括了很多用到的插件和依赖经测试都是可用的</p>
+<p>在lede根目录下找到<code>feeds.conf.default</code>文件使用笔记本打开并且添加</p>
+<p><code>src-git kenzo https://github.com/kenzok8/openwrt-packages</code><br><code>src-git small https://github.com/kenzok8/small</code></p>
+<p><del>包含了某些pass插件和所需依赖</del></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/feeds.jpg" loading="lazy"></p>
+<p>比如lean大神和kenzo的软件包里都没有的<a href="https://github.com/destan19/OpenAppFilter">OpenAppFilter</a></p>
+<p>需要单独下载源码保存到<code>lede/package</code>目录下</p>
+<p><code>cd package</code> </p>
+<p><code>git clone https://github.com/destan19/OpenAppFilter.git</code></p>
+<p><code>cd ..</code></p>
+<p>添加了插件feeds里就再重新进行一遍更新feeds，此时就下载kenzo仓库里的软件包了，单独git下载的不需要进行该步骤</p>
+<p><code>./scripts/feeds update -a</code><br><code>./scripts/feeds install -a</code><br><code>make menuconfig</code></p>
+<p>检查能进<code>make menuconfig</code>即可</p>
+<ol start="4">
+<li>下载dl库 <u><em><strong>需要科学上网</strong></em></u> <em>不然下载巨慢导致报错</em></li>
+</ol>
+<p><code>make -j8 download V=s</code></p>
+<ol start="5">
+<li>完成第一次编译 <em>仅限WLS</em> (-j1 后面是线程数。第一次编译推荐用单线程)</li>
+</ol>
+<p><code>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j1 V=s </code></p>
+<p><em>非WLS用户</em> <code>make -j1 V=s</code></p>
+<p>使用lean大神的源码未经过修改保证可以编译成功，第一次编译花费时间需要很久记得保持特殊网络环境下进行编译不然可能连第一次编译都过不了</p>
+<blockquote>
+<p><del>假如第一次编译就报错的重新开始直接</del> <code>rm -rf /home/用户/lede</code> <del>不要添加插件再进行编译，还是报错就没辙了毕竟lean源码第一次不添加任何插件是确实能过的，请回到依赖安装的步骤检查好了。</del></p>
+</blockquote>
+<ul>
+<li>✅ 当第一次编译过了，如果显示</li>
+</ul>
+<pre class="language-shell" data-language="shell"><code class="language-shell">signing package index...
+make[2]:Leaving directory &#96;&#x2F;home&#x2F;user&#x2F;lede&#96;
+make[2]:Entering directory &#96;&#x2F;home&#x2F;user&#x2F;lede&#96;
+make[2]:Nothing directory &#96;&#x2F;home&#x2F;user&#x2F;lede&#96;
+......</code></pre>
+
+<ul>
+<li>❎ 即代表编译成功了，如果显示</li>
+</ul>
+<pre class="language-shell" data-language="shell"><code class="language-shell">make[2]: *** [package&#x2F;feeds&#x2F;packages&#x2F;forked-daapd&#x2F;compile] Error 2
+make[1]: *** [&#x2F;home&#x2F;vk-op&#x2F;lede&#x2F;staging_dir&#x2F;target-x86_64_musl&#x2F;stamp&#x2F;.package_compile] Error 2</code></pre>
+
+<p>类似的带有Error字样的就是编译出错。</p>
+<h1 id="第二次编译"><a href="#第二次编译" class="headerlink" title="第二次编译"></a>第二次编译</h1><p><img src="https://cdn.miaoer.xyz/blog/21-08-23/openwrtbianyi.jpg" loading="lazy"></p>
+<blockquote>
+<p>推荐插件不要一下全选了，几个几个的选避免插件编译失败不好排查，编译的时候选你电脑最大的线程数进行编译就好。</p>
+</blockquote>
+<p>在<code>Luci---&gt;Applications</code>选择几个自己需要的插件，Luci-Theme选择自己需要的几个主题</p>
+<p>在<code>Target images</code>里选择Build GRUB images (Linux x86 or x86_64 host only)`就是BIOS启动默认不选择就是UEFI启动的</p>
+<p>在<code>Target images</code>里选择<code>Root filesystem partition size (in MB)</code>，可以设置默认overlay分区大小</p>
+<p>在<code>Target images</code>里选择<code>Kernel partition size (in MB)</code>，可以设置内核分区大小<del>(目前不知道这个干嘛的，设置了25MB)</del></p>
+<p>先简单编译一遍 <em>(线程数=处理器线程+1)</em></p>
+<p><code>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j13 V=s </code></p>
+<p>编译好了继续选择插件进行编译直到插件满足你的需求，一点点这样编译是因为怕插件编译错误可以一个个排查，如果一上来全点了报错了难排查</p>
+<p>已知smb和smb4一起编译会报错，其他插件报错可以善用搜索引擎搜索或者去github给作者提交issues或者去相关TG群里问。</p>
+<h1 id="编译完成"><a href="#编译完成" class="headerlink" title="编译完成"></a>编译完成</h1><p>编译好的固件在 <code>/home/user/lede/bin/targets/x86</code> 里，然后就可以通过各种方法安装在软路由上了，安装应该就不用说怎么安装了吧</p>
+<p>如果对我分享的博文有帮助可以给我评论或者打赏支持我！</p>
+<blockquote>
+<p>感谢！这是我为数不多没发平台进行推广或者原文宣传的博文，仅靠自己收集的资料整理而来就收获了150观看数比我想象中要多，按照步骤来一般没什么问题，如果配置的看不懂可以观看韩风大大的视频，编译其他插件按照博文里写的就没错了！附教程出的固件已经出了<a href="https://www.miaoer.xyz/network/openwrtv2021.10.10">请看这个: 分享自己编译的OpenWrt软路由固件！</a>。</p>
+</blockquote>
+<p>部分参见:</p>
+<ul>
+<li><p>Lean <a href="https://github.com/coolsnowwolf/lede">coolsnowwolf/lede</a></p>
+</li>
+<li><p>微软 <a href="https://docs.microsoft.com/zh-cn/windows/wsl/install-win10">适用于 Linux 的 Windows 子系统安装指南 (Windows 10)</a></p>
+</li>
+<li><p>韩风Talk <a href="https://www.bilibili.com/video/BV1Dv411B7MQ">【韩风Talk】Openwrt编译难么？不太难，主要是细节！</a></p>
+</li>
+<li><p>不吐不快 <a href="https://mianao.info/2020/05/05/%E7%BC%96%E8%AF%91%E6%9B%B4%E6%96%B0OpenWrt-PassWall%E5%92%8CSSR-plus%E6%8F%92%E4%BB%B6">编译更新OpenWrt PassWall和SSR-plus插件</a></p>
+</li>
+<li><p>BIGDONGDONG <a href="https://www.youtube.com/watch?v=yQoKpL4p06E">『299』 傻瓜式编译OpenWrt固件全流程丨Ubuntu下基于Lean源码编译融合各种插件</a></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>软路由</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>教你认破二手平台小米有锁机</title>
     <url>/2021/08/20/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>一直很想给大家科普小米手机的“有锁”是一个怎么样子的，都是之前我在“龙二哥”的文章也有写的很清楚了，但奈何观看量不够而且现在我也不进行与其相关的，本文在前者的基础再”小白化”，以后慢慢更新相关技术的大概实现方法</p>
@@ -1575,139 +1708,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>小米</tag>
         <tag>技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>简单编译一个属于自己的openwrt软路由系统</title>
-    <url>/2021/08/22/%E7%BC%96%E8%AF%91openwrt/</url>
-    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/%E5%B0%81%E9%9D%A2.jpg" loading="lazy"></p>
-<p>我一直想编译一个OpenWrt软路由系统，因为之前用<a href="https://www.youtube.com/c/eSirPlayGround/">esir大神</a>的高大全固件插件用的有点多，可能会不稳定还有高大全很多插件用不到，打算自己动手编译定制一个自己的openwrt固件，并且给大家分享一下怎么样给OpenWrt在Windows子系统Ubantu下进行编译。</p>
-<p>因为我的win11十分不稳定，我给重装了原来是ssd分了俩个盘这次单独给ssd一个盘装win11</p>
-<p>在windows里编译openwrt有两个办法</p>
-<ul>
-<li><p>WLS (windows linux subsystem)</p>
-</li>
-<li><p>虚拟机 (如: vmware，hyper-v)</p>
-</li>
-</ul>
-<p>我选择了WLS，这方法大概缺点就是需要占掉C盘空间，选择去微软商店安装ubuntu系统。</p>
-<span id="more"></span>
-
-<p><img src="https://cdn.miaoer.xyz/blog/2021-08-23/microsoftstore-ubuntu.jpg" loading="lazy"></p>
-<h1 id="安装ubuntu"><a href="#安装ubuntu" class="headerlink" title="安装ubuntu"></a>安装ubuntu</h1><ol>
-<li>在微软商店搜索<code>ubuntu</code>，安装。(<code>Ubuntu 18.04 LTS</code>)</li>
-</ol>
-<p>然后信誓旦旦的打开ubuntu发现shell里直接报错，代码: 0x800701bc 按任意键退出ubuntu</p>
-<blockquote>
-<p>这里推荐安装Ubuntu 18.04 LTS，安装其他版本可能连编译的界面的进不了？因为仅测试了Ubuntu 18.04 LTS</p>
-</blockquote>
-<ol start="2">
-<li>解决报错安装wls。</li>
-</ol>
-<p>启用 WLS  在管理员权限下 *powershell *运行</p>
-<p><code>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</code></p>
-<p>启用 虚拟机平台 在管理员权限下 <em>powershell</em> 运行</p>
-<p><code>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart</code></p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/setting.jpg" loading="lazy"></p>
-<p>重启电脑</p>
-<p>下载 Linux内核更新包</p>
-<p><a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi">https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi</a></p>
-<p>（无脑下一步</p>
-<p>设置 wls2位默认版本 在下 <em>powershell</em> 运行（不一定可选)</p>
-<p><code>wsl --set-default-version 2</code></p>
-<ol start="3">
-<li>继续打开Ubuntu<br> 然后就可以继续，设置账户和密码，<a href="https://github.com/coolsnowwolf/lede">Lean</a>大神的不能使用root用户进行编译！输入自己的用户名即可</li>
-</ol>
-<h1 id="第一次编译"><a href="#第一次编译" class="headerlink" title="第一次编译"></a>第一次编译</h1><ol>
-<li><p>命令行输入 <code>sudo apt-get update</code> ，然后输入 <code>sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync</code></p>
-</li>
-<li><p>使用 <code>git clone https://github.com/coolsnowwolf/lede</code> 命令下载好lean的源代码，然后 <code>cd lede</code> 进入lede目录</p>
-</li>
-<li><p><code>./scripts/feeds update -a</code><br><code>./scripts/feeds install -a</code><br><code>make menuconfig</code></p>
-<p>当<code>make menuconfig</code>能成功进去就可以退出添加插件</p>
-</li>
-</ol>
-<blockquote>
-<p>此步骤容易因为依赖不完全无法进行编译，请看有没有出现错误一直下不动的问题，可以考虑换源和重新安装Ubuntu子系统进行解决。</p>
-</blockquote>
-<h2 id="添加自己要的插件"><a href="#添加自己要的插件" class="headerlink" title="添加自己要的插件"></a>添加自己要的插件</h2><p>先添加kenzo的<a href="https://github.com/kenzok8/openwrt-packages">openwrt-packages</a>openwrt软件包和依赖包里面包括了很多用到的插件和依赖经测试都是可用的</p>
-<p>在lede根目录下找到<code>feeds.conf.default</code>文件使用笔记本打开并且添加</p>
-<p><code>src-git kenzo https://github.com/kenzok8/openwrt-packages</code><br><code>src-git small https://github.com/kenzok8/small</code></p>
-<p><del>包含了某些pass插件和所需依赖</del></p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/feeds.jpg" loading="lazy"></p>
-<p>比如lean大神和kenzo的软件包里都没有的<a href="https://github.com/destan19/OpenAppFilter">OpenAppFilter</a></p>
-<p>需要单独下载源码保存到<code>lede/package</code>目录下</p>
-<p><code>cd package</code> </p>
-<p><code>git clone https://github.com/destan19/OpenAppFilter.git</code></p>
-<p><code>cd ..</code></p>
-<p>添加了插件feeds里就再重新进行一遍更新feeds，此时就下载kenzo仓库里的软件包了，单独git下载的不需要进行该步骤</p>
-<p><code>./scripts/feeds update -a</code><br><code>./scripts/feeds install -a</code><br><code>make menuconfig</code></p>
-<p>检查能进<code>make menuconfig</code>即可</p>
-<ol start="4">
-<li>下载dl库 <u><em><strong>需要科学上网</strong></em></u> <em>不然下载巨慢导致报错</em></li>
-</ol>
-<p><code>make -j8 download V=s</code></p>
-<ol start="5">
-<li>完成第一次编译 <em>仅限WLS</em> (-j1 后面是线程数。第一次编译推荐用单线程)</li>
-</ol>
-<p><code>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j1 V=s </code></p>
-<p><em>非WLS用户</em> <code>make -j1 V=s</code></p>
-<p>使用lean大神的源码未经过修改保证可以编译成功，第一次编译花费时间需要很久记得保持特殊网络环境下进行编译不然可能连第一次编译都过不了</p>
-<blockquote>
-<p><del>假如第一次编译就报错的重新开始直接</del> <code>rm -rf /home/用户/lede</code> <del>不要添加插件再进行编译，还是报错就没辙了毕竟lean源码第一次不添加任何插件是确实能过的，请回到依赖安装的步骤检查好了。</del></p>
-</blockquote>
-<ul>
-<li>✅ 当第一次编译过了，如果显示</li>
-</ul>
-<pre class="language-shell" data-language="shell"><code class="language-shell">signing package index...
-make[2]:Leaving directory &#96;&#x2F;home&#x2F;user&#x2F;lede&#96;
-make[2]:Entering directory &#96;&#x2F;home&#x2F;user&#x2F;lede&#96;
-make[2]:Nothing directory &#96;&#x2F;home&#x2F;user&#x2F;lede&#96;
-......</code></pre>
-
-<ul>
-<li>❎ 即代表编译成功了，如果显示</li>
-</ul>
-<pre class="language-shell" data-language="shell"><code class="language-shell">make[2]: *** [package&#x2F;feeds&#x2F;packages&#x2F;forked-daapd&#x2F;compile] Error 2
-make[1]: *** [&#x2F;home&#x2F;vk-op&#x2F;lede&#x2F;staging_dir&#x2F;target-x86_64_musl&#x2F;stamp&#x2F;.package_compile] Error 2</code></pre>
-
-<p>类似的带有Error字样的就是编译出错。</p>
-<h1 id="第二次编译"><a href="#第二次编译" class="headerlink" title="第二次编译"></a>第二次编译</h1><p><img src="https://cdn.miaoer.xyz/blog/21-08-23/openwrtbianyi.jpg" loading="lazy"></p>
-<blockquote>
-<p>推荐插件不要一下全选了，几个几个的选避免插件编译失败不好排查，编译的时候选你电脑最大的线程数进行编译就好。</p>
-</blockquote>
-<p>在<code>Luci---&gt;Applications</code>选择几个自己需要的插件，Luci-Theme选择自己需要的几个主题</p>
-<p>在<code>Target images</code>里选择Build GRUB images (Linux x86 or x86_64 host only)`就是BIOS启动默认不选择就是UEFI启动的</p>
-<p>在<code>Target images</code>里选择<code>Root filesystem partition size (in MB)</code>，可以设置默认overlay分区大小</p>
-<p>在<code>Target images</code>里选择<code>Kernel partition size (in MB)</code>，可以设置内核分区大小<del>(目前不知道这个干嘛的，设置了25MB)</del></p>
-<p>先简单编译一遍 <em>(线程数=处理器线程+1)</em></p>
-<p><code>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j13 V=s </code></p>
-<p>编译好了继续选择插件进行编译直到插件满足你的需求，一点点这样编译是因为怕插件编译错误可以一个个排查，如果一上来全点了报错了难排查</p>
-<p>已知smb和smb4一起编译会报错，其他插件报错可以善用搜索引擎搜索或者去github给作者提交issues或者去相关TG群里问。</p>
-<h1 id="编译完成"><a href="#编译完成" class="headerlink" title="编译完成"></a>编译完成</h1><p>编译好的固件在 <code>/home/user/lede/bin/targets/x86</code> 里，然后就可以通过各种方法安装在软路由上了，安装应该就不用说怎么安装了吧</p>
-<p>如果对我分享的博文有帮助可以给我评论或者打赏支持我！</p>
-<blockquote>
-<p>感谢！这是我为数不多没发平台进行推广或者原文宣传的博文，仅靠自己收集的资料整理而来就收获了150观看数比我想象中要多，按照步骤来一般没什么问题，如果配置的看不懂可以观看韩风大大的视频，编译其他插件按照博文里写的就没错了！附教程出的固件已经出了<a href="https://www.miaoer.xyz/network/openwrtv2021.10.10">请看这个: 分享自己编译的OpenWrt软路由固件！</a>。</p>
-</blockquote>
-<p>部分参见:</p>
-<ul>
-<li><p>Lean <a href="https://github.com/coolsnowwolf/lede">coolsnowwolf/lede</a></p>
-</li>
-<li><p>微软 <a href="https://docs.microsoft.com/zh-cn/windows/wsl/install-win10">适用于 Linux 的 Windows 子系统安装指南 (Windows 10)</a></p>
-</li>
-<li><p>韩风Talk <a href="https://www.bilibili.com/video/BV1Dv411B7MQ">【韩风Talk】Openwrt编译难么？不太难，主要是细节！</a></p>
-</li>
-<li><p>不吐不快 <a href="https://mianao.info/2020/05/05/%E7%BC%96%E8%AF%91%E6%9B%B4%E6%96%B0OpenWrt-PassWall%E5%92%8CSSR-plus%E6%8F%92%E4%BB%B6">编译更新OpenWrt PassWall和SSR-plus插件</a></p>
-</li>
-<li><p>BIGDONGDONG <a href="https://www.youtube.com/watch?v=yQoKpL4p06E">『299』 傻瓜式编译OpenWrt固件全流程丨Ubuntu下基于Lean源码编译融合各种插件</a></p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>软路由</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
       </tags>
   </entry>
   <entry>
