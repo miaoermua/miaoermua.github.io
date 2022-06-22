@@ -1,0 +1,389 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="喵二"><meta name="copyright" content="喵二"><meta name="generator" content="Hexo 5.4.0"><meta name="theme" content="hexo-theme-yun"><title>超可爱的前后端分离博客Mix-space搭建 | 喵二の小博客</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.3.3/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/@unocss/runtime/mini.global.js"></script><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/png" href="https://www.miaoer.xyz/favicon.ico"><link rel="mask-icon" href="https://www.miaoer.xyz/favicon.ico" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"blog.miaoer.xyz","root":"/","title":"喵二の小博客","version":"1.10.2","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"algolia":{"apiKey":"9a66975f2c16d3ff466d103039186c5d","indexName":"blog","hits":{"per_page":10}},"fireworks":{"colors":["255, 20, 97","24, 255, 146","90, 135, 255","251, 243, 140"]},"waline":{"config":{"enable":true,"serverURL":"https://waline-miaoermua.vercel.app","comment":"ture","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili","https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba"],"el":"#waline","lang":"zh-CN"},"cdn":"https://fastly.jsdelivr.net/npm/@waline/client@v2/dist/waline.js","dark":"html.dark"},"vendors":{"darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="喵二の小博客" type="application/atom+xml"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=G-V578886BTQ"></script><script>if (CONFIG.hostname === location.hostname) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-V578886BTQ');
+}</script><script>(function(){
+  var bp = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})();</script><script>CONFIG.leancloudVisitors = {"enable":true,"app_id":"bVTtiIgFCabQGeYEYDYdPDDG-MdYXbMMI","app_key":"6nCqiSsKK1p6xEp4XeN3mPfv","server_url":"https://blog.miaoer.xyz"}</script><script defer src="/js/analytics/leancloud-visitors.js" type="module"></script><meta name="description" content="博文版仅针对视频版的白话文补充  节选至 https:&#x2F;&#x2F;github.com&#x2F;mx-space&#x2F;docs 文档仓库，顺序略有不同，按照我的视频方法最优解  文档地址 https:&#x2F;&#x2F;mx-docs.iucky.cn   视频地址:  哔哩哔哩  YouTube            视频使用:                    BGM:          Summer Madness-Ro">
+<meta property="og:type" content="article">
+<meta property="og:title" content="超可爱的前后端分离博客Mix-space搭建">
+<meta property="og:url" content="https://blog.miaoer.xyz/2022/06/20/mx-install/index.html">
+<meta property="og:site_name" content="喵二の小博客">
+<meta property="og:description" content="博文版仅针对视频版的白话文补充  节选至 https:&#x2F;&#x2F;github.com&#x2F;mx-space&#x2F;docs 文档仓库，顺序略有不同，按照我的视频方法最优解  文档地址 https:&#x2F;&#x2F;mx-docs.iucky.cn   视频地址:  哔哩哔哩  YouTube            视频使用:                    BGM:          Summer Madness-Ro">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.miaoer.xyz/logo.png">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/22-06-20/kami.jpg">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/22-06-20/Still009.jpg">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/22-06-20/server-dali.png">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/22-06-20/Still008.jpg">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/22-06-20/kami-dali.png">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/22-06-20/kami.jpg">
+<meta property="article:published_time" content="2022-06-20T14:09:00.000Z">
+<meta property="article:modified_time" content="2022-06-22T14:10:59.827Z">
+<meta property="article:author" content="喵二">
+<meta property="article:tag" content="视频博客">
+<meta property="article:tag" content="捣鼓">
+<meta property="article:tag" content="博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.miaoer.xyz/logo.png"><script>(function() {
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="喵二"><img width="96" loading="lazy" src="/logo/weblogo.png" alt="喵二"><span class="site-author-status" title="有空来访问我的个人主页哦~~">❤️</span></a><div class="site-author-name"><a href="/about/">喵二</a></div><span class="site-name">喵二の小博客</span><sub class="site-subtitle">缘，妙不可言</sub><div class="site-description">喜欢分享一些东西 ୧(﹒ ᴗ﹒ )୨</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">32</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">11</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">19</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://www.miaoer.xyz" title="个人网站"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:information-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://wpa.qq.com/msgrd?v=3&amp;uin=2860950766&amp;site=qq&amp;menu=yes" title="QQ" target="_blank" style="color:#12B7F5"><span class="icon iconify" data-icon="ri:qq-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:i@miaoer.xyz" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/miaoer" title="Telegram" target="_blank" style="color:#0088CC"><span class="icon iconify" data-icon="ri:telegram-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/miaoer_subscribe" title="Telegram Channel" target="_blank" style="color:#FFA500"><span class="icon iconify" data-icon="ri:telegram-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS订阅" target="_blank" style="color:#FFA500"><span class="icon iconify" data-icon="ri:rss-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a><a class="links-item hty-icon-button" href="/notes" title="日记" style="color:#f5d28c"><span class="icon iconify" data-icon="ri:booklet-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%86%E5%A4%87"><span class="toc-number">2.</span> <span class="toc-text">准备</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96%E7%8E%AF%E5%A2%83"><span class="toc-number">2.1.</span> <span class="toc-text">安装依赖环境</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85Docker"><span class="toc-number">2.2.</span> <span class="toc-text">安装Docker</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85Docker-compose"><span class="toc-number">2.3.</span> <span class="toc-text">安装Docker-compose</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%83%A8%E7%BD%B2Core"><span class="toc-number">3.</span> <span class="toc-text">部署Core</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8B%89%E5%8F%96%E9%95%9C%E5%83%8F"><span class="toc-number">3.1.</span> <span class="toc-text">拉取镜像</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86"><span class="toc-number">3.2.</span> <span class="toc-text">反向代理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%85%8D%E7%BD%AESSL%E8%AF%81%E4%B9%A6"><span class="toc-number">3.3.</span> <span class="toc-text">配置SSL证书</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="toc-number">3.4.</span> <span class="toc-text">初始化</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%83%A8%E7%BD%B2%E5%89%8D%E7%AB%AF"><span class="toc-number">4.</span> <span class="toc-text">部署前端</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE"><span class="toc-number">5.</span> <span class="toc-text">设置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%87%E7%BA%A7%E4%B8%8E%E5%A4%87%E4%BB%BD"><span class="toc-number">6.</span> <span class="toc-text">升级与备份</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E9%AD%94%E6%94%B9%E5%8D%87%E7%BA%A7-%E5%89%8D%E7%AB%AF"><span class="toc-number">6.1.</span> <span class="toc-text">1.魔改升级-前端</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%BC%BA%E5%88%B6%E5%90%8C%E6%AD%A5-%E5%89%8D%E7%AB%AF"><span class="toc-number">7.</span> <span class="toc-text">2.强制同步-前端</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E7%AB%AF%E5%8D%87%E7%BA%A7"><span class="toc-number">8.</span> <span class="toc-text">后端升级</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%87%E4%BB%BD%E4%B8%8E%E5%9B%9E%E6%BB%9A"><span class="toc-number">9.</span> <span class="toc-text">备份与回滚</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://blog.miaoer.xyz/2022/06/20/mx-install/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="喵二"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="喵二の小博客"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">超可爱的前后端分离博客Mix-space搭建</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2022-06-20 22:09:00" itemprop="dateCreated datePublished" datetime="2022-06-20T22:09:00+08:00">2022-06-20</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="修改时间：2022-06-22 22:10:59" itemprop="dateModified" datetime="2022-06-22T22:10:59+08:00">2022-06-22</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">2.4k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">10m</span></span></span><span class="leancloud_visitors" id="/2022/06/20/mx-install/" data-flag-title="超可爱的前后端分离博客Mix-space搭建"><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读次数"><span class="icon iconify" data-icon="ri:eye-line"></span> <span class="leancloud-visitors-count"></span></span></span><span class="post-meta-divider">-</span><a href="#comment"><span class="post-meta-item-icon" title="评论数"><span class="icon iconify" data-icon="ri:chat-3-line"></span> <span class="waline-comment-count" id="/2022/06/20/mx-install/"></span></span></a><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%8D%9A%E5%AE%A2/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">博客</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E8%A7%86%E9%A2%91%E5%8D%9A%E5%AE%A2/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">视频博客</span></a><a class="tag-item" href="/tags/%E6%8D%A3%E9%BC%93/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">捣鼓</span></a><a class="tag-item" href="/tags/%E5%8D%9A%E5%AE%A2/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">博客</span></a></span></div><div class="post-author"><span class="author-name">喵二</span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><blockquote>
+<p>博文版仅针对视频版的白话文补充</p>
+</blockquote>
+<p><strong>节选至 <code>https://github.com/mx-space/docs</code> 文档仓库，顺序略有不同，按照我的视频方法最优解</strong></p>
+<p><i class="ri-bookmark-fill"></i> 文档地址 <code>https://mx-docs.iucky.cn</code></p>
+<br>
+
+<p>视频地址:</p>
+<p><i class="ri-bilibili-line"></i> <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV14N4y137ZW">哔哩哔哩</a></p>
+<p><i class="ri-youtube-line"></i> <a target="_blank" rel="noopener" href="https://youtu.be/qJ94SSy5Arc">YouTube</a></p>
+<br>
+<details>
+         <summary>视频使用:</summary>
+         <br>
+         <p>BGM:
+         <li>Summer Madness-Roa</li><br>
+         <li>moonlight-Roa</li><br>
+         <li>Lights-Sappheiros</li><br>
+         <li>Embrace-Sappheiros</li><br>
+         </p><br></details>
+
+<hr>
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p><img src="https://www.miaoer.xyz/logo.png" loading="lazy"></p>
+<p>没错， Mix-Space 采用的是前后端分离的形式，那什么是前后端分离呢？</p>
+<p>前后端分离，顾名思义，前后端将会遵循某种规范，后端的接口不变，请求方式不变，即前后端数据交换遵循的某种规范。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-20/kami.jpg" loading="lazy"></p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-20/Still009.jpg" loading="lazy"></p>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>在运行 Mix-space 时你需要准备一台服务器</p>
+<ul>
+<li>一个会举一反三的脑子</li>
+<li>Linux 内核版本 &gt; 4.18 (推荐使用最新版 Ubuntu)</li>
+<li>运行内存 &gt; 1Gib</li>
+<li>前后端的 SSL 证书</li>
+<li>解析好前后端地址</li>
+<li>宝塔面板</li>
+</ul>
+<p>可选项:</p>
+<ul>
+<li>带 Docker 镜像的 Ubuntu （或腾讯云应用镜像 Docker）</li>
+</ul>
+<p>在宝塔面板-软件商店-运行环境里安装 <code>PM2管理器</code> 和 <code>Nginx</code> ，安装最新 Node 版本本章安装的是 <code>v16.15.1</code></p>
+<p>至少需要 Node &gt; 16.X</p>
+<span id="more"></span>
+<br>
+
+<p>Debian / Ubuntu 安装依赖环境</p>
+<pre class="language-none"><code class="language-none">sudo apt update &amp;&amp; sudo apt install git curl vim wget git-lfs -y</code></pre>
+
+<h3 id="安装依赖环境"><a href="#安装依赖环境" class="headerlink" title="安装依赖环境"></a>安装依赖环境</h3><pre class="language-none"><code class="language-none">sudo su
+npm install -g pnpm pm2
+
+# 如果安装比较慢，可以使用以下命令切换镜像源
+npm config set registry http:&#x2F;&#x2F;mirrors.cloud.tencent.com&#x2F;npm&#x2F;</code></pre>
+
+<h3 id="安装Docker"><a href="#安装Docker" class="headerlink" title="安装Docker"></a>安装Docker</h3><pre class="language-none"><code class="language-none">sudo curl -fsSL https:&#x2F;&#x2F;get.docker.com | bash -s docker
+
+# 如果安装比较慢，推荐使用以下命令
+sudo curl -fsSL https:&#x2F;&#x2F;get.docker.com | bash -s docker --mirror Aliyun</code></pre>
+
+<h3 id="安装Docker-compose"><a href="#安装Docker-compose" class="headerlink" title="安装Docker-compose"></a>安装Docker-compose</h3><pre class="language-none"><code class="language-none"># 下载 docker-compose
+
+wget https:&#x2F;&#x2F;github.com&#x2F;docker&#x2F;compose&#x2F;releases&#x2F;download&#x2F;v2.6.0&#x2F;docker-compose-linux-x86_64
+
+#(备用) wget https:&#x2F;&#x2F;download.fastgit.org&#x2F;docker&#x2F;compose&#x2F;releases&#x2F;download&#x2F;v2.6.0&#x2F;docker-compose-linux-x86_64
+
+# 新建文件夹（非必须），可能需要
+
+sudo mkdir -p &#x2F;usr&#x2F;local&#x2F;lib&#x2F;docker&#x2F;cli-plugins&#x2F;
+
+# 复制到指定位置
+
+sudo cp .&#x2F;docker-compose-linux-x86_64  &#x2F;usr&#x2F;local&#x2F;lib&#x2F;docker&#x2F;cli-plugins&#x2F;docker-compose
+
+# 赋予执行权限
+
+sudo chmod +x &#x2F;usr&#x2F;local&#x2F;lib&#x2F;docker&#x2F;cli-plugins&#x2F;docker-compose</code></pre>
+
+<p>检查是否安装完成</p>
+<pre class="language-none"><code class="language-none">docker compose version</code></pre>
+
+<p>正常输出版本号即可。</p>
+<h2 id="部署Core"><a href="#部署Core" class="headerlink" title="部署Core"></a>部署Core</h2><pre class="language-none"><code class="language-none">cd
+
+mkdir -p mx-space&#x2F;server
+
+cd mx-space&#x2F;server
+
+wget https:&#x2F;&#x2F;fastly.jsdelivr.net&#x2F;gh&#x2F;mx-space&#x2F;core@master&#x2F;docker-compose.yml
+
+wget https:&#x2F;&#x2F;fastly.jsdelivr.net&#x2F;gh&#x2F;mx-space&#x2F;core@master&#x2F;.env.example -O .env</code></pre>
+
+<p>用宝塔或者 vim 编辑这个 .env 文件，文件示例如下</p>
+<pre class="language-none"><code class="language-none"># THIS ENV FILE EXAMPLE ONLY FOR DOCKER COMPOSE
+# SEE https:&#x2F;&#x2F;docs.docker.com&#x2F;compose&#x2F;environment-variables&#x2F;#the-env-file
+JWT_SECRET&#x3D;7294c34e0b28ad282333333          #此处填写一个长度不小于16个字符，不大于32个字符的字符串，示例如：hash 的 md5 值
+ALLOWED_ORIGINS&#x3D;miaoer.xyz,www.miaoer.xyz,v6.www.miaoer.xyz  #此处填写被允许的域名，通常是kami的域名，如果允许多个域名访问，用英文逗号,分隔</code></pre>
+
+<blockquote>
+<p>Vim保存: Ecs 退出编辑，Shift + :(冒号) 输入wq<br>则 <code>:wq</code></p>
+</blockquote>
+<h3 id="拉取镜像"><a href="#拉取镜像" class="headerlink" title="拉取镜像"></a>拉取镜像</h3><pre class="language-none"><code class="language-none"># 拉取最新镜像
+
+sudo docker compose pull
+
+# 启动容器
+
+sudo docker compose up -d</code></pre>
+
+<h3 id="反向代理"><a href="#反向代理" class="headerlink" title="反向代理"></a>反向代理</h3><p>进入宝塔面板—网站，设置后端网站地址这里使用 <code>api.miaoer.xyz</code></p>
+<p>自己喜欢啥主机名就填啥，记得解析</p>
+<p>新建完成站点到设置-反向代理-添加反向代理</p>
+<p>代理名字这里方便管理就设置为 <code>后端</code></p>
+<p>目标URL: <code>http://127.0.0.1:2333</code> 发送域名: <code>&amp;host</code></p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-20/server-dali.png" loading="lazy"></p>
+<p>保存后点击 <code>配置文件</code> 将下方配置文件文本复制复制进去，记得全选删掉以前的配置</p>
+<pre class="language-none"><code class="language-none">#PROXY-START&#x2F;
+location &#x2F;socket.io &#123;
+    proxy_http_version 1.1;
+    proxy_buffering off;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection &quot;Upgrade&quot;;
+    proxy_pass http:&#x2F;&#x2F;127.0.0.1:2333&#x2F;socket.io;
+&#125;
+
+
+location &#x2F;
+&#123;
+    proxy_pass http:&#x2F;&#x2F;127.0.0.1:2333&#x2F;;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+
+    add_header X-Cache $upstream_cache_status;
+
+    #Set Nginx Cache
+
+
+    set $static_fileJsNv8TWb 0;
+    if ( $uri ~* &quot;\.(gif|png|jpg|css|js|woff|woff2)$&quot; )
+    &#123;
+    	set $static_fileJsNv8TWb 1;
+    	expires 12h;
+        &#125;
+    if ( $static_fileJsNv8TWb &#x3D; 0 )
+    &#123;
+    add_header Cache-Control no-cache;
+    &#125;
+&#125;
+
+#PROXY-END&#x2F;</code></pre>
+
+<h3 id="配置SSL证书"><a href="#配置SSL证书" class="headerlink" title="配置SSL证书"></a>配置SSL证书</h3><p>这里使用腾讯云免费提供的，下载时选择 Nginx 将 SSL 证书下载下来，打开压缩包将后缀 <code>.key</code> 和 <code>.pem</code> 密钥和证书文件的文本复制到</p>
+<p>站点设置-SSL-其他证书中，视频因为隐私问题进行打码处理</p>
+<p><code>.pem</code> 文件最后一行是空行记得删除</p>
+<p>保存这里可以选择开启强制 HTTPS 建议开启</p>
+<h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><p>访问后端地址 <code>https://server.test.cn/proxy/qaqdmin</code> 进行初始化</p>
+<p><strong>站点设置</strong> 中设置好站点标题和站点描述</p>
+<p>关键字自选</p>
+<p>前端地址需要手动改为你想要的地址，我这里设置 <code>https://www.miaoer.xyz</code></p>
+<p>API 地址默认是正确的，如: <code>https://api.miaoer.xyz/api/v2</code></p>
+<p>后台地址也是正确的，这里不推荐更改</p>
+<p>网关也是默认正确的</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-20/Still008.jpg" loading="lazy"></p>
+<br>
+
+<p>到了 <strong>主人信息</strong> 这里推荐全部填写完</p>
+<p>需要注意一下邮箱是指收取友链和评论通知的地址，后面在后端面板设定好邮箱提醒</p>
+<p>密码这里是后端面板的密码，确认一下密码</p>
+<p>个人首页这里设置自己的前端地址我这里设置 <code>https://www.miaoer.xyz</code></p>
+<p>头像这里设置自己的头像地址，你可以通过后端后续上传你的头像，推荐自己搭建 CDN 图床，或者使用现成的，我这里选择了自建</p>
+<p>个人介绍看个人喜好进行填写</p>
+<h2 id="部署前端"><a href="#部署前端" class="headerlink" title="部署前端"></a>部署前端</h2><pre class="language-none"><code class="language-none">cd
+cd mx-space
+
+git clone https:&#x2F;&#x2F;github.com&#x2F;mx-space&#x2F;kami.git --depth&#x3D;1
+
+# 网络不好的情况，请使用下面的命令。
+
+git clone https:&#x2F;&#x2F;hub.fastgit.xyz&#x2F;mx-space&#x2F;kami.git --depth&#x3D;1</code></pre>
+
+<p>更换分支到稳定版本</p>
+<pre class="language-none"><code class="language-none">cd kami &amp;&amp; git fetch --tags &amp;&amp; git checkout $(git rev-list --tags --max-count&#x3D;1)</code></pre>
+
+<p>修改env</p>
+<p>用宝塔或者 vim 编辑这个 .env 文件，文件示例如下</p>
+<pre class="language-none"><code class="language-none"># API 地址
+NEXT_PUBLIC_API_URL&#x3D;https:&#x2F;&#x2F;api.miaoer.xyz&#x2F;api&#x2F;v2
+# GATEWAY 地址
+NEXT_PUBLIC_GATEWAY_URL&#x3D;https:&#x2F;&#x2F;api.miaoer.xyz
+#前端使用的配置项名字
+NEXT_PUBLIC_SNIPPET_NAME&#x3D;kami
+# 如果使用 CDN, 修改产物前缀
+ASSETPREFIX&#x3D;</code></pre>
+
+<blockquote>
+<p>Vim保存: Ecs 退出编辑，Shift + :(冒号) 输入wq<br>则 <code>:wq</code></p>
+</blockquote>
+<p>安装依赖</p>
+<pre class="language-none"><code class="language-none">pnpm i</code></pre>
+
+<p>构建</p>
+<pre class="language-none"><code class="language-none">pnpm build</code></pre>
+
+<p>启动前端</p>
+<pre class="language-none"><code class="language-none">pm2 start</code></pre>
+
+<p>添加站点</p>
+<br>
+
+<p>进入宝塔面板—网站，设置前端网站地址这里使用 <code>www.miaoer.xyz</code></p>
+<p>自己喜欢啥主机名就填啥，记得解析</p>
+<p>新建完成站点到设置-反向代理-添加反向代理</p>
+<p>代理名字这里方便管理就设置为 <code>前端</code></p>
+<p>目标URL: <code>http://127.0.0.1:2323</code> 发送域名: <code>&amp;host</code></p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-20/kami-dali.png" loading="lazy"></p>
+<p>保存后点击 <code>配置文件</code> 将下方配置文件文本复制复制进去，记得全选删掉以前的配置</p>
+<p>配置SSL证书</p>
+<blockquote>
+<p>和前面后端非常类似，希望你能举一反三</p>
+</blockquote>
+<p>测试前端</p>
+<br>
+
+<p>配置完前端的配置，可以先进行访问，我这里回滚了正常的后端所以我这里有文章</p>
+<p>默认是没有任何文章的如果没有问题可以尝试在后端写一篇文章并发布进行测试</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-20/kami.jpg" loading="lazy"></p>
+<h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><p>在后端面板 设定-系统中有</p>
+<ul>
+<li>网站设置</li>
+<li>SEO优化</li>
+<li>后台附加设置</li>
+<li>文本设定</li>
+<li>邮件通知设置</li>
+<li>评论设置</li>
+<li>Bark 通知设定</li>
+<li>友链设定</li>
+<li>备份</li>
+<li>百度推送设定</li>
+<li>Algolia Search</li>
+<li>终端设定</li>
+</ul>
+<p>这里就不一一讲解了有兴趣可以预览一下<br><a target="_blank" rel="noopener" href="https://mx-docs.iucky.cn/options/adsetting.html">文档中关于这部分-后台设置</a> 的内容</p>
+<p>还有就是配置与云函数，碍于篇幅这里也是不进行讲解的具体可以查看 <a target="_blank" rel="noopener" href="https://mx-docs.iucky.cn/options/serverless.html">文档中关于这部分-云函数</a></p>
+<h2 id="升级与备份"><a href="#升级与备份" class="headerlink" title="升级与备份"></a>升级与备份</h2><h3 id="1-魔改升级-前端"><a href="#1-魔改升级-前端" class="headerlink" title="1.魔改升级-前端"></a>1.魔改升级-前端</h3><p>将 <code>mx-space/kami</code> 文件夹改为任意你喜欢的我这里修改为 <code>kami.d</code></p>
+<p>然后拉取 kami 前端仓库，更新到稳定版本</p>
+<pre class="language-none"><code class="language-none">cd
+cd mx-space
+
+git clone https:&#x2F;&#x2F;github.com&#x2F;mx-space&#x2F;kami.git --depth&#x3D;1
+
+cd kami &amp;&amp; git fetch --tags &amp;&amp; git checkout $(git rev-list --tags --max-count&#x3D;1)</code></pre>
+
+<p>然后将之前配置时修改过的文件，如在 <code>mx-space/kami.d</code></p>
+<p>中的 <code>.env</code> 和 <code>public</code> 文件夹复制到 <code>mx-space/kami</code></p>
+<p>我这里还修改了友链的页面文件这里也进行替换</p>
+<p>替换完成；安装依赖、构建、启动前端</p>
+<pre class="language-none"><code class="language-none">pnpm i
+
+pnpm build
+
+pm2 start
+
+# 老鸟选项: pnpm i &amp;&amp; pnpm build &amp;&amp; pm2 start</code></pre>
+
+<h2 id="2-强制同步-前端"><a href="#2-强制同步-前端" class="headerlink" title="2.强制同步-前端"></a>2.强制同步-前端</h2><p>直接在 <code>mx-space/kami</code> 文件夹下执行 <code>git pull origin master</code></p>
+<p>安装依赖、构建、启动前端</p>
+<pre class="language-none"><code class="language-none">pnpm i
+
+pnpm build
+
+pm2 start
+
+# 老鸟选项: pnpm i &amp;&amp; pnpm build &amp;&amp; pm2 start</code></pre>
+
+<p>该方法适合于对 Kami 源代码没有做改动的懒人用户</p>
+<h2 id="后端升级"><a href="#后端升级" class="headerlink" title="后端升级"></a>后端升级</h2><p>因为 Mix-space 后端是使用 Docker-compose 的，升级十分方便</p>
+<pre class="language-none"><code class="language-none">cd
+cd mx-space&#x2F;server</code></pre>
+
+<p>进入 server 文件夹执行</p>
+<pre class="language-none"><code class="language-none">docker compose pull &amp;&amp; docker compose up -d</code></pre>
+
+<h2 id="备份与回滚"><a href="#备份与回滚" class="headerlink" title="备份与回滚"></a>备份与回滚</h2><p>在后端中 其他-备份 中点击立即备份，即备份到绝对目录:<br><code>/root/mx-space/server/data/mx-space/backup/20xx-xx-xx_xx:xx:xx/backup-20xx-xx-xx_xx:xx:xx.zip</code></p>
+<p>默认情况下备份会明天备份一次，如果你没修改的话，详见后端面板 设定-系统-备份</p>
+<p>回滚的话，在后端中 其他-备份 中点击立即备份，将之前下载在电脑里的 <code>backup.zip</code> 上传到刚刚生成的备份目录里进行重命名替换</p>
+<blockquote>
+<p>⚠️ 该操作涉及修改数据库，请多备份几个工作日的 backup，数据无价请谨慎操作！</p>
+</blockquote>
+<p>替换完成会提示 数据库有变动，将在 x 秒后重载页面</p>
+<p>重载先检查文章评论等有没有丢失</p>
+<hr>
+<p>欢迎留言，打赏一键三联视频！</p>
+</div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="打赏" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><span class="icon iconify" data-icon="ri:hand-coin-line"></span></span><div id="reward-comment">投喂我！</div><div id="qr" style="display:none;"><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/vx.png"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/vx.png" alt="微信支付" title="微信支付"></a><div><span style="color:#2DC100"><span class="icon iconify" data-icon="ri:wechat-pay-line"></span></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/zfb.png"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/zfb.png" alt="支付宝" title="支付宝"></a><div><span style="color:#00A3EE"><span class="icon iconify" data-icon="ri:alipay-line"></span></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/zfbhb.png"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/zfbhb.png" alt="支付宝红包" title="支付宝红包"></a><div><span style="color:#DF667F"><span class="icon iconify" data-icon="ri:alipay-line"></span></span></div></div></div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>喵二</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://blog.miaoer.xyz/2022/06/20/mx-install/" title="超可爱的前后端分离博客Mix-space搭建">https://blog.miaoer.xyz/2022/06/20/mx-install/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"></div><div class="post-nav-item"><a class="post-nav-next" href="/2022/06/04/app-foldersync/" rel="next" title="一款好用的SMB备份软件FolderSync"><span class="post-nav-text">一款好用的SMB备份软件FolderSync</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div id="waline"></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@waline/client@v2/dist/waline.css"><script>window.CONFIG.waline.config.path = "/2022/06/20/mx-install/"</script><div class="js-Pjax"><script src="/js/comments/waline.js" type="module" defer></script></div></div></main><footer class="sidebar-translate" id="footer"><div class="beian"><a rel="noopener" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021127881号</a></div><div class="copyright"><span>&copy; 2021年5月14日 – 2022 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 喵二</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v5.4.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.2</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" href="javascript:;" title="搜索"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:search-line"></span></span></a><script>window.addEventListener("DOMContentLoaded", () => {
+  // Handle and trigger popup window
+  document.querySelector(".popup-trigger").addEventListener("click", () => {
+    document.querySelector(".popup").classList.add("show");
+    setTimeout(() => {
+      document.querySelector(".search-input").focus();
+    }, 100);
+  });
+
+  // Monitor main search box
+  const onPopupClose = () => {
+    document.querySelector(".popup").classList.remove("show");
+  };
+
+  document.querySelector(".popup-btn-close").addEventListener("click", () => {
+    onPopupClose();
+  });
+
+  window.addEventListener("keyup", event => {
+    if (event.key === "Escape") {
+      onPopupClose();
+    }
+  });
+});
+</script><script defer src="https://fastly.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script><script defer src="https://fastly.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js"></script><script defer src="/js/search/algolia-search.js" type="module"></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><span class="icon iconify" data-icon="ri:close-line"></span></span></div><div class="search-input-container"></div><div class="algolia-results"><div id="algolia-stats"></div><div id="algolia-hits"></div><div class="algolia-pagination" id="algolia-pagination"></div></div></div><script>function initMourn() {
+  const date = new Date();
+  const today = (date.getMonth() + 1) + "-" + date.getDate()
+  const mourn_days = ["4-4","9-18","3-27"]
+  if (mourn_days.includes(today)) {
+    document.documentElement.style.filter = "grayscale(1)";
+  }
+}
+initMourn();</script><script src="https://cdn.jsdelivr.net/npm/live2d-widget@^3.1.3/lib/L2Dwidget.min.js"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":0.75,"jsonPath":"https://cdn.miaoer.xyz/live2d/models/index.json"},"display":{"position":"right","width":300,"height":600,"hOffset":35,"vOffset":-210},"mobile":{"show":false,"scale":0.25},"react":{"opacity":0.75},"log":false});</script></body></html>

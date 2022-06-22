@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-06-07T10:57:09.659Z</updated>
+  <updated>2022-06-22T14:10:59.827Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -17,11 +17,75 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>超可爱的前后端分离博客Mix-space搭建</title>
+    <link href="https://blog.miaoer.xyz/2022/06/20/mx-install/"/>
+    <id>https://blog.miaoer.xyz/2022/06/20/mx-install/</id>
+    <published>2022-06-20T14:09:00.000Z</published>
+    <updated>2022-06-22T14:10:59.827Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;博文版仅针对视频版的白话文补充&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;节选至 &lt;code&gt;https://github.com/mx-space/docs&lt;/code&gt; 文档仓库，顺序略有不同，按照我的视频方法最优解&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;ri-bookmark-fill&quot;&gt;&lt;/i&gt; 文档地址 &lt;code&gt;https://mx-docs.iucky.cn&lt;/code&gt;&lt;/p&gt;
+&lt;br&gt;
+
+&lt;p&gt;视频地址:&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;ri-bilibili-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.bilibili.com/video/BV14N4y137ZW&quot;&gt;哔哩哔哩&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;ri-youtube-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://youtu.be/qJ94SSy5Arc&quot;&gt;YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;details&gt;
+         &lt;summary&gt;视频使用:&lt;/summary&gt;
+         &lt;br&gt;
+         &lt;p&gt;BGM:
+         &lt;li&gt;Summer Madness-Roa&lt;/li&gt;&lt;br&gt;
+         &lt;li&gt;moonlight-Roa&lt;/li&gt;&lt;br&gt;
+         &lt;li&gt;Lights-Sappheiros&lt;/li&gt;&lt;br&gt;
+         &lt;li&gt;Embrace-Sappheiros&lt;/li&gt;&lt;br&gt;
+         &lt;/p&gt;&lt;br&gt;&lt;/details&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://www.miaoer.xyz/logo.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;没错， Mix-Space 采用的是前后端分离的形式，那什么是前后端分离呢？&lt;/p&gt;
+&lt;p&gt;前后端分离，顾名思义，前后端将会遵循某种规范，后端的接口不变，请求方式不变，即前后端数据交换遵循的某种规范。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-06-20/kami.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-06-20/Still009.jpg&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h2&gt;&lt;p&gt;在运行 Mix-space 时你需要准备一台服务器&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个会举一反三的脑子&lt;/li&gt;
+&lt;li&gt;Linux 内核版本 &amp;gt; 4.18 (推荐使用最新版 Ubuntu)&lt;/li&gt;
+&lt;li&gt;运行内存 &amp;gt; 1Gib&lt;/li&gt;
+&lt;li&gt;前后端的 SSL 证书&lt;/li&gt;
+&lt;li&gt;解析好前后端地址&lt;/li&gt;
+&lt;li&gt;宝塔面板&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可选项:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;带 Docker 镜像的 Ubuntu （或腾讯云应用镜像 Docker）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在宝塔面板-软件商店-运行环境里安装 &lt;code&gt;PM2管理器&lt;/code&gt; 和 &lt;code&gt;Nginx&lt;/code&gt; ，安装最新 Node 版本本章安装的是 &lt;code&gt;v16.15.1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;至少需要 Node &amp;gt; 16.X&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="博客" scheme="https://blog.miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="视频博客" scheme="https://blog.miaoer.xyz/tags/%E8%A7%86%E9%A2%91%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="捣鼓" scheme="https://blog.miaoer.xyz/tags/%E6%8D%A3%E9%BC%93/"/>
+    
+    <category term="博客" scheme="https://blog.miaoer.xyz/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>一款好用的SMB备份软件FolderSync</title>
-    <link href="https://blog.miaoer.xyz/2022/06/01/app-foldersync/"/>
-    <id>https://blog.miaoer.xyz/2022/06/01/app-foldersync/</id>
-    <published>2022-06-01T10:35:05.746Z</published>
-    <updated>2022-06-07T10:57:09.659Z</updated>
+    <link href="https://blog.miaoer.xyz/2022/06/04/app-foldersync/"/>
+    <id>https://blog.miaoer.xyz/2022/06/04/app-foldersync/</id>
+    <published>2022-06-04T10:41:49.000Z</published>
+    <updated>2022-06-22T14:11:42.741Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;i class=&quot;ri-bilibili-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.bilibili.com/video/BV1Tv4y137oD&quot;&gt;哔哩哔哩&lt;/a&gt;&lt;/p&gt;
@@ -425,29 +489,6 @@
     
     
     <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>教你认破二手平台小米有锁机</title>
-    <link href="https://blog.miaoer.xyz/2021/08/20/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/"/>
-    <id>https://blog.miaoer.xyz/2021/08/20/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/</id>
-    <published>2021-08-20T05:06:59.982Z</published>
-    <updated>2021-12-30T14:58:41.658Z</updated>
-    
-    
-    <summary type="html">揭秘各种二手小米手机的&quot;锁&quot;</summary>
-    
-    
-    
-    <category term="小米" scheme="https://blog.miaoer.xyz/categories/%E5%B0%8F%E7%B1%B3/"/>
-    
-    <category term="教程" scheme="https://blog.miaoer.xyz/categories/%E5%B0%8F%E7%B1%B3/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="小米" scheme="https://blog.miaoer.xyz/tags/%E5%B0%8F%E7%B1%B3/"/>
-    
-    <category term="技巧" scheme="https://blog.miaoer.xyz/tags/%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
