@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-06-22T14:14:56.185Z</updated>
+  <updated>2022-06-27T15:18:27.287Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -17,11 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>3520块能捡到什么笔记本？华硕天选FA506简单测试个评</title>
+    <link href="https://blog.miaoer.xyz/2022/06/27/jian-tianxuanji/"/>
+    <id>https://blog.miaoer.xyz/2022/06/27/jian-tianxuanji/</id>
+    <published>2022-06-27T15:16:37.427Z</published>
+    <updated>2022-06-27T15:18:27.287Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;大家好，今天开箱一个二手平台淘来的笔记本 华硕天选FA506&lt;/p&gt;
+&lt;br&gt;
+
+&lt;p&gt;视频地址:&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;ri-bilibili-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.bilibili.com/video/BV1aB4y1p7ox&quot;&gt;哔哩哔哩&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;ri-youtube-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://youtu.be/4MkE7kq5EV4&quot;&gt;YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;details&gt;
+         &lt;summary&gt;视频使用:&lt;/summary&gt;
+         &lt;br&gt;
+         &lt;p&gt;BGM:
+         &lt;li&gt;Summer Madness-Roa&lt;/li&gt;&lt;br&gt;
+         &lt;li&gt;Fresh Time-Roa&lt;/li&gt;&lt;br&gt;
+         &lt;/p&gt;&lt;br&gt;&lt;/details&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&quot;开箱&quot;&gt;&lt;a href=&quot;#开箱&quot; class=&quot;headerlink&quot; title=&quot;开箱&quot;&gt;&lt;/a&gt;开箱&lt;/h2&gt;&lt;p&gt;这款笔记本我是在海鲜市场以3600收来的；&lt;/p&gt;
+&lt;p&gt;看看电源适配器 20V-9A 一共 180W 的电源，还挺薄，制造商是台达电子&lt;/p&gt;
+&lt;p&gt;整机制造时间 2020年9月，输入 20V-9A；&lt;/p&gt;
+&lt;p&gt;右侧一个 usb2.0 接口，出风口、&lt;/p&gt;
+&lt;p&gt;左侧一个 D C电源接口，RJ45 千兆网口，HDMI，两个 usb3.0 接口，一个 type-c 接口，耳麦二合一接口。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="电脑" scheme="https://blog.miaoer.xyz/categories/%E7%94%B5%E8%84%91/"/>
+    
+    
+    <category term="电脑" scheme="https://blog.miaoer.xyz/tags/%E7%94%B5%E8%84%91/"/>
+    
+    <category term="视频博客" scheme="https://blog.miaoer.xyz/tags/%E8%A7%86%E9%A2%91%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>超可爱的前后端分离博客Mix-space搭建</title>
     <link href="https://blog.miaoer.xyz/2022/06/20/mx-install/"/>
     <id>https://blog.miaoer.xyz/2022/06/20/mx-install/</id>
     <published>2022-06-20T14:09:00.000Z</published>
-    <updated>2022-06-22T14:14:56.185Z</updated>
+    <updated>2022-06-27T15:18:56.995Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -454,25 +495,6 @@
     
     
     <category term="Blog" scheme="https://blog.miaoer.xyz/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>简单编译一个属于自己的openwrt软路由系统</title>
-    <link href="https://blog.miaoer.xyz/2021/08/22/%E7%BC%96%E8%AF%91openwrt/"/>
-    <id>https://blog.miaoer.xyz/2021/08/22/%E7%BC%96%E8%AF%91openwrt/</id>
-    <published>2021-08-22T14:29:24.754Z</published>
-    <updated>2021-12-30T14:57:46.288Z</updated>
-    
-    
-    <summary type="html">编译一个自己的openwrt系统！</summary>
-    
-    
-    
-    <category term="软路由" scheme="https://blog.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
-    
-    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
   </entry>
   
