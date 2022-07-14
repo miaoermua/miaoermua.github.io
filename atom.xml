@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-06-29T16:07:05.755Z</updated>
+  <updated>2022-07-03T12:31:54.409Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -17,23 +17,54 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>今年618我都买了些啥</title>
+    <link href="https://blog.miaoer.xyz/2022/07/02/22-618/"/>
+    <id>https://blog.miaoer.xyz/2022/07/02/22-618/</id>
+    <published>2022-07-02T12:31:27.000Z</published>
+    <updated>2022-07-03T12:31:54.409Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;非商单，有需则购，警惕消费主义陷阱！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;今年618；噢不，应该是整个6月份我大大小小买或收到不少东西，有些是因为老久设备被迫进行消费升级的，也是随便写点记下今年618到底消费多少，本质上是一种分享总结，其实是想发日记的但这内容有点长算了……&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;iPhone-SE3&quot;&gt;&lt;a href=&quot;#iPhone-SE3&quot; class=&quot;headerlink&quot; title=&quot;iPhone SE3&quot;&gt;&lt;/a&gt;iPhone SE3&lt;/h2&gt;&lt;p&gt;这个是给我老妈换掉 iPhone 6 的机器，你没听错就是 iPhone 6 早在一年多前微信就已经放弃6代的升级了，iOS 也停摆在12因为屏幕触摸也不灵敏了，点不到左上角但是右上角又可以，真是百思不得其解。乘机换掉这个老爷机了，在京东以2588元购入的 64G 版，下午买第二天上午到，包装非常“环保”就一个手机和 lightning to type-c 数据线，还有卡片；到手果真很小一样大，到手先恢复发现不知道是版本太老了还是怎么不能同步一些数据，还好 iCloud 有备份。&lt;/p&gt;
+&lt;p&gt;其他没啥好说的，A15很快估摸着又用到停更2333……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-07-01/1.jpg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="博客" scheme="https://blog.miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="生活" scheme="https://blog.miaoer.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="购物" scheme="https://blog.miaoer.xyz/tags/%E8%B4%AD%E7%89%A9/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CatWrt-OpenWrt x86 软路由稳定固件的再一次升级</title>
     <link href="https://blog.miaoer.xyz/2022/06/30/catwrt-v22.7/"/>
     <id>https://blog.miaoer.xyz/2022/06/30/catwrt-v22.7/</id>
     <published>2022-06-29T16:05:28.326Z</published>
-    <updated>2022-06-29T16:07:05.755Z</updated>
+    <updated>2022-07-03T12:32:22.953Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;目前几天正在磨炼固件排查有没有其他可能出现的问题，如果有请在本评论下留言&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;在去年的10月10日，我公开发布了我编译的 OpenWrt</summary>
-        
-      
+&lt;p&gt;在去年的10月10日，我公开发布了我编译的 OpenWrt 软路由固件，这次更新了带来了新特性和特色功能，经久耐用的固件主旁单臂都很稳定高效。&lt;/p&gt;
+&lt;p&gt;基于 &lt;a href=&quot;https://github.com/coolsnowwolf/lede&quot;&gt;Lean 源码&lt;/a&gt; 拉取 2022-6-28 的仓库，精心打造！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-06-29/hello.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;特色功能&quot;&gt;&lt;a href=&quot;#特色功能&quot; class=&quot;headerlink&quot; title=&quot;特色功能&quot;&gt;&lt;/a&gt;特色功能&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 令人惊叹的远程管理&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 完全支持 IPv6&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 智能网络加速&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 负载均衡&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; Docker&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
@@ -51,7 +82,7 @@
     <link href="https://blog.miaoer.xyz/2022/06/27/jian-tianxuanji/"/>
     <id>https://blog.miaoer.xyz/2022/06/27/jian-tianxuanji/</id>
     <published>2022-06-27T15:16:37.427Z</published>
-    <updated>2022-06-27T15:18:27.287Z</updated>
+    <updated>2022-07-03T13:22:02.380Z</updated>
     
     
     <summary type="html">&lt;p&gt;大家好，今天开箱一个二手平台淘来的笔记本 华硕天选FA506&lt;/p&gt;
@@ -92,7 +123,7 @@
     <link href="https://blog.miaoer.xyz/2022/06/20/mx-install/"/>
     <id>https://blog.miaoer.xyz/2022/06/20/mx-install/</id>
     <published>2022-06-20T14:09:00.000Z</published>
-    <updated>2022-06-27T15:18:56.995Z</updated>
+    <updated>2022-07-03T13:21:44.436Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -118,7 +149,8 @@
 
 &lt;hr&gt;
 &lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://www.miaoer.xyz/logo.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;没错， Mix-Space 采用的是前后端分离的形式，那什么是前后端分离呢？&lt;/p&gt;
+&lt;p&gt;一个由一位大佬 &lt;a href=&quot;https://innei.ren/&quot;&gt;innei&lt;/a&gt; 本科 &lt;a href=&quot;https://www.bilibili.com/video/BV1aZ4y147BL&quot;&gt;毕业设计&lt;/a&gt; 开发出的开源 Mix-Space 博客，采用的是前后端分离的形式。&lt;/p&gt;
+&lt;p&gt;那什么是前后端分离呢？&lt;/p&gt;
 &lt;p&gt;前后端分离，顾名思义，前后端将会遵循某种规范，后端的接口不变，请求方式不变，即前后端数据交换遵循的某种规范。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-06-20/kami.jpg&quot;&gt;&lt;/p&gt;</summary>
     
@@ -487,25 +519,6 @@
     
     
     <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
-    <link href="https://blog.miaoer.xyz/2021/10/02/optimize-windows-menu/"/>
-    <id>https://blog.miaoer.xyz/2021/10/02/optimize-windows-menu/</id>
-    <published>2021-10-02T12:20:45.631Z</published>
-    <updated>2021-11-12T13:14:55.051Z</updated>
-    
-    
-    <summary type="html">目录</summary>
-    
-    
-    
-    <category term="教程" scheme="https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Windows" scheme="https://blog.miaoer.xyz/tags/Windows/"/>
     
   </entry>
   
