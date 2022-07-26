@@ -303,14 +303,7 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/textures_order.json</loc>
-    
-    <lastmod>2021-01-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/index.json</loc>
+    <loc>https://blog.miaoer.xyz/live2d/bilibili-22/index.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -324,7 +317,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/live2d/bilibili-22/index.json</loc>
+    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/index.json</loc>
+    
+    <lastmod>2021-01-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.miaoer.xyz/live2d/bilibili-33/textures_order.json</loc>
     
     <lastmod>2021-01-15</lastmod>
     
@@ -424,6 +424,13 @@
   </url>
   
   <url>
+    <loc>https://blog.miaoer.xyz/tags/%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2022-07-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.miaoer.xyz/tags/%E6%90%9E%E6%9C%BA/</loc>
     <lastmod>2022-07-26</lastmod>
     <changefreq>daily</changefreq>
@@ -446,13 +453,6 @@
   
   <url>
     <loc>https://blog.miaoer.xyz/tags/openwrt/</loc>
-    <lastmod>2022-07-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.miaoer.xyz/tags/%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2022-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -524,14 +524,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://blog.miaoer.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2022-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
