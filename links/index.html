@@ -32,7 +32,7 @@ document.addEventListener("pjax:success", initScrollReveal);
 <meta property="og:description" content="喵二的小伙伴们">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2019-06-21T05:06:06.000Z">
-<meta property="article:modified_time" content="2022-07-22T08:53:37.669Z">
+<meta property="article:modified_time" content="2022-07-26T14:49:44.509Z">
 <meta property="article:author" content="喵二">
 <meta property="article:tag" content="blog">
 <meta name="twitter:card" content="summary"><script>(function() {
@@ -61,7 +61,7 @@ IconifyProviders = {
     placeholder: "还没想好说些什么"
   },
   async beforeCreate() {
-    this.links = await fetch("/links.json")
+    this.links = await fetch("https://api.miaoer.xyz/snippets/blog/links.json")
       .then(res => {
         return res.json()
       })
