@@ -73,4 +73,17 @@ IconifyProviders = {
     }
   });
 });
+</script><script defer src="https://npm.elemecdn.com/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script><script defer src="https://npm.elemecdn.com/instantsearch.js@4/dist/instantsearch.production.min.js"></script><script defer src="/js/search/algolia-search.js" type="module"></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><span class="icon iconify" data-icon="ri:close-line"></span></span></div><div class="search-input-container"></div><div class="algolia-results"><div id="algolia-stats"></div><div id="algolia-hits"></div><div class="algolia-pagination" id="algolia-pagination"></div></div></div></body></html>   document.querySelector(".popup").classList.remove("show");
+  };
+
+  document.querySelector(".popup-btn-close").addEventListener("click", () => {
+    onPopupClose();
+  });
+
+  window.addEventListener("keyup", event => {
+    if (event.key === "Escape") {
+      onPopupClose();
+    }
+  });
+});
 </script><script defer src="https://npm.elemecdn.com/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script><script defer src="https://npm.elemecdn.com/instantsearch.js@4/dist/instantsearch.production.min.js"></script><script defer src="/js/search/algolia-search.js" type="module"></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><span class="icon iconify" data-icon="ri:close-line"></span></span></div><div class="search-input-container"></div><div class="algolia-results"><div id="algolia-stats"></div><div id="algolia-hits"></div><div class="algolia-pagination" id="algolia-pagination"></div></div></div></body></html>
