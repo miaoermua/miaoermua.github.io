@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>网页走丢了？</title>
+    <url>//404.html</url>
+    <content><![CDATA[<p>页面404了,网页走丢了？</p>
+<p>嗨，有兴趣访问我的个人主页吗？ <a href="https://www.miaoer.xyz/">好啊 ヾ(≧▽≦*)o</a></p>
+<p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>视频-【120帧】小米Mix2s宣传片</title>
     <url>/2022/03/21/BV1Jq4y1v7H7/</url>
     <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=594951604&bvid=BV1Jq4y1v7H7&cid=554204088&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
@@ -29,102 +37,48 @@
       </tags>
   </entry>
   <entry>
-    <title>网页走丢了？</title>
-    <url>//404.html</url>
-    <content><![CDATA[<p>页面404了,网页走丢了？</p>
-<p>嗨，有兴趣访问我的个人主页吗？ <a href="https://www.miaoer.xyz/">好啊 ヾ(≧▽≦*)o</a></p>
-<p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>CSGO各种实用代码分享</title>
-    <url>/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<p><del>文明游戏,背起行囊</del></p>
-<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>国服 <code>-perfectworld</code></p>
-<p>国际服 <code>-worldwide</code></p>
-<p>网络FPS状态 <code>net_graph 1</code></p>
-<p>调小网络于FPS状态 <code>net_graphproportionalfont 0.7</code></p>
-<p>持枪方向 <code>cl_righthand 1</code></p>
-<p>Alt换持枪方向 <code>BindToggle &quot;ALT&quot; &quot;cl_righthand&quot;;</code></p>
-<p>清血 <code>r_cleardecals</code></p>
-<p>清血绑定Shift <code>bind shift&quot;+lookatweapon;r_cleardecals</code></p>
-<p>一键跳投 <code>alias +jumpthrow&quot;+jump;-attack&quot;; alias -jumpthrow -jump bind v +jumpthrow</code></p>
-<p>全屏准星 <code>bind &quot;h&quot; &quot;toggle cl_crosshairsize 5 1000&quot;</code></p>
-<p>Tab显示计分板网络 <code>bind &quot;TAB&quot; &quot;+showscores_custom&quot;; alias &quot;+showscores_custom&quot; &quot;+showscores;net_graphheight 64; alias &quot;-showscores_custom&quot; &quot;-showscores;net_graphheight 9999&quot;; net_graph &quot;1&quot;; net_graphheight &quot;9999&quot;; net_graphpos &quot;2&quot;;</code></p>
-<p>减少手臂摇摆 <code>cl_bob_lower_amt &quot;5&quot;; cl_bobamt_lat &quot;0.1&quot;; cl_bobamt_vert &quot;0.1&quot;; cl_viewmodel_shift_left_amt &quot;0.5&quot;; cl_viewmodel_shift_right_amt &quot;0.25&quot;;</code></p>
-<p>绑定 Alt 飞行 <code>bind &quot;alt&quot; &quot;noclip&quot;</code></p>
-<h2 id="作弊类"><a href="#作弊类" class="headerlink" title="作弊类"></a>作弊类</h2><p>开启作弊 <code>sv_cheats 1</code></p>
-<p>无限子弹 <code>sv_infinite_ammo 1</code></p>
-<p>上帝模式_锁 <code>god</code></p>
-<p>飞天 <code>noclip</code></p>
-<p>第一人称 <code>cam_command 1</code></p>
-<p>实体透视 <code>r_drawothermodels 2</code></p>
-<p>(无效)自瞄 <code>ent_fire !picker addoutputmodelscale 0</code></p>
-<p>(无效)子弹穿墙 <code>cl_showothermodels 3</code></p>
-<p>灵敏度假转 <code>bind j &quot;toggle m_yaw 0.022 1000&quot;</code></p>
-<p>无后座 <code>sv_cheats &quot;1&quot;;weapon_accuracy_nospread &quot;1&quot;;weapon_debug_spread_gap &quot;1&quot;;weapon_recoil_cooldown &quot;0&quot;;weapon_recoil_decay1_exp &quot;99999&quot;;weapon_recoil_decay2_exp &quot;99999&quot;;weapon_recoil_decay2_lin &quot;99999&quot;;weapon_recoil_scale &quot;0&quot;;weapon_recoil_suppression_shots &quot;500&quot;;weapon_recoil_view_punch_extra 0</code></p>
-<p>大地球滑步 <code>sv_standable_normal 1000</code></p>
-<p>允许连跳 <code>sv_enablebunnyhopping 1</code></p>
-<p>自动连跳 <code>sv_autobunnyhopping 1</code></p>
-<p>空中速度 <code>sv_airaccelerate 20000</code></p>
-<p>血量 <code>ent_fire !self addoutput &quot;health 233&quot;</code></p>
-<h2 id="房间"><a href="#房间" class="headerlink" title="房间"></a>房间</h2><p>1秒刷新房间 <code>mp_restartgame &quot;1&quot;</code></p>
-<p>禁止自动平衡人数 <code>mp_autoteambalance 0</code></p>
-<p>金钱上限 <code>mp_maxmoney &quot;16000&quot;</code></p>
-<p>出生金钱 <code>mp_startmoney &quot;16000&quot;</code></p>
-<p>任意地点购买 <code>mp_buy_anywhere &quot;1&quot;</code></p>
-<p>显示10秒投掷物轨迹 <code>sv_grenade_trajectory_time &quot;10&quot;</code></p>
-<p>射击命中点显示 <code>sv_showimpacts 1</code></p>
-<p>踢掉bot <code>bot kick</code></p>
-<p>杀掉所有bot <code>bot_kill</code></p>
-<p>随机增加bot <code>bot_add</code></p>
-<p>增加bot到CT <code>bot_add_ct</code></p>
-<p>增加bot到T <code>bot_add_t</code></p>
-<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="完美世界竞技平台"><a href="#完美世界竞技平台" class="headerlink" title="完美世界竞技平台"></a>完美世界竞技平台</h3><p>暂停 <code>.pause</code> &amp; <code>!pause</code></p>
-<p>解除暂停 <code>.unpause</code></p>
-<p>发刀 <code>.drop</code></p>
-<p>举报 <code>.report</code></p>
-<p>投降 <code>.gg</code></p>
-<p>队友建议位置 <code>.team</code></p>
-<p>赛前道具 <code>.m</code></p>
-<p>菜单 <code>.menu</code></p>
-<p>聊天框提示 <code>.info</code></p>
-<h3 id="5E对战平台"><a href="#5E对战平台" class="headerlink" title="5E对战平台"></a>5E对战平台</h3><p>暂停 <code>.p</code></p>
-<p>解除暂停 <code>.up</code></p>
-<p>发刀 <code>.d</code></p>
-<p>举报 <code>.r</code></p>
-<p>投降 <code>.g</code> &amp; <code>.gg</code></p>
-<h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 <code>mp_drop_knife_enable 1</code></p>
-<p>海豹短刀 <code>give weapon_knife_css; ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>刺刀 <code>give weapon_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>折叠刀 <code>give weapon_knife_flip;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>穿肠刀 <code>give weapon_knife_gut;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>爪子刀 <code>give weapon_knife_karambit;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>M9 <code>give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>猎杀者匕首 <code>give weapon_knife_tactical;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>蝴蝶刀 <code>give weapon_knife_butterfly;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>弯刀 <code>give weapon_knife_falchion;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>双匕 <code>give weapon_knife_push;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>鲍伊 <code>give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>熊刀 <code>give weapon_knife_ursus;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>折刀 <code>give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>短剑 <code>give weapon_knife_stiletto;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>锯齿爪 <code>give weapon_knife_widowmaker;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p>按键非指令</p>
-<p>打开Demo控制台 <code>shift+f2</code></p>
-<p>x光 <code>x</code></p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>csgo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>BlogTime</title>
     <url>/2021/09/14/BlogTime/</url>
     <content><![CDATA[<p>因为以前没做好整理，也不想整了，风格有点乱。<br>因为一般在晚上更新弄好都凌晨了，默认为前一天或者今天算。</p>
+<h2 id="2022-8-11"><a href="#2022-8-11" class="headerlink" title="2022.8.11"></a>2022.8.11</h2><ul>
+<li>个人博客临时取消使用 vercel 托管</li>
+<li>个人博客使用 GitHub Pages 托管</li>
+<li>个人博客支持 IPv6 网络访问</li>
+<li>更新个人主页前端 kami 的新版特性 v3.13.10 x3 </li>
+<li>更新个人主页后端 server 的新版特性 v3.35.8 x3</li>
+</ul>
+<h2 id="2022-7-29"><a href="#2022-7-29" class="headerlink" title="2022.7.29"></a>2022.7.29</h2><ul>
+<li>从阿里云 DNS 更换到 DNSPod</li>
+<li>DNSPod 实名和转入成功</li>
+</ul>
+<h2 id="2022-7-27"><a href="#2022-7-27" class="headerlink" title="2022.7.27"></a>2022.7.27</h2><ul>
+<li>修复 remixicon,fontawesome 图标不能在 CDN上引用的问题</li>
+<li>个人博客文件目录优化</li>
+</ul>
+<h2 id="2022-7-26"><a href="#2022-7-26" class="headerlink" title="2022.7.26"></a>2022.7.26</h2><ul>
+<li>修复个人博客 yun 的 algolia 搜索支持</li>
+<li>更新个人博客友链列表为从后端 api 获取</li>
+<li>移除个人博客 live2d</li>
+<li>新增一个友链</li>
+</ul>
+<span id="more"></span>
+
+<h2 id="2022-7-22"><a href="#2022-7-22" class="headerlink" title="2022.7.22"></a>2022.7.22</h2><ul>
+<li>重新拉取 CDN 库，与本地同步</li>
+<li>个人博客使用 vercel 托管</li>
+<li>更新个人博客友链列表</li>
+<li>更新个人博客配置</li>
+<li>新增一个友链</li>
+<li>更新个人主页后端 server 的新版特性 v3.35.5</li>
+</ul>
+<h2 id="2022-7-20"><a href="#2022-7-20" class="headerlink" title="2022.7.20"></a>2022.7.20</h2><ul>
+<li>新增一个友链</li>
+<li>修复了 CDN 友链目录用法问题</li>
+<li>更新了关于我页面</li>
+<li>移除了申请友链页，更新了取而代之站点页</li>
+<li>更新个人主页前端 kami 的新版特性 v3.13.1</li>
+<li>更新个人主页后端 server 的新版特性 x2 v3.35.4</li>
+</ul>
 <h2 id="2022-7-3"><a href="#2022-7-3" class="headerlink" title="2022.7.3"></a>2022.7.3</h2><ul>
 <li>更新个人主页前端 kami 的新版特性 x2 v3.11.5</li>
 <li>更新个人主页后端 server 的新版特性 x3 v3.33.1</li>
@@ -133,7 +87,7 @@
 <li>安全性更新</li>
 </ul>
 <h2 id="2022-6-7"><a href="#2022-6-7" class="headerlink" title="2022.6.7"></a>2022.6.7</h2><ul>
-<li>修复个人博客 yun 的 algolia 搜索支持</li>
+<li>修复个人博客 yun 的 algolia 搜索支持（然并卵）</li>
 </ul>
 <h2 id="2022-6-6"><a href="#2022-6-6" class="headerlink" title="2022.6.6"></a>2022.6.6</h2><ul>
 <li>更新个人博客 yun 的配置</li>
@@ -147,8 +101,6 @@
 <li>更新个人主页前端 kami 的新版特性 x2 v3.8.4</li>
 <li>更新个人主页后端 server 的新版特性 x2 v3.29.0</li>
 </ul>
-<span id="more"></span>
-
 <h2 id="2022-5-27-1"><a href="#2022-5-27-1" class="headerlink" title="2022.5.27"></a>2022.5.27</h2><ul>
 <li>更新个人主页前端 kami 的新版特性 x2 v3.8.2</li>
 <li>更新个人主页后端 server 的新版特性 x2 v3.28.3</li>
@@ -242,10 +194,10 @@
 <li>对 <a href="https://github.com/mx-space/kami">Kami</a> 前端新特性，使用旧版个人博客时期的头像做图标并不是 Mix-space 默认树</li>
 </ul>
 <h2 id="2022-1-15"><a href="#2022-1-15" class="headerlink" title="2022.1.15"></a>2022.1.15</h2><ul>
-<li>对 <a href="https://github.com/mx-space/kami">Kami</a> 前端进行升级；<br>此次更新: 优化了网页性能，改变了部分样式，重构整体架构设计，修复部分Bug。</li>
+<li>对 <a href="https://github.com/mx-space/kami">Kami</a> 前端进行升级；<br>此次更新: 优化了网页性能，改变了部分样式，重构整体架构设计，修复部分 Bug。</li>
 </ul>
 <h2 id="2022-1-14"><a href="#2022-1-14" class="headerlink" title="2022.1.14"></a>2022.1.14</h2><ul>
-<li>使用 CDN 加速个人博客背景和鼠标指针、live2d等资源</li>
+<li>使用 CDN 加速个人博客背景和鼠标指针、live2d 等资源</li>
 </ul>
 <h2 id="2022-1-13"><a href="#2022-1-13" class="headerlink" title="2022.1.13"></a>2022.1.13</h2><ul>
 <li>对 CDN 资源文件重新进行整理</li>
@@ -255,7 +207,7 @@
 <li>使用 <a href="https://cloud.tencent.com/">腾讯云</a> CDN 加速主站</li>
 <li>新增 CDN 站点加载图片</li>
 <li>CDN 站点使用 <a href="https://cloud.tencent.com/">腾讯云</a> 加速</li>
-<li>首次基于CDN支持IPv6访问</li>
+<li>首次基于 CDN 支持 IPv6 访问</li>
 <li>更新了文章图片链接</li>
 <li>更换亚洲诚信 SSL TrustAsia TLS RSA CA</li>
 </ul>
@@ -267,84 +219,75 @@
 </ul>
 <h2 id="2021-12-7"><a href="#2021-12-7" class="headerlink" title="2021.12.7"></a>2021.12.7</h2><ul>
 <li>更换了<a href="https://www.miaoer.xyz/">个人网站</a>和<a href="https://blog.miaoer.xyz/">个人博客</a>的域名，更新了<a href="https://www.miaoer.xyz/privacy">隐私条款</a></li>
-<li>首次引用 Google Analytics 谷歌分析</li>
+<li>引用 Google Analytics 谷歌分析</li>
 <li>更新了友链顺序，加入了两位小伙伴</li>
 <li>全新页面标准</li>
-<li>更换了Yun主题示例站点链接</li>
+<li>更换了 Yun 主题示例站点链接</li>
 </ul>
 <h2 id="2021-11-7"><a href="#2021-11-7" class="headerlink" title="2021.11.7"></a>2021.11.7</h2><ul>
-<li><p>封禁了违规脚本爬虫写日志的恶意行为</p>
-<p>IP地址<code>**.93.48.54，***.189.31.29</code>，行为ua <code>python-requests/2.26.0，compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0</code></p>
-</li>
+<li>封禁了违规脚本爬虫写日志的恶意行为</li>
 </ul>
-<p>然并卵</p>
 <h2 id="2021-11-6"><a href="#2021-11-6" class="headerlink" title="2021.11.6"></a>2021.11.6</h2><ul>
-<li>首次使用webp格式图片，虽然此格式不易于手机和电脑保存但是他快啊。</li>
+<li>首次使用 webp 格式图片，虽然此格式不易于手机和电脑保存但是他快啊。</li>
 <li>更新了友链列表</li>
 </ul>
 <h2 id="2021-11-1"><a href="#2021-11-1" class="headerlink" title="2021.11.1"></a>2021.11.1</h2><ul>
-<li>更新了随机友链的格式，看起来更可读更规范了。</li>
+<li>更新了随机友链的格式</li>
 </ul>
 <h2 id="2021-10-26"><a href="#2021-10-26" class="headerlink" title="2021.10.26"></a>2021.10.26</h2><ul>
-<li><p>昨天更新了若干友链，欢迎你们！</p>
-</li>
-<li><p>今天更新了404页面，发现404页面被机器人爬的挺多的，可能进的人可能不多。 (大多数是访问登录WordPress页面可能包含恶意行为) </p>
-</li>
-<li><p>将看板娘位置改右下角点，不影响阅读体验，更换了更可爱的衣服。(www</p>
-</li>
-<li><p>博客正式可以被各大搜索引擎搜索，欢迎去搜索提高SEO。百度还是只能直接搜域名，必应和谷歌、头条支持最好。</p>
-</li>
+<li>更新了若干友链</li>
+<li>个人博客更新了404页面</li>
+<li>将看板娘位置改右下角点，更换了更可爱的衣服</li>
+<li>博客正式可以被各大搜索引擎搜索，百度只能直接搜域名</li>
 </ul>
-<p>也祝他的爱犬能早日找到家吧~~</p>
-<p>相关链接: <a href="https://www.miaoer.xyz/404.html">https://www.miaoer.xyz/404.html</a></p>
 <h2 id="2021-10-25"><a href="#2021-10-25" class="headerlink" title="2021.10.25"></a>2021.10.25</h2><ul>
-<li>今天更新了字节跳动下的头条搜索，是无意中看到后台的爬虫的尾巴是字节跳动，就尝试添加一下他们的，有搜索引擎提升SEO的记得联系我。 <del>(白嫖</del></li>
+<li>新增字节 SEO</li>
+<li>个人博客误删库</li>
 </ul>
-<ul>
-<li>在写这次博客时hexo出来点问题，把github的仓库删的精光，文件修改时间仅供参考咯。</li>
-</ul>
-<p>这几天都在忙驾照的问题，没时间更新过几天还得考科四结束这段驾考之路~</p>
 <h2 id="2021-10-21"><a href="#2021-10-21" class="headerlink" title="2021.10.21"></a>2021.10.21</h2><ul>
-<li>很遗憾我们又下架了俩个友链，源码已经保存为副本恢复请联系我，1.服务器崩溃，2.尝试联系QQ被删除。</li>
+<li>下架了俩个友链</li>
 </ul>
-<p>筋斗云<br><del>人民の芸術家的小屋</del></p>
 <h2 id="2021-10-16"><a href="#2021-10-16" class="headerlink" title="2021.10.16"></a>2021.10.16</h2><ul>
-<li>优化了文件结构，方便爬虫机器人寻找头像，友链头像继续用原地址中的 <code>weblogo.png</code> 。</li>
+<li>优化了文件结构，方便爬虫机器人寻找头像，友链头像继续用原地址中的 <code>weblogo.png</code></li>
+<li>新增 <code>robots.txt</code> 阻止将网站上隐藏内容展示在搜索引擎</li>
 </ul>
-<ul>
-<li>新增 <code>robots.txt</code> 阻止将网站上隐藏内容展示在搜索引擎，目前测试中。</li>
-</ul>
-<p>以后的文章永久链接尽量以英文加数字来区分和访问，之前的就算了无非就是分享的时候又臭又长。</p>
 <h2 id="2021-10-15"><a href="#2021-10-15" class="headerlink" title="2021.10.15"></a>2021.10.15</h2><ul>
-<li>更新了友链信息，移除了<del>(Him)</del>无法访问的博客，经酷安了解交流后下架其友链。</li>
+<li>更新了友链信息</li>
 </ul>
-<p>添加了新的友链，我一直在后面关注到他给我加单向友链，刚刚好最近对linux比较感兴趣。<del>(虽然这个博客也是linux搭的</del></p>
-<h2 id="2021-10-14"><a href="#2021-10-14" class="headerlink" title="2021.10.14"></a>2021.10.14</h2><p>看了看搜索引擎收入情况，还是百度最拉！对着搜索: “喵二の小博客” 都能搜索去茅坑 (新浪</p>
-<p>谷歌、Bing 倒是正确的，哪怕我搜索: 喵二的博客 也是我的 githubpages。</p>
-<p>只能搜索site: <a href="http://www.miaoer.xyz/">www.miaoer.xyz</a> 离谱了啊<del>【宏颜获水.jpg】</del></p>
-<h2 id="2021-10-5"><a href="#2021-10-5" class="headerlink" title="2021.10.5"></a>2021.10.5</h2><p>今天联系了我这边当地网警那边申请了联网备案，不知道备案后需不需要贴在页尾出来，我看挺多备案了但也没贴出，我决定观望观望友链玩博客的情况再处理先把备案号贴在<a href="https://www.miaoer.xyz/about">关于我</a>了。</p>
+<h2 id="2021-10-14"><a href="#2021-10-14" class="headerlink" title="2021.10.14"></a>2021.10.14</h2><ul>
+<li>境外 SEO 值正常</li>
+</ul>
+<h2 id="2021-10-5"><a href="#2021-10-5" class="headerlink" title="2021.10.5"></a>2021.10.5</h2><ul>
+<li>联网备案</li>
+</ul>
 <h2 id="2021-10-3"><a href="#2021-10-3" class="headerlink" title="2021.10.3"></a>2021.10.3</h2><ul>
-<li>直播先撤下了，今年没啥子戏政策变的o(╥﹏╥)o但路还在继续……</li>
-</ul>
-<ul>
-<li>博客主要进行了质量更新:有更多的友链了、RSS的头像、<a href="https://www.miaoer.xyz/2021/09/14/Privacy/">隐私政策</a>上线了接近一个月也是正常的，现在换了阿里云可以面向大陆大部分城市的低时延访问，不在需要xx上网才能访问了，有喜又有忧吧</li>
+<li>个人博客更多的友链了、RSS 的头像、隐私政策</li>
 </ul>
 <h2 id="2021-9-15"><a href="#2021-9-15" class="headerlink" title="2021.9.15"></a>2021.9.15</h2><ul>
 <li>加上昨天和今天的博客更新替换，修改的内容不止一点半点，现在新增了基于数据库统计阅读的功能把之前几个小站的阅读数大概加一起才是真实的阅读量</li>
 </ul>
-<h2 id="2021-9-14"><a href="#2021-9-14" class="headerlink" title="2021.9.14"></a>2021.9.14</h2><p>今天10点手机信息传来喜报备案通过了，刚刚好开了电脑就把友链的所以人通知了一遍，把博客的链接改回<a href="https://miaoer.xyz/">https://miaoer.xyz</a>就够累了，这次出乎想象的好域名也能解析了，也遇到了域名和主机名的问题，最后几个域名都重定向到<a href="https://www.miaoer.xyz/">https://www.miaoer.xyz</a>，又发了一遍友链通知，别提多尴尬了，接下来就佛系更新了心里的石头落了有空可以在<del><a href="https://miaoer.xyz/2021/09/10/%E5%AD%A6%E4%B9%A0/">自习室</a></del>见到我。</p>
-<h2 id="2021-7-29"><a href="#2021-7-29" class="headerlink" title="2021.7.29"></a>2021.7.29</h2><p>今天准备吧在日本的亚马逊服务器迁移到国内，因为备案卡住了，折腾半天发现国外域名还需要转入国内才能实名登记，但只有实名登记才能访问博客的网站，只能先搭frp联机先用了，如果60天过了还不能转移就是浪费钱了，国内弄挺麻烦<br>8月31号域名才解锁<code>域名转移</code>，为了保住miaoer.xyz域名然后还要多掏36转移miaoer.xyz并且续费得到这个域名的703天，一共花费142[哭]一波三折先用githubpage(本站)搭建的吧</p>
-<ul>
-<li>进度条: 已经完成转移<br><del>亚马逊是8月左右过期，过期后指向<a href="https://miaoermua.github.io/">https://miaoermua.github.io/</a></del></li>
+<h2 id="2021-9-14"><a href="#2021-9-14" class="headerlink" title="2021.9.14"></a>2021.9.14</h2><ul>
+<li>备案通过并迁移万网</li>
 </ul>
-<h2 id="2021-7-15"><a href="#2021-7-15" class="headerlink" title="2021.7.15"></a>2021.7.15</h2><p>今天查询博客有没有被收入搜索引擎，结果还是谷歌厉害，今天查询就收入了就连<a href="https://blog.miaoer.xyz/">镜像</a>也收入了，然后试了几个海外的搜索引擎<br>必应支持中文搜索: <code>喵二的小博客</code> ，雅虎仅支持: <code>喵二の小博客</code><br>但是百度爬虫爬到了但是没完全爬到，爬到了也搜索不到估计要等个一个月<br>搜索site:miaoermua.github.io也无果</p>
-<p><img src="https://cdn.miaoer.xyz/images/blogtime/googlesite.jpg" alt="google" loading="lazy"></p>
-<h2 id="2021-7-9"><a href="#2021-7-9" class="headerlink" title="2021.7.9"></a>2021.7.9</h2><p>服务器可以正常访问了，重新还原部署果然用了俩小时<br>然后试图在服务器进行编译<a href="https://github.com/coolsnowwolf/lede">openwrt</a>，都以失败告终….<br>只能在虚拟机中获取DHCP路由器中进行全局上网不影响其他设备,最后在Ubuntu开始编译时都2点多了…</p>
-<p>还<del>不要脸的申请</del>上了主题作者<a href="https://www.yunyoujun.cn/">云游君</a>的主题示例站点<a href="https://yun.yunyoujun.cn/demo/">https://yun.yunyoujun.cn/demo/</a><br><img src="https://cdn.miaoer.xyz/images/yun-demo.png" alt="demo" loading="lazy"></p>
-<h2 id="2021-7-7"><a href="#2021-7-7" class="headerlink" title="2021.7.7"></a>2021.7.7</h2><p>今天服务器ip炸了，明天才能重新部署所有的服务 -2h<br>目前<a href="https://www.cloudflare.com/">Couldflare</a>已指向主站</p>
-<h2 id="2021-7-3"><a href="#2021-7-3" class="headerlink" title="2021.7.3"></a>2021.7.3</h2><p>今天我购买了云主机和套用了免费非商用的<a href="https://www.cloudflare.com/">Couldflare</a>，尝试使用独立虚拟服务器搭建博客<br>因为镜像站不是一直用的,使用云主机的还是原来Github搭建的博客镜像,如果主站进不去速度慢请使用镜像<br>我还注册了一个新的域名很便宜很方便<br><a href="https://miaoermua.github.io/">主站: miaoermua.github.io</a> &amp; <a href="https://blog.miaoer.xyz/">镜像: blog.miaoer.xyz</a></p>
-<p><del>这次我花费了半天时间搭建某某面板</del></p>
-<p>如果博客运营的下去有价值，我会一直续费并且保持主站，镜像模式使用的 暗示<del>预览量和打赏</del></p>
+<h2 id="2021-7-29"><a href="#2021-7-29" class="headerlink" title="2021.7.29"></a>2021.7.29</h2><ul>
+<li>域名尝试转移万网</li>
+<li>域名备案</li>
+</ul>
+<h2 id="2021-7-15"><a href="#2021-7-15" class="headerlink" title="2021.7.15"></a>2021.7.15</h2><ul>
+<li>加入 Google，Bing 提高 SEO</li>
+</ul>
+<h2 id="2021-7-9"><a href="#2021-7-9" class="headerlink" title="2021.7.9"></a>2021.7.9</h2><ul>
+<li>申请云游君主题示例站点<a href="https://yun.yunyoujun.cn/demo/">https://yun.yunyoujun.cn/demo/</a></li>
+</ul>
+<h2 id="2021-7-7"><a href="#2021-7-7" class="headerlink" title="2021.7.7"></a>2021.7.7</h2><ul>
+<li>修复服务器 ip 问题</li>
+<li>主机名 www 已指向主站</li>
+</ul>
+<h2 id="2021-7-3"><a href="#2021-7-3" class="headerlink" title="2021.7.3"></a>2021.7.3</h2><ul>
+<li>使用 az vps的独立搭建博客</li>
+<li>使用 cloudflare 解析</li>
+<li><del>这次我花费了半天时间搭建某某面板</del></li>
+</ul>
 ]]></content>
       <categories>
         <category>Blog</category>
@@ -379,6 +322,247 @@
       </categories>
       <tags>
         <tag>视频博文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客更新啦</title>
+    <url>/2021/12/06/blog-update/</url>
+    <content><![CDATA[<h1 id="博客の变化"><a href="#博客の变化" class="headerlink" title="博客の变化"></a>博客の变化</h1><p>在今天(2021-12-6 21:09:43)，我更换了由前后端分离部署的 <a href="https://github.com/mx-space">Mix-space</a> ，可能熟悉我们原本Hexo博客的小伙伴会比较陌生，但是为了变化内容我还是写一点小白须知。</p>
+<p>这次主要更换了之间的二级域名，和内容上的变化;</p>
+<ul>
+<li><p>个人网站 (Hexo Yun 主题) 部署的域名从 <code>https://www.miaoer.xyz </code> &gt;&gt;&gt;  <code>https://blog.miaoer.xyz</code></p>
+</li>
+<li><p>个人博客 (Mix-space) 部署的域名从 <code>https://blog.miaoer.xyz</code>  &gt;&gt;&gt;  <code>https://www.miaoer.xyz </code> </p>
+</li>
+<li><p>短域名 miaoer.xyz 自动跳转到 Mix-space 上</p>
+</li>
+</ul>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
+<span id="more"></span>
+<p><em>更新后，<u>图片可点击放大查看详情</u></em></p>
+<p><strong>Banner</strong></p>
+<ul>
+<li>名字，签名，社交链接，一言</li>
+</ul>
+<p><strong>菜单栏</strong></p>
+<ul>
+<li>页面   博文   预览   友链   日记   动态   其余   开往</li>
+</ul>
+<p><strong>边栏</strong></p>
+<ul>
+<li>页面模式(夜间)，音乐，广播</li>
+</ul>
+<p><strong>页面</strong></p>
+<ul>
+<li>最新博文，日记，友链，了解更多</li>
+</ul>
+<p><strong>底栏</strong></p>
+<ul>
+<li><p>主页，Mix-space社区，ICP备案号</p>
+</li>
+<li><p>关于，留言，友链，RSS 订阅，站点地图，开往、同时在线小伙伴预览</p>
+</li>
+</ul>
+<h2 id="兼容"><a href="#兼容" class="headerlink" title="兼容"></a>兼容</h2><p>为 Hexo时代永久链接做出兼容动作 (可能按照文章内容跳转)。</p>
+<ul>
+<li>相对技术类的和主要对Hexo兼容的博客则跳转至Hexo博客中</li>
+<li>非技术类则不进行域名跳转</li>
+</ul>
+<p>为 Mix-space做最新的文章适配。</p>
+<ul>
+<li>将调整文章左右长度至Mix-space最舒服的大小</li>
+</ul>
+<p>为 Hexo继续同步最新的文章。</p>
+<ul>
+<li>将Mix-space中的文章再进行Hexo博客的分发至国内外</li>
+</ul>
+<h2 id="Thank"><a href="#Thank" class="headerlink" title="Thank"></a>Thank</h2><p>非常感谢他们，也感谢一直阅读我博客的小伙伴！【排列不分顺序】</p>
+<ul>
+<li><p>帮助解决主页的疑难杂症 <a href="https://innei.ren/">Innei</a></p>
+</li>
+<li><p>帮助解决问题 <a href="https://www.timochan.cn/">提莫酱</a></p>
+</li>
+<li><p>帮助使用主题等 <a href="https://www.yunyoujun.cn/">YunYouJun</a></p>
+</li>
+</ul>
+<h2 id="目前正在优化"><a href="#目前正在优化" class="headerlink" title="目前正在优化"></a>目前正在优化</h2><ul>
+<li><input checked disabled type="checkbox"> 重新优化查看搜索引擎的结果</li>
+<li><input checked disabled type="checkbox"> 通知友链更新</li>
+<li><input checked disabled type="checkbox"> 提供Hexo永久链接支持</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一款好用的SMB备份软件FolderSync</title>
+    <url>/2022/06/04/app-foldersync/</url>
+    <content><![CDATA[<p><i class="ri-bilibili-line"></i> <a href="https://www.bilibili.com/video/BV1Tv4y137oD">哔哩哔哩</a></p>
+<p><i class="ri-youtube-line"></i> <a href="https://www.youtube.com/watch?v=xfjNE3QsarM&t">YouTube</a></p>
+<hr>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>最近我发现一款非常好的 SMB 备份软件叫做 FolderSync，在早一些时候我也是通过数据线一头连电脑进行备份相册目录的，</p>
+<p>因为家境贫寒家里没有品牌 NAS 所以自己在软路由上搭建了 SAMBA 服务，用来储存一些电影和共享资源等……</p>
+<p>今天我们来捣鼓一下。</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/app-web.png" loading="lazy"></p>
+<p>我们可以在谷歌 Play 商店下载到这款软件，我也准备了 APK 包方便大家的下载</p>
+<p><i class="ri-file-download-line"></i> <a href="https://wwd.lanzouy.com/b02dbo1kh">蓝奏云</a> 密码:5cgt</p>
+<blockquote>
+<p>因为软件需要付费，有能力可以用 Play 商店里下免费的，蓝奏云上为绿色版不知道存不存在安全风险。</p>
+</blockquote>
+<hr>
+<p>下载完成以后打开这款软件，可以看到需要我们给予权限，才能正常工作这里推荐打开所有的建议项，</p>
+<p>因系统UI部分设置项可能不同，按照软件里的一个一个同意。</p>
+<p>进入软件在底栏找到账户，点击 <code>添加账户</code> ，可以看到有很多的账户类型，这都不是的重点，</p>
+<p>滑到最底下可以看到 SMB2，为什么不选 SMB1 呢，距我实测 SMB1 怎么设置都是用不了的，如果你 SMB2 也不能用，</p>
+<p>可以将防火墙放行 <code>445</code> 和 <code>139</code> 端口，</p>
+<p>我这里使用宝塔 Linux 面板进行放行端口。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/bt-firewall.png" loading="lazy"></p>
+<h3 id="放行防火墙"><a href="#放行防火墙" class="headerlink" title="放行防火墙"></a>放行防火墙</h3><p>在终端输入 <code>sudo apt-get install iptables-persistent</code>，</p>
+<p>安装页中应该是是否添加 IPv4 和 IPv6 规则，这里都 <code>Yes</code>，</p>
+<p>安装完成后返回再输入；</p>
+<p><code>iptables -I INPUT -p tcp --dport 445 -j ACCEPT &amp;&amp; iptables -I INPUT -p tcp --dport 139 -j ACCEPT</code></p>
+<p>输入 <code>sudo netfilter-persistent save</code> 保存，</p>
+<p>这样端口就放行成功了。</p>
+<blockquote>
+<p>安全问题: 如果你是在外网的话需要进行端口转发到公网，没有接触到外网服务的可以直接把防火墙关了，这里不推荐公开 SMB 端口容易被攻击可以用 Openwrt 中的插件做反向代理，这点后面可能会单独出一期讲解，确实非常简单这里就不买关子了；<br>无非就是找一个域名做 DDNS 然后将端口开放和转发并开启反向代理，记得要开启 <code>接受局域网访问</code> 之后在 手机 APP 里面挂全局代理，就可以在外网访问内网服务了，只要你的代理密码和端口没开放太多这都是安全的。</p>
+</blockquote>
+<h3 id="SAMBA-服务搭建"><a href="#SAMBA-服务搭建" class="headerlink" title="SAMBA 服务搭建"></a>SAMBA 服务搭建</h3><p>如果你没搭建 SAMBA 服务，这里简单说一下，</p>
+<p>这里用户用喵二 <code>miaoer</code> 和共享 <code>nas</code> 进行设置用户名和服务名、位置；请自己替换自己喜欢的格式勿乱、举一反三。</p>
+<pre class="language-none"><code class="language-none">useradd miaoer     &#x2F;&#x2F;新建用户名 miaoer
+
+sudo apt-get install samba     &#x2F;&#x2F;管理员权限安装 samba
+
+sudo smbpasswd -a miaoer     &#x2F;&#x2F;设置 miaoer 的 samba 用户名密码
+
+cd &#x2F; &amp;&amp; mkdir nas     &#x2F;&#x2F;返回根目录创建 nas 共享文件夹
+
+chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
+
+<p>配置文件可以找办法编辑好再上传或者使用 vim 命令，按 <code>i</code> 编辑，按 <code>Esc</code> 后 <code>Shift + :</code> 直到输入 <code>:wq</code> 退出。</p>
+<pre class="language-none"><code class="language-none">[nas]
+        comment &#x3D; nas
+        path &#x3D; &#x2F;nas
+        browseable &#x3D; yes
+        writable &#x3D; yes
+        file mode &#x3D; 660     
+        force file mode &#x3D; 660
+        directory mode &#x3D; 770
+        force directory mode &#x3D; 770</code></pre>
+
+
+<h2 id="软件设置"><a href="#软件设置" class="headerlink" title="软件设置"></a>软件设置</h2><p>好的回到正题，在 SMB2 中设置，在登录这里输入刚刚设置好的用户名和密码，</p>
+<p>连接这里输入内网部署了 SAMBA 的主机地址，和端口号这里默认就好，共享名字输入刚刚设置好的名字文件夹名字。</p>
+<p>然后点保存。</p>
+<p>然后进入左边的 <code>文件夹对</code>，创建文件夹对选择 SMB2，</p>
+<p>进到这里可以看到很多的选项，</p>
+<p>同步类型我这里只需要选择，到远程文件夹。</p>
+<p>点击远程文件夹，因为这里没有用于专门备份的文件夹，新建一个我这里设置的 Mi10 文件夹这里随便你</p>
+<p>新建完成点击进去，点下右下角的勾</p>
+<p>本地文件夹这里相册在 <code>DCIM</code> 里，点击进去然后将勾上，可以先进行测试。</p>
+<h2 id="原图"><a href="#原图" class="headerlink" title="原图"></a>原图</h2><p>好的我们现在没有任何问题了，回到首页现在我们还不能点同步的按钮，我们还需要简单的做几步，首先打开设置，在云服务这里找到相册，相册中选择自动 <code>下载原图</code>，</p>
+<p>点击立即同步，将相册立即同步，我们返回开启 <code>快速同步</code> 这样我们下载原图会更快一些。</p>
+<p>好的，我这里跑了一会总算是把云服务的相册拉了回来，我们继续，</p>
+<p>点击一下 <code>同步</code>，返回到 APP 的首页查看同步状态，如果在跑了就代表正常了，接下来我们再设置计划任务这里按照你个人习惯进行计划任务，我这里就设置自定义的时间也就是睡觉时间备份，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/uploading.png" loading="lazy"></p>
+<p>不过要确定 FolderSync 是否有自启动权限和关闭省电策略，不然前面设置的都是徒劳。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>视频博文</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSGO各种实用代码分享</title>
+    <url>/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<p><del>文明游戏,背起行囊</del></p>
+<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>国服 <code>-perfectworld</code></p>
+<p>国际服 <code>-worldwide</code></p>
+<p>网络FPS状态 <code>net_graph 1</code></p>
+<p>调小网络于FPS状态 <code>net_graphproportionalfont 0.7</code></p>
+<p>持枪方向 <code>cl_righthand 1</code></p>
+<p>Alt换持枪方向 <code>BindToggle &quot;ALT&quot; &quot;cl_righthand&quot;;</code></p>
+<p>清血 <code>r_cleardecals</code></p>
+<p>清血绑定Shift <code>bind shift&quot;+lookatweapon;r_cleardecals</code></p>
+<p>一键跳投 <code>alias +jumpthrow&quot;+jump;-attack&quot;; alias -jumpthrow -jump bind v +jumpthrow</code></p>
+<p>全屏准星 <code>bind &quot;h&quot; &quot;toggle cl_crosshairsize 5 1000&quot;</code></p>
+<p>Tab显示计分板网络 <code>bind &quot;TAB&quot; &quot;+showscores_custom&quot;; alias &quot;+showscores_custom&quot; &quot;+showscores;net_graphheight 64; alias &quot;-showscores_custom&quot; &quot;-showscores;net_graphheight 9999&quot;; net_graph &quot;1&quot;; net_graphheight &quot;9999&quot;; net_graphpos &quot;2&quot;;</code></p>
+<p>减少手臂摇摆 <code>cl_bob_lower_amt &quot;5&quot;; cl_bobamt_lat &quot;0.1&quot;; cl_bobamt_vert &quot;0.1&quot;; cl_viewmodel_shift_left_amt &quot;0.5&quot;; cl_viewmodel_shift_right_amt &quot;0.25&quot;;</code></p>
+<p>绑定 Alt 飞行 <code>bind &quot;alt&quot; &quot;noclip&quot;</code></p>
+<h2 id="作弊类"><a href="#作弊类" class="headerlink" title="作弊类"></a>作弊类</h2><p>开启作弊 <code>sv_cheats 1</code></p>
+<p>无限子弹 <code>sv_infinite_ammo 1</code></p>
+<p>上帝模式_锁 <code>god</code></p>
+<p>飞天 <code>noclip</code></p>
+<p>第一人称 <code>cam_command 1</code></p>
+<p>实体透视 <code>r_drawothermodels 2</code></p>
+<p>(无效)自瞄 <code>ent_fire !picker addoutputmodelscale 0</code></p>
+<p>(无效)子弹穿墙 <code>cl_showothermodels 3</code></p>
+<p>灵敏度假转 <code>bind j &quot;toggle m_yaw 0.022 1000&quot;</code></p>
+<p>无后座 <code>sv_cheats &quot;1&quot;;weapon_accuracy_nospread &quot;1&quot;;weapon_debug_spread_gap &quot;1&quot;;weapon_recoil_cooldown &quot;0&quot;;weapon_recoil_decay1_exp &quot;99999&quot;;weapon_recoil_decay2_exp &quot;99999&quot;;weapon_recoil_decay2_lin &quot;99999&quot;;weapon_recoil_scale &quot;0&quot;;weapon_recoil_suppression_shots &quot;500&quot;;weapon_recoil_view_punch_extra 0</code></p>
+<p>大地球滑步 <code>sv_standable_normal 1000</code></p>
+<p>允许连跳 <code>sv_enablebunnyhopping 1</code></p>
+<p>自动连跳 <code>sv_autobunnyhopping 1</code></p>
+<p>空中速度 <code>sv_airaccelerate 20000</code></p>
+<p>血量 <code>ent_fire !self addoutput &quot;health 233&quot;</code></p>
+<h2 id="房间"><a href="#房间" class="headerlink" title="房间"></a>房间</h2><p>1秒刷新房间 <code>mp_restartgame &quot;1&quot;</code></p>
+<p>禁止自动平衡人数 <code>mp_autoteambalance 0</code></p>
+<p>金钱上限 <code>mp_maxmoney &quot;16000&quot;</code></p>
+<p>出生金钱 <code>mp_startmoney &quot;16000&quot;</code></p>
+<p>任意地点购买 <code>mp_buy_anywhere &quot;1&quot;</code></p>
+<p>显示10秒投掷物轨迹 <code>sv_grenade_trajectory_time &quot;10&quot;</code></p>
+<p>射击命中点显示 <code>sv_showimpacts 1</code></p>
+<p>踢掉bot <code>bot kick</code></p>
+<p>杀掉所有bot <code>bot_kill</code></p>
+<p>随机增加bot <code>bot_add</code></p>
+<p>增加bot到CT <code>bot_add_ct</code></p>
+<p>增加bot到T <code>bot_add_t</code></p>
+<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="完美世界竞技平台"><a href="#完美世界竞技平台" class="headerlink" title="完美世界竞技平台"></a>完美世界竞技平台</h3><p>暂停 <code>.pause</code> &amp; <code>!pause</code></p>
+<p>解除暂停 <code>.unpause</code></p>
+<p>发刀 <code>.drop</code></p>
+<p>举报 <code>.report</code></p>
+<p>投降 <code>.gg</code></p>
+<p>队友建议位置 <code>.team</code></p>
+<p>赛前道具 <code>.m</code></p>
+<p>菜单 <code>.menu</code></p>
+<p>聊天框提示 <code>.info</code></p>
+<h3 id="5E对战平台"><a href="#5E对战平台" class="headerlink" title="5E对战平台"></a>5E对战平台</h3><p>暂停 <code>.p</code></p>
+<p>解除暂停 <code>.up</code></p>
+<p>发刀 <code>.d</code></p>
+<p>举报 <code>.r</code></p>
+<p>投降 <code>.g</code> &amp; <code>.gg</code></p>
+<h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 <code>mp_drop_knife_enable 1</code></p>
+<p>海豹短刀 <code>give weapon_knife_css; ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>刺刀 <code>give weapon_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>折叠刀 <code>give weapon_knife_flip;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>穿肠刀 <code>give weapon_knife_gut;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>爪子刀 <code>give weapon_knife_karambit;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>M9 <code>give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>猎杀者匕首 <code>give weapon_knife_tactical;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>蝴蝶刀 <code>give weapon_knife_butterfly;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>弯刀 <code>give weapon_knife_falchion;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>双匕 <code>give weapon_knife_push;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>鲍伊 <code>give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>熊刀 <code>give weapon_knife_ursus;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>折刀 <code>give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>短剑 <code>give weapon_knife_stiletto;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>锯齿爪 <code>give weapon_knife_widowmaker;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p>按键非指令</p>
+<p>打开Demo控制台 <code>shift+f2</code></p>
+<p>x光 <code>x</code></p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>csgo</tag>
       </tags>
   </entry>
   <entry>
@@ -495,80 +679,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客更新啦</title>
-    <url>/2021/12/06/blog-update/</url>
-    <content><![CDATA[<h1 id="博客の变化"><a href="#博客の变化" class="headerlink" title="博客の变化"></a>博客の变化</h1><p>在今天(2021-12-6 21:09:43)，我更换了由前后端分离部署的 <a href="https://github.com/mx-space">Mix-space</a> ，可能熟悉我们原本Hexo博客的小伙伴会比较陌生，但是为了变化内容我还是写一点小白须知。</p>
-<p>这次主要更换了之间的二级域名，和内容上的变化;</p>
-<ul>
-<li><p>个人网站 (Hexo Yun 主题) 部署的域名从 <code>https://www.miaoer.xyz </code> &gt;&gt;&gt;  <code>https://blog.miaoer.xyz</code></p>
-</li>
-<li><p>个人博客 (Mix-space) 部署的域名从 <code>https://blog.miaoer.xyz</code>  &gt;&gt;&gt;  <code>https://www.miaoer.xyz </code> </p>
-</li>
-<li><p>短域名 miaoer.xyz 自动跳转到 Mix-space 上</p>
-</li>
-</ul>
-<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
-<span id="more"></span>
-<p><em>更新后，<u>图片可点击放大查看详情</u></em></p>
-<p><strong>Banner</strong></p>
-<ul>
-<li>名字，签名，社交链接，一言</li>
-</ul>
-<p><strong>菜单栏</strong></p>
-<ul>
-<li>页面   博文   预览   友链   日记   动态   其余   开往</li>
-</ul>
-<p><strong>边栏</strong></p>
-<ul>
-<li>页面模式(夜间)，音乐，广播</li>
-</ul>
-<p><strong>页面</strong></p>
-<ul>
-<li>最新博文，日记，友链，了解更多</li>
-</ul>
-<p><strong>底栏</strong></p>
-<ul>
-<li><p>主页，Mix-space社区，ICP备案号</p>
-</li>
-<li><p>关于，留言，友链，RSS 订阅，站点地图，开往、同时在线小伙伴预览</p>
-</li>
-</ul>
-<h2 id="兼容"><a href="#兼容" class="headerlink" title="兼容"></a>兼容</h2><p>为 Hexo时代永久链接做出兼容动作 (可能按照文章内容跳转)。</p>
-<ul>
-<li>相对技术类的和主要对Hexo兼容的博客则跳转至Hexo博客中</li>
-<li>非技术类则不进行域名跳转</li>
-</ul>
-<p>为 Mix-space做最新的文章适配。</p>
-<ul>
-<li>将调整文章左右长度至Mix-space最舒服的大小</li>
-</ul>
-<p>为 Hexo继续同步最新的文章。</p>
-<ul>
-<li>将Mix-space中的文章再进行Hexo博客的分发至国内外</li>
-</ul>
-<h2 id="Thank"><a href="#Thank" class="headerlink" title="Thank"></a>Thank</h2><p>非常感谢他们，也感谢一直阅读我博客的小伙伴！【排列不分顺序】</p>
-<ul>
-<li><p>帮助解决主页的疑难杂症 <a href="https://innei.ren/">Innei</a></p>
-</li>
-<li><p>帮助解决问题 <a href="https://www.timochan.cn/">提莫酱</a></p>
-</li>
-<li><p>帮助使用主题等 <a href="https://www.yunyoujun.cn/">YunYouJun</a></p>
-</li>
-</ul>
-<h2 id="目前正在优化"><a href="#目前正在优化" class="headerlink" title="目前正在优化"></a>目前正在优化</h2><ul>
-<li><input checked disabled type="checkbox"> 重新优化查看搜索引擎的结果</li>
-<li><input checked disabled type="checkbox"> 通知友链更新</li>
-<li><input checked disabled type="checkbox"> 提供Hexo永久链接支持</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>拆卸AMD散热器，清灰</title>
     <url>/2022/01/19/clean-amd-heatsink/</url>
     <content><![CDATA[<p>今天闲着没事做给<a href="https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600">续集</a>上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。</p>
@@ -594,6 +704,63 @@
       </categories>
       <tags>
         <tag>电脑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</title>
+    <url>/2022/08/10/catwrt-v22.7-newifid2/</url>
+    <content><![CDATA[<p>CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。</p>
+<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
+<li>大雕源码最小化</li>
+<li>MTK 鸡血 wifi 无线驱动</li>
+<li>完全支持 IPv6</li>
+<li>基础网络加速</li>
+<li>普通远程管理</li>
+</ul>
+<p>因为 Newifi D2 的存储空间过小只有可怜的 32m 所以专门做了个 CatWrt 最小化固件，和 x86 版 v22.7 基本上是一个源码，所以插件除了原版+内网穿透其他全部为打包好的插件有需要可以手动安装</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-09/newifid2-catwrt.png" loading="lazy"></p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
+<p>用户 <code>root</code></p>
+<p>密码 <code>password</code></p>
+<blockquote>
+<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
+</blockquote>
+<h3 id="自动开启wifi"><a href="#自动开启wifi" class="headerlink" title="自动开启wifi"></a>自动开启wifi</h3><p>因为鸡血固件特性，只能通过这样的方式打开无线，以下方法都建议使用。</p>
+<p>电脑有线设置静态地址为 <code>192.168.1.x</code> 子网掩码 <code>255.255.255.0</code>,主要的网关/路由器地址填 <code>192.168.1.4</code>，DNS留空或者和网关一样</p>
+<h4 id="脚本"><a href="#脚本" class="headerlink" title="脚本"></a>脚本</h4><p>登录 OpenWrt 后台，在系统-启动项-本地启动脚本 插入 <code>/sbin/mtkwifi up</code> 在 <code>exit 0</code> 前面。</p>
+<p>完整脚本</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">/sbin/mtkwifi up
+
+<span class="token builtin class-name">exit</span> <span class="token number">0</span></code></pre>
+<h4 id="计划任务"><a href="#计划任务" class="headerlink" title="计划任务"></a>计划任务</h4><p>在系统-计划任务中填入 <code>0 * * * * /sbin/mtkwifi up</code> 计划任务。</p>
+<p>完整计划任务</p>
+<pre class="language-none"><code class="language-none">0 * * * * &#x2F;sbin&#x2F;mtkwifi up</code></pre>
+
+<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
+<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
+<p>返回后输入 <code>reboot</code> 重启。</p>
+<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
+<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
+</blockquote>
+<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.7/targets/ramips/mt7621</code><br><br><br></p>
+<p>一般的只需要下载 <code>squashfs-sysupgrade.bin</code> 后缀，即 <code>openwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin</code>。</p>
+<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
+<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
+</blockquote>
+<p>链接: <a href="https://www.aliyundrive.com/s/a3uvrWWV4xa">https://www.aliyundrive.com/s/a3uvrWWV4xa</a><br>提取码: 91tt</p>
+<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p>链接: <a href="https://cloud.189.cn/web/share?code=VzAZFjVZFBry">https://cloud.189.cn/web/share?code=VzAZFjVZFBry</a><br>访问码：ojg7</p>
+<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CKCXZggb0Y">https://caiyun.139.com/m/i?0H5CKCXZggb0Y</a><br>提取码:JHgq</p>
+<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
+<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
+]]></content>
+      <categories>
+        <category>硬路由</category>
+      </categories>
+      <tags>
+        <tag>OpenWrt</tag>
+        <tag>硬路由</tag>
+        <tag>固件</tag>
       </tags>
   </entry>
   <entry>
@@ -624,85 +791,29 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </tags>
   </entry>
   <entry>
-    <title>一款好用的SMB备份软件FolderSync</title>
-    <url>/2022/06/04/app-foldersync/</url>
-    <content><![CDATA[<p><i class="ri-bilibili-line"></i> <a href="https://www.bilibili.com/video/BV1Tv4y137oD">哔哩哔哩</a></p>
-<p><i class="ri-youtube-line"></i> <a href="https://www.youtube.com/watch?v=xfjNE3QsarM&t">YouTube</a></p>
-<hr>
-<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>最近我发现一款非常好的 SMB 备份软件叫做 FolderSync，在早一些时候我也是通过数据线一头连电脑进行备份相册目录的，</p>
-<p>因为家境贫寒家里没有品牌 NAS 所以自己在软路由上搭建了 SAMBA 服务，用来储存一些电影和共享资源等……</p>
-<p>今天我们来捣鼓一下。</p>
+    <title>记录一次换m.2硬盘</title>
+    <url>/2022/01/31/fs-pm9a1/</url>
+    <content><![CDATA[<p>受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)</p>
+<p>有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，<br>三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg" loading="lazy"></p>
 <span id="more"></span>
 
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/app-web.png" loading="lazy"></p>
-<p>我们可以在谷歌 Play 商店下载到这款软件，我也准备了 APK 包方便大家的下载</p>
-<p><i class="ri-file-download-line"></i> <a href="https://wwd.lanzouy.com/b02dbo1kh">蓝奏云</a> 密码:5cgt</p>
-<blockquote>
-<p>因为软件需要付费，有能力可以用 Play 商店里下免费的，蓝奏云上为绿色版不知道存不存在安全风险。</p>
-</blockquote>
-<hr>
-<p>下载完成以后打开这款软件，可以看到需要我们给予权限，才能正常工作这里推荐打开所有的建议项，</p>
-<p>因系统UI部分设置项可能不同，按照软件里的一个一个同意。</p>
-<p>进入软件在底栏找到账户，点击 <code>添加账户</code> ，可以看到有很多的账户类型，这都不是的重点，</p>
-<p>滑到最底下可以看到 SMB2，为什么不选 SMB1 呢，距我实测 SMB1 怎么设置都是用不了的，如果你 SMB2 也不能用，</p>
-<p>可以将防火墙放行 <code>445</code> 和 <code>139</code> 端口，</p>
-<p>我这里使用宝塔 Linux 面板进行放行端口。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/bt-firewall.png" loading="lazy"></p>
-<h3 id="放行防火墙"><a href="#放行防火墙" class="headerlink" title="放行防火墙"></a>放行防火墙</h3><p>在终端输入 <code>sudo apt-get install iptables-persistent</code>，</p>
-<p>安装页中应该是是否添加 IPv4 和 IPv6 规则，这里都 <code>Yes</code>，</p>
-<p>安装完成后返回再输入；</p>
-<p><code>iptables -I INPUT -p tcp --dport 445 -j ACCEPT &amp;&amp; iptables -I INPUT -p tcp --dport 139 -j ACCEPT</code></p>
-<p>输入 <code>sudo netfilter-persistent save</code> 保存，</p>
-<p>这样端口就放行成功了。</p>
-<blockquote>
-<p>安全问题: 如果你是在外网的话需要进行端口转发到公网，没有接触到外网服务的可以直接把防火墙关了，这里不推荐公开 SMB 端口容易被攻击可以用 Openwrt 中的插件做反向代理，这点后面可能会单独出一期讲解，确实非常简单这里就不买关子了；<br>无非就是找一个域名做 DDNS 然后将端口开放和转发并开启反向代理，记得要开启 <code>接受局域网访问</code> 之后在 手机 APP 里面挂全局代理，就可以在外网访问内网服务了，只要你的代理密码和端口没开放太多这都是安全的。</p>
-</blockquote>
-<h3 id="SAMBA-服务搭建"><a href="#SAMBA-服务搭建" class="headerlink" title="SAMBA 服务搭建"></a>SAMBA 服务搭建</h3><p>如果你没搭建 SAMBA 服务，这里简单说一下，</p>
-<p>这里用户用喵二 <code>miaoer</code> 和共享 <code>nas</code> 进行设置用户名和服务名、位置；请自己替换自己喜欢的格式勿乱、举一反三。</p>
-<pre class="language-none"><code class="language-none">useradd miaoer     &#x2F;&#x2F;新建用户名 miaoer
-
-sudo apt-get install samba     &#x2F;&#x2F;管理员权限安装 samba
-
-sudo smbpasswd -a miaoer     &#x2F;&#x2F;设置 miaoer 的 samba 用户名密码
-
-cd &#x2F; &amp;&amp; mkdir nas     &#x2F;&#x2F;返回根目录创建 nas 共享文件夹
-
-chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
-
-<p>配置文件可以找办法编辑好再上传或者使用 vim 命令，按 <code>i</code> 编辑，按 <code>Esc</code> 后 <code>Shift + :</code> 直到输入 <code>:wq</code> 退出。</p>
-<pre class="language-none"><code class="language-none">[nas]
-        comment &#x3D; nas
-        path &#x3D; &#x2F;nas
-        browseable &#x3D; yes
-        writable &#x3D; yes
-        file mode &#x3D; 660     
-        force file mode &#x3D; 660
-        directory mode &#x3D; 770
-        force directory mode &#x3D; 770</code></pre>
-
-
-<h2 id="软件设置"><a href="#软件设置" class="headerlink" title="软件设置"></a>软件设置</h2><p>好的回到正题，在 SMB2 中设置，在登录这里输入刚刚设置好的用户名和密码，</p>
-<p>连接这里输入内网部署了 SAMBA 的主机地址，和端口号这里默认就好，共享名字输入刚刚设置好的名字文件夹名字。</p>
-<p>然后点保存。</p>
-<p>然后进入左边的 <code>文件夹对</code>，创建文件夹对选择 SMB2，</p>
-<p>进到这里可以看到很多的选项，</p>
-<p>同步类型我这里只需要选择，到远程文件夹。</p>
-<p>点击远程文件夹，因为这里没有用于专门备份的文件夹，新建一个我这里设置的 Mi10 文件夹这里随便你</p>
-<p>新建完成点击进去，点下右下角的勾</p>
-<p>本地文件夹这里相册在 <code>DCIM</code> 里，点击进去然后将勾上，可以先进行测试。</p>
-<h2 id="原图"><a href="#原图" class="headerlink" title="原图"></a>原图</h2><p>好的我们现在没有任何问题了，回到首页现在我们还不能点同步的按钮，我们还需要简单的做几步，首先打开设置，在云服务这里找到相册，相册中选择自动 <code>下载原图</code>，</p>
-<p>点击立即同步，将相册立即同步，我们返回开启 <code>快速同步</code> 这样我们下载原图会更快一些。</p>
-<p>好的，我这里跑了一会总算是把云服务的相册拉了回来，我们继续，</p>
-<p>点击一下 <code>同步</code>，返回到 APP 的首页查看同步状态，如果在跑了就代表正常了，接下来我们再设置计划任务这里按照你个人习惯进行计划任务，我这里就设置自定义的时间也就是睡觉时间备份，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/uploading.png" loading="lazy"></p>
-<p>不过要确定 FolderSync 是否有自启动权限和关闭省电策略，不然前面设置的都是徒劳。</p>
+<p>啪的一下很快啊，快递从南京过来了，快递比我想象中的还要小，更让我惊讶的是M.2硬盘这么小…（SATA固态的泪）</p>
+<p>螺丝没找到直接斜插直连 CPU 的 PCIe 通道的M.2硬盘位，开机稍微分了一下区就开始跑 AS SSD 了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/PM9A1.png" loading="lazy"></p>
+<p>读: 2832MB/s 写: 2763MB/s</p>
+<p>令我惊讶的是 4K 的速度，读: 2109MB/s 写: 1345MB/s，第一次亲眼在自己电脑上这么高的分数。</p>
+<p>用 CrystalDiskInfo 显示都是没问题的，也没去查了，把盘还原打包放置了十来天</p>
+<p>直到1月29日，刚刚好有空就送过去朋友家里，上门服务了属于是</p>
+<p>拆开机箱看到的不知道西数的什么 SSD 蓝盘【这几天查询后修改】，我拆开了另外一侧的盖板好家伙，原来机器吵不是机械硬盘在吵…但是也是要加的因为不知道为什么固态也这么慢，不过他原来的固态插的芯片组引出的 PCIe 通道上，我只需要卸下原来的 M.2 马甲将 PM9A1 安上就好了。</p>
+<p>装后给原来的固态备份质料，然后清空重新单个分区，因为习惯性安装的 Windows 10 ，给 PM9A1 分了2个区，安装驱动…win10已经给我安装完了，显卡驱动也是但是我还是补上了 NVIDIA GeForce Experience 方便更新，安装好常用软件就，坐了一会就走了…</p>
+<p>晚7点半走，等了半天车11点才到家，淦(;´༎ຶД༎ຶ`)</p>
 ]]></content>
       <categories>
-        <category>博客</category>
+        <category>电脑</category>
       </categories>
       <tags>
-        <tag>视频博文</tag>
-        <tag>软件</tag>
+        <tag>电脑</tag>
       </tags>
   </entry>
   <entry>
@@ -731,32 +842,6 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       <tags>
         <tag>电脑</tag>
         <tag>装机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记录一次换m.2硬盘</title>
-    <url>/2022/01/31/fs-pm9a1/</url>
-    <content><![CDATA[<p>受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)</p>
-<p>有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，<br>三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>啪的一下很快啊，快递从南京过来了，快递比我想象中的还要小，更让我惊讶的是M.2硬盘这么小…（SATA固态的泪）</p>
-<p>螺丝没找到直接斜插直连 CPU 的 PCIe 通道的M.2硬盘位，开机稍微分了一下区就开始跑 AS SSD 了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/PM9A1.png" loading="lazy"></p>
-<p>读: 2832MB/s 写: 2763MB/s</p>
-<p>令我惊讶的是 4K 的速度，读: 2109MB/s 写: 1345MB/s，第一次亲眼在自己电脑上这么高的分数。</p>
-<p>用 CrystalDiskInfo 显示都是没问题的，也没去查了，把盘还原打包放置了十来天</p>
-<p>直到1月29日，刚刚好有空就送过去朋友家里，上门服务了属于是</p>
-<p>拆开机箱看到的不知道西数的什么 SSD 蓝盘【这几天查询后修改】，我拆开了另外一侧的盖板好家伙，原来机器吵不是机械硬盘在吵…但是也是要加的因为不知道为什么固态也这么慢，不过他原来的固态插的芯片组引出的 PCIe 通道上，我只需要卸下原来的 M.2 马甲将 PM9A1 安上就好了。</p>
-<p>装后给原来的固态备份质料，然后清空重新单个分区，因为习惯性安装的 Windows 10 ，给 PM9A1 分了2个区，安装驱动…win10已经给我安装完了，显卡驱动也是但是我还是补上了 NVIDIA GeForce Experience 方便更新，安装好常用软件就，坐了一会就走了…</p>
-<p>晚7点半走，等了半天车11点才到家，淦(;´༎ຶД༎ຶ`)</p>
-]]></content>
-      <categories>
-        <category>电脑</category>
-      </categories>
-      <tags>
-        <tag>电脑</tag>
       </tags>
   </entry>
   <entry>
@@ -793,17 +878,6 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       <tags>
         <tag>搞机</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>在两者之间选择</title>
-    <url>/2021/11/30/newblog/</url>
-    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/images/nowblog.png" loading="lazy"></p>
-<span id="more"></span>
-
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
   </entry>
   <entry>
     <title>3520块能捡到什么笔记本？华硕天选FA506简单测试个评</title>
@@ -1029,6 +1103,77 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       <tags>
         <tag>电脑</tag>
         <tag>视频博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【推荐】洗鞋神器-污渍干洗剂</title>
+    <url>/2022/01/31/nianba-ganxi/</url>
+    <content><![CDATA[<blockquote>
+<p>本篇内容没有商业支持，纯个推。</p>
+</blockquote>
+<p>“年廿八,洗邋遢”<br>是广府文化中传统，每年辞旧迎新的特殊节日，我家里也搞起了清洁，因为今年有点特殊鞋子可以不用换，绝对不是因为钱。2333</p>
+<p>某天在商场被强行推销，拿我的鞋子中脏的地方做演示，我期初还不信但擦完出乎意料，我用手指去摩擦居然还有新鞋子橡胶嘎吱嘎吱的响声，所以…我当时闲钱少我拒绝了，但后面不是要准备过年了嘛整了一瓶，</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553805342.jpg" loading="lazy"></p>
+<p>不是推销的品牌，大概30块钱左右；稍微试了试确实有效果，也不是啥漂白剂，<br>[上图为没擦洗，下图为擦洗]</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553793449.jpg" loading="lazy"></p>
+<p>说是干洗，但是打湿了擦也行，干脆就洗澡一起洗了。<br>[图为刚刚洗完的效果]</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553837236.jpg" loading="lazy"></p>
+<p>【注; 31号晚点补干鞋图】</p>
+<p>优点: 可以洗往日留下的污渍，洗汽车胶内饰。<br>缺点: 网面干洗效果一般。</p>
+<p>商家信息已进行处理，需要可以评论留言可避免踩坑。</p>
+<p>本人不玩鞋，我没用过仅表达个人体验随便水一篇；所以觉得挺好用的，稍微写点推荐吧。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>给Openwrt套SSL证书</title>
+    <url>/2022/05/10/openwrt-ssl/</url>
+    <content><![CDATA[<blockquote>
+<p>没什么卵用内网看着爽，外网就不一定了。</p>
+</blockquote>
+<p>给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL，测的时候随手编译了默认以https访问的，正式版没用内网也启用感觉差点意思；</p>
+<p>浅见的随便写写吧。</p>
+<p>给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png" loading="lazy"></p>
+<p>下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 <code>.key</code> 和 证书 <code>.crt</code></p>
+<p>用固件自带的 系统-文件管理 随便找一个地方放我这里选择 <code>/www</code>，上传文件俩文件 选择解压的位置 执行上传。</p>
+<p>用命令检查一下是否上传成功 <code>cd /www &amp;&amp; ls</code></p>
+<span id="more"></span>
+
+<p>固件没有文件管理可以使用你趁手的 ssh 工具 scp 上传；这里演示 Windows 终端的命令 <code>scp C:\Users\【用户】\Desktop\****.crt root@192.168.1.1:/www</code> 仅供参考哦。</p>
+<p>用vim 修改 <code>vi /etc/config/uhttpd</code></p>
+<pre class="language-none"><code class="language-none">config uhttpd &#39;main&#39;
+        list listen_http &#39;0.0.0.0:80&#39;
+        list listen_http &#39;[::]:80&#39;
+        list listen_https &#39;0.0.0.0:443&#39;
+        list listen_https &#39;[::]:443&#39;
+        option redirect_https &#39;0&#39;
+        option home &#39;&#x2F;www&#39;
+        option rfc1918_filter &#39;1&#39;
+        option max_connections &#39;100&#39;
+        option cert &#39;&#x2F;etc&#x2F;uhttpd.crt&#39;
+        option key &#39;&#x2F;etc&#x2F;uhttpd.key&#39;
+</code></pre>
+
+<p>将 <code>option cert &#39;/etc/uhttpd.crt&#39;</code> 中的 <code>/etc/uhttpd.crt</code> 替换为 <code>/www/****.crt</code><br>将 <code>option cert &#39;/etc/uhttpd.key&#39;</code> 中的 <code>/etc/uhttpd.key</code> 替换为 <code>/www/****.key</code></p>
+<p>如果你有公网 ip 可以看看运营商有没有封锁 443 端口如果有将 443 改为你喜欢的端口并且把 <code>list listen_https &#39;0.0.0.0:443&#39;</code> 中的 <code>&#39;0.0.0.0:443</code> 替换为你喜欢的端口。</p>
+<p>保存 Esc，Shift + ;(:) 输入 wq 退出 vim （<code>:wq</code>）</p>
+<p>接着重启 uhttpd <code>/etc/init.d/uhttpd restart</code></p>
+<p>内网和外网都测试一遍吧，记得做好端口映射、DDNS 域名解析；广移 IPv6 没有限制 443 可以正常访问。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/openwrt-ssl.png" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>软路由</category>
+      </categories>
+      <tags>
+        <tag>OpenWrt</tag>
       </tags>
   </entry>
   <entry>
@@ -1340,36 +1485,39 @@ cd mx-space&#x2F;server</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>【推荐】洗鞋神器-污渍干洗剂</title>
-    <url>/2022/01/31/nianba-ganxi/</url>
-    <content><![CDATA[<blockquote>
-<p>本篇内容没有商业支持，纯个推。</p>
-</blockquote>
-<p>“年廿八,洗邋遢”<br>是广府文化中传统，每年辞旧迎新的特殊节日，我家里也搞起了清洁，因为今年有点特殊鞋子可以不用换，绝对不是因为钱。2333</p>
-<p>某天在商场被强行推销，拿我的鞋子中脏的地方做演示，我期初还不信但擦完出乎意料，我用手指去摩擦居然还有新鞋子橡胶嘎吱嘎吱的响声，所以…我当时闲钱少我拒绝了，但后面不是要准备过年了嘛整了一瓶，</p>
+    <title>软路由Openwrt overlay分区</title>
+    <url>/2021/06/20/openwrt-overlay/</url>
+    <content><![CDATA[<p>目的扩容overlay分区，docker分区</p>
 <span id="more"></span>
 
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553805342.jpg" loading="lazy"></p>
-<p>不是推销的品牌，大概30块钱左右；稍微试了试确实有效果，也不是啥漂白剂，<br>[上图为没擦洗，下图为擦洗]</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553793449.jpg" loading="lazy"></p>
-<p>说是干洗，但是打湿了擦也行，干脆就洗澡一起洗了。<br>[图为刚刚洗完的效果]</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553837236.jpg" loading="lazy"></p>
-<p>【注; 31号晚点补干鞋图】</p>
-<p>优点: 可以洗往日留下的污渍，洗汽车胶内饰。<br>缺点: 网面干洗效果一般。</p>
-<p>商家信息已进行处理，需要可以评论留言可避免踩坑。</p>
-<p>本人不玩鞋，我没用过仅表达个人体验随便水一篇；所以觉得挺好用的，稍微写点推荐吧。</p>
+<h2 id="cfdisk"><a href="#cfdisk" class="headerlink" title="cfdisk"></a>cfdisk</h2><blockquote>
+<p>cfdisk 分区</p>
+</blockquote>
+<p>清理shell<br>clear</p>
+<h2 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h2><p>修改分区sda3 ext4<br>mkfs.ext4 /dev/sda3<br>完成done</p>
+<p>修改分区sda4 ext4<br>mkfs.ext4 /dev/sda4<br>完成done</p>
+<h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><p>挂载sda3<br>mount /dev/sda3 /mnt/sda3<br>挂载sda4<br>mount /dev/sda4 /mnt/sda4<br>检查查看sda3<br>ls /mnt/sda3<br>到overlay检查<br>cd /overlay<br>ls</p>
+<h2 id="复制overlay"><a href="#复制overlay" class="headerlink" title="复制overlay"></a>复制overlay</h2><p>复制overlay到sda3<br>cp -r /overlay/* /mnt/sda3</p>
+<blockquote>
+<p>openwrt挂载</p>
+</blockquote>
+<p>总结至：<a href="https://www.youtube.com/c/eSirPlayGround">eSir</a></p>
 ]]></content>
       <categories>
-        <category>生活</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>推荐</tag>
+        <tag>软路由</tag>
+        <tag>openwrt</tag>
       </tags>
   </entry>
   <entry>
-    <title>日记</title>
-    <url>/2022/01/20/notes/</url>
-    <content><![CDATA[]]></content>
+    <title>在两者之间选择</title>
+    <url>/2021/11/30/newblog/</url>
+    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/images/nowblog.png" loading="lazy"></p>
+<span id="more"></span>
+
+]]></content>
       <categories>
         <category>Blog</category>
       </categories>
@@ -1437,262 +1585,6 @@ cd mx-space&#x2F;server</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>给Openwrt套SSL证书</title>
-    <url>/2022/05/10/openwrt-ssl/</url>
-    <content><![CDATA[<blockquote>
-<p>没什么卵用内网看着爽，外网就不一定了。</p>
-</blockquote>
-<p>给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL，测的时候随手编译了默认以https访问的，正式版没用内网也启用感觉差点意思；</p>
-<p>浅见的随便写写吧。</p>
-<p>给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png" loading="lazy"></p>
-<p>下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 <code>.key</code> 和 证书 <code>.crt</code></p>
-<p>用固件自带的 系统-文件管理 随便找一个地方放我这里选择 <code>/www</code>，上传文件俩文件 选择解压的位置 执行上传。</p>
-<p>用命令检查一下是否上传成功 <code>cd /www &amp;&amp; ls</code></p>
-<span id="more"></span>
-
-<p>固件没有文件管理可以使用你趁手的 ssh 工具 scp 上传；这里演示 Windows 终端的命令 <code>scp C:\Users\【用户】\Desktop\****.crt root@192.168.1.1:/www</code> 仅供参考哦。</p>
-<p>用vim 修改 <code>vi /etc/config/uhttpd</code></p>
-<pre class="language-none"><code class="language-none">config uhttpd &#39;main&#39;
-        list listen_http &#39;0.0.0.0:80&#39;
-        list listen_http &#39;[::]:80&#39;
-        list listen_https &#39;0.0.0.0:443&#39;
-        list listen_https &#39;[::]:443&#39;
-        option redirect_https &#39;0&#39;
-        option home &#39;&#x2F;www&#39;
-        option rfc1918_filter &#39;1&#39;
-        option max_connections &#39;100&#39;
-        option cert &#39;&#x2F;etc&#x2F;uhttpd.crt&#39;
-        option key &#39;&#x2F;etc&#x2F;uhttpd.key&#39;
-</code></pre>
-
-<p>将 <code>option cert &#39;/etc/uhttpd.crt&#39;</code> 中的 <code>/etc/uhttpd.crt</code> 替换为 <code>/www/****.crt</code><br>将 <code>option cert &#39;/etc/uhttpd.key&#39;</code> 中的 <code>/etc/uhttpd.key</code> 替换为 <code>/www/****.key</code></p>
-<p>如果你有公网 ip 可以看看运营商有没有封锁 443 端口如果有将 443 改为你喜欢的端口并且把 <code>list listen_https &#39;0.0.0.0:443&#39;</code> 中的 <code>&#39;0.0.0.0:443</code> 替换为你喜欢的端口。</p>
-<p>保存 Esc，Shift + ;(:) 输入 wq 退出 vim （<code>:wq</code>）</p>
-<p>接着重启 uhttpd <code>/etc/init.d/uhttpd restart</code></p>
-<p>内网和外网都测试一遍吧，记得做好端口映射、DDNS 域名解析；广移 IPv6 没有限制 443 可以正常访问。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/openwrt-ssl.png" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>软路由</category>
-      </categories>
-      <tags>
-        <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2020/08/12/test/</url>
-    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
-<ul>
-<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>软路由Openwrt overlay分区</title>
-    <url>/2021/06/20/openwrt-overlay/</url>
-    <content><![CDATA[<p>目的扩容overlay分区，docker分区</p>
-<span id="more"></span>
-
-<h2 id="cfdisk"><a href="#cfdisk" class="headerlink" title="cfdisk"></a>cfdisk</h2><blockquote>
-<p>cfdisk 分区</p>
-</blockquote>
-<p>清理shell<br>clear</p>
-<h2 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h2><p>修改分区sda3 ext4<br>mkfs.ext4 /dev/sda3<br>完成done</p>
-<p>修改分区sda4 ext4<br>mkfs.ext4 /dev/sda4<br>完成done</p>
-<h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><p>挂载sda3<br>mount /dev/sda3 /mnt/sda3<br>挂载sda4<br>mount /dev/sda4 /mnt/sda4<br>检查查看sda3<br>ls /mnt/sda3<br>到overlay检查<br>cd /overlay<br>ls</p>
-<h2 id="复制overlay"><a href="#复制overlay" class="headerlink" title="复制overlay"></a>复制overlay</h2><p>复制overlay到sda3<br>cp -r /overlay/* /mnt/sda3</p>
-<blockquote>
-<p>openwrt挂载</p>
-</blockquote>
-<p>总结至：<a href="https://www.youtube.com/c/eSirPlayGround">eSir</a></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
-        <tag>openwrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>站点</title>
-    <url>/2021/06/27/site/</url>
-    <content><![CDATA[<blockquote>
-<p>申请友链前先看看吧 ψ(｀∇´)ψ</p>
-</blockquote>
-<h2 id="站点"><a href="#站点" class="headerlink" title="站点"></a>站点</h2><p><img src="https://cdn.miaoer.xyz/images/miaoer-webhome.png" alt="web" loading="lazy"></p>
-<ul>
-<li><a href="https://www.miaoer.xyz/">个人网站</a>: <code>https://www.miaoer.xyz</code></li>
-<li><a href="https://blog.miaoer.xyz/">个人博客</a>: <code>https://blog.miaoer.xyz</code></li>
-<li><a href="https://miaoermua.github.io/">github.io</a>: <code>https://miaoermua.github.io</code></li>
-</ul>
-<p>查看服务运行情况 - <a href="https://status.miaoer.xyz/">实时网络状态 Status</a>: <code>https://status.miaoer.xyz</code></p>
-<h2 id="友链"><a href="#友链" class="headerlink" title="友链"></a>友链</h2><h3 id="做些什么"><a href="#做些什么" class="headerlink" title="做些什么"></a>做些什么</h3><p>因为友链已经足够多了，但我们还继续收入友链，为了保证友链质量我们会筛选友链；</p>
-<p>死链、部分内容过少抄袭或者内容低质、长期不更新内容，我们不收录或下架。</p>
-<p>但我们支持个人新人博主良好发展，请使用备案服务器和域名、HTTPS 来提高你的友链质量！下架友链可能不另外进行通知。<br><br><br><br></p>
-<p><strong>关于我？</strong></p>
-<p>可以查看 <a href="https://www.miaoer.xyz/about">关于</a>，里面写的很清楚了不需要另外列举了。 👻</p>
-<br>
-
-<p><strong>友链消失不通过呢？</strong></p>
-<details>
- <summary>不收入以下内容。</summary>
-<br><p>如果检查到不通过的友链，我会向你申请的邮箱发送问题原因，假如你修复了，再通过友链申请。
-<br>
-<br>
-<ul>申请失败:<br>
-   <li>  免费配置</li><br>
-   <li>  违规内容</li><br>
-   <li>  博客无法访问</li><br>
-   <li>  博客预览卡顿</li><br>
-   <li>  访问速度极慢</li><br>
-   <li>  不稳定友链关系</li><br>
-</ul></p></details><br>
-
-
-<details>
-         <summary>已被移除的异常友链。</summary>
-         <br>
-         <p>以下为错误的友链，请联系我进行恢复 - update: 2022-5-29 15:37:18
-         <br>
-         <li>     多次删除: Langford's blog - https://ucany.net</li><br>
-         <li>     链接未修改: Linsip - https://linsip.cn</li><br>
-         <li>     网站被重置: 慕木的小天地 - https://iori-yimaga.top</li><br>
-         <li>     数据库错误: 人民の芸術家的小屋 - https://wzyblog.cn</li><br>
-         <li>     建立新站点: 猫狗鼠鱼的储物间 - https://meowrain.cn</li><br>
-         <li>     无法联系: 双皮酸奶の酸奶盒https://shuangpisuannai.top</li><br>
-</p></details>
-
-<br>
-
-<p><strong>怎么才能申请友链？</strong></p>
-<details>
-<summary>硬性要求。</summary>
-<br>
-<li>保持博客存活</li><br>
-<li>HTTPS</li><br>
-<li>自域名</li><br>
-<li>有趣的内容</li><br>
-<li>常更新博客</li><br>
-<li>博客能畅通</li><br>
-<li>可靠的脑子</li><br>
-</details>
-<br>
-
-<hr>
-<h3 id="友链内容"><a href="#友链内容" class="headerlink" title="友链内容"></a>友链内容</h3><blockquote>
-<p>与个人博客 blog.miaoer.xyz 同步，但不一定保证同步速度。</p>
-</blockquote>
-<p><strong>友链信息:</strong></p>
-<br>
-
-<ul>
-<li>标题: <code>喵二の小博客</code></li>
-<li>描述: <code>缘，妙不可言</code></li>
-<li>链接: <code>https://www.miaoer.xyz</code></li>
-<li>头像: <code>https://www.miaoer.xyz/weblogo.png</code></li>
-<li>名字: <code>喵二</code></li>
-</ul>
-<h3 id="提交你的友链"><a href="#提交你的友链" class="headerlink" title="提交你的友链"></a>提交你的友链</h3><blockquote>
-<p>一般情况下无论是主动申请加入友链建议都使用 <strong>直接提交</strong>，因为这样在站点出现问题时也能更快速的向你发送报告；也可以订阅 <a href="https://t.me/miaoer_subscribe">TG 频道</a> 防止失联。</p>
-</blockquote>
-<p>失联状态下会尽可能的修复，也可以访问个人博客 <code>https://miaoermua.github.io</code> 与我取得联系。</p>
-<p>修改友链信息重新直接提交一遍完整信息或 <a href="/about">联系我</a>。</p>
-<p>现支持 <a href="https://www.miaoer.xyz/friends">直接提交</a> ， <a href="https://github.com/miaoermua/miaoermua.github.io/blob/master/links.json">提交PR</a> ， <a href="https://t.me/miaoer">Telegram</a> ， <a href="mailto:miaoermua@gmail.com">邮箱</a> 来提交你的友链。</p>
-<p>可以先联系我再添加我的友链，如果你单向添加也无所谓~~</p>
-<details>
-    <summary>提交PR 教程</summary>
-<p>
-<ul>
-<li>先 Fork <a href="https://www.github.com/miaoermua/miaoermua.github.io">miaoermua.github.io</a></li><br>
-<li>进入  <a href="https://github.com/miaoermua/miaoermua.github.io/blob/master/links.json">提交PR</a> 点击小笔头 <a href="https://github.com/miaoermua/miaoermua.github.io/edit/master/links.json">"Edit this file"</a></li><br>
-<li>在编辑模式下增加你的友链信息</li><br>
-复制一下上面已有的友链内容粘贴到代码最地下替换掉 ] ，当你不想写邮箱请把 ,"email": "邮箱" 字段删除。<br>
-不会可以看着友链上面的抄，怕打错我给你修，不过会提PR的人应该都会基础的；或者看结合代码中的内容再看下面代码块也许你就明白了<br>
-<code>
-    ,
-    &#123;
-    "url":"博客链接",
-    "avatar":"博客头像地址",
-    "name":"昵称",
-    "blog":"博客名称",
-    "desc":"个性描述",
-    "color": "颜色",
-    "email": "邮箱"
-    &#125;
-    ]
-</code>
-<li>标题可以写点博客名字无要求，点击 Propose changes 在新页面点击 Pull Request 将你的友链信息并入 PR </li><br>
-<li>等待PR审核</li><br>
-<li>等待 <a href="https://www.miaoer.xyz/links.json">cdn</a> 刷新</li><br>
-
-</ul></p>
-
-</details>
-<br>
-
-<hr>
-<h2 id="关于站点"><a href="#关于站点" class="headerlink" title="关于站点"></a>关于站点</h2><p>站点截止 2022-7-22 18:38:50 运营费用为188元</p>
-<table>
-<thead>
-<tr>
-<th align="center">服役</th>
-<th align="center">服务商</th>
-<th align="center">服务</th>
-<th align="center">消费</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">✅</td>
-<td align="center">腾讯云</td>
-<td align="center">轻量应用服务器-广州</td>
-<td align="center">45.00</td>
-</tr>
-<tr>
-<td align="center">✅</td>
-<td align="center">阿里云</td>
-<td align="center">轻量应用服务器-深圳</td>
-<td align="center">99.00</td>
-</tr>
-<tr>
-<td align="center">✅</td>
-<td align="center">腾讯云</td>
-<td align="center">CDN 内容分发网络</td>
-<td align="center">9.00</td>
-</tr>
-<tr>
-<td align="center">✅</td>
-<td align="center">阿里云</td>
-<td align="center">域名</td>
-<td align="center">35.00</td>
-</tr>
-</tbody></table>
-<p>站点使用：</p>
-<ul>
-<li>使用 <a href="https://www.github.com/mx-space">Mix-space</a> Kami主题</li><br>
-<li>使用 Hexo <a href="https://www.yunyoujun.cn">Yun</a> 主题</li><br>
-</ul>
-<p>本站已加入 <a href="https://www.foreverblog.cn/">《十年之约》</a>，<a href="https://github.com/travellings-link/travellings">开往-友链接力</a>，<a href="https://github.com/timqian/chinese-independent-blogs">中文独立博客列表</a>。</p>
-<h3 id="备案"><a href="#备案" class="headerlink" title="备案"></a>备案</h3><p>** 请注意，在中华人民共和国境内运营网站时需要进行联网备案；备案使用信息遵守相关法律，请不要恶意利用公民个人信息，并保留所有法律责任。</p>
-<ul>
-<li>工业和信息化部 - <a href="https://beian.miit.gov.cn/">粤ICP备2021127881号</a></li>
-<li>全国互联网安全管理 - <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011302003222">粤公网安备 44011302003222号</a></li>
-</ul>
-<hr>
-<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><p>随机图:</p>
-<p>主页随机图使用 pixiv 收集来的图片，<code>F12</code> 看图片地址，p 站号码在文件名上，乱码文件请自行使用图像识别寻找源。</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
     <url>/2021/10/02/optimize-windows-menu/</url>
     <content><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p>
@@ -1736,6 +1628,108 @@ cd mx-space&#x2F;server</code></pre>
       </categories>
       <tags>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软路由？值得买吗</title>
+    <url>/2021/11/05/softrouter-de/</url>
+    <content><![CDATA[<p>随着上网需求逐步提高，普通的无线路由器的性能不能仅满足于当今互联网健康的上网方式。</p>
+<p>为了满足对应的需求诞生了本章要讲的主角 “软路由” ，我将深度分享我如何使用软路由和值不值得买。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-11-06/J4015softrouter.webp" loading="lazy"></p>
+<h1 id="软路由"><a href="#软路由" class="headerlink" title="软路由"></a>软路由</h1><p>软路由是一种工控设备俗称工控机，你可能没听说过但是生活各处可能都在使用，常见于各领域的工业控制用途。说白了就是一种mini电脑，提供了低功耗且性能不俗的服务场景。</p>
+<p>硬路由和软路由最大的不同就是硬和软，软路由靠软件来完成路由功能；硬路由则有专用硬件完成路由功能，我们玩软路由就是为了完成各类服务如: (内网穿透，DDNS，DNS解析，Docker，NAS，VPN）等… ；因为软路由本质上是一台电脑在有VT-D虚拟化的情况下可以实现 “多软路由” 的玩法，听起来是不是碉堡了有木有。</p>
+<span id="more"></span>
+
+<p>但如果我告诉你在非专业下，想玩转软路由榨干机器的的性能，这些场景具体 “定制化” 比如<a href="https://www.miaoer.xyz/network/compile-openwrt">编译自己的软路由固件</a>时，是无论怎么样你都要学习Linux的基本操作；如果刚刚入门可以去网上下载别人制作好的固件，也可以按照YOUTUBE或者B站 视频教程安装 <code>爱快</code> + <code>OpenWrt</code> 系统的入门软路由。</p>
+<p>折腾软路由时会比较费时费力，没时间的可能就转手卖了或者放家里吃灰这种则不推荐购买软路由，倒是可以试试刷硬路由来完成基本的服务。</p>
+<h1 id="我如何使用软路由"><a href="#我如何使用软路由" class="headerlink" title="我如何使用软路由"></a>我如何使用软路由</h1><p>我的软路由与光猫放在了客厅，我购买的 “J4105成品软路由” 是螃蟹双千兆网口准系统去年入手时卖699，还得配笔记本的DDR4内存和硬盘，要正常使用还得配备交换机，刚好有一台玩下来的硬路由 “小米AC2100” ，让硬路由修改AP模式(有线中继)就变成一台无线交换机可以和软路由并存组成简单的家庭网络结构。</p>
+<p>在我家庭网络中他是直通光猫的插在了ETH0上，另外一个是虚拟网卡从ETH1出来到无线交换机上。</p>
+<p>软路由我选择使用VMware EXSI，安装了几个虚拟机: <code>爱快</code> , <code>ROS</code> , <code>OpenWrt</code> , <code>CentOS</code> 。</p>
+<p>其中爱快是用于ROS出问题了或者OpenWrt出问题了就手动切换爱快进行临时使用，日常使用还是使用ROS+OpenWrt这种双软路由的组合。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-11-06/myesxi.webp" loading="lazy"></p>
+<h2 id="OpenWrt"><a href="#OpenWrt" class="headerlink" title="OpenWrt"></a>OpenWrt</h2><p>OpenWrt我以前是使用Esir制作的高大全固件，因为插件太多不是太稳定我则使用了 <a href="https://www.miaoer.xyz/posts/network/openwrtv2021.10.10">自己编译的固件</a>，我使用了自己需要的几个插件完成 内网穿透，<del>上网</del>，Docker，京东签到… 配置好基本不用调，平时也就换个节点~</p>
+<h2 id="RouterOS"><a href="#RouterOS" class="headerlink" title="RouterOS"></a>RouterOS</h2><p>ROS我使用了<del>绿色版</del>的，在我的家庭网络中他是直通光猫的，主要完成 PPPOE拨号 ，DHCP服务端 ，DNS缓存 ，IPV6 ，UPNP… 日常使用十分稳定没有崩过！</p>
+<h2 id="爱快"><a href="#爱快" class="headerlink" title="爱快"></a>爱快</h2><p>爱快一般使用是家庭网络瘫痪了，就会开启他进行临时上网等我调试好其他虚拟机就关闭的，使用一年我才开过两遍都是因为OpenWrt的错误，缺点就是安装需要4G内存以上，实际使用2G+其他挑不出毛病，有中文操作界面属于比较省心的系统。</p>
+<h2 id="CentOS"><a href="#CentOS" class="headerlink" title="CentOS"></a>CentOS</h2><p>CentOS是我用来放下载好的电影和Minecraft服务器，通过OpenWrt中的Frpc进行内网穿透进行服务，如果多几个人就手动开启风扇进行散热。还开启了SMB共享，手机里下载FolderSync对相册进行增量备份。然而我并不会在虚拟机中放重要的资料万一那一台all in boom了。（如果你乐意</p>
+<h1 id="所以他推荐购买吗？"><a href="#所以他推荐购买吗？" class="headerlink" title="所以他推荐购买吗？"></a>所以他推荐购买吗？</h1><p>如果是愿意折腾可以选择他玩转各种花样，前提是有强大的搜索能力和<del>科学上网</del>的环境，我大概为大致人群提出推荐指南如下。</p>
+<h2 id="推荐购买人群"><a href="#推荐购买人群" class="headerlink" title="推荐购买人群"></a>推荐购买人群</h2><ul>
+<li>非常适合不差钱</li>
+<li>爱折腾网络设备</li>
+<li>不满足家里的网络需求</li>
+<li>需要跑各种服务&amp;应用</li>
+<li>大学生<del>调教</del>校园网</li>
+<li>你有大house，家里比较多人或多设备多智能家居上网，可灵活进行选择</li>
+<li>出租屋共享宽带</li>
+</ul>
+<h2 id="不推荐购买人群"><a href="#不推荐购买人群" class="headerlink" title="不推荐购买人群"></a>不推荐购买人群</h2><ul>
+<li>非大学生使用校园网</li>
+<li>无折腾时间</li>
+<li>仅进行<del>科学上网</del>的</li>
+<li>不想对家庭网络进行优化投入的</li>
+<li>价格敏感人群</li>
+<li>不会使用Linux或软路由系统</li>
+</ul>
+<h2 id="硬件建议"><a href="#硬件建议" class="headerlink" title="硬件建议"></a>硬件建议</h2><blockquote>
+<p>当你入手前可以参考一下推荐数据，内存硬盘可以选择成品的带有的，准系统需要自己配备，可进行灵活选择。</p>
+</blockquote>
+<p>推荐: 配置实测可以参考Youtube 老白 <a href="https://www.youtube.com/c/jackstone">Jackstone</a></p>
+<h3 id="CPU"><a href="#CPU" class="headerlink" title="CPU"></a>CPU</h3><p>  CPU决定了你的<del>上网</del>速度，刚入门可以选择英特尔J系列处理器如:(J4015,J4125,J205)，因为再低的低预算又想简单玩玩可以选择更老型号的英特尔N系列处理器不过不久就要换的就算了吧一步到位最舒服。</p>
+<h3 id="网口"><a href="#网口" class="headerlink" title="网口"></a>网口</h3><p>  不玩 “多线多播” 双网口足以日常使用了，要是家里有多条线路可以考虑4网口以及更多的，取决于你的多播线路多少，各设备主要靠交换机与软路由进行连接；网卡英特尔驱动和虚拟化要比螃蟹要好，其他基本一致。</p>
+<h3 id="内存"><a href="#内存" class="headerlink" title="内存"></a>内存</h3><p>  购买或者有闲置笔记本内存，不玩虚拟机4G足以，如果要玩虚拟机可以考虑8~16G，频率无差；不推荐更低内存的，除非你不玩虚拟机还一直放着不管。</p>
+<h3 id="硬盘"><a href="#硬盘" class="headerlink" title="硬盘"></a>硬盘</h3><p>  购买或者有闲置笔记本2.5寸固态硬盘或者机械硬盘，固态硬盘用于储存虚拟机，机械用于NAS用，如果不玩虚拟机按照软路由上的接口一般购买msata的二手固态硬盘即可。 [Tip: 机械硬盘不要购买二手，非玩家不要当亡命之徒；msata固态大多数为工控机拆机来的。]</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>主要是你怎么利用软路由，像我刚刚看到YOUTUBER都分别介绍这小玩意时。我承认我上头了，买回来做了双软路由后时间慢慢冲淡了他在家里的存在感就开始感觉到不值，直到我开始接触类Linux时开始榨干机器的每一分性能，甚至还能开两个Windows虚拟机挂校园网…这就是折腾的乐趣。</p>
+<p>文章简单描述本人非专业出身，如果大佬有更好的使用方法轻喷，本文可能会因时间进行修改。</p>
+<p>至于你觉得软路由是不是智商税，可以在下面评论与我交流。</p>
+<p>如果你问我值不值得买反正在写这个文章时我感到不后悔，接下来我还会继续使用的。o(*≧▽≦)ツ┏━┓</p>
+<div class="warning">
+
+<blockquote>
+<p>本文仅做体验分享并不会出现不符合规定服务，也不能提供违规服务。</p>
+</blockquote>
+</div>]]></content>
+      <categories>
+        <category>软路由</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小米10换电池再再钉子户</title>
+    <url>/2022/05/22/xiaomi10-battey/</url>
+    <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
+<h2 id="更换"><a href="#更换" class="headerlink" title="更换"></a>更换</h2><p>包裹里除了电池有B7000胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。<del>因为这样流下来的？</del></p>
+<p>关机后取出卡托（</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>电池本体也和拆下的原装电池也无明显差别，比如字体不同，字号不致</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey.jpg" loading="lazy"></p>
+<p>对后盖进行加热后轻轻撬起后盖缝隙大的地方，我这里是摄像头和红外的位置，沿缝隙慢慢划开内侧密封胶，然后用一个翘片顶着缝隙再去另外旁边翘起缝隙，我看到翘片撬出的白色胶水我挺慌的，因为我买的二手机，我以前拆小米手机的时候没有见过白色的密封胶。</p>
+<p>这里我翻车了，太着急插入翘片受力点在摄像头那边爆了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/dismantling.jpg" loading="lazy"></p>
+<p>拆开可以看到NFC和无线充电线圈的散热？？，将左右扬声器的？？沿主板撕开即可见到螺丝，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/point.jpg" loading="lazy"></p>
+<p>一手拿起屏蔽罩，用撬棒翘起电池排线断电；这里我把扬声器的 btb 不小心拔了出来。</p>
+<p>按照电池的说明卸下电池；先撕开 A 和 B 然后拉起 A，电池很轻松拿出来，取出后把电池上的易拉胶？电池中框上的电池贴纸撕下</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/yilajiao.jpg" loading="lazy"></p>
+<p>将新的电池对好位置贴上，扣上电池排线的btb 简单的扣好主板屏蔽罩和NFC无线充电线圈开机测试。 (此处没贴送的电池背胶)</p>
+<p>开机点亮显示 50% 电量，测试扬声器，无线充电NFC，振动，和有线27w快充；用创建快捷方式找到电池续航，剩余电池实际容量正常了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/Screenshot.png" loading="lazy"></p>
+<p>电池续航为 MIUI13 内置有点像 AccuBattery)))</p>
+<blockquote>
+<p>这是用了半个月的，感觉不是太准确……<br>实际上从以前的一天三充到一天两充，而且用起来会比较安心，仅供参考。</p>
+</blockquote>
+<p>随后关机检查还有什么没扣上便安装上屏蔽罩，不要大力出奇迹~不要问我是怎么知道的</p>
+<p>稍微摆平NFC线圈安装上后盖，因为后盖爆了我就没打胶了后面方便更换，即便是没打胶缝隙也不是太大和拆机前无差。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/lie.jpg" loading="lazy"></p>
+<p>可惜这次爆了盖，哭唧唧。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>搞机</tag>
       </tags>
   </entry>
   <entry>
@@ -1861,44 +1855,6 @@ cd mx-space&#x2F;server</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>小米10换电池再再钉子户</title>
-    <url>/2022/05/22/xiaomi10-battey/</url>
-    <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
-<h2 id="更换"><a href="#更换" class="headerlink" title="更换"></a>更换</h2><p>包裹里除了电池有B7000胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。<del>因为这样流下来的？</del></p>
-<p>关机后取出卡托（</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>电池本体也和拆下的原装电池也无明显差别，比如字体不同，字号不致</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey.jpg" loading="lazy"></p>
-<p>对后盖进行加热后轻轻撬起后盖缝隙大的地方，我这里是摄像头和红外的位置，沿缝隙慢慢划开内侧密封胶，然后用一个翘片顶着缝隙再去另外旁边翘起缝隙，我看到翘片撬出的白色胶水我挺慌的，因为我买的二手机，我以前拆小米手机的时候没有见过白色的密封胶。</p>
-<p>这里我翻车了，太着急插入翘片受力点在摄像头那边爆了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/dismantling.jpg" loading="lazy"></p>
-<p>拆开可以看到NFC和无线充电线圈的散热？？，将左右扬声器的？？沿主板撕开即可见到螺丝，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/point.jpg" loading="lazy"></p>
-<p>一手拿起屏蔽罩，用撬棒翘起电池排线断电；这里我把扬声器的 btb 不小心拔了出来。</p>
-<p>按照电池的说明卸下电池；先撕开 A 和 B 然后拉起 A，电池很轻松拿出来，取出后把电池上的易拉胶？电池中框上的电池贴纸撕下</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/yilajiao.jpg" loading="lazy"></p>
-<p>将新的电池对好位置贴上，扣上电池排线的btb 简单的扣好主板屏蔽罩和NFC无线充电线圈开机测试。 (此处没贴送的电池背胶)</p>
-<p>开机点亮显示 50% 电量，测试扬声器，无线充电NFC，振动，和有线27w快充；用创建快捷方式找到电池续航，剩余电池实际容量正常了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/Screenshot.png" loading="lazy"></p>
-<p>电池续航为 MIUI13 内置有点像 AccuBattery)))</p>
-<blockquote>
-<p>这是用了半个月的，感觉不是太准确……<br>实际上从以前的一天三充到一天两充，而且用起来会比较安心，仅供参考。</p>
-</blockquote>
-<p>随后关机检查还有什么没扣上便安装上屏蔽罩，不要大力出奇迹~不要问我是怎么知道的</p>
-<p>稍微摆平NFC线圈安装上后盖，因为后盖爆了我就没打胶了后面方便更换，即便是没打胶缝隙也不是太大和拆机前无差。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/lie.jpg" loading="lazy"></p>
-<p>可惜这次爆了盖，哭唧唧。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>搞机</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>检查Windows为什么不能更新11</title>
     <url>/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/</url>
     <content><![CDATA[<h1 id="做好准备o-▽-o"><a href="#做好准备o-▽-o" class="headerlink" title="做好准备o(^▽^)o"></a>做好准备o(^▽^)o</h1><p>前几天Windows11放出预览版的时候，我下载了<a href="https://www.microsoft.com/windows/windows-11#pchealthcheck">电脑健康状况检查</a>官方链接挂了放一下副本<br><a href="https://github.com/miaoermua/miaoer-gitdown/raw/main/download/WindowsPCHealthCheckSetup.msi">电脑健康状况检查-blog副本下载</a><br>发现我根本不过，但是又不知道检查了什么不过…<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/notwin11-old.png" alt="notdate" loading="lazy"></p>
@@ -1950,70 +1906,6 @@ cd mx-space&#x2F;server</code></pre>
       </categories>
       <tags>
         <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>软路由？值得买吗</title>
-    <url>/2021/11/05/softrouter-de/</url>
-    <content><![CDATA[<p>随着上网需求逐步提高，普通的无线路由器的性能不能仅满足于当今互联网健康的上网方式。</p>
-<p>为了满足对应的需求诞生了本章要讲的主角 “软路由” ，我将深度分享我如何使用软路由和值不值得买。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-11-06/J4015softrouter.webp" loading="lazy"></p>
-<h1 id="软路由"><a href="#软路由" class="headerlink" title="软路由"></a>软路由</h1><p>软路由是一种工控设备俗称工控机，你可能没听说过但是生活各处可能都在使用，常见于各领域的工业控制用途。说白了就是一种mini电脑，提供了低功耗且性能不俗的服务场景。</p>
-<p>硬路由和软路由最大的不同就是硬和软，软路由靠软件来完成路由功能；硬路由则有专用硬件完成路由功能，我们玩软路由就是为了完成各类服务如: (内网穿透，DDNS，DNS解析，Docker，NAS，VPN）等… ；因为软路由本质上是一台电脑在有VT-D虚拟化的情况下可以实现 “多软路由” 的玩法，听起来是不是碉堡了有木有。</p>
-<span id="more"></span>
-
-<p>但如果我告诉你在非专业下，想玩转软路由榨干机器的的性能，这些场景具体 “定制化” 比如<a href="https://www.miaoer.xyz/network/compile-openwrt">编译自己的软路由固件</a>时，是无论怎么样你都要学习Linux的基本操作；如果刚刚入门可以去网上下载别人制作好的固件，也可以按照YOUTUBE或者B站 视频教程安装 <code>爱快</code> + <code>OpenWrt</code> 系统的入门软路由。</p>
-<p>折腾软路由时会比较费时费力，没时间的可能就转手卖了或者放家里吃灰这种则不推荐购买软路由，倒是可以试试刷硬路由来完成基本的服务。</p>
-<h1 id="我如何使用软路由"><a href="#我如何使用软路由" class="headerlink" title="我如何使用软路由"></a>我如何使用软路由</h1><p>我的软路由与光猫放在了客厅，我购买的 “J4105成品软路由” 是螃蟹双千兆网口准系统去年入手时卖699，还得配笔记本的DDR4内存和硬盘，要正常使用还得配备交换机，刚好有一台玩下来的硬路由 “小米AC2100” ，让硬路由修改AP模式(有线中继)就变成一台无线交换机可以和软路由并存组成简单的家庭网络结构。</p>
-<p>在我家庭网络中他是直通光猫的插在了ETH0上，另外一个是虚拟网卡从ETH1出来到无线交换机上。</p>
-<p>软路由我选择使用VMware EXSI，安装了几个虚拟机: <code>爱快</code> , <code>ROS</code> , <code>OpenWrt</code> , <code>CentOS</code> 。</p>
-<p>其中爱快是用于ROS出问题了或者OpenWrt出问题了就手动切换爱快进行临时使用，日常使用还是使用ROS+OpenWrt这种双软路由的组合。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-11-06/myesxi.webp" loading="lazy"></p>
-<h2 id="OpenWrt"><a href="#OpenWrt" class="headerlink" title="OpenWrt"></a>OpenWrt</h2><p>OpenWrt我以前是使用Esir制作的高大全固件，因为插件太多不是太稳定我则使用了 <a href="https://www.miaoer.xyz/posts/network/openwrtv2021.10.10">自己编译的固件</a>，我使用了自己需要的几个插件完成 内网穿透，<del>上网</del>，Docker，京东签到… 配置好基本不用调，平时也就换个节点~</p>
-<h2 id="RouterOS"><a href="#RouterOS" class="headerlink" title="RouterOS"></a>RouterOS</h2><p>ROS我使用了<del>绿色版</del>的，在我的家庭网络中他是直通光猫的，主要完成 PPPOE拨号 ，DHCP服务端 ，DNS缓存 ，IPV6 ，UPNP… 日常使用十分稳定没有崩过！</p>
-<h2 id="爱快"><a href="#爱快" class="headerlink" title="爱快"></a>爱快</h2><p>爱快一般使用是家庭网络瘫痪了，就会开启他进行临时上网等我调试好其他虚拟机就关闭的，使用一年我才开过两遍都是因为OpenWrt的错误，缺点就是安装需要4G内存以上，实际使用2G+其他挑不出毛病，有中文操作界面属于比较省心的系统。</p>
-<h2 id="CentOS"><a href="#CentOS" class="headerlink" title="CentOS"></a>CentOS</h2><p>CentOS是我用来放下载好的电影和Minecraft服务器，通过OpenWrt中的Frpc进行内网穿透进行服务，如果多几个人就手动开启风扇进行散热。还开启了SMB共享，手机里下载FolderSync对相册进行增量备份。然而我并不会在虚拟机中放重要的资料万一那一台all in boom了。（如果你乐意</p>
-<h1 id="所以他推荐购买吗？"><a href="#所以他推荐购买吗？" class="headerlink" title="所以他推荐购买吗？"></a>所以他推荐购买吗？</h1><p>如果是愿意折腾可以选择他玩转各种花样，前提是有强大的搜索能力和<del>科学上网</del>的环境，我大概为大致人群提出推荐指南如下。</p>
-<h2 id="推荐购买人群"><a href="#推荐购买人群" class="headerlink" title="推荐购买人群"></a>推荐购买人群</h2><ul>
-<li>非常适合不差钱</li>
-<li>爱折腾网络设备</li>
-<li>不满足家里的网络需求</li>
-<li>需要跑各种服务&amp;应用</li>
-<li>大学生<del>调教</del>校园网</li>
-<li>你有大house，家里比较多人或多设备多智能家居上网，可灵活进行选择</li>
-<li>出租屋共享宽带</li>
-</ul>
-<h2 id="不推荐购买人群"><a href="#不推荐购买人群" class="headerlink" title="不推荐购买人群"></a>不推荐购买人群</h2><ul>
-<li>非大学生使用校园网</li>
-<li>无折腾时间</li>
-<li>仅进行<del>科学上网</del>的</li>
-<li>不想对家庭网络进行优化投入的</li>
-<li>价格敏感人群</li>
-<li>不会使用Linux或软路由系统</li>
-</ul>
-<h2 id="硬件建议"><a href="#硬件建议" class="headerlink" title="硬件建议"></a>硬件建议</h2><blockquote>
-<p>当你入手前可以参考一下推荐数据，内存硬盘可以选择成品的带有的，准系统需要自己配备，可进行灵活选择。</p>
-</blockquote>
-<p>推荐: 配置实测可以参考Youtube 老白 <a href="https://www.youtube.com/c/jackstone">Jackstone</a></p>
-<h3 id="CPU"><a href="#CPU" class="headerlink" title="CPU"></a>CPU</h3><p>  CPU决定了你的<del>上网</del>速度，刚入门可以选择英特尔J系列处理器如:(J4015,J4125,J205)，因为再低的低预算又想简单玩玩可以选择更老型号的英特尔N系列处理器不过不久就要换的就算了吧一步到位最舒服。</p>
-<h3 id="网口"><a href="#网口" class="headerlink" title="网口"></a>网口</h3><p>  不玩 “多线多播” 双网口足以日常使用了，要是家里有多条线路可以考虑4网口以及更多的，取决于你的多播线路多少，各设备主要靠交换机与软路由进行连接；网卡英特尔驱动和虚拟化要比螃蟹要好，其他基本一致。</p>
-<h3 id="内存"><a href="#内存" class="headerlink" title="内存"></a>内存</h3><p>  购买或者有闲置笔记本内存，不玩虚拟机4G足以，如果要玩虚拟机可以考虑8~16G，频率无差；不推荐更低内存的，除非你不玩虚拟机还一直放着不管。</p>
-<h3 id="硬盘"><a href="#硬盘" class="headerlink" title="硬盘"></a>硬盘</h3><p>  购买或者有闲置笔记本2.5寸固态硬盘或者机械硬盘，固态硬盘用于储存虚拟机，机械用于NAS用，如果不玩虚拟机按照软路由上的接口一般购买msata的二手固态硬盘即可。 [Tip: 机械硬盘不要购买二手，非玩家不要当亡命之徒；msata固态大多数为工控机拆机来的。]</p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>主要是你怎么利用软路由，像我刚刚看到YOUTUBER都分别介绍这小玩意时。我承认我上头了，买回来做了双软路由后时间慢慢冲淡了他在家里的存在感就开始感觉到不值，直到我开始接触类Linux时开始榨干机器的每一分性能，甚至还能开两个Windows虚拟机挂校园网…这就是折腾的乐趣。</p>
-<p>文章简单描述本人非专业出身，如果大佬有更好的使用方法轻喷，本文可能会因时间进行修改。</p>
-<p>至于你觉得软路由是不是智商税，可以在下面评论与我交流。</p>
-<p>如果你问我值不值得买反正在写这个文章时我感到不后悔，接下来我还会继续使用的。o(*≧▽≦)ツ┏━┓</p>
-<div class="warning">
-
-<blockquote>
-<p>本文仅做体验分享并不会出现不符合规定服务，也不能提供违规服务。</p>
-</blockquote>
-</div>]]></content>
-      <categories>
-        <category>软路由</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
       </tags>
   </entry>
   <entry>
@@ -2098,17 +1990,17 @@ cd mx-space&#x2F;server</code></pre>
 <ul>
 <li>✅ 当第一次编译过了，如果显示</li>
 </ul>
-<pre class="language-shell" data-language="shell"><code class="language-shell">signing package index...
-make[2]:Leaving directory &#96;&#x2F;home&#x2F;user&#x2F;lede&#96;
-make[2]:Entering directory &#96;&#x2F;home&#x2F;user&#x2F;lede&#96;
-make[2]:Nothing directory &#96;&#x2F;home&#x2F;user&#x2F;lede&#96;
-......</code></pre>
+<pre class="language-shell" data-language="shell"><code class="language-shell">signing package index<span class="token punctuation">..</span>.
+make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>:Leaving directory <span class="token variable"><span class="token variable">`</span>/home/user/lede<span class="token variable">`</span></span>
+make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>:Entering directory <span class="token variable"><span class="token variable">`</span>/home/user/lede<span class="token variable">`</span></span>
+make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>:Nothing directory <span class="token variable"><span class="token variable">`</span>/home/user/lede<span class="token variable">`</span></span>
+<span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span></code></pre>
 
 <ul>
 <li>❎ 即代表编译成功了，如果显示</li>
 </ul>
-<pre class="language-shell" data-language="shell"><code class="language-shell">make[2]: *** [package&#x2F;feeds&#x2F;packages&#x2F;forked-daapd&#x2F;compile] Error 2
-make[1]: *** [&#x2F;home&#x2F;vk-op&#x2F;lede&#x2F;staging_dir&#x2F;target-x86_64_musl&#x2F;stamp&#x2F;.package_compile] Error 2</code></pre>
+<pre class="language-shell" data-language="shell"><code class="language-shell">make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>: *** <span class="token punctuation">[</span>package/feeds/packages/forked-daapd/compile<span class="token punctuation">]</span> Error <span class="token number">2</span>
+make<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>: *** <span class="token punctuation">[</span>/home/vk-op/lede/staging_dir/target-x86_64_musl/stamp/.package_compile<span class="token punctuation">]</span> Error <span class="token number">2</span></code></pre>
 
 <p>类似的带有Error字样的就是编译出错。</p>
 <h1 id="第二次编译"><a href="#第二次编译" class="headerlink" title="第二次编译"></a>第二次编译</h1><p><img src="https://cdn.miaoer.xyz/blog/21-08-23/openwrtbianyi.jpg" loading="lazy"></p>
@@ -2147,6 +2039,50 @@ make[1]: *** [&#x2F;home&#x2F;vk-op&#x2F;lede&#x2F;staging_dir&#x2F;target-x86_6
       </categories>
       <tags>
         <tag>软路由</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2020/08/12/test/</url>
+    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
+<ul>
+<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>海外转移国内服务器的坑</title>
+    <url>/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/lp-meme.jpg" loading="lazy"></p>
+<p>前几天在阿里云上买了一台轻量应用的云服务器，准备要搭建我的博客的，结果…</p>
+<p>拿到机器先Ping了一下延迟，还行深圳到广州也就12ms左右，日本亚马逊的80ms左右</p>
+<p>就兴冲冲的去安装稍微有点熟悉的宝塔面板，那时候日本的服务器检查抽风挂逼没来得及对着抄配置，就搭好了，结果电脑上的chrome显示404进不去？折腾半天还是上日本的服务器看看结果又能进去了…一通操作猛如虎，还是404纳闷了，检查了宝塔和cloudflare正确啊，然后用手机输上域名好家伙直接显示我没有备案…然而大意了，傻乎乎的就买入了国内的服务器，没办法那就实名呗，大不了删一点内容</p>
+<span id="more"></span>
+
+<h1 id="大意"><a href="#大意" class="headerlink" title="大意"></a>大意</h1><p>只能认命了，之前也没弄过备案的服务器，一步步来结果服务器备案需要域名备案，域名备案还需要阿里云万网下，其他要在域名商那弄，但是我的域名商是<a href="https://www.namesilo.com/">namesilo</a>哪有什么备案相关的玩意啊，只能花36转移到阿里万网下了，按着别人博客写的内容一步步把namesilo转移，结果需要60天才能转移，那天才刚好30天，也只能等了</p>
+<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/kengdie-meme.jpg" loading="lazy"></p>
+<h1 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h1><p>接着去弄Frp内网穿透，在阿里上使用脚本搭建的Frp，绑定端口、Http和Https…</p>
+<p>然后去Openwrt设置Frp内网穿透服务</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/openwrtfrp.jpg" loading="lazy"></p>
+<p>然后就可以在我的世界服务器里输入ip:端口了，就找到我穿透出来的内网服务器</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/mcserverdaoshi.jpg" loading="lazy"></p>
+<p>因为是电脑本机做的服务器，难免会因为别人跑图使用红石破坏了我的游戏体验啊，我毕竟都上了<a href="https://irisshaders.net/">iris</a>不跑满高帧光影真说不过去</p>
+<p>于是我吧我家的软路由<del>利用</del>出来当我的世界服务器，只要不是故意跑图炸服也不会有啥问题了（<del>服务端开机慢</del></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/exsi-mccentos.jpg" loading="lazy"></p>
+<p>使用的是一个J4105的低功耗CPU做的成品软路由，TDP功耗10w，待机功耗只有6.6w！满载功耗只有13w！起码不用怎么担心耗电了，性能吧还行纯生存是够了</p>
+<p><img src="/.xyz//blog/21-08-16/jackstone-j4105.jpg" alt="老白" loading="lazy"></p>
+<p>大概前前后后用了大概4天左右没有啥问题，最高6个人同时在线建筑也不过20-30%的CPU占用</p>
+<p>最重要是延迟真的很低了多人联机广东地区才20-40ms，四川地区50-60ms！</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/2021-08-03_18.39.57.png" alt="daoshi" loading="lazy"></p>
+<p>等8月过了就换到阿里云了，域名和服务器应该会用个俩三年</p>
+<p>有兴趣Frp和我的世界可以联系我目前是白名单模式</p>
+<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>博客已经转移成功，备案也好了 <a href="https://www.miaoer.xyz/about">详情</a></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -2365,41 +2301,6 @@ make[1]: *** [&#x2F;home&#x2F;vk-op&#x2F;lede&#x2F;staging_dir&#x2F;target-x86_6
       <tags>
         <tag>小米</tag>
         <tag>技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>海外转移国内服务器的坑</title>
-    <url>/2021/08/20/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/lp-meme.jpg" loading="lazy"></p>
-<p>前几天在阿里云上买了一台轻量应用的云服务器，准备要搭建我的博客的，结果…</p>
-<p>拿到机器先Ping了一下延迟，还行深圳到广州也就12ms左右，日本亚马逊的80ms左右</p>
-<p>就兴冲冲的去安装稍微有点熟悉的宝塔面板，那时候日本的服务器检查抽风挂逼没来得及对着抄配置，就搭好了，结果电脑上的chrome显示404进不去？折腾半天还是上日本的服务器看看结果又能进去了…一通操作猛如虎，还是404纳闷了，检查了宝塔和cloudflare正确啊，然后用手机输上域名好家伙直接显示我没有备案…然而大意了，傻乎乎的就买入了国内的服务器，没办法那就实名呗，大不了删一点内容</p>
-<span id="more"></span>
-
-<h1 id="大意"><a href="#大意" class="headerlink" title="大意"></a>大意</h1><p>只能认命了，之前也没弄过备案的服务器，一步步来结果服务器备案需要域名备案，域名备案还需要阿里云万网下，其他要在域名商那弄，但是我的域名商是<a href="https://www.namesilo.com/">namesilo</a>哪有什么备案相关的玩意啊，只能花36转移到阿里万网下了，按着别人博客写的内容一步步把namesilo转移，结果需要60天才能转移，那天才刚好30天，也只能等了</p>
-<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/kengdie-meme.jpg" loading="lazy"></p>
-<h1 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h1><p>接着去弄Frp内网穿透，在阿里上使用脚本搭建的Frp，绑定端口、Http和Https…</p>
-<p>然后去Openwrt设置Frp内网穿透服务</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/openwrtfrp.jpg" loading="lazy"></p>
-<p>然后就可以在我的世界服务器里输入ip:端口了，就找到我穿透出来的内网服务器</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/mcserverdaoshi.jpg" loading="lazy"></p>
-<p>因为是电脑本机做的服务器，难免会因为别人跑图使用红石破坏了我的游戏体验啊，我毕竟都上了<a href="https://irisshaders.net/">iris</a>不跑满高帧光影真说不过去</p>
-<p>于是我吧我家的软路由<del>利用</del>出来当我的世界服务器，只要不是故意跑图炸服也不会有啥问题了（<del>服务端开机慢</del></p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/exsi-mccentos.jpg" loading="lazy"></p>
-<p>使用的是一个J4105的低功耗CPU做的成品软路由，TDP功耗10w，待机功耗只有6.6w！满载功耗只有13w！起码不用怎么担心耗电了，性能吧还行纯生存是够了</p>
-<p><img src="/.xyz//blog/21-08-16/jackstone-j4105.jpg" alt="老白" loading="lazy"></p>
-<p>大概前前后后用了大概4天左右没有啥问题，最高6个人同时在线建筑也不过20-30%的CPU占用</p>
-<p>最重要是延迟真的很低了多人联机广东地区才20-40ms，四川地区50-60ms！</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/2021-08-03_18.39.57.png" alt="daoshi" loading="lazy"></p>
-<p>等8月过了就换到阿里云了，域名和服务器应该会用个俩三年</p>
-<p>有兴趣Frp和我的世界可以联系我目前是白名单模式</p>
-<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>博客已经转移成功，备案也好了 <a href="https://www.miaoer.xyz/about">详情</a></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
       </tags>
   </entry>
 </search>
