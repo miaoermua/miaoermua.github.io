@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-08-11T14:13:16.819Z</updated>
+  <updated>2022-08-17T09:29:30.968Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -17,21 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>StarWind V2V Converter 写盘教程</title>
+    <link href="https://blog.miaoer.xyz/2022/08/17/starwind-converter/"/>
+    <id>https://blog.miaoer.xyz/2022/08/17/starwind-converter/</id>
+    <published>2022-08-17T09:29:24.000Z</published>
+    <updated>2022-08-17T09:29:30.968Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启；&lt;/p&gt;
+&lt;p&gt;但使用 StarWind V2V Converter 虚拟机写盘软件则不会有这个问题，所以我写了这篇博文。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</title>
     <link href="https://blog.miaoer.xyz/2022/08/10/catwrt-v22.7-newifid2/"/>
     <id>https://blog.miaoer.xyz/2022/08/10/catwrt-v22.7-newifid2/</id>
     <published>2022-08-10T14:11:54.000Z</published>
-    <updated>2022-08-11T14:13:16.819Z</updated>
+    <updated>2022-08-17T10:01:19.140Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;p&gt;CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。&lt;/p&gt;
-&lt;h2 id=&quot;特色功能&quot;&gt;&lt;a href=&quot;#特色功能&quot;</summary>
-        
-      
+&lt;h2 id=&quot;特色功能&quot;&gt;&lt;a href=&quot;#特色功能&quot; class=&quot;headerlink&quot; title=&quot;特色功能&quot;&gt;&lt;/a&gt;特色功能&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;大雕源码最小化&lt;/li&gt;
+&lt;li&gt;MTK 鸡血 wifi 无线驱动&lt;/li&gt;
+&lt;li&gt;完全支持 IPv6&lt;/li&gt;
+&lt;li&gt;基础网络加速&lt;/li&gt;
+&lt;li&gt;普通远程管理&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
@@ -79,11 +101,11 @@
     <link href="https://blog.miaoer.xyz/2022/06/30/catwrt-v22.7/"/>
     <id>https://blog.miaoer.xyz/2022/06/30/catwrt-v22.7/</id>
     <published>2022-06-29T16:05:28.326Z</published>
-    <updated>2022-07-03T12:32:22.953Z</updated>
+    <updated>2022-08-17T10:00:16.206Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;目前几天正在磨炼固件排查有没有其他可能出现的问题，如果有请在本评论下留言&lt;/p&gt;
+&lt;p&gt;📣 最新版 v22.8 解决了英特尔 i225 2.5G 网卡表现不佳的问题，强烈建议使用 &lt;a href=&quot;https://www.miaoer.xyz/posts/network/catwrt-v22.8&quot;&gt;CatWrt v22.8&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;在去年的10月10日，我公开发布了我编译的 OpenWrt 软路由固件，这次更新了带来了新特性和特色功能，经久耐用的固件主旁单臂都很稳定高效。&lt;/p&gt;
 &lt;p&gt;基于 &lt;a href=&quot;https://github.com/coolsnowwolf/lede&quot;&gt;Lean 源码&lt;/a&gt; 拉取 2022-6-28 的仓库，精心打造！&lt;/p&gt;
@@ -246,11 +268,11 @@
   </entry>
   
   <entry>
-    <title>给Openwrt套SSL证书</title>
+    <title>给 Openwrt 套 SSL 证书</title>
     <link href="https://blog.miaoer.xyz/2022/05/10/openwrt-ssl/"/>
     <id>https://blog.miaoer.xyz/2022/05/10/openwrt-ssl/</id>
     <published>2022-05-10T15:47:01.252Z</published>
-    <updated>2022-06-22T14:16:27.203Z</updated>
+    <updated>2022-08-17T09:59:12.972Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -513,25 +535,6 @@
     
     
     <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>分享自己编译的OpenWrt软路由固件！</title>
-    <link href="https://blog.miaoer.xyz/2021/10/10/openwrtv2021.10.10/"/>
-    <id>https://blog.miaoer.xyz/2021/10/10/openwrtv2021.10.10/</id>
-    <published>2021-10-10T11:14:10.962Z</published>
-    <updated>2022-05-01T14:17:38.009Z</updated>
-    
-    
-    <summary type="html">Ver:v21.10.10</summary>
-    
-    
-    
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/categories/OpenWrt/"/>
-    
-    
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
     
   </entry>
   

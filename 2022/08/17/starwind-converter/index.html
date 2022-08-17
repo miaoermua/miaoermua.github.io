@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="喵二"><meta name="copyright" content="喵二"><meta name="generator" content="Hexo 5.4.0"><meta name="theme" content="hexo-theme-yun"><title>StarWind V2V Converter 写盘教程 | 喵二の小博客</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/star-markdown-css@0.3.3/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://npm.elemecdn.com/prism-theme-vars/base.css"><script src="https://npm.elemecdn.com/@unocss/runtime/mini.global.js"></script><script src="https://npm.elemecdn.com/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/png" href="https://www.miaoer.xyz/favicon.ico"><link rel="mask-icon" href="https://www.miaoer.xyz/favicon.ico" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://npm.elemecdn.com/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"blog.miaoer.xyz","root":"/","title":"喵二の小博客","version":"1.10.2","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"algolia":{"appID":"0AINASPUZM","apiKey":"9a66975f2c16d3ff466d103039186c5d","indexName":"blog","hits":{"per_page":10}},"fireworks":{"colors":["255, 20, 97","24, 255, 146","90, 135, 255","251, 243, 140"]},"waline":{"config":{"enable":true,"serverURL":"https://waline-miaoermua.vercel.app","comment":"ture","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili","https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba"],"el":"#waline","lang":"zh-CN"},"cdn":"https://npm.elemecdn.com/@waline/client@v2/dist/waline.js","dark":"html.dark"},"vendors":{"darken":"https://npm.elemecdn.com/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="喵二の小博客" type="application/atom+xml"><link rel="stylesheet" href="https://cdn.miaoer.xyz/static/remixicon/fonts/remixicon.css"><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=G-V578886BTQ"></script><script>if (CONFIG.hostname === location.hostname) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-V578886BTQ');
+}</script><script>(function(){
+  var bp = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})();</script><script>CONFIG.leancloudVisitors = {"enable":true,"app_id":"bVTtiIgFCabQGeYEYDYdPDDG-MdYXbMMI","app_key":"6nCqiSsKK1p6xEp4XeN3mPfv","server_url":"https://lc-db.miaoer.xyz"}</script><script defer src="/js/analytics/leancloud-visitors.js" type="module"></script><meta name="description" content="在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启； 但使用 StarWind V2V Converter 虚拟机写盘软件则不会有这个问题，所以我写了这篇博文。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="StarWind V2V Converter 写盘教程">
+<meta property="og:url" content="https://blog.miaoer.xyz/2022/08/17/starwind-converter/index.html">
+<meta property="og:site_name" content="喵二の小博客">
+<meta property="og:description" content="在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启； 但使用 StarWind V2V Converter 虚拟机写盘软件则不会有这个问题，所以我写了这篇博文。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/22-08-17/starwind-converter.png">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/22-08-17/vmdk-vmware.png">
+<meta property="article:published_time" content="2022-08-17T09:29:24.000Z">
+<meta property="article:modified_time" content="2022-08-17T09:29:30.968Z">
+<meta property="article:author" content="喵二">
+<meta property="article:tag" content="软路由">
+<meta property="article:tag" content="OpenWrt">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.miaoer.xyz/blog/22-08-17/starwind-converter.png"><script>(function() {
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://npm.elemecdn.com/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="喵二"><img width="96" loading="lazy" src="https://www.miaoer.xyz/weblogo.png" alt="喵二"><span class="site-author-status" title="❤️">❤️</span></a><div class="site-author-name"><a href="/about/">喵二</a></div><span class="site-name">喵二の小博客</span><sub class="site-subtitle">缘，妙不可言</sub><div class="site-description">喜欢分享一些东西 ୧(﹒ ᴗ﹒ )୨</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">32</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">12</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">22</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://www.miaoer.xyz" title="个人网站"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:dashboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://wpa.qq.com/msgrd?v=3&amp;uin=2860950766&amp;site=qq&amp;menu=yes" title="QQ" target="_blank" style="color:#12B7F5"><span class="icon iconify" data-icon="ri:qq-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:i@miaoer.xyz" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/miaoer" title="Telegram" target="_blank" style="color:#0088CC"><span class="icon iconify" data-icon="ri:telegram-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/miaoer_subscribe" title="Telegram Channel" target="_blank" style="color:#FFA500"><span class="icon iconify" data-icon="ri:telegram-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS订阅本站" target="_blank" style="color:#FFA500"><span class="icon iconify" data-icon="ri:rss-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a><a class="links-item hty-icon-button" target="_blank" rel="noopener" href="https://www.miaoer.xyz/notes" title="日记" style="color:#f5d28c"><span class="icon iconify" data-icon="ri:booklet-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85"><span class="toc-number">1.</span> <span class="toc-text">下载并安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%99%E7%9B%98"><span class="toc-number">2.</span> <span class="toc-text">写盘</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-number">3.</span> <span class="toc-text">安装</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://blog.miaoer.xyz/2022/08/17/starwind-converter/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="喵二"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="喵二の小博客"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">StarWind V2V Converter 写盘教程</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2022-08-17 17:29:24" itemprop="dateCreated datePublished" datetime="2022-08-17T17:29:24+08:00">2022-08-17</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">711</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">2m</span></span></span><span class="leancloud_visitors" id="/2022/08/17/starwind-converter/" data-flag-title="StarWind V2V Converter 写盘教程"><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读次数"><span class="icon iconify" data-icon="ri:eye-line"></span> <span class="leancloud-visitors-count"></span></span></span><span class="post-meta-divider">-</span><a href="#comment"><span class="post-meta-item-icon" title="评论数"><span class="icon iconify" data-icon="ri:chat-3-line"></span> <span class="waline-comment-count" id="/2022/08/17/starwind-converter/"></span></span></a><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E7%BD%91%E7%BB%9C/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">网络</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">软路由</span></a><a class="tag-item" href="/tags/OpenWrt/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">OpenWrt</span></a></span></div><div class="post-author"><span class="author-name">喵二</span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><p>在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启；</p>
+<p>但使用 StarWind V2V Converter 虚拟机写盘软件则不会有这个问题，所以我写了这篇博文。</p>
+<span id="more"></span>
+
+<h2 id="下载并安装"><a href="#下载并安装" class="headerlink" title="下载并安装"></a>下载并安装</h2><p>StarWind V2V Converter 下载可以去他的官网下载，</p>
+<p>这里也提供蓝奏云下载链接。</p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://wwd.lanzouy.com/b02dkbk7e">https://wwd.lanzouy.com/b02dkbk7e</a><br>密码: 4e2a</p>
+</blockquote>
+<p>下载后会申请一次 UAC 管理员权限，点 <code>是</code> 同意授权；</p>
+<p>接下来是说明条款，点 <code>I accept the agreement</code> 同意，并且 <code>Next</code> 下一步；</p>
+<p>这页是问要不要生成桌面快捷方式，默认下一步；</p>
+<p>点击 <code>Install</code>，安装完成后点 <code>Finish</code>，在桌面打开 StarWind V2V Converter 并同意 UAC 权限。</p>
+<h2 id="写盘"><a href="#写盘" class="headerlink" title="写盘"></a>写盘</h2><p>在软件的第一页 Select the location of the image to convert</p>
+<p>选择本地文件 <code>Local file</code> 按 <code>Next</code> 下一步；</p>
+<p>到选择要写盘的镜像 Source image 选择 File name 右边的 <code>……</code> 选择镜像并下一步；</p>
+<p>到 Select the location of the destination image 这页时选择导出的镜像到本地也就是默认的 <code>Local file</code> 下一步；</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-17/starwind-converter.png" loading="lazy"></p>
+<p>Select destination image format 这里就可以选你要导出的虚拟硬盘了</p>
+<ul>
+<li><code>vmdk </code> 是 vmware 虚拟机的虚拟硬盘文件</li>
+<li><code>vhdx</code> 是 hype-v 虚拟机的虚拟硬盘文件</li>
+<li><code>qcow2</code> 是 pve 或 kvm 虚拟机的虚拟硬盘文件</li>
+</ul>
+<br>
+
+<p>这里重点讲下 VMDK 和 VHD/VHDX；</p>
+<ul>
+<li>VMDK 的 Select option for VMDK image format 选默认的可增长硬盘空间即可或者选择第二个预分配硬盘空间这里测试使用 <code>VMware Workstation growable image</code> 是没有问题</li>
+<li>VHDX 的 Select option for VHD/VHDX image format 选第三个 <code>VHDX growable image</code> 生成 VHDX 或者默认的 VHD 也可以，没玩过 hype-v</li>
+</ul>
+<br>
+
+<p>其他的格式可以具体看 <a target="_blank" rel="noopener" href="https://www.starwindsoftware.com/v2v-help/ConvertingtheLocalFile.html">官方文档</a> 不过是英文的，</p>
+<p>下一步则是 Set destination file name 在 File name 的 <code>……</code> 里可以将生成的文件放置在指定的目录，点击 Convert 开始等 Converting 跑完镜像就生成完了 点击 <code>Finish</code> 退出即可。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>登录 VMware EXSI 后台将文件上传，在侧栏点击 存储-数据存储浏览器 建议新建一个目录存放 vmdk 点击上方创建目录；</p>
+<p>目录名称随便你只要找得到就好，创建好后点击文件夹选择上载，选择好刚刚做好的虚拟硬盘 vmdk 文件上传；</p>
+<p>上传完毕关闭，新建或编辑已有虚拟机在完成其他配置后将原来的硬盘删掉，选择 <code>从数据存储删除文件</code> 然后确认返回设置；</p>
+<p>选择 添加硬盘-现有硬盘 找到刚刚创建的文件夹中的 vmdk 文件确定，确定好将控制器位置设为 <code>IDE 控制器 0</code> 即可启动 OpenWrt。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-17/vmdk-vmware.png" loading="lazy"></p>
+</div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="打赏" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><span class="icon iconify" data-icon="ri:hand-coin-line"></span></span><div id="reward-comment">投喂我！</div><div id="qr" style="display:none;"><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/vx.png"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/vx.png" alt="微信支付" title="微信支付"></a><div><span style="color:#2DC100"><span class="icon iconify" data-icon="ri:wechat-pay-line"></span></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/zfb.png"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/zfb.png" alt="支付宝" title="支付宝"></a><div><span style="color:#00A3EE"><span class="icon iconify" data-icon="ri:alipay-line"></span></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/zfbhb.png"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/zfbhb.png" alt="支付宝红包" title="支付宝红包"></a><div><span style="color:#DF667F"><span class="icon iconify" data-icon="ri:alipay-line"></span></span></div></div></div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>喵二</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://blog.miaoer.xyz/2022/08/17/starwind-converter/" title="StarWind V2V Converter 写盘教程">https://blog.miaoer.xyz/2022/08/17/starwind-converter/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"></div><div class="post-nav-item"><a class="post-nav-next" href="/2022/08/10/catwrt-v22.7-newifid2/" rel="next" title="CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件"><span class="post-nav-text">CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div id="waline"></div><link rel="stylesheet" href="https://npm.elemecdn.com/@waline/client@v2/dist/waline.css"><script>window.CONFIG.waline.config.path = "/2022/08/17/starwind-converter/"</script><div class="js-Pjax"><script src="/js/comments/waline.js" type="module" defer></script></div></div></main><footer class="sidebar-translate" id="footer"><div class="beian"><a rel="noopener" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021127881号</a></div><div class="copyright"><span>&copy; 2021年5月14日 – 2022 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 喵二</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v5.4.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.2</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" href="javascript:;" title="搜索"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:search-line"></span></span></a><script>window.addEventListener("DOMContentLoaded", () => {
+  // Handle and trigger popup window
+  document.querySelector(".popup-trigger").addEventListener("click", () => {
+    document.querySelector(".popup").classList.add("show");
+    setTimeout(() => {
+      document.querySelector(".search-input").focus();
+    }, 100);
+  });
+
+  // Monitor main search box
+  const onPopupClose = () => {
+    document.querySelector(".popup").classList.remove("show");
+  };
+
+  document.querySelector(".popup-btn-close").addEventListener("click", () => {
+    onPopupClose();
+  });
+
+  window.addEventListener("keyup", event => {
+    if (event.key === "Escape") {
+      onPopupClose();
+    }
+  });
+});
+</script><script defer src="https://npm.elemecdn.com/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script><script defer src="https://npm.elemecdn.com/instantsearch.js@4/dist/instantsearch.production.min.js"></script><script defer src="/js/search/algolia-search.js" type="module"></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><span class="icon iconify" data-icon="ri:close-line"></span></span></div><div class="search-input-container"></div><div class="algolia-results"><div id="algolia-stats"></div><div id="algolia-hits"></div><div class="algolia-pagination" id="algolia-pagination"></div></div></div></body></html>
