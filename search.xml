@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>网页走丢了？</title>
+    <url>//404.html</url>
+    <content><![CDATA[<p>页面404了,网页走丢了？</p>
+<p>嗨，有兴趣访问我的个人主页吗？ <a href="https://www.miaoer.xyz/">好啊 ヾ(≧▽≦*)o</a></p>
+<p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>今年618我都买了些啥</title>
     <url>/2022/07/02/22-618/</url>
     <content><![CDATA[<blockquote>
@@ -46,15 +54,15 @@
       </tags>
   </entry>
   <entry>
-    <title>视频-【120帧】小米Mix2s宣传片</title>
-    <url>/2022/03/21/BV1Jq4y1v7H7/</url>
-    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=594951604&bvid=BV1Jq4y1v7H7&cid=554204088&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
+    <title>视频-【120帧】小米Mix Alpha宣传片</title>
+    <url>/2022/03/21/BV1QU4y1R75s/</url>
+    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
 
 <hr>
-<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1Jq4y1v7H7">https://www.bilibili.com/video/BV1Jq4y1v7H7</a></p>
+<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1QU4y1R75s">https://www.bilibili.com/video/BV1QU4y1R75s</a></p>
 <p>试试湿滑的补帧</p>
 <h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
-<p>文件名: xiaomimix2s.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
+<p>文件名: xiaomimixalpha.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
 <p>原分辨率: 1920*1080</p>
 <p>补帧分辨率: 1920*1080</p>
 <p>上传分辨率: 1920*1080 > 3840*2160</p>
@@ -64,177 +72,13 @@
 <p>码率: 15 < 20Mbps</p>
 <p>编码: x265</p>
 
-<p>*视频来源B站收集小米宣传片 小米mix2s 因素材过多无来源链接，如侵犯版权请联系我</p>
+<p>*视频来源小米商城收集小米宣传片 <a href="https://www.mi.com/mixalpha">小米MixAlpha</a></p>
 ]]></content>
       <categories>
         <category>Blog</category>
       </categories>
       <tags>
         <tag>视频博文</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网页走丢了？</title>
-    <url>//404.html</url>
-    <content><![CDATA[<p>页面404了,网页走丢了？</p>
-<p>嗨，有兴趣访问我的个人主页吗？ <a href="https://www.miaoer.xyz/">好啊 ヾ(≧▽≦*)o</a></p>
-<p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>一款好用的SMB备份软件FolderSync</title>
-    <url>/2022/06/04/app-foldersync/</url>
-    <content><![CDATA[<p><i class="ri-bilibili-line"></i> <a href="https://www.bilibili.com/video/BV1Tv4y137oD">哔哩哔哩</a></p>
-<p><i class="ri-youtube-line"></i> <a href="https://www.youtube.com/watch?v=xfjNE3QsarM&t">YouTube</a></p>
-<hr>
-<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>最近我发现一款非常好的 SMB 备份软件叫做 FolderSync，在早一些时候我也是通过数据线一头连电脑进行备份相册目录的，</p>
-<p>因为家境贫寒家里没有品牌 NAS 所以自己在软路由上搭建了 SAMBA 服务，用来储存一些电影和共享资源等……</p>
-<p>今天我们来捣鼓一下。</p>
-<span id="more"></span>
-
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/app-web.png" loading="lazy"></p>
-<p>我们可以在谷歌 Play 商店下载到这款软件，我也准备了 APK 包方便大家的下载</p>
-<p><i class="ri-file-download-line"></i> <a href="https://wwd.lanzouy.com/b02dbo1kh">蓝奏云</a> 密码:5cgt</p>
-<blockquote>
-<p>因为软件需要付费，有能力可以用 Play 商店里下免费的，蓝奏云上为绿色版不知道存不存在安全风险。</p>
-</blockquote>
-<hr>
-<p>下载完成以后打开这款软件，可以看到需要我们给予权限，才能正常工作这里推荐打开所有的建议项，</p>
-<p>因系统UI部分设置项可能不同，按照软件里的一个一个同意。</p>
-<p>进入软件在底栏找到账户，点击 <code>添加账户</code> ，可以看到有很多的账户类型，这都不是的重点，</p>
-<p>滑到最底下可以看到 SMB2，为什么不选 SMB1 呢，距我实测 SMB1 怎么设置都是用不了的，如果你 SMB2 也不能用，</p>
-<p>可以将防火墙放行 <code>445</code> 和 <code>139</code> 端口，</p>
-<p>我这里使用宝塔 Linux 面板进行放行端口。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/bt-firewall.png" loading="lazy"></p>
-<h3 id="放行防火墙"><a href="#放行防火墙" class="headerlink" title="放行防火墙"></a>放行防火墙</h3><p>在终端输入 <code>sudo apt-get install iptables-persistent</code>，</p>
-<p>安装页中应该是是否添加 IPv4 和 IPv6 规则，这里都 <code>Yes</code>，</p>
-<p>安装完成后返回再输入；</p>
-<p><code>iptables -I INPUT -p tcp --dport 445 -j ACCEPT &amp;&amp; iptables -I INPUT -p tcp --dport 139 -j ACCEPT</code></p>
-<p>输入 <code>sudo netfilter-persistent save</code> 保存，</p>
-<p>这样端口就放行成功了。</p>
-<blockquote>
-<p>安全问题: 如果你是在外网的话需要进行端口转发到公网，没有接触到外网服务的可以直接把防火墙关了，这里不推荐公开 SMB 端口容易被攻击可以用 Openwrt 中的插件做反向代理，这点后面可能会单独出一期讲解，确实非常简单这里就不买关子了；<br>无非就是找一个域名做 DDNS 然后将端口开放和转发并开启反向代理，记得要开启 <code>接受局域网访问</code> 之后在 手机 APP 里面挂全局代理，就可以在外网访问内网服务了，只要你的代理密码和端口没开放太多这都是安全的。</p>
-</blockquote>
-<h3 id="SAMBA-服务搭建"><a href="#SAMBA-服务搭建" class="headerlink" title="SAMBA 服务搭建"></a>SAMBA 服务搭建</h3><p>如果你没搭建 SAMBA 服务，这里简单说一下，</p>
-<p>这里用户用喵二 <code>miaoer</code> 和共享 <code>nas</code> 进行设置用户名和服务名、位置；请自己替换自己喜欢的格式勿乱、举一反三。</p>
-<pre class="language-none"><code class="language-none">useradd miaoer     &#x2F;&#x2F;新建用户名 miaoer
-
-sudo apt-get install samba     &#x2F;&#x2F;管理员权限安装 samba
-
-sudo smbpasswd -a miaoer     &#x2F;&#x2F;设置 miaoer 的 samba 用户名密码
-
-cd &#x2F; &amp;&amp; mkdir nas     &#x2F;&#x2F;返回根目录创建 nas 共享文件夹
-
-chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
-
-<p>配置文件可以找办法编辑好再上传或者使用 vim 命令，按 <code>i</code> 编辑，按 <code>Esc</code> 后 <code>Shift + :</code> 直到输入 <code>:wq</code> 退出。</p>
-<pre class="language-none"><code class="language-none">[nas]
-        comment &#x3D; nas
-        path &#x3D; &#x2F;nas
-        browseable &#x3D; yes
-        writable &#x3D; yes
-        file mode &#x3D; 660     
-        force file mode &#x3D; 660
-        directory mode &#x3D; 770
-        force directory mode &#x3D; 770</code></pre>
-
-
-<h2 id="软件设置"><a href="#软件设置" class="headerlink" title="软件设置"></a>软件设置</h2><p>好的回到正题，在 SMB2 中设置，在登录这里输入刚刚设置好的用户名和密码，</p>
-<p>连接这里输入内网部署了 SAMBA 的主机地址，和端口号这里默认就好，共享名字输入刚刚设置好的名字文件夹名字。</p>
-<p>然后点保存。</p>
-<p>然后进入左边的 <code>文件夹对</code>，创建文件夹对选择 SMB2，</p>
-<p>进到这里可以看到很多的选项，</p>
-<p>同步类型我这里只需要选择，到远程文件夹。</p>
-<p>点击远程文件夹，因为这里没有用于专门备份的文件夹，新建一个我这里设置的 Mi10 文件夹这里随便你</p>
-<p>新建完成点击进去，点下右下角的勾</p>
-<p>本地文件夹这里相册在 <code>DCIM</code> 里，点击进去然后将勾上，可以先进行测试。</p>
-<h2 id="原图"><a href="#原图" class="headerlink" title="原图"></a>原图</h2><p>好的我们现在没有任何问题了，回到首页现在我们还不能点同步的按钮，我们还需要简单的做几步，首先打开设置，在云服务这里找到相册，相册中选择自动 <code>下载原图</code>，</p>
-<p>点击立即同步，将相册立即同步，我们返回开启 <code>快速同步</code> 这样我们下载原图会更快一些。</p>
-<p>好的，我这里跑了一会总算是把云服务的相册拉了回来，我们继续，</p>
-<p>点击一下 <code>同步</code>，返回到 APP 的首页查看同步状态，如果在跑了就代表正常了，接下来我们再设置计划任务这里按照你个人习惯进行计划任务，我这里就设置自定义的时间也就是睡觉时间备份，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/uploading.png" loading="lazy"></p>
-<p>不过要确定 FolderSync 是否有自启动权限和关闭省电策略，不然前面设置的都是徒劳。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>视频博文</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客更新啦</title>
-    <url>/2021/12/06/blog-update/</url>
-    <content><![CDATA[<h1 id="博客の变化"><a href="#博客の变化" class="headerlink" title="博客の变化"></a>博客の变化</h1><p>在今天(2021-12-6 21:09:43)，我更换了由前后端分离部署的 <a href="https://github.com/mx-space">Mix-space</a> ，可能熟悉我们原本Hexo博客的小伙伴会比较陌生，但是为了变化内容我还是写一点小白须知。</p>
-<p>这次主要更换了之间的二级域名，和内容上的变化;</p>
-<ul>
-<li><p>个人网站 (Hexo Yun 主题) 部署的域名从 <code>https://www.miaoer.xyz </code> &gt;&gt;&gt;  <code>https://blog.miaoer.xyz</code></p>
-</li>
-<li><p>个人博客 (Mix-space) 部署的域名从 <code>https://blog.miaoer.xyz</code>  &gt;&gt;&gt;  <code>https://www.miaoer.xyz </code> </p>
-</li>
-<li><p>短域名 miaoer.xyz 自动跳转到 Mix-space 上</p>
-</li>
-</ul>
-<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
-<span id="more"></span>
-<p><em>更新后，<u>图片可点击放大查看详情</u></em></p>
-<p><strong>Banner</strong></p>
-<ul>
-<li>名字，签名，社交链接，一言</li>
-</ul>
-<p><strong>菜单栏</strong></p>
-<ul>
-<li>页面   博文   预览   友链   日记   动态   其余   开往</li>
-</ul>
-<p><strong>边栏</strong></p>
-<ul>
-<li>页面模式(夜间)，音乐，广播</li>
-</ul>
-<p><strong>页面</strong></p>
-<ul>
-<li>最新博文，日记，友链，了解更多</li>
-</ul>
-<p><strong>底栏</strong></p>
-<ul>
-<li><p>主页，Mix-space社区，ICP备案号</p>
-</li>
-<li><p>关于，留言，友链，RSS 订阅，站点地图，开往、同时在线小伙伴预览</p>
-</li>
-</ul>
-<h2 id="兼容"><a href="#兼容" class="headerlink" title="兼容"></a>兼容</h2><p>为 Hexo时代永久链接做出兼容动作 (可能按照文章内容跳转)。</p>
-<ul>
-<li>相对技术类的和主要对Hexo兼容的博客则跳转至Hexo博客中</li>
-<li>非技术类则不进行域名跳转</li>
-</ul>
-<p>为 Mix-space做最新的文章适配。</p>
-<ul>
-<li>将调整文章左右长度至Mix-space最舒服的大小</li>
-</ul>
-<p>为 Hexo继续同步最新的文章。</p>
-<ul>
-<li>将Mix-space中的文章再进行Hexo博客的分发至国内外</li>
-</ul>
-<h2 id="Thank"><a href="#Thank" class="headerlink" title="Thank"></a>Thank</h2><p>非常感谢他们，也感谢一直阅读我博客的小伙伴！【排列不分顺序】</p>
-<ul>
-<li><p>帮助解决主页的疑难杂症 <a href="https://innei.ren/">Innei</a></p>
-</li>
-<li><p>帮助解决问题 <a href="https://www.timochan.cn/">提莫酱</a></p>
-</li>
-<li><p>帮助使用主题等 <a href="https://www.yunyoujun.cn/">YunYouJun</a></p>
-</li>
-</ul>
-<h2 id="目前正在优化"><a href="#目前正在优化" class="headerlink" title="目前正在优化"></a>目前正在优化</h2><ul>
-<li><input checked disabled type="checkbox"> 重新优化查看搜索引擎的结果</li>
-<li><input checked disabled type="checkbox"> 通知友链更新</li>
-<li><input checked disabled type="checkbox"> 提供Hexo永久链接支持</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
@@ -500,15 +344,15 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>视频-【120帧】小米Mix Alpha宣传片</title>
-    <url>/2022/03/21/BV1QU4y1R75s/</url>
-    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
+    <title>视频-【120帧】小米Mix2s宣传片</title>
+    <url>/2022/03/21/BV1Jq4y1v7H7/</url>
+    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=594951604&bvid=BV1Jq4y1v7H7&cid=554204088&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
 
 <hr>
-<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1QU4y1R75s">https://www.bilibili.com/video/BV1QU4y1R75s</a></p>
+<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1Jq4y1v7H7">https://www.bilibili.com/video/BV1Jq4y1v7H7</a></p>
 <p>试试湿滑的补帧</p>
 <h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
-<p>文件名: xiaomimixalpha.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
+<p>文件名: xiaomimix2s.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
 <p>原分辨率: 1920*1080</p>
 <p>补帧分辨率: 1920*1080</p>
 <p>上传分辨率: 1920*1080 > 3840*2160</p>
@@ -518,7 +362,7 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
 <p>码率: 15 < 20Mbps</p>
 <p>编码: x265</p>
 
-<p>*视频来源小米商城收集小米宣传片 <a href="https://www.mi.com/mixalpha">小米MixAlpha</a></p>
+<p>*视频来源B站收集小米宣传片 小米mix2s 因素材过多无来源链接，如侵犯版权请联系我</p>
 ]]></content>
       <categories>
         <category>Blog</category>
@@ -528,161 +372,77 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>CatWrt-OpenWrt x86 软路由稳定固件的再一次升级</title>
-    <url>/2022/06/30/catwrt-v22.7/</url>
-    <content><![CDATA[<blockquote>
-<p>📣 最新版 v22.8 解决了英特尔 i225 2.5G 网卡表现不佳的问题，强烈建议使用 <a href="https://www.miaoer.xyz/posts/network/catwrt-v22.8">CatWrt v22.8</a></p>
-</blockquote>
-<p>在去年的10月10日，我公开发布了我编译的 OpenWrt 软路由固件，这次更新了带来了新特性和特色功能，经久耐用的固件主旁单臂都很稳定高效。</p>
-<p>基于 <a href="https://github.com/coolsnowwolf/lede">Lean 源码</a> 拉取 2022-6-28 的仓库，精心打造！</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/hello.png" loading="lazy"></p>
-<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
-<li><input checked disabled type="checkbox"> 令人惊叹的远程管理</li>
-<li><input checked disabled type="checkbox"> 完全支持 IPv6</li>
-<li><input checked disabled type="checkbox"> 智能网络加速</li>
-<li><input checked disabled type="checkbox"> 负载均衡</li>
-<li><input checked disabled type="checkbox"> Docker</li>
-</ul>
-<span id="more"></span>
-
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
-<p>用户 <code>root</code></p>
-<p>密码 <code>password</code></p>
-<blockquote>
-<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
-</blockquote>
-<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
-<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
-<p>返回后输入 <code>reboot</code> 重启。</p>
-<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/network-hide.png" loading="lazy"></p>
-<h2 id="更新预览"><a href="#更新预览" class="headerlink" title="更新预览"></a>更新预览</h2><blockquote>
-<p>查看编译时选择的插件预览 <a href="https://api.miaoer.xyz/api/v2/snippets/catwrt/package"><i class="ri-terminal-window-fill"></i> 获取</a> （不包含插件依赖）</p>
-</blockquote>
+    <title>博客更新啦</title>
+    <url>/2021/12/06/blog-update/</url>
+    <content><![CDATA[<h1 id="博客の变化"><a href="#博客の变化" class="headerlink" title="博客の变化"></a>博客の变化</h1><p>在今天(2021-12-6 21:09:43)，我更换了由前后端分离部署的 <a href="https://github.com/mx-space">Mix-space</a> ，可能熟悉我们原本Hexo博客的小伙伴会比较陌生，但是为了变化内容我还是写一点小白须知。</p>
+<p>这次主要更换了之间的二级域名，和内容上的变化;</p>
 <ul>
-<li>新增 frps，nezha-agent，argon-config，poweroff，neobird</li>
-<li>移除 过时少用定位冲突插件</li>
-<li>修复 argon，防火墙</li>
-<li>魔改主题 argon， neobird</li>
-<li>修改主机名为 <code>CatWrt</code></li>
-<li>修改默认 IP <code>192.168.1.4</code></li>
-<li>修改 banner 个性易辨别</li>
-<li>更改 linux 内核占用 25M</li>
-<li>更改 ovenlay 分区占用 300M</li>
+<li><p>个人网站 (Hexo Yun 主题) 部署的域名从 <code>https://www.miaoer.xyz </code> &gt;&gt;&gt;  <code>https://blog.miaoer.xyz</code></p>
+</li>
+<li><p>个人博客 (Mix-space) 部署的域名从 <code>https://blog.miaoer.xyz</code>  &gt;&gt;&gt;  <code>https://www.miaoer.xyz </code> </p>
+</li>
+<li><p>短域名 miaoer.xyz 自动跳转到 Mix-space 上</p>
+</li>
 </ul>
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
-<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
-</blockquote>
-<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.7/targets/x86/64</code><br><br></p>
-<p><code>squashfs-combined</code> 为传统 BIOS 启动</p>
-<p><code>squashfs-combined-efi</code> 为 UEFI 启动</p>
-<p><code>img</code> 文件建议使用 <a href="https://cdn.miaoer.xyz/download/22-06-29/IMG%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7.exe"><i class="ri-file-download-fill"></i> IMG写盘工具</a> 或者其他写盘工具进行安装</p>
-<p><code>qcow2</code> 文件是 pve 或 kvm 虚拟机的虚拟硬盘文件</p>
-<p><code>vhdx</code> 文件是 hype-v 虚拟机的虚拟硬盘文件</p>
-<p><code>vmdk </code>文件是 vmware 虚拟机的虚拟硬盘文件</p>
-<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
-<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
-</blockquote>
-<p>链接: <a href="https://www.aliyundrive.com/s/a3uvrWWV4xa">https://www.aliyundrive.com/s/a3uvrWWV4xa</a><br>提取码: 91tt</p>
-<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p>链接: <a href="https://cloud.189.cn/web/share?code=VzAZFjVZFBry">https://cloud.189.cn/web/share?code=VzAZFjVZFBry</a><br>访问码：ojg7</p>
-<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CKCXZggb0Y">https://caiyun.139.com/m/i?0H5CKCXZggb0Y</a><br>提取码:JHgq</p>
-<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>Tip: 固件使用 IMG 写盘工具写盘时出现多少扇区错误的，直接重启进 OpenWrt 就好。</p>
-<p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
-<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
-]]></content>
-      <categories>
-        <category>网络</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
-        <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</title>
-    <url>/2022/08/10/catwrt-v22.7-newifid2/</url>
-    <content><![CDATA[<p>CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。</p>
-<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
-<li>大雕源码最小化</li>
-<li>MTK 鸡血 wifi 无线驱动</li>
-<li>完全支持 IPv6</li>
-<li>基础网络加速</li>
-<li>普通远程管理</li>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
+<span id="more"></span>
+<p><em>更新后，<u>图片可点击放大查看详情</u></em></p>
+<p><strong>Banner</strong></p>
+<ul>
+<li>名字，签名，社交链接，一言</li>
 </ul>
-<span id="more"></span>
-
-<p>因为 Newifi D2 的存储空间过小只有可怜的 32m 所以专门做了个 CatWrt 最小化固件，和 x86 版 v22.7 基本上是一个源码，所以插件除了原版+内网穿透其他全部为打包好的插件有需要可以手动安装</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-09/newifid2-catwrt.png" loading="lazy"></p>
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
-<p>用户 <code>root</code></p>
-<p>密码 <code>password</code></p>
-<blockquote>
-<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
-</blockquote>
-<h3 id="自动开启wifi"><a href="#自动开启wifi" class="headerlink" title="自动开启wifi"></a>自动开启wifi</h3><p>因为鸡血固件特性，只能通过这样的方式打开无线，以下方法都建议使用。</p>
-<p>电脑有线设置静态地址为 <code>192.168.1.x</code> 子网掩码 <code>255.255.255.0</code>,主要的网关/路由器地址填 <code>192.168.1.4</code>，DNS留空或者和网关一样</p>
-<h4 id="脚本"><a href="#脚本" class="headerlink" title="脚本"></a>脚本</h4><p>登录 OpenWrt 后台，在系统-启动项-本地启动脚本 插入 <code>/sbin/mtkwifi up</code> 在 <code>exit 0</code> 前面。</p>
-<p>完整脚本</p>
-<pre class="language-bash" data-language="bash"><code class="language-bash">/sbin/mtkwifi up
-
-<span class="token builtin class-name">exit</span> <span class="token number">0</span></code></pre>
-<h4 id="计划任务"><a href="#计划任务" class="headerlink" title="计划任务"></a>计划任务</h4><p>在系统-计划任务中填入 <code>0 * * * * /sbin/mtkwifi up</code> 计划任务。</p>
-<p>完整计划任务</p>
-<pre class="language-none"><code class="language-none">0 * * * * &#x2F;sbin&#x2F;mtkwifi up</code></pre>
-
-<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
-<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
-<p>返回后输入 <code>reboot</code> 重启。</p>
-<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
-<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
-</blockquote>
-<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.7/targets/ramips/mt7621</code><br><br></p>
-<p>一般的只需要下载 <code>squashfs-sysupgrade.bin</code> 后缀，即 <code>openwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin</code>。</p>
-<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
-<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
-</blockquote>
-<p>链接: <a href="https://www.aliyundrive.com/s/a3uvrWWV4xa">https://www.aliyundrive.com/s/a3uvrWWV4xa</a><br>提取码: 91tt</p>
-<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p>链接: <a href="https://cloud.189.cn/web/share?code=VzAZFjVZFBry">https://cloud.189.cn/web/share?code=VzAZFjVZFBry</a><br>访问码: ojg7</p>
-<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CKCXZggb0Y">https://caiyun.139.com/m/i?0H5CKCXZggb0Y</a><br>提取码: JHgq</p>
-<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
-<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
+<p><strong>菜单栏</strong></p>
+<ul>
+<li>页面   博文   预览   友链   日记   动态   其余   开往</li>
+</ul>
+<p><strong>边栏</strong></p>
+<ul>
+<li>页面模式(夜间)，音乐，广播</li>
+</ul>
+<p><strong>页面</strong></p>
+<ul>
+<li>最新博文，日记，友链，了解更多</li>
+</ul>
+<p><strong>底栏</strong></p>
+<ul>
+<li><p>主页，Mix-space社区，ICP备案号</p>
+</li>
+<li><p>关于，留言，友链，RSS 订阅，站点地图，开往、同时在线小伙伴预览</p>
+</li>
+</ul>
+<h2 id="兼容"><a href="#兼容" class="headerlink" title="兼容"></a>兼容</h2><p>为 Hexo时代永久链接做出兼容动作 (可能按照文章内容跳转)。</p>
+<ul>
+<li>相对技术类的和主要对Hexo兼容的博客则跳转至Hexo博客中</li>
+<li>非技术类则不进行域名跳转</li>
+</ul>
+<p>为 Mix-space做最新的文章适配。</p>
+<ul>
+<li>将调整文章左右长度至Mix-space最舒服的大小</li>
+</ul>
+<p>为 Hexo继续同步最新的文章。</p>
+<ul>
+<li>将Mix-space中的文章再进行Hexo博客的分发至国内外</li>
+</ul>
+<h2 id="Thank"><a href="#Thank" class="headerlink" title="Thank"></a>Thank</h2><p>非常感谢他们，也感谢一直阅读我博客的小伙伴！【排列不分顺序】</p>
+<ul>
+<li><p>帮助解决主页的疑难杂症 <a href="https://innei.ren/">Innei</a></p>
+</li>
+<li><p>帮助解决问题 <a href="https://www.timochan.cn/">提莫酱</a></p>
+</li>
+<li><p>帮助使用主题等 <a href="https://www.yunyoujun.cn/">YunYouJun</a></p>
+</li>
+</ul>
+<h2 id="目前正在优化"><a href="#目前正在优化" class="headerlink" title="目前正在优化"></a>目前正在优化</h2><ul>
+<li><input checked disabled type="checkbox"> 重新优化查看搜索引擎的结果</li>
+<li><input checked disabled type="checkbox"> 通知友链更新</li>
+<li><input checked disabled type="checkbox"> 提供Hexo永久链接支持</li>
+</ul>
 ]]></content>
       <categories>
-        <category>硬路由</category>
+        <category>Blog</category>
       </categories>
       <tags>
-        <tag>OpenWrt</tag>
-        <tag>硬路由</tag>
-        <tag>固件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>拆卸AMD散热器，清灰</title>
-    <url>/2022/01/19/clean-amd-heatsink/</url>
-    <content><![CDATA[<p>今天闲着没事做给<a href="https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600">续集</a>上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。</p>
-<p>本文仅限 <strong>AMD “幽灵 Stealth” 散热器（无 LED 灯）</strong>  和 <strong>AMD“幽灵 Spire” 散热器（无 LED 灯）</strong> 详情预览: <a href="https://www.amd.com/zh-hans/technologies/cpu-cooler-solution">处理器散热解决方案 | “幽灵”散热器 | AMD</a></p>
-<p>需要准备:<br>毛巾，酒精，吹风机，可以高压冲洗的花洒（够强也可以用水龙头），一双勤劳的双手，PH1和PH0螺丝刀（至少需要一个PH1）</p>
-<span id="more"></span>
-
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746752.jpg" loading="lazy"></p>
-<h1 id="拆卸"><a href="#拆卸" class="headerlink" title="拆卸"></a>拆卸</h1><p>主板拆卸我直接引用上期内容了</p>
-<blockquote>
-<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
-</blockquote>
-<p>然后拿下散热将印有 <strong>AMDlogo</strong> 凸起下的两螺丝拧下</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746774.jpg" loading="lazy"></p>
-<p>把印有 <strong>AMDlogo</strong> 的盖子拿开就看到风扇下的 <strong>酷冷</strong> 的标和<strong>四颗螺丝</strong>，拧开即可拿下铝制散热器；拿去找个带冲洗功能的花洒冲干净拿纸巾或者毛巾擦干净表面并清理上面的<strong>硅脂</strong>然后把毛巾垫底用吹风机烤一会，直到无水珠，再晾干。<br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746784.jpg" loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746805.jpg" loading="lazy"></p>
-<p><strong>风扇</strong>和<strong>壳子</strong>我打算用毛巾和纸巾、酒精擦拭，拿手指头卡着扇叶一个一个擦……随后再擦拭风扇外表的灰。<br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746764.jpg" loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746796.jpg" loading="lazy"></p>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642574006422.jpg" loading="lazy"><br>安装同理，<br>将散热鳍片上好四颗螺丝，随后将带有 logo 的壳子放底下用双手压好直到可以（能把螺丝左右的两颗卡扣卡好就行），然后上两小长螺丝，</p>
-<p>上好螺丝到正面将卡扣面向外拉，使卡扣卡好，再按着卡好的卡扣将另外一边也卡进去。</p>
-<p>主板上把背后的扣具找东西压着，或者找个工具人按着；给 CPU 上<strong>硅脂</strong>将四颗弹簧螺丝用力按进扣具并保持另外一边不要翘起太离谱进去转几下就拧对角线压平散热器，再拧紧两螺丝随后把另外两颗也压好，插上 CPU 风扇供电；擦腚楷机。</p>
-]]></content>
-      <categories>
-        <category>电脑</category>
-      </categories>
-      <tags>
-        <tag>电脑</tag>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
@@ -768,6 +528,274 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </categories>
       <tags>
         <tag>csgo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一款好用的SMB备份软件FolderSync</title>
+    <url>/2022/06/04/app-foldersync/</url>
+    <content><![CDATA[<p><i class="ri-bilibili-line"></i> <a href="https://www.bilibili.com/video/BV1Tv4y137oD">哔哩哔哩</a></p>
+<p><i class="ri-youtube-line"></i> <a href="https://www.youtube.com/watch?v=xfjNE3QsarM&t">YouTube</a></p>
+<hr>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>最近我发现一款非常好的 SMB 备份软件叫做 FolderSync，在早一些时候我也是通过数据线一头连电脑进行备份相册目录的，</p>
+<p>因为家境贫寒家里没有品牌 NAS 所以自己在软路由上搭建了 SAMBA 服务，用来储存一些电影和共享资源等……</p>
+<p>今天我们来捣鼓一下。</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/app-web.png" loading="lazy"></p>
+<p>我们可以在谷歌 Play 商店下载到这款软件，我也准备了 APK 包方便大家的下载</p>
+<p><i class="ri-file-download-line"></i> <a href="https://wwd.lanzouy.com/b02dbo1kh">蓝奏云</a> 密码:5cgt</p>
+<blockquote>
+<p>因为软件需要付费，有能力可以用 Play 商店里下免费的，蓝奏云上为绿色版不知道存不存在安全风险。</p>
+</blockquote>
+<hr>
+<p>下载完成以后打开这款软件，可以看到需要我们给予权限，才能正常工作这里推荐打开所有的建议项，</p>
+<p>因系统UI部分设置项可能不同，按照软件里的一个一个同意。</p>
+<p>进入软件在底栏找到账户，点击 <code>添加账户</code> ，可以看到有很多的账户类型，这都不是的重点，</p>
+<p>滑到最底下可以看到 SMB2，为什么不选 SMB1 呢，距我实测 SMB1 怎么设置都是用不了的，如果你 SMB2 也不能用，</p>
+<p>可以将防火墙放行 <code>445</code> 和 <code>139</code> 端口，</p>
+<p>我这里使用宝塔 Linux 面板进行放行端口。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/bt-firewall.png" loading="lazy"></p>
+<h3 id="放行防火墙"><a href="#放行防火墙" class="headerlink" title="放行防火墙"></a>放行防火墙</h3><p>在终端输入 <code>sudo apt-get install iptables-persistent</code>，</p>
+<p>安装页中应该是是否添加 IPv4 和 IPv6 规则，这里都 <code>Yes</code>，</p>
+<p>安装完成后返回再输入；</p>
+<p><code>iptables -I INPUT -p tcp --dport 445 -j ACCEPT &amp;&amp; iptables -I INPUT -p tcp --dport 139 -j ACCEPT</code></p>
+<p>输入 <code>sudo netfilter-persistent save</code> 保存，</p>
+<p>这样端口就放行成功了。</p>
+<blockquote>
+<p>安全问题: 如果你是在外网的话需要进行端口转发到公网，没有接触到外网服务的可以直接把防火墙关了，这里不推荐公开 SMB 端口容易被攻击可以用 Openwrt 中的插件做反向代理，这点后面可能会单独出一期讲解，确实非常简单这里就不买关子了；<br>无非就是找一个域名做 DDNS 然后将端口开放和转发并开启反向代理，记得要开启 <code>接受局域网访问</code> 之后在 手机 APP 里面挂全局代理，就可以在外网访问内网服务了，只要你的代理密码和端口没开放太多这都是安全的。</p>
+</blockquote>
+<h3 id="SAMBA-服务搭建"><a href="#SAMBA-服务搭建" class="headerlink" title="SAMBA 服务搭建"></a>SAMBA 服务搭建</h3><p>如果你没搭建 SAMBA 服务，这里简单说一下，</p>
+<p>这里用户用喵二 <code>miaoer</code> 和共享 <code>nas</code> 进行设置用户名和服务名、位置；请自己替换自己喜欢的格式勿乱、举一反三。</p>
+<pre class="language-none"><code class="language-none">useradd miaoer     &#x2F;&#x2F;新建用户名 miaoer
+
+sudo apt-get install samba     &#x2F;&#x2F;管理员权限安装 samba
+
+sudo smbpasswd -a miaoer     &#x2F;&#x2F;设置 miaoer 的 samba 用户名密码
+
+cd &#x2F; &amp;&amp; mkdir nas     &#x2F;&#x2F;返回根目录创建 nas 共享文件夹
+
+chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
+
+<p>配置文件可以找办法编辑好再上传或者使用 vim 命令，按 <code>i</code> 编辑，按 <code>Esc</code> 后 <code>Shift + :</code> 直到输入 <code>:wq</code> 退出。</p>
+<pre class="language-none"><code class="language-none">[nas]
+        comment &#x3D; nas
+        path &#x3D; &#x2F;nas
+        browseable &#x3D; yes
+        writable &#x3D; yes
+        file mode &#x3D; 660     
+        force file mode &#x3D; 660
+        directory mode &#x3D; 770
+        force directory mode &#x3D; 770</code></pre>
+
+
+<h2 id="软件设置"><a href="#软件设置" class="headerlink" title="软件设置"></a>软件设置</h2><p>好的回到正题，在 SMB2 中设置，在登录这里输入刚刚设置好的用户名和密码，</p>
+<p>连接这里输入内网部署了 SAMBA 的主机地址，和端口号这里默认就好，共享名字输入刚刚设置好的名字文件夹名字。</p>
+<p>然后点保存。</p>
+<p>然后进入左边的 <code>文件夹对</code>，创建文件夹对选择 SMB2，</p>
+<p>进到这里可以看到很多的选项，</p>
+<p>同步类型我这里只需要选择，到远程文件夹。</p>
+<p>点击远程文件夹，因为这里没有用于专门备份的文件夹，新建一个我这里设置的 Mi10 文件夹这里随便你</p>
+<p>新建完成点击进去，点下右下角的勾</p>
+<p>本地文件夹这里相册在 <code>DCIM</code> 里，点击进去然后将勾上，可以先进行测试。</p>
+<h2 id="原图"><a href="#原图" class="headerlink" title="原图"></a>原图</h2><p>好的我们现在没有任何问题了，回到首页现在我们还不能点同步的按钮，我们还需要简单的做几步，首先打开设置，在云服务这里找到相册，相册中选择自动 <code>下载原图</code>，</p>
+<p>点击立即同步，将相册立即同步，我们返回开启 <code>快速同步</code> 这样我们下载原图会更快一些。</p>
+<p>好的，我这里跑了一会总算是把云服务的相册拉了回来，我们继续，</p>
+<p>点击一下 <code>同步</code>，返回到 APP 的首页查看同步状态，如果在跑了就代表正常了，接下来我们再设置计划任务这里按照你个人习惯进行计划任务，我这里就设置自定义的时间也就是睡觉时间备份，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/uploading.png" loading="lazy"></p>
+<p>不过要确定 FolderSync 是否有自启动权限和关闭省电策略，不然前面设置的都是徒劳。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>视频博文</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</title>
+    <url>/2022/08/10/catwrt-v22.7-newifid2/</url>
+    <content><![CDATA[<p>CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。</p>
+<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
+<li>大雕源码最小化</li>
+<li>MTK 鸡血 wifi 无线驱动</li>
+<li>完全支持 IPv6</li>
+<li>基础网络加速</li>
+<li>普通远程管理</li>
+</ul>
+<span id="more"></span>
+
+<p>因为 Newifi D2 的存储空间过小只有可怜的 32m 所以专门做了个 CatWrt 最小化固件，和 x86 版 v22.7 基本上是一个源码，所以插件除了原版+内网穿透其他全部为打包好的插件有需要可以手动安装</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-09/newifid2-catwrt.png" loading="lazy"></p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
+<p>用户 <code>root</code></p>
+<p>密码 <code>password</code></p>
+<blockquote>
+<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
+</blockquote>
+<h3 id="自动开启wifi"><a href="#自动开启wifi" class="headerlink" title="自动开启wifi"></a>自动开启wifi</h3><p>因为鸡血固件特性，只能通过这样的方式打开无线，以下方法都建议使用。</p>
+<p>电脑有线设置静态地址为 <code>192.168.1.x</code> 子网掩码 <code>255.255.255.0</code>,主要的网关/路由器地址填 <code>192.168.1.4</code>，DNS留空或者和网关一样</p>
+<h4 id="脚本"><a href="#脚本" class="headerlink" title="脚本"></a>脚本</h4><p>登录 OpenWrt 后台，在系统-启动项-本地启动脚本 插入 <code>/sbin/mtkwifi up</code> 在 <code>exit 0</code> 前面。</p>
+<p>完整脚本</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">/sbin/mtkwifi up
+
+<span class="token builtin class-name">exit</span> <span class="token number">0</span></code></pre>
+<h4 id="计划任务"><a href="#计划任务" class="headerlink" title="计划任务"></a>计划任务</h4><p>在系统-计划任务中填入 <code>0 * * * * /sbin/mtkwifi up</code> 计划任务。</p>
+<p>完整计划任务</p>
+<pre class="language-none"><code class="language-none">0 * * * * &#x2F;sbin&#x2F;mtkwifi up</code></pre>
+
+<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
+<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
+<p>返回后输入 <code>reboot</code> 重启。</p>
+<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
+<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
+</blockquote>
+<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.7/targets/ramips/mt7621</code><br><br></p>
+<p>一般的只需要下载 <code>squashfs-sysupgrade.bin</code> 后缀，即 <code>openwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin</code>。</p>
+<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
+<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
+</blockquote>
+<p>链接: <a href="https://www.aliyundrive.com/s/a3uvrWWV4xa">https://www.aliyundrive.com/s/a3uvrWWV4xa</a><br>提取码: 91tt</p>
+<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p>链接: <a href="https://cloud.189.cn/web/share?code=VzAZFjVZFBry">https://cloud.189.cn/web/share?code=VzAZFjVZFBry</a><br>访问码: ojg7</p>
+<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CKCXZggb0Y">https://caiyun.139.com/m/i?0H5CKCXZggb0Y</a><br>提取码: JHgq</p>
+<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
+<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
+]]></content>
+      <categories>
+        <category>硬路由</category>
+      </categories>
+      <tags>
+        <tag>硬路由</tag>
+        <tag>固件</tag>
+        <tag>OpenWrt</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CatWrt-OpenWrt x86 软路由稳定固件的再一次升级</title>
+    <url>/2022/06/30/catwrt-v22.7/</url>
+    <content><![CDATA[<blockquote>
+<p>📣 最新版 v22.8 解决了英特尔 i225 2.5G 网卡表现不佳的问题，强烈建议使用 <a href="https://www.miaoer.xyz/posts/network/catwrt-v22.8">CatWrt v22.8</a></p>
+</blockquote>
+<p>在去年的10月10日，我公开发布了我编译的 OpenWrt 软路由固件，这次更新了带来了新特性和特色功能，经久耐用的固件主旁单臂都很稳定高效。</p>
+<p>基于 <a href="https://github.com/coolsnowwolf/lede">Lean 源码</a> 拉取 2022-6-28 的仓库，精心打造！</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/hello.png" loading="lazy"></p>
+<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
+<li><input checked disabled type="checkbox"> 令人惊叹的远程管理</li>
+<li><input checked disabled type="checkbox"> 完全支持 IPv6</li>
+<li><input checked disabled type="checkbox"> 智能网络加速</li>
+<li><input checked disabled type="checkbox"> 负载均衡</li>
+<li><input checked disabled type="checkbox"> Docker</li>
+</ul>
+<span id="more"></span>
+
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
+<p>用户 <code>root</code></p>
+<p>密码 <code>password</code></p>
+<blockquote>
+<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
+</blockquote>
+<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
+<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
+<p>返回后输入 <code>reboot</code> 重启。</p>
+<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/network-hide.png" loading="lazy"></p>
+<h2 id="更新预览"><a href="#更新预览" class="headerlink" title="更新预览"></a>更新预览</h2><blockquote>
+<p>查看编译时选择的插件预览 <a href="https://api.miaoer.xyz/api/v2/snippets/catwrt/package"><i class="ri-terminal-window-fill"></i> 获取</a> （不包含插件依赖）</p>
+</blockquote>
+<ul>
+<li>新增 frps，nezha-agent，argon-config，poweroff，neobird</li>
+<li>移除 过时少用定位冲突插件</li>
+<li>修复 argon，防火墙</li>
+<li>魔改主题 argon， neobird</li>
+<li>修改主机名为 <code>CatWrt</code></li>
+<li>修改默认 IP <code>192.168.1.4</code></li>
+<li>修改 banner 个性易辨别</li>
+<li>更改 linux 内核占用 25M</li>
+<li>更改 ovenlay 分区占用 300M</li>
+</ul>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
+<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
+</blockquote>
+<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.7/targets/x86/64</code><br><br></p>
+<p><code>squashfs-combined</code> 为传统 BIOS 启动</p>
+<p><code>squashfs-combined-efi</code> 为 UEFI 启动</p>
+<p><code>img</code> 文件建议使用 <a href="https://cdn.miaoer.xyz/download/22-06-29/IMG%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7.exe"><i class="ri-file-download-fill"></i> IMG写盘工具</a> 或者其他写盘工具进行安装</p>
+<p><code>qcow2</code> 文件是 pve 或 kvm 虚拟机的虚拟硬盘文件</p>
+<p><code>vhdx</code> 文件是 hype-v 虚拟机的虚拟硬盘文件</p>
+<p><code>vmdk </code>文件是 vmware 虚拟机的虚拟硬盘文件</p>
+<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
+<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
+</blockquote>
+<p>链接: <a href="https://www.aliyundrive.com/s/a3uvrWWV4xa">https://www.aliyundrive.com/s/a3uvrWWV4xa</a><br>提取码: 91tt</p>
+<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p>链接: <a href="https://cloud.189.cn/web/share?code=VzAZFjVZFBry">https://cloud.189.cn/web/share?code=VzAZFjVZFBry</a><br>访问码：ojg7</p>
+<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CKCXZggb0Y">https://caiyun.139.com/m/i?0H5CKCXZggb0Y</a><br>提取码:JHgq</p>
+<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>Tip: 固件使用 IMG 写盘工具写盘时出现多少扇区错误的，直接重启进 OpenWrt 就好。</p>
+<p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
+<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
+]]></content>
+      <categories>
+        <category>网络</category>
+      </categories>
+      <tags>
+        <tag>OpenWrt</tag>
+        <tag>软路由</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记录一次换CPU，R5 3600</title>
+    <url>/2022/01/18/dg-replace-ryzen3600/</url>
+    <content><![CDATA[<p>在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031857.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>在 Zen2 架构下这一代性能表现都非常优异，不能光看评测还得自己上手一下，没想到升级的不是我的老锐龙电脑是去年给别人 2800 装的电脑，当时在没有矿潮的时候这张1660在淘宝上购入 1599，矿潮时甚至涨到 3000+ ……；</p>
+<p>在早上5:50起，就检查一下快递有没有到，很可惜我买内存的时候没看清楚地址就下单了，只能先带着处理器奔赴东莞，我卡好点选择下地铁再南站购票，我赶上了 8:06 到的 G6253 高铁，下高铁站后座上东莞轨道交通在珊美地铁站下，很可惜他们那边暂时还没有1号线，以后开通了有机会坐一坐；到朋友家里稍微等了等内存的快递，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031848.jpg" loading="lazy"></p>
+<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；稍微拿纸巾擦拭了一下，把把手往右滑上提到90度拿下旧的 2200g 放一边，因为拿之前看过不少连根拔起的图在操作之前烤鸡了。在包装里拿起 3600 放下拉下把手扣上有原装水泥(硅脂)幽灵散热器，把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031829.jpg" loading="lazy"></p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031838.jpg" loading="lazy"></p>
+<p>换上新的 芝奇 DDR4 8G 2400 (时序: 15-15-15-39) 的非马甲单面条，不要问为什么强调单面条后面就知道了；擦腚，楷机，屏幕轻松点亮。第一次开机重启了，第二次弹出让你选F1还是F2的，我选了F1进了 BIOS 然后重启到系统，打开任务管理器看框框，一下子多了8个框框，因为时间紧迫没有下 afterburner 看帧率但游戏中没有过卡顿和跳帧了；</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031812.jpg" loading="lazy"></p>
+<p>在单通道 8G下 绝地求生:大逃杀 帧率在 100<del>120 波动 最低帧80，在 CS:GO 中帧率在 200</del>300 波动 最低帧150（不包含烟雾弹），我打包票这个配置可以再战3年，节后再补买同样的内存。</p>
+<p>坑点: 就在单双面上，就隔天发货我收到的是双面颗粒的，而在朋友家收到的就是单面条。</p>
+<p>这次升级就算完成了，朋友一场要了点路费就跑了还带走了换下来的CPU和内存挂海鲜市场，过几天还有一个朋友的硬盘换PM9A1敬请关注。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031801.jpg" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>电脑</tag>
+        <tag>装机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>拆卸AMD散热器，清灰</title>
+    <url>/2022/01/19/clean-amd-heatsink/</url>
+    <content><![CDATA[<p>今天闲着没事做给<a href="https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600">续集</a>上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。</p>
+<p>本文仅限 <strong>AMD “幽灵 Stealth” 散热器（无 LED 灯）</strong>  和 <strong>AMD“幽灵 Spire” 散热器（无 LED 灯）</strong> 详情预览: <a href="https://www.amd.com/zh-hans/technologies/cpu-cooler-solution">处理器散热解决方案 | “幽灵”散热器 | AMD</a></p>
+<p>需要准备:<br>毛巾，酒精，吹风机，可以高压冲洗的花洒（够强也可以用水龙头），一双勤劳的双手，PH1和PH0螺丝刀（至少需要一个PH1）</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746752.jpg" loading="lazy"></p>
+<h1 id="拆卸"><a href="#拆卸" class="headerlink" title="拆卸"></a>拆卸</h1><p>主板拆卸我直接引用上期内容了</p>
+<blockquote>
+<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
+</blockquote>
+<p>然后拿下散热将印有 <strong>AMDlogo</strong> 凸起下的两螺丝拧下</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746774.jpg" loading="lazy"></p>
+<p>把印有 <strong>AMDlogo</strong> 的盖子拿开就看到风扇下的 <strong>酷冷</strong> 的标和<strong>四颗螺丝</strong>，拧开即可拿下铝制散热器；拿去找个带冲洗功能的花洒冲干净拿纸巾或者毛巾擦干净表面并清理上面的<strong>硅脂</strong>然后把毛巾垫底用吹风机烤一会，直到无水珠，再晾干。<br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746784.jpg" loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746805.jpg" loading="lazy"></p>
+<p><strong>风扇</strong>和<strong>壳子</strong>我打算用毛巾和纸巾、酒精擦拭，拿手指头卡着扇叶一个一个擦……随后再擦拭风扇外表的灰。<br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746764.jpg" loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746796.jpg" loading="lazy"></p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642574006422.jpg" loading="lazy"><br>安装同理，<br>将散热鳍片上好四颗螺丝，随后将带有 logo 的壳子放底下用双手压好直到可以（能把螺丝左右的两颗卡扣卡好就行），然后上两小长螺丝，</p>
+<p>上好螺丝到正面将卡扣面向外拉，使卡扣卡好，再按着卡好的卡扣将另外一边也卡进去。</p>
+<p>主板上把背后的扣具找东西压着，或者找个工具人按着；给 CPU 上<strong>硅脂</strong>将四颗弹簧螺丝用力按进扣具并保持另外一边不要翘起太离谱进去转几下就拧对角线压平散热器，再拧紧两螺丝随后把另外两颗也压好，插上 CPU 风扇供电；擦腚楷机。</p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>电脑</tag>
       </tags>
   </entry>
   <entry>
@@ -1021,216 +1049,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>电脑</tag>
         <tag>视频博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记录一次换CPU，R5 3600</title>
-    <url>/2022/01/18/dg-replace-ryzen3600/</url>
-    <content><![CDATA[<p>在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031857.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>在 Zen2 架构下这一代性能表现都非常优异，不能光看评测还得自己上手一下，没想到升级的不是我的老锐龙电脑是去年给别人 2800 装的电脑，当时在没有矿潮的时候这张1660在淘宝上购入 1599，矿潮时甚至涨到 3000+ ……；</p>
-<p>在早上5:50起，就检查一下快递有没有到，很可惜我买内存的时候没看清楚地址就下单了，只能先带着处理器奔赴东莞，我卡好点选择下地铁再南站购票，我赶上了 8:06 到的 G6253 高铁，下高铁站后座上东莞轨道交通在珊美地铁站下，很可惜他们那边暂时还没有1号线，以后开通了有机会坐一坐；到朋友家里稍微等了等内存的快递，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031848.jpg" loading="lazy"></p>
-<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；稍微拿纸巾擦拭了一下，把把手往右滑上提到90度拿下旧的 2200g 放一边，因为拿之前看过不少连根拔起的图在操作之前烤鸡了。在包装里拿起 3600 放下拉下把手扣上有原装水泥(硅脂)幽灵散热器，把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031829.jpg" loading="lazy"></p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031838.jpg" loading="lazy"></p>
-<p>换上新的 芝奇 DDR4 8G 2400 (时序: 15-15-15-39) 的非马甲单面条，不要问为什么强调单面条后面就知道了；擦腚，楷机，屏幕轻松点亮。第一次开机重启了，第二次弹出让你选F1还是F2的，我选了F1进了 BIOS 然后重启到系统，打开任务管理器看框框，一下子多了8个框框，因为时间紧迫没有下 afterburner 看帧率但游戏中没有过卡顿和跳帧了；</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031812.jpg" loading="lazy"></p>
-<p>在单通道 8G下 绝地求生:大逃杀 帧率在 100<del>120 波动 最低帧80，在 CS:GO 中帧率在 200</del>300 波动 最低帧150（不包含烟雾弹），我打包票这个配置可以再战3年，节后再补买同样的内存。</p>
-<p>坑点: 就在单双面上，就隔天发货我收到的是双面颗粒的，而在朋友家收到的就是单面条。</p>
-<p>这次升级就算完成了，朋友一场要了点路费就跑了还带走了换下来的CPU和内存挂海鲜市场，过几天还有一个朋友的硬盘换PM9A1敬请关注。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031801.jpg" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>电脑</category>
-      </categories>
-      <tags>
-        <tag>电脑</tag>
-        <tag>装机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记录一次换m.2硬盘</title>
-    <url>/2022/01/31/fs-pm9a1/</url>
-    <content><![CDATA[<p>受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)</p>
-<p>有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，<br>三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>啪的一下很快啊，快递从南京过来了，快递比我想象中的还要小，更让我惊讶的是M.2硬盘这么小…（SATA固态的泪）</p>
-<p>螺丝没找到直接斜插直连 CPU 的 PCIe 通道的M.2硬盘位，开机稍微分了一下区就开始跑 AS SSD 了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/PM9A1.png" loading="lazy"></p>
-<p>读: 2832MB/s 写: 2763MB/s</p>
-<p>令我惊讶的是 4K 的速度，读: 2109MB/s 写: 1345MB/s，第一次亲眼在自己电脑上这么高的分数。</p>
-<p>用 CrystalDiskInfo 显示都是没问题的，也没去查了，把盘还原打包放置了十来天</p>
-<p>直到1月29日，刚刚好有空就送过去朋友家里，上门服务了属于是</p>
-<p>拆开机箱看到的不知道西数的什么 SSD 蓝盘【这几天查询后修改】，我拆开了另外一侧的盖板好家伙，原来机器吵不是机械硬盘在吵…但是也是要加的因为不知道为什么固态也这么慢，不过他原来的固态插的芯片组引出的 PCIe 通道上，我只需要卸下原来的 M.2 马甲将 PM9A1 安上就好了。</p>
-<p>装后给原来的固态备份质料，然后清空重新单个分区，因为习惯性安装的 Windows 10 ，给 PM9A1 分了2个区，安装驱动…win10已经给我安装完了，显卡驱动也是但是我还是补上了 NVIDIA GeForce Experience 方便更新，安装好常用软件就，坐了一会就走了…</p>
-<p>晚7点半走，等了半天车11点才到家，淦(;´༎ຶД༎ຶ`)</p>
-]]></content>
-      <categories>
-        <category>电脑</category>
-      </categories>
-      <tags>
-        <tag>电脑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
-    <url>/2022/04/09/magisk-v24-hide/</url>
-    <content><![CDATA[<p>在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk 的更新，毕竟安装各式的模块和框架好就不动他了。</p>
-<p>最近才有时间去折腾他刚刚好极客湾也发了视频 <a href="https://www.bilibili.com/video/BV1BY4y1H7Mc">【哔哩哔哩】玩机必看！带你入坑安卓刷机，小白也能看懂的ROOT基础指南来啦！</a> 学到了例如 Recovery,Fastboot,ADB 命令非常值得去复习；也借着东风随便写点方便这次更新后一头雾水的小伙伴去实现以前的功能。</p>
-<span id="more"></span>
-
-<hr>
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>你需要下载最新的 <a href="https://github.com/topjohnwu/Magisk">Magisk</a> <code>Magisk-vxx.x.apk</code> - 下载地址 <a href="https://github.com/topjohnwu/Magisk/releases">https://github.com/topjohnwu/Magisk/releases</a></p>
-<blockquote>
-<p>如果你的网络不好可以切换到数据或者 Wi-Fi 网络环境，或使用 “加速器” 等工具进行访问并下载。</p>
-</blockquote>
-<p>下载好的 <code>Magisk-vxx.x.apk</code> 进行安装后将 <code>.apk</code> 后缀改成 <code>.zip</code>记住你的目录在第三方 Recovery 里面刷入这个 Magisk 包，不出意外重启就可以看到 Magisk 下面的超级权限已经是打开的了。</p>
-<p>下载完成打开 Magisk 在 主页-设置-Magisk 打开 <code>Zygisk（Beta）</code> 选项；</p>
-<p>我们需要下载俩个文件</p>
-<ul>
-<li><a href="https://github.com/LSPosed/LSPosed.github.io">Shamiko</a> <code>Shamiko-vx.x.x-xxx-release.zip</code> - 下载地址 <a href="https://github.com/LSPosed/LSPosed.github.io/releases">https://github.com/LSPosed/LSPosed.github.io/releases</a></li>
-<li><a href="https://github.com/LSPosed/LSPosed">Zygisk-LSPosed</a> <code>LSPosed-v1.8.0-6482-zygisk-release.zip</code> - 下载地址 <a href="https://github.com/LSPosed/LSPosed/releases">https://github.com/LSPosed/LSPosed/releases</a></li>
-</ul>
-<blockquote>
-<p>因为每一个浏览器的下载路径都不一样，可以在浏览器的设置-通用-看到默认的下载路径，如果你不知道默认下载路径可以尝试搜索。</p>
-</blockquote>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>返回到主页 在模块-从本地安装选择你刚刚下载好的 <code>Shamiko-vx.x.x-xxx-release.zip</code> 和 <code>LSPosed-v1.8.0-6482-zygisk-release.zip</code>；在 Shamiko 和 Zygisk-LSPosed 安装好后进行重启。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-04-09/magiskfile.png" loading="lazy"></p>
-<p>我使用的软件需要在 主页-设置-Magisk-配置排除列表 进行选择，如果要隐藏的更深可以在 主页-设置-App 改包名来隐藏 Magisk 这里就不详细说了；</p>
-<p>如果使用 Lsposed 框架在桌面上大概率会模块帮你安装好，如果没有则要去检查是不是没有安装好漏步骤了导致没装上。</p>
-<p>这样就安装就好了变得跟以前差不多一样，如果遇到问题请在评论区留言或者给我点赞啥的。</p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>搞机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【推荐】洗鞋神器-污渍干洗剂</title>
-    <url>/2022/01/31/nianba-ganxi/</url>
-    <content><![CDATA[<blockquote>
-<p>本篇内容没有商业支持，纯个推。</p>
-</blockquote>
-<p>“年廿八,洗邋遢”<br>是广府文化中传统，每年辞旧迎新的特殊节日，我家里也搞起了清洁，因为今年有点特殊鞋子可以不用换，绝对不是因为钱。2333</p>
-<p>某天在商场被强行推销，拿我的鞋子中脏的地方做演示，我期初还不信但擦完出乎意料，我用手指去摩擦居然还有新鞋子橡胶嘎吱嘎吱的响声，所以…我当时闲钱少我拒绝了，但后面不是要准备过年了嘛整了一瓶，</p>
-<span id="more"></span>
-
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553805342.jpg" loading="lazy"></p>
-<p>不是推销的品牌，大概30块钱左右；稍微试了试确实有效果，也不是啥漂白剂，<br>[上图为没擦洗，下图为擦洗]</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553793449.jpg" loading="lazy"></p>
-<p>说是干洗，但是打湿了擦也行，干脆就洗澡一起洗了。<br>[图为刚刚洗完的效果]</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553837236.jpg" loading="lazy"></p>
-<p>【注; 31号晚点补干鞋图】</p>
-<p>优点: 可以洗往日留下的污渍，洗汽车胶内饰。<br>缺点: 网面干洗效果一般。</p>
-<p>商家信息已进行处理，需要可以评论留言可避免踩坑。</p>
-<p>本人不玩鞋，我没用过仅表达个人体验随便水一篇；所以觉得挺好用的，稍微写点推荐吧。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>推荐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>软路由Openwrt overlay分区</title>
-    <url>/2021/06/20/openwrt-overlay/</url>
-    <content><![CDATA[<p>教程目的为了扩容 overlay 分区和 Docker 分区</p>
-<ul>
-<li>如果你只需要分 NAS 区只需要看到博文里的 ##挂载 在 OpenWrt 网络存储-网络共享 中添加即可</li>
-<li>如果你需要 ovenlay 扩容请务必全部看完不冲突</li>
-</ul>
-<p>本教程配合 <a href="https://www.miaoer.xyz/posts/network/catwrt-v22.7">CatWrt</a> 使用更佳。</p>
-<span id="more"></span>
-
-<h2 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h2><p>在终端中输入 <code>cfdisk</code> 进入 cfdisk 磁盘管理</p>
-<p>键盘下到 <code>Free space</code> 发现底栏也跟着变了可以选择 <code>[   New  ]</code> 回车</p>
-<p>就出现 Partition size: 让你设置分区大小</p>
-<p>我这里设置一个1G的给 Docker 用；就打 <code>1G</code> 回车</p>
-<p>发现多了个 /dev/sda3 即可，剩下的给做外置 overlay 或者使用 samba 当 NAS 用</p>
-<p>键盘下到 <code>Free space</code> 选择 <code>New</code> 回车</p>
-<p>这里默认就是最大存储空间，可以按照你的需求来我这里就选最大的 回车</p>
-<p>键盘右选择 <code>[  Write ]</code> 保存</p>
-<p>然后问你是否确认修改</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">Are you sure you want to <span class="token function">write</span> the partition table to disk? _</code></pre>
-
-<p>这里就输入 <code>yes</code> 然后回车</p>
-<p>键盘左到 <code>[  Quit  ]</code> 退出 cfdisk</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># cfdisk</span>
-
-Syncing disks.</code></pre>
-
-<p>显示这样就表示保存同步成功。</p>
-<h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><p>修改分区格式 sda3 为 ext4 在终端中输入 <code>mkfs.ext4 /dev/sda3</code></p>
-<p>修改分区格式 sda4 为 ext4 在终端中输入 <code>mkfs.ext4 /dev/sda4</code></p>
-<p>输入 <code>y</code> 回车</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># mkfs.ext4 /dev/sda3</span>
-<span class="token function">mke2fs</span> <span class="token number">1.46</span>.5 <span class="token punctuation">(</span><span class="token number">30</span>-Dec-2021<span class="token punctuation">)</span>
-/dev/sda3 contains a ext4 <span class="token function">file</span> system
-        last mounted on /mnt/sda3 on Tue Aug <span class="token number">16</span> <span class="token number">15</span>:31:27 <span class="token number">2022</span>
-Proceed anyway? <span class="token punctuation">(</span>y,N<span class="token punctuation">)</span> _</code></pre>
-
-<p>输出以下内容</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">Discarding device blocks: <span class="token keyword">done</span>                            
-Creating filesystem with <span class="token number">262144</span> 4k blocks and <span class="token number">65536</span> inodes
-Filesystem UUID: 4e68fde1-d16a-428e-8f45-f00919090f0c
-Superblock backups stored on blocks: 
-        <span class="token number">32768</span>, <span class="token number">98304</span>, <span class="token number">163840</span>, <span class="token number">229376</span>
-
-Allocating group tables: <span class="token keyword">done</span>                            
-Writing inode tables: <span class="token keyword">done</span>                            
-Creating journal <span class="token punctuation">(</span><span class="token number">8192</span> blocks<span class="token punctuation">)</span>: <span class="token keyword">done</span>
-Writing superblocks and filesystem accounting information: <span class="token keyword">done</span></code></pre>
-
-<p>提示 done 即可</p>
-<p>同样的 sda4 也同理</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># mkfs.ext4 /dev/sda4</span>
-<span class="token function">mke2fs</span> <span class="token number">1.46</span>.5 <span class="token punctuation">(</span><span class="token number">30</span>-Dec-2021<span class="token punctuation">)</span>
-Discarding device blocks: <span class="token keyword">done</span>                            
-Creating filesystem with <span class="token number">58261504</span> 4k blocks and <span class="token number">14593824</span> inodes
-Filesystem UUID: 0ba60339-25d5-44fa-8079-605a5b9e7674
-Superblock backups stored on blocks: 
-        <span class="token number">32768</span>, <span class="token number">98304</span>, <span class="token number">163840</span>, <span class="token number">229376</span>, <span class="token number">294912</span>, <span class="token number">819200</span>, <span class="token number">884736</span>, <span class="token number">1605632</span>, <span class="token number">2654208</span>, 
-        <span class="token number">4096000</span>, <span class="token number">7962624</span>, <span class="token number">11239424</span>, <span class="token number">20480000</span>, <span class="token number">23887872</span>
-
-Allocating group tables: <span class="token keyword">done</span>                            
-Writing inode tables: <span class="token keyword">done</span>                            
-Creating journal <span class="token punctuation">(</span><span class="token number">262144</span> blocks<span class="token punctuation">)</span>: <span class="token keyword">done</span>
-Writing superblocks and filesystem accounting information: <span class="token keyword">done</span>    </code></pre>
-
-<h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><p>挂载 sda3 在终端中输入 <code>mount /dev/sda3 /mnt/sda3</code></p>
-<p>挂载 sda4 在终端中输入 <code>mount /dev/sda4 /mnt/sda4</code></p>
-<p>检查一下 sda3 有没有成功挂载 <code>ls /mnt/sda3</code> 显示有这文件夹就好</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">lost+found</code></pre>
-
-<p>然后到 overlay 检查 <code>cd /overlay &amp;&amp; ls</code> 显示有几个文件夹就好</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">upper  work</code></pre>
-
-<h2 id="复制overlay"><a href="#复制overlay" class="headerlink" title="复制overlay"></a>复制overlay</h2><p>复制 overlay 到 sda4</p>
-<p><code>cp -r /overlay/* /mnt/sda4</code></p>
-<p>到 OpenWrt 后台将 系统-挂载点 选择 <code>生成配置</code></p>
-<p>页面会进行刷新，下滑找到挂载点添加</p>
-<p>UUID 里打开选项表选择前面的 UUID 你可以不管主要看括号的分区地址，这里选 sda4 分区</p>
-<p><code>8083786b-7f9dff8e-58c38dac-11451419 (/dev/sda4, 114514 MB)</code></p>
-<p>挂载点 选择 <code>作为外部 overlay 使用（/overlay）</code></p>
-<p>然后启用挂载点，重启 OpenWrt 系统并登录，在 系统-软件包 中可以看到扩容的容量</p>
-<br>
-
-<p>其实OpenWrt分区不难，注意操作数据无价</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
-        <tag>openwrt</tag>
       </tags>
   </entry>
   <entry>
@@ -1542,6 +1360,67 @@ cd mx-space&#x2F;server</code></pre>
       </tags>
   </entry>
   <entry>
+    <title>记录一次换m.2硬盘</title>
+    <url>/2022/01/31/fs-pm9a1/</url>
+    <content><![CDATA[<p>受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)</p>
+<p>有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，<br>三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>啪的一下很快啊，快递从南京过来了，快递比我想象中的还要小，更让我惊讶的是M.2硬盘这么小…（SATA固态的泪）</p>
+<p>螺丝没找到直接斜插直连 CPU 的 PCIe 通道的M.2硬盘位，开机稍微分了一下区就开始跑 AS SSD 了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/PM9A1.png" loading="lazy"></p>
+<p>读: 2832MB/s 写: 2763MB/s</p>
+<p>令我惊讶的是 4K 的速度，读: 2109MB/s 写: 1345MB/s，第一次亲眼在自己电脑上这么高的分数。</p>
+<p>用 CrystalDiskInfo 显示都是没问题的，也没去查了，把盘还原打包放置了十来天</p>
+<p>直到1月29日，刚刚好有空就送过去朋友家里，上门服务了属于是</p>
+<p>拆开机箱看到的不知道西数的什么 SSD 蓝盘【这几天查询后修改】，我拆开了另外一侧的盖板好家伙，原来机器吵不是机械硬盘在吵…但是也是要加的因为不知道为什么固态也这么慢，不过他原来的固态插的芯片组引出的 PCIe 通道上，我只需要卸下原来的 M.2 马甲将 PM9A1 安上就好了。</p>
+<p>装后给原来的固态备份质料，然后清空重新单个分区，因为习惯性安装的 Windows 10 ，给 PM9A1 分了2个区，安装驱动…win10已经给我安装完了，显卡驱动也是但是我还是补上了 NVIDIA GeForce Experience 方便更新，安装好常用软件就，坐了一会就走了…</p>
+<p>晚7点半走，等了半天车11点才到家，淦(;´༎ຶД༎ຶ`)</p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>电脑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
+    <url>/2022/04/09/magisk-v24-hide/</url>
+    <content><![CDATA[<p>在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk 的更新，毕竟安装各式的模块和框架好就不动他了。</p>
+<p>最近才有时间去折腾他刚刚好极客湾也发了视频 <a href="https://www.bilibili.com/video/BV1BY4y1H7Mc">【哔哩哔哩】玩机必看！带你入坑安卓刷机，小白也能看懂的ROOT基础指南来啦！</a> 学到了例如 Recovery,Fastboot,ADB 命令非常值得去复习；也借着东风随便写点方便这次更新后一头雾水的小伙伴去实现以前的功能。</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>你需要下载最新的 <a href="https://github.com/topjohnwu/Magisk">Magisk</a> <code>Magisk-vxx.x.apk</code> - 下载地址 <a href="https://github.com/topjohnwu/Magisk/releases">https://github.com/topjohnwu/Magisk/releases</a></p>
+<blockquote>
+<p>如果你的网络不好可以切换到数据或者 Wi-Fi 网络环境，或使用 “加速器” 等工具进行访问并下载。</p>
+</blockquote>
+<p>下载好的 <code>Magisk-vxx.x.apk</code> 进行安装后将 <code>.apk</code> 后缀改成 <code>.zip</code>记住你的目录在第三方 Recovery 里面刷入这个 Magisk 包，不出意外重启就可以看到 Magisk 下面的超级权限已经是打开的了。</p>
+<p>下载完成打开 Magisk 在 主页-设置-Magisk 打开 <code>Zygisk（Beta）</code> 选项；</p>
+<p>我们需要下载俩个文件</p>
+<ul>
+<li><a href="https://github.com/LSPosed/LSPosed.github.io">Shamiko</a> <code>Shamiko-vx.x.x-xxx-release.zip</code> - 下载地址 <a href="https://github.com/LSPosed/LSPosed.github.io/releases">https://github.com/LSPosed/LSPosed.github.io/releases</a></li>
+<li><a href="https://github.com/LSPosed/LSPosed">Zygisk-LSPosed</a> <code>LSPosed-v1.8.0-6482-zygisk-release.zip</code> - 下载地址 <a href="https://github.com/LSPosed/LSPosed/releases">https://github.com/LSPosed/LSPosed/releases</a></li>
+</ul>
+<blockquote>
+<p>因为每一个浏览器的下载路径都不一样，可以在浏览器的设置-通用-看到默认的下载路径，如果你不知道默认下载路径可以尝试搜索。</p>
+</blockquote>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>返回到主页 在模块-从本地安装选择你刚刚下载好的 <code>Shamiko-vx.x.x-xxx-release.zip</code> 和 <code>LSPosed-v1.8.0-6482-zygisk-release.zip</code>；在 Shamiko 和 Zygisk-LSPosed 安装好后进行重启。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-04-09/magiskfile.png" loading="lazy"></p>
+<p>我使用的软件需要在 主页-设置-Magisk-配置排除列表 进行选择，如果要隐藏的更深可以在 主页-设置-App 改包名来隐藏 Magisk 这里就不详细说了；</p>
+<p>如果使用 Lsposed 框架在桌面上大概率会模块帮你安装好，如果没有则要去检查是不是没有安装好漏步骤了导致没装上。</p>
+<p>这样就安装就好了变得跟以前差不多一样，如果遇到问题请在评论区留言或者给我点赞啥的。</p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>搞机</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在两者之间选择</title>
     <url>/2021/11/30/newblog/</url>
     <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/images/nowblog.png" loading="lazy"></p>
@@ -1553,61 +1432,30 @@ cd mx-space&#x2F;server</code></pre>
       </categories>
   </entry>
   <entry>
-    <title>分享自己编译的OpenWrt软路由固件！</title>
-    <url>/2021/10/10/openwrtv2021.10.10/</url>
+    <title>【推荐】洗鞋神器-污渍干洗剂</title>
+    <url>/2022/01/31/nianba-ganxi/</url>
     <content><![CDATA[<blockquote>
-<p>📣 最新版 v22.8 解决了英特尔 i225 2.5G 网卡表现不佳的问题，强烈建议使用 CatWrt v22.8</p>
+<p>本篇内容没有商业支持，纯个推。</p>
 </blockquote>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>分享一个自编译 “ <code>稳定</code> <code>够用</code> <code>插件多</code> ” 的软路由OpenWrt固件。<br>目前只有 <code>x86-64</code> 的版本，固件插件够用，外带docker满足容器需求。<br>通吃旁路由，主路由，虚拟机!开箱即用。</p>
-<p>说明要看完！完整插件列表在 <code>插件</code> 段处。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-10-10/wrtluciv21.10.10.jpg" loading="lazy"></p>
+<p>“年廿八,洗邋遢”<br>是广府文化中传统，每年辞旧迎新的特殊节日，我家里也搞起了清洁，因为今年有点特殊鞋子可以不用换，绝对不是因为钱。2333</p>
+<p>某天在商场被强行推销，拿我的鞋子中脏的地方做演示，我期初还不信但擦完出乎意料，我用手指去摩擦居然还有新鞋子橡胶嘎吱嘎吱的响声，所以…我当时闲钱少我拒绝了，但后面不是要准备过年了嘛整了一瓶，</p>
 <span id="more"></span>
 
-<h1 id="默认设置"><a href="#默认设置" class="headerlink" title="默认设置"></a>默认设置</h1><p>默认分配300m给固件使用还有25m给linux内核使用<br>默认opernwrl luci后台地址: <code>192.168.1.2</code><br>账号: <code>root</code> 密码: <code>password</code></p>
-<h1 id="虚拟化-amp-分区"><a href="#虚拟化-amp-分区" class="headerlink" title="虚拟化&amp;分区"></a>虚拟化&amp;分区</h1><p>如果你是选择了虚拟化OpenWrt，你需要至少分配512m内存和512m的储存，如果设备较多开启了docker建议按照应用进行扩充运行内存和存储空间。<br>使用docker建议以G为单位越大越好，会玩的自然懂，如果没用过可以尝试分配1G安装内网speedtest，或者不分。<br>仅在vmware exsi下测试，pve和其他基于kvm未做测试但有pve和kvm的虚拟硬盘。</p>
-<p><a href="https://www.miaoer.xyz/network/openwrt-overlay">软路由Openwrt overlay分区</a></p>
-<h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><div class="success">
-
-<blockquote>
-<p>完整列表查看Github仓库，我们提供完整的插件列表您可以离线使用已编译的ipk。</p>
-</blockquote>
-</div>
-
-<p>插件仓库: <a href="https://github.com/miaoermua/catwrt">https://github.com/miaoermua/catwrt</a></p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-10-10/wrtv2021.10.10.jpg" loading="lazy"></p>
-<h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><p>固件在 <code>v21.10.10/targets/x86-64</code> 中</p>
-<p><code>squashfs-combined</code> 为传统BIOS启动</p>
-<p><code>squashfs-combined-efi</code> 为UEFI启动</p>
-<p><code>iso</code> 文件建议使用 <code>IMG写盘工具</code> 或者其他写盘工具进行安装</p>
-<p><code>qcow2</code> 文件是pve或kvm虚拟机的虚拟硬盘文件</p>
-<p><code>vmdk </code>文件是vmware虚拟机的虚拟硬盘文件</p>
-<h2 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h2><p><a href="https://www.aliyundrive.com/s/v8daqMUBG2y">https://www.aliyundrive.com/s/v8daqMUBG2y</a></p>
-<p>提取码: 3pf3</p>
-<blockquote>
-<p>注: 镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。<br>如：修改前 <code>openwrt-x86-64-generic-squashfs-combined.img.exe</code> &gt; 修改后 <code>openwrt-x86-64-generic-squashfs-combined.img</code></p>
-</blockquote>
-<h2 id="天翼云盘"><a href="#天翼云盘" class="headerlink" title="天翼云盘"></a>天翼云盘</h2><p><a href="https://cloud.189.cn/web/share?code=VvAnyi3EVrmu">https://cloud.189.cn/web/share?code=VvAnyi3EVrmu</a></p>
-<p>访问码：gkm6</p>
-<h1 id="支持"><a href="#支持" class="headerlink" title="支持"></a>支持</h1><h3 id="v21-10-10"><a href="#v21-10-10" class="headerlink" title="v21.10.10"></a>v21.10.10</h3><p>开放网友下载</p>
-<p>修复 luci-theme-argon 使用jerrykuku源码编译</p>
-<h3 id="v21-8-10"><a href="#v21-8-10" class="headerlink" title="v21.8.10"></a>v21.8.10</h3><p>支持 ipv6客户端</p>
-<p>支持 vmwaretools</p>
-<p>修复 uu加速器</p>
-<p>首次编译</p>
-<h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><h3 id="怎么修改Openwrt默认后台ip地址？"><a href="#怎么修改Openwrt默认后台ip地址？" class="headerlink" title="怎么修改Openwrt默认后台ip地址？"></a>怎么修改Openwrt默认后台ip地址？</h3><p><code>vi /etc/config/network</code>在窗口修改option ipaddr中的ip地址。</p>
-<p>完成后按<code>Esc</code>，再按下<code>:</code>，在输入框中输入wq！(强制保存退出</p>
-<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code>。</p>
-<h3 id="后续会保持更新吗？"><a href="#后续会保持更新吗？" class="headerlink" title="后续会保持更新吗？"></a>后续会保持更新吗？</h3><p>会！但是得有空，出新的协议或者软件可能会尝鲜一波再发布出来，一般的插件都可以在Openwrt中进行更新操作，更新只是解决依赖，固件稳定才是最重要的。</p>
-<h3 id="你是大佬吗，可以提供帮助吗？"><a href="#你是大佬吗，可以提供帮助吗？" class="headerlink" title="你是大佬吗，可以提供帮助吗？"></a>你是大佬吗，可以提供帮助吗？</h3><p>我不是大佬，我只是分享自编译的Openwrt固件，我觉得好用够用才分享给大家，仅能提供技术访问内的帮助。</p>
-<h3 id="有Bug，怎么反馈？"><a href="#有Bug，怎么反馈？" class="headerlink" title="有Bug，怎么反馈？"></a>有Bug，怎么反馈？</h3><p>可以在评论区向我提问进行排查，openclash和passwall貌似不能用？</p>
-<p>如果你想提出更多插件请在评论区描述。</p>
-<p>如果帮助到你可以在打赏里可以选择二维码给我打赏！</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553805342.jpg" loading="lazy"></p>
+<p>不是推销的品牌，大概30块钱左右；稍微试了试确实有效果，也不是啥漂白剂，<br>[上图为没擦洗，下图为擦洗]</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553793449.jpg" loading="lazy"></p>
+<p>说是干洗，但是打湿了擦也行，干脆就洗澡一起洗了。<br>[图为刚刚洗完的效果]</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553837236.jpg" loading="lazy"></p>
+<p>【注; 31号晚点补干鞋图】</p>
+<p>优点: 可以洗往日留下的污渍，洗汽车胶内饰。<br>缺点: 网面干洗效果一般。</p>
+<p>商家信息已进行处理，需要可以评论留言可避免踩坑。</p>
+<p>本人不玩鞋，我没用过仅表达个人体验随便水一篇；所以觉得挺好用的，稍微写点推荐吧。</p>
 ]]></content>
       <categories>
-        <category>OpenWrt</category>
+        <category>生活</category>
       </categories>
       <tags>
-        <tag>OpenWrt</tag>
+        <tag>推荐</tag>
       </tags>
   </entry>
   <entry>
@@ -1655,101 +1503,97 @@ cd mx-space&#x2F;server</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>StarWind V2V Converter 写盘教程</title>
-    <url>/2022/08/17/starwind-converter/</url>
-    <content><![CDATA[<p>在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启；</p>
-<p>但使用 StarWind V2V Converter 虚拟机写盘软件则不会有这个问题，所以我写了这篇博文。</p>
+    <title>软路由Openwrt overlay分区</title>
+    <url>/2021/06/20/openwrt-overlay/</url>
+    <content><![CDATA[<p>教程目的为了扩容 overlay 分区和 Docker 分区</p>
+<ul>
+<li>如果你只需要分 NAS 区只需要看到博文里的 ##挂载 在 OpenWrt 网络存储-网络共享 中添加即可</li>
+<li>如果你需要 ovenlay 扩容请务必全部看完不冲突</li>
+</ul>
+<p>本教程配合 <a href="https://www.miaoer.xyz/posts/network/catwrt-v22.7">CatWrt</a> 使用更佳。</p>
 <span id="more"></span>
 
-<h2 id="下载并安装"><a href="#下载并安装" class="headerlink" title="下载并安装"></a>下载并安装</h2><p>StarWind V2V Converter 下载可以去他的官网下载，</p>
-<p>这里也提供蓝奏云下载链接。</p>
-<blockquote>
-<p><a href="https://wwd.lanzouy.com/b02dkbk7e">https://wwd.lanzouy.com/b02dkbk7e</a><br>密码: 4e2a</p>
-</blockquote>
-<p>下载后会申请一次 UAC 管理员权限，点 <code>是</code> 同意授权；</p>
-<p>接下来是说明条款，点 <code>I accept the agreement</code> 同意，并且 <code>Next</code> 下一步；</p>
-<p>这页是问要不要生成桌面快捷方式，默认下一步；</p>
-<p>点击 <code>Install</code>，安装完成后点 <code>Finish</code>，在桌面打开 StarWind V2V Converter 并同意 UAC 权限。</p>
-<h2 id="写盘"><a href="#写盘" class="headerlink" title="写盘"></a>写盘</h2><p>在软件的第一页 Select the location of the image to convert</p>
-<p>选择本地文件 <code>Local file</code> 按 <code>Next</code> 下一步；</p>
-<p>到选择要写盘的镜像 Source image 选择 File name 右边的 <code>……</code> 选择镜像并下一步；</p>
-<p>到 Select the location of the destination image 这页时选择导出的镜像到本地也就是默认的 <code>Local file</code> 下一步；</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-17/starwind-converter.png" loading="lazy"></p>
-<p>Select destination image format 这里就可以选你要导出的虚拟硬盘了</p>
-<ul>
-<li><code>vmdk </code> 是 vmware 虚拟机的虚拟硬盘文件</li>
-<li><code>vhdx</code> 是 hype-v 虚拟机的虚拟硬盘文件</li>
-<li><code>qcow2</code> 是 pve 或 kvm 虚拟机的虚拟硬盘文件</li>
-</ul>
+<h2 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h2><p>在终端中输入 <code>cfdisk</code> 进入 cfdisk 磁盘管理</p>
+<p>键盘下到 <code>Free space</code> 发现底栏也跟着变了可以选择 <code>[   New  ]</code> 回车</p>
+<p>就出现 Partition size: 让你设置分区大小</p>
+<p>我这里设置一个1G的给 Docker 用；就打 <code>1G</code> 回车</p>
+<p>发现多了个 /dev/sda3 即可，剩下的给做外置 overlay 或者使用 samba 当 NAS 用</p>
+<p>键盘下到 <code>Free space</code> 选择 <code>New</code> 回车</p>
+<p>这里默认就是最大存储空间，可以按照你的需求来我这里就选最大的 回车</p>
+<p>键盘右选择 <code>[  Write ]</code> 保存</p>
+<p>然后问你是否确认修改</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Are you sure you want to <span class="token function">write</span> the partition table to disk? _</code></pre>
+
+<p>这里就输入 <code>yes</code> 然后回车</p>
+<p>键盘左到 <code>[  Quit  ]</code> 退出 cfdisk</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># cfdisk</span>
+
+Syncing disks.</code></pre>
+
+<p>显示这样就表示保存同步成功。</p>
+<h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><p>修改分区格式 sda3 为 ext4 在终端中输入 <code>mkfs.ext4 /dev/sda3</code></p>
+<p>修改分区格式 sda4 为 ext4 在终端中输入 <code>mkfs.ext4 /dev/sda4</code></p>
+<p>输入 <code>y</code> 回车</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># mkfs.ext4 /dev/sda3</span>
+<span class="token function">mke2fs</span> <span class="token number">1.46</span>.5 <span class="token punctuation">(</span><span class="token number">30</span>-Dec-2021<span class="token punctuation">)</span>
+/dev/sda3 contains a ext4 <span class="token function">file</span> system
+        last mounted on /mnt/sda3 on Tue Aug <span class="token number">16</span> <span class="token number">15</span>:31:27 <span class="token number">2022</span>
+Proceed anyway? <span class="token punctuation">(</span>y,N<span class="token punctuation">)</span> _</code></pre>
+
+<p>输出以下内容</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Discarding device blocks: <span class="token keyword">done</span>                            
+Creating filesystem with <span class="token number">262144</span> 4k blocks and <span class="token number">65536</span> inodes
+Filesystem UUID: 4e68fde1-d16a-428e-8f45-f00919090f0c
+Superblock backups stored on blocks: 
+        <span class="token number">32768</span>, <span class="token number">98304</span>, <span class="token number">163840</span>, <span class="token number">229376</span>
+
+Allocating group tables: <span class="token keyword">done</span>                            
+Writing inode tables: <span class="token keyword">done</span>                            
+Creating journal <span class="token punctuation">(</span><span class="token number">8192</span> blocks<span class="token punctuation">)</span>: <span class="token keyword">done</span>
+Writing superblocks and filesystem accounting information: <span class="token keyword">done</span></code></pre>
+
+<p>提示 done 即可</p>
+<p>同样的 sda4 也同理</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># mkfs.ext4 /dev/sda4</span>
+<span class="token function">mke2fs</span> <span class="token number">1.46</span>.5 <span class="token punctuation">(</span><span class="token number">30</span>-Dec-2021<span class="token punctuation">)</span>
+Discarding device blocks: <span class="token keyword">done</span>                            
+Creating filesystem with <span class="token number">58261504</span> 4k blocks and <span class="token number">14593824</span> inodes
+Filesystem UUID: 0ba60339-25d5-44fa-8079-605a5b9e7674
+Superblock backups stored on blocks: 
+        <span class="token number">32768</span>, <span class="token number">98304</span>, <span class="token number">163840</span>, <span class="token number">229376</span>, <span class="token number">294912</span>, <span class="token number">819200</span>, <span class="token number">884736</span>, <span class="token number">1605632</span>, <span class="token number">2654208</span>, 
+        <span class="token number">4096000</span>, <span class="token number">7962624</span>, <span class="token number">11239424</span>, <span class="token number">20480000</span>, <span class="token number">23887872</span>
+
+Allocating group tables: <span class="token keyword">done</span>                            
+Writing inode tables: <span class="token keyword">done</span>                            
+Creating journal <span class="token punctuation">(</span><span class="token number">262144</span> blocks<span class="token punctuation">)</span>: <span class="token keyword">done</span>
+Writing superblocks and filesystem accounting information: <span class="token keyword">done</span>    </code></pre>
+
+<h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><p>挂载 sda3 在终端中输入 <code>mount /dev/sda3 /mnt/sda3</code></p>
+<p>挂载 sda4 在终端中输入 <code>mount /dev/sda4 /mnt/sda4</code></p>
+<p>检查一下 sda3 有没有成功挂载 <code>ls /mnt/sda3</code> 显示有这文件夹就好</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">lost+found</code></pre>
+
+<p>然后到 overlay 检查 <code>cd /overlay &amp;&amp; ls</code> 显示有几个文件夹就好</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">upper  work</code></pre>
+
+<h2 id="复制overlay"><a href="#复制overlay" class="headerlink" title="复制overlay"></a>复制overlay</h2><p>复制 overlay 到 sda4</p>
+<p><code>cp -r /overlay/* /mnt/sda4</code></p>
+<p>到 OpenWrt 后台将 系统-挂载点 选择 <code>生成配置</code></p>
+<p>页面会进行刷新，下滑找到挂载点添加</p>
+<p>UUID 里打开选项表选择前面的 UUID 你可以不管主要看括号的分区地址，这里选 sda4 分区</p>
+<p><code>8083786b-7f9dff8e-58c38dac-11451419 (/dev/sda4, 114514 MB)</code></p>
+<p>挂载点 选择 <code>作为外部 overlay 使用（/overlay）</code></p>
+<p>然后启用挂载点，重启 OpenWrt 系统并登录，在 系统-软件包 中可以看到扩容的容量</p>
 <br>
 
-<p>这里重点讲下 VMDK 和 VHD/VHDX；</p>
-<ul>
-<li>VMDK 的 Select option for VMDK image format 选默认的可增长硬盘空间即可或者选择第二个预分配硬盘空间这里测试使用 <code>VMware Workstation growable image</code> 是没有问题</li>
-<li>VHDX 的 Select option for VHD/VHDX image format 选第三个 <code>VHDX growable image</code> 生成 VHDX 或者默认的 VHD 也可以，没玩过 hype-v</li>
-</ul>
-<br>
-
-<p>其他的格式可以具体看 <a href="https://www.starwindsoftware.com/v2v-help/ConvertingtheLocalFile.html">官方文档</a> 不过是英文的，</p>
-<p>下一步则是 Set destination file name 在 File name 的 <code>……</code> 里可以将生成的文件放置在指定的目录，点击 Convert 开始等 Converting 跑完镜像就生成完了 点击 <code>Finish</code> 退出即可。</p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>登录 VMware EXSI 后台将文件上传，在侧栏点击 存储-数据存储浏览器 建议新建一个目录存放 vmdk 点击上方创建目录；</p>
-<p>目录名称随便你只要找得到就好，创建好后点击文件夹选择上载，选择好刚刚做好的虚拟硬盘 vmdk 文件上传；</p>
-<p>上传完毕关闭，新建或编辑已有虚拟机在完成其他配置后将原来的硬盘删掉，选择 <code>从数据存储删除文件</code> 然后确认返回设置；</p>
-<p>选择 添加硬盘-现有硬盘 找到刚刚创建的文件夹中的 vmdk 文件确定，确定好将控制器位置设为 <code>IDE 控制器 0</code> 即可启动 OpenWrt。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-17/vmdk-vmware.png" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>网络</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
-        <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
-    <url>/2021/10/02/optimize-windows-menu/</url>
-    <content><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p>
-<p>主要是做一些自己的文章，不依赖转载吃流量博眼球，才能吸引更多的新观众和高质友链</p>
-<p>本博文发布出来是做个链接方便后面的文章，有想关注的可以RSS订阅我的博客或者随时来博客玩hh</p>
-<p>RSS:<a href="https://www.miaoer.xyz/atom.xml">https://www.miaoer.xyz/atom.xml</a></p>
-<span id="more"></span>
-
-<p>【demo】</p>
-<p>因为讲解一次这些优化类的就要去重置一遍系统去还原定位问题，现在就从系统开始讲解保证小白也能看懂，不懂的我这里也会写出搜索的关键词</p>
-<blockquote>
-<p>当文章中出现搜索时他的格式是这样的</p>
-<p>这里的<code>品牌</code>是指<code>华硕</code>，<code>微星</code>，<code>华擎</code>等品牌板卡厂商(笔记本)，文章简称<code>品牌</code>保证搜索结果的一致性</p>
-<p>文章中: <code>品牌</code>bios怎么进</p>
-<p>您应该搜索: 品牌bios怎么进</p>
-</blockquote>
-<p>【demo】</p>
-<p>本章Windows优化目录</p>
-<p>1.系统篇</p>
-<ul>
-<li>重置、重装、驱动</li>
-</ul>
-<p>2.软件篇</p>
-<ul>
-<li>浏览器、官网、域名、推荐软件</li>
-</ul>
-<p>3.习惯篇</p>
-<ul>
-<li>搜索引擎、web端、下载站</li>
-</ul>
-<p>4.卸载和弹窗篇</p>
-<ul>
-<li>卸载软件、弹窗定位与删除</li>
-</ul>
-<p>本文首发在<a href="https://www.miaoer.xyz/">喵二の小博客</a>，转载请联系我并在文章明显初标记相关原文链接与作者名字</p>
-<p>暂时不会出视频教程篇，敬请关注，欢迎投喂</p>
-<p>【demo】</p>
+<p>其实OpenWrt分区不难，注意操作数据无价</p>
 ]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
+        <tag>软路由</tag>
+        <tag>openwrt</tag>
       </tags>
   </entry>
   <entry>
@@ -1814,6 +1658,162 @@ cd mx-space&#x2F;server</code></pre>
       </categories>
       <tags>
         <tag>软路由</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
+    <url>/2021/10/02/optimize-windows-menu/</url>
+    <content><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p>
+<p>主要是做一些自己的文章，不依赖转载吃流量博眼球，才能吸引更多的新观众和高质友链</p>
+<p>本博文发布出来是做个链接方便后面的文章，有想关注的可以RSS订阅我的博客或者随时来博客玩hh</p>
+<p>RSS:<a href="https://www.miaoer.xyz/atom.xml">https://www.miaoer.xyz/atom.xml</a></p>
+<span id="more"></span>
+
+<p>【demo】</p>
+<p>因为讲解一次这些优化类的就要去重置一遍系统去还原定位问题，现在就从系统开始讲解保证小白也能看懂，不懂的我这里也会写出搜索的关键词</p>
+<blockquote>
+<p>当文章中出现搜索时他的格式是这样的</p>
+<p>这里的<code>品牌</code>是指<code>华硕</code>，<code>微星</code>，<code>华擎</code>等品牌板卡厂商(笔记本)，文章简称<code>品牌</code>保证搜索结果的一致性</p>
+<p>文章中: <code>品牌</code>bios怎么进</p>
+<p>您应该搜索: 品牌bios怎么进</p>
+</blockquote>
+<p>【demo】</p>
+<p>本章Windows优化目录</p>
+<p>1.系统篇</p>
+<ul>
+<li>重置、重装、驱动</li>
+</ul>
+<p>2.软件篇</p>
+<ul>
+<li>浏览器、官网、域名、推荐软件</li>
+</ul>
+<p>3.习惯篇</p>
+<ul>
+<li>搜索引擎、web端、下载站</li>
+</ul>
+<p>4.卸载和弹窗篇</p>
+<ul>
+<li>卸载软件、弹窗定位与删除</li>
+</ul>
+<p>本文首发在<a href="https://www.miaoer.xyz/">喵二の小博客</a>，转载请联系我并在文章明显初标记相关原文链接与作者名字</p>
+<p>暂时不会出视频教程篇，敬请关注，欢迎投喂</p>
+<p>【demo】</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>StarWind V2V Converter 写盘教程</title>
+    <url>/2022/08/17/starwind-converter/</url>
+    <content><![CDATA[<p>在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启；</p>
+<p>但使用 StarWind V2V Converter 虚拟机写盘软件则不会有这个问题，所以我写了这篇博文。</p>
+<span id="more"></span>
+
+<h2 id="下载并安装"><a href="#下载并安装" class="headerlink" title="下载并安装"></a>下载并安装</h2><p>StarWind V2V Converter 下载可以去他的官网下载，</p>
+<p>这里也提供蓝奏云下载链接。</p>
+<blockquote>
+<p><a href="https://wwd.lanzouy.com/b02dkbk7e">https://wwd.lanzouy.com/b02dkbk7e</a><br>密码: 4e2a</p>
+</blockquote>
+<p>下载后会申请一次 UAC 管理员权限，点 <code>是</code> 同意授权；</p>
+<p>接下来是说明条款，点 <code>I accept the agreement</code> 同意，并且 <code>Next</code> 下一步；</p>
+<p>这页是问要不要生成桌面快捷方式，默认下一步；</p>
+<p>点击 <code>Install</code>，安装完成后点 <code>Finish</code>，在桌面打开 StarWind V2V Converter 并同意 UAC 权限。</p>
+<h2 id="写盘"><a href="#写盘" class="headerlink" title="写盘"></a>写盘</h2><p>在软件的第一页 Select the location of the image to convert</p>
+<p>选择本地文件 <code>Local file</code> 按 <code>Next</code> 下一步；</p>
+<p>到选择要写盘的镜像 Source image 选择 File name 右边的 <code>……</code> 选择镜像并下一步；</p>
+<p>到 Select the location of the destination image 这页时选择导出的镜像到本地也就是默认的 <code>Local file</code> 下一步；</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-17/starwind-converter.png" loading="lazy"></p>
+<p>Select destination image format 这里就可以选你要导出的虚拟硬盘了</p>
+<ul>
+<li><code>vmdk </code> 是 vmware 虚拟机的虚拟硬盘文件</li>
+<li><code>vhdx</code> 是 hype-v 虚拟机的虚拟硬盘文件</li>
+<li><code>qcow2</code> 是 pve 或 kvm 虚拟机的虚拟硬盘文件</li>
+</ul>
+<br>
+
+<p>这里重点讲下 VMDK 和 VHD/VHDX；</p>
+<ul>
+<li>VMDK 的 Select option for VMDK image format 选默认的可增长硬盘空间即可或者选择第二个预分配硬盘空间这里测试使用 <code>VMware Workstation growable image</code> 是没有问题</li>
+<li>VHDX 的 Select option for VHD/VHDX image format 选第三个 <code>VHDX growable image</code> 生成 VHDX 或者默认的 VHD 也可以，没玩过 hype-v</li>
+</ul>
+<br>
+
+<p>其他的格式可以具体看 <a href="https://www.starwindsoftware.com/v2v-help/ConvertingtheLocalFile.html">官方文档</a> 不过是英文的，</p>
+<p>下一步则是 Set destination file name 在 File name 的 <code>……</code> 里可以将生成的文件放置在指定的目录，点击 Convert 开始等 Converting 跑完镜像就生成完了 点击 <code>Finish</code> 退出即可。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>登录 VMware EXSI 后台将文件上传，在侧栏点击 存储-数据存储浏览器 建议新建一个目录存放 vmdk 点击上方创建目录；</p>
+<p>目录名称随便你只要找得到就好，创建好后点击文件夹选择上载，选择好刚刚做好的虚拟硬盘 vmdk 文件上传；</p>
+<p>上传完毕关闭，新建或编辑已有虚拟机在完成其他配置后将原来的硬盘删掉，选择 <code>从数据存储删除文件</code> 然后确认返回设置；</p>
+<p>选择 添加硬盘-现有硬盘 找到刚刚创建的文件夹中的 vmdk 文件确定，确定好将控制器位置设为 <code>IDE 控制器 0</code> 即可启动 OpenWrt。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-17/vmdk-vmware.png" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>网络</category>
+      </categories>
+      <tags>
+        <tag>OpenWrt</tag>
+        <tag>软路由</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分享自己编译的OpenWrt软路由固件！</title>
+    <url>/2021/10/10/openwrtv2021.10.10/</url>
+    <content><![CDATA[<blockquote>
+<p>📣 最新版 v22.8 解决了英特尔 i225 2.5G 网卡表现不佳的问题，强烈建议使用 CatWrt v22.8</p>
+</blockquote>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>分享一个自编译 “ <code>稳定</code> <code>够用</code> <code>插件多</code> ” 的软路由OpenWrt固件。<br>目前只有 <code>x86-64</code> 的版本，固件插件够用，外带docker满足容器需求。<br>通吃旁路由，主路由，虚拟机!开箱即用。</p>
+<p>说明要看完！完整插件列表在 <code>插件</code> 段处。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-10-10/wrtluciv21.10.10.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<h1 id="默认设置"><a href="#默认设置" class="headerlink" title="默认设置"></a>默认设置</h1><p>默认分配300m给固件使用还有25m给linux内核使用<br>默认opernwrl luci后台地址: <code>192.168.1.2</code><br>账号: <code>root</code> 密码: <code>password</code></p>
+<h1 id="虚拟化-amp-分区"><a href="#虚拟化-amp-分区" class="headerlink" title="虚拟化&amp;分区"></a>虚拟化&amp;分区</h1><p>如果你是选择了虚拟化OpenWrt，你需要至少分配512m内存和512m的储存，如果设备较多开启了docker建议按照应用进行扩充运行内存和存储空间。<br>使用docker建议以G为单位越大越好，会玩的自然懂，如果没用过可以尝试分配1G安装内网speedtest，或者不分。<br>仅在vmware exsi下测试，pve和其他基于kvm未做测试但有pve和kvm的虚拟硬盘。</p>
+<p><a href="https://www.miaoer.xyz/network/openwrt-overlay">软路由Openwrt overlay分区</a></p>
+<h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><div class="success">
+
+<blockquote>
+<p>完整列表查看Github仓库，我们提供完整的插件列表您可以离线使用已编译的ipk。</p>
+</blockquote>
+</div>
+
+<p>插件仓库: <a href="https://github.com/miaoermua/catwrt">https://github.com/miaoermua/catwrt</a></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-10-10/wrtv2021.10.10.jpg" loading="lazy"></p>
+<h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><p>固件在 <code>v21.10.10/targets/x86-64</code> 中</p>
+<p><code>squashfs-combined</code> 为传统BIOS启动</p>
+<p><code>squashfs-combined-efi</code> 为UEFI启动</p>
+<p><code>iso</code> 文件建议使用 <code>IMG写盘工具</code> 或者其他写盘工具进行安装</p>
+<p><code>qcow2</code> 文件是pve或kvm虚拟机的虚拟硬盘文件</p>
+<p><code>vmdk </code>文件是vmware虚拟机的虚拟硬盘文件</p>
+<h2 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h2><p><a href="https://www.aliyundrive.com/s/v8daqMUBG2y">https://www.aliyundrive.com/s/v8daqMUBG2y</a></p>
+<p>提取码: 3pf3</p>
+<blockquote>
+<p>注: 镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。<br>如：修改前 <code>openwrt-x86-64-generic-squashfs-combined.img.exe</code> &gt; 修改后 <code>openwrt-x86-64-generic-squashfs-combined.img</code></p>
+</blockquote>
+<h2 id="天翼云盘"><a href="#天翼云盘" class="headerlink" title="天翼云盘"></a>天翼云盘</h2><p><a href="https://cloud.189.cn/web/share?code=VvAnyi3EVrmu">https://cloud.189.cn/web/share?code=VvAnyi3EVrmu</a></p>
+<p>访问码：gkm6</p>
+<h1 id="支持"><a href="#支持" class="headerlink" title="支持"></a>支持</h1><h3 id="v21-10-10"><a href="#v21-10-10" class="headerlink" title="v21.10.10"></a>v21.10.10</h3><p>开放网友下载</p>
+<p>修复 luci-theme-argon 使用jerrykuku源码编译</p>
+<h3 id="v21-8-10"><a href="#v21-8-10" class="headerlink" title="v21.8.10"></a>v21.8.10</h3><p>支持 ipv6客户端</p>
+<p>支持 vmwaretools</p>
+<p>修复 uu加速器</p>
+<p>首次编译</p>
+<h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><h3 id="怎么修改Openwrt默认后台ip地址？"><a href="#怎么修改Openwrt默认后台ip地址？" class="headerlink" title="怎么修改Openwrt默认后台ip地址？"></a>怎么修改Openwrt默认后台ip地址？</h3><p><code>vi /etc/config/network</code>在窗口修改option ipaddr中的ip地址。</p>
+<p>完成后按<code>Esc</code>，再按下<code>:</code>，在输入框中输入wq！(强制保存退出</p>
+<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code>。</p>
+<h3 id="后续会保持更新吗？"><a href="#后续会保持更新吗？" class="headerlink" title="后续会保持更新吗？"></a>后续会保持更新吗？</h3><p>会！但是得有空，出新的协议或者软件可能会尝鲜一波再发布出来，一般的插件都可以在Openwrt中进行更新操作，更新只是解决依赖，固件稳定才是最重要的。</p>
+<h3 id="你是大佬吗，可以提供帮助吗？"><a href="#你是大佬吗，可以提供帮助吗？" class="headerlink" title="你是大佬吗，可以提供帮助吗？"></a>你是大佬吗，可以提供帮助吗？</h3><p>我不是大佬，我只是分享自编译的Openwrt固件，我觉得好用够用才分享给大家，仅能提供技术访问内的帮助。</p>
+<h3 id="有Bug，怎么反馈？"><a href="#有Bug，怎么反馈？" class="headerlink" title="有Bug，怎么反馈？"></a>有Bug，怎么反馈？</h3><p>可以在评论区向我提问进行排查，openclash和passwall貌似不能用？</p>
+<p>如果你想提出更多插件请在评论区描述。</p>
+<p>如果帮助到你可以在打赏里可以选择二维码给我打赏！</p>
+]]></content>
+      <categories>
+        <category>OpenWrt</category>
+      </categories>
+      <tags>
+        <tag>OpenWrt</tag>
       </tags>
   </entry>
   <entry>
