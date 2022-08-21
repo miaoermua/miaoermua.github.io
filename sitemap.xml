@@ -319,14 +319,14 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/%E8%BD%AF%E4%BB%B6/</loc>
+    <loc>https://blog.miaoer.xyz/tags/csgo/</loc>
     <lastmod>2022-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/tags/csgo/</loc>
+    <loc>https://blog.miaoer.xyz/tags/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2022-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -503,7 +503,7 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/categories/OpenWrt/</loc>
+    <loc>https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -517,7 +517,7 @@
   </url>
   
   <url>
-    <loc>https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://blog.miaoer.xyz/categories/OpenWrt/</loc>
     <lastmod>2022-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
