@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>网页走丢了？</title>
+    <url>//404.html</url>
+    <content><![CDATA[<p>页面404了,网页走丢了？</p>
+<p>嗨，有兴趣访问我的个人主页吗？ <a href="https://www.miaoer.xyz/">好啊 ヾ(≧▽≦*)o</a></p>
+<p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>今年618我都买了些啥</title>
     <url>/2022/07/02/22-618/</url>
     <content><![CDATA[<blockquote>
@@ -65,34 +73,6 @@
 <p>编码: x265</p>
 
 <p>*视频来源B站收集小米宣传片 小米mix2s 因素材过多无来源链接，如侵犯版权请联系我</p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>视频博文</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>视频-【120帧】小米Mix Alpha宣传片</title>
-    <url>/2022/03/21/BV1QU4y1R75s/</url>
-    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
-
-<hr>
-<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1QU4y1R75s">https://www.bilibili.com/video/BV1QU4y1R75s</a></p>
-<p>试试湿滑的补帧</p>
-<h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
-<p>文件名: xiaomimixalpha.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
-<p>原分辨率: 1920*1080</p>
-<p>补帧分辨率: 1920*1080</p>
-<p>上传分辨率: 1920*1080 > 3840*2160</p>
-<p>原帧: 25fps</p>
-<p>补帧: 120fps</p>
-<p>上传帧率: 25fps x8 > 120fps</p>
-<p>码率: 15 < 20Mbps</p>
-<p>编码: x265</p>
-
-<p>*视频来源小米商城收集小米宣传片 <a href="https://www.mi.com/mixalpha">小米MixAlpha</a></p>
 ]]></content>
       <categories>
         <category>Blog</category>
@@ -364,12 +344,32 @@
       </tags>
   </entry>
   <entry>
-    <title>网页走丢了？</title>
-    <url>//404.html</url>
-    <content><![CDATA[<p>页面404了,网页走丢了？</p>
-<p>嗨，有兴趣访问我的个人主页吗？ <a href="https://www.miaoer.xyz/">好啊 ヾ(≧▽≦*)o</a></p>
-<p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
+    <title>视频-【120帧】小米Mix Alpha宣传片</title>
+    <url>/2022/03/21/BV1QU4y1R75s/</url>
+    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
+
+<hr>
+<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1QU4y1R75s">https://www.bilibili.com/video/BV1QU4y1R75s</a></p>
+<p>试试湿滑的补帧</p>
+<h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
+<p>文件名: xiaomimixalpha.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
+<p>原分辨率: 1920*1080</p>
+<p>补帧分辨率: 1920*1080</p>
+<p>上传分辨率: 1920*1080 > 3840*2160</p>
+<p>原帧: 25fps</p>
+<p>补帧: 120fps</p>
+<p>上传帧率: 25fps x8 > 120fps</p>
+<p>码率: 15 < 20Mbps</p>
+<p>编码: x265</p>
+
+<p>*视频来源小米商城收集小米宣传片 <a href="https://www.mi.com/mixalpha">小米MixAlpha</a></p>
 ]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>视频博文</tag>
+      </tags>
   </entry>
   <entry>
     <title>CSGO各种实用代码分享</title>
@@ -539,6 +539,77 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </tags>
   </entry>
   <entry>
+    <title>CatWrt-OpenWrt x86 软路由稳定固件的再一次升级</title>
+    <url>/2022/06/30/catwrt-v22.7/</url>
+    <content><![CDATA[<blockquote>
+<p>📣 最新版 v22.8 解决了英特尔 i225 2.5G 网卡表现不佳的问题，强烈建议使用 <a href="https://www.miaoer.xyz/posts/network/catwrt-v22.8">CatWrt v22.8</a></p>
+</blockquote>
+<p>在去年的10月10日，我公开发布了我编译的 OpenWrt 软路由固件，这次更新了带来了新特性和特色功能，经久耐用的固件主旁单臂都很稳定高效。</p>
+<p>基于 <a href="https://github.com/coolsnowwolf/lede">Lean 源码</a> 拉取 2022-6-28 的仓库，精心打造！</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/hello.png" loading="lazy"></p>
+<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
+<li><input checked disabled type="checkbox"> 令人惊叹的远程管理</li>
+<li><input checked disabled type="checkbox"> 完全支持 IPv6</li>
+<li><input checked disabled type="checkbox"> 智能网络加速</li>
+<li><input checked disabled type="checkbox"> 负载均衡</li>
+<li><input checked disabled type="checkbox"> Docker</li>
+</ul>
+<span id="more"></span>
+
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
+<p>用户 <code>root</code></p>
+<p>密码 <code>password</code></p>
+<blockquote>
+<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
+</blockquote>
+<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
+<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
+<p>返回后输入 <code>reboot</code> 重启。</p>
+<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/network-hide.png" loading="lazy"></p>
+<h2 id="更新预览"><a href="#更新预览" class="headerlink" title="更新预览"></a>更新预览</h2><blockquote>
+<p>查看编译时选择的插件预览 <a href="https://api.miaoer.xyz/api/v2/snippets/catwrt/package"><i class="ri-terminal-window-fill"></i> 获取</a> （不包含插件依赖）</p>
+</blockquote>
+<ul>
+<li>新增 frps，nezha-agent，argon-config，poweroff，neobird</li>
+<li>移除 过时少用定位冲突插件</li>
+<li>修复 argon，防火墙</li>
+<li>魔改主题 argon， neobird</li>
+<li>修改主机名为 <code>CatWrt</code></li>
+<li>修改默认 IP <code>192.168.1.4</code></li>
+<li>修改 banner 个性易辨别</li>
+<li>更改 linux 内核占用 25M</li>
+<li>更改 ovenlay 分区占用 300M</li>
+</ul>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
+<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
+</blockquote>
+<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.7/targets/x86/64</code><br><br></p>
+<p><code>squashfs-combined</code> 为传统 BIOS 启动</p>
+<p><code>squashfs-combined-efi</code> 为 UEFI 启动</p>
+<p><code>img</code> 文件建议使用 <a href="https://cdn.miaoer.xyz/download/22-06-29/IMG%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7.exe"><i class="ri-file-download-fill"></i> IMG写盘工具</a> 或者其他写盘工具进行安装</p>
+<p><code>qcow2</code> 文件是 pve 或 kvm 虚拟机的虚拟硬盘文件</p>
+<p><code>vhdx</code> 文件是 hype-v 虚拟机的虚拟硬盘文件</p>
+<p><code>vmdk </code>文件是 vmware 虚拟机的虚拟硬盘文件</p>
+<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
+<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
+</blockquote>
+<p>链接: <a href="https://www.aliyundrive.com/s/a3uvrWWV4xa">https://www.aliyundrive.com/s/a3uvrWWV4xa</a><br>提取码: 91tt</p>
+<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p>链接: <a href="https://cloud.189.cn/web/share?code=VzAZFjVZFBry">https://cloud.189.cn/web/share?code=VzAZFjVZFBry</a><br>访问码：ojg7</p>
+<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CKCXZggb0Y">https://caiyun.139.com/m/i?0H5CKCXZggb0Y</a><br>提取码:JHgq</p>
+<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>Tip: 固件使用 IMG 写盘工具写盘时出现多少扇区错误的，直接重启进 OpenWrt 就好。</p>
+<p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
+<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
+]]></content>
+      <categories>
+        <category>网络</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+        <tag>OpenWrt</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客更新啦</title>
     <url>/2021/12/06/blog-update/</url>
     <content><![CDATA[<h1 id="博客の变化"><a href="#博客の变化" class="headerlink" title="博客の变化"></a>博客の变化</h1><p>在今天(2021-12-6 21:09:43)，我更换了由前后端分离部署的 <a href="https://github.com/mx-space">Mix-space</a> ，可能熟悉我们原本Hexo博客的小伙伴会比较陌生，但是为了变化内容我还是写一点小白须知。</p>
@@ -613,77 +684,6 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>CatWrt-OpenWrt x86 软路由稳定固件的再一次升级</title>
-    <url>/2022/06/30/catwrt-v22.7/</url>
-    <content><![CDATA[<blockquote>
-<p>📣 最新版 v22.8 解决了英特尔 i225 2.5G 网卡表现不佳的问题，强烈建议使用 <a href="https://www.miaoer.xyz/posts/network/catwrt-v22.8">CatWrt v22.8</a></p>
-</blockquote>
-<p>在去年的10月10日，我公开发布了我编译的 OpenWrt 软路由固件，这次更新了带来了新特性和特色功能，经久耐用的固件主旁单臂都很稳定高效。</p>
-<p>基于 <a href="https://github.com/coolsnowwolf/lede">Lean 源码</a> 拉取 2022-6-28 的仓库，精心打造！</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/hello.png" loading="lazy"></p>
-<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
-<li><input checked disabled type="checkbox"> 令人惊叹的远程管理</li>
-<li><input checked disabled type="checkbox"> 完全支持 IPv6</li>
-<li><input checked disabled type="checkbox"> 智能网络加速</li>
-<li><input checked disabled type="checkbox"> 负载均衡</li>
-<li><input checked disabled type="checkbox"> Docker</li>
-</ul>
-<span id="more"></span>
-
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
-<p>用户 <code>root</code></p>
-<p>密码 <code>password</code></p>
-<blockquote>
-<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
-</blockquote>
-<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
-<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
-<p>返回后输入 <code>reboot</code> 重启。</p>
-<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/network-hide.png" loading="lazy"></p>
-<h2 id="更新预览"><a href="#更新预览" class="headerlink" title="更新预览"></a>更新预览</h2><blockquote>
-<p>查看编译时选择的插件预览 <a href="https://api.miaoer.xyz/api/v2/snippets/catwrt/package"><i class="ri-terminal-window-fill"></i> 获取</a> （不包含插件依赖）</p>
-</blockquote>
-<ul>
-<li>新增 frps，nezha-agent，argon-config，poweroff，neobird</li>
-<li>移除 过时少用定位冲突插件</li>
-<li>修复 argon，防火墙</li>
-<li>魔改主题 argon， neobird</li>
-<li>修改主机名为 <code>CatWrt</code></li>
-<li>修改默认 IP <code>192.168.1.4</code></li>
-<li>修改 banner 个性易辨别</li>
-<li>更改 linux 内核占用 25M</li>
-<li>更改 ovenlay 分区占用 300M</li>
-</ul>
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
-<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
-</blockquote>
-<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.7/targets/x86/64</code><br><br></p>
-<p><code>squashfs-combined</code> 为传统 BIOS 启动</p>
-<p><code>squashfs-combined-efi</code> 为 UEFI 启动</p>
-<p><code>img</code> 文件建议使用 <a href="https://cdn.miaoer.xyz/download/22-06-29/IMG%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7.exe"><i class="ri-file-download-fill"></i> IMG写盘工具</a> 或者其他写盘工具进行安装</p>
-<p><code>qcow2</code> 文件是 pve 或 kvm 虚拟机的虚拟硬盘文件</p>
-<p><code>vhdx</code> 文件是 hype-v 虚拟机的虚拟硬盘文件</p>
-<p><code>vmdk </code>文件是 vmware 虚拟机的虚拟硬盘文件</p>
-<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
-<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
-</blockquote>
-<p>链接: <a href="https://www.aliyundrive.com/s/a3uvrWWV4xa">https://www.aliyundrive.com/s/a3uvrWWV4xa</a><br>提取码: 91tt</p>
-<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p>链接: <a href="https://cloud.189.cn/web/share?code=VzAZFjVZFBry">https://cloud.189.cn/web/share?code=VzAZFjVZFBry</a><br>访问码：ojg7</p>
-<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CKCXZggb0Y">https://caiyun.139.com/m/i?0H5CKCXZggb0Y</a><br>提取码:JHgq</p>
-<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>Tip: 固件使用 IMG 写盘工具写盘时出现多少扇区错误的，直接重启进 OpenWrt 就好。</p>
-<p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
-<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
-]]></content>
-      <categories>
-        <category>网络</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
-        <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</title>
     <url>/2022/08/10/catwrt-v22.7-newifid2/</url>
     <content><![CDATA[<p>CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。</p>
@@ -743,76 +743,6 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>CatWrt-v22.8 固件 i225 网卡修复</title>
-    <url>/2022/08/17/catwrt-v22.8/</url>
-    <content><![CDATA[<p>在上个月发布的 OpenWrt 软路由固件出现了英特尔 i225 2.5G 网卡表现不佳的情况测速不达标断流等等问题，这次更新了带来了修复版以及一直以来的特色功能，经久耐用的固件主旁单臂都很稳定高效。</p>
-<p>基于 <a href="https://github.com/coolsnowwolf/lede">Lean 源码</a> 拉取 2022-8-11 的仓库打造！</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/hello.png" loading="lazy"></p>
-<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
-<li><input checked disabled type="checkbox"> 令人惊叹的远程管理</li>
-<li><input checked disabled type="checkbox"> 完全支持 IPv6</li>
-<li><input checked disabled type="checkbox"> 智能网络加速</li>
-<li><input checked disabled type="checkbox"> 负载均衡</li>
-<li><input checked disabled type="checkbox"> Docker</li>
-</ul>
-<span id="more"></span>
-
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
-<p>用户 <code>root</code></p>
-<p>密码 <code>password</code></p>
-<blockquote>
-<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
-</blockquote>
-<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
-<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
-<p>返回后输入 <code>reboot</code> 重启。</p>
-<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/network-hide.png" loading="lazy"></p>
-<h2 id="更新预览"><a href="#更新预览" class="headerlink" title="更新预览"></a>更新预览</h2><blockquote>
-<p>查看编译时选择的插件预览 <a href="https://api.miaoer.xyz/api/v2/snippets/catwrt/package"><i class="ri-terminal-window-fill"></i> 获取</a> （不包含插件依赖）</p>
-</blockquote>
-<ul>
-<li>修复 英特尔 i225 网卡表现不佳的问题</li>
-<li>更换 Flow Offloading 作为软路由小包加速</li>
-<li>移除 高通 Shortcut FE 软路由小包加速</li>
-<li>主题 argon 添加统一背景</li>
-<li>修改主机名为 <code>CatWrt</code></li>
-<li>修改默认 IP <code>192.168.1.4</code></li>
-<li>修改 banner 个性易辨别</li>
-<li>更改 linux 内核占用 25M</li>
-<li>更改 ovenlay 分区占用 300M</li>
-</ul>
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
-<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
-</blockquote>
-<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.8/x86/64</code><br><br></p>
-<p><code>squashfs-combined</code> 为传统 BIOS 启动</p>
-<p><code>squashfs-combined-efi</code> 为 UEFI 启动</p>
-<p>一般的推荐只需要下载 squashfs-combined 虚拟机选择传统模式启动而并非 EFI，如果不能启动请更换 UEFI 版。</p>
-<p><code>img</code> 文件建议使用 <a href="https://cdn.miaoer.xyz/download/22-06-29/IMG%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7.exe"><i class="ri-file-download-fill"></i> IMG写盘工具</a> 或者 StarWind V2V Converter 进行安装</p>
-<p><code>vmdk </code>文件是 vmware 虚拟机的虚拟硬盘文件，并非原OpenWrt源码编译出来</p>
-<p>【源码问题暂时不提供】<code>qcow2</code> 文件是 pve 或 kvm 虚拟机的虚拟硬盘文件</p>
-<p>【源码问题暂时不提供】<code>vhdx</code> 文件是 hype-v 虚拟机的虚拟硬盘文件</p>
-<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
-<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
-</blockquote>
-<p><a href="https://www.aliyundrive.com/s/4tnoewzGC6E">https://www.aliyundrive.com/s/4tnoewzGC6E</a><br>提取码: 72qy</p>
-<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p><a href="https://cloud.189.cn/web/share?code=jqYVR363iay2">https://cloud.189.cn/web/share?code=jqYVR363iay2</a><br>访问码: 5pqg</p>
-<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CIa4CF0qYt">https://caiyun.139.com/m/i?0H5CIa4CF0qYt</a><br>提取码: sTFE</p>
-<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>Tip: 固件使用 IMG 写盘工具写盘时出现多少扇区错误的，直接重启进 OpenWrt 就好。</p>
-<p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
-<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
-]]></content>
-      <categories>
-        <category>网络</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
-        <tag>OpenWrt</tag>
-        <tag>CatWrt</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>拆卸AMD散热器，清灰</title>
     <url>/2022/01/19/clean-amd-heatsink/</url>
     <content><![CDATA[<p>今天闲着没事做给<a href="https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600">续集</a>上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。</p>
@@ -866,33 +796,6 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       <tags>
         <tag>电脑</tag>
         <tag>装机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一次用 pfSense</title>
-    <url>/2022/04/29/first-pfsense/</url>
-    <content><![CDATA[<p>在用过 Router OS 和爱快后我盯上了老外爱玩的 pfSense 拿来完成基本网络应用，在 <a href="https://www.pfsense.org/">pfSense官网</a> 中选择新加坡节点下载非常快，pfSense 是基于 FreeBSD 免费开源的系统；</p>
-<p>我给 pfSense 在 EXSI 虚拟机中分配了 2核2线程CPU 、 512M RAM 、 2G 硬盘(SATA控制器)，在经过基础安装后，设置好网卡，静态 ip，开启 http 后台……</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-04-29/pfsense-dash.png" loading="lazy"></p>
-<span id="more"></span>
-
-<p>到了 pfSense 最难配置的地方，我先设置好 Wan 口的 PPPoE 拨号、设置 DHCP server、DNS缓存、UPNP</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-04-29/dnscache.png" loading="lazy"></p>
-<p>哦对了如果你是多网口软路由你会在这里设置一次网桥 (interfaces_bridge) 需要将 Lan 设置成员接口将opt1 opt2 opt3…… 桥接起来，还需要关闭二级隔离 (系统/高级选项/系统可调参数)</p>
-<pre class="language-none"><code class="language-none">net.link.bridge.pfil_member &#x3D;1  ##  Packet filter on the member interface
-net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</code></pre>
-
-<p>因为家里是广移，我需要开启 IPv6 <del>(IPv6推进员)</del>大概是把 IPv6 的防火墙打开 放行<code>IPv6 ICMP/TCP</code> 放行Lan口<code>IPv6 UDP 53</code>端口，设置 Lan 口 IPv6 配置类型 <code>跟踪端口</code>为 Wan，设置 Wan 口 使用IPv4为父接口 <code>通过IPv4连接链路请求IPv6前缀/信息</code>，DHCPv6 服务<code>Enable DHCPv6 server on interface LAN</code>，路由模式 <code>已管理 - RA标志[managed, other stateful]，前缀标志[onlink，router]</code> 没记错应该就这些我也是看别人博客怎么打开的因为太过复杂……</p>
-<p>还有就是他的插件也是比较的少的比起 OpenWrt 少远了不过，还能套 ssl，iperf3，open-vmware-tools……，这个系统优点就是强大的防火墙功能，<del>上面是防火墙白搭系列</del></p>
-<p>这里就不做演示了，我个人认为这个系统是比较难的但是基础的比 RouterOS 简单，只不过步骤烦多非常不人性化……</p>
-<p>稳定、安全、高效才是王道。(●’◡’●)</p>
-<p>安装视频参考: <a href="https://www.youtube.com/c/VedioTalk">VedioTalk</a></p>
-]]></content>
-      <categories>
-        <category>网络</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
       </tags>
   </entry>
   <entry>
@@ -1145,6 +1048,103 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>电脑</tag>
         <tag>视频博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一次用 pfSense</title>
+    <url>/2022/04/29/first-pfsense/</url>
+    <content><![CDATA[<p>在用过 Router OS 和爱快后我盯上了老外爱玩的 pfSense 拿来完成基本网络应用，在 <a href="https://www.pfsense.org/">pfSense官网</a> 中选择新加坡节点下载非常快，pfSense 是基于 FreeBSD 免费开源的系统；</p>
+<p>我给 pfSense 在 EXSI 虚拟机中分配了 2核2线程CPU 、 512M RAM 、 2G 硬盘(SATA控制器)，在经过基础安装后，设置好网卡，静态 ip，开启 http 后台……</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-04-29/pfsense-dash.png" loading="lazy"></p>
+<span id="more"></span>
+
+<p>到了 pfSense 最难配置的地方，我先设置好 Wan 口的 PPPoE 拨号、设置 DHCP server、DNS缓存、UPNP</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-04-29/dnscache.png" loading="lazy"></p>
+<p>哦对了如果你是多网口软路由你会在这里设置一次网桥 (interfaces_bridge) 需要将 Lan 设置成员接口将opt1 opt2 opt3…… 桥接起来，还需要关闭二级隔离 (系统/高级选项/系统可调参数)</p>
+<pre class="language-none"><code class="language-none">net.link.bridge.pfil_member &#x3D;1  ##  Packet filter on the member interface
+net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</code></pre>
+
+<p>因为家里是广移，我需要开启 IPv6 <del>(IPv6推进员)</del>大概是把 IPv6 的防火墙打开 放行<code>IPv6 ICMP/TCP</code> 放行Lan口<code>IPv6 UDP 53</code>端口，设置 Lan 口 IPv6 配置类型 <code>跟踪端口</code>为 Wan，设置 Wan 口 使用IPv4为父接口 <code>通过IPv4连接链路请求IPv6前缀/信息</code>，DHCPv6 服务<code>Enable DHCPv6 server on interface LAN</code>，路由模式 <code>已管理 - RA标志[managed, other stateful]，前缀标志[onlink，router]</code> 没记错应该就这些我也是看别人博客怎么打开的因为太过复杂……</p>
+<p>还有就是他的插件也是比较的少的比起 OpenWrt 少远了不过，还能套 ssl，iperf3，open-vmware-tools……，这个系统优点就是强大的防火墙功能，<del>上面是防火墙白搭系列</del></p>
+<p>这里就不做演示了，我个人认为这个系统是比较难的但是基础的比 RouterOS 简单，只不过步骤烦多非常不人性化……</p>
+<p>稳定、安全、高效才是王道。(●’◡’●)</p>
+<p>安装视频参考: <a href="https://www.youtube.com/c/VedioTalk">VedioTalk</a></p>
+]]></content>
+      <categories>
+        <category>网络</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CatWrt-v22.8 固件 i225 网卡修复</title>
+    <url>/2022/08/17/catwrt-v22.8/</url>
+    <content><![CDATA[<p>在上个月发布的 OpenWrt 软路由固件出现了英特尔 i225 2.5G 网卡表现不佳的情况测速不达标断流等等问题，这次更新了带来了修复版以及一直以来的特色功能，经久耐用的固件主旁单臂都很稳定高效。</p>
+<p>基于 <a href="https://github.com/coolsnowwolf/lede">Lean 源码</a> 拉取 2022-8-11 的仓库打造！</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/hello.png" loading="lazy"></p>
+<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
+<li><input checked disabled type="checkbox"> 令人惊叹的远程管理</li>
+<li><input checked disabled type="checkbox"> 完全支持 IPv6</li>
+<li><input checked disabled type="checkbox"> 智能网络加速</li>
+<li><input checked disabled type="checkbox"> 负载均衡</li>
+<li><input checked disabled type="checkbox"> Docker</li>
+</ul>
+<span id="more"></span>
+
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
+<p>用户 <code>root</code></p>
+<p>密码 <code>password</code></p>
+<blockquote>
+<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
+</blockquote>
+<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
+<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
+<p>返回后输入 <code>reboot</code> 重启。</p>
+<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/network-hide.png" loading="lazy"></p>
+<h2 id="更新预览"><a href="#更新预览" class="headerlink" title="更新预览"></a>更新预览</h2><blockquote>
+<p>查看编译时选择的插件预览 <a href="https://api.miaoer.xyz/api/v2/snippets/catwrt/package"><i class="ri-terminal-window-fill"></i> 获取</a> （不包含插件依赖）</p>
+</blockquote>
+<ul>
+<li>修复 英特尔 i225 网卡表现不佳的问题</li>
+<li>更换 Flow Offloading 作为软路由小包加速</li>
+<li>移除 高通 Shortcut FE 软路由小包加速</li>
+<li>主题 argon 添加统一背景</li>
+<li>修改主机名为 <code>CatWrt</code></li>
+<li>修改默认 IP <code>192.168.1.4</code></li>
+<li>修改 banner 个性易辨别</li>
+<li>更改 linux 内核占用 25M</li>
+<li>更改 ovenlay 分区占用 300M</li>
+</ul>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
+<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
+</blockquote>
+<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.8/x86/64</code><br><br></p>
+<p><code>squashfs-combined</code> 为传统 BIOS 启动</p>
+<p><code>squashfs-combined-efi</code> 为 UEFI 启动</p>
+<p>一般的推荐只需要下载 squashfs-combined 虚拟机选择传统模式启动而并非 EFI，如果不能启动请更换 UEFI 版。</p>
+<p><code>img</code> 文件建议使用 <a href="https://cdn.miaoer.xyz/download/22-06-29/IMG%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7.exe"><i class="ri-file-download-fill"></i> IMG写盘工具</a> 或者 StarWind V2V Converter 进行安装</p>
+<p><code>vmdk </code>文件是 vmware 虚拟机的虚拟硬盘文件，并非原OpenWrt源码编译出来</p>
+<p>【源码问题暂时不提供】<code>qcow2</code> 文件是 pve 或 kvm 虚拟机的虚拟硬盘文件</p>
+<p>【源码问题暂时不提供】<code>vhdx</code> 文件是 hype-v 虚拟机的虚拟硬盘文件</p>
+<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
+<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
+</blockquote>
+<p><a href="https://www.aliyundrive.com/s/4tnoewzGC6E">https://www.aliyundrive.com/s/4tnoewzGC6E</a><br>提取码: 72qy</p>
+<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p><a href="https://cloud.189.cn/web/share?code=jqYVR363iay2">https://cloud.189.cn/web/share?code=jqYVR363iay2</a><br>访问码: 5pqg</p>
+<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CIa4CF0qYt">https://caiyun.139.com/m/i?0H5CIa4CF0qYt</a><br>提取码: sTFE</p>
+<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>Tip: 固件使用 IMG 写盘工具写盘时出现多少扇区错误的，直接重启进 OpenWrt 就好。</p>
+<p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
+<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
+]]></content>
+      <categories>
+        <category>网络</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+        <tag>OpenWrt</tag>
+        <tag>CatWrt</tag>
       </tags>
   </entry>
   <entry>
@@ -1491,6 +1491,17 @@ cd mx-space&#x2F;server</code></pre>
       </tags>
   </entry>
   <entry>
+    <title>在两者之间选择</title>
+    <url>/2021/11/30/newblog/</url>
+    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/images/nowblog.png" loading="lazy"></p>
+<span id="more"></span>
+
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+  </entry>
+  <entry>
     <title>【推荐】洗鞋神器-污渍干洗剂</title>
     <url>/2022/01/31/nianba-ganxi/</url>
     <content><![CDATA[<blockquote>
@@ -1518,15 +1529,48 @@ cd mx-space&#x2F;server</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>在两者之间选择</title>
-    <url>/2021/11/30/newblog/</url>
-    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/images/nowblog.png" loading="lazy"></p>
+    <title>给 Openwrt 套 SSL 证书</title>
+    <url>/2022/05/10/openwrt-ssl/</url>
+    <content><![CDATA[<blockquote>
+<p>没什么卵用内网看着爽，外网就不一定了。</p>
+</blockquote>
+<p>给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL，测的时候随手编译了默认以https访问的，正式版没用内网也启用感觉差点意思；</p>
+<p>浅见的随便写写吧。</p>
+<p>给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png" loading="lazy"></p>
+<p>下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 <code>.key</code> 和 证书 <code>.crt</code></p>
+<p>用固件自带的 系统-文件管理 随便找一个地方放我这里选择 <code>/www</code>，上传文件俩文件 选择解压的位置 执行上传。</p>
+<p>用命令检查一下是否上传成功 <code>cd /www &amp;&amp; ls</code></p>
 <span id="more"></span>
 
+<p>固件没有文件管理可以使用你趁手的 ssh 工具 scp 上传；这里演示 Windows 终端的命令 <code>scp C:\Users\【用户】\Desktop\****.crt root@192.168.1.1:/www</code> 仅供参考哦。</p>
+<p>用vim 修改 <code>vi /etc/config/uhttpd</code></p>
+<pre class="language-none"><code class="language-none">config uhttpd &#39;main&#39;
+        list listen_http &#39;0.0.0.0:80&#39;
+        list listen_http &#39;[::]:80&#39;
+        list listen_https &#39;0.0.0.0:443&#39;
+        list listen_https &#39;[::]:443&#39;
+        option redirect_https &#39;0&#39;
+        option home &#39;&#x2F;www&#39;
+        option rfc1918_filter &#39;1&#39;
+        option max_connections &#39;100&#39;
+        option cert &#39;&#x2F;etc&#x2F;uhttpd.crt&#39;
+        option key &#39;&#x2F;etc&#x2F;uhttpd.key&#39;
+</code></pre>
+
+<p>将 <code>option cert &#39;/etc/uhttpd.crt&#39;</code> 中的 <code>/etc/uhttpd.crt</code> 替换为 <code>/www/****.crt</code><br>将 <code>option cert &#39;/etc/uhttpd.key&#39;</code> 中的 <code>/etc/uhttpd.key</code> 替换为 <code>/www/****.key</code></p>
+<p>如果你有公网 ip 可以看看运营商有没有封锁 443 端口如果有将 443 改为你喜欢的端口并且把 <code>list listen_https &#39;0.0.0.0:443&#39;</code> 中的 <code>&#39;0.0.0.0:443</code> 替换为你喜欢的端口。</p>
+<p>保存 Esc，Shift + ;(:) 输入 wq 退出 vim （<code>:wq</code>）</p>
+<p>接着重启 uhttpd <code>/etc/init.d/uhttpd restart</code></p>
+<p>内网和外网都测试一遍吧，记得做好端口映射、DDNS 域名解析；广移 IPv6 没有限制 443 可以正常访问。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/openwrt-ssl.png" loading="lazy"></p>
 ]]></content>
       <categories>
-        <category>Blog</category>
+        <category>软路由</category>
       </categories>
+      <tags>
+        <tag>OpenWrt</tag>
+      </tags>
   </entry>
   <entry>
     <title>软路由Openwrt overlay分区</title>
@@ -1623,50 +1667,6 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       </tags>
   </entry>
   <entry>
-    <title>给 Openwrt 套 SSL 证书</title>
-    <url>/2022/05/10/openwrt-ssl/</url>
-    <content><![CDATA[<blockquote>
-<p>没什么卵用内网看着爽，外网就不一定了。</p>
-</blockquote>
-<p>给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL，测的时候随手编译了默认以https访问的，正式版没用内网也启用感觉差点意思；</p>
-<p>浅见的随便写写吧。</p>
-<p>给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png" loading="lazy"></p>
-<p>下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 <code>.key</code> 和 证书 <code>.crt</code></p>
-<p>用固件自带的 系统-文件管理 随便找一个地方放我这里选择 <code>/www</code>，上传文件俩文件 选择解压的位置 执行上传。</p>
-<p>用命令检查一下是否上传成功 <code>cd /www &amp;&amp; ls</code></p>
-<span id="more"></span>
-
-<p>固件没有文件管理可以使用你趁手的 ssh 工具 scp 上传；这里演示 Windows 终端的命令 <code>scp C:\Users\【用户】\Desktop\****.crt root@192.168.1.1:/www</code> 仅供参考哦。</p>
-<p>用vim 修改 <code>vi /etc/config/uhttpd</code></p>
-<pre class="language-none"><code class="language-none">config uhttpd &#39;main&#39;
-        list listen_http &#39;0.0.0.0:80&#39;
-        list listen_http &#39;[::]:80&#39;
-        list listen_https &#39;0.0.0.0:443&#39;
-        list listen_https &#39;[::]:443&#39;
-        option redirect_https &#39;0&#39;
-        option home &#39;&#x2F;www&#39;
-        option rfc1918_filter &#39;1&#39;
-        option max_connections &#39;100&#39;
-        option cert &#39;&#x2F;etc&#x2F;uhttpd.crt&#39;
-        option key &#39;&#x2F;etc&#x2F;uhttpd.key&#39;
-</code></pre>
-
-<p>将 <code>option cert &#39;/etc/uhttpd.crt&#39;</code> 中的 <code>/etc/uhttpd.crt</code> 替换为 <code>/www/****.crt</code><br>将 <code>option cert &#39;/etc/uhttpd.key&#39;</code> 中的 <code>/etc/uhttpd.key</code> 替换为 <code>/www/****.key</code></p>
-<p>如果你有公网 ip 可以看看运营商有没有封锁 443 端口如果有将 443 改为你喜欢的端口并且把 <code>list listen_https &#39;0.0.0.0:443&#39;</code> 中的 <code>&#39;0.0.0.0:443</code> 替换为你喜欢的端口。</p>
-<p>保存 Esc，Shift + ;(:) 输入 wq 退出 vim （<code>:wq</code>）</p>
-<p>接着重启 uhttpd <code>/etc/init.d/uhttpd restart</code></p>
-<p>内网和外网都测试一遍吧，记得做好端口映射、DDNS 域名解析；广移 IPv6 没有限制 443 可以正常访问。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/openwrt-ssl.png" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>软路由</category>
-      </categories>
-      <tags>
-        <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>分享自己编译的OpenWrt软路由固件！</title>
     <url>/2021/10/10/openwrtv2021.10.10/</url>
     <content><![CDATA[<blockquote>
@@ -1725,6 +1725,15 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       </tags>
   </entry>
   <entry>
+    <title>test</title>
+    <url>/2020/08/12/test/</url>
+    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
+<ul>
+<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
     <url>/2021/10/02/optimize-windows-menu/</url>
     <content><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p>
@@ -1768,6 +1777,44 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       </categories>
       <tags>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小米10换电池再再钉子户</title>
+    <url>/2022/05/22/xiaomi10-battey/</url>
+    <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
+<h2 id="更换"><a href="#更换" class="headerlink" title="更换"></a>更换</h2><p>包裹里除了电池有B7000胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。<del>因为这样流下来的？</del></p>
+<p>关机后取出卡托（</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>电池本体也和拆下的原装电池也无明显差别，比如字体不同，字号不致</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey.jpg" loading="lazy"></p>
+<p>对后盖进行加热后轻轻撬起后盖缝隙大的地方，我这里是摄像头和红外的位置，沿缝隙慢慢划开内侧密封胶，然后用一个翘片顶着缝隙再去另外旁边翘起缝隙，我看到翘片撬出的白色胶水我挺慌的，因为我买的二手机，我以前拆小米手机的时候没有见过白色的密封胶。</p>
+<p>这里我翻车了，太着急插入翘片受力点在摄像头那边爆了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/dismantling.jpg" loading="lazy"></p>
+<p>拆开可以看到NFC和无线充电线圈的散热？？，将左右扬声器的？？沿主板撕开即可见到螺丝，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/point.jpg" loading="lazy"></p>
+<p>一手拿起屏蔽罩，用撬棒翘起电池排线断电；这里我把扬声器的 btb 不小心拔了出来。</p>
+<p>按照电池的说明卸下电池；先撕开 A 和 B 然后拉起 A，电池很轻松拿出来，取出后把电池上的易拉胶？电池中框上的电池贴纸撕下</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/yilajiao.jpg" loading="lazy"></p>
+<p>将新的电池对好位置贴上，扣上电池排线的btb 简单的扣好主板屏蔽罩和NFC无线充电线圈开机测试。 (此处没贴送的电池背胶)</p>
+<p>开机点亮显示 50% 电量，测试扬声器，无线充电NFC，振动，和有线27w快充；用创建快捷方式找到电池续航，剩余电池实际容量正常了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/Screenshot.png" loading="lazy"></p>
+<p>电池续航为 MIUI13 内置有点像 AccuBattery)))</p>
+<blockquote>
+<p>这是用了半个月的，感觉不是太准确……<br>实际上从以前的一天三充到一天两充，而且用起来会比较安心，仅供参考。</p>
+</blockquote>
+<p>随后关机检查还有什么没扣上便安装上屏蔽罩，不要大力出奇迹~不要问我是怎么知道的</p>
+<p>稍微摆平NFC线圈安装上后盖，因为后盖爆了我就没打胶了后面方便更换，即便是没打胶缝隙也不是太大和拆机前无差。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/lie.jpg" loading="lazy"></p>
+<p>可惜这次爆了盖，哭唧唧。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>搞机</tag>
       </tags>
   </entry>
   <entry>
@@ -1832,105 +1879,6 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       </categories>
       <tags>
         <tag>软路由</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>StarWind V2V Converter 写盘教程</title>
-    <url>/2022/08/17/starwind-converter/</url>
-    <content><![CDATA[<p>在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启；</p>
-<p>但使用 StarWind V2V Converter 虚拟机写盘软件则不会有这个问题，所以我写了这篇博文。</p>
-<span id="more"></span>
-
-<h2 id="下载并安装"><a href="#下载并安装" class="headerlink" title="下载并安装"></a>下载并安装</h2><p>StarWind V2V Converter 下载可以去他的官网下载，</p>
-<p>这里也提供蓝奏云下载链接。</p>
-<blockquote>
-<p><a href="https://wwd.lanzouy.com/b02dkbk7e">https://wwd.lanzouy.com/b02dkbk7e</a><br>密码: 4e2a</p>
-</blockquote>
-<p>下载后会申请一次 UAC 管理员权限，点 <code>是</code> 同意授权；</p>
-<p>接下来是说明条款，点 <code>I accept the agreement</code> 同意，并且 <code>Next</code> 下一步；</p>
-<p>这页是问要不要生成桌面快捷方式，默认下一步；</p>
-<p>点击 <code>Install</code>，安装完成后点 <code>Finish</code>，在桌面打开 StarWind V2V Converter 并同意 UAC 权限。</p>
-<h2 id="写盘"><a href="#写盘" class="headerlink" title="写盘"></a>写盘</h2><p>在软件的第一页 Select the location of the image to convert</p>
-<p>选择本地文件 <code>Local file</code> 按 <code>Next</code> 下一步；</p>
-<p>到选择要写盘的镜像 Source image 选择 File name 右边的 <code>……</code> 选择镜像并下一步；</p>
-<p>到 Select the location of the destination image 这页时选择导出的镜像到本地也就是默认的 <code>Local file</code> 下一步；</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-17/starwind-converter.png" loading="lazy"></p>
-<p>Select destination image format 这里就可以选你要导出的虚拟硬盘了</p>
-<ul>
-<li><code>vmdk </code> 是 vmware 虚拟机的虚拟硬盘文件</li>
-<li><code>vhdx</code> 是 hype-v 虚拟机的虚拟硬盘文件</li>
-<li><code>qcow2</code> 是 pve 或 kvm 虚拟机的虚拟硬盘文件</li>
-</ul>
-<br>
-
-<p>这里重点讲下 VMDK 和 VHD/VHDX；</p>
-<ul>
-<li>VMDK 的 Select option for VMDK image format 选默认的可增长硬盘空间即可或者选择第二个预分配硬盘空间这里测试使用 <code>VMware Workstation growable image</code> 是没有问题</li>
-<li>VHDX 的 Select option for VHD/VHDX image format 选第三个 <code>VHDX growable image</code> 生成 VHDX 或者默认的 VHD 也可以，没玩过 hype-v</li>
-</ul>
-<br>
-
-<p>其他的格式可以具体看 <a href="https://www.starwindsoftware.com/v2v-help/ConvertingtheLocalFile.html">官方文档</a> 不过是英文的，</p>
-<p>下一步则是 Set destination file name 在 File name 的 <code>……</code> 里可以将生成的文件放置在指定的目录，点击 Convert 开始等 Converting 跑完镜像就生成完了 点击 <code>Finish</code> 退出即可。</p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>登录 VMware EXSI 后台将文件上传，在侧栏点击 存储-数据存储浏览器 建议新建一个目录存放 vmdk 点击上方创建目录；</p>
-<p>目录名称随便你只要找得到就好，创建好后点击文件夹选择上载，选择好刚刚做好的虚拟硬盘 vmdk 文件上传；</p>
-<p>上传完毕关闭，新建或编辑已有虚拟机在完成其他配置后将原来的硬盘删掉，选择 <code>从数据存储删除文件</code> 然后确认返回设置；</p>
-<p>选择 添加硬盘-现有硬盘 找到刚刚创建的文件夹中的 vmdk 文件确定，确定好将控制器位置设为 <code>IDE 控制器 0</code> 即可启动 OpenWrt。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-17/vmdk-vmware.png" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>网络</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
-        <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2020/08/12/test/</url>
-    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
-<ul>
-<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>小米10换电池再再钉子户</title>
-    <url>/2022/05/22/xiaomi10-battey/</url>
-    <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
-<h2 id="更换"><a href="#更换" class="headerlink" title="更换"></a>更换</h2><p>包裹里除了电池有B7000胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。<del>因为这样流下来的？</del></p>
-<p>关机后取出卡托（</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>电池本体也和拆下的原装电池也无明显差别，比如字体不同，字号不致</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey.jpg" loading="lazy"></p>
-<p>对后盖进行加热后轻轻撬起后盖缝隙大的地方，我这里是摄像头和红外的位置，沿缝隙慢慢划开内侧密封胶，然后用一个翘片顶着缝隙再去另外旁边翘起缝隙，我看到翘片撬出的白色胶水我挺慌的，因为我买的二手机，我以前拆小米手机的时候没有见过白色的密封胶。</p>
-<p>这里我翻车了，太着急插入翘片受力点在摄像头那边爆了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/dismantling.jpg" loading="lazy"></p>
-<p>拆开可以看到NFC和无线充电线圈的散热？？，将左右扬声器的？？沿主板撕开即可见到螺丝，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/point.jpg" loading="lazy"></p>
-<p>一手拿起屏蔽罩，用撬棒翘起电池排线断电；这里我把扬声器的 btb 不小心拔了出来。</p>
-<p>按照电池的说明卸下电池；先撕开 A 和 B 然后拉起 A，电池很轻松拿出来，取出后把电池上的易拉胶？电池中框上的电池贴纸撕下</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/yilajiao.jpg" loading="lazy"></p>
-<p>将新的电池对好位置贴上，扣上电池排线的btb 简单的扣好主板屏蔽罩和NFC无线充电线圈开机测试。 (此处没贴送的电池背胶)</p>
-<p>开机点亮显示 50% 电量，测试扬声器，无线充电NFC，振动，和有线27w快充；用创建快捷方式找到电池续航，剩余电池实际容量正常了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/Screenshot.png" loading="lazy"></p>
-<p>电池续航为 MIUI13 内置有点像 AccuBattery)))</p>
-<blockquote>
-<p>这是用了半个月的，感觉不是太准确……<br>实际上从以前的一天三充到一天两充，而且用起来会比较安心，仅供参考。</p>
-</blockquote>
-<p>随后关机检查还有什么没扣上便安装上屏蔽罩，不要大力出奇迹~不要问我是怎么知道的</p>
-<p>稍微摆平NFC线圈安装上后盖，因为后盖爆了我就没打胶了后面方便更换，即便是没打胶缝隙也不是太大和拆机前无差。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/lie.jpg" loading="lazy"></p>
-<p>可惜这次爆了盖，哭唧唧。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>搞机</tag>
       </tags>
   </entry>
   <entry>
@@ -2493,6 +2441,58 @@ make<span class="token punctuation">[</span><span class="token number">1</span><
       </categories>
       <tags>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>StarWind V2V Converter 写盘教程</title>
+    <url>/2022/08/17/starwind-converter/</url>
+    <content><![CDATA[<p>在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启；</p>
+<p>但使用 StarWind V2V Converter 虚拟机写盘软件则不会有这个问题，所以我写了这篇博文。</p>
+<span id="more"></span>
+
+<h2 id="下载并安装"><a href="#下载并安装" class="headerlink" title="下载并安装"></a>下载并安装</h2><p>StarWind V2V Converter 下载可以去他的官网下载，</p>
+<p>这里也提供蓝奏云下载链接。</p>
+<blockquote>
+<p><a href="https://wwd.lanzouy.com/b02dkbk7e">https://wwd.lanzouy.com/b02dkbk7e</a><br>密码: 4e2a</p>
+</blockquote>
+<p>下载后会申请一次 UAC 管理员权限，点 <code>是</code> 同意授权；</p>
+<p>接下来是说明条款，点 <code>I accept the agreement</code> 同意，并且 <code>Next</code> 下一步；</p>
+<p>这页是问要不要生成桌面快捷方式，默认下一步；</p>
+<p>点击 <code>Install</code>，安装完成后点 <code>Finish</code>，在桌面打开 StarWind V2V Converter 并同意 UAC 权限。</p>
+<h2 id="写盘"><a href="#写盘" class="headerlink" title="写盘"></a>写盘</h2><p>在软件的第一页 Select the location of the image to convert</p>
+<p>选择本地文件 <code>Local file</code> 按 <code>Next</code> 下一步；</p>
+<p>到选择要写盘的镜像 Source image 选择 File name 右边的 <code>……</code> 选择镜像并下一步；</p>
+<p>到 Select the location of the destination image 这页时选择导出的镜像到本地也就是默认的 <code>Local file</code> 下一步；</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-17/starwind-converter.png" loading="lazy"></p>
+<p>Select destination image format 这里就可以选你要导出的虚拟硬盘了</p>
+<ul>
+<li><code>vmdk </code> 是 vmware 虚拟机的虚拟硬盘文件</li>
+<li><code>vhdx</code> 是 hype-v 虚拟机的虚拟硬盘文件</li>
+<li><code>qcow2</code> 是 pve 或 kvm 虚拟机的虚拟硬盘文件</li>
+</ul>
+<br>
+
+<p>这里重点讲下 VMDK 和 VHD/VHDX；</p>
+<ul>
+<li>VMDK 的 Select option for VMDK image format 选默认的可增长硬盘空间即可或者选择第二个预分配硬盘空间这里测试使用 <code>VMware Workstation growable image</code> 是没有问题</li>
+<li>VHDX 的 Select option for VHD/VHDX image format 选第三个 <code>VHDX growable image</code> 生成 VHDX 或者默认的 VHD 也可以，没玩过 hype-v</li>
+</ul>
+<br>
+
+<p>其他的格式可以具体看 <a href="https://www.starwindsoftware.com/v2v-help/ConvertingtheLocalFile.html">官方文档</a> 不过是英文的，</p>
+<p>下一步则是 Set destination file name 在 File name 的 <code>……</code> 里可以将生成的文件放置在指定的目录，点击 Convert 开始等 Converting 跑完镜像就生成完了 点击 <code>Finish</code> 退出即可。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>登录 VMware EXSI 后台将文件上传，在侧栏点击 存储-数据存储浏览器 建议新建一个目录存放 vmdk 点击上方创建目录；</p>
+<p>目录名称随便你只要找得到就好，创建好后点击文件夹选择上载，选择好刚刚做好的虚拟硬盘 vmdk 文件上传；</p>
+<p>上传完毕关闭，新建或编辑已有虚拟机在完成其他配置后将原来的硬盘删掉，选择 <code>从数据存储删除文件</code> 然后确认返回设置；</p>
+<p>选择 添加硬盘-现有硬盘 找到刚刚创建的文件夹中的 vmdk 文件确定，确定好将控制器位置设为 <code>IDE 控制器 0</code> 即可启动 OpenWrt。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-17/vmdk-vmware.png" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>网络</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+        <tag>OpenWrt</tag>
       </tags>
   </entry>
 </search>
