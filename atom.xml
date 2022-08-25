@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>喵二の小博客</title>
+  <title>喵二‘s Blog</title>
   <icon>https://www.miaoer.xyz/weblogo.png</icon>
   <subtitle>缘，妙不可言</subtitle>
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
