@@ -40,11 +40,11 @@
     <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
     <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
     
     <category term="CatWrt" scheme="https://blog.miaoer.xyz/tags/CatWrt/"/>
-    
-    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
   </entry>
   
@@ -64,9 +64,9 @@
     <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
-    
     <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
     
   </entry>
   
@@ -92,11 +92,11 @@
     <category term="硬路由" scheme="https://blog.miaoer.xyz/categories/%E7%A1%AC%E8%B7%AF%E7%94%B1/"/>
     
     
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
     <category term="硬路由" scheme="https://blog.miaoer.xyz/tags/%E7%A1%AC%E8%B7%AF%E7%94%B1/"/>
     
     <category term="固件" scheme="https://blog.miaoer.xyz/tags/%E5%9B%BA%E4%BB%B6/"/>
-    
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
     
   </entry>
   
@@ -155,9 +155,9 @@
     <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
-    
     <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
     
   </entry>
   
