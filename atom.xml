@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-08-17T10:07:57.701Z</updated>
+  <updated>2021-12-30T14:58:06.002Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -17,159 +17,188 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>CatWrt-v22.8 固件 i225 网卡修复</title>
-    <link href="https://blog.miaoer.xyz/2022/08/17/catwrt-v22.8/"/>
-    <id>https://blog.miaoer.xyz/2022/08/17/catwrt-v22.8/</id>
-    <published>2022-08-17T10:07:35.000Z</published>
-    <updated>2022-08-17T10:07:57.701Z</updated>
+    <title>海外转移国内服务器的坑</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</id>
+    <published>2022-09-06T14:47:54.737Z</published>
+    <updated>2021-12-30T14:58:06.002Z</updated>
     
     
-    <summary type="html">&lt;p&gt;在上个月发布的 OpenWrt 软路由固件出现了英特尔 i225 2.5G 网卡表现不佳的情况测速不达标断流等等问题，这次更新了带来了修复版以及一直以来的特色功能，经久耐用的固件主旁单臂都很稳定高效。&lt;/p&gt;
-&lt;p&gt;基于 &lt;a href=&quot;https://github.com/coolsnowwolf/lede&quot;&gt;Lean 源码&lt;/a&gt; 拉取 2022-8-11 的仓库打造！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-06-29/hello.png&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;特色功能&quot;&gt;&lt;a href=&quot;#特色功能&quot; class=&quot;headerlink&quot; title=&quot;特色功能&quot;&gt;&lt;/a&gt;特色功能&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 令人惊叹的远程管理&lt;/li&gt;
-&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 完全支持 IPv6&lt;/li&gt;
-&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 智能网络加速&lt;/li&gt;
-&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 负载均衡&lt;/li&gt;
-&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; Docker&lt;/li&gt;
-&lt;/ul&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/lp-meme.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;前几天在阿里云上买了一台轻量应用的云服务器，准备要搭建我的博客的，结果…&lt;/p&gt;
+&lt;p&gt;拿到机器先Ping了一下延迟，还行深圳到广州也就12ms左右，日本亚马逊的80ms左右&lt;/p&gt;
+&lt;p&gt;就兴冲冲的去安装稍微有点熟悉的宝塔面板，那时候日本的服务器检查抽风挂逼没来得及对着抄配置，就搭好了，结果电脑上的chrome显示404进不去？折腾半天还是上日本的服务器看看结果又能进去了…一通操作猛如虎，还是404纳闷了，检查了宝塔和cloudflare正确啊，然后用手机输上域名好家伙直接显示我没有备案…然而大意了，傻乎乎的就买入了国内的服务器，没办法那就实名呗，大不了删一点内容&lt;/p&gt;</summary>
     
     
     
-    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
-    
-    
-    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
-    
-    <category term="CatWrt" scheme="https://blog.miaoer.xyz/tags/CatWrt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>StarWind V2V Converter 写盘教程</title>
-    <link href="https://blog.miaoer.xyz/2022/08/17/starwind-converter/"/>
-    <id>https://blog.miaoer.xyz/2022/08/17/starwind-converter/</id>
-    <published>2022-08-17T09:29:24.000Z</published>
-    <updated>2022-08-17T09:29:30.968Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启；&lt;/p&gt;
-&lt;p&gt;但使用 StarWind V2V Converter 虚拟机写盘软件则不会有这个问题，所以我写了这篇博文。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
-    
-    
-    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</title>
-    <link href="https://blog.miaoer.xyz/2022/08/10/catwrt-v22.7-newifid2/"/>
-    <id>https://blog.miaoer.xyz/2022/08/10/catwrt-v22.7-newifid2/</id>
-    <published>2022-08-10T14:11:54.000Z</published>
-    <updated>2022-08-17T10:01:19.140Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。&lt;/p&gt;
-&lt;h2 id=&quot;特色功能&quot;&gt;&lt;a href=&quot;#特色功能&quot; class=&quot;headerlink&quot; title=&quot;特色功能&quot;&gt;&lt;/a&gt;特色功能&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;大雕源码最小化&lt;/li&gt;
-&lt;li&gt;MTK 鸡血 wifi 无线驱动&lt;/li&gt;
-&lt;li&gt;完全支持 IPv6&lt;/li&gt;
-&lt;li&gt;基础网络加速&lt;/li&gt;
-&lt;li&gt;普通远程管理&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="硬路由" scheme="https://blog.miaoer.xyz/categories/%E7%A1%AC%E8%B7%AF%E7%94%B1/"/>
-    
-    
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
-    
-    <category term="硬路由" scheme="https://blog.miaoer.xyz/tags/%E7%A1%AC%E8%B7%AF%E7%94%B1/"/>
-    
-    <category term="固件" scheme="https://blog.miaoer.xyz/tags/%E5%9B%BA%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>今年618我都买了些啥</title>
-    <link href="https://blog.miaoer.xyz/2022/07/02/22-618/"/>
-    <id>https://blog.miaoer.xyz/2022/07/02/22-618/</id>
-    <published>2022-07-02T12:31:27.000Z</published>
-    <updated>2022-08-25T02:31:55.549Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;非商单，有需则购，警惕消费主义陷阱&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;今年618；噢不，应该是整个6月份我大大小小买或收到不少东西，有些是因为老久设备被迫进行消费升级的，也是随便写点记下今年618到底消费多少，本质上是一种分享总结，其实是想发日记的但这内容有点长算了……&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;iPhone-SE3&quot;&gt;&lt;a href=&quot;#iPhone-SE3&quot; class=&quot;headerlink&quot; title=&quot;iPhone SE3&quot;&gt;&lt;/a&gt;iPhone SE3&lt;/h2&gt;&lt;p&gt;这个是给我老妈换掉 iPhone 6 的机器，你没听错就是 iPhone 6 早在一年多前微信就已经放弃6代的升级了，iOS 也停摆在12因为屏幕触摸也不灵敏了，点不到左上角但是右上角又可以，真是百思不得其解。乘机换掉这个老爷机了，在京东以2588元购入的 64G 版，下午买第二天上午到，包装非常“环保”就一个手机和 lightning to type-c 数据线，还有卡片；到手果真很小一样大，到手先恢复发现不知道是版本太老了还是怎么不能同步一些数据，还好 iCloud 有备份。&lt;/p&gt;
-&lt;p&gt;其他没啥好说的，A15 很快估摸着又用到停更2333……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-07-01/1.jpg&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="博客" scheme="https://blog.miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="生活" scheme="https://blog.miaoer.xyz/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
     <category term="生活" scheme="https://blog.miaoer.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="购物" scheme="https://blog.miaoer.xyz/tags/%E8%B4%AD%E7%89%A9/"/>
-    
   </entry>
   
   <entry>
-    <title>CatWrt-OpenWrt x86 软路由稳定固件的再一次升级</title>
-    <link href="https://blog.miaoer.xyz/2022/06/30/catwrt-v22.7/"/>
-    <id>https://blog.miaoer.xyz/2022/06/30/catwrt-v22.7/</id>
-    <published>2022-06-29T16:05:28.326Z</published>
-    <updated>2022-08-17T10:00:16.206Z</updated>
+    <title>简单编译一个属于自己的openwrt软路由系统</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/%E7%BC%96%E8%AF%91openwrt/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/%E7%BC%96%E8%AF%91openwrt/</id>
+    <published>2022-09-06T14:47:54.735Z</published>
+    <updated>2021-12-30T14:57:46.288Z</updated>
     
     
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;📣 最新版 v22.8 解决了英特尔 i225 2.5G 网卡表现不佳的问题，强烈建议使用 &lt;a href=&quot;https://www.miaoer.xyz/posts/network/catwrt-v22.8&quot;&gt;CatWrt v22.8&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在去年的10月10日，我公开发布了我编译的 OpenWrt 软路由固件，这次更新了带来了新特性和特色功能，经久耐用的固件主旁单臂都很稳定高效。&lt;/p&gt;
-&lt;p&gt;基于 &lt;a href=&quot;https://github.com/coolsnowwolf/lede&quot;&gt;Lean 源码&lt;/a&gt; 拉取 2022-6-28 的仓库，精心打造！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-06-29/hello.png&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;特色功能&quot;&gt;&lt;a href=&quot;#特色功能&quot; class=&quot;headerlink&quot; title=&quot;特色功能&quot;&gt;&lt;/a&gt;特色功能&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 令人惊叹的远程管理&lt;/li&gt;
-&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 完全支持 IPv6&lt;/li&gt;
-&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 智能网络加速&lt;/li&gt;
-&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 负载均衡&lt;/li&gt;
-&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; Docker&lt;/li&gt;
-&lt;/ul&gt;</summary>
+    <summary type="html">编译一个自己的openwrt系统！</summary>
     
     
     
-    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
+    <category term="软路由" scheme="https://blog.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
     
     <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
+  </entry>
+  
+  <entry>
+    <title>教你认破二手平台小米有锁机</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/</id>
+    <published>2022-09-06T14:47:54.735Z</published>
+    <updated>2021-12-30T14:58:41.658Z</updated>
+    
+    
+    <summary type="html">揭秘各种二手小米手机的&quot;锁&quot;</summary>
+    
+    
+    
+    <category term="小米" scheme="https://blog.miaoer.xyz/categories/%E5%B0%8F%E7%B1%B3/"/>
+    
+    <category term="教程" scheme="https://blog.miaoer.xyz/categories/%E5%B0%8F%E7%B1%B3/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="小米" scheme="https://blog.miaoer.xyz/tags/%E5%B0%8F%E7%B1%B3/"/>
+    
+    <category term="技巧" scheme="https://blog.miaoer.xyz/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/optimize-windows-menu/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/optimize-windows-menu/</id>
+    <published>2022-09-06T14:47:54.731Z</published>
+    <updated>2021-11-12T13:14:55.051Z</updated>
+    
+    
+    <summary type="html">目录</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Windows" scheme="https://blog.miaoer.xyz/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软路由？值得买吗</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/softrouter-de/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/softrouter-de/</id>
+    <published>2022-09-06T14:47:54.731Z</published>
+    <updated>2021-12-30T14:58:54.323Z</updated>
+    
+    
+    <summary type="html">软路由深度体验</summary>
+    
+    
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>给 Openwrt 套 SSL 证书</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/openwrt-ssl/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/openwrt-ssl/</id>
+    <published>2022-09-06T14:47:54.730Z</published>
+    <updated>2022-08-25T02:32:38.575Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;没什么卵用内网看着爽，要是在外网访问就不一定了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL 也不需要，测的时候随手编译了默认以 https 访问的，正式版没用内网也启用感觉差点意思；&lt;/p&gt;
+&lt;p&gt;给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 &lt;code&gt;.key&lt;/code&gt; 和 证书 &lt;code&gt;.crt&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;用固件自带的 系统-文件管理 随便找一个地方放我这里选择 &lt;code&gt;/www&lt;/code&gt;，上传文件俩文件 选择解压的位置 执行上传。&lt;/p&gt;
+&lt;p&gt;用命令检查一下是否上传成功 &lt;code&gt;cd /www &amp;amp;&amp;amp; ls&lt;/code&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+    
     <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分享自己编译的OpenWrt软路由固件！</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/openwrtv2021.10.10/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/openwrtv2021.10.10/</id>
+    <published>2022-09-06T14:47:54.730Z</published>
+    <updated>2022-08-17T09:59:59.426Z</updated>
+    
+    
+    <summary type="html">Ver:v21.10.10</summary>
+    
+    
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/categories/OpenWrt/"/>
+    
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【推荐】洗鞋神器-污渍干洗剂</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/nianba-ganxi/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/nianba-ganxi/</id>
+    <published>2022-09-06T14:47:54.729Z</published>
+    <updated>2022-01-30T16:07:55.916Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本篇内容没有商业支持，纯个推。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“年廿八,洗邋遢”&lt;br&gt;是广府文化中传统，每年辞旧迎新的特殊节日，我家里也搞起了清洁，因为今年有点特殊鞋子可以不用换，绝对不是因为钱。2333&lt;/p&gt;
+&lt;p&gt;某天在商场被强行推销，拿我的鞋子中脏的地方做演示，我期初还不信但擦完出乎意料，我用手指去摩擦居然还有新鞋子橡胶嘎吱嘎吱的响声，所以…我当时闲钱少我拒绝了，但后面不是要准备过年了嘛整了一瓶，&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活" scheme="https://blog.miaoer.xyz/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="推荐" scheme="https://blog.miaoer.xyz/tags/%E6%8E%A8%E8%8D%90/"/>
     
   </entry>
   
   <entry>
     <title>3520块能捡到什么笔记本？华硕天选FA506简单测试个评</title>
-    <link href="https://blog.miaoer.xyz/2022/06/27/jian-tianxuanji/"/>
-    <id>https://blog.miaoer.xyz/2022/06/27/jian-tianxuanji/</id>
-    <published>2022-06-27T15:16:37.427Z</published>
-    <updated>2022-08-25T02:32:23.540Z</updated>
+    <link href="https://blog.miaoer.xyz/2022/09/06/jian-tianxuanji/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/jian-tianxuanji/</id>
+    <published>2022-09-06T14:47:54.727Z</published>
+    <updated>2022-09-18T03:57:07.512Z</updated>
     
     
-    <summary type="html">&lt;p&gt;大家好，今天开箱一个二手平台淘来的笔记本 华硕天选FA506&lt;/p&gt;
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;后续，这台电脑出现了核显问题因为在保所以换主板了…… &lt;a href=&quot;https://www.miaoer.xyz/notes/21&quot;&gt;翻车了？记跑一趟华硕售后&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;大家好，今天开箱一个二手平台淘来的笔记本 华硕天选FA506&lt;/p&gt;
 &lt;br&gt;
 
 &lt;p&gt;视频地址:&lt;/p&gt;
@@ -203,18 +232,248 @@
   </entry>
   
   <entry>
+    <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/magisk-v24-hide/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/magisk-v24-hide/</id>
+    <published>2022-09-06T14:47:54.727Z</published>
+    <updated>2022-04-29T14:41:56.698Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk 的更新，毕竟安装各式的模块和框架好就不动他了。&lt;/p&gt;
+&lt;p&gt;最近才有时间去折腾他刚刚好极客湾也发了视频 &lt;a href=&quot;https://www.bilibili.com/video/BV1BY4y1H7Mc&quot;&gt;【哔哩哔哩】玩机必看！带你入坑安卓刷机，小白也能看懂的ROOT基础指南来啦！&lt;/a&gt; 学到了例如 Recovery,Fastboot,ADB 命令非常值得去复习；也借着东风随便写点方便这次更新后一头雾水的小伙伴去实现以前的功能。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="分享" scheme="https://blog.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="搞机" scheme="https://blog.miaoer.xyz/tags/%E6%90%9E%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一次用 pfSense</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/first-pfsense/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/first-pfsense/</id>
+    <published>2022-09-06T14:47:54.726Z</published>
+    <updated>2022-04-29T14:42:25.735Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在用过 Router OS 和爱快后我盯上了老外爱玩的 pfSense 拿来完成基本网络应用，在 &lt;a href=&quot;https://www.pfsense.org/&quot;&gt;pfSense官网&lt;/a&gt; 中选择新加坡节点下载非常快，pfSense 是基于 FreeBSD 免费开源的系统；&lt;/p&gt;
+&lt;p&gt;我给 pfSense 在 EXSI 虚拟机中分配了 2核2线程CPU 、 512M RAM 、 2G 硬盘(SATA控制器)，在经过基础安装后，设置好网卡，静态 ip，开启 http 后台……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-04-29/pfsense-dash.png&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记录一次换m.2硬盘</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/fs-pm9a1/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/fs-pm9a1/</id>
+    <published>2022-09-06T14:47:54.726Z</published>
+    <updated>2022-01-30T16:06:00.970Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)&lt;/p&gt;
+&lt;p&gt;有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，&lt;br&gt;三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="电脑" scheme="https://blog.miaoer.xyz/categories/%E7%94%B5%E8%84%91/"/>
+    
+    
+    <category term="电脑" scheme="https://blog.miaoer.xyz/tags/%E7%94%B5%E8%84%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CatWrt-OpenWrt x86 软路由稳定固件的再一次升级</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/catwrt-v22.7/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/catwrt-v22.7/</id>
+    <published>2022-09-06T14:47:54.724Z</published>
+    <updated>2022-08-17T10:00:16.206Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;📣 最新版 v22.8 解决了英特尔 i225 2.5G 网卡表现不佳的问题，强烈建议使用 &lt;a href=&quot;https://www.miaoer.xyz/posts/network/catwrt-v22.8&quot;&gt;CatWrt v22.8&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在去年的10月10日，我公开发布了我编译的 OpenWrt 软路由固件，这次更新了带来了新特性和特色功能，经久耐用的固件主旁单臂都很稳定高效。&lt;/p&gt;
+&lt;p&gt;基于 &lt;a href=&quot;https://github.com/coolsnowwolf/lede&quot;&gt;Lean 源码&lt;/a&gt; 拉取 2022-6-28 的仓库，精心打造！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-06-29/hello.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;特色功能&quot;&gt;&lt;a href=&quot;#特色功能&quot; class=&quot;headerlink&quot; title=&quot;特色功能&quot;&gt;&lt;/a&gt;特色功能&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 令人惊叹的远程管理&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 完全支持 IPv6&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 智能网络加速&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 负载均衡&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; Docker&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网页走丢了？</title>
+    <link href="https://blog.miaoer.xyz/404.html"/>
+    <id>https://blog.miaoer.xyz/404.html</id>
+    <published>2022-09-06T14:47:54.720Z</published>
+    <updated>2021-12-30T15:06:41.973Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;页面404了,网页走丢了？&lt;/p&gt;
+&lt;p&gt;嗨，有兴趣访问我的个人主页吗？ &lt;a href=&quot;https://www.miaoer.xyz/&quot;&gt;好啊 ヾ(≧▽≦*)o&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CatWrt-v22.8 固件 i225 网卡修复</title>
+    <link href="https://blog.miaoer.xyz/2022/08/17/catwrt-v22.8/"/>
+    <id>https://blog.miaoer.xyz/2022/08/17/catwrt-v22.8/</id>
+    <published>2022-08-17T10:07:35.000Z</published>
+    <updated>2022-08-17T10:07:57.701Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在上个月发布的 OpenWrt 软路由固件出现了英特尔 i225 2.5G 网卡表现不佳的情况测速不达标断流等等问题，这次更新了带来了修复版以及一直以来的特色功能，经久耐用的固件主旁单臂都很稳定高效。&lt;/p&gt;
+&lt;p&gt;基于 &lt;a href=&quot;https://github.com/coolsnowwolf/lede&quot;&gt;Lean 源码&lt;/a&gt; 拉取 2022-8-11 的仓库打造！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-06-29/hello.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;特色功能&quot;&gt;&lt;a href=&quot;#特色功能&quot; class=&quot;headerlink&quot; title=&quot;特色功能&quot;&gt;&lt;/a&gt;特色功能&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 令人惊叹的远程管理&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 完全支持 IPv6&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 智能网络加速&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 负载均衡&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; Docker&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+    <category term="CatWrt" scheme="https://blog.miaoer.xyz/tags/CatWrt/"/>
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>StarWind V2V Converter 写盘教程</title>
+    <link href="https://blog.miaoer.xyz/2022/08/17/starwind-converter/"/>
+    <id>https://blog.miaoer.xyz/2022/08/17/starwind-converter/</id>
+    <published>2022-08-17T09:29:24.000Z</published>
+    <updated>2022-08-17T09:29:30.968Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启；&lt;/p&gt;
+&lt;p&gt;但使用 StarWind V2V Converter 虚拟机写盘软件则不会有这个问题，所以我写了这篇博文。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</title>
+    <link href="https://blog.miaoer.xyz/2022/08/10/catwrt-v22.7-newifid2/"/>
+    <id>https://blog.miaoer.xyz/2022/08/10/catwrt-v22.7-newifid2/</id>
+    <published>2022-08-10T14:11:54.000Z</published>
+    <updated>2022-08-17T10:01:19.140Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。&lt;/p&gt;
+&lt;h2 id=&quot;特色功能&quot;&gt;&lt;a href=&quot;#特色功能&quot; class=&quot;headerlink&quot; title=&quot;特色功能&quot;&gt;&lt;/a&gt;特色功能&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;大雕源码最小化&lt;/li&gt;
+&lt;li&gt;MTK 鸡血 wifi 无线驱动&lt;/li&gt;
+&lt;li&gt;完全支持 IPv6&lt;/li&gt;
+&lt;li&gt;基础网络加速&lt;/li&gt;
+&lt;li&gt;普通远程管理&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="硬路由" scheme="https://blog.miaoer.xyz/categories/%E7%A1%AC%E8%B7%AF%E7%94%B1/"/>
+    
+    
+    <category term="硬路由" scheme="https://blog.miaoer.xyz/tags/%E7%A1%AC%E8%B7%AF%E7%94%B1/"/>
+    
+    <category term="固件" scheme="https://blog.miaoer.xyz/tags/%E5%9B%BA%E4%BB%B6/"/>
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今年618我都买了些啥</title>
+    <link href="https://blog.miaoer.xyz/2022/07/02/22-618/"/>
+    <id>https://blog.miaoer.xyz/2022/07/02/22-618/</id>
+    <published>2022-07-02T12:31:27.000Z</published>
+    <updated>2022-08-25T02:31:55.549Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;非商单，有需则购，警惕消费主义陷阱&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;今年618；噢不，应该是整个6月份我大大小小买或收到不少东西，有些是因为老久设备被迫进行消费升级的，也是随便写点记下今年618到底消费多少，本质上是一种分享总结，其实是想发日记的但这内容有点长算了……&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;iPhone-SE3&quot;&gt;&lt;a href=&quot;#iPhone-SE3&quot; class=&quot;headerlink&quot; title=&quot;iPhone SE3&quot;&gt;&lt;/a&gt;iPhone SE3&lt;/h2&gt;&lt;p&gt;这个是给我老妈换掉 iPhone 6 的机器，你没听错就是 iPhone 6 早在一年多前微信就已经放弃6代的升级了，iOS 也停摆在12因为屏幕触摸也不灵敏了，点不到左上角但是右上角又可以，真是百思不得其解。乘机换掉这个老爷机了，在京东以2588元购入的 64G 版，下午买第二天上午到，包装非常“环保”就一个手机和 lightning to type-c 数据线，还有卡片；到手果真很小一样大，到手先恢复发现不知道是版本太老了还是怎么不能同步一些数据，还好 iCloud 有备份。&lt;/p&gt;
+&lt;p&gt;其他没啥好说的，A15 很快估摸着又用到停更2333……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-07-01/1.jpg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="博客" scheme="https://blog.miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="生活" scheme="https://blog.miaoer.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="购物" scheme="https://blog.miaoer.xyz/tags/%E8%B4%AD%E7%89%A9/"/>
+    
+  </entry>
+  
+  <entry>
     <title>超可爱的前后端分离博客Mix-space搭建</title>
     <link href="https://blog.miaoer.xyz/2022/06/20/mx-install/"/>
     <id>https://blog.miaoer.xyz/2022/06/20/mx-install/</id>
     <published>2022-06-20T14:09:00.000Z</published>
-    <updated>2022-08-25T02:40:32.795Z</updated>
+    <updated>2022-09-18T03:56:45.916Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;博文版仅针对视频版的白话文补充&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;节选至 &lt;code&gt;https://github.com/mx-space/docs&lt;/code&gt; 文档仓库，顺序略有不同，按照我的视频方法最优解&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&quot;ri-bookmark-fill&quot;&gt;&lt;/i&gt; 文档地址 &lt;code&gt;https://mx-docs.iucky.cn&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;ri-bookmark-fill&quot;&gt;&lt;/i&gt; 文档地址 &lt;code&gt;https://mx-space.js.org&lt;/code&gt;&lt;/p&gt;
 &lt;br&gt;
 
 &lt;p&gt;视频地址:&lt;/p&gt;
@@ -274,282 +533,6 @@
     <category term="视频博文" scheme="https://blog.miaoer.xyz/tags/%E8%A7%86%E9%A2%91%E5%8D%9A%E6%96%87/"/>
     
     <category term="软件" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>小米10换电池再再钉子户</title>
-    <link href="https://blog.miaoer.xyz/2022/05/22/xiaomi10-battey/"/>
-    <id>https://blog.miaoer.xyz/2022/05/22/xiaomi10-battey/</id>
-    <published>2022-05-22T14:44:46.000Z</published>
-    <updated>2022-08-25T02:31:40.359Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;故事&quot;&gt;&lt;a href=&quot;#故事&quot; class=&quot;headerlink&quot; title=&quot;故事&quot;&gt;&lt;/a&gt;故事&lt;/h2&gt;&lt;p&gt;总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;8月更，翻车已经是笑话了 &lt;a href=&quot;https://www.miaoer.xyz/notes/18&quot;&gt;年轻人的第一次淘宝翻车&lt;/a&gt;，以下内容为踩坑。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;更换&quot;&gt;&lt;a href=&quot;#更换&quot; class=&quot;headerlink&quot; title=&quot;更换&quot;&gt;&lt;/a&gt;更换&lt;/h2&gt;&lt;p&gt;包裹里除了电池有 B7000 胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。&lt;del&gt;因为这样流下来的？&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;关机后取出卡托（&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="博客" scheme="https://blog.miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="搞机" scheme="https://blog.miaoer.xyz/tags/%E6%90%9E%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>给 Openwrt 套 SSL 证书</title>
-    <link href="https://blog.miaoer.xyz/2022/05/10/openwrt-ssl/"/>
-    <id>https://blog.miaoer.xyz/2022/05/10/openwrt-ssl/</id>
-    <published>2022-05-10T15:47:01.252Z</published>
-    <updated>2022-08-25T02:32:38.575Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;没什么卵用内网看着爽，要是在外网访问就不一定了。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL 也不需要，测的时候随手编译了默认以 https 访问的，正式版没用内网也启用感觉差点意思；&lt;/p&gt;
-&lt;p&gt;给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 &lt;code&gt;.key&lt;/code&gt; 和 证书 &lt;code&gt;.crt&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;用固件自带的 系统-文件管理 随便找一个地方放我这里选择 &lt;code&gt;/www&lt;/code&gt;，上传文件俩文件 选择解压的位置 执行上传。&lt;/p&gt;
-&lt;p&gt;用命令检查一下是否上传成功 &lt;code&gt;cd /www &amp;amp;&amp;amp; ls&lt;/code&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="软路由" scheme="https://blog.miaoer.xyz/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
-    
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一次用 pfSense</title>
-    <link href="https://blog.miaoer.xyz/2022/04/29/first-pfsense/"/>
-    <id>https://blog.miaoer.xyz/2022/04/29/first-pfsense/</id>
-    <published>2022-04-29T13:14:08.142Z</published>
-    <updated>2022-04-29T14:42:25.735Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;在用过 Router OS 和爱快后我盯上了老外爱玩的 pfSense 拿来完成基本网络应用，在 &lt;a href=&quot;https://www.pfsense.org/&quot;&gt;pfSense官网&lt;/a&gt; 中选择新加坡节点下载非常快，pfSense 是基于 FreeBSD 免费开源的系统；&lt;/p&gt;
-&lt;p&gt;我给 pfSense 在 EXSI 虚拟机中分配了 2核2线程CPU 、 512M RAM 、 2G 硬盘(SATA控制器)，在经过基础安装后，设置好网卡，静态 ip，开启 http 后台……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-04-29/pfsense-dash.png&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
-    
-    
-    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
-    <link href="https://blog.miaoer.xyz/2022/04/09/magisk-v24-hide/"/>
-    <id>https://blog.miaoer.xyz/2022/04/09/magisk-v24-hide/</id>
-    <published>2022-04-09T10:50:41.033Z</published>
-    <updated>2022-04-29T14:41:56.698Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk 的更新，毕竟安装各式的模块和框架好就不动他了。&lt;/p&gt;
-&lt;p&gt;最近才有时间去折腾他刚刚好极客湾也发了视频 &lt;a href=&quot;https://www.bilibili.com/video/BV1BY4y1H7Mc&quot;&gt;【哔哩哔哩】玩机必看！带你入坑安卓刷机，小白也能看懂的ROOT基础指南来啦！&lt;/a&gt; 学到了例如 Recovery,Fastboot,ADB 命令非常值得去复习；也借着东风随便写点方便这次更新后一头雾水的小伙伴去实现以前的功能。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="分享" scheme="https://blog.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="搞机" scheme="https://blog.miaoer.xyz/tags/%E6%90%9E%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>视频-【120帧】小米Mix2s宣传片</title>
-    <link href="https://blog.miaoer.xyz/2022/03/21/BV1Jq4y1v7H7/"/>
-    <id>https://blog.miaoer.xyz/2022/03/21/BV1Jq4y1v7H7/</id>
-    <published>2022-03-21T15:52:27.000Z</published>
-    <updated>2022-04-09T10:53:43.546Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;视频&quot;&gt;&lt;a href=&quot;#视频&quot; class=&quot;headerlink&quot; title=&quot;视频&quot;&gt;&lt;/a&gt;视频&lt;/h2&gt;&lt;iframe</summary>
-        
-      
-    
-    
-    
-    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
-    
-    
-    <category term="视频博文" scheme="https://blog.miaoer.xyz/tags/%E8%A7%86%E9%A2%91%E5%8D%9A%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>视频-【120帧】小米Mix Alpha宣传片</title>
-    <link href="https://blog.miaoer.xyz/2022/03/21/BV1QU4y1R75s/"/>
-    <id>https://blog.miaoer.xyz/2022/03/21/BV1QU4y1R75s/</id>
-    <published>2022-03-21T15:51:27.000Z</published>
-    <updated>2022-04-09T10:53:48.539Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;视频&quot;&gt;&lt;a href=&quot;#视频&quot; class=&quot;headerlink&quot; title=&quot;视频&quot;&gt;&lt;/a&gt;视频&lt;/h2&gt;&lt;iframe</summary>
-        
-      
-    
-    
-    
-    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
-    
-    
-    <category term="视频博文" scheme="https://blog.miaoer.xyz/tags/%E8%A7%86%E9%A2%91%E5%8D%9A%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【推荐】洗鞋神器-污渍干洗剂</title>
-    <link href="https://blog.miaoer.xyz/2022/01/31/nianba-ganxi/"/>
-    <id>https://blog.miaoer.xyz/2022/01/31/nianba-ganxi/</id>
-    <published>2022-01-30T16:06:07.422Z</published>
-    <updated>2022-01-30T16:07:55.916Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本篇内容没有商业支持，纯个推。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;“年廿八,洗邋遢”&lt;br&gt;是广府文化中传统，每年辞旧迎新的特殊节日，我家里也搞起了清洁，因为今年有点特殊鞋子可以不用换，绝对不是因为钱。2333&lt;/p&gt;
-&lt;p&gt;某天在商场被强行推销，拿我的鞋子中脏的地方做演示，我期初还不信但擦完出乎意料，我用手指去摩擦居然还有新鞋子橡胶嘎吱嘎吱的响声，所以…我当时闲钱少我拒绝了，但后面不是要准备过年了嘛整了一瓶，&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="生活" scheme="https://blog.miaoer.xyz/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="推荐" scheme="https://blog.miaoer.xyz/tags/%E6%8E%A8%E8%8D%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记录一次换m.2硬盘</title>
-    <link href="https://blog.miaoer.xyz/2022/01/31/fs-pm9a1/"/>
-    <id>https://blog.miaoer.xyz/2022/01/31/fs-pm9a1/</id>
-    <published>2022-01-30T16:00:54.294Z</published>
-    <updated>2022-01-30T16:06:00.970Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)&lt;/p&gt;
-&lt;p&gt;有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，&lt;br&gt;三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="电脑" scheme="https://blog.miaoer.xyz/categories/%E7%94%B5%E8%84%91/"/>
-    
-    
-    <category term="电脑" scheme="https://blog.miaoer.xyz/tags/%E7%94%B5%E8%84%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>拆卸AMD散热器，清灰</title>
-    <link href="https://blog.miaoer.xyz/2022/01/19/clean-amd-heatsink/"/>
-    <id>https://blog.miaoer.xyz/2022/01/19/clean-amd-heatsink/</id>
-    <published>2022-01-19T06:40:29.000Z</published>
-    <updated>2022-01-19T06:44:37.838Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;今天闲着没事做给&lt;a href=&quot;https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600&quot;&gt;续集&lt;/a&gt;上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。&lt;/p&gt;
-&lt;p&gt;本文仅限 &lt;strong&gt;AMD “幽灵 Stealth” 散热器（无 LED 灯）&lt;/strong&gt;  和 &lt;strong&gt;AMD“幽灵 Spire” 散热器（无 LED 灯）&lt;/strong&gt; 详情预览: &lt;a href=&quot;https://www.amd.com/zh-hans/technologies/cpu-cooler-solution&quot;&gt;处理器散热解决方案 | “幽灵”散热器 | AMD&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;需要准备:&lt;br&gt;毛巾，酒精，吹风机，可以高压冲洗的花洒（够强也可以用水龙头），一双勤劳的双手，PH1和PH0螺丝刀（至少需要一个PH1）&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="电脑" scheme="https://blog.miaoer.xyz/categories/%E7%94%B5%E8%84%91/"/>
-    
-    
-    <category term="电脑" scheme="https://blog.miaoer.xyz/tags/%E7%94%B5%E8%84%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记录一次换CPU，R5 3600</title>
-    <link href="https://blog.miaoer.xyz/2022/01/18/dg-replace-ryzen3600/"/>
-    <id>https://blog.miaoer.xyz/2022/01/18/dg-replace-ryzen3600/</id>
-    <published>2022-01-18T05:03:50.000Z</published>
-    <updated>2022-01-18T05:05:50.489Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-01-17/1642481031857.jpg&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="电脑" scheme="https://blog.miaoer.xyz/categories/%E7%94%B5%E8%84%91/"/>
-    
-    
-    <category term="电脑" scheme="https://blog.miaoer.xyz/tags/%E7%94%B5%E8%84%91/"/>
-    
-    <category term="装机" scheme="https://blog.miaoer.xyz/tags/%E8%A3%85%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客更新啦</title>
-    <link href="https://blog.miaoer.xyz/2021/12/06/blog-update/"/>
-    <id>https://blog.miaoer.xyz/2021/12/06/blog-update/</id>
-    <published>2021-12-06T13:09:43.000Z</published>
-    <updated>2021-12-30T14:52:21.516Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;博客の变化&quot;&gt;&lt;a href=&quot;#博客の变化&quot; class=&quot;headerlink&quot; title=&quot;博客の变化&quot;&gt;&lt;/a&gt;博客の变化&lt;/h1&gt;&lt;p&gt;在今天(2021-12-6 21:09:43)，我更换了由前后端分离部署的 &lt;a href=&quot;https://github.com/mx-space&quot;&gt;Mix-space&lt;/a&gt; ，可能熟悉我们原本Hexo博客的小伙伴会比较陌生，但是为了变化内容我还是写一点小白须知。&lt;/p&gt;
-&lt;p&gt;这次主要更换了之间的二级域名，和内容上的变化;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;个人网站 (Hexo Yun 主题) 部署的域名从 &lt;code&gt;https://www.miaoer.xyz &lt;/code&gt; &amp;gt;&amp;gt;&amp;gt;  &lt;code&gt;https://blog.miaoer.xyz&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;个人博客 (Mix-space) 部署的域名从 &lt;code&gt;https://blog.miaoer.xyz&lt;/code&gt;  &amp;gt;&amp;gt;&amp;gt;  &lt;code&gt;https://www.miaoer.xyz &lt;/code&gt; &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;短域名 miaoer.xyz 自动跳转到 Mix-space 上&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;功能&quot;&gt;&lt;a href=&quot;#功能&quot; class=&quot;headerlink&quot; title=&quot;功能&quot;&gt;&lt;/a&gt;功能&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/images/Browser-blog.png&quot; alt=&quot;功能详情图&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
-    
-    
-    <category term="Blog" scheme="https://blog.miaoer.xyz/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在两者之间选择</title>
-    <link href="https://blog.miaoer.xyz/2021/11/30/newblog/"/>
-    <id>https://blog.miaoer.xyz/2021/11/30/newblog/</id>
-    <published>2021-11-30T10:06:43.000Z</published>
-    <updated>2022-01-20T11:31:48.030Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/images/nowblog.png&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Blog" scheme="https://blog.miaoer.xyz/categories/Blog/"/>
-    
     
   </entry>
   

@@ -1,0 +1,206 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="喵二"><meta name="copyright" content="喵二"><meta name="generator" content="Hexo 5.4.0"><meta name="theme" content="hexo-theme-yun"><title>简单编译一个属于自己的openwrt软路由系统 | 喵二‘s Blog</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://npm.elemecdn.com/prism-theme-vars/base.css"><script src="https://npm.elemecdn.com/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/png" href="https://www.miaoer.xyz/favicon.ico"><link rel="mask-icon" href="https://www.miaoer.xyz/favicon.ico" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://npm.elemecdn.com/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"blog.miaoer.xyz","root":"/","title":["喵","二","‘s","Bl","og"],"version":"1.10.7","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"algolia":{"appID":"0AINASPUZM","apiKey":"9a66975f2c16d3ff466d103039186c5d","indexName":"blog","hits":{"per_page":10}},"fireworks":{"colors":["255, 20, 97","24, 255, 146","90, 135, 255","251, 243, 140"]},"waline":{"config":{"enable":true,"serverURL":"https://waline.miaoer.xyz","comment":true,"emoji":["https://cdn.miaoer.xyz/static/walinejs/emojis/bilibili","https://cdn.miaoer.xyz/static/walinejs/emojis/tieba","https://cdn.miaoer.xyz/static/walinejs/emojis/bmoji"],"el":"#waline","lang":"zh-CN"},"cdn":"https://npm.elemecdn.com/@waline/client@v2/dist/waline.js","dark":"html.dark"},"vendors":{"host":"https://npm.elemecdn.com/","darken":"https://npm.elemecdn.com/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="喵二‘s Blog" type="application/atom+xml"><link rel="stylesheet" href="https://cdn.miaoer.xyz/static/remixicon/fonts/remixicon.css"><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=G-V578886BTQ"></script><script>if (CONFIG.hostname === location.hostname) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-V578886BTQ');
+}</script><script>(function(){
+  var bp = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})();</script><script>CONFIG.leancloudVisitors = {"enable":true,"app_id":"Ly9oq1SvAUXWnTUVqlDdSot7-9Nh9j0Va","app_key":"VTLydwcuH9DFOLT2641JYgaO","server_url":"https://leancloud.miaoer.xyz"}</script><script defer src="/js/analytics/leancloud-visitors.js" type="module"></script><meta name="description" content="编译一个自己的openwrt系统！">
+<meta property="og:type" content="article">
+<meta property="og:title" content="简单编译一个属于自己的openwrt软路由系统">
+<meta property="og:url" content="https://blog.miaoer.xyz/2022/09/06/%E7%BC%96%E8%AF%91openwrt/index.html">
+<meta property="og:site_name" content="喵二‘s Blog">
+<meta property="og:description" content="编译一个自己的openwrt系统！">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/21-08-23/%E5%B0%81%E9%9D%A2.jpg">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/2021-08-23/microsoftstore-ubuntu.jpg">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/21-08-23/setting.jpg">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/21-08-23/feeds.jpg">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/21-08-23/openwrtbianyi.jpg">
+<meta property="article:published_time" content="2022-09-06T14:47:54.735Z">
+<meta property="article:modified_time" content="2021-12-30T14:57:46.288Z">
+<meta property="article:author" content="喵二">
+<meta property="article:tag" content="软路由">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.miaoer.xyz/blog/21-08-23/%E5%B0%81%E9%9D%A2.jpg"><script>(function() {
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://npm.elemecdn.com/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="喵二"><img width="96" loading="lazy" src="https://www.miaoer.xyz/weblogo.png" alt="喵二"><span class="site-author-status" title="❤️">❤️</span></a><div class="site-author-name"><a href="/about/">喵二</a></div><span class="site-name">喵二‘s Blog</span><sub class="site-subtitle">缘，妙不可言</sub><div class="site-description">一个静态子站</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">33</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">12</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">23</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://www.miaoer.xyz" title="主站"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:dashboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://wpa.qq.com/msgrd?v=3&amp;uin=2860950766&amp;site=qq&amp;menu=yes" title="QQ" target="_blank" style="color:#12B7F5"><span class="icon iconify" data-icon="ri:qq-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:i@miaoer.xyz" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/miaoer" title="Telegram" target="_blank" style="color:#0088CC"><span class="icon iconify" data-icon="ri:telegram-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/miaoer_subscribe" title="Telegram Channel" target="_blank" style="color:#FFA500"><span class="icon iconify" data-icon="ri:telegram-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS订阅本站" target="_blank" style="color:#FFA500"><span class="icon iconify" data-icon="ri:rss-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a><a class="links-item hty-icon-button" href="https://blog.miaoer.xyz/site" title="站点" style="color:#f5d28c"><span class="icon iconify" data-icon="ri:send-plane-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85ubuntu"><span class="toc-number">1.</span> <span class="toc-text">安装ubuntu</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BC%96%E8%AF%91"><span class="toc-number">2.</span> <span class="toc-text">第一次编译</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%B7%B1%E8%A6%81%E7%9A%84%E6%8F%92%E4%BB%B6"><span class="toc-number">2.1.</span> <span class="toc-text">添加自己要的插件</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E6%AC%A1%E7%BC%96%E8%AF%91"><span class="toc-number">3.</span> <span class="toc-text">第二次编译</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BC%96%E8%AF%91%E5%AE%8C%E6%88%90"><span class="toc-number">4.</span> <span class="toc-text">编译完成</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://blog.miaoer.xyz/2022/09/06/%E7%BC%96%E8%AF%91openwrt/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="喵二"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="喵二‘s Blog"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">简单编译一个属于自己的openwrt软路由系统</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2022-09-06 22:47:54" itemprop="dateCreated datePublished" datetime="2022-09-06T22:47:54+08:00">2022-09-06</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="修改时间：2021-12-30 22:57:46" itemprop="dateModified" datetime="2021-12-30T22:57:46+08:00">2021-12-30</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">1.7k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">6m</span></span></span><span class="leancloud_visitors" id="/2022/09/06/%E7%BC%96%E8%AF%91openwrt/" data-flag-title="简单编译一个属于自己的openwrt软路由系统"><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读次数"><span class="icon iconify" data-icon="ri:eye-line"></span> <span class="leancloud-visitors-count"></span></span></span><span class="post-meta-divider">-</span><a href="#comment"><span class="post-meta-item-icon" title="评论数"><span class="icon iconify" data-icon="ri:chat-3-line"></span> <span class="waline-comment-count" id="/2022/09/06/%E7%BC%96%E8%AF%91openwrt/"></span></span></a><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E8%BD%AF%E8%B7%AF%E7%94%B1/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">软路由</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">软路由</span></a></span></div><div class="post-author"><span class="author-name">喵二</span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><p><img src="https://cdn.miaoer.xyz/blog/21-08-23/%E5%B0%81%E9%9D%A2.jpg" loading="lazy"></p>
+<p>我一直想编译一个OpenWrt软路由系统，因为之前用<a target="_blank" rel="noopener" href="https://www.youtube.com/c/eSirPlayGround/">esir大神</a>的高大全固件插件用的有点多，可能会不稳定还有高大全很多插件用不到，打算自己动手编译定制一个自己的openwrt固件，并且给大家分享一下怎么样给OpenWrt在Windows子系统Ubantu下进行编译。</p>
+<p>因为我的win11十分不稳定，我给重装了原来是ssd分了俩个盘这次单独给ssd一个盘装win11</p>
+<p>在windows里编译openwrt有两个办法</p>
+<ul>
+<li><p>WLS (windows linux subsystem)</p>
+</li>
+<li><p>虚拟机 (如: vmware，hyper-v)</p>
+</li>
+</ul>
+<p>我选择了WLS，这方法大概缺点就是需要占掉C盘空间，选择去微软商店安装ubuntu系统。</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/2021-08-23/microsoftstore-ubuntu.jpg" loading="lazy"></p>
+<h1 id="安装ubuntu"><a href="#安装ubuntu" class="headerlink" title="安装ubuntu"></a>安装ubuntu</h1><ol>
+<li>在微软商店搜索<code>ubuntu</code>，安装。(<code>Ubuntu 18.04 LTS</code>)</li>
+</ol>
+<p>然后信誓旦旦的打开ubuntu发现shell里直接报错，代码: 0x800701bc 按任意键退出ubuntu</p>
+<blockquote>
+<p>这里推荐安装Ubuntu 18.04 LTS，安装其他版本可能连编译的界面的进不了？因为仅测试了Ubuntu 18.04 LTS</p>
+</blockquote>
+<ol start="2">
+<li>解决报错安装wls。</li>
+</ol>
+<p>启用 WLS  在管理员权限下 *powershell *运行</p>
+<p><code>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</code></p>
+<p>启用 虚拟机平台 在管理员权限下 <em>powershell</em> 运行</p>
+<p><code>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart</code></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/setting.jpg" loading="lazy"></p>
+<p>重启电脑</p>
+<p>下载 Linux内核更新包</p>
+<p><a target="_blank" rel="noopener" href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi">https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi</a></p>
+<p>（无脑下一步</p>
+<p>设置 wls2位默认版本 在下 <em>powershell</em> 运行（不一定可选)</p>
+<p><code>wsl --set-default-version 2</code></p>
+<ol start="3">
+<li>继续打开Ubuntu<br> 然后就可以继续，设置账户和密码，<a target="_blank" rel="noopener" href="https://github.com/coolsnowwolf/lede">Lean</a>大神的不能使用root用户进行编译！输入自己的用户名即可</li>
+</ol>
+<h1 id="第一次编译"><a href="#第一次编译" class="headerlink" title="第一次编译"></a>第一次编译</h1><ol>
+<li><p>命令行输入 <code>sudo apt-get update</code> ，然后输入 <code>sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync</code></p>
+</li>
+<li><p>使用 <code>git clone https://github.com/coolsnowwolf/lede</code> 命令下载好lean的源代码，然后 <code>cd lede</code> 进入lede目录</p>
+</li>
+<li><p><code>./scripts/feeds update -a</code><br><code>./scripts/feeds install -a</code><br><code>make menuconfig</code></p>
+<p>当<code>make menuconfig</code>能成功进去就可以退出添加插件</p>
+</li>
+</ol>
+<blockquote>
+<p>此步骤容易因为依赖不完全无法进行编译，请看有没有出现错误一直下不动的问题，可以考虑换源和重新安装Ubuntu子系统进行解决。</p>
+</blockquote>
+<h2 id="添加自己要的插件"><a href="#添加自己要的插件" class="headerlink" title="添加自己要的插件"></a>添加自己要的插件</h2><p>先添加kenzo的<a target="_blank" rel="noopener" href="https://github.com/kenzok8/openwrt-packages">openwrt-packages</a>openwrt软件包和依赖包里面包括了很多用到的插件和依赖经测试都是可用的</p>
+<p>在lede根目录下找到<code>feeds.conf.default</code>文件使用笔记本打开并且添加</p>
+<p><code>src-git kenzo https://github.com/kenzok8/openwrt-packages</code><br><code>src-git small https://github.com/kenzok8/small</code></p>
+<p><del>包含了某些pass插件和所需依赖</del></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/feeds.jpg" loading="lazy"></p>
+<p>比如lean大神和kenzo的软件包里都没有的<a target="_blank" rel="noopener" href="https://github.com/destan19/OpenAppFilter">OpenAppFilter</a></p>
+<p>需要单独下载源码保存到<code>lede/package</code>目录下</p>
+<p><code>cd package</code> </p>
+<p><code>git clone https://github.com/destan19/OpenAppFilter.git</code></p>
+<p><code>cd ..</code></p>
+<p>添加了插件feeds里就再重新进行一遍更新feeds，此时就下载kenzo仓库里的软件包了，单独git下载的不需要进行该步骤</p>
+<p><code>./scripts/feeds update -a</code><br><code>./scripts/feeds install -a</code><br><code>make menuconfig</code></p>
+<p>检查能进<code>make menuconfig</code>即可</p>
+<ol start="4">
+<li>下载dl库 <u><em><strong>需要科学上网</strong></em></u> <em>不然下载巨慢导致报错</em></li>
+</ol>
+<p><code>make -j8 download V=s</code></p>
+<ol start="5">
+<li>完成第一次编译 <em>仅限WLS</em> (-j1 后面是线程数。第一次编译推荐用单线程)</li>
+</ol>
+<p><code>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j1 V=s </code></p>
+<p><em>非WLS用户</em> <code>make -j1 V=s</code></p>
+<p>使用lean大神的源码未经过修改保证可以编译成功，第一次编译花费时间需要很久记得保持特殊网络环境下进行编译不然可能连第一次编译都过不了</p>
+<blockquote>
+<p><del>假如第一次编译就报错的重新开始直接</del> <code>rm -rf /home/用户/lede</code> <del>不要添加插件再进行编译，还是报错就没辙了毕竟lean源码第一次不添加任何插件是确实能过的，请回到依赖安装的步骤检查好了。</del></p>
+</blockquote>
+<ul>
+<li>✅ 当第一次编译过了，如果显示</li>
+</ul>
+<pre class="language-shell" data-language="shell"><code class="language-shell">signing package index<span class="token punctuation">..</span>.
+make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>:Leaving directory <span class="token variable"><span class="token variable">`</span>/home/user/lede<span class="token variable">`</span></span>
+make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>:Entering directory <span class="token variable"><span class="token variable">`</span>/home/user/lede<span class="token variable">`</span></span>
+make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>:Nothing directory <span class="token variable"><span class="token variable">`</span>/home/user/lede<span class="token variable">`</span></span>
+<span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span></code></pre>
+
+<ul>
+<li>❎ 即代表编译成功了，如果显示</li>
+</ul>
+<pre class="language-shell" data-language="shell"><code class="language-shell">make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>: *** <span class="token punctuation">[</span>package/feeds/packages/forked-daapd/compile<span class="token punctuation">]</span> Error <span class="token number">2</span>
+make<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>: *** <span class="token punctuation">[</span>/home/vk-op/lede/staging_dir/target-x86_64_musl/stamp/.package_compile<span class="token punctuation">]</span> Error <span class="token number">2</span></code></pre>
+
+<p>类似的带有Error字样的就是编译出错。</p>
+<h1 id="第二次编译"><a href="#第二次编译" class="headerlink" title="第二次编译"></a>第二次编译</h1><p><img src="https://cdn.miaoer.xyz/blog/21-08-23/openwrtbianyi.jpg" loading="lazy"></p>
+<blockquote>
+<p>推荐插件不要一下全选了，几个几个的选避免插件编译失败不好排查，编译的时候选你电脑最大的线程数进行编译就好。</p>
+</blockquote>
+<p>在<code>Luci---&gt;Applications</code>选择几个自己需要的插件，Luci-Theme选择自己需要的几个主题</p>
+<p>在<code>Target images</code>里选择Build GRUB images (Linux x86 or x86_64 host only)`就是BIOS启动默认不选择就是UEFI启动的</p>
+<p>在<code>Target images</code>里选择<code>Root filesystem partition size (in MB)</code>，可以设置默认overlay分区大小</p>
+<p>在<code>Target images</code>里选择<code>Kernel partition size (in MB)</code>，可以设置内核分区大小<del>(目前不知道这个干嘛的，设置了25MB)</del></p>
+<p>先简单编译一遍 <em>(线程数=处理器线程+1)</em></p>
+<p><code>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j13 V=s </code></p>
+<p>编译好了继续选择插件进行编译直到插件满足你的需求，一点点这样编译是因为怕插件编译错误可以一个个排查，如果一上来全点了报错了难排查</p>
+<p>已知smb和smb4一起编译会报错，其他插件报错可以善用搜索引擎搜索或者去github给作者提交issues或者去相关TG群里问。</p>
+<h1 id="编译完成"><a href="#编译完成" class="headerlink" title="编译完成"></a>编译完成</h1><p>编译好的固件在 <code>/home/user/lede/bin/targets/x86</code> 里，然后就可以通过各种方法安装在软路由上了，安装应该就不用说怎么安装了吧</p>
+<p>如果对我分享的博文有帮助可以给我评论或者打赏支持我！</p>
+<blockquote>
+<p>感谢！这是我为数不多没发平台进行推广或者原文宣传的博文，仅靠自己收集的资料整理而来就收获了150观看数比我想象中要多，按照步骤来一般没什么问题，如果配置的看不懂可以观看韩风大大的视频，编译其他插件按照博文里写的就没错了！附教程出的固件已经出了<a target="_blank" rel="noopener" href="https://www.miaoer.xyz/network/openwrtv2021.10.10">请看这个: 分享自己编译的OpenWrt软路由固件！</a>。</p>
+</blockquote>
+<p>部分参见:</p>
+<ul>
+<li><p>Lean <a target="_blank" rel="noopener" href="https://github.com/coolsnowwolf/lede">coolsnowwolf/lede</a></p>
+</li>
+<li><p>微软 <a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/windows/wsl/install-win10">适用于 Linux 的 Windows 子系统安装指南 (Windows 10)</a></p>
+</li>
+<li><p>韩风Talk <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Dv411B7MQ">【韩风Talk】Openwrt编译难么？不太难，主要是细节！</a></p>
+</li>
+<li><p>不吐不快 <a target="_blank" rel="noopener" href="https://mianao.info/2020/05/05/%E7%BC%96%E8%AF%91%E6%9B%B4%E6%96%B0OpenWrt-PassWall%E5%92%8CSSR-plus%E6%8F%92%E4%BB%B6">编译更新OpenWrt PassWall和SSR-plus插件</a></p>
+</li>
+<li><p>BIGDONGDONG <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=yQoKpL4p06E">『299』 傻瓜式编译OpenWrt固件全流程丨Ubuntu下基于Lean源码编译融合各种插件</a></p>
+</li>
+</ul>
+</div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="打赏" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><span class="icon iconify" data-icon="ri:hand-coin-line"></span></span><div id="reward-comment">投喂我！</div><div id="qr" style="display:none;"><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/wx.jpg"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/wx.jpg" alt="微信支付" title="微信支付"></a><div><span style="color:#2DC100"><span class="icon iconify" data-icon="ri:wechat-pay-line"></span></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/zfb.jpg"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/zfb.jpg" alt="支付宝" title="支付宝"></a><div><span style="color:#00A3EE"><span class="icon iconify" data-icon="ri:alipay-line"></span></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/zfb-hb.jpg"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/zfb-hb.jpg" alt="支付宝红包" title="支付宝红包"></a><div><span style="color:#DF667F"><span class="icon iconify" data-icon="ri:alipay-line"></span></span></div></div></div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>喵二</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://blog.miaoer.xyz/2022/09/06/%E7%BC%96%E8%AF%91openwrt/" title="简单编译一个属于自己的openwrt软路由系统">https://blog.miaoer.xyz/2022/09/06/%E7%BC%96%E8%AF%91openwrt/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2022/09/06/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/" rel="prev" title="海外转移国内服务器的坑"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">海外转移国内服务器的坑</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2022/09/06/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/" rel="next" title="教你认破二手平台小米有锁机"><span class="post-nav-text">教你认破二手平台小米有锁机</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div id="waline"></div><link rel="stylesheet" href="https://npm.elemecdn.com/@waline/client@v2/dist/waline.css"><script>window.CONFIG.waline.config.path = "/2022/09/06/%E7%BC%96%E8%AF%91openwrt/"</script><div class="js-Pjax"><script src="/js/comments/waline.js" type="module" defer></script></div></div></main><footer class="sidebar-translate" id="footer"><div class="beian"><a rel="noopener" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021127881号</a></div><div class="copyright"><span>&copy; 2021年5月14日 – 2022 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 喵二</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v5.4.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.7</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" href="javascript:;" title="搜索"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:search-line"></span></span></a><script>window.addEventListener("DOMContentLoaded", () => {
+  // Handle and trigger popup window
+  document.querySelector(".popup-trigger").addEventListener("click", () => {
+    document.querySelector(".popup").classList.add("show");
+    setTimeout(() => {
+      document.querySelector(".search-input").focus();
+    }, 100);
+  });
+
+  // Monitor main search box
+  const onPopupClose = () => {
+    document.querySelector(".popup").classList.remove("show");
+  };
+
+  document.querySelector(".popup-btn-close").addEventListener("click", () => {
+    onPopupClose();
+  });
+
+  window.addEventListener("keyup", event => {
+    if (event.key === "Escape") {
+      onPopupClose();
+    }
+  });
+});
+</script><script defer src="https://npm.elemecdn.com/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script><script defer src="https://npm.elemecdn.com/instantsearch.js@4/dist/instantsearch.production.min.js"></script><script defer src="/js/search/algolia-search.js" type="module"></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><span class="icon iconify" data-icon="ri:close-line"></span></span></div><div class="search-input-container"></div><div class="algolia-results"><div id="algolia-stats"></div><div id="algolia-hits"></div><div class="algolia-pagination" id="algolia-pagination"></div></div></div></body></html>
