@@ -6,8 +6,8 @@ https://blog.miaoer.xyz/2022/09/06/softrouter-de/
 https://blog.miaoer.xyz/2022/09/06/openwrt-ssl/
 https://blog.miaoer.xyz/2022/09/06/openwrtv2021.10.10/
 https://blog.miaoer.xyz/2022/09/06/nianba-ganxi/
-https://blog.miaoer.xyz/2022/09/06/jian-tianxuanji/
 https://blog.miaoer.xyz/2022/09/06/magisk-v24-hide/
+https://blog.miaoer.xyz/2022/09/06/jian-tianxuanji/
 https://blog.miaoer.xyz/2022/09/06/first-pfsense/
 https://blog.miaoer.xyz/2022/09/06/fs-pm9a1/
 https://blog.miaoer.xyz/2022/09/06/catwrt-v22.7/
