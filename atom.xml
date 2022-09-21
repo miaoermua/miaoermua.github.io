@@ -119,6 +119,25 @@
   </entry>
   
   <entry>
+    <title>分享自己编译的OpenWrt软路由固件！</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/openwrtv2021.10.10/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/openwrtv2021.10.10/</id>
+    <published>2022-09-06T14:47:54.730Z</published>
+    <updated>2022-08-17T09:59:59.426Z</updated>
+    
+    
+    <summary type="html">Ver:v21.10.10</summary>
+    
+    
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/categories/OpenWrt/"/>
+    
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+  </entry>
+  
+  <entry>
     <title>给 Openwrt 套 SSL 证书</title>
     <link href="https://blog.miaoer.xyz/2022/09/06/openwrt-ssl/"/>
     <id>https://blog.miaoer.xyz/2022/09/06/openwrt-ssl/</id>
@@ -146,25 +165,6 @@
   </entry>
   
   <entry>
-    <title>分享自己编译的OpenWrt软路由固件！</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/openwrtv2021.10.10/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/openwrtv2021.10.10/</id>
-    <published>2022-09-06T14:47:54.730Z</published>
-    <updated>2022-08-17T09:59:59.426Z</updated>
-    
-    
-    <summary type="html">Ver:v21.10.10</summary>
-    
-    
-    
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/categories/OpenWrt/"/>
-    
-    
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【推荐】洗鞋神器-污渍干洗剂</title>
     <link href="https://blog.miaoer.xyz/2022/09/06/nianba-ganxi/"/>
     <id>https://blog.miaoer.xyz/2022/09/06/nianba-ganxi/</id>
@@ -184,6 +184,26 @@
     
     
     <category term="推荐" scheme="https://blog.miaoer.xyz/tags/%E6%8E%A8%E8%8D%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/magisk-v24-hide/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/magisk-v24-hide/</id>
+    <published>2022-09-06T14:47:54.727Z</published>
+    <updated>2022-04-29T14:41:56.698Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk 的更新，毕竟安装各式的模块和框架好就不动他了。&lt;/p&gt;
+&lt;p&gt;最近才有时间去折腾他刚刚好极客湾也发了视频 &lt;a href=&quot;https://www.bilibili.com/video/BV1BY4y1H7Mc&quot;&gt;【哔哩哔哩】玩机必看！带你入坑安卓刷机，小白也能看懂的ROOT基础指南来啦！&lt;/a&gt; 学到了例如 Recovery,Fastboot,ADB 命令非常值得去复习；也借着东风随便写点方便这次更新后一头雾水的小伙伴去实现以前的功能。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="分享" scheme="https://blog.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="搞机" scheme="https://blog.miaoer.xyz/tags/%E6%90%9E%E6%9C%BA/"/>
     
   </entry>
   
@@ -232,22 +252,23 @@
   </entry>
   
   <entry>
-    <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/magisk-v24-hide/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/magisk-v24-hide/</id>
-    <published>2022-09-06T14:47:54.727Z</published>
-    <updated>2022-04-29T14:41:56.698Z</updated>
+    <title>记录一次换m.2硬盘</title>
+    <link href="https://blog.miaoer.xyz/2022/09/06/fs-pm9a1/"/>
+    <id>https://blog.miaoer.xyz/2022/09/06/fs-pm9a1/</id>
+    <published>2022-09-06T14:47:54.726Z</published>
+    <updated>2022-01-30T16:06:00.970Z</updated>
     
     
-    <summary type="html">&lt;p&gt;在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk 的更新，毕竟安装各式的模块和框架好就不动他了。&lt;/p&gt;
-&lt;p&gt;最近才有时间去折腾他刚刚好极客湾也发了视频 &lt;a href=&quot;https://www.bilibili.com/video/BV1BY4y1H7Mc&quot;&gt;【哔哩哔哩】玩机必看！带你入坑安卓刷机，小白也能看懂的ROOT基础指南来啦！&lt;/a&gt; 学到了例如 Recovery,Fastboot,ADB 命令非常值得去复习；也借着东风随便写点方便这次更新后一头雾水的小伙伴去实现以前的功能。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)&lt;/p&gt;
+&lt;p&gt;有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，&lt;br&gt;三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg&quot;&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="分享" scheme="https://blog.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
+    <category term="电脑" scheme="https://blog.miaoer.xyz/categories/%E7%94%B5%E8%84%91/"/>
     
     
-    <category term="搞机" scheme="https://blog.miaoer.xyz/tags/%E6%90%9E%E6%9C%BA/"/>
+    <category term="电脑" scheme="https://blog.miaoer.xyz/tags/%E7%94%B5%E8%84%91/"/>
     
   </entry>
   
@@ -269,27 +290,6 @@
     
     
     <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记录一次换m.2硬盘</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/fs-pm9a1/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/fs-pm9a1/</id>
-    <published>2022-09-06T14:47:54.726Z</published>
-    <updated>2022-01-30T16:06:00.970Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)&lt;/p&gt;
-&lt;p&gt;有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，&lt;br&gt;三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="电脑" scheme="https://blog.miaoer.xyz/categories/%E7%94%B5%E8%84%91/"/>
-    
-    
-    <category term="电脑" scheme="https://blog.miaoer.xyz/tags/%E7%94%B5%E8%84%91/"/>
     
   </entry>
   
@@ -320,9 +320,9 @@
     <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
     <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
   </entry>
   
@@ -373,11 +373,11 @@
     <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
     <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
     
     <category term="CatWrt" scheme="https://blog.miaoer.xyz/tags/CatWrt/"/>
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
   </entry>
   
@@ -397,9 +397,9 @@
     <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
     <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
   </entry>
   
@@ -425,11 +425,11 @@
     <category term="硬路由" scheme="https://blog.miaoer.xyz/categories/%E7%A1%AC%E8%B7%AF%E7%94%B1/"/>
     
     
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
-    
     <category term="硬路由" scheme="https://blog.miaoer.xyz/tags/%E7%A1%AC%E8%B7%AF%E7%94%B1/"/>
     
     <category term="固件" scheme="https://blog.miaoer.xyz/tags/%E5%9B%BA%E4%BB%B6/"/>
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
     
   </entry>
   
