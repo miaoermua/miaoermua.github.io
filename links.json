@@ -65,7 +65,7 @@
   },
   {
     "url": "https://champhoon.xyz",
-    "avatar": "https://api.champhoon.xyz/favicon/favicon-main.png",
+    "avatar": "https://cdn.miaoer.xyz/friends/champhoon.xyz.png",
     "name": "澄沨",
     "blog": "澄沨的漫游茶记",
     "desc": "Stay hungry, Stay foolish.",
@@ -81,7 +81,7 @@
   },
   {
     "url": "https://innei.ren",
-    "avatar": "https://cdn.miaoer.xyz/friends/innei.ren.png?=https://cdn.jsdelivr.net/gh/Innei/static@latest/avatar.png",
+    "avatar": "https://cdn.miaoer.xyz/friends/innei.ren.png",
     "name": "Innei",
     "blog": "静かな森",
     "desc": "致虚极，守静笃。",
@@ -89,7 +89,7 @@
   },
   {
     "url": "https://davincievans.top",
-    "avatar": "https://cdn.miaoer.xyz/friends/davincievans.com.jpg?=https://cdn.jsdelivr.net/gh/DavinciEvans/Imgs-bed@master/gallery/avatar.jpg",
+    "avatar": "https://cdn.miaoer.xyz/friends/davincievans.com.jpg",
     "name": "Davinci",
     "blog": "Davinci的红茶馆",
     "desc": "You are all stardust.",
@@ -126,14 +126,6 @@
     "blog": "萌！萝莉",
     "desc": "一个普通的小博客哦~",
     "color": "#F6CBD4"
-  },
-  {
-    "url": "https://杏铃.top",
-    "avatar": "https://cdn.miaoer.xyz/friends/杏铃.top.png",
-    "name": "杏铃",
-    "blog": "杏铃の小本",
-    "desc": "一份分享教程,游戏的礼物✧(≖ ◡ ≖✿)",
-    "color": "#66ccff"
   },
   {
     "url": "https://moedev.net",
@@ -216,12 +208,20 @@
     "color": "#B9C8CF"
   },
   {
+    "url": "https://lza59.com",
+    "avatar": "https://cdn.miaoer.xyz/friends/lza59.com.jpg",
+    "name": "Zane Liu",
+    "blog": "Zane Liu's Blog",
+    "desc": "🌸以梦为马，不负韶华🔥",
+    "color": "#F2D4CA"
+  },
+  {
     "url": "https://www.19ta.cn",
     "avatar": "https://cdn.miaoer.xyz/friends/www.19ta.cn.png",
     "name": "卡卡",
     "blog": "卡卡的鼓捣日记",
     "desc": ". 分 享 热 爱 .",
-    "color": "#000000"
+    "color": "#E21476"
   },
   {
     "url": "https://www.plsshenyun.top",
@@ -233,18 +233,58 @@
   },
   {
     "url": "https://hongweblog.com",
-    "avatar": "https://hongweblog.com/wp-content/uploads/2022/03/00.jpg",
+    "avatar": "https://cdn.miaoer.xyz/friends/hongweblog.com.jpg",
     "name": "HONG",
     "blog": "HONG的小站",
     "desc": "或许是个二次元?",
     "color": "#FE8A3C"
   },
   {
-    "url": "https://limo.tia.ink",
-    "avatar": "https://q1.qlogo.cn/g?b=qq&nk=2328031994&s=640",
+    "url": "https://alimo.top",
+    "avatar": "https://cdn.miaoer.xyz/friends/alimo.top.png",
     "name": "limo",
     "blog": "limoの博客",
     "desc": "转瞬即逝的相逢与离别，每一个瞬间，我都想要珍惜",
     "color": "#FFEDD9"
+  },
+  {
+    "url": "https://shuangpisuannai.top",
+    "avatar": "https://cdn.miaoer.xyz/friends/shuangpisuannai.top.jpg",
+    "name": "双皮酸奶",
+    "blog": "双皮酸奶の酸奶盒",
+    "desc": "只要思想不滑坡，方法总比可能多",
+    "color": "#1D2136"
+  },
+  {
+    "url": "https://dadakko.ink",
+    "avatar": "https://cdn.miaoer.xyz/friends/dadakko.ink.jpg",
+    "name": "暗闇",
+    "blog": "暗闇 · KuraYami~",
+    "desc": "私たちはいずれ再会する✨",
+    "color": "#FFA9A8"
+  },
+  {
+    "url": "https://cjlio.com",
+    "avatar": "https://cdn.miaoer.xyz/friends/cjlio.com.jpg",
+    "name": "小陈",
+    "blog": "小陈的辣鸡屋",
+    "desc": "小陈的辣鸡屋",
+    "color": "#FF0000"
+  },
+  {
+    "url": "https://blog.akr.moe",
+    "avatar": "https://cdn.miaoer.xyz/friends/blog.akr.moe.jpg",
+    "name": "Akara",
+    "blog": "Akara's 🚀Blog",
+    "desc": "位于互联网边缘的小站。",
+    "color": "#6C6889"
+  },
+  {
+    "url": "https://blog.lsenyu.cn",
+    "avatar": "https://cdn.miaoer.xyz/friends/blog.lsenyu.cn.jpg",
+    "name": "森语",
+    "blog": "森语の小屋",
+    "desc": "有幸遇见，恰巧合拍",
+    "color": "#E9E3E3"
   }
 ]

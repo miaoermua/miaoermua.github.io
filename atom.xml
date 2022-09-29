@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2021-12-30T14:58:06.002Z</updated>
+  <updated>2022-09-29T13:04:24.301Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>FFmpeg 常见命令</title>
+    <link href="https://blog.miaoer.xyz/2022/09/28/ffmpeg/"/>
+    <id>https://blog.miaoer.xyz/2022/09/28/ffmpeg/</id>
+    <published>2022-09-28T12:08:33.522Z</published>
+    <updated>2022-09-29T13:04:24.301Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h2&gt;&lt;p&gt;最近发现了并使用了 FFmpeg 发现他十分的强大，能做到各种音视频操作，有的软件也是引用的 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="博客" scheme="https://blog.miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="水" scheme="https://blog.miaoer.xyz/tags/%E6%B0%B4/"/>
+    
+    <category term="笔记" scheme="https://blog.miaoer.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>海外转移国内服务器的坑</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</id>
-    <published>2022-09-06T14:47:54.737Z</published>
-    <updated>2021-12-30T14:58:06.002Z</updated>
+    <link href="https://blog.miaoer.xyz/2022/09/25/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</id>
+    <published>2022-09-25T12:22:06.560Z</published>
+    <updated>2021-12-30T14:58:08.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/lp-meme.jpg&quot;&gt;&lt;/p&gt;
@@ -40,10 +67,10 @@
   
   <entry>
     <title>教你认破二手平台小米有锁机</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/</id>
-    <published>2022-09-06T14:47:54.735Z</published>
-    <updated>2021-12-30T14:58:41.658Z</updated>
+    <link href="https://blog.miaoer.xyz/2022/09/25/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/%E8%AE%A4%E7%A0%B4%E5%B0%8F%E7%B1%B3%E6%9C%89%E9%94%81%E6%9C%BA/</id>
+    <published>2022-09-25T12:22:06.559Z</published>
+    <updated>2021-12-30T14:58:42.000Z</updated>
     
     
     <summary type="html">揭秘各种二手小米手机的&quot;锁&quot;</summary>
@@ -63,10 +90,10 @@
   
   <entry>
     <title>简单编译一个属于自己的openwrt软路由系统</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/%E7%BC%96%E8%AF%91openwrt/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/%E7%BC%96%E8%AF%91openwrt/</id>
-    <published>2022-09-06T14:47:54.735Z</published>
-    <updated>2021-12-30T14:57:46.288Z</updated>
+    <link href="https://blog.miaoer.xyz/2022/09/25/%E7%BC%96%E8%AF%91openwrt/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/%E7%BC%96%E8%AF%91openwrt/</id>
+    <published>2022-09-25T12:22:06.556Z</published>
+    <updated>2021-12-30T14:57:48.000Z</updated>
     
     
     <summary type="html">编译一个自己的openwrt系统！</summary>
@@ -81,30 +108,11 @@
   </entry>
   
   <entry>
-    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/optimize-windows-menu/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/optimize-windows-menu/</id>
-    <published>2022-09-06T14:47:54.731Z</published>
-    <updated>2021-11-12T13:14:55.051Z</updated>
-    
-    
-    <summary type="html">目录</summary>
-    
-    
-    
-    <category term="教程" scheme="https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Windows" scheme="https://blog.miaoer.xyz/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
     <title>软路由？值得买吗</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/softrouter-de/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/softrouter-de/</id>
-    <published>2022-09-06T14:47:54.731Z</published>
-    <updated>2021-12-30T14:58:54.323Z</updated>
+    <link href="https://blog.miaoer.xyz/2022/09/25/softrouter-de/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/softrouter-de/</id>
+    <published>2022-09-25T12:22:06.553Z</published>
+    <updated>2021-12-30T14:58:56.000Z</updated>
     
     
     <summary type="html">软路由深度体验</summary>
@@ -119,11 +127,30 @@
   </entry>
   
   <entry>
+    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
+    <link href="https://blog.miaoer.xyz/2022/09/25/optimize-windows-menu/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/optimize-windows-menu/</id>
+    <published>2022-09-25T12:22:06.552Z</published>
+    <updated>2021-11-12T13:14:56.000Z</updated>
+    
+    
+    <summary type="html">目录</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.miaoer.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Windows" scheme="https://blog.miaoer.xyz/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>分享自己编译的OpenWrt软路由固件！</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/openwrtv2021.10.10/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/openwrtv2021.10.10/</id>
-    <published>2022-09-06T14:47:54.730Z</published>
-    <updated>2022-08-17T09:59:59.426Z</updated>
+    <link href="https://blog.miaoer.xyz/2022/09/25/openwrtv2021.10.10/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/openwrtv2021.10.10/</id>
+    <published>2022-09-25T12:22:06.551Z</published>
+    <updated>2022-08-17T10:00:00.000Z</updated>
     
     
     <summary type="html">Ver:v21.10.10</summary>
@@ -139,10 +166,10 @@
   
   <entry>
     <title>给 Openwrt 套 SSL 证书</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/openwrt-ssl/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/openwrt-ssl/</id>
-    <published>2022-09-06T14:47:54.730Z</published>
-    <updated>2022-08-25T02:32:38.575Z</updated>
+    <link href="https://blog.miaoer.xyz/2022/09/25/openwrt-ssl/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/openwrt-ssl/</id>
+    <published>2022-09-25T12:22:06.550Z</published>
+    <updated>2022-08-25T02:32:40.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -166,10 +193,10 @@
   
   <entry>
     <title>【推荐】洗鞋神器-污渍干洗剂</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/nianba-ganxi/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/nianba-ganxi/</id>
-    <published>2022-09-06T14:47:54.729Z</published>
-    <updated>2022-01-30T16:07:55.916Z</updated>
+    <link href="https://blog.miaoer.xyz/2022/09/25/nianba-ganxi/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/nianba-ganxi/</id>
+    <published>2022-09-25T12:22:06.548Z</published>
+    <updated>2022-01-30T16:07:56.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -188,11 +215,31 @@
   </entry>
   
   <entry>
+    <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
+    <link href="https://blog.miaoer.xyz/2022/09/25/magisk-v24-hide/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/magisk-v24-hide/</id>
+    <published>2022-09-25T12:22:06.545Z</published>
+    <updated>2022-04-29T14:41:58.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk 的更新，毕竟安装各式的模块和框架好就不动他了。&lt;/p&gt;
+&lt;p&gt;最近才有时间去折腾他刚刚好极客湾也发了视频 &lt;a href=&quot;https://www.bilibili.com/video/BV1BY4y1H7Mc&quot;&gt;【哔哩哔哩】玩机必看！带你入坑安卓刷机，小白也能看懂的ROOT基础指南来啦！&lt;/a&gt; 学到了例如 Recovery,Fastboot,ADB 命令非常值得去复习；也借着东风随便写点方便这次更新后一头雾水的小伙伴去实现以前的功能。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="分享" scheme="https://blog.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="搞机" scheme="https://blog.miaoer.xyz/tags/%E6%90%9E%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>3520块能捡到什么笔记本？华硕天选FA506简单测试个评</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/jian-tianxuanji/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/jian-tianxuanji/</id>
-    <published>2022-09-06T14:47:54.727Z</published>
-    <updated>2022-09-21T07:42:21.703Z</updated>
+    <link href="https://blog.miaoer.xyz/2022/09/25/jian-tianxuanji/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/jian-tianxuanji/</id>
+    <published>2022-09-25T12:22:06.544Z</published>
+    <updated>2022-09-29T13:01:55.501Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -202,9 +249,9 @@
 &lt;br&gt;
 
 &lt;p&gt;视频地址:&lt;/p&gt;
-&lt;p&gt;&lt;i class=&quot;ri-bilibili-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.bilibili.com/video/BV1aB4y1p7ox&quot;&gt;哔哩哔哩&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&quot;ri-youtube-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://youtu.be/4MkE7kq5EV4&quot;&gt;YouTube&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
+&lt;iframe src=&quot;https://api.paugram.com/bili?bv=1aB4y1p7ox&amp;style=gray&quot; style=&quot;height: 10em; width: 100%&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;details&gt;
          &lt;summary&gt;视频使用:&lt;/summary&gt;
          &lt;br&gt;
@@ -232,52 +279,11 @@
   </entry>
   
   <entry>
-    <title>Magisk v24 版本后隐藏并安装 Lsposed</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/magisk-v24-hide/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/magisk-v24-hide/</id>
-    <published>2022-09-06T14:47:54.727Z</published>
-    <updated>2022-04-29T14:41:56.698Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;在 Magisk v24+ 版本中 John Wu(吴泓霖) 发布公告令人关注的点是支持了安卓 Android 12 和并移除了 Magisk Hide，带来了 Zygisk 功能等……然而我只是在相关的论坛听到了有类似的名词并没有去关注 Magisk 的更新，毕竟安装各式的模块和框架好就不动他了。&lt;/p&gt;
-&lt;p&gt;最近才有时间去折腾他刚刚好极客湾也发了视频 &lt;a href=&quot;https://www.bilibili.com/video/BV1BY4y1H7Mc&quot;&gt;【哔哩哔哩】玩机必看！带你入坑安卓刷机，小白也能看懂的ROOT基础指南来啦！&lt;/a&gt; 学到了例如 Recovery,Fastboot,ADB 命令非常值得去复习；也借着东风随便写点方便这次更新后一头雾水的小伙伴去实现以前的功能。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="分享" scheme="https://blog.miaoer.xyz/categories/%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="搞机" scheme="https://blog.miaoer.xyz/tags/%E6%90%9E%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一次用 pfSense</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/first-pfsense/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/first-pfsense/</id>
-    <published>2022-09-06T14:47:54.726Z</published>
-    <updated>2022-04-29T14:42:25.735Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;在用过 Router OS 和爱快后我盯上了老外爱玩的 pfSense 拿来完成基本网络应用，在 &lt;a href=&quot;https://www.pfsense.org/&quot;&gt;pfSense官网&lt;/a&gt; 中选择新加坡节点下载非常快，pfSense 是基于 FreeBSD 免费开源的系统；&lt;/p&gt;
-&lt;p&gt;我给 pfSense 在 EXSI 虚拟机中分配了 2核2线程CPU 、 512M RAM 、 2G 硬盘(SATA控制器)，在经过基础安装后，设置好网卡，静态 ip，开启 http 后台……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-04-29/pfsense-dash.png&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
-    
-    
-    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
-  </entry>
-  
-  <entry>
     <title>记录一次换m.2硬盘</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/fs-pm9a1/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/fs-pm9a1/</id>
-    <published>2022-09-06T14:47:54.726Z</published>
-    <updated>2022-01-30T16:06:00.970Z</updated>
+    <link href="https://blog.miaoer.xyz/2022/09/25/fs-pm9a1/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/fs-pm9a1/</id>
+    <published>2022-09-25T12:22:06.543Z</published>
+    <updated>2022-01-30T16:06:02.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)&lt;/p&gt;
@@ -294,11 +300,32 @@
   </entry>
   
   <entry>
+    <title>第一次用 pfSense</title>
+    <link href="https://blog.miaoer.xyz/2022/09/25/first-pfsense/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/first-pfsense/</id>
+    <published>2022-09-25T12:22:06.543Z</published>
+    <updated>2022-04-29T14:42:26.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在用过 Router OS 和爱快后我盯上了老外爱玩的 pfSense 拿来完成基本网络应用，在 &lt;a href=&quot;https://www.pfsense.org/&quot;&gt;pfSense官网&lt;/a&gt; 中选择新加坡节点下载非常快，pfSense 是基于 FreeBSD 免费开源的系统；&lt;/p&gt;
+&lt;p&gt;我给 pfSense 在 EXSI 虚拟机中分配了 2核2线程CPU 、 512M RAM 、 2G 硬盘(SATA控制器)，在经过基础安装后，设置好网卡，静态 ip，开启 http 后台……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-04-29/pfsense-dash.png&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CatWrt-OpenWrt x86 软路由稳定固件的再一次升级</title>
-    <link href="https://blog.miaoer.xyz/2022/09/06/catwrt-v22.7/"/>
-    <id>https://blog.miaoer.xyz/2022/09/06/catwrt-v22.7/</id>
-    <published>2022-09-06T14:47:54.724Z</published>
-    <updated>2022-08-17T10:00:16.206Z</updated>
+    <link href="https://blog.miaoer.xyz/2022/09/25/catwrt-v22.7/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/catwrt-v22.7/</id>
+    <published>2022-09-25T12:22:06.537Z</published>
+    <updated>2022-08-17T10:00:18.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -330,8 +357,8 @@
     <title>网页走丢了？</title>
     <link href="https://blog.miaoer.xyz/404.html"/>
     <id>https://blog.miaoer.xyz/404.html</id>
-    <published>2022-09-06T14:47:54.720Z</published>
-    <updated>2021-12-30T15:06:41.973Z</updated>
+    <published>2022-09-25T12:22:06.530Z</published>
+    <updated>2021-12-30T15:06:42.000Z</updated>
     
     
       
@@ -354,7 +381,7 @@
     <link href="https://blog.miaoer.xyz/2022/08/17/catwrt-v22.8/"/>
     <id>https://blog.miaoer.xyz/2022/08/17/catwrt-v22.8/</id>
     <published>2022-08-17T10:07:35.000Z</published>
-    <updated>2022-08-17T10:07:57.701Z</updated>
+    <updated>2022-08-17T10:07:58.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;在上个月发布的 OpenWrt 软路由固件出现了英特尔 i225 2.5G 网卡表现不佳的情况测速不达标断流等等问题，这次更新了带来了修复版以及一直以来的特色功能，经久耐用的固件主旁单臂都很稳定高效。&lt;/p&gt;
@@ -386,7 +413,7 @@
     <link href="https://blog.miaoer.xyz/2022/08/17/starwind-converter/"/>
     <id>https://blog.miaoer.xyz/2022/08/17/starwind-converter/</id>
     <published>2022-08-17T09:29:24.000Z</published>
-    <updated>2022-08-17T09:29:30.968Z</updated>
+    <updated>2022-08-17T09:29:32.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启；&lt;/p&gt;
@@ -408,7 +435,7 @@
     <link href="https://blog.miaoer.xyz/2022/08/10/catwrt-v22.7-newifid2/"/>
     <id>https://blog.miaoer.xyz/2022/08/10/catwrt-v22.7-newifid2/</id>
     <published>2022-08-10T14:11:54.000Z</published>
-    <updated>2022-08-17T10:01:19.140Z</updated>
+    <updated>2022-08-17T10:01:20.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。&lt;/p&gt;
@@ -438,7 +465,7 @@
     <link href="https://blog.miaoer.xyz/2022/07/02/22-618/"/>
     <id>https://blog.miaoer.xyz/2022/07/02/22-618/</id>
     <published>2022-07-02T12:31:27.000Z</published>
-    <updated>2022-08-25T02:31:55.549Z</updated>
+    <updated>2022-08-25T02:31:56.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -466,19 +493,19 @@
     <link href="https://blog.miaoer.xyz/2022/06/20/mx-install/"/>
     <id>https://blog.miaoer.xyz/2022/06/20/mx-install/</id>
     <published>2022-06-20T14:09:00.000Z</published>
-    <updated>2022-09-21T07:40:55.891Z</updated>
+    <updated>2022-09-29T13:02:15.098Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;博文版仅针对视频版的白话文补充&lt;/p&gt;
+&lt;p&gt;博文版仅针对视频版的白话文补充，具体可以查看文档！&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;节选至 &lt;code&gt;https://github.com/mx-space/docs&lt;/code&gt; 文档仓库，顺序略有不同，按照我的视频方法最优解&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&quot;ri-bookmark-fill&quot;&gt;&lt;/i&gt; 文档地址 &lt;code&gt;https://mx-space.js.org&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;文档地址 &lt;code&gt;https://mx-space.js.org&lt;/code&gt;&lt;/p&gt;
 &lt;br&gt;
 
-&lt;p&gt;视频地址:&lt;/p&gt;
-&lt;p&gt;&lt;i class=&quot;ri-bilibili-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.bilibili.com/video/BV14N4y137ZW&quot;&gt;哔哩哔哩&lt;/a&gt;&lt;br&gt;&lt;i class=&quot;ri-youtube-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://youtu.be/qJ94SSy5Arc&quot;&gt;YouTube&lt;/a&gt;&lt;/p&gt;
-&lt;br&gt;
+&lt;iframe src=&quot;https://api.paugram.com/bili?bv=14N4y137ZW&amp;style=gray&quot; style=&quot;height: 10em; width: 100%&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;details&gt;
          &lt;summary&gt;视频使用:&lt;/summary&gt;
          &lt;br&gt;
@@ -490,7 +517,7 @@
          &lt;/p&gt;&lt;br&gt;&lt;/details&gt;
 
 &lt;hr&gt;
-&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://www.miaoer.xyz/logo.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://www.miaoer.xyz/logo.png&quot; alt=&quot;一个替代个人空间的新方式&quot;&gt;&lt;/p&gt;
 &lt;p&gt;一个由一位大佬 &lt;a href=&quot;https://innei.ren/&quot;&gt;innei&lt;/a&gt; 本科 &lt;a href=&quot;https://www.bilibili.com/video/BV1aZ4y147BL&quot;&gt;毕业设计&lt;/a&gt; 开发出的开源 Mix-Space 博客，采用的是前后端分离的形式。&lt;/p&gt;
 &lt;p&gt;Mix-Space 前后端是分离的，意味着你可以将前后端分别单独部署不同的服务器上，当然也可以全部部署在一台服务器上&lt;/p&gt;
 &lt;p&gt;Mix-Space 的 Core 提供后端服务支持，Kami 是作者更新最频繁的前端，Mx-Yun 是云游君 Hexo-Yun 的移植版；当然 kami 提供最全的支持，享有 Core 的全部功能，具有良好的动效，各种很可爱的小彩蛋！&lt;/p&gt;
@@ -507,32 +534,6 @@
     <category term="捣鼓" scheme="https://blog.miaoer.xyz/tags/%E6%8D%A3%E9%BC%93/"/>
     
     <category term="博客" scheme="https://blog.miaoer.xyz/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一款好用的SMB备份软件FolderSync</title>
-    <link href="https://blog.miaoer.xyz/2022/06/04/app-foldersync/"/>
-    <id>https://blog.miaoer.xyz/2022/06/04/app-foldersync/</id>
-    <published>2022-06-04T10:41:49.000Z</published>
-    <updated>2022-06-22T14:11:42.741Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;i class=&quot;ri-bilibili-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.bilibili.com/video/BV1Tv4y137oD&quot;&gt;哔哩哔哩&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&quot;ri-youtube-line&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=xfjNE3QsarM&amp;t&quot;&gt;YouTube&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;开始&quot;&gt;&lt;a href=&quot;#开始&quot; class=&quot;headerlink&quot; title=&quot;开始&quot;&gt;&lt;/a&gt;开始&lt;/h2&gt;&lt;p&gt;最近我发现一款非常好的 SMB 备份软件叫做 FolderSync，在早一些时候我也是通过数据线一头连电脑进行备份相册目录的，&lt;/p&gt;
-&lt;p&gt;因为家境贫寒家里没有品牌 NAS 所以自己在软路由上搭建了 SAMBA 服务，用来储存一些电影和共享资源等……&lt;/p&gt;
-&lt;p&gt;今天我们来捣鼓一下。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="博客" scheme="https://blog.miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="视频博文" scheme="https://blog.miaoer.xyz/tags/%E8%A7%86%E9%A2%91%E5%8D%9A%E6%96%87/"/>
-    
-    <category term="软件" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
