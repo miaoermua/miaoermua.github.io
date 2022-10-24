@@ -9,34 +9,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>视频-【120帧】小米Mix Alpha宣传片</title>
-    <url>/2022/03/21/BV1QU4y1R75s/</url>
-    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
-
-<hr>
-<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1QU4y1R75s">https://www.bilibili.com/video/BV1QU4y1R75s</a></p>
-<p>试试湿滑的补帧</p>
-<h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
-<p>文件名: xiaomimixalpha.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
-<p>原分辨率: 1920*1080</p>
-<p>补帧分辨率: 1920*1080</p>
-<p>上传分辨率: 1920*1080 > 3840*2160</p>
-<p>原帧: 25fps</p>
-<p>补帧: 120fps</p>
-<p>上传帧率: 25fps x8 > 120fps</p>
-<p>码率: 15 < 20Mbps</p>
-<p>编码: x265</p>
-
-<p>*视频来源小米商城收集小米宣传片 <a href="https://www.mi.com/mixalpha">小米MixAlpha</a></p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>视频博文</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>今年618我都买了些啥</title>
     <url>/2022/07/02/22-618/</url>
     <content><![CDATA[<blockquote>
@@ -82,100 +54,15 @@
       </tags>
   </entry>
   <entry>
-    <title>CSGO各种实用代码分享</title>
-    <url>/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<p><del>文明游戏,背起行囊</del></p>
-<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>国服 <code>-perfectworld</code></p>
-<p>国际服 <code>-worldwide</code></p>
-<p>网络FPS状态 <code>net_graph 1</code></p>
-<p>调小网络于FPS状态 <code>net_graphproportionalfont 0.7</code></p>
-<p>持枪方向 <code>cl_righthand 1</code></p>
-<p>Alt换持枪方向 <code>BindToggle &quot;ALT&quot; &quot;cl_righthand&quot;;</code></p>
-<p>清血 <code>r_cleardecals</code></p>
-<p>清血绑定Shift <code>bind shift&quot;+lookatweapon;r_cleardecals</code></p>
-<p>一键跳投 <code>alias +jumpthrow&quot;+jump;-attack&quot;; alias -jumpthrow -jump bind v +jumpthrow</code></p>
-<p>全屏准星 <code>bind &quot;h&quot; &quot;toggle cl_crosshairsize 5 1000&quot;</code></p>
-<p>Tab显示计分板网络 <code>bind &quot;TAB&quot; &quot;+showscores_custom&quot;; alias &quot;+showscores_custom&quot; &quot;+showscores;net_graphheight 64; alias &quot;-showscores_custom&quot; &quot;-showscores;net_graphheight 9999&quot;; net_graph &quot;1&quot;; net_graphheight &quot;9999&quot;; net_graphpos &quot;2&quot;;</code></p>
-<p>减少手臂摇摆 <code>cl_bob_lower_amt &quot;5&quot;; cl_bobamt_lat &quot;0.1&quot;; cl_bobamt_vert &quot;0.1&quot;; cl_viewmodel_shift_left_amt &quot;0.5&quot;; cl_viewmodel_shift_right_amt &quot;0.25&quot;;</code></p>
-<p>绑定 Alt 飞行 <code>bind &quot;alt&quot; &quot;noclip&quot;</code></p>
-<h2 id="作弊类"><a href="#作弊类" class="headerlink" title="作弊类"></a>作弊类</h2><p>开启作弊 <code>sv_cheats 1</code></p>
-<p>无限子弹 <code>sv_infinite_ammo 1</code></p>
-<p>上帝模式_锁 <code>god</code></p>
-<p>飞天 <code>noclip</code></p>
-<p>第一人称 <code>cam_command 1</code></p>
-<p>实体透视 <code>r_drawothermodels 2</code></p>
-<p>(无效)自瞄 <code>ent_fire !picker addoutputmodelscale 0</code></p>
-<p>(无效)子弹穿墙 <code>cl_showothermodels 3</code></p>
-<p>灵敏度假转 <code>bind j &quot;toggle m_yaw 0.022 1000&quot;</code></p>
-<p>无后座 <code>sv_cheats &quot;1&quot;;weapon_accuracy_nospread &quot;1&quot;;weapon_debug_spread_gap &quot;1&quot;;weapon_recoil_cooldown &quot;0&quot;;weapon_recoil_decay1_exp &quot;99999&quot;;weapon_recoil_decay2_exp &quot;99999&quot;;weapon_recoil_decay2_lin &quot;99999&quot;;weapon_recoil_scale &quot;0&quot;;weapon_recoil_suppression_shots &quot;500&quot;;weapon_recoil_view_punch_extra 0</code></p>
-<p>大地球滑步 <code>sv_standable_normal 1000</code></p>
-<p>允许连跳 <code>sv_enablebunnyhopping 1</code></p>
-<p>自动连跳 <code>sv_autobunnyhopping 1</code></p>
-<p>空中速度 <code>sv_airaccelerate 20000</code></p>
-<p>血量 <code>ent_fire !self addoutput &quot;health 233&quot;</code></p>
-<h2 id="房间"><a href="#房间" class="headerlink" title="房间"></a>房间</h2><p>1秒刷新房间 <code>mp_restartgame &quot;1&quot;</code></p>
-<p>禁止自动平衡人数 <code>mp_autoteambalance 0</code></p>
-<p>金钱上限 <code>mp_maxmoney &quot;16000&quot;</code></p>
-<p>出生金钱 <code>mp_startmoney &quot;16000&quot;</code></p>
-<p>任意地点购买 <code>mp_buy_anywhere &quot;1&quot;</code></p>
-<p>显示10秒投掷物轨迹 <code>sv_grenade_trajectory_time &quot;10&quot;</code></p>
-<p>射击命中点显示 <code>sv_showimpacts 1</code></p>
-<p>踢掉bot <code>bot kick</code></p>
-<p>杀掉所有bot <code>bot_kill</code></p>
-<p>随机增加bot <code>bot_add</code></p>
-<p>增加bot到CT <code>bot_add_ct</code></p>
-<p>增加bot到T <code>bot_add_t</code></p>
-<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="完美世界竞技平台"><a href="#完美世界竞技平台" class="headerlink" title="完美世界竞技平台"></a>完美世界竞技平台</h3><p>暂停 <code>.pause</code> &amp; <code>!pause</code></p>
-<p>解除暂停 <code>.unpause</code></p>
-<p>发刀 <code>.drop</code></p>
-<p>举报 <code>.report</code></p>
-<p>投降 <code>.gg</code></p>
-<p>队友建议位置 <code>.team</code></p>
-<p>赛前道具 <code>.m</code></p>
-<p>菜单 <code>.menu</code></p>
-<p>聊天框提示 <code>.info</code></p>
-<h3 id="5E对战平台"><a href="#5E对战平台" class="headerlink" title="5E对战平台"></a>5E对战平台</h3><p>暂停 <code>.p</code></p>
-<p>解除暂停 <code>.up</code></p>
-<p>发刀 <code>.d</code></p>
-<p>举报 <code>.r</code></p>
-<p>投降 <code>.g</code> &amp; <code>.gg</code></p>
-<h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 <code>mp_drop_knife_enable 1</code></p>
-<p>海豹短刀 <code>give weapon_knife_css; ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>刺刀 <code>give weapon_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>折叠刀 <code>give weapon_knife_flip;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>穿肠刀 <code>give weapon_knife_gut;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>爪子刀 <code>give weapon_knife_karambit;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>M9 <code>give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>猎杀者匕首 <code>give weapon_knife_tactical;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>蝴蝶刀 <code>give weapon_knife_butterfly;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>弯刀 <code>give weapon_knife_falchion;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>双匕 <code>give weapon_knife_push;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>鲍伊 <code>give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>熊刀 <code>give weapon_knife_ursus;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>折刀 <code>give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>短剑 <code>give weapon_knife_stiletto;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<p>锯齿爪 <code>give weapon_knife_widowmaker;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p>按键非指令</p>
-<p>打开Demo控制台 <code>shift+f2</code></p>
-<p>x光 <code>x</code></p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>csgo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>视频-【120帧】小米Mix2s宣传片</title>
-    <url>/2022/03/21/BV1Jq4y1v7H7/</url>
-    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=594951604&bvid=BV1Jq4y1v7H7&cid=554204088&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
+    <title>视频-【120帧】小米Mix Alpha宣传片</title>
+    <url>/2022/03/21/BV1QU4y1R75s/</url>
+    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=682380095&bvid=BV1QU4y1R75s&cid=554216386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
 
 <hr>
-<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1Jq4y1v7H7">https://www.bilibili.com/video/BV1Jq4y1v7H7</a></p>
+<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1QU4y1R75s">https://www.bilibili.com/video/BV1QU4y1R75s</a></p>
 <p>试试湿滑的补帧</p>
 <h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
-<p>文件名: xiaomimix2s.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
+<p>文件名: xiaomimixalpha.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
 <p>原分辨率: 1920*1080</p>
 <p>补帧分辨率: 1920*1080</p>
 <p>上传分辨率: 1920*1080 > 3840*2160</p>
@@ -185,7 +72,7 @@
 <p>码率: 15 < 20Mbps</p>
 <p>编码: x265</p>
 
-<p>*视频来源B站收集小米宣传片 小米mix2s 因素材过多无来源链接，如侵犯版权请联系我</p>
+<p>*视频来源小米商城收集小米宣传片 <a href="https://www.mi.com/mixalpha">小米MixAlpha</a></p>
 ]]></content>
       <categories>
         <category>Blog</category>
@@ -600,6 +487,178 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </tags>
   </entry>
   <entry>
+    <title>CSGO各种实用代码分享</title>
+    <url>/2021/05/16/CSGO%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<p><del>文明游戏,背起行囊</del></p>
+<h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><p>国服 <code>-perfectworld</code></p>
+<p>国际服 <code>-worldwide</code></p>
+<p>网络FPS状态 <code>net_graph 1</code></p>
+<p>调小网络于FPS状态 <code>net_graphproportionalfont 0.7</code></p>
+<p>持枪方向 <code>cl_righthand 1</code></p>
+<p>Alt换持枪方向 <code>BindToggle &quot;ALT&quot; &quot;cl_righthand&quot;;</code></p>
+<p>清血 <code>r_cleardecals</code></p>
+<p>清血绑定Shift <code>bind shift&quot;+lookatweapon;r_cleardecals</code></p>
+<p>一键跳投 <code>alias +jumpthrow&quot;+jump;-attack&quot;; alias -jumpthrow -jump bind v +jumpthrow</code></p>
+<p>全屏准星 <code>bind &quot;h&quot; &quot;toggle cl_crosshairsize 5 1000&quot;</code></p>
+<p>Tab显示计分板网络 <code>bind &quot;TAB&quot; &quot;+showscores_custom&quot;; alias &quot;+showscores_custom&quot; &quot;+showscores;net_graphheight 64; alias &quot;-showscores_custom&quot; &quot;-showscores;net_graphheight 9999&quot;; net_graph &quot;1&quot;; net_graphheight &quot;9999&quot;; net_graphpos &quot;2&quot;;</code></p>
+<p>减少手臂摇摆 <code>cl_bob_lower_amt &quot;5&quot;; cl_bobamt_lat &quot;0.1&quot;; cl_bobamt_vert &quot;0.1&quot;; cl_viewmodel_shift_left_amt &quot;0.5&quot;; cl_viewmodel_shift_right_amt &quot;0.25&quot;;</code></p>
+<p>绑定 Alt 飞行 <code>bind &quot;alt&quot; &quot;noclip&quot;</code></p>
+<h2 id="作弊类"><a href="#作弊类" class="headerlink" title="作弊类"></a>作弊类</h2><p>开启作弊 <code>sv_cheats 1</code></p>
+<p>无限子弹 <code>sv_infinite_ammo 1</code></p>
+<p>上帝模式_锁 <code>god</code></p>
+<p>飞天 <code>noclip</code></p>
+<p>第一人称 <code>cam_command 1</code></p>
+<p>实体透视 <code>r_drawothermodels 2</code></p>
+<p>(无效)自瞄 <code>ent_fire !picker addoutputmodelscale 0</code></p>
+<p>(无效)子弹穿墙 <code>cl_showothermodels 3</code></p>
+<p>灵敏度假转 <code>bind j &quot;toggle m_yaw 0.022 1000&quot;</code></p>
+<p>无后座 <code>sv_cheats &quot;1&quot;;weapon_accuracy_nospread &quot;1&quot;;weapon_debug_spread_gap &quot;1&quot;;weapon_recoil_cooldown &quot;0&quot;;weapon_recoil_decay1_exp &quot;99999&quot;;weapon_recoil_decay2_exp &quot;99999&quot;;weapon_recoil_decay2_lin &quot;99999&quot;;weapon_recoil_scale &quot;0&quot;;weapon_recoil_suppression_shots &quot;500&quot;;weapon_recoil_view_punch_extra 0</code></p>
+<p>大地球滑步 <code>sv_standable_normal 1000</code></p>
+<p>允许连跳 <code>sv_enablebunnyhopping 1</code></p>
+<p>自动连跳 <code>sv_autobunnyhopping 1</code></p>
+<p>空中速度 <code>sv_airaccelerate 20000</code></p>
+<p>血量 <code>ent_fire !self addoutput &quot;health 233&quot;</code></p>
+<h2 id="房间"><a href="#房间" class="headerlink" title="房间"></a>房间</h2><p>1秒刷新房间 <code>mp_restartgame &quot;1&quot;</code></p>
+<p>禁止自动平衡人数 <code>mp_autoteambalance 0</code></p>
+<p>金钱上限 <code>mp_maxmoney &quot;16000&quot;</code></p>
+<p>出生金钱 <code>mp_startmoney &quot;16000&quot;</code></p>
+<p>任意地点购买 <code>mp_buy_anywhere &quot;1&quot;</code></p>
+<p>显示10秒投掷物轨迹 <code>sv_grenade_trajectory_time &quot;10&quot;</code></p>
+<p>射击命中点显示 <code>sv_showimpacts 1</code></p>
+<p>踢掉bot <code>bot kick</code></p>
+<p>杀掉所有bot <code>bot_kill</code></p>
+<p>随机增加bot <code>bot_add</code></p>
+<p>增加bot到CT <code>bot_add_ct</code></p>
+<p>增加bot到T <code>bot_add_t</code></p>
+<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="完美世界竞技平台"><a href="#完美世界竞技平台" class="headerlink" title="完美世界竞技平台"></a>完美世界竞技平台</h3><p>暂停 <code>.pause</code> &amp; <code>!pause</code></p>
+<p>解除暂停 <code>.unpause</code></p>
+<p>发刀 <code>.drop</code></p>
+<p>举报 <code>.report</code></p>
+<p>投降 <code>.gg</code></p>
+<p>队友建议位置 <code>.team</code></p>
+<p>赛前道具 <code>.m</code></p>
+<p>菜单 <code>.menu</code></p>
+<p>聊天框提示 <code>.info</code></p>
+<h3 id="5E对战平台"><a href="#5E对战平台" class="headerlink" title="5E对战平台"></a>5E对战平台</h3><p>暂停 <code>.p</code></p>
+<p>解除暂停 <code>.up</code></p>
+<p>发刀 <code>.d</code></p>
+<p>举报 <code>.r</code></p>
+<p>投降 <code>.g</code> &amp; <code>.gg</code></p>
+<h2 id="刀皮"><a href="#刀皮" class="headerlink" title="刀皮"></a>刀皮</h2><p>扔刀指令 <code>mp_drop_knife_enable 1</code></p>
+<p>海豹短刀 <code>give weapon_knife_css; ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>刺刀 <code>give weapon_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>折叠刀 <code>give weapon_knife_flip;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>穿肠刀 <code>give weapon_knife_gut;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>爪子刀 <code>give weapon_knife_karambit;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>M9 <code>give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>猎杀者匕首 <code>give weapon_knife_tactical;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>蝴蝶刀 <code>give weapon_knife_butterfly;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>弯刀 <code>give weapon_knife_falchion;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>双匕 <code>give weapon_knife_push;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>鲍伊 <code>give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>熊刀 <code>give weapon_knife_ursus;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>折刀 <code>give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>短剑 <code>give weapon_knife_stiletto;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<p>锯齿爪 <code>give weapon_knife_widowmaker;ent_fire weapon_knife addoutput &quot;classname weapon_knifegg&quot;</code></p>
+<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p>按键非指令</p>
+<p>打开Demo控制台 <code>shift+f2</code></p>
+<p>x光 <code>x</code></p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>csgo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>视频-【120帧】小米Mix2s宣传片</title>
+    <url>/2022/03/21/BV1Jq4y1v7H7/</url>
+    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=594951604&bvid=BV1Jq4y1v7H7&cid=554204088&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
+
+<hr>
+<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1Jq4y1v7H7">https://www.bilibili.com/video/BV1Jq4y1v7H7</a></p>
+<p>试试湿滑的补帧</p>
+<h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
+<p>文件名: xiaomimix2s.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
+<p>原分辨率: 1920*1080</p>
+<p>补帧分辨率: 1920*1080</p>
+<p>上传分辨率: 1920*1080 > 3840*2160</p>
+<p>原帧: 25fps</p>
+<p>补帧: 120fps</p>
+<p>上传帧率: 25fps x8 > 120fps</p>
+<p>码率: 15 < 20Mbps</p>
+<p>编码: x265</p>
+
+<p>*视频来源B站收集小米宣传片 小米mix2s 因素材过多无来源链接，如侵犯版权请联系我</p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>视频博文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</title>
+    <url>/2022/08/10/catwrt-v22.7-newifid2/</url>
+    <content><![CDATA[<p>CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。</p>
+<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
+<li>大雕源码最小化</li>
+<li>MTK 鸡血 wifi 无线驱动</li>
+<li>完全支持 IPv6</li>
+<li>基础网络加速</li>
+<li>普通远程管理</li>
+</ul>
+<span id="more"></span>
+
+<p>因为 Newifi D2 的存储空间过小只有可怜的 32m 所以专门做了个 CatWrt 最小化固件，和 x86 版 v22.7 基本上是一个源码，所以插件除了原版+内网穿透其他全部为打包好的插件有需要可以手动安装</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-09/newifid2-catwrt.png" loading="lazy"></p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
+<p>用户 <code>root</code></p>
+<p>密码 <code>password</code></p>
+<blockquote>
+<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
+</blockquote>
+<h3 id="自动开启wifi"><a href="#自动开启wifi" class="headerlink" title="自动开启wifi"></a>自动开启wifi</h3><p>因为鸡血固件特性，只能通过这样的方式打开无线，以下方法都建议使用。</p>
+<p>电脑有线设置静态地址为 <code>192.168.1.x</code> 子网掩码 <code>255.255.255.0</code>,主要的网关/路由器地址填 <code>192.168.1.4</code>，DNS留空或者和网关一样</p>
+<h4 id="脚本"><a href="#脚本" class="headerlink" title="脚本"></a>脚本</h4><p>登录 OpenWrt 后台，在系统-启动项-本地启动脚本 插入 <code>/sbin/mtkwifi up</code> 在 <code>exit 0</code> 前面。</p>
+<p>完整脚本</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">/sbin/mtkwifi up
+
+<span class="token builtin class-name">exit</span> <span class="token number">0</span></code></pre>
+<h4 id="计划任务"><a href="#计划任务" class="headerlink" title="计划任务"></a>计划任务</h4><p>在系统-计划任务中填入 <code>0 * * * * /sbin/mtkwifi up</code> 计划任务。</p>
+<p>完整计划任务</p>
+<pre class="language-none"><code class="language-none">0 * * * * &#x2F;sbin&#x2F;mtkwifi up</code></pre>
+
+<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
+<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
+<p>返回后输入 <code>reboot</code> 重启。</p>
+<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
+<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
+</blockquote>
+<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.7/targets/ramips/mt7621</code><br><br></p>
+<p>一般的只需要下载 <code>squashfs-sysupgrade.bin</code> 后缀，即 <code>openwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin</code>。</p>
+<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
+<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
+</blockquote>
+<p>链接: <a href="https://www.aliyundrive.com/s/a3uvrWWV4xa">https://www.aliyundrive.com/s/a3uvrWWV4xa</a><br>提取码: 91tt</p>
+<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p>链接: <a href="https://cloud.189.cn/web/share?code=VzAZFjVZFBry">https://cloud.189.cn/web/share?code=VzAZFjVZFBry</a><br>访问码: ojg7</p>
+<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CKCXZggb0Y">https://caiyun.139.com/m/i?0H5CKCXZggb0Y</a><br>提取码: JHgq</p>
+<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
+<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
+]]></content>
+      <categories>
+        <category>硬路由</category>
+      </categories>
+      <tags>
+        <tag>硬路由</tag>
+        <tag>固件</tag>
+        <tag>OpenWrt</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客更新啦</title>
     <url>/2021/12/06/blog-update/</url>
     <content><![CDATA[<h1 id="博客の变化"><a href="#博客の变化" class="headerlink" title="博客の变化"></a>博客の变化</h1><p>在今天(2021-12-6 21:09:43)，我更换了由前后端分离部署的 <a href="https://github.com/mx-space">Mix-space</a> ，可能熟悉我们原本Hexo博客的小伙伴会比较陌生，但是为了变化内容我还是写一点小白须知。</p>
@@ -674,135 +733,6 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</title>
-    <url>/2022/08/10/catwrt-v22.7-newifid2/</url>
-    <content><![CDATA[<p>CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。</p>
-<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
-<li>大雕源码最小化</li>
-<li>MTK 鸡血 wifi 无线驱动</li>
-<li>完全支持 IPv6</li>
-<li>基础网络加速</li>
-<li>普通远程管理</li>
-</ul>
-<span id="more"></span>
-
-<p>因为 Newifi D2 的存储空间过小只有可怜的 32m 所以专门做了个 CatWrt 最小化固件，和 x86 版 v22.7 基本上是一个源码，所以插件除了原版+内网穿透其他全部为打包好的插件有需要可以手动安装</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-09/newifid2-catwrt.png" loading="lazy"></p>
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
-<p>用户 <code>root</code></p>
-<p>密码 <code>password</code></p>
-<blockquote>
-<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
-</blockquote>
-<h3 id="自动开启wifi"><a href="#自动开启wifi" class="headerlink" title="自动开启wifi"></a>自动开启wifi</h3><p>因为鸡血固件特性，只能通过这样的方式打开无线，以下方法都建议使用。</p>
-<p>电脑有线设置静态地址为 <code>192.168.1.x</code> 子网掩码 <code>255.255.255.0</code>,主要的网关/路由器地址填 <code>192.168.1.4</code>，DNS留空或者和网关一样</p>
-<h4 id="脚本"><a href="#脚本" class="headerlink" title="脚本"></a>脚本</h4><p>登录 OpenWrt 后台，在系统-启动项-本地启动脚本 插入 <code>/sbin/mtkwifi up</code> 在 <code>exit 0</code> 前面。</p>
-<p>完整脚本</p>
-<pre class="language-bash" data-language="bash"><code class="language-bash">/sbin/mtkwifi up
-
-<span class="token builtin class-name">exit</span> <span class="token number">0</span></code></pre>
-<h4 id="计划任务"><a href="#计划任务" class="headerlink" title="计划任务"></a>计划任务</h4><p>在系统-计划任务中填入 <code>0 * * * * /sbin/mtkwifi up</code> 计划任务。</p>
-<p>完整计划任务</p>
-<pre class="language-none"><code class="language-none">0 * * * * &#x2F;sbin&#x2F;mtkwifi up</code></pre>
-
-<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
-<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
-<p>返回后输入 <code>reboot</code> 重启。</p>
-<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
-<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
-</blockquote>
-<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.7/targets/ramips/mt7621</code><br><br></p>
-<p>一般的只需要下载 <code>squashfs-sysupgrade.bin</code> 后缀，即 <code>openwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin</code>。</p>
-<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
-<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
-</blockquote>
-<p>链接: <a href="https://www.aliyundrive.com/s/a3uvrWWV4xa">https://www.aliyundrive.com/s/a3uvrWWV4xa</a><br>提取码: 91tt</p>
-<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p>链接: <a href="https://cloud.189.cn/web/share?code=VzAZFjVZFBry">https://cloud.189.cn/web/share?code=VzAZFjVZFBry</a><br>访问码: ojg7</p>
-<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CKCXZggb0Y">https://caiyun.139.com/m/i?0H5CKCXZggb0Y</a><br>提取码: JHgq</p>
-<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
-<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
-]]></content>
-      <categories>
-        <category>硬路由</category>
-      </categories>
-      <tags>
-        <tag>硬路由</tag>
-        <tag>固件</tag>
-        <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CatWrt-v22.8 固件 i225 网卡修复</title>
-    <url>/2022/08/17/catwrt-v22.8/</url>
-    <content><![CDATA[<p>在上个月发布的 OpenWrt 软路由固件出现了英特尔 i225 2.5G 网卡表现不佳的情况测速不达标断流等等问题，这次更新了带来了修复版以及一直以来的特色功能，经久耐用的固件主旁单臂都很稳定高效。</p>
-<p>基于 <a href="https://github.com/coolsnowwolf/lede">Lean 源码</a> 拉取 2022-8-11 的仓库打造！</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/hello.png" loading="lazy"></p>
-<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
-<li><input checked disabled type="checkbox"> 令人惊叹的远程管理</li>
-<li><input checked disabled type="checkbox"> 完全支持 IPv6</li>
-<li><input checked disabled type="checkbox"> 智能网络加速</li>
-<li><input checked disabled type="checkbox"> 负载均衡</li>
-<li><input checked disabled type="checkbox"> Docker</li>
-</ul>
-<span id="more"></span>
-
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
-<p>用户 <code>root</code></p>
-<p>密码 <code>password</code></p>
-<blockquote>
-<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
-</blockquote>
-<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
-<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
-<p>返回后输入 <code>reboot</code> 重启。</p>
-<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/network-hide.png" loading="lazy"></p>
-<h2 id="更新预览"><a href="#更新预览" class="headerlink" title="更新预览"></a>更新预览</h2><blockquote>
-<p>查看编译时选择的插件预览 <a href="https://api.miaoer.xyz/api/v2/snippets/catwrt/package"><i class="ri-terminal-window-fill"></i> 获取</a> （不包含插件依赖）</p>
-</blockquote>
-<ul>
-<li>修复 英特尔 i225 网卡表现不佳的问题</li>
-<li>更换 Flow Offloading 作为软路由小包加速</li>
-<li>移除 高通 Shortcut FE 软路由小包加速</li>
-<li>主题 argon 添加统一背景</li>
-<li>修改主机名为 <code>CatWrt</code></li>
-<li>修改默认 IP <code>192.168.1.4</code></li>
-<li>修改 banner 个性易辨别</li>
-<li>更改 linux 内核占用 25M</li>
-<li>更改 ovenlay 分区占用 300M</li>
-</ul>
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
-<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
-</blockquote>
-<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.8/x86/64</code><br><br></p>
-<p><code>squashfs-combined</code> 为传统 BIOS 启动</p>
-<p><code>squashfs-combined-efi</code> 为 UEFI 启动</p>
-<p>一般的推荐只需要下载 squashfs-combined 虚拟机选择传统模式启动而并非 EFI，如果不能启动请更换 UEFI 版。</p>
-<p><code>img</code> 文件建议使用 <a href="https://cdn.miaoer.xyz/download/22-06-29/IMG%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7.exe"><i class="ri-file-download-fill"></i> IMG写盘工具</a> 或者 StarWind V2V Converter 进行安装</p>
-<p><code>vmdk </code>文件是 vmware 虚拟机的虚拟硬盘文件，并非原OpenWrt源码编译出来</p>
-<p>【源码问题暂时不提供】<code>qcow2</code> 文件是 pve 或 kvm 虚拟机的虚拟硬盘文件</p>
-<p>【源码问题暂时不提供】<code>vhdx</code> 文件是 hype-v 虚拟机的虚拟硬盘文件</p>
-<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
-<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
-</blockquote>
-<p><a href="https://www.aliyundrive.com/s/4tnoewzGC6E">https://www.aliyundrive.com/s/4tnoewzGC6E</a><br>提取码: 72qy</p>
-<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p><a href="https://cloud.189.cn/web/share?code=jqYVR363iay2">https://cloud.189.cn/web/share?code=jqYVR363iay2</a><br>访问码: 5pqg</p>
-<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CIa4CF0qYt">https://caiyun.139.com/m/i?0H5CIa4CF0qYt</a><br>提取码: sTFE</p>
-<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>Tip: 固件使用 IMG 写盘工具写盘时出现多少扇区错误的，直接重启进 OpenWrt 就好。</p>
-<p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
-<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
-]]></content>
-      <categories>
-        <category>网络</category>
-      </categories>
-      <tags>
-        <tag>OpenWrt</tag>
-        <tag>CatWrt</tag>
-        <tag>软路由</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CatWrt-OpenWrt x86 软路由稳定固件的再一次升级</title>
     <url>/2022/09/25/catwrt-v22.7/</url>
     <content><![CDATA[<blockquote>
@@ -874,6 +804,76 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </tags>
   </entry>
   <entry>
+    <title>CatWrt-v22.8 固件 i225 网卡修复</title>
+    <url>/2022/08/17/catwrt-v22.8/</url>
+    <content><![CDATA[<p>在上个月发布的 OpenWrt 软路由固件出现了英特尔 i225 2.5G 网卡表现不佳的情况测速不达标断流等等问题，这次更新了带来了修复版以及一直以来的特色功能，经久耐用的固件主旁单臂都很稳定高效。</p>
+<p>基于 <a href="https://github.com/coolsnowwolf/lede">Lean 源码</a> 拉取 2022-8-11 的仓库打造！</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/hello.png" loading="lazy"></p>
+<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
+<li><input checked disabled type="checkbox"> 令人惊叹的远程管理</li>
+<li><input checked disabled type="checkbox"> 完全支持 IPv6</li>
+<li><input checked disabled type="checkbox"> 智能网络加速</li>
+<li><input checked disabled type="checkbox"> 负载均衡</li>
+<li><input checked disabled type="checkbox"> Docker</li>
+</ul>
+<span id="more"></span>
+
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
+<p>用户 <code>root</code></p>
+<p>密码 <code>password</code></p>
+<blockquote>
+<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
+</blockquote>
+<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
+<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
+<p>返回后输入 <code>reboot</code> 重启。</p>
+<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-29/network-hide.png" loading="lazy"></p>
+<h2 id="更新预览"><a href="#更新预览" class="headerlink" title="更新预览"></a>更新预览</h2><blockquote>
+<p>查看编译时选择的插件预览 <a href="https://api.miaoer.xyz/api/v2/snippets/catwrt/package"><i class="ri-terminal-window-fill"></i> 获取</a> （不包含插件依赖）</p>
+</blockquote>
+<ul>
+<li>修复 英特尔 i225 网卡表现不佳的问题</li>
+<li>更换 Flow Offloading 作为软路由小包加速</li>
+<li>移除 高通 Shortcut FE 软路由小包加速</li>
+<li>主题 argon 添加统一背景</li>
+<li>修改主机名为 <code>CatWrt</code></li>
+<li>修改默认 IP <code>192.168.1.4</code></li>
+<li>修改 banner 个性易辨别</li>
+<li>更改 linux 内核占用 25M</li>
+<li>更改 ovenlay 分区占用 300M</li>
+</ul>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
+<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
+</blockquote>
+<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.8/x86/64</code><br><br></p>
+<p><code>squashfs-combined</code> 为传统 BIOS 启动</p>
+<p><code>squashfs-combined-efi</code> 为 UEFI 启动</p>
+<p>一般的推荐只需要下载 squashfs-combined 虚拟机选择传统模式启动而并非 EFI，如果不能启动请更换 UEFI 版。</p>
+<p><code>img</code> 文件建议使用 <a href="https://cdn.miaoer.xyz/download/22-06-29/IMG%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7.exe"><i class="ri-file-download-fill"></i> IMG写盘工具</a> 或者 StarWind V2V Converter 进行安装</p>
+<p><code>vmdk </code>文件是 vmware 虚拟机的虚拟硬盘文件，并非原OpenWrt源码编译出来</p>
+<p>【源码问题暂时不提供】<code>qcow2</code> 文件是 pve 或 kvm 虚拟机的虚拟硬盘文件</p>
+<p>【源码问题暂时不提供】<code>vhdx</code> 文件是 hype-v 虚拟机的虚拟硬盘文件</p>
+<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
+<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
+</blockquote>
+<p><a href="https://www.aliyundrive.com/s/4tnoewzGC6E">https://www.aliyundrive.com/s/4tnoewzGC6E</a><br>提取码: 72qy</p>
+<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p><a href="https://cloud.189.cn/web/share?code=jqYVR363iay2">https://cloud.189.cn/web/share?code=jqYVR363iay2</a><br>访问码: 5pqg</p>
+<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CIa4CF0qYt">https://caiyun.139.com/m/i?0H5CIa4CF0qYt</a><br>提取码: sTFE</p>
+<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>Tip: 固件使用 IMG 写盘工具写盘时出现多少扇区错误的，直接重启进 OpenWrt 就好。</p>
+<p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
+<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
+]]></content>
+      <categories>
+        <category>网络</category>
+      </categories>
+      <tags>
+        <tag>OpenWrt</tag>
+        <tag>软路由</tag>
+        <tag>CatWrt</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>拆卸AMD散热器，清灰</title>
     <url>/2022/01/19/clean-amd-heatsink/</url>
     <content><![CDATA[<p>今天闲着没事做给<a href="https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600">续集</a>上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。</p>
@@ -899,34 +899,6 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </categories>
       <tags>
         <tag>电脑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记录一次换CPU，R5 3600</title>
-    <url>/2022/01/18/dg-replace-ryzen3600/</url>
-    <content><![CDATA[<p>在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031857.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>在 Zen2 架构下这一代性能表现都非常优异，不能光看评测还得自己上手一下，没想到升级的不是我的老锐龙电脑是去年给别人 2800 装的电脑，当时在没有矿潮的时候这张1660在淘宝上购入 1599，矿潮时甚至涨到 3000+ ……；</p>
-<p>在早上5:50起，就检查一下快递有没有到，很可惜我买内存的时候没看清楚地址就下单了，只能先带着处理器奔赴东莞，我卡好点选择下地铁再南站购票，我赶上了 8:06 到的 G6253 高铁，下高铁站后座上东莞轨道交通在珊美地铁站下，很可惜他们那边暂时还没有1号线，以后开通了有机会坐一坐；到朋友家里稍微等了等内存的快递，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031848.jpg" loading="lazy"></p>
-<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；稍微拿纸巾擦拭了一下，把把手往右滑上提到90度拿下旧的 2200g 放一边，因为拿之前看过不少连根拔起的图在操作之前烤鸡了。在包装里拿起 3600 放下拉下把手扣上有原装水泥(硅脂)幽灵散热器，把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031829.jpg" loading="lazy"></p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031838.jpg" loading="lazy"></p>
-<p>换上新的 芝奇 DDR4 8G 2400 (时序: 15-15-15-39) 的非马甲单面条，不要问为什么强调单面条后面就知道了；擦腚，楷机，屏幕轻松点亮。第一次开机重启了，第二次弹出让你选F1还是F2的，我选了F1进了 BIOS 然后重启到系统，打开任务管理器看框框，一下子多了8个框框，因为时间紧迫没有下 afterburner 看帧率但游戏中没有过卡顿和跳帧了；</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031812.jpg" loading="lazy"></p>
-<p>在单通道 8G下 绝地求生:大逃杀 帧率在 100<del>120 波动 最低帧80，在 CS:GO 中帧率在 200</del>300 波动 最低帧150（不包含烟雾弹），我打包票这个配置可以再战3年，节后再补买同样的内存。</p>
-<p>坑点: 就在单双面上，就隔天发货我收到的是双面颗粒的，而在朋友家收到的就是单面条。</p>
-<p>这次升级就算完成了，朋友一场要了点路费就跑了还带走了换下来的CPU和内存挂海鲜市场，过几天还有一个朋友的硬盘换PM9A1敬请关注。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031801.jpg" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>电脑</category>
-      </categories>
-      <tags>
-        <tag>电脑</tag>
-        <tag>装机</tag>
       </tags>
   </entry>
   <entry>
@@ -1127,6 +1099,34 @@ ffmpeg -i input.mp4 -vf scale&#x3D;1920:-1 output.mp4</code></pre>
       </tags>
   </entry>
   <entry>
+    <title>记录一次换CPU，R5 3600</title>
+    <url>/2022/01/18/dg-replace-ryzen3600/</url>
+    <content><![CDATA[<p>在昨天 (2022年1月17日)，我给我朋友去年在东莞自己装锐龙平台 AMD Ryzen3 2200g 做升级，因为CPU瓶颈比较大打游戏会顿卡，显卡这方面 1660 目前好像没啥瓶颈。我首先考虑升级这代B450兼容的 AMD Ryzen5 3600</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031857.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>在 Zen2 架构下这一代性能表现都非常优异，不能光看评测还得自己上手一下，没想到升级的不是我的老锐龙电脑是去年给别人 2800 装的电脑，当时在没有矿潮的时候这张1660在淘宝上购入 1599，矿潮时甚至涨到 3000+ ……；</p>
+<p>在早上5:50起，就检查一下快递有没有到，很可惜我买内存的时候没看清楚地址就下单了，只能先带着处理器奔赴东莞，我卡好点选择下地铁再南站购票，我赶上了 8:06 到的 G6253 高铁，下高铁站后座上东莞轨道交通在珊美地铁站下，很可惜他们那边暂时还没有1号线，以后开通了有机会坐一坐；到朋友家里稍微等了等内存的快递，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031848.jpg" loading="lazy"></p>
+<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；稍微拿纸巾擦拭了一下，把把手往右滑上提到90度拿下旧的 2200g 放一边，因为拿之前看过不少连根拔起的图在操作之前烤鸡了。在包装里拿起 3600 放下拉下把手扣上有原装水泥(硅脂)幽灵散热器，把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031829.jpg" loading="lazy"></p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031838.jpg" loading="lazy"></p>
+<p>换上新的 芝奇 DDR4 8G 2400 (时序: 15-15-15-39) 的非马甲单面条，不要问为什么强调单面条后面就知道了；擦腚，楷机，屏幕轻松点亮。第一次开机重启了，第二次弹出让你选F1还是F2的，我选了F1进了 BIOS 然后重启到系统，打开任务管理器看框框，一下子多了8个框框，因为时间紧迫没有下 afterburner 看帧率但游戏中没有过卡顿和跳帧了；</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031812.jpg" loading="lazy"></p>
+<p>在单通道 8G下 绝地求生:大逃杀 帧率在 100<del>120 波动 最低帧80，在 CS:GO 中帧率在 200</del>300 波动 最低帧150（不包含烟雾弹），我打包票这个配置可以再战3年，节后再补买同样的内存。</p>
+<p>坑点: 就在单双面上，就隔天发货我收到的是双面颗粒的，而在朋友家收到的就是单面条。</p>
+<p>这次升级就算完成了，朋友一场要了点路费就跑了还带走了换下来的CPU和内存挂海鲜市场，过几天还有一个朋友的硬盘换PM9A1敬请关注。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-17/1642481031801.jpg" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>电脑</tag>
+        <tag>装机</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>第一次用 pfSense</title>
     <url>/2022/09/25/first-pfsense/</url>
     <content><![CDATA[<p>在用过 Router OS 和爱快后我盯上了老外爱玩的 pfSense 拿来完成基本网络应用，在 <a href="https://www.pfsense.org/">pfSense官网</a> 中选择新加坡节点下载非常快，pfSense 是基于 FreeBSD 免费开源的系统；</p>
@@ -1151,6 +1151,203 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </categories>
       <tags>
         <tag>软路由</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记录一次换m.2硬盘</title>
+    <url>/2022/09/25/fs-pm9a1/</url>
+    <content><![CDATA[<p>受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)</p>
+<p>有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，<br>三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>啪的一下很快啊，快递从南京过来了，快递比我想象中的还要小，更让我惊讶的是M.2硬盘这么小…（SATA固态的泪）</p>
+<p>螺丝没找到直接斜插直连 CPU 的 PCIe 通道的M.2硬盘位，开机稍微分了一下区就开始跑 AS SSD 了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/PM9A1.png" loading="lazy"></p>
+<p>读: 2832MB/s 写: 2763MB/s</p>
+<p>令我惊讶的是 4K 的速度，读: 2109MB/s 写: 1345MB/s，第一次亲眼在自己电脑上这么高的分数。</p>
+<p>用 CrystalDiskInfo 显示都是没问题的，也没去查了，把盘还原打包放置了十来天</p>
+<p>直到1月29日，刚刚好有空就送过去朋友家里，上门服务了属于是</p>
+<p>拆开机箱看到的不知道西数的什么 SSD 蓝盘【这几天查询后修改】，我拆开了另外一侧的盖板好家伙，原来机器吵不是机械硬盘在吵…但是也是要加的因为不知道为什么固态也这么慢，不过他原来的固态插的芯片组引出的 PCIe 通道上，我只需要卸下原来的 M.2 马甲将 PM9A1 安上就好了。</p>
+<p>装后给原来的固态备份质料，然后清空重新单个分区，因为习惯性安装的 Windows 10 ，给 PM9A1 分了2个区，安装驱动…win10已经给我安装完了，显卡驱动也是但是我还是补上了 NVIDIA GeForce Experience 方便更新，安装好常用软件就，坐了一会就走了…</p>
+<p>晚7点半走，等了半天车11点才到家，淦(;´༎ຶД༎ຶ`)</p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>电脑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>性价比很高，无线强否？新华三 NX54 简单对比测试</title>
+    <url>/2022/10/15/h3c-nx54/</url>
+    <content><![CDATA[<p>大家好，最近淘了一个 Wi-Fi6 无线路由器</p>
+<p>听说这款 NX54 非常强，同价位基本上是碾压级的存在</p>
+<p>所以我在某平台捡漏捡来的，这款新华三 NX54</p>
+<p>我也想知道 WiFi-5 和 WiFi-6 在速度和其他到底差别在哪里，那我们看看吧</p>
+<iframe src="https://api.paugram.com/bili?bv=BV1xt4y1F7cS&style=white" style="height: 10em; width: 100%"></iframe>
+
+<p><a href="https://www.youtube.com/watch?v=QTridQPsKYg"><i class="ri-youtube-line"></i> Youtube</a></p>
+<span id="more"></span>
+
+<p><br><br></p>
+<details>
+         <summary>视频使用:</summary>
+         <br>
+         <p>BGM:
+         <li>Happy - Justhea</li><br>
+         <li>Embrace - Sappheiros</li><br>
+         </p><br></details>
+
+<hr>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/box.jpg" loading="lazy"></p>
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><h3 id="硬件配置"><a href="#硬件配置" class="headerlink" title="硬件配置"></a>硬件配置</h3><p>先看看这款新华三 NX54 Wi-Fi6 路由器的硬件配置</p>
+<ul>
+<li>CPU: 高通 IPQ5018</li>
+<li>512M 内存</li>
+<li>128M Flash 闪存</li>
+<li>5G 芯片 QCA9074</li>
+<li>2.4G 芯片 处理器集成</li>
+</ul>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/2021_0531_151053_001-800x533.jpg" loading="lazy"></p>
+<h3 id="支持"><a href="#支持" class="headerlink" title="支持"></a>支持</h3><p>新华三 NX54 支持以下技术</p>
+<ul>
+<li>2.4GHz 2x2 MIMO</li>
+<li>5GHz 4x4 MIMO</li>
+<li>MU-MIMO</li>
+<li>Beamforming 定向天线技术</li>
+<li>4KQAM</li>
+<li>EasyMesh</li>
+<li>IEEE 802.11k/v</li>
+</ul>
+<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>测试地点是88平米的房子；</p>
+<p>对比对象是替换下来的小米 AC2100；</p>
+<p>他们俩确实不是一个价位的，但是可以对比 Wi-Fi5 和 Wi-Fi6 差别到底大不大</p>
+<p>设置这里华三 NX54 5G 频段下使用 160Mhz 无线频宽 2.4G 使用 20Mhz 无线频宽，开启 MU-MIMO，OFDMA<br>小米 AC2100 则开启穿墙模式进行测试</p>
+<p>接下来是 5G 频段频段速度测试，首先看看小米10的 Speedtest</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/speedtestnet.jpg" loading="lazy"></p>
+<p>额，是不是搞错了，其实不是和你们想的结果不一样，他们在外网的测速结果是完全一致的</p>
+<p>是因为我家办理的只有 300Mbps 的宽带，外网下使用的 speedtest 是跑不满的如果放在内网才是正片<br>所以我们使用 Docker 搭建内网 speedtest</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/dockerps.png" loading="lazy"></p>
+<h2 id="5G-频段测试"><a href="#5G-频段测试" class="headerlink" title="5G 频段测试"></a>5G 频段测试</h2><h3 id="笔记本-WiFi-5-和-WiFi-6"><a href="#笔记本-WiFi-5-和-WiFi-6" class="headerlink" title="笔记本 WiFi-5 和 WiFi-6"></a>笔记本 WiFi-5 和 WiFi-6</h3><p>接下来使用 NX54 配合 Wi-Fi5 网卡的 8822ce 笔记本 和 Wi-Fi6 网卡的 ax200 笔记本进行下面的对比测试</p>
+<p>这两款都是笔记本比较常见的无线网卡了，他们分别代表 Wi-Fi5 和 Wi-Fi6 的常见配置</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/pch5speedtest.jpg" loading="lazy"></p>
+<div align="center">
+**新华三 NX54 配合 Wi-Fi5 网卡的 8822ce**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 866 Mbps | 682 Mbps | 489 Mpbs | 2.0 ms | 0.68 ms |<br>| B | 520 Mbps | 461 Mbps | 155 Mpbs | 3.70 ms | 6.02 ms |<br>| C | 585 Mbps | 504 Mbps | 215 Mpbs | 3.70 ms | 2.58 ms |<br>| D | 866 Mbps | 641 Mbps | 493 Mpbs | 3.90 ms | 0.84 ms |<br>| E | 325 Mbps | 166 Mbps | 37.8 Mpbs | 5.20 ms | 2.23 ms |</p>
+<hr>
+<div align="center">
+**新华三 NX54 配合 Wi-Fi6 网卡的 ax200**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 2402 Mbps | 968 Mbps | 722 Mpbs | 1.60 ms | 0.16 ms |<br>| B | 1922/432 Mbps | 883 Mbps | 281 Mpbs | 1.60 ms | 0.20 ms |<br>| C | 1922/432 Mbps | 887 Mbps | 356 Mpbs | 1.70 ms | 0.87 ms |<br>| D | 2402/2162 Mbps | 921 Mbps | 631 Mpbs | 1.70 ms | 0.55 ms |<br>| E | 865/245 Mbps | 517 Mbps | 138 Mpbs | 1.70 ms | 1.07 ms |</p>
+<p>同样的地点 Wi-Fi5 的网卡跑出了下载 682Mbps ，Wi-Fi6 网卡就跑出了下载 968 Mbps 接近有线千兆网卡的水平了</p>
+<p>华三 NX54 无线不再是瓶颈反而千兆网口限制</p>
+<p>在远在客厅也有 887Mbps 的下载，在厨房也有比 Wi-Fi5 高出近3倍的下载速度</p>
+<p>其他房间也没有比较大的区别，基本能覆盖家里常见的几个点位也跑到了比较快的水准了</p>
+<p>而使用小米 AC2100，配合 Wi-Fi5 网卡的 8822ce 笔记本速度其实也和 NX54 测的 Wi-Fi5 网卡差一点点，这里简单贴一下吧</p>
+<div align="center">
+**小米 AC2100 配合 Wi-Fi5 网卡的 8822ce**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 866 Mbps | 585 Mbps | 409 Mpbs | 2.20 ms | 1.56 ms |<br>| B | 320 Mbps | 350 Mbps | 154 Mpbs | 2.30 ms | 0.21 ms |<br>| C | 866 Mbps | 525 Mbps | 365 Mpbs | 2.20 ms | 0.26 ms |<br>| D | 520 Mbps | 585 Mbps | 407 Mpbs | 2.20 ms | 1.56 ms |<br>| E | 325 Mbps | 274 Mbps | 61.9 Mpbs | 2.40 ms | 0.35 ms |</p>
+<h3 id="手机"><a href="#手机" class="headerlink" title="手机"></a>手机</h3><p>接下来看看手机的无线性能测试部分</p>
+<p>AC2100 和 NX54 也拉开了不小的差距，</p>
+<p>甚至小米10的上传有反超笔记本上的 ax200 的趋势，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/h5speedtest.jpg" loading="lazy"></p>
+<div align="center">
+**小米 AC2100 配合 小米10**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 866 Mbps | 589 Mbps | 680 Mpbs | 3.60 ms | 2.07 ms |<br>| B | 195 Mbps | 125 Mbps | 88.9 Mpbs | 4.00 ms | 13.4 ms |<br>| C | 866 Mbps | 498 Mbps | 383 Mpbs | 3.40 ms | 1.26 ns |<br>| D | 390 Mbps | 246 Mbps | 163 Mpbs | 3.90 ms | 4.35 ms |<br>| E | 65 Mbps | 25.3 Mbps | 14.1 Mpbs | 7.20 ms | 23.5 ms |</p>
+<hr>
+<div align="center">
+**新华三 NX54 配合 小米10**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 | dBm |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: | :-: |<br>| A | 1200 Mbps | 972 Mbps | 888 Mpbs | 2.90 ms | 5.41 ms| -30 dBm |<br>| B | 626 Mbps | 505 Mbps | 221 Mpbs | 3.20 ms | 2.63  ms| -55 dBm |<br>| C | 1200 Mbps | 970 Mbps | 863 Mpbs | 3.70 ms | 2.76 ms| -33 dBm |<br>| D | 1200 Mbps | 941 Mbps | 845 Mpbs | 3.30 ms | 0.66 ms| -36 dBm |<br>| E | 144 Mbps | 103 Mbps | 32.4 Mpbs | 2.90 ms | 1.75 ms| -69 dBm |</p>
+<p>使用 NX54 在 A 点跑出了下载 972Mbps 比起 AC2100 的 589Mbps，下载差近两倍</p>
+<p>在使用支持 WiFi-6 的 iPhone se3 上进行测试时也表现出不俗的差距，</p>
+<p>使用 NX54 在同样的 A 点位下载 912Mbps，使用 AC2100 仅有 433Mbps，在 NX54 下跑出的成绩对于 iPhone 来说应该算不错吧……</p>
+<div align="center">
+**新华三 NX54 配合 iPhone se3**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | - Mbps | 912 Mbps | 465 Mpbs | 3.00 ms | 4.65 ms |<br>| B | - Mbps | 538 Mbps | 265 Mpbs | 3.00 ms | 2.65 ms |<br>| C | - Mbps | 651 Mbps | 318 Mpbs | 2.00 ms | 0.47 ms |<br>| D | - Mbps | 897 Mbps | 460 Mpbs | 2.00 ms | 2.36 ms |<br>| E | - Mbps | 120 Mbps | 32.2 Mpbs | 3.00 ms | 2.12 ms |</p>
+<hr>
+<div align="center">
+**小米 AC2100 配合 iPhone se3**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | - | 433 Mbps | 396 Mpbs | 7.00 ms | 27.4 ms |<br>| B | - | 249 Mbps | 35.4 Mpbs | 3.00 ms | 0.21 ms |<br>| C | - | 285 Mbps | 346 Mpbs | 5.00 ms | 3.08 ns |<br>| D | - | 221 Mbps | 63.8 Mpbs | 7.00 ms | 3.24 ms |<br>| E | - | 4.10 Mbps | 0.30 Mpbs | 5.00 ms | 30.1 ms |</p>
+<h2 id="2-4G-频段测试"><a href="#2-4G-频段测试" class="headerlink" title="2.4G 频段测试"></a>2.4G 频段测试</h2><p>因为 2.4G 频段效果都不是很理想特别是小米 AC2100，延迟和速率都是过山车的情况，忽高忽低没有比较的意义，</p>
+<p>而且 2.4G 频段普遍兼容性要好些，不同平台差距较小。</p>
+<div align="center">
+**小米 AC2100 配合 小米10**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 300 Mbps | 26.9 Mbps | 54.3 Mpbs | 4.10 ms | 111 ms |<br>| B | 300 Mbps | 17.6 Mbps | 7.07 Mpbs | 9.40 ms | 132 ms |<br>| C | 300 Mbps | 24.3 Mbps | 18.6 Mpbs | 4.10 ms | 159 ms |<br>| E | 60 Mbps | 1.21 Mbps | 0.31 Mpbs | 10.4 ms | 214 ms |</p>
+<hr>
+<div align="center">
+**新华三 NX54 配合 小米10**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 | dBm |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: | :-: |<br>| A | 286 Mbps | 84.4 Mbps | 135 Mpbs | 6.80 ms | 6.09 ms| -13 dBm |<br>| B | 286 Mbps | 54.3 Mbps | 54.3 Mpbs | 5.50 ms | 463 ms| -44 dBm |<br>| C | 286 Mbps | 80.6 Mbps | 45.9 Mpbs | 4.10 ms | 9.76 ms| -38 dBm |<br>| E | 206 Mbps | 9.00 Mbps | 0.47 Mpbs | 6.00 ms | 18.3 ms| -59 dBm |</p>
+<p>先看看 NX54 测试机型小米10在A点跑到了 84.4Mbps 的下载速度</p>
+<p>而 AC2100 也只有 26.9Mbps……</p>
+<p>看到这差距用 NX54 就算是 20Mhz 无线频宽能凑合用了，AC2100 的 2.4G 也是种折磨，虽然都是连不支持 2.4G 频段的设备，稳定就好。</p>
+<p>其他实测数据具体看博文里的表格我这里就不赘述了。</p>
+<p>iPhone 和笔记本的对比测试，这里也和前面小米10的数据</p>
+<p>差不多这里也不写出来了；因为这点差距而且 2.4G 也都出现了表现不稳定的情况。</p>
+<p>总体 NX54 稍微占上风因为 AC2100 的 2.4G 频段抽风，NX54 可以在官方固件中调节频率来使得连接速率更高，虽然 AC2100 也可以刷入第三方 OpenWrt 固件来调节。</p>
+<p>这里就仅仅放上小米 AC2100 的 2.4G 频段测试数据供大家参考。</p>
+<div align="center">
+**小米 AC2100 配合 Wi-Fi5 网卡的 8822ce**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 300 Mbps | 79.2 Mbps | 6.26 Mpbs | 3.50 ms | 235 ms |<br>| B | 300 Mbps | 11.7 Mbps | 0.90 Mpbs | 3.80 ms | 77 ms |<br>| C | 300 Mbps | 17.7 Mbps | 2.99 Mpbs | 3.30 ms | 222 ms |<br>| E | - Mbps | - Mbps | - Mpbs | - ms | - ms |</p>
+<h2 id="无线信号覆盖"><a href="#无线信号覆盖" class="headerlink" title="无线信号覆盖"></a>无线信号覆盖</h2><p>信号方面，我也简单测一下</p>
+<p>测试使用小米10手机在 WiFiMan app 下测试无线信号覆盖</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/wuxianxinhaofugai.jpg" loading="lazy"></p>
+<p>可以看到 NX54 的信号覆盖也是相当好的，各点位与表格也对应大家可以参考一下</p>
+<p>手绘嘛大家做个对比就好，别在意</p>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>有人会觉得你怎么和一台发售了两年的路由器进行测试呢，那确实我也不是硬路由的评测爱好者</p>
+<p>不会在用闲置的钱去购入无线路由器去做专门做评测视频</p>
+<p>为了弥补部分看官这里也推荐几个友情链接补充一下本篇不足的内容</p>
+<p>这次是分别是 acwifi 的 NX54 拆机与评测和卡卡的鼓捣日记详尽对比测试</p>
+<hr>
+<p><a href="https://www.acwifi.net/14664.html">acwifi - H3C Magic NX54拆机与评测</a></p>
+<br>
+
+<iframe src="https://api.paugram.com/bili?bv=BV1uv4y1u7jZ&style=gray" style="height: 10em; width: 100%"></iframe>
+
+<iframe src="https://api.paugram.com/bili?bv=BV1wv4y1w74C&style=gray" style="height: 10em; width: 100%"></iframe>
+
+<iframe src="https://api.paugram.com/bili?bv=BV1VF411b7RW&style=gray" style="height: 10em; width: 100%"></iframe>
+
+<hr>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>做个总结，这款华三 NX54，在测试完他的无线性能非常值得购买考虑到这也只是中端产品，尤其是他的售价，我看卡卡群里有300元左右就可以上车 NX54，即便是在京东上购买也有一定的竞争力至少在视频发出的时候依旧不差。</p>
+<p>不过华三路由器缺点就是固件可玩性较差，虽但可以用 SSH(R006 固件)，当主路由明显是不合格的，这也是我选择他的理由，搭配 J4105 软路由使用的原因，功能强大更稳定。</p>
+<p>新固件呢，华三考虑最近在22年第四季度换新版固件了界面也更美观实用，真心希望能把这个缺点给他补上，再者是 OpenWrt 系统难产的原因这里就不展开说了，暂时目前是没得刷的，小道消息目前不死固件已经有了。</p>
+<p>不过考虑到部分小白他是不会去管这些乱七八糟的东西；只需要无线性能强，那其实可以购买作为家里使用的无线路由器。</p>
+<p>在出这期视频博文时我的 NX54 电源坏了，联系新华三那边魔术家点点换直接给我换了个新的 NX54，不管你有没有听说过 H3C 但作为一个在商用赛道的老牌厂商在售后这点还是值得肯定的。</p>
+<hr>
+<h3 id="购买建议"><a href="#购买建议" class="headerlink" title="购买建议"></a>购买建议</h3><p>最后给出购买建议；</p>
+<p>你当前无线测试宽带也可以跑到你所办理的宽带速率可以暂时不进行升级，</p>
+<p>现在你用的中低端路由器并且最近想升级到 Wi-Fi6 的我会十分推荐这款华三 NX54，但 2.4G 真的只是能用考虑 2.4G 无线信号的可以看看 XDR 6088 和 XDR6080。</p>
+<p>本期内容虽然不是很深度，详尽对比的可以看关于链接的内容，这也是我第一次做无线路由器相关的节目，感谢大家能多多理解互相交流。</p>
+<p>喜欢我视频的别忘了点赞评论并且关注我，我们下期再见。</p>
+]]></content>
+      <categories>
+        <category>网络</category>
+      </categories>
+      <tags>
+        <tag>硬路由</tag>
+        <tag>视频博客</tag>
+        <tag>路由器</tag>
       </tags>
   </entry>
   <entry>
@@ -1418,212 +1615,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>搞机</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>性价比很高，无线强否？新华三 NX54 简单对比测试</title>
-    <url>/2022/10/15/h3c-nx54/</url>
-    <content><![CDATA[<p>大家好，最近淘了一个 Wi-Fi6 无线路由器</p>
-<p>听说这款 NX54 非常强，同价位基本上是碾压级的存在</p>
-<p>所以我在某平台捡漏捡来的，这款新华三 NX54</p>
-<p>我也想知道 WiFi-5 和 WiFi-6 在速度和其他到底差别在哪里，那我们看看吧</p>
-<iframe src="https://api.paugram.com/bili?bv=BV1xt4y1F7cS&style=white" style="height: 10em; width: 100%"></iframe>
-
-<p><a href="https://www.youtube.com/watch?v=QTridQPsKYg"><i class="ri-youtube-line"></i> Youtube</a></p>
-<p><br><br></p>
-<details>
-         <summary>视频使用:</summary>
-         <br>
-         <p>BGM:
-         <li>Happy - Justhea</li><br>
-         <li>Embrace - Sappheiros</li><br>
-         </p><br></details>
-
-<hr>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/box.jpg" loading="lazy"></p>
-<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><h3 id="硬件配置"><a href="#硬件配置" class="headerlink" title="硬件配置"></a>硬件配置</h3><p>先看看这款新华三 NX54 Wi-Fi6 路由器的硬件配置</p>
-<ul>
-<li>CPU: 高通 IPQ5018</li>
-<li>512M 内存</li>
-<li>128M Flash 闪存</li>
-<li>5G 芯片 QCA9074</li>
-<li>2.4G 芯片 处理器集成</li>
-</ul>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/2021_0531_151053_001-800x533.jpg" loading="lazy"></p>
-<h3 id="支持"><a href="#支持" class="headerlink" title="支持"></a>支持</h3><p>新华三 NX54 支持以下技术</p>
-<ul>
-<li>2.4GHz 2x2 MIMO</li>
-<li>5GHz 4x4 MIMO</li>
-<li>MU-MIMO</li>
-<li>Beamforming 定向天线技术</li>
-<li>4KQAM</li>
-<li>EasyMesh</li>
-<li>IEEE 802.11k/v</li>
-</ul>
-<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>测试地点是88平米的房子；</p>
-<p>对比对象是替换下来的小米 AC2100；</p>
-<p>他们俩确实不是一个价位的，但是可以对比 Wi-Fi5 和 Wi-Fi6 差别到底大不大</p>
-<p>设置这里华三 NX54 5G 频段下使用 160Mhz 无线频宽 2.4G 使用 20Mhz 无线频宽，开启 MU-MIMO，OFDMA<br>小米 AC2100 则开启穿墙模式进行测试</p>
-<p>接下来是 5G 频段频段速度测试，首先看看小米10的 Speedtest</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/speedtestnet.jpg" loading="lazy"></p>
-<p>额，是不是搞错了，其实不是和你们想的结果不一样，他们在外网的测速结果是完全一致的</p>
-<p>是因为我家办理的只有 300Mbps 的宽带，外网下使用的 speedtest 是跑不满的如果放在内网才是正片<br>所以我们使用 Docker 搭建内网 speedtest</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/dockerps.png" loading="lazy"></p>
-<h2 id="5G-频段测试"><a href="#5G-频段测试" class="headerlink" title="5G 频段测试"></a>5G 频段测试</h2><h3 id="笔记本-WiFi-5-和-WiFi-6"><a href="#笔记本-WiFi-5-和-WiFi-6" class="headerlink" title="笔记本 WiFi-5 和 WiFi-6"></a>笔记本 WiFi-5 和 WiFi-6</h3><p>接下来使用 NX54 配合 Wi-Fi5 网卡的 8822ce 笔记本 和 Wi-Fi6 网卡的 ax200 笔记本进行下面的对比测试</p>
-<p>这两款都是笔记本比较常见的无线网卡了，他们分别代表 Wi-Fi5 和 Wi-Fi6 的常见配置</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/pch5speedtest.jpg" loading="lazy"></p>
-<div align="center">
-**新华三 NX54 配合 Wi-Fi5 网卡的 8822ce**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 866 Mbps | 682 Mbps | 489 Mpbs | 2.0 ms | 0.68 ms|<br>| B | 520 Mbps | 461 Mbps | 155 Mpbs | 3.70 ms | 6.02 ms|<br>| C | 585 Mbps | 504 Mbps | 215 Mpbs | 3.70 ms | 2.58 ms|<br>| D | 866 Mbps | 641 Mbps | 493 Mpbs | 3.90 ms | 0.84 ms|<br>| E | 325 Mbps | 166 Mbps | 37.8 Mpbs | 5.20 ms | 2.23 ms|</p>
-<hr>
-<div align="center">
-**新华三 NX54 配合 Wi-Fi6 网卡的 ax200**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 2402 Mbps | 968 Mbps | 722 Mpbs | 1.60 ms | 0.16 ms|<br>| B | 1922/432 Mbps | 883 Mbps | 281 Mpbs | 1.60 ms | 0.20 ms|<br>| C | 1922/432 Mbps | 887 Mbps | 356 Mpbs | 1.70 ms | 0.87 ms|<br>| D | 2402/2162 Mbps | 921 Mbps | 631 Mpbs | 1.70 ms | 0.55 ms|<br>| E | 865/245 Mbps | 517 Mbps | 138 Mpbs | 1.70 ms | 1.07 ms|</p>
-<p>同样的地点 Wi-Fi5 的网卡跑出了下载 682Mbps ，Wi-Fi6 网卡就跑出了下载 968 Mbps 接近有线千兆网卡的水平了</p>
-<p>华三 NX54 无线不再是瓶颈反而千兆网口限制</p>
-<p>在远在客厅也有 887Mbps 的下载，在厨房也有比 Wi-Fi5 高出近3倍的下载速度</p>
-<p>其他房间也没有比较大的区别，基本能覆盖家里常见的几个点位也跑到了比较快的水准了</p>
-<p>而使用小米 AC2100，配合 Wi-Fi5 网卡的 8822ce 笔记本速度其实也和 NX54 测的 Wi-Fi5 网卡差一点点，这里简单贴一下吧</p>
-<div align="center">
-**小米 AC2100 配合 Wi-Fi5 网卡的 8822ce**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 866 Mbps | 585 Mbps | 409 Mpbs | 2.20 ms | 1.56 ms|<br>| B | 320 Mbps | 350 Mbps | 154 Mpbs | 2.30 ms | 0.21 ms|<br>| C | 866 Mbps | 525 Mbps | 365 Mpbs | 2.20 ms | 0.26 ms|<br>| D | 520 Mbps | 585 Mbps | 407 Mpbs | 2.20 ms | 1.56 ms|<br>| E | 325 Mbps | 274 Mbps | 61.9 Mpbs | 2.40 ms | 0.35 ms|</p>
-<h3 id="手机"><a href="#手机" class="headerlink" title="手机"></a>手机</h3><p>接下来看看手机的无线性能测试部分</p>
-<p>AC2100 和 NX54 也拉开了不小的差距，</p>
-<p>甚至小米10的上传有反超笔记本上的 ax200 的趋势，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/h5speedtest.jpg" loading="lazy"></p>
-<div align="center">
-**小米 AC2100 配合 小米10**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 866 Mbps | 589 Mbps | 680 Mpbs | 3.60 ms | 2.07 ms |<br>| B | 195 Mbps | 125 Mbps | 88.9 Mpbs | 4.00 ms | 13.4 ms |<br>| C | 866 Mbps | 498 Mbps | 383 Mpbs | 3.40 ms | 1.26 ns |<br>| D | 390 Mbps | 246 Mbps | 163 Mpbs | 3.90 ms | 4.35 ms |<br>| E | 65 Mbps | 25.3 Mbps | 14.1 Mpbs | 7.20 ms | 23.5 ms |</p>
-<hr>
-<div align="center">
-**新华三 NX54 配合 小米10**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 | dBm |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: | :-: |<br>| A | 1200 Mbps | 972 Mbps | 888 Mpbs | 2.90 ms | 5.41 ms| -30 dBm |<br>| B | 626 Mbps | 505 Mbps | 221 Mpbs | 3.20 ms | 2.63  ms| -55 dBm |<br>| C | 1200 Mbps | 970 Mbps | 863 Mpbs | 3.70 ms | 2.76 ms| -33 dBm |<br>| D | 1200 Mbps | 941 Mbps | 845 Mpbs | 3.30 ms | 0.66 ms| -36 dBm |<br>| E | 144 Mbps | 103 Mbps | 32.4 Mpbs | 2.90 ms | 1.75 ms| -69 dBm |</p>
-<p>使用 NX54 在 A 点跑出了下载 972Mbps 比起 AC2100 的 589Mbps，下载差近两倍</p>
-<p>在使用支持 WiFi-6 的 iPhone se3 上进行测试时也表现出不俗的差距，</p>
-<p>使用 NX54 在同样的 A 点位下载 912Mbps，使用 AC2100 仅有 433Mbps，在 NX54 下跑出的成绩对于 iPhone 来说应该算不错吧……</p>
-<div align="center">
-**新华三 NX54 配合 iPhone se3**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | - Mbps | 912 Mbps | 465 Mpbs | 3.00 ms | 4.65 ms|<br>| B | - Mbps | 538 Mbps | 265 Mpbs | 3.00 ms | 2.65 ms|<br>| C | - Mbps | 651 Mbps | 318 Mpbs | 2.00 ms | 0.47 ms|<br>| D | - Mbps | 897 Mbps | 460 Mpbs | 2.00 ms | 2.36 ms|<br>| E | - Mbps | 120 Mbps | 32.2 Mpbs | 3.00 ms | 2.12 ms|</p>
-<hr>
-<div align="center">
-**小米 AC2100 配合 iPhone se3**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | - | 433 Mbps | 396 Mpbs | 7.00 ms | 27.4 ms |<br>| B | - | 249 Mbps | 35.4 Mpbs | 3.00 ms | 0.21 ms |<br>| C | - | 285 Mbps | 346 Mpbs | 5.00 ms | 3.08 ns |<br>| D | - | 221 Mbps | 63.8 Mpbs | 7.00 ms | 3.24 ms |<br>| E | - | 4.10 Mbps | 0.30 Mpbs | 5.00 ms | 30.1 ms |</p>
-<h2 id="2-4G-频段测试"><a href="#2-4G-频段测试" class="headerlink" title="2.4G 频段测试"></a>2.4G 频段测试</h2><p>因为 2.4G 频段效果都不是很理想特别是小米 AC2100，延迟和速率都是过山车的情况，忽高忽低没有比较的意义，</p>
-<p>而且 2.4G 频段普遍兼容性要好些，不同平台差距较小。</p>
-<div align="center">
-**小米 AC2100 配合 小米10**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 300 Mbps | 26.9 Mbps | 54.3 Mpbs | 4.10 ms | 111 ms|<br>| B | 300 Mbps | 17.6 Mbps | 7.07 Mpbs | 9.40 ms | 132 ms|<br>| C | 300 Mbps | 24.3 Mbps | 18.6 Mpbs | 4.10 ms | 159 ms|<br>| E | 60 Mbps | 1.21 Mbps | 0.31 Mpbs | 10.4 ms | 214 ms|</p>
-<hr>
-<div align="center">
-**新华三 NX54 配合 小米10**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 | dBm |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: | :-: |<br>| A | 286 Mbps | 84.4 Mbps | 135 Mpbs | 6.80 ms | 6.09 ms| -13 dBm |<br>| B | 286 Mbps | 54.3 Mbps | 54.3 Mpbs | 5.50 ms | 463 ms| -44 dBm |<br>| C | 286 Mbps | 80.6 Mbps | 45.9 Mpbs | 4.10 ms | 9.76 ms| -38 dBm |<br>| E | 206 Mbps | 9.00 Mbps | 0.47 Mpbs | 6.00 ms | 18.3 ms| -59 dBm |</p>
-<p>先看看 NX54 测试机型小米10在A点跑到了 84.4Mbps 的下载速度</p>
-<p>而 AC2100 也只有 26.9Mbps……</p>
-<p>看到这差距用 NX54 就算是 20Mhz 无线频宽能凑合用了，AC2100 的 2.4G 也是种折磨，虽然都是连不支持 2.4G 频段的设备，稳定就好。</p>
-<p>其他实测数据具体看博文里的表格我这里就不赘述了。</p>
-<p>iPhone 和笔记本的对比测试，这里也和前面小米10的数据</p>
-<p>差不多这里也不写出来了；因为这点差距而且 2.4G 也都出现了表现不稳定的情况。</p>
-<p>总体 NX54 稍微占上风因为 AC2100 的 2.4G 频段抽风，NX54 可以在官方固件中调节频率来使得连接速率更高，虽然 AC2100 也可以刷入第三方 OpenWrt 固件来调节。</p>
-<p>这里就仅仅放上小米 AC2100 的 2.4G 频段测试数据供大家参考。</p>
-<div align="center">
-**小米 AC2100 配合 Wi-Fi5 网卡的 8822ce**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 300 Mbps | 79.2 Mbps | 6.26 Mpbs | 3.50 ms | 235 ms|<br>| B | 300 Mbps | 11.7 Mbps | 0.90 Mpbs | 3.80 ms | 77 ms|<br>| C | 300 Mbps | 17.7 Mbps | 2.99 Mpbs | 3.30 ms | 222 ms|<br>| E | - Mbps | - Mbps | - Mpbs | - ms | - ms|</p>
-<h2 id="无线信号覆盖"><a href="#无线信号覆盖" class="headerlink" title="无线信号覆盖"></a>无线信号覆盖</h2><p>信号方面，我也简单测一下</p>
-<p>测试使用小米10手机在 WiFiMan app 下测试无线信号覆盖</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/wuxianxinhaofugai.jpg" loading="lazy"></p>
-<p>可以看到 NX54 的信号覆盖也是相当好的，各点位与表格也对应大家可以参考一下</p>
-<p>手绘嘛大家做个对比就好，别在意</p>
-<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>有人会觉得你怎么和一台发售了两年的路由器进行测试呢，那确实我也不是硬路由的评测爱好者</p>
-<p>不会在用闲置的钱去购入无线路由器去做专门做评测视频</p>
-<p>为了弥补部分看官这里也推荐几个友情链接补充一下本篇不足的内容</p>
-<p>这次是分别是 acwifi 的 NX54 拆机与评测和卡卡的鼓捣日记详尽对比测试</p>
-<hr>
-<p><a href="https://www.acwifi.net/14664.html">acwifi - H3C Magic NX54拆机与评测</a></p>
-<br>
-
-<iframe src="https://api.paugram.com/bili?bv=BV1uv4y1u7jZ&style=gray" style="height: 10em; width: 100%"></iframe>
-
-<iframe src="https://api.paugram.com/bili?bv=BV1wv4y1w74C&style=gray" style="height: 10em; width: 100%"></iframe>
-
-<iframe src="https://api.paugram.com/bili?bv=BV1VF411b7RW&style=gray" style="height: 10em; width: 100%"></iframe>
-
-<hr>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>做个总结，这款华三 NX54，在测试完他的无线性能非常值得购买考虑到这也只是中端产品，尤其是他的售价，我看卡卡群里有300元左右就可以上车 NX54，即便是在京东上购买也有一定的竞争力至少在视频发出的时候依旧不差。</p>
-<p>不过华三路由器缺点就是固件可玩性较差，虽但可以用 SSH(R006 固件)，当主路由明显是不合格的，这也是我选择他的理由，搭配 J4105 软路由使用的原因，功能强大更稳定。</p>
-<p>新固件呢，华三考虑最近在22年第四季度换新版固件了界面也更美观实用，真心希望能把这个缺点给他补上，再者是 OpenWrt 系统难产的原因这里就不展开说了，暂时目前是没得刷的，小道消息目前不死固件已经有了。</p>
-<p>不过考虑到部分小白他是不会去管这些乱七八糟的东西；只需要无线性能强，那其实可以购买作为家里使用的无线路由器。</p>
-<p>在出这期视频博文时我的 NX54 电源坏了，联系新华三那边魔术家点点换直接给我换了个新的 NX54，不管你有没有听说过 H3C 但作为一个在商用赛道的老牌厂商在售后这点还是值得肯定的。</p>
-<hr>
-<h3 id="购买建议"><a href="#购买建议" class="headerlink" title="购买建议"></a>购买建议</h3><p>最后给出购买建议；</p>
-<p>你当前无线测试宽带也可以跑到你所办理的宽带速率可以暂时不进行升级，</p>
-<p>现在你用的中低端路由器并且最近想升级到 Wi-Fi6 的我会十分推荐这款华三 NX54，但 2.4G 真的只是能用考虑 2.4G 无线信号的可以看看 XDR 6088 和 XDR6080。</p>
-<p>本期内容虽然不是很深度，详尽对比的可以看关于链接的内容，这也是我第一次做无线路由器相关的节目，感谢大家能多多理解互相交流。</p>
-<p>喜欢我视频的别忘了点赞评论并且关注我，我们下期再见。</p>
-]]></content>
-      <categories>
-        <category>网络</category>
-      </categories>
-      <tags>
-        <tag>硬路由</tag>
-        <tag>视频博客</tag>
-        <tag>路由器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记录一次换m.2硬盘</title>
-    <url>/2022/09/25/fs-pm9a1/</url>
-    <content><![CDATA[<p>受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)</p>
-<p>有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，<br>三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>啪的一下很快啊，快递从南京过来了，快递比我想象中的还要小，更让我惊讶的是M.2硬盘这么小…（SATA固态的泪）</p>
-<p>螺丝没找到直接斜插直连 CPU 的 PCIe 通道的M.2硬盘位，开机稍微分了一下区就开始跑 AS SSD 了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-29/PM9A1.png" loading="lazy"></p>
-<p>读: 2832MB/s 写: 2763MB/s</p>
-<p>令我惊讶的是 4K 的速度，读: 2109MB/s 写: 1345MB/s，第一次亲眼在自己电脑上这么高的分数。</p>
-<p>用 CrystalDiskInfo 显示都是没问题的，也没去查了，把盘还原打包放置了十来天</p>
-<p>直到1月29日，刚刚好有空就送过去朋友家里，上门服务了属于是</p>
-<p>拆开机箱看到的不知道西数的什么 SSD 蓝盘【这几天查询后修改】，我拆开了另外一侧的盖板好家伙，原来机器吵不是机械硬盘在吵…但是也是要加的因为不知道为什么固态也这么慢，不过他原来的固态插的芯片组引出的 PCIe 通道上，我只需要卸下原来的 M.2 马甲将 PM9A1 安上就好了。</p>
-<p>装后给原来的固态备份质料，然后清空重新单个分区，因为习惯性安装的 Windows 10 ，给 PM9A1 分了2个区，安装驱动…win10已经给我安装完了，显卡驱动也是但是我还是补上了 NVIDIA GeForce Experience 方便更新，安装好常用软件就，坐了一会就走了…</p>
-<p>晚7点半走，等了半天车11点才到家，淦(;´༎ຶД༎ຶ`)</p>
-]]></content>
-      <categories>
-        <category>电脑</category>
-      </categories>
-      <tags>
-        <tag>电脑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在两者之间选择</title>
-    <url>/2021/11/30/newblog/</url>
-    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/images/nowblog.png" loading="lazy"></p>
-<span id="more"></span>
-
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
   </entry>
   <entry>
     <title>超可爱的前后端分离博客Mix-space搭建</title>
@@ -2183,98 +2174,15 @@ cd mx-space&#x2F;server</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>软路由Openwrt overlay分区</title>
-    <url>/2021/06/20/openwrt-overlay/</url>
-    <content><![CDATA[<p>教程目的为了软路由 OpenWrt 扩容 overlay 分区和 Docker 分区。</p>
-<ul>
-<li>如果你只需要分 NAS 区只需要看到博文里的 ##挂载 在 OpenWrt 网络存储-网络共享 中添加即可</li>
-<li>如果你需要 ovenlay 扩容请务必全部看完不冲突</li>
-</ul>
-<p>本教程配合 <a href="https://www.miaoer.xyz/posts/network/catwrt-v22.8">CatWrt</a> 使用更佳。</p>
+    <title>在两者之间选择</title>
+    <url>/2021/11/30/newblog/</url>
+    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/images/nowblog.png" loading="lazy"></p>
 <span id="more"></span>
 
-<h2 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h2><p>在终端中输入 <code>cfdisk</code> 进入 cfdisk 磁盘管理</p>
-<p>键盘下到 <code>Free space</code> 发现底栏也跟着变了可以选择 <code>[   New  ]</code> 回车</p>
-<p>就出现 Partition size: 让你设置分区大小</p>
-<p>我这里设置一个1G的给 Docker 用；就打 <code>1G</code> 回车</p>
-<p>发现多了个 /dev/sda3 即可，剩下的给做外置 overlay 或者使用 samba 当 NAS 用</p>
-<p>键盘下到 <code>Free space</code> 选择 <code>New</code> 回车</p>
-<p>这里默认就是最大存储空间，可以按照你的需求来我这里就选最大的 回车</p>
-<p>键盘右选择 <code>[  Write ]</code> 保存</p>
-<p>然后问你是否确认修改</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">Are you sure you want to <span class="token function">write</span> the partition table to disk? _</code></pre>
-
-<p>这里就输入 <code>yes</code> 然后回车</p>
-<p>键盘左到 <code>[  Quit  ]</code> 退出 cfdisk</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># cfdisk</span>
-
-Syncing disks.</code></pre>
-
-<p>显示这样就表示保存同步成功。</p>
-<h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><p>修改分区格式 sda3 为 ext4 在终端中输入 <code>mkfs.ext4 /dev/sda3</code></p>
-<p>修改分区格式 sda4 为 ext4 在终端中输入 <code>mkfs.ext4 /dev/sda4</code></p>
-<p>输入 <code>y</code> 回车</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># mkfs.ext4 /dev/sda3</span>
-<span class="token function">mke2fs</span> <span class="token number">1.46</span>.5 <span class="token punctuation">(</span><span class="token number">30</span>-Dec-2021<span class="token punctuation">)</span>
-/dev/sda3 contains a ext4 <span class="token function">file</span> system
-        last mounted on /mnt/sda3 on Tue Aug <span class="token number">16</span> <span class="token number">15</span>:31:27 <span class="token number">2022</span>
-Proceed anyway? <span class="token punctuation">(</span>y,N<span class="token punctuation">)</span> _</code></pre>
-
-<p>输出以下内容</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">Discarding device blocks: <span class="token keyword">done</span>                            
-Creating filesystem with <span class="token number">262144</span> 4k blocks and <span class="token number">65536</span> inodes
-Filesystem UUID: 4e68fde1-d16a-428e-8f45-f00919090f0c
-Superblock backups stored on blocks: 
-        <span class="token number">32768</span>, <span class="token number">98304</span>, <span class="token number">163840</span>, <span class="token number">229376</span>
-
-Allocating group tables: <span class="token keyword">done</span>                            
-Writing inode tables: <span class="token keyword">done</span>                            
-Creating journal <span class="token punctuation">(</span><span class="token number">8192</span> blocks<span class="token punctuation">)</span>: <span class="token keyword">done</span>
-Writing superblocks and filesystem accounting information: <span class="token keyword">done</span></code></pre>
-
-<p>提示 done 即可</p>
-<p>同样的 sda4 也同理</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># mkfs.ext4 /dev/sda4</span>
-<span class="token function">mke2fs</span> <span class="token number">1.46</span>.5 <span class="token punctuation">(</span><span class="token number">30</span>-Dec-2021<span class="token punctuation">)</span>
-Discarding device blocks: <span class="token keyword">done</span>                            
-Creating filesystem with <span class="token number">58261504</span> 4k blocks and <span class="token number">14593824</span> inodes
-Filesystem UUID: 0ba60339-25d5-44fa-8079-605a5b9e7674
-Superblock backups stored on blocks: 
-        <span class="token number">32768</span>, <span class="token number">98304</span>, <span class="token number">163840</span>, <span class="token number">229376</span>, <span class="token number">294912</span>, <span class="token number">819200</span>, <span class="token number">884736</span>, <span class="token number">1605632</span>, <span class="token number">2654208</span>, 
-        <span class="token number">4096000</span>, <span class="token number">7962624</span>, <span class="token number">11239424</span>, <span class="token number">20480000</span>, <span class="token number">23887872</span>
-
-Allocating group tables: <span class="token keyword">done</span>                            
-Writing inode tables: <span class="token keyword">done</span>                            
-Creating journal <span class="token punctuation">(</span><span class="token number">262144</span> blocks<span class="token punctuation">)</span>: <span class="token keyword">done</span>
-Writing superblocks and filesystem accounting information: <span class="token keyword">done</span>    </code></pre>
-
-<h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><p>挂载 sda3 在终端中输入 <code>mount /dev/sda3 /mnt/sda3</code></p>
-<p>挂载 sda4 在终端中输入 <code>mount /dev/sda4 /mnt/sda4</code></p>
-<p>检查一下 sda3 有没有成功挂载 <code>ls /mnt/sda3</code> 显示有这文件夹就好</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">lost+found</code></pre>
-
-<p>然后到 overlay 检查 <code>cd /overlay &amp;&amp; ls</code> 显示有几个文件夹就好</p>
-<pre class="language-shell" data-language="shell"><code class="language-shell">upper  work</code></pre>
-
-<h2 id="复制overlay"><a href="#复制overlay" class="headerlink" title="复制overlay"></a>复制overlay</h2><p>复制 overlay 到 sda4</p>
-<p><code>cp -r /overlay/* /mnt/sda4</code></p>
-<p>到 OpenWrt 后台将 系统-挂载点 选择 <code>生成配置</code></p>
-<p>页面会进行刷新，下滑找到挂载点添加</p>
-<p>UUID 里打开选项表选择前面的 UUID 你可以不管主要看括号的分区地址，这里选 sda4 分区</p>
-<p><code>8083786b-7f9dff8e-58c38dac-11451419 (/dev/sda4, 114514 MB)</code></p>
-<p>挂载点 选择 <code>作为外部 overlay 使用（/overlay）</code></p>
-<p>然后启用挂载点，重启 OpenWrt 系统并登录，在 系统-软件包 中可以看到扩容的容量</p>
-<br>
-
-<p>其实OpenWrt分区不难，注意操作数据无价</p>
 ]]></content>
       <categories>
-        <category>教程</category>
+        <category>Blog</category>
       </categories>
-      <tags>
-        <tag>软路由</tag>
-        <tag>openwrt</tag>
-      </tags>
   </entry>
   <entry>
     <title>【推荐】洗鞋神器-污渍干洗剂</title>
@@ -2452,6 +2360,100 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       </tags>
   </entry>
   <entry>
+    <title>软路由Openwrt overlay分区</title>
+    <url>/2021/06/20/openwrt-overlay/</url>
+    <content><![CDATA[<p>教程目的为了软路由 OpenWrt 扩容 overlay 分区和 Docker 分区。</p>
+<ul>
+<li>如果你只需要分 NAS 区只需要看到博文里的 ##挂载 在 OpenWrt 网络存储-网络共享 中添加即可</li>
+<li>如果你需要 ovenlay 扩容请务必全部看完不冲突</li>
+</ul>
+<p>本教程配合 <a href="https://www.miaoer.xyz/posts/network/catwrt-v22.8">CatWrt</a> 使用更佳。</p>
+<span id="more"></span>
+
+<h2 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h2><p>在终端中输入 <code>cfdisk</code> 进入 cfdisk 磁盘管理</p>
+<p>键盘下到 <code>Free space</code> 发现底栏也跟着变了可以选择 <code>[   New  ]</code> 回车</p>
+<p>就出现 Partition size: 让你设置分区大小</p>
+<p>我这里设置一个1G的给 Docker 用；就打 <code>1G</code> 回车</p>
+<p>发现多了个 /dev/sda3 即可，剩下的给做外置 overlay 或者使用 samba 当 NAS 用</p>
+<p>键盘下到 <code>Free space</code> 选择 <code>New</code> 回车</p>
+<p>这里默认就是最大存储空间，可以按照你的需求来我这里就选最大的 回车</p>
+<p>键盘右选择 <code>[  Write ]</code> 保存</p>
+<p>然后问你是否确认修改</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Are you sure you want to <span class="token function">write</span> the partition table to disk? _</code></pre>
+
+<p>这里就输入 <code>yes</code> 然后回车</p>
+<p>键盘左到 <code>[  Quit  ]</code> 退出 cfdisk</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># cfdisk</span>
+
+Syncing disks.</code></pre>
+
+<p>显示这样就表示保存同步成功。</p>
+<h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><p>修改分区格式 sda3 为 ext4 在终端中输入 <code>mkfs.ext4 /dev/sda3</code></p>
+<p>修改分区格式 sda4 为 ext4 在终端中输入 <code>mkfs.ext4 /dev/sda4</code></p>
+<p>输入 <code>y</code> 回车</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># mkfs.ext4 /dev/sda3</span>
+<span class="token function">mke2fs</span> <span class="token number">1.46</span>.5 <span class="token punctuation">(</span><span class="token number">30</span>-Dec-2021<span class="token punctuation">)</span>
+/dev/sda3 contains a ext4 <span class="token function">file</span> system
+        last mounted on /mnt/sda3 on Tue Aug <span class="token number">16</span> <span class="token number">15</span>:31:27 <span class="token number">2022</span>
+Proceed anyway? <span class="token punctuation">(</span>y,N<span class="token punctuation">)</span> _</code></pre>
+
+<p>输出以下内容</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Discarding device blocks: <span class="token keyword">done</span>                            
+Creating filesystem with <span class="token number">262144</span> 4k blocks and <span class="token number">65536</span> inodes
+Filesystem UUID: 4e68fde1-d16a-428e-8f45-f00919090f0c
+Superblock backups stored on blocks: 
+        <span class="token number">32768</span>, <span class="token number">98304</span>, <span class="token number">163840</span>, <span class="token number">229376</span>
+
+Allocating group tables: <span class="token keyword">done</span>                            
+Writing inode tables: <span class="token keyword">done</span>                            
+Creating journal <span class="token punctuation">(</span><span class="token number">8192</span> blocks<span class="token punctuation">)</span>: <span class="token keyword">done</span>
+Writing superblocks and filesystem accounting information: <span class="token keyword">done</span></code></pre>
+
+<p>提示 done 即可</p>
+<p>同样的 sda4 也同理</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># mkfs.ext4 /dev/sda4</span>
+<span class="token function">mke2fs</span> <span class="token number">1.46</span>.5 <span class="token punctuation">(</span><span class="token number">30</span>-Dec-2021<span class="token punctuation">)</span>
+Discarding device blocks: <span class="token keyword">done</span>                            
+Creating filesystem with <span class="token number">58261504</span> 4k blocks and <span class="token number">14593824</span> inodes
+Filesystem UUID: 0ba60339-25d5-44fa-8079-605a5b9e7674
+Superblock backups stored on blocks: 
+        <span class="token number">32768</span>, <span class="token number">98304</span>, <span class="token number">163840</span>, <span class="token number">229376</span>, <span class="token number">294912</span>, <span class="token number">819200</span>, <span class="token number">884736</span>, <span class="token number">1605632</span>, <span class="token number">2654208</span>, 
+        <span class="token number">4096000</span>, <span class="token number">7962624</span>, <span class="token number">11239424</span>, <span class="token number">20480000</span>, <span class="token number">23887872</span>
+
+Allocating group tables: <span class="token keyword">done</span>                            
+Writing inode tables: <span class="token keyword">done</span>                            
+Creating journal <span class="token punctuation">(</span><span class="token number">262144</span> blocks<span class="token punctuation">)</span>: <span class="token keyword">done</span>
+Writing superblocks and filesystem accounting information: <span class="token keyword">done</span>    </code></pre>
+
+<h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><p>挂载 sda3 在终端中输入 <code>mount /dev/sda3 /mnt/sda3</code></p>
+<p>挂载 sda4 在终端中输入 <code>mount /dev/sda4 /mnt/sda4</code></p>
+<p>检查一下 sda3 有没有成功挂载 <code>ls /mnt/sda3</code> 显示有这文件夹就好</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">lost+found</code></pre>
+
+<p>然后到 overlay 检查 <code>cd /overlay &amp;&amp; ls</code> 显示有几个文件夹就好</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">upper  work</code></pre>
+
+<h2 id="复制overlay"><a href="#复制overlay" class="headerlink" title="复制overlay"></a>复制overlay</h2><p>复制 overlay 到 sda4</p>
+<p><code>cp -r /overlay/* /mnt/sda4</code></p>
+<p>到 OpenWrt 后台将 系统-挂载点 选择 <code>生成配置</code></p>
+<p>页面会进行刷新，下滑找到挂载点添加</p>
+<p>UUID 里打开选项表选择前面的 UUID 你可以不管主要看括号的分区地址，这里选 sda4 分区</p>
+<p><code>8083786b-7f9dff8e-58c38dac-11451419 (/dev/sda4, 114514 MB)</code></p>
+<p>挂载点 选择 <code>作为外部 overlay 使用（/overlay）</code></p>
+<p>然后启用挂载点，重启 OpenWrt 系统并登录，在 系统-软件包 中可以看到扩容的容量</p>
+<br>
+
+<p>其实OpenWrt分区不难，注意操作数据无价</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+        <tag>openwrt</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>软路由？值得买吗</title>
     <url>/2022/09/25/softrouter-de/</url>
     <content><![CDATA[<p>随着上网需求逐步提高，普通的无线路由器的性能不能仅满足于当今互联网健康的上网方式。</p>
@@ -2516,6 +2518,15 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       </tags>
   </entry>
   <entry>
+    <title>test</title>
+    <url>/2020/08/12/test/</url>
+    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
+<ul>
+<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>StarWind V2V Converter 写盘教程</title>
     <url>/2022/08/17/starwind-converter/</url>
     <content><![CDATA[<p>在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启；</p>
@@ -2565,56 +2576,6 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       <tags>
         <tag>OpenWrt</tag>
         <tag>软路由</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2020/08/12/test/</url>
-    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
-<ul>
-<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>小米10换电池再再钉子户</title>
-    <url>/2022/05/22/xiaomi10-battey/</url>
-    <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
-<blockquote>
-<p>8月更，翻车已经是笑话了 <a href="https://www.miaoer.xyz/notes/18">年轻人的第一次淘宝翻车</a>，以下内容为踩坑。</p>
-</blockquote>
-<h2 id="更换"><a href="#更换" class="headerlink" title="更换"></a>更换</h2><p>包裹里除了电池有 B7000 胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。<del>因为这样流下来的？</del></p>
-<p>关机后取出卡托（</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>电池本体也和拆下的原装电池也无明显差别，比如字体不同，字号不致</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey.jpg" loading="lazy"></p>
-<p>对后盖进行加热后轻轻撬起后盖缝隙大的地方，我这里是摄像头和红外的位置，沿缝隙慢慢划开内侧密封胶，然后用一个翘片顶着缝隙再去另外旁边翘起缝隙，我看到翘片撬出的白色胶水我挺慌的，因为我买的二手机，我以前拆小米手机的时候没有见过白色的密封胶。</p>
-<p>这里我翻车了，太着急插入翘片受力点在摄像头那边爆了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/dismantling.jpg" loading="lazy"></p>
-<p>拆开可以看到NFC和无线充电线圈的散热？？，将左右扬声器的？？沿主板撕开即可见到螺丝，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/point.jpg" loading="lazy"></p>
-<p>一手拿起屏蔽罩，用撬棒翘起电池排线断电；这里我把扬声器的 btb 不小心拔了出来。</p>
-<p>按照电池的说明卸下电池；先撕开 A 和 B 然后拉起 A，电池很轻松拿出来，取出后把电池上的易拉胶？电池中框上的电池贴纸撕下</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/yilajiao.jpg" loading="lazy"></p>
-<p>将新的电池对好位置贴上，扣上电池排线的btb 简单的扣好主板屏蔽罩和NFC无线充电线圈开机测试。 (此处没贴送的电池背胶)</p>
-<p>开机点亮显示 50% 电量，测试扬声器，无线充电NFC，振动，和有线27w快充；用创建快捷方式找到电池续航，剩余电池实际容量正常了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/Screenshot.png" loading="lazy"></p>
-<p>电池续航为 MIUI13 内置有点像 AccuBattery)))</p>
-<blockquote>
-<p>这是用了半个月的，感觉不是太准确……<br>实际上从以前的一天三充到一天两充，而且用起来会比较安心，仅供参考。</p>
-</blockquote>
-<p>随后关机检查还有什么没扣上便安装上屏蔽罩，不要大力出奇迹~不要问我是怎么知道的</p>
-<p>稍微摆平NFC线圈安装上后盖，因为后盖爆了我就没打胶了后面方便更换，即便是没打胶缝隙也不是太大和拆机前无差。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/lie.jpg" loading="lazy"></p>
-<p>可惜这次爆了盖，哭唧唧。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>搞机</tag>
       </tags>
   </entry>
   <entry>
@@ -2737,6 +2698,47 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       </categories>
       <tags>
         <tag>Magisk</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小米10换电池再再钉子户</title>
+    <url>/2022/05/22/xiaomi10-battey/</url>
+    <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
+<blockquote>
+<p>8月更，翻车已经是笑话了 <a href="https://www.miaoer.xyz/notes/18">年轻人的第一次淘宝翻车</a>，以下内容为踩坑。</p>
+</blockquote>
+<h2 id="更换"><a href="#更换" class="headerlink" title="更换"></a>更换</h2><p>包裹里除了电池有 B7000 胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。<del>因为这样流下来的？</del></p>
+<p>关机后取出卡托（</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>电池本体也和拆下的原装电池也无明显差别，比如字体不同，字号不致</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey.jpg" loading="lazy"></p>
+<p>对后盖进行加热后轻轻撬起后盖缝隙大的地方，我这里是摄像头和红外的位置，沿缝隙慢慢划开内侧密封胶，然后用一个翘片顶着缝隙再去另外旁边翘起缝隙，我看到翘片撬出的白色胶水我挺慌的，因为我买的二手机，我以前拆小米手机的时候没有见过白色的密封胶。</p>
+<p>这里我翻车了，太着急插入翘片受力点在摄像头那边爆了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/dismantling.jpg" loading="lazy"></p>
+<p>拆开可以看到NFC和无线充电线圈的散热？？，将左右扬声器的？？沿主板撕开即可见到螺丝，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/point.jpg" loading="lazy"></p>
+<p>一手拿起屏蔽罩，用撬棒翘起电池排线断电；这里我把扬声器的 btb 不小心拔了出来。</p>
+<p>按照电池的说明卸下电池；先撕开 A 和 B 然后拉起 A，电池很轻松拿出来，取出后把电池上的易拉胶？电池中框上的电池贴纸撕下</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/yilajiao.jpg" loading="lazy"></p>
+<p>将新的电池对好位置贴上，扣上电池排线的btb 简单的扣好主板屏蔽罩和NFC无线充电线圈开机测试。 (此处没贴送的电池背胶)</p>
+<p>开机点亮显示 50% 电量，测试扬声器，无线充电NFC，振动，和有线27w快充；用创建快捷方式找到电池续航，剩余电池实际容量正常了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/Screenshot.png" loading="lazy"></p>
+<p>电池续航为 MIUI13 内置有点像 AccuBattery)))</p>
+<blockquote>
+<p>这是用了半个月的，感觉不是太准确……<br>实际上从以前的一天三充到一天两充，而且用起来会比较安心，仅供参考。</p>
+</blockquote>
+<p>随后关机检查还有什么没扣上便安装上屏蔽罩，不要大力出奇迹~不要问我是怎么知道的</p>
+<p>稍微摆平NFC线圈安装上后盖，因为后盖爆了我就没打胶了后面方便更换，即便是没打胶缝隙也不是太大和拆机前无差。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/lie.jpg" loading="lazy"></p>
+<p>可惜这次爆了盖，哭唧唧。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>搞机</tag>
       </tags>
   </entry>
   <entry>
@@ -3012,6 +3014,41 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       </tags>
   </entry>
   <entry>
+    <title>海外转移国内服务器的坑</title>
+    <url>/2022/09/25/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/lp-meme.jpg" loading="lazy"></p>
+<p>前几天在阿里云上买了一台轻量应用的云服务器，准备要搭建我的博客的，结果…</p>
+<p>拿到机器先Ping了一下延迟，还行深圳到广州也就12ms左右，日本亚马逊的80ms左右</p>
+<p>就兴冲冲的去安装稍微有点熟悉的宝塔面板，那时候日本的服务器检查抽风挂逼没来得及对着抄配置，就搭好了，结果电脑上的chrome显示404进不去？折腾半天还是上日本的服务器看看结果又能进去了…一通操作猛如虎，还是404纳闷了，检查了宝塔和cloudflare正确啊，然后用手机输上域名好家伙直接显示我没有备案…然而大意了，傻乎乎的就买入了国内的服务器，没办法那就实名呗，大不了删一点内容</p>
+<span id="more"></span>
+
+<h1 id="大意"><a href="#大意" class="headerlink" title="大意"></a>大意</h1><p>只能认命了，之前也没弄过备案的服务器，一步步来结果服务器备案需要域名备案，域名备案还需要阿里云万网下，其他要在域名商那弄，但是我的域名商是<a href="https://www.namesilo.com/">namesilo</a>哪有什么备案相关的玩意啊，只能花36转移到阿里万网下了，按着别人博客写的内容一步步把namesilo转移，结果需要60天才能转移，那天才刚好30天，也只能等了</p>
+<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/kengdie-meme.jpg" loading="lazy"></p>
+<h1 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h1><p>接着去弄Frp内网穿透，在阿里上使用脚本搭建的Frp，绑定端口、Http和Https…</p>
+<p>然后去Openwrt设置Frp内网穿透服务</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/openwrtfrp.jpg" loading="lazy"></p>
+<p>然后就可以在我的世界服务器里输入ip:端口了，就找到我穿透出来的内网服务器</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/mcserverdaoshi.jpg" loading="lazy"></p>
+<p>因为是电脑本机做的服务器，难免会因为别人跑图使用红石破坏了我的游戏体验啊，我毕竟都上了<a href="https://irisshaders.net/">iris</a>不跑满高帧光影真说不过去</p>
+<p>于是我吧我家的软路由<del>利用</del>出来当我的世界服务器，只要不是故意跑图炸服也不会有啥问题了（<del>服务端开机慢</del></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/exsi-mccentos.jpg" loading="lazy"></p>
+<p>使用的是一个J4105的低功耗CPU做的成品软路由，TDP功耗10w，待机功耗只有6.6w！满载功耗只有13w！起码不用怎么担心耗电了，性能吧还行纯生存是够了</p>
+<p><img src="/.xyz//blog/21-08-16/jackstone-j4105.jpg" alt="老白" loading="lazy"></p>
+<p>大概前前后后用了大概4天左右没有啥问题，最高6个人同时在线建筑也不过20-30%的CPU占用</p>
+<p>最重要是延迟真的很低了多人联机广东地区才20-40ms，四川地区50-60ms！</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/2021-08-03_18.39.57.png" alt="daoshi" loading="lazy"></p>
+<p>等8月过了就换到阿里云了，域名和服务器应该会用个俩三年</p>
+<p>有兴趣Frp和我的世界可以联系我目前是白名单模式</p>
+<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>博客已经转移成功，备案也好了 <a href="https://www.miaoer.xyz/about">详情</a></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>简单编译一个属于自己的openwrt软路由系统</title>
     <url>/2022/09/25/%E7%BC%96%E8%AF%91openwrt/</url>
     <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/%E5%B0%81%E9%9D%A2.jpg" loading="lazy"></p>
@@ -3142,41 +3179,6 @@ make<span class="token punctuation">[</span><span class="token number">1</span><
       </categories>
       <tags>
         <tag>软路由</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>海外转移国内服务器的坑</title>
-    <url>/2022/09/25/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/lp-meme.jpg" loading="lazy"></p>
-<p>前几天在阿里云上买了一台轻量应用的云服务器，准备要搭建我的博客的，结果…</p>
-<p>拿到机器先Ping了一下延迟，还行深圳到广州也就12ms左右，日本亚马逊的80ms左右</p>
-<p>就兴冲冲的去安装稍微有点熟悉的宝塔面板，那时候日本的服务器检查抽风挂逼没来得及对着抄配置，就搭好了，结果电脑上的chrome显示404进不去？折腾半天还是上日本的服务器看看结果又能进去了…一通操作猛如虎，还是404纳闷了，检查了宝塔和cloudflare正确啊，然后用手机输上域名好家伙直接显示我没有备案…然而大意了，傻乎乎的就买入了国内的服务器，没办法那就实名呗，大不了删一点内容</p>
-<span id="more"></span>
-
-<h1 id="大意"><a href="#大意" class="headerlink" title="大意"></a>大意</h1><p>只能认命了，之前也没弄过备案的服务器，一步步来结果服务器备案需要域名备案，域名备案还需要阿里云万网下，其他要在域名商那弄，但是我的域名商是<a href="https://www.namesilo.com/">namesilo</a>哪有什么备案相关的玩意啊，只能花36转移到阿里万网下了，按着别人博客写的内容一步步把namesilo转移，结果需要60天才能转移，那天才刚好30天，也只能等了</p>
-<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/kengdie-meme.jpg" loading="lazy"></p>
-<h1 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h1><p>接着去弄Frp内网穿透，在阿里上使用脚本搭建的Frp，绑定端口、Http和Https…</p>
-<p>然后去Openwrt设置Frp内网穿透服务</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/openwrtfrp.jpg" loading="lazy"></p>
-<p>然后就可以在我的世界服务器里输入ip:端口了，就找到我穿透出来的内网服务器</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/mcserverdaoshi.jpg" loading="lazy"></p>
-<p>因为是电脑本机做的服务器，难免会因为别人跑图使用红石破坏了我的游戏体验啊，我毕竟都上了<a href="https://irisshaders.net/">iris</a>不跑满高帧光影真说不过去</p>
-<p>于是我吧我家的软路由<del>利用</del>出来当我的世界服务器，只要不是故意跑图炸服也不会有啥问题了（<del>服务端开机慢</del></p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/exsi-mccentos.jpg" loading="lazy"></p>
-<p>使用的是一个J4105的低功耗CPU做的成品软路由，TDP功耗10w，待机功耗只有6.6w！满载功耗只有13w！起码不用怎么担心耗电了，性能吧还行纯生存是够了</p>
-<p><img src="/.xyz//blog/21-08-16/jackstone-j4105.jpg" alt="老白" loading="lazy"></p>
-<p>大概前前后后用了大概4天左右没有啥问题，最高6个人同时在线建筑也不过20-30%的CPU占用</p>
-<p>最重要是延迟真的很低了多人联机广东地区才20-40ms，四川地区50-60ms！</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/2021-08-03_18.39.57.png" alt="daoshi" loading="lazy"></p>
-<p>等8月过了就换到阿里云了，域名和服务器应该会用个俩三年</p>
-<p>有兴趣Frp和我的世界可以联系我目前是白名单模式</p>
-<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>博客已经转移成功，备案也好了 <a href="https://www.miaoer.xyz/about">详情</a></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
       </tags>
   </entry>
 </search>

@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-10-24T06:02:58.297Z</updated>
+  <updated>2022-10-24T06:52:30.423Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -21,19 +21,16 @@
     <link href="https://blog.miaoer.xyz/2022/10/15/h3c-nx54/"/>
     <id>https://blog.miaoer.xyz/2022/10/15/h3c-nx54/</id>
     <published>2022-10-15T14:09:00.000Z</published>
-    <updated>2022-10-24T06:02:58.297Z</updated>
+    <updated>2022-10-24T06:52:30.423Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;p&gt;大家好，最近淘了一个 Wi-Fi6 无线路由器&lt;/p&gt;
 &lt;p&gt;听说这款 NX54 非常强，同价位基本上是碾压级的存在&lt;/p&gt;
 &lt;p&gt;所以我在某平台捡漏捡来的，这款新华三 NX54&lt;/p&gt;
-&lt;p&gt;我也想知道 WiFi-5 和 WiFi-6</summary>
-        
-      
+&lt;p&gt;我也想知道 WiFi-5 和 WiFi-6 在速度和其他到底差别在哪里，那我们看看吧&lt;/p&gt;
+&lt;iframe src=&quot;https://api.paugram.com/bili?bv=BV1xt4y1F7cS&amp;style=white&quot; style=&quot;height: 10em; width: 100%&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=QTridQPsKYg&quot;&gt;&lt;i class=&quot;ri-youtube-line&quot;&gt;&lt;/i&gt; Youtube&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -434,9 +431,9 @@
     
     <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
     
-    <category term="CatWrt" scheme="https://blog.miaoer.xyz/tags/CatWrt/"/>
-    
     <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+    <category term="CatWrt" scheme="https://blog.miaoer.xyz/tags/CatWrt/"/>
     
   </entry>
   
