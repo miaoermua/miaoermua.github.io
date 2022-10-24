@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-09-29T13:04:24.301Z</updated>
+  <updated>2022-10-24T06:02:58.297Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>性价比很高，无线强否？新华三 NX54 简单对比测试</title>
+    <link href="https://blog.miaoer.xyz/2022/10/15/h3c-nx54/"/>
+    <id>https://blog.miaoer.xyz/2022/10/15/h3c-nx54/</id>
+    <published>2022-10-15T14:09:00.000Z</published>
+    <updated>2022-10-24T06:02:58.297Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;大家好，最近淘了一个 Wi-Fi6 无线路由器&lt;/p&gt;
+&lt;p&gt;听说这款 NX54 非常强，同价位基本上是碾压级的存在&lt;/p&gt;
+&lt;p&gt;所以我在某平台捡漏捡来的，这款新华三 NX54&lt;/p&gt;
+&lt;p&gt;我也想知道 WiFi-5 和 WiFi-6</summary>
+        
+      
+    
+    
+    
+    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="硬路由" scheme="https://blog.miaoer.xyz/tags/%E7%A1%AC%E8%B7%AF%E7%94%B1/"/>
+    
+    <category term="视频博客" scheme="https://blog.miaoer.xyz/tags/%E8%A7%86%E9%A2%91%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="路由器" scheme="https://blog.miaoer.xyz/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>FFmpeg 常见命令</title>
@@ -279,27 +311,6 @@
   </entry>
   
   <entry>
-    <title>记录一次换m.2硬盘</title>
-    <link href="https://blog.miaoer.xyz/2022/09/25/fs-pm9a1/"/>
-    <id>https://blog.miaoer.xyz/2022/09/25/fs-pm9a1/</id>
-    <published>2022-09-25T12:22:06.543Z</published>
-    <updated>2022-01-30T16:06:02.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)&lt;/p&gt;
-&lt;p&gt;有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，&lt;br&gt;三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="电脑" scheme="https://blog.miaoer.xyz/categories/%E7%94%B5%E8%84%91/"/>
-    
-    
-    <category term="电脑" scheme="https://blog.miaoer.xyz/tags/%E7%94%B5%E8%84%91/"/>
-    
-  </entry>
-  
-  <entry>
     <title>第一次用 pfSense</title>
     <link href="https://blog.miaoer.xyz/2022/09/25/first-pfsense/"/>
     <id>https://blog.miaoer.xyz/2022/09/25/first-pfsense/</id>
@@ -317,6 +328,27 @@
     
     
     <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记录一次换m.2硬盘</title>
+    <link href="https://blog.miaoer.xyz/2022/09/25/fs-pm9a1/"/>
+    <id>https://blog.miaoer.xyz/2022/09/25/fs-pm9a1/</id>
+    <published>2022-09-25T12:22:06.543Z</published>
+    <updated>2022-01-30T16:06:02.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;受朋友委托，因打游戏太慢经常准备开始游戏才进来，我决定换掉他家的HDD。(伏笔)&lt;/p&gt;
+&lt;p&gt;有一天给我发信息说有点闲钱在过年前换固态硬盘，我想了一会想到B站up主潮玩客做了有一个测试固态硬盘的视频，&lt;br&gt;三星的PM9A1成绩格外亮眼，关键是他的价格，比SN 550强多了才贵了30块钱，直接在他们家的 潮玩国度数码 拍下了毕竟这盘需要经销商进行保修&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-01-29/1643558259811.jpg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="电脑" scheme="https://blog.miaoer.xyz/categories/%E7%94%B5%E8%84%91/"/>
+    
+    
+    <category term="电脑" scheme="https://blog.miaoer.xyz/tags/%E7%94%B5%E8%84%91/"/>
     
   </entry>
   
@@ -402,9 +434,9 @@
     
     <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
     
-    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
     <category term="CatWrt" scheme="https://blog.miaoer.xyz/tags/CatWrt/"/>
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
     
   </entry>
   
@@ -485,55 +517,6 @@
     <category term="生活" scheme="https://blog.miaoer.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
     
     <category term="购物" scheme="https://blog.miaoer.xyz/tags/%E8%B4%AD%E7%89%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>超可爱的前后端分离博客Mix-space搭建</title>
-    <link href="https://blog.miaoer.xyz/2022/06/20/mx-install/"/>
-    <id>https://blog.miaoer.xyz/2022/06/20/mx-install/</id>
-    <published>2022-06-20T14:09:00.000Z</published>
-    <updated>2022-09-29T13:02:15.098Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;博文版仅针对视频版的白话文补充，具体可以查看文档！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;节选至 &lt;code&gt;https://github.com/mx-space/docs&lt;/code&gt; 文档仓库，顺序略有不同，按照我的视频方法最优解&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;文档地址 &lt;code&gt;https://mx-space.js.org&lt;/code&gt;&lt;/p&gt;
-&lt;br&gt;
-
-&lt;iframe src=&quot;https://api.paugram.com/bili?bv=14N4y137ZW&amp;style=gray&quot; style=&quot;height: 10em; width: 100%&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;details&gt;
-         &lt;summary&gt;视频使用:&lt;/summary&gt;
-         &lt;br&gt;
-         &lt;p&gt;BGM:
-         &lt;li&gt;Summer Madness-Roa&lt;/li&gt;&lt;br&gt;
-         &lt;li&gt;moonlight-Roa&lt;/li&gt;&lt;br&gt;
-         &lt;li&gt;Lights-Sappheiros&lt;/li&gt;&lt;br&gt;
-         &lt;li&gt;Embrace-Sappheiros&lt;/li&gt;&lt;br&gt;
-         &lt;/p&gt;&lt;br&gt;&lt;/details&gt;
-
-&lt;hr&gt;
-&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://www.miaoer.xyz/logo.png&quot; alt=&quot;一个替代个人空间的新方式&quot;&gt;&lt;/p&gt;
-&lt;p&gt;一个由一位大佬 &lt;a href=&quot;https://innei.ren/&quot;&gt;innei&lt;/a&gt; 本科 &lt;a href=&quot;https://www.bilibili.com/video/BV1aZ4y147BL&quot;&gt;毕业设计&lt;/a&gt; 开发出的开源 Mix-Space 博客，采用的是前后端分离的形式。&lt;/p&gt;
-&lt;p&gt;Mix-Space 前后端是分离的，意味着你可以将前后端分别单独部署不同的服务器上，当然也可以全部部署在一台服务器上&lt;/p&gt;
-&lt;p&gt;Mix-Space 的 Core 提供后端服务支持，Kami 是作者更新最频繁的前端，Mx-Yun 是云游君 Hexo-Yun 的移植版；当然 kami 提供最全的支持，享有 Core 的全部功能，具有良好的动效，各种很可爱的小彩蛋！&lt;/p&gt;
-&lt;p&gt;而这次我们部署最完善的 Kami 前端。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-06-20/kami.jpg&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="博客" scheme="https://blog.miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="视频博客" scheme="https://blog.miaoer.xyz/tags/%E8%A7%86%E9%A2%91%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="捣鼓" scheme="https://blog.miaoer.xyz/tags/%E6%8D%A3%E9%BC%93/"/>
-    
-    <category term="博客" scheme="https://blog.miaoer.xyz/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
