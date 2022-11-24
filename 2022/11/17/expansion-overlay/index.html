@@ -1,0 +1,248 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="喵二"><meta name="copyright" content="喵二"><meta name="generator" content="Hexo 5.4.0"><meta name="theme" content="hexo-theme-yun"><title>软路由空间不够？扩容 overlay 的根 | 喵二‘s Blog</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://npm.elemecdn.com/prism-theme-vars/base.css"><script src="https://npm.elemecdn.com/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/png" href="https://www.miaoer.xyz/favicon.ico"><link rel="mask-icon" href="https://www.miaoer.xyz/favicon.ico" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://npm.elemecdn.com/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"blog.miaoer.xyz","root":"/","title":["喵","二","‘s","Bl","og"],"version":"1.10.8","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"algolia":{"appID":"0AINASPUZM","apiKey":"9a66975f2c16d3ff466d103039186c5d","indexName":"blog","hits":{"per_page":10}},"fireworks":{"colors":["255, 20, 97","24, 255, 146","90, 135, 255","251, 243, 140"]},"waline":{"config":{"enable":true,"serverURL":"https://waline.miaoer.xyz","comment":true,"emoji":["https://cdn.miaoer.xyz/static/walinejs/emojis/bilibili","https://cdn.miaoer.xyz/static/walinejs/emojis/tieba","https://cdn.miaoer.xyz/static/walinejs/emojis/bmoji"],"el":"#waline","lang":"zh-CN"},"cdn":"https://npm.elemecdn.com/@waline/client@v2/dist/waline.js","dark":"html.dark"},"vendors":{"host":"https://npm.elemecdn.com/","darken":"https://npm.elemecdn.com/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="喵二‘s Blog" type="application/atom+xml"><link rel="stylesheet" href="https://cdn.miaoer.xyz/static/remixicon/fonts/remixicon.css"><script>(function(){
+  var bp = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})();</script><script>CONFIG.leancloudVisitors = {"enable":true,"app_id":"Ly9oq1SvAUXWnTUVqlDdSot7-9Nh9j0Va","app_key":"VTLydwcuH9DFOLT2641JYgaO","server_url":"https://leancloud.miaoer.xyz"}</script><script defer src="/js/analytics/leancloud-visitors.js" type="module"></script><meta name="description" content="之前我分享的扩容 overlay 是复制原本 OpenWrt 的 &#x2F;overlay 分区并且挂载作为外部 overlay 使用，但在最新的 OpenWrt&#x2F;LEDE 以及基于 LEDE 编译的 CatWrt 也是扩容不了的，虽然说有的扩容成功了但成功率不高，这次分享的总结于 B 站 UP 主 韩风Talk 视频中的第一种方法，成功率也比较高因为第二种我在固件里没有刷新成功容量所以就放弃了。 首先非">
+<meta property="og:type" content="article">
+<meta property="og:title" content="软路由空间不够？扩容 overlay 的根">
+<meta property="og:url" content="https://blog.miaoer.xyz/2022/11/17/expansion-overlay/index.html">
+<meta property="og:site_name" content="喵二‘s Blog">
+<meta property="og:description" content="之前我分享的扩容 overlay 是复制原本 OpenWrt 的 &#x2F;overlay 分区并且挂载作为外部 overlay 使用，但在最新的 OpenWrt&#x2F;LEDE 以及基于 LEDE 编译的 CatWrt 也是扩容不了的，虽然说有的扩容成功了但成功率不高，这次分享的总结于 B 站 UP 主 韩风Talk 视频中的第一种方法，成功率也比较高因为第二种我在固件里没有刷新成功容量所以就放弃了。 首先非">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/22-11-17/mount.png">
+<meta property="og:image" content="https://cdn.miaoer.xyz/blog/22-11-17/packages.png">
+<meta property="article:published_time" content="2022-11-17T12:58:02.000Z">
+<meta property="article:modified_time" content="2022-11-24T15:34:50.569Z">
+<meta property="article:author" content="喵二">
+<meta property="article:tag" content="CatWrt">
+<meta property="article:tag" content="OpenWrt">
+<meta property="article:tag" content="软路由">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.miaoer.xyz/blog/22-11-17/mount.png"><script async defer data-website-id="4770a30d-6186-4d70-b08d-16bc11a9fa67" src="https://analyze.timochan.cn/umami.js"></script><script>(function() {
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://npm.elemecdn.com/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="喵二"><img width="96" loading="lazy" src="https://www.miaoer.xyz/weblogo.png" alt="喵二"><span class="site-author-status" title="❤️">❤️</span></a><div class="site-author-name"><a href="/about/">喵二</a></div><span class="site-name">喵二‘s Blog</span><sub class="site-subtitle">缘，妙不可言</sub><div class="site-description">一个静态子站</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">38</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">12</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">26</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://www.miaoer.xyz" title="主站"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:dashboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://jq.qq.com/?_wv=1027&amp;k=huHLSM8M" title="QQ 群" target="_blank" style="color:#12B7F5"><span class="icon iconify" data-icon="ri:qq-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:i@miaoer.xyz" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/miaoergroup" title="Telegram Group" target="_blank" style="color:#0088CC"><span class="icon iconify" data-icon="ri:telegram-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/miaoer_subscribe" title="Telegram Channel" target="_blank" style="color:#FFA500"><span class="icon iconify" data-icon="ri:telegram-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS 订阅子站" target="_blank" style="color:#FFA500"><span class="icon iconify" data-icon="ri:rss-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a><a class="links-item hty-icon-button" href="https://blog.miaoer.xyz/site" title="站点" style="color:#f5d28c"><span class="icon iconify" data-icon="ri:send-plane-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%86%E5%A4%87"><span class="toc-number">1.</span> <span class="toc-text">准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%BC%E5%BC%8F%E5%8C%96"><span class="toc-number">2.</span> <span class="toc-text">格式化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8C%82%E8%BD%BD"><span class="toc-number">3.</span> <span class="toc-text">挂载</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Docker"><span class="toc-number">4.</span> <span class="toc-text">Docker</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://blog.miaoer.xyz/2022/11/17/expansion-overlay/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="喵二"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="喵二‘s Blog"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">软路由空间不够？扩容 overlay 的根</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2022-11-17 20:58:02" itemprop="dateCreated datePublished" datetime="2022-11-17T20:58:02+08:00">2022-11-17</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="修改时间：2022-11-24 23:34:50" itemprop="dateModified" datetime="2022-11-24T23:34:50+08:00">2022-11-24</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">1.9k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">8m</span></span></span><span class="leancloud_visitors" id="/2022/11/17/expansion-overlay/" data-flag-title="软路由空间不够？扩容 overlay 的根"><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读次数"><span class="icon iconify" data-icon="ri:eye-line"></span> <span class="leancloud-visitors-count"></span></span></span><span class="post-meta-divider">-</span><a href="#comment"><span class="post-meta-item-icon" title="评论数"><span class="icon iconify" data-icon="ri:chat-3-line"></span> <span class="waline-comment-count" id="/2022/11/17/expansion-overlay/"></span></span></a><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E7%BD%91%E7%BB%9C/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">网络</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/CatWrt/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">CatWrt</span></a><a class="tag-item" href="/tags/OpenWrt/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">OpenWrt</span></a><a class="tag-item" href="/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">软路由</span></a></span></div><div class="post-author"><span class="author-name">喵二</span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><p>之前我分享的扩容 overlay 是复制原本 OpenWrt 的 /overlay 分区并且挂载作为外部 overlay 使用，但在最新的 OpenWrt/LEDE 以及基于 LEDE 编译的 CatWrt 也是扩容不了的，虽然说有的扩容成功了但成功率不高，这次分享的总结于 B 站 UP 主 <a target="_blank" rel="noopener" href="https://space.bilibili.com/472755599">韩风Talk</a> 视频中的第一种方法，成功率也比较高因为第二种我在固件里没有刷新成功容量所以就放弃了。</p>
+<p>首先非常感谢韩风提供的方法，有需要可以查看他的视频我这里就做一个总结。</p>
+<p>在 v22.11 固件中就有 100M 可用空间强烈不推荐小白作为安装 OpenWrt 的必选项！是有门槛的而且数据无价有需要可以先做备份再进行操作，甚至你可以给虚拟机创建一个快照。</p>
+<br>
+
+<iframe src="https://api.paugram.com/bili?bv=BV1WK411Z79q&style=gray" style="height: 10em; width: 100%"></iframe>
+
+<p><br><br></p>
+<p>以前的靠作为外部 overlay 的可以参考我这期博客 <a target="_blank" rel="noopener" href="https://www.miaoer.xyz/posts/network/openwrt-overlay">OpenWrt 扩容 overlay 分区教程</a></p>
+<span id="more"></span>
+<hr>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>首先打开终端 SSH 连接到软路由，这里我使用 CatWrt EFI 启动固件自带的 ttyd</p>
+<p>先看看软路由的分区情况 <code>fdisk -l</code></p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># fdisk -l</span>
+Disk /dev/loop0: <span class="token number">184.88</span> MiB, <span class="token number">193855488</span> bytes, <span class="token number">378624</span> sectors
+Units: sectors of <span class="token number">1</span> * <span class="token number">512</span> <span class="token operator">=</span> <span class="token number">512</span> bytes
+Sector size <span class="token punctuation">(</span>logical/physical<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+I/O size <span class="token punctuation">(</span>minimum/optimal<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+GPT PMBR size mismatch <span class="token punctuation">(</span><span class="token number">852511</span> <span class="token operator">!=</span> <span class="token number">7129087</span><span class="token punctuation">)</span> will be corrected by write.
+
+
+Disk /dev/sda: <span class="token number">3.4</span> GiB, <span class="token number">3650093056</span> bytes, <span class="token number">7129088</span> sectors
+Disk model: VMware Virtual I
+Units: sectors of <span class="token number">1</span> * <span class="token number">512</span> <span class="token operator">=</span> <span class="token number">512</span> bytes
+Sector size <span class="token punctuation">(</span>logical/physical<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+I/O size <span class="token punctuation">(</span>minimum/optimal<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+Disklabel type: gpt
+Disk identifier: 0EAC8D5A-F014-DB49-E8EB-FA846A473B00
+
+Device      Start    End Sectors  Size Type
+/dev/sda1     <span class="token number">512</span>  <span class="token number">33279</span>   <span class="token number">32768</span>   16M Linux filesystem
+/dev/sda2   <span class="token number">33280</span> <span class="token number">852479</span>  <span class="token number">819200</span>  400M Linux filesystem
+/dev/sda128    <span class="token number">34</span>    <span class="token number">511</span>     <span class="token number">478</span>  239K BIOS boot
+
+Partition table entries are not <span class="token keyword">in</span> disk order.</code></pre>
+
+<p>可以看到 EFI 版固件要比传统模式下多出一个 239k 的 /dev/sda128，但中止扇区还是在 819200，记住这个中止扇区，后续很多细节都是围绕这个中止点！</p>
+<p>下面进行分区工作，首先需要了解你的固件是否需要升级，在 CatWrt 里我们强烈建议预留 200M 空闲空间这个空间在现在看需要在 /dev/sda2 后面预留了</p>
+<p>首先进入分区管理工具，输入 <code>fdisk /dev/sda</code></p>
+<blockquote>
+<p>这里需要注意一下，扇区不能一定重复！</p>
+</blockquote>
+<p>随后输入 <code>n</code> 新建一个分区</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># fdisk /dev/sda</span>
+
+Welcome to <span class="token function">fdisk</span> <span class="token punctuation">(</span>util-linux <span class="token number">2.38</span><span class="token punctuation">)</span>.
+Changes will remain <span class="token keyword">in</span> memory only, <span class="token keyword">until</span> you decide to <span class="token function">write</span> them.
+Be careful before using the <span class="token function">write</span> command.
+
+GPT PMBR size mismatch <span class="token punctuation">(</span><span class="token number">852511</span> <span class="token operator">!=</span> <span class="token number">7129087</span><span class="token punctuation">)</span> will be corrected by write.
+This disk is currently <span class="token keyword">in</span> use - repartitioning is probably a bad idea.
+It's recommended to <span class="token function">umount</span> all <span class="token function">file</span> systems, and swapoff all swap
+partitions on this disk.
+
+
+Command <span class="token punctuation">(</span>m <span class="token keyword">for</span> <span class="token builtin class-name">help</span><span class="token punctuation">)</span>: _
+</code></pre>
+
+<p>这里让我们选择主要分区还是扩展分区，我们选择主要输入 <code>p</code>（这里我没遇到，不是所有人都有）</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Select <span class="token punctuation">(</span>default p<span class="token punctuation">)</span>: _</code></pre>
+
+<p>这里让我们选择一个分区，因为这个 OpenWrt 没有进行过任何分区操作，这里就选择为 <code>3</code></p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Partition number <span class="token punctuation">(</span><span class="token number">3</span>-127, default <span class="token number">3</span><span class="token punctuation">)</span>: _</code></pre>
+
+<p>这里让我们给 <code>/dev/sda3</code> 分区一个开始的扇区，这里按照未来升级的需要，我们将 /dev/sda2 分区的中止扇区加上 409600 ；</p>
+<p>也就是 2048 x 200 即 200M 分区，从中止点(≈852479) 860000 到 1269600 预留给升级，也就是我们要从 1270000 扇区开始分区。</p>
+<p>这里把 1270000 填上</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">First sector <span class="token punctuation">(</span><span class="token number">852480</span>-7129054, default <span class="token number">854016</span><span class="token punctuation">)</span>: _</code></pre>
+
+<p>新分区的中止分区我们这里可以直接用我们最熟悉的 g 单位开始了，这里创建建议填 +2g 起</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Last sector, +/-sectors or +/-size<span class="token punctuation">&#123;</span>K,M,G,T,P<span class="token punctuation">&#125;</span> <span class="token punctuation">(</span><span class="token number">1270000</span>-7129054, default <span class="token number">7127039</span><span class="token punctuation">)</span>: +2g</code></pre>
+
+<p>这里输入 <code>w</code> 回车就算是保存成功了</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Created a new partition <span class="token number">3</span> of <span class="token builtin class-name">type</span> <span class="token string">'Linux filesystem'</span> and of size <span class="token number">2</span> GiB.
+
+Command <span class="token punctuation">(</span>m <span class="token keyword">for</span> <span class="token builtin class-name">help</span><span class="token punctuation">)</span>: w
+The partition table has been altered.
+Syncing disks.
+
+root@CatWrt:~<span class="token comment"># </span></code></pre>
+
+<p>这样就创建成功了可以看看分区是否成功 <code>fdisk -l</code></p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># fdisk -l</span>
+Disk /dev/loop0: <span class="token number">184.88</span> MiB, <span class="token number">193855488</span> bytes, <span class="token number">378624</span> sectors
+Units: sectors of <span class="token number">1</span> * <span class="token number">512</span> <span class="token operator">=</span> <span class="token number">512</span> bytes
+Sector size <span class="token punctuation">(</span>logical/physical<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+I/O size <span class="token punctuation">(</span>minimum/optimal<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+
+
+Disk /dev/sda: <span class="token number">3.4</span> GiB, <span class="token number">3650093056</span> bytes, <span class="token number">7129088</span> sectors
+Disk model: VMware Virtual I
+Units: sectors of <span class="token number">1</span> * <span class="token number">512</span> <span class="token operator">=</span> <span class="token number">512</span> bytes
+Sector size <span class="token punctuation">(</span>logical/physical<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+I/O size <span class="token punctuation">(</span>minimum/optimal<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+Disklabel type: gpt
+Disk identifier: 0EAC8D5A-F014-DB49-E8EB-FA846A473B00
+
+Device        Start     End Sectors  Size Type
+/dev/sda1       <span class="token number">512</span>   <span class="token number">33279</span>   <span class="token number">32768</span>   16M Linux filesystem
+/dev/sda2     <span class="token number">33280</span>  <span class="token number">852479</span>  <span class="token number">819200</span>  400M Linux filesystem
+/dev/sda3   <span class="token number">1270000</span> <span class="token number">5464063</span> <span class="token number">4194064</span>    2G Linux filesystem
+/dev/sda128      <span class="token number">34</span>     <span class="token number">511</span>     <span class="token number">478</span>  239K BIOS boot
+
+Partition table entries are not <span class="token keyword">in</span> disk order.</code></pre>
+
+<h2 id="格式化"><a href="#格式化" class="headerlink" title="格式化"></a>格式化</h2><p>到这里分区工作就完成了，不过还需要格式化为 ext4，输入 <code>mkfs.ext4 /dev/sda3</code> 并回车</p>
+<pre class="language-none"><code class="language-none">root@CatWrt:~# mkfs.ext4 &#x2F;dev&#x2F;sda3
+mke2fs 1.46.5 (30-Dec-2021)
+Creating filesystem with 524258 4k blocks and 131072 inodes
+Filesystem UUID: ff7a2c4a-fd56-42ad-a9ac-45ade1c5819a
+Superblock backups stored on blocks: 
+        32768, 98304, 163840, 229376, 294912
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (8192 blocks): done
+Writing superblocks and filesystem accounting information: done </code></pre>
+
+<h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><p>这样就算完成了，接下来到 LuCi 网页后台上操作，以此进入 系统-挂载点 找到 挂载点 处点击 <code>添加</code></p>
+<p>UUID 处选择刚刚创建好的分区我这里是 <code>ff7a2c4a-fd56-42ad-a9ac-45ade1c5819a (/dev/sda3, 2047 MB)</code></p>
+<p>挂载点选择 <code>作为根文件系统使用（/）</code></p>
+<p>打上启用此挂载点的勾 <code>√</code></p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-11-17/mount.png" loading="lazy"></p>
+<p>刚刚我们点击了挂载点选择根文件系统使用，在 根目录准备 中弹出一串代码，这可不是出问题了我们需要把这些指令稍做修改让根文件复制到挂载点里</p>
+<p>这里我已经修改好了，其实对比一下就知道只是样例中的 sda1 改成了 sda3，这里直接把这些命令打开终端给输上去就可以了</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">mkdir</span> -p /tmp/introot
+<span class="token function">mkdir</span> -p /tmp/extroot
+<span class="token function">mount</span> --bind / /tmp/introot
+<span class="token function">mount</span> /dev/sda3 /tmp/extroot
+<span class="token function">tar</span> -C /tmp/introot -cvf - <span class="token builtin class-name">.</span> <span class="token operator">|</span> <span class="token function">tar</span> -C /tmp/extroot -xf -
+<span class="token function">umount</span> /tmp/introot
+<span class="token function">umount</span> /tmp/extroot
+<span class="token function">reboot</span></code></pre>
+
+<p>最后一个命令是重启需要手动按一下回车。如果在接近结尾出现了和我不同的如出现了（find 啥的字样）不同以下字样请确保你没有跳过步骤导致错误或者固件问题导致。</p>
+<p>按照本篇是一定可以扩容成功的。</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">……
+./www/uuandriod.png
+./www/uuios.png
+./boot/
+./home/
+./home/ftp/
+./run/
+./run/docker/
+./run/docker/plugins/
+./run/mount/
+./run/blkid/
+./run/blkid/blkid.tab
+./run/blkid/blkid.tab.old
+root@CatWrt:~<span class="token comment"># umount /tmp/introot</span>
+root@CatWrt:~<span class="token comment"># umount /tmp/extroot</span>
+root@CatWrt:~<span class="token comment"># reboot</span></code></pre>
+
+<p>重启过后这里最简单的方式肯定是查看软件包里是否还有多余的空间，打开 系统-软件包 中如图扩容成功，如果你没扩容成功还是建议删掉 sda3 后重置配置 OpenWrt</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-11-17/packages.png" loading="lazy"></p>
+<hr>
+<h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><p>关于 Docker 分区，这里就说就不太细了可以结合上述内容，也参考之前扩容 overlay 的那期博文，这里也可以按照 fdisk 进行操作而不是 cfdisk</p>
+<p>输入 <code>fdisk /dev/sda</code></p>
+<p>新建一个分区 <code>n</code></p>
+<p>选择主要分区还是扩展分区，我们选择主要输入 <code>p</code>（这里我没遇到，不是所有人都有）</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Select <span class="token punctuation">(</span>default p<span class="token punctuation">)</span>: _</code></pre>
+
+<p>选择一个分区，这里选 <code>4</code></p>
+<p>因为扩容 (/dev/sda3) 后中止扇区在 5464063 我们这里设置开始扇区为 <code>5466000</code> 回车</p>
+<p>下一步则是填写需要多少空间给 Docker 分区用，这里选择 <code>+10g</code></p>
+<p>这里输入 <code>w</code> 回车就算是保存成功了</p>
+<p>前往系统-挂载点，添加刚刚创建好的分区 /dev/sda4</p>
+<p>挂载点为 <code>作为 Docker 数据分区使用 (/opt)</code></p>
+<p>勾选 启用挂载点 √</p>
+<p>保存并应用，建议重启一下即可看到 Docker 分区已经被扩容成功了。</p>
+</div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="打赏" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><span class="icon iconify" data-icon="ri:hand-coin-line"></span></span><div id="reward-comment">投喂我！</div><div id="qr" style="display:none;"><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/wx.jpg"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/wx.jpg" alt="微信支付" title="微信支付"></a><div><span style="color:#2DC100"><span class="icon iconify" data-icon="ri:wechat-pay-line"></span></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/zfb.jpg"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/zfb.jpg" alt="支付宝" title="支付宝"></a><div><span style="color:#00A3EE"><span class="icon iconify" data-icon="ri:alipay-line"></span></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/zfb-hb.jpg"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/zfb-hb.jpg" alt="支付宝红包" title="支付宝红包"></a><div><span style="color:#DF667F"><span class="icon iconify" data-icon="ri:alipay-line"></span></span></div></div></div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>喵二</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://blog.miaoer.xyz/2022/11/17/expansion-overlay/" title="软路由空间不够？扩容 overlay 的根">https://blog.miaoer.xyz/2022/11/17/expansion-overlay/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2022/11/23/catwrt-v22.12/" rel="prev" title="CatWrt-v22.12 扩展无“线”，NAT 小包加速组件更新！"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">CatWrt-v22.12 扩展无“线”，NAT 小包加速组件更新！</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2022/11/15/catwrt-v22.12-spread/" rel="next" title="扩展你的 CatWrt，轻松安装 iStore！"><span class="post-nav-text">扩展你的 CatWrt，轻松安装 iStore！</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div id="waline"></div><link rel="stylesheet" href="https://npm.elemecdn.com/@waline/client@v2/dist/waline.css"><script>window.CONFIG.waline.config.path = "/2022/11/17/expansion-overlay/"</script><div class="js-Pjax"><script src="/js/comments/waline.js" type="module" defer></script></div></div></main><footer class="sidebar-translate" id="footer"><div class="beian"><a rel="noopener" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021127881号</a></div><div class="copyright"><span>&copy; 2021年5月14日 – 2022 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 喵二</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v5.4.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.8</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" href="javascript:;" title="搜索"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:search-line"></span></span></a><script>window.addEventListener("DOMContentLoaded", () => {
+  // Handle and trigger popup window
+  document.querySelector(".popup-trigger").addEventListener("click", () => {
+    document.querySelector(".popup").classList.add("show");
+    setTimeout(() => {
+      document.querySelector(".search-input").focus();
+    }, 100);
+  });
+
+  // Monitor main search box
+  const onPopupClose = () => {
+    document.querySelector(".popup").classList.remove("show");
+  };
+
+  document.querySelector(".popup-btn-close").addEventListener("click", () => {
+    onPopupClose();
+  });
+
+  window.addEventListener("keyup", event => {
+    if (event.key === "Escape") {
+      onPopupClose();
+    }
+  });
+});
+</script><script defer src="https://npm.elemecdn.com/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script><script defer src="https://npm.elemecdn.com/instantsearch.js@4/dist/instantsearch.production.min.js"></script><script defer src="/js/search/algolia-search.js" type="module"></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><span class="icon iconify" data-icon="ri:close-line"></span></span></div><div class="search-input-container"></div><div class="algolia-results"><div id="algolia-stats"></div><div id="algolia-hits"></div><div class="algolia-pagination" id="algolia-pagination"></div></div></div></body></html>

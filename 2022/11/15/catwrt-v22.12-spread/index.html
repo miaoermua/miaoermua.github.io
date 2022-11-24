@@ -1,0 +1,159 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="喵二"><meta name="copyright" content="喵二"><meta name="generator" content="Hexo 5.4.0"><meta name="theme" content="hexo-theme-yun"><title>扩展你的 CatWrt，轻松安装 iStore！ | 喵二‘s Blog</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://npm.elemecdn.com/prism-theme-vars/base.css"><script src="https://npm.elemecdn.com/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/png" href="https://www.miaoer.xyz/favicon.ico"><link rel="mask-icon" href="https://www.miaoer.xyz/favicon.ico" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://npm.elemecdn.com/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"blog.miaoer.xyz","root":"/","title":["喵","二","‘s","Bl","og"],"version":"1.10.8","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"algolia":{"appID":"0AINASPUZM","apiKey":"9a66975f2c16d3ff466d103039186c5d","indexName":"blog","hits":{"per_page":10}},"fireworks":{"colors":["255, 20, 97","24, 255, 146","90, 135, 255","251, 243, 140"]},"waline":{"config":{"enable":true,"serverURL":"https://waline.miaoer.xyz","comment":true,"emoji":["https://cdn.miaoer.xyz/static/walinejs/emojis/bilibili","https://cdn.miaoer.xyz/static/walinejs/emojis/tieba","https://cdn.miaoer.xyz/static/walinejs/emojis/bmoji"],"el":"#waline","lang":"zh-CN"},"cdn":"https://npm.elemecdn.com/@waline/client@v2/dist/waline.js","dark":"html.dark"},"vendors":{"host":"https://npm.elemecdn.com/","darken":"https://npm.elemecdn.com/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="喵二‘s Blog" type="application/atom+xml"><link rel="stylesheet" href="https://cdn.miaoer.xyz/static/remixicon/fonts/remixicon.css"><script>(function(){
+  var bp = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})();</script><script>CONFIG.leancloudVisitors = {"enable":true,"app_id":"Ly9oq1SvAUXWnTUVqlDdSot7-9Nh9j0Va","app_key":"VTLydwcuH9DFOLT2641JYgaO","server_url":"https://leancloud.miaoer.xyz"}</script><script defer src="/js/analytics/leancloud-visitors.js" type="module"></script><meta name="description" content="在最新的 CatWrt-v22.11 固件中我们实现了早期提出模块化设计，可以缓解 CatWrt 过于臃肿。 这次支持扩展 iStore 软件中心和 UA2F、英特尔无线网卡驱动，以及 DDNSTO 插件 本教程可能不适用其他 OpenWrt&#x2F;LEDE，除非内核版本一致  CatWrt 仓库 准备工作请先完成对 CatWrt 的扩容工作，需要扩容 overlay 分区和 Docker 分区，建议在">
+<meta property="og:type" content="article">
+<meta property="og:title" content="扩展你的 CatWrt，轻松安装 iStore！">
+<meta property="og:url" content="https://blog.miaoer.xyz/2022/11/15/catwrt-v22.12-spread/index.html">
+<meta property="og:site_name" content="喵二‘s Blog">
+<meta property="og:description" content="在最新的 CatWrt-v22.11 固件中我们实现了早期提出模块化设计，可以缓解 CatWrt 过于臃肿。 这次支持扩展 iStore 软件中心和 UA2F、英特尔无线网卡驱动，以及 DDNSTO 插件 本教程可能不适用其他 OpenWrt&#x2F;LEDE，除非内核版本一致  CatWrt 仓库 准备工作请先完成对 CatWrt 的扩容工作，需要扩容 overlay 分区和 Docker 分区，建议在">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-11-15T00:37:47.000Z">
+<meta property="article:modified_time" content="2022-11-24T15:32:55.688Z">
+<meta property="article:author" content="喵二">
+<meta property="article:tag" content="CatWrt">
+<meta property="article:tag" content="OpenWrt">
+<meta property="article:tag" content="软路由">
+<meta name="twitter:card" content="summary"><script async defer data-website-id="4770a30d-6186-4d70-b08d-16bc11a9fa67" src="https://analyze.timochan.cn/umami.js"></script><script>(function() {
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://npm.elemecdn.com/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="喵二"><img width="96" loading="lazy" src="https://www.miaoer.xyz/weblogo.png" alt="喵二"><span class="site-author-status" title="❤️">❤️</span></a><div class="site-author-name"><a href="/about/">喵二</a></div><span class="site-name">喵二‘s Blog</span><sub class="site-subtitle">缘，妙不可言</sub><div class="site-description">一个静态子站</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">38</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">12</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">26</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://www.miaoer.xyz" title="主站"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:dashboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://jq.qq.com/?_wv=1027&amp;k=huHLSM8M" title="QQ 群" target="_blank" style="color:#12B7F5"><span class="icon iconify" data-icon="ri:qq-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:i@miaoer.xyz" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/miaoergroup" title="Telegram Group" target="_blank" style="color:#0088CC"><span class="icon iconify" data-icon="ri:telegram-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/miaoer_subscribe" title="Telegram Channel" target="_blank" style="color:#FFA500"><span class="icon iconify" data-icon="ri:telegram-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS 订阅子站" target="_blank" style="color:#FFA500"><span class="icon iconify" data-icon="ri:rss-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a><a class="links-item hty-icon-button" href="https://blog.miaoer.xyz/site" title="站点" style="color:#f5d28c"><span class="icon iconify" data-icon="ri:send-plane-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="toc-number">1.</span> <span class="toc-text">准备工作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E6%BA%90"><span class="toc-number">1.1.</span> <span class="toc-text">软件源</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#open-vm-tools"><span class="toc-number">2.</span> <span class="toc-text">open-vm-tools</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#iStore"><span class="toc-number">3.</span> <span class="toc-text">iStore</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#UA2F"><span class="toc-number">4.</span> <span class="toc-text">UA2F</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DDNSTO"><span class="toc-number">5.</span> <span class="toc-text">DDNSTO</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%A0%E7%BA%BF%E9%A9%B1%E5%8A%A8"><span class="toc-number">6.</span> <span class="toc-text">无线驱动</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ax200"><span class="toc-number">6.1.</span> <span class="toc-text">ax200</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ax201"><span class="toc-number">6.2.</span> <span class="toc-text">ax201</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ax210"><span class="toc-number">6.3.</span> <span class="toc-text">ax210</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ACME"><span class="toc-number">7.</span> <span class="toc-text">ACME</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://blog.miaoer.xyz/2022/11/15/catwrt-v22.12-spread/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="喵二"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="喵二‘s Blog"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">扩展你的 CatWrt，轻松安装 iStore！</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2022-11-15 08:37:47" itemprop="dateCreated datePublished" datetime="2022-11-15T08:37:47+08:00">2022-11-15</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="修改时间：2022-11-24 23:32:55" itemprop="dateModified" datetime="2022-11-24T23:32:55+08:00">2022-11-24</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">963</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">4m</span></span></span><span class="leancloud_visitors" id="/2022/11/15/catwrt-v22.12-spread/" data-flag-title="扩展你的 CatWrt，轻松安装 iStore！"><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读次数"><span class="icon iconify" data-icon="ri:eye-line"></span> <span class="leancloud-visitors-count"></span></span></span><span class="post-meta-divider">-</span><a href="#comment"><span class="post-meta-item-icon" title="评论数"><span class="icon iconify" data-icon="ri:chat-3-line"></span> <span class="waline-comment-count" id="/2022/11/15/catwrt-v22.12-spread/"></span></span></a><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E7%BD%91%E7%BB%9C/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">网络</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/CatWrt/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">CatWrt</span></a><a class="tag-item" href="/tags/OpenWrt/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">OpenWrt</span></a><a class="tag-item" href="/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">软路由</span></a></span></div><div class="post-author"><span class="author-name">喵二</span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><p>在最新的 CatWrt-v22.11 固件中我们实现了早期提出模块化设计，可以缓解 CatWrt 过于臃肿。</p>
+<p>这次支持扩展 iStore 软件中心和 UA2F、英特尔无线网卡驱动，以及 DDNSTO 插件</p>
+<p>本教程可能不适用其他 OpenWrt/LEDE，除非内核版本一致</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/miaoermua/CatWrt"><i class="ri-github-fill"></i> CatWrt 仓库</a></p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>请先完成对 CatWrt 的扩容工作，需要扩容 overlay 分区和 Docker 分区，建议在分区时预留 200M 闲置硬盘空间用于未来的升级，其他分区可以尽可能的大。</p>
+<p>不扩容也能安装 iStore 软件中心，不过可能安装不了任何插件。</p>
+<p>还需要一个聪明的脑子，指令需要分段执行！</p>
+<p><strong>扩容教程</strong></p>
+<p><a target="_blank" rel="noopener" href="https://www.miaoer.xyz/posts/network/openwrt-overlay">OpenWrt 扩容 overlay 分区教程</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.miaoer.xyz/posts/blog/expansion-overlay">软路由空间不够？扩容 overlay 的根</a></p>
+<blockquote>
+<p>插件过多可能会导致软路由不稳定！只保证你能安装使用不保证整体固件稳定性。</p>
+</blockquote>
+<hr>
+<h3 id="软件源"><a href="#软件源" class="headerlink" title="软件源"></a>软件源</h3><p>OpenWrt 是基于 Linux 开发的路由器系统，使用的 opkg 包管理器，自然有软件源可以用，目前在 CatWrt/LEDE 中使用的是腾讯源</p>
+<p>在使用以下插件安装时需要用到我自建的软件源，不仅简单还高效</p>
+<p>在 系统-软件包-配置 找到 自定义软件源，把这些复制进去</p>
+<pre class="language-none"><code class="language-none">src&#x2F;gz openwrt_core https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;targets&#x2F;x86&#x2F;64&#x2F;packages
+src&#x2F;gz openwrt_base https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;x86_64&#x2F;base
+src&#x2F;gz openwrt_luci https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;x86_64&#x2F;luci
+src&#x2F;gz openwrt_oui https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;x86_64&#x2F;oui
+src&#x2F;gz openwrt_packages https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;x86_64&#x2F;packages
+src&#x2F;gz openwrt_routing https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;x86_64&#x2F;routing
+src&#x2F;gz openwrt_telephony https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;x86_64&#x2F;telephony</code></pre>
+
+<blockquote>
+<p>在安装完插件后务必务必关闭我自建的软件源，因为每个月有免费限额流量超额将自动关闭服务</p>
+<p>除了 open-vm-tools 其他都在软件源里了</p>
+</blockquote>
+<p>关闭方法替换删除之前的自定义软件源内容，替换上去</p>
+<pre class="language-none"><code class="language-none"># add your custom package feeds here
+#
+# src&#x2F;gz example_feed_name http:&#x2F;&#x2F;www.example.com&#x2F;path&#x2F;to&#x2F;files</code></pre>
+
+<h2 id="open-vm-tools"><a href="#open-vm-tools" class="headerlink" title="open-vm-tools"></a>open-vm-tools</h2><p>在 CatWrt-v22.12 中因为编译兼容性的问题，暂时移除了 open-vm-tools，可以手动安装兼容 VMware 的功能。</p>
+<p>如正常的关机重启，ip 获取</p>
+<blockquote>
+<p>自建软件源没有包含此包，不需要自定义软件源</p>
+</blockquote>
+<pre class="language-bash" data-language="bash"><code class="language-bash">opkg update
+
+opkg <span class="token function">install</span> open-vm-tools</code></pre>
+
+<h2 id="iStore"><a href="#iStore" class="headerlink" title="iStore"></a>iStore</h2><p>iStore 是一个开源且标准的 OpenWRT 软件中心实现。是属于易有云团队产品 EasePi 的一部分。</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">opkg update
+
+opkg <span class="token function">install</span> luci-app-store</code></pre>
+
+<h2 id="UA2F"><a href="#UA2F" class="headerlink" title="UA2F"></a>UA2F</h2><p>在 OpenWrt 上修改 HTTP 流量的 UA</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">opkg update
+
+opkg <span class="token function">install</span> ua2f</code></pre>
+
+<h2 id="DDNSTO"><a href="#DDNSTO" class="headerlink" title="DDNSTO"></a>DDNSTO</h2><p>DDNSTO 由 KoolCenter @小宝 开发，是一款稳定、快速、简单易用的内网穿透工具。 让用户在公司、旅行途中都能够使用浏览器方便的访问家庭内的网络设备。</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">opkg update
+
+opkg <span class="token function">install</span> luci-app-ddnsto</code></pre>
+
+<p>官方脚本安装</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sh</span> -c <span class="token string">"<span class="token variable"><span class="token variable">$(</span><span class="token function">curl</span> -sSL http://fw.koolcenter.com/binary/ddnsto/openwrt/install_ddnsto.sh<span class="token variable">)</span></span>"</span></code></pre>
+
+<h2 id="无线驱动"><a href="#无线驱动" class="headerlink" title="无线驱动"></a>无线驱动</h2><p>目前仅支持以下英特尔驱动，距用户实测也只能当 WLAN 不能开热点，貌似是驱动层面限制。</p>
+<blockquote>
+<p>请先执行前置 kmod 指令安装其依赖，后选择无线网卡安装！</p>
+</blockquote>
+<pre class="language-bash" data-language="bash"><code class="language-bash">opkg update
+
+opkg <span class="token function">install</span> kmod-iwlwifi wpa-supplicant wpad</code></pre>
+
+<h3 id="ax200"><a href="#ax200" class="headerlink" title="ax200"></a>ax200</h3><pre class="language-bash" data-language="bash"><code class="language-bash">opkg <span class="token function">install</span> iwlwifi-firmware-ax200_20221012-1_x86_64.ipk</code></pre>
+
+<h3 id="ax201"><a href="#ax201" class="headerlink" title="ax201"></a>ax201</h3><pre class="language-bash" data-language="bash"><code class="language-bash">opkg <span class="token function">install</span> iwlwifi-firmware-ax201_20221012-1_x86_64.ipk</code></pre>
+
+<h3 id="ax210"><a href="#ax210" class="headerlink" title="ax210"></a>ax210</h3><pre class="language-bash" data-language="bash"><code class="language-bash">opkg <span class="token function">install</span> iwlwifi-firmware-ax210_20221012-1_x86_64.ipk</code></pre>
+
+<h2 id="ACME"><a href="#ACME" class="headerlink" title="ACME"></a>ACME</h2><p>用于申请 SSL 证书，实现软路由 https 访问。</p>
+<p><a target="_blank" rel="noopener" href="https://www.miaoer.xyz/posts/network/openwrt-ssl">给 Openwrt 套 SSL 证书</a></p>
+<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> /tmp <span class="token operator">&amp;&amp;</span> opkg update
+
+<span class="token function">wget</span> https://downloads.catwrt.miaoer.xyz/x86_64/packages/acme_3.0.3-1_all.ipk <span class="token operator">&amp;&amp;</span> <span class="token function">wget</span> https://downloads.catwrt.miaoer.xyz/x86_64/luci/luci-app-acme_git-22.289.58375-2a380a3-1_all.ipk <span class="token operator">&amp;&amp;</span> <span class="token function">wget</span> https://downloads.catwrt.miaoer.xyz/x86_64/luci/luci-i18n-acme-zh-cn_git-22.289.58375-2a380a3-1_all.ipk
+
+opkg <span class="token function">install</span> acme_3.0.3-1_all.ipk luci-app-acme_git-22.289.58375-2a380a3-1_all.ipk luci-i18n-acme-zh-cn_git-22.289.58375-2a380a3-1_all.ipk</code></pre>
+
+<p>Enjoy~</p>
+</div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="打赏" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><span class="icon iconify" data-icon="ri:hand-coin-line"></span></span><div id="reward-comment">投喂我！</div><div id="qr" style="display:none;"><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/wx.jpg"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/wx.jpg" alt="微信支付" title="微信支付"></a><div><span style="color:#2DC100"><span class="icon iconify" data-icon="ri:wechat-pay-line"></span></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/zfb.jpg"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/zfb.jpg" alt="支付宝" title="支付宝"></a><div><span style="color:#00A3EE"><span class="icon iconify" data-icon="ri:alipay-line"></span></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://cdn.miaoer.xyz/logo/zfb-hb.jpg"><img loading="lazy" src="https://cdn.miaoer.xyz/logo/zfb-hb.jpg" alt="支付宝红包" title="支付宝红包"></a><div><span style="color:#DF667F"><span class="icon iconify" data-icon="ri:alipay-line"></span></span></div></div></div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>喵二</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://blog.miaoer.xyz/2022/11/15/catwrt-v22.12-spread/" title="扩展你的 CatWrt，轻松安装 iStore！">https://blog.miaoer.xyz/2022/11/15/catwrt-v22.12-spread/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2022/11/17/expansion-overlay/" rel="prev" title="软路由空间不够？扩容 overlay 的根"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">软路由空间不够？扩容 overlay 的根</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2022/10/15/h3c-nx54/" rel="next" title="性价比很高，无线强否？新华三 NX54 简单对比测试"><span class="post-nav-text">性价比很高，无线强否？新华三 NX54 简单对比测试</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div id="waline"></div><link rel="stylesheet" href="https://npm.elemecdn.com/@waline/client@v2/dist/waline.css"><script>window.CONFIG.waline.config.path = "/2022/11/15/catwrt-v22.12-spread/"</script><div class="js-Pjax"><script src="/js/comments/waline.js" type="module" defer></script></div></div></main><footer class="sidebar-translate" id="footer"><div class="beian"><a rel="noopener" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021127881号</a></div><div class="copyright"><span>&copy; 2021年5月14日 – 2022 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 喵二</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v5.4.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.8</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" href="javascript:;" title="搜索"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:search-line"></span></span></a><script>window.addEventListener("DOMContentLoaded", () => {
+  // Handle and trigger popup window
+  document.querySelector(".popup-trigger").addEventListener("click", () => {
+    document.querySelector(".popup").classList.add("show");
+    setTimeout(() => {
+      document.querySelector(".search-input").focus();
+    }, 100);
+  });
+
+  // Monitor main search box
+  const onPopupClose = () => {
+    document.querySelector(".popup").classList.remove("show");
+  };
+
+  document.querySelector(".popup-btn-close").addEventListener("click", () => {
+    onPopupClose();
+  });
+
+  window.addEventListener("keyup", event => {
+    if (event.key === "Escape") {
+      onPopupClose();
+    }
+  });
+});
+</script><script defer src="https://npm.elemecdn.com/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script><script defer src="https://npm.elemecdn.com/instantsearch.js@4/dist/instantsearch.production.min.js"></script><script defer src="/js/search/algolia-search.js" type="module"></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><span class="icon iconify" data-icon="ri:close-line"></span></span></div><div class="search-input-container"></div><div class="algolia-results"><div id="algolia-stats"></div><div id="algolia-hits"></div><div class="algolia-pagination" id="algolia-pagination"></div></div></div></body></html>

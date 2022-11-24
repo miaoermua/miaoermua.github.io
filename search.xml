@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>网页走丢了？</title>
-    <url>//404.html</url>
-    <content><![CDATA[<p>页面404了,网页走丢了？</p>
-<p>嗨，有兴趣访问我的个人主页吗？ <a href="https://www.miaoer.xyz/">好啊 ヾ(≧▽≦*)o</a></p>
-<p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
+    <title>视频-【120帧】小米Mix2s宣传片</title>
+    <url>/2022/03/21/BV1Jq4y1v7H7/</url>
+    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=594951604&bvid=BV1Jq4y1v7H7&cid=554204088&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
+
+<hr>
+<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1Jq4y1v7H7">https://www.bilibili.com/video/BV1Jq4y1v7H7</a></p>
+<p>试试湿滑的补帧</p>
+<h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
+<p>文件名: xiaomimix2s.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
+<p>原分辨率: 1920*1080</p>
+<p>补帧分辨率: 1920*1080</p>
+<p>上传分辨率: 1920*1080 > 3840*2160</p>
+<p>原帧: 25fps</p>
+<p>补帧: 120fps</p>
+<p>上传帧率: 25fps x8 > 120fps</p>
+<p>码率: 15 < 20Mbps</p>
+<p>编码: x265</p>
+
+<p>*视频来源B站收集小米宣传片 小米mix2s 因素材过多无来源链接，如侵犯版权请联系我</p>
 ]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>视频博文</tag>
+      </tags>
   </entry>
   <entry>
     <title>今年618我都买了些啥</title>
@@ -79,6 +99,89 @@
       </categories>
       <tags>
         <tag>视频博文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一款好用的SMB备份软件FolderSync</title>
+    <url>/2022/06/04/app-foldersync/</url>
+    <content><![CDATA[<p>视频地址:</p>
+<iframe src="https://api.paugram.com/bili?bv=1Tv4y137oD&style=gray" style="height: 10em; width: 100%"></iframe>
+
+<hr>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>最近我发现一款非常好的 SMB 备份软件叫做 FolderSync，在早一些时候我也是通过数据线一头连电脑进行备份相册目录的，</p>
+<p>因为家境贫寒家里没有品牌 NAS 所以自己在软路由上搭建了 SAMBA 服务，用来储存一些电影和共享资源等……</p>
+<p>今天我们来捣鼓一下。</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/app-web.png" loading="lazy"></p>
+<p>我们可以在谷歌 Play 商店下载到这款软件，我也准备了 APK 包方便大家的下载</p>
+<p><i class="ri-file-download-line"></i> <a href="https://wwd.lanzouy.com/b02dbo1kh">蓝奏云</a> 密码:5cgt</p>
+<blockquote>
+<p>因为软件需要付费，有能力可以用 Play 商店里下免费的，蓝奏云上为绿色版不知道存不存在安全风险。</p>
+</blockquote>
+<hr>
+<p>下载完成以后打开这款软件，可以看到需要我们给予权限，才能正常工作这里推荐打开所有的建议项，</p>
+<p>因系统UI部分设置项可能不同，按照软件里的一个一个同意。</p>
+<p>进入软件在底栏找到账户，点击 <code>添加账户</code> ，可以看到有很多的账户类型，这都不是的重点，</p>
+<p>滑到最底下可以看到 SMB2，为什么不选 SMB1 呢，距我实测 SMB1 怎么设置都是用不了的，如果你 SMB2 也不能用，</p>
+<p>可以将防火墙放行 <code>445</code> 和 <code>139</code> 端口，</p>
+<p>我这里使用宝塔 Linux 面板进行放行端口。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/bt-firewall.png" loading="lazy"></p>
+<h3 id="放行防火墙"><a href="#放行防火墙" class="headerlink" title="放行防火墙"></a>放行防火墙</h3><p>在终端输入 <code>sudo apt-get install iptables-persistent</code>，</p>
+<p>安装页中应该是是否添加 IPv4 和 IPv6 规则，这里都 <code>Yes</code>，</p>
+<p>安装完成后返回再输入；</p>
+<p><code>iptables -I INPUT -p tcp --dport 445 -j ACCEPT &amp;&amp; iptables -I INPUT -p tcp --dport 139 -j ACCEPT</code></p>
+<p>输入 <code>sudo netfilter-persistent save</code> 保存，</p>
+<p>这样端口就放行成功了。</p>
+<blockquote>
+<p>安全问题: 如果你是在外网的话需要进行端口转发到公网，没有接触到外网服务的可以直接把防火墙关了，这里不推荐公开 SMB 端口容易被攻击可以用 Openwrt 中的插件做反向代理，这点后面可能会单独出一期讲解，确实非常简单这里就不买关子了；<br>无非就是找一个域名做 DDNS 然后将端口开放和转发并开启反向代理，记得要开启 <code>接受局域网访问</code> 之后在 手机 APP 里面挂全局代理，就可以在外网访问内网服务了，只要你的代理密码和端口没开放太多这都是安全的。</p>
+</blockquote>
+<h3 id="SAMBA-服务搭建"><a href="#SAMBA-服务搭建" class="headerlink" title="SAMBA 服务搭建"></a>SAMBA 服务搭建</h3><p>如果你没搭建 SAMBA 服务，这里简单说一下，</p>
+<p>这里用户用喵二 <code>miaoer</code> 和共享 <code>nas</code> 进行设置用户名和服务名、位置；请自己替换自己喜欢的格式勿乱、举一反三。</p>
+<pre class="language-none"><code class="language-none">useradd miaoer     &#x2F;&#x2F;新建用户名 miaoer
+
+sudo apt-get install samba     &#x2F;&#x2F;管理员权限安装 samba
+
+sudo smbpasswd -a miaoer     &#x2F;&#x2F;设置 miaoer 的 samba 用户名密码
+
+cd &#x2F; &amp;&amp; mkdir nas     &#x2F;&#x2F;返回根目录创建 nas 共享文件夹
+
+chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
+
+<p>配置文件可以找办法编辑好再上传或者使用 vim 命令，按 <code>i</code> 编辑，按 <code>Esc</code> 后 <code>Shift + :</code> 直到输入 <code>:wq</code> 退出。</p>
+<pre class="language-none"><code class="language-none">[nas]
+        comment &#x3D; nas
+        path &#x3D; &#x2F;nas
+        browseable &#x3D; yes
+        writable &#x3D; yes
+        file mode &#x3D; 660     
+        force file mode &#x3D; 660
+        directory mode &#x3D; 770
+        force directory mode &#x3D; 770</code></pre>
+
+
+<h2 id="软件设置"><a href="#软件设置" class="headerlink" title="软件设置"></a>软件设置</h2><p>好的回到正题，在 SMB2 中设置，在登录这里输入刚刚设置好的用户名和密码，</p>
+<p>连接这里输入内网部署了 SAMBA 的主机地址，和端口号这里默认就好，共享名字输入刚刚设置好的名字文件夹名字。</p>
+<p>然后点保存。</p>
+<p>然后进入左边的 <code>文件夹对</code>，创建文件夹对选择 SMB2，</p>
+<p>进到这里可以看到很多的选项，</p>
+<p>同步类型我这里只需要选择，到远程文件夹。</p>
+<p>点击远程文件夹，因为这里没有用于专门备份的文件夹，新建一个我这里设置的 Mi10 文件夹这里随便你</p>
+<p>新建完成点击进去，点下右下角的勾</p>
+<p>本地文件夹这里相册在 <code>DCIM</code> 里，点击进去然后将勾上，可以先进行测试。</p>
+<h2 id="原图"><a href="#原图" class="headerlink" title="原图"></a>原图</h2><p>好的我们现在没有任何问题了，回到首页现在我们还不能点同步的按钮，我们还需要简单的做几步，首先打开设置，在云服务这里找到相册，相册中选择自动 <code>下载原图</code>，</p>
+<p>点击立即同步，将相册立即同步，我们返回开启 <code>快速同步</code> 这样我们下载原图会更快一些。</p>
+<p>好的，我这里跑了一会总算是把云服务的相册拉了回来，我们继续，</p>
+<p>点击一下 <code>同步</code>，返回到 APP 的首页查看同步状态，如果在跑了就代表正常了，接下来我们再设置计划任务这里按照你个人习惯进行计划任务，我这里就设置自定义的时间也就是睡觉时间备份，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/uploading.png" loading="lazy"></p>
+<p>不过要确定 FolderSync 是否有自启动权限和关闭省电策略，不然前面设置的都是徒劳。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>视频博文</tag>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
@@ -404,86 +507,85 @@
       </tags>
   </entry>
   <entry>
-    <title>一款好用的SMB备份软件FolderSync</title>
-    <url>/2022/06/04/app-foldersync/</url>
-    <content><![CDATA[<p>视频地址:</p>
-<iframe src="https://api.paugram.com/bili?bv=1Tv4y137oD&style=gray" style="height: 10em; width: 100%"></iframe>
-
-<hr>
-<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>最近我发现一款非常好的 SMB 备份软件叫做 FolderSync，在早一些时候我也是通过数据线一头连电脑进行备份相册目录的，</p>
-<p>因为家境贫寒家里没有品牌 NAS 所以自己在软路由上搭建了 SAMBA 服务，用来储存一些电影和共享资源等……</p>
-<p>今天我们来捣鼓一下。</p>
+    <title>网页走丢了？</title>
+    <url>//404.html</url>
+    <content><![CDATA[<p>页面404了,网页走丢了？</p>
+<p>嗨，有兴趣访问我的个人主页吗？ <a href="https://www.miaoer.xyz/">好啊 ヾ(≧▽≦*)o</a></p>
+<p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客更新啦</title>
+    <url>/2021/12/06/blog-update/</url>
+    <content><![CDATA[<h1 id="博客の变化"><a href="#博客の变化" class="headerlink" title="博客の变化"></a>博客の变化</h1><p>在今天(2021-12-6 21:09:43)，我更换了由前后端分离部署的 <a href="https://github.com/mx-space">Mix-space</a> ，可能熟悉我们原本Hexo博客的小伙伴会比较陌生，但是为了变化内容我还是写一点小白须知。</p>
+<p>这次主要更换了之间的二级域名，和内容上的变化;</p>
+<ul>
+<li><p>个人网站 (Hexo Yun 主题) 部署的域名从 <code>https://www.miaoer.xyz </code> &gt;&gt;&gt;  <code>https://blog.miaoer.xyz</code></p>
+</li>
+<li><p>个人博客 (Mix-space) 部署的域名从 <code>https://blog.miaoer.xyz</code>  &gt;&gt;&gt;  <code>https://www.miaoer.xyz </code> </p>
+</li>
+<li><p>短域名 miaoer.xyz 自动跳转到 Mix-space 上</p>
+</li>
+</ul>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
 <span id="more"></span>
-
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/app-web.png" loading="lazy"></p>
-<p>我们可以在谷歌 Play 商店下载到这款软件，我也准备了 APK 包方便大家的下载</p>
-<p><i class="ri-file-download-line"></i> <a href="https://wwd.lanzouy.com/b02dbo1kh">蓝奏云</a> 密码:5cgt</p>
-<blockquote>
-<p>因为软件需要付费，有能力可以用 Play 商店里下免费的，蓝奏云上为绿色版不知道存不存在安全风险。</p>
-</blockquote>
-<hr>
-<p>下载完成以后打开这款软件，可以看到需要我们给予权限，才能正常工作这里推荐打开所有的建议项，</p>
-<p>因系统UI部分设置项可能不同，按照软件里的一个一个同意。</p>
-<p>进入软件在底栏找到账户，点击 <code>添加账户</code> ，可以看到有很多的账户类型，这都不是的重点，</p>
-<p>滑到最底下可以看到 SMB2，为什么不选 SMB1 呢，距我实测 SMB1 怎么设置都是用不了的，如果你 SMB2 也不能用，</p>
-<p>可以将防火墙放行 <code>445</code> 和 <code>139</code> 端口，</p>
-<p>我这里使用宝塔 Linux 面板进行放行端口。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/bt-firewall.png" loading="lazy"></p>
-<h3 id="放行防火墙"><a href="#放行防火墙" class="headerlink" title="放行防火墙"></a>放行防火墙</h3><p>在终端输入 <code>sudo apt-get install iptables-persistent</code>，</p>
-<p>安装页中应该是是否添加 IPv4 和 IPv6 规则，这里都 <code>Yes</code>，</p>
-<p>安装完成后返回再输入；</p>
-<p><code>iptables -I INPUT -p tcp --dport 445 -j ACCEPT &amp;&amp; iptables -I INPUT -p tcp --dport 139 -j ACCEPT</code></p>
-<p>输入 <code>sudo netfilter-persistent save</code> 保存，</p>
-<p>这样端口就放行成功了。</p>
-<blockquote>
-<p>安全问题: 如果你是在外网的话需要进行端口转发到公网，没有接触到外网服务的可以直接把防火墙关了，这里不推荐公开 SMB 端口容易被攻击可以用 Openwrt 中的插件做反向代理，这点后面可能会单独出一期讲解，确实非常简单这里就不买关子了；<br>无非就是找一个域名做 DDNS 然后将端口开放和转发并开启反向代理，记得要开启 <code>接受局域网访问</code> 之后在 手机 APP 里面挂全局代理，就可以在外网访问内网服务了，只要你的代理密码和端口没开放太多这都是安全的。</p>
-</blockquote>
-<h3 id="SAMBA-服务搭建"><a href="#SAMBA-服务搭建" class="headerlink" title="SAMBA 服务搭建"></a>SAMBA 服务搭建</h3><p>如果你没搭建 SAMBA 服务，这里简单说一下，</p>
-<p>这里用户用喵二 <code>miaoer</code> 和共享 <code>nas</code> 进行设置用户名和服务名、位置；请自己替换自己喜欢的格式勿乱、举一反三。</p>
-<pre class="language-none"><code class="language-none">useradd miaoer     &#x2F;&#x2F;新建用户名 miaoer
-
-sudo apt-get install samba     &#x2F;&#x2F;管理员权限安装 samba
-
-sudo smbpasswd -a miaoer     &#x2F;&#x2F;设置 miaoer 的 samba 用户名密码
-
-cd &#x2F; &amp;&amp; mkdir nas     &#x2F;&#x2F;返回根目录创建 nas 共享文件夹
-
-chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
-
-<p>配置文件可以找办法编辑好再上传或者使用 vim 命令，按 <code>i</code> 编辑，按 <code>Esc</code> 后 <code>Shift + :</code> 直到输入 <code>:wq</code> 退出。</p>
-<pre class="language-none"><code class="language-none">[nas]
-        comment &#x3D; nas
-        path &#x3D; &#x2F;nas
-        browseable &#x3D; yes
-        writable &#x3D; yes
-        file mode &#x3D; 660     
-        force file mode &#x3D; 660
-        directory mode &#x3D; 770
-        force directory mode &#x3D; 770</code></pre>
-
-
-<h2 id="软件设置"><a href="#软件设置" class="headerlink" title="软件设置"></a>软件设置</h2><p>好的回到正题，在 SMB2 中设置，在登录这里输入刚刚设置好的用户名和密码，</p>
-<p>连接这里输入内网部署了 SAMBA 的主机地址，和端口号这里默认就好，共享名字输入刚刚设置好的名字文件夹名字。</p>
-<p>然后点保存。</p>
-<p>然后进入左边的 <code>文件夹对</code>，创建文件夹对选择 SMB2，</p>
-<p>进到这里可以看到很多的选项，</p>
-<p>同步类型我这里只需要选择，到远程文件夹。</p>
-<p>点击远程文件夹，因为这里没有用于专门备份的文件夹，新建一个我这里设置的 Mi10 文件夹这里随便你</p>
-<p>新建完成点击进去，点下右下角的勾</p>
-<p>本地文件夹这里相册在 <code>DCIM</code> 里，点击进去然后将勾上，可以先进行测试。</p>
-<h2 id="原图"><a href="#原图" class="headerlink" title="原图"></a>原图</h2><p>好的我们现在没有任何问题了，回到首页现在我们还不能点同步的按钮，我们还需要简单的做几步，首先打开设置，在云服务这里找到相册，相册中选择自动 <code>下载原图</code>，</p>
-<p>点击立即同步，将相册立即同步，我们返回开启 <code>快速同步</code> 这样我们下载原图会更快一些。</p>
-<p>好的，我这里跑了一会总算是把云服务的相册拉了回来，我们继续，</p>
-<p>点击一下 <code>同步</code>，返回到 APP 的首页查看同步状态，如果在跑了就代表正常了，接下来我们再设置计划任务这里按照你个人习惯进行计划任务，我这里就设置自定义的时间也就是睡觉时间备份，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-06-04/uploading.png" loading="lazy"></p>
-<p>不过要确定 FolderSync 是否有自启动权限和关闭省电策略，不然前面设置的都是徒劳。</p>
+<p><em>更新后，<u>图片可点击放大查看详情</u></em></p>
+<p><strong>Banner</strong></p>
+<ul>
+<li>名字，签名，社交链接，一言</li>
+</ul>
+<p><strong>菜单栏</strong></p>
+<ul>
+<li>页面   博文   预览   友链   日记   动态   其余   开往</li>
+</ul>
+<p><strong>边栏</strong></p>
+<ul>
+<li>页面模式(夜间)，音乐，广播</li>
+</ul>
+<p><strong>页面</strong></p>
+<ul>
+<li>最新博文，日记，友链，了解更多</li>
+</ul>
+<p><strong>底栏</strong></p>
+<ul>
+<li><p>主页，Mix-space社区，ICP备案号</p>
+</li>
+<li><p>关于，留言，友链，RSS 订阅，站点地图，开往、同时在线小伙伴预览</p>
+</li>
+</ul>
+<h2 id="兼容"><a href="#兼容" class="headerlink" title="兼容"></a>兼容</h2><p>为 Hexo时代永久链接做出兼容动作 (可能按照文章内容跳转)。</p>
+<ul>
+<li>相对技术类的和主要对Hexo兼容的博客则跳转至Hexo博客中</li>
+<li>非技术类则不进行域名跳转</li>
+</ul>
+<p>为 Mix-space做最新的文章适配。</p>
+<ul>
+<li>将调整文章左右长度至Mix-space最舒服的大小</li>
+</ul>
+<p>为 Hexo继续同步最新的文章。</p>
+<ul>
+<li>将Mix-space中的文章再进行Hexo博客的分发至国内外</li>
+</ul>
+<h2 id="Thank"><a href="#Thank" class="headerlink" title="Thank"></a>Thank</h2><p>非常感谢他们，也感谢一直阅读我博客的小伙伴！【排列不分顺序】</p>
+<ul>
+<li><p>帮助解决主页的疑难杂症 <a href="https://innei.ren/">Innei</a></p>
+</li>
+<li><p>帮助解决问题 <a href="https://www.timochan.cn/">提莫酱</a></p>
+</li>
+<li><p>帮助使用主题等 <a href="https://www.yunyoujun.cn/">YunYouJun</a></p>
+</li>
+</ul>
+<h2 id="目前正在优化"><a href="#目前正在优化" class="headerlink" title="目前正在优化"></a>目前正在优化</h2><ul>
+<li><input checked disabled type="checkbox"> 重新优化查看搜索引擎的结果</li>
+<li><input checked disabled type="checkbox"> 通知友链更新</li>
+<li><input checked disabled type="checkbox"> 提供Hexo永久链接支持</li>
+</ul>
 ]]></content>
       <categories>
-        <category>博客</category>
+        <category>Blog</category>
       </categories>
       <tags>
-        <tag>视频博文</tag>
-        <tag>软件</tag>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
@@ -572,164 +674,234 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>视频-【120帧】小米Mix2s宣传片</title>
-    <url>/2022/03/21/BV1Jq4y1v7H7/</url>
-    <content><![CDATA[<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe src="//player.bilibili.com/player.html?aid=594951604&bvid=BV1Jq4y1v7H7&cid=554204088&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="840" height="473"> </iframe>
-
-<hr>
-<p>不建议在本站内观看嵌入视频，访问下方视频链接获取高清视频以获得良好体验。<br>视频链接: <a href="https://www.bilibili.com/video/BV1Jq4y1v7H7">https://www.bilibili.com/video/BV1Jq4y1v7H7</a></p>
-<p>试试湿滑的补帧</p>
-<h2 id="视频信息"><a href="#视频信息" class="headerlink" title="视频信息"></a>视频信息</h2><p>使用AI补帧软件 <a href="https://github.com/Justin62628/Squirrel-RIFE">SVFI</a> Steam 标准版进行补帧</p>
-<p>文件名: xiaomimix2s.cg.x265.4k.120fps.fake4kforbilibili.mp4</p>
-<p>原分辨率: 1920*1080</p>
-<p>补帧分辨率: 1920*1080</p>
-<p>上传分辨率: 1920*1080 > 3840*2160</p>
-<p>原帧: 25fps</p>
-<p>补帧: 120fps</p>
-<p>上传帧率: 25fps x8 > 120fps</p>
-<p>码率: 15 < 20Mbps</p>
-<p>编码: x265</p>
-
-<p>*视频来源B站收集小米宣传片 小米mix2s 因素材过多无来源链接，如侵犯版权请联系我</p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>视频博文</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</title>
-    <url>/2022/08/10/catwrt-v22.7-newifid2/</url>
-    <content><![CDATA[<p>CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。</p>
+    <title>CatWrt-v22.12 扩展无“线”，NAT 小包加速组件更新！</title>
+    <url>/2022/11/23/catwrt-v22.12/</url>
+    <content><![CDATA[<p>这次软路由固件适配工作遇到了不少坑，但是大部分都解决了，这次更新玩法更多了，加速功能更强大，依旧稳定开源。</p>
+<p>更新了较新的大雕源码，支持了高性能模式全锥形 NAT，以及 Shortcut-FE ECM 加持。</p>
+<p>本固件基于 <a href="https://github.com/coolsnowwolf/lede">Lean LEDE</a> 拉取 <a href="https://github.com/coolsnowwolf/lede/commit/58692d5c98169249eae7b8cb27b45ce6ecac1d92">Nov 20, 2022 58692d5</a> 的仓库编译打造！</p>
+<p>在此感谢大雕和遇见大佬</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-11-23/v22.12-overview.png" loading="lazy"></p>
 <h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
-<li>大雕源码最小化</li>
-<li>MTK 鸡血 wifi 无线驱动</li>
-<li>完全支持 IPv6</li>
-<li>基础网络加速</li>
-<li>普通远程管理</li>
+<li><input checked disabled type="checkbox"> 令人惊叹的远程管理</li>
+<li><input checked disabled type="checkbox"> 不乱改更稳定流畅</li>
+<li><input checked disabled type="checkbox"> 简单的固件支持</li>
+<li><input checked disabled type="checkbox"> 完全支持 IPv6</li>
+<li><input checked disabled type="checkbox"> 智能网络加速</li>
+<li><input checked disabled type="checkbox"> 负载均衡</li>
+<li><input checked disabled type="checkbox"> Docker</li>
 </ul>
 <span id="more"></span>
 
-<p>因为 Newifi D2 的存储空间过小只有可怜的 32m 所以专门做了个 CatWrt 最小化固件，和 x86 版 v22.7 基本上是一个源码，所以插件除了原版+内网穿透其他全部为打包好的插件有需要可以手动安装</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-09/newifid2-catwrt.png" loading="lazy"></p>
 <h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
 <p>用户 <code>root</code></p>
 <p>密码 <code>password</code></p>
 <blockquote>
-<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
+<p>你也可以使用默认不修改，可选项因为 vim 有一定的上手门槛，如果你的网络之前是别的网段请按照下方修改。</p>
 </blockquote>
-<h3 id="自动开启wifi"><a href="#自动开启wifi" class="headerlink" title="自动开启wifi"></a>自动开启wifi</h3><p>因为鸡血固件特性，只能通过这样的方式打开无线，以下方法都建议使用。</p>
-<p>电脑有线设置静态地址为 <code>192.168.1.x</code> 子网掩码 <code>255.255.255.0</code>,主要的网关/路由器地址填 <code>192.168.1.4</code>，DNS留空或者和网关一样</p>
-<h4 id="脚本"><a href="#脚本" class="headerlink" title="脚本"></a>脚本</h4><p>登录 OpenWrt 后台，在系统-启动项-本地启动脚本 插入 <code>/sbin/mtkwifi up</code> 在 <code>exit 0</code> 前面。</p>
-<p>完整脚本</p>
-<pre class="language-bash" data-language="bash"><code class="language-bash">/sbin/mtkwifi up
-
-<span class="token builtin class-name">exit</span> <span class="token number">0</span></code></pre>
-<h4 id="计划任务"><a href="#计划任务" class="headerlink" title="计划任务"></a>计划任务</h4><p>在系统-计划任务中填入 <code>0 * * * * /sbin/mtkwifi up</code> 计划任务。</p>
-<p>完整计划任务</p>
-<pre class="language-none"><code class="language-none">0 * * * * &#x2F;sbin&#x2F;mtkwifi up</code></pre>
-
-<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
-<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
+<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 CatWrt 终端中输入 <code>vim /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
+<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code> (实际显示 <code>:wq</code>)；</p>
 <p>返回后输入 <code>reboot</code> 重启。</p>
-<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
+<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在 CatWrt 系统-管理权 主机密码 处修改密码或</p>
+<p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-11-23/turboacc.png" loading="lazy"></p>
+<h2 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h2><p>在 CatWrt-v22.8 版本中剩余的 overlay 空间过小不足 10M，这次更新扩容了安装完即有 95 MB 空闲空间，可以简单安装一些插件，正常使用不需要扩容</p>
+<p>因为 open-vm-tool 编译的时候会出现问题，所以临时性删除可以通过软件源安装 open-vm-tool 来兼容 VMware 虚拟化，被迫妥协</p>
+<p>另外新版 v22.12 也支持了 iStore 应用商店和英特尔无线驱动等扩展……</p>
+<p>具体查看 <a href="https://www.miaoer.xyz/posts/network/catwrt-v22.12-spread">扩展你的 CatWrt，轻松安装 iStore！</a></p>
+<h2 id="更新预览"><a href="#更新预览" class="headerlink" title="更新预览"></a>更新预览</h2><p>固件版本    OpenWrt R22.11.11 / LuCI Master (git-22.323.58461-c7fb305)</p>
+<p>内核版本    5.15.79</p>
+<blockquote>
+<p>查看编译时选择的插件预览 <a href="https://api.miaoer.xyz/api/v2/snippets/catwrt/package"><i class="ri-terminal-window-fill"></i> 获取</a> （不包含插件依赖）</p>
+</blockquote>
+<p><strong>对比 CatWrt-v22.8 版</strong></p>
+<ul>
+<li>更新 Flow Offloading / Shortcut-FE ECM 软路由小包加速</li>
+<li>更新 高性能全锥形 NAT</li>
+<li>更新 英特尔 i226 网卡驱动</li>
+<li>支持 LXC 容器安装 CatWrt(PVE)</li>
+<li>支持 扩展 iStore，UA2F，英特尔无线网卡驱动(iwlwifi)</li>
+<li>新增 openssh-keygen 和 openssh-sftp-server</li>
+<li>新增 移动 usbwan 热点功能</li>
+<li>新增 多线多播 功能</li>
+<li>新增 SQM QoS 功能</li>
+<li>新增 iperf3</li>
+<li>移除 open-vm-tools</li>
+<li>移除 过旧的猫</li>
+</ul>
+<p><strong>CatWrt 标准样式修改项</strong></p>
+<ul>
+<li>主题 argon 添加统一背景</li>
+<li>修改主机名为 <code>CatWrt</code></li>
+<li>修改默认 IP <code>192.168.1.4</code></li>
+<li>修改 banner 个性</li>
+<li>更改 linux 内核占用 16M</li>
+<li>更改 overlay 分区占用 400M</li>
+<li>修改了 Dnsmasq 源码部分默认开启 IPv6 解析</li>
+</ul>
+<hr>
 <h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
-<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
+<p>仅供学习技术交流使用，请勿用于非法用途</p>
 </blockquote>
-<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.7/targets/ramips/mt7621</code><br><br></p>
-<p>一般的只需要下载 <code>squashfs-sysupgrade.bin</code> 后缀，即 <code>openwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin</code>。</p>
+<p>文件位置: <code>v22.12/x86-64</code></p>
+<p>只有 img.gz 是原生编译直出的，其他虚拟化格式都是使用 <a href="https://www.miaoer.xyz/posts/network/starwind-converter">StarWind V2V Converter</a> 进行转换。</p>
+<h3 id="文件格式说明"><a href="#文件格式说明" class="headerlink" title="文件格式说明"></a>文件格式说明</h3><p>一般较新的软路由都是安装 EFI，过老的或者虚拟机可以考虑传统 BIOS 引导启动</p>
+<p><code>squashfs-combined</code> 为传统 BIOS 引导启动；</p>
+<p><code>squashfs-combined-efi</code> 为 UEFI 引导启动；</p>
+<p><code>rootfs.tar.gz</code> 文件是 PVE LXC 容器文件；</p>
+<p><code>img.gz</code> 文件是压缩文件，可以解压成 img文件；</p>
+<p><code>img</code> 文件建议使用 <a href="https://cdn.miaoer.xyz/download/22-06-29/IMG%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7.exe"><i class="ri-file-download-fill"></i> IMG写盘工具</a> 或者 <a href="https://www.miaoer.xyz/posts/network/starwind-converter">StarWind V2V Converter</a> 进行安装；</p>
+<p><code>vmdk</code> 文件是 VMware 虚拟机的虚拟硬盘文件；</p>
+<p><code>qcow2</code> 文件是 PVE 或 KVM 虚拟机的虚拟硬盘文件；</p>
+<p><code>vhdx</code> 文件是 hype-v 虚拟机的虚拟硬盘文件；</p>
+<blockquote>
+<p>Tip: 固件使用 IMG 写盘工具写盘时出现多少扇区错误的，直接重启进 CatWrt 就好，是正常情况。</p>
+</blockquote>
 <h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
-<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
+<p>压缩镜像和 LXC 容器无法分享(gz)，镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
 </blockquote>
-<p>链接: <a href="https://www.aliyundrive.com/s/a3uvrWWV4xa">https://www.aliyundrive.com/s/a3uvrWWV4xa</a><br>提取码: 91tt</p>
-<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p>链接: <a href="https://cloud.189.cn/web/share?code=VzAZFjVZFBry">https://cloud.189.cn/web/share?code=VzAZFjVZFBry</a><br>访问码: ojg7</p>
-<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CKCXZggb0Y">https://caiyun.139.com/m/i?0H5CKCXZggb0Y</a><br>提取码: JHgq</p>
-<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
+<p><a href="https://www.aliyundrive.com/s/SGsYpcH5Dcp">https://www.aliyundrive.com/s/SGsYpcH5Dcp</a></p>
+<p>提取码: 2z9v</p>
+<h3 id="天翼云盘"><a href="#天翼云盘" class="headerlink" title="天翼云盘"></a>天翼云盘</h3><p><a href="https://cloud.189.cn/web/share?code=ANJRRf77fIRb">https://cloud.189.cn/web/share?code=ANJRRf77fIRb</a></p>
+<p>访问码: ano9</p>
+<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p><a href="https://caiyun.139.com/m/i?0H5CJW3okkD2l">https://caiyun.139.com/m/i?0H5CJW3okkD2l</a></p>
+<p>提取码: aApn</p>
+<h3 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h3><p>可以 git clone 到本地服务器进行部署软件源服务器，欢迎 Star</p>
+<p><a href="https://github.com/miaoermua/CatWrt"><i class="ri-github-fill"></i> CatWrt 仓库</a></p>
+<p><a href="https://github.com/miaoermua/CatWrt/releases/tag/CatWrt-v22.12">https://github.com/miaoermua/CatWrt/releases/tag/CatWrt-v22.12</a></p>
+<blockquote>
+<p>支持多线程下载，需要网络环境支持</p>
+</blockquote>
+<h2 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h2><p>在使用系统升级时需要请注意几个点: </p>
+<ul>
+<li>扩容过需要将挂载点改回 /mnt/sda3 重启再进行在线更新，更新完请删掉扩容分区再进行扩容</li>
+<li>硬盘总大小是否有 450M；空闲存储空间是否还有 150M （可以通过 cfdisk 查看 freespace size 大小辨别）</li>
+<li>如果是虚拟机，虚拟硬盘格式是否支持增长，有需要时请扩容</li>
+<li>记得生成备份文件</li>
+</ul>
+<p>遇到配置保留失败或者更多奇奇怪怪的问题，亦是看不懂建议全新安装。</p>
+<p>系统更新也可以在终端在线升级，需要网络支持。</p>
+<blockquote>
+<p>请先确定你的引导方式，终端输入 <code>fdisk -l</code> 查看是否存在 /dev/sda128 BIOS boot，有这种样式基本上都是 EFI 启动</p>
+</blockquote>
+<p><strong>传统 BIOS 引导</strong></p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">sysupgrade -v https://github.com/miaoermua/CatWrt/releases/download/CatWrt-v22.12/catwrt-v22.12-x86-64-squashfs-combined.img.gz</code></pre>
+
+<p><strong>EFI 引导</strong></p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">sysupgrade -v https://github.com/miaoermua/CatWrt/releases/download/CatWrt-v22.12/catwrt-v22.12-x86-64-squashfs-combined-efi.img.gz</code></pre>
+
+<p>或者在 OpenWrt 中 系统-备份/升级 选择 <code>刷写新的固件</code> 选择下载好的 img 文件即可保留配置升级至 CatWrt。</p>
+<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者加群询问，使用了我的固件可以进行简单免费的咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
+<ul>
+<li><i class="ri-exchange-cny-line"></i> 请作者喝奶茶：<a href="https://www.miaoer.xyz/sponsor">赞助</a></li>
+<li><i class="ri-qq-line" text="blue-500"></i> QQ 群: <a href="https://jq.qq.com/?_wv=1027&k=huHLSM8M">喵二の交流</a></li>
+<li><i class="ri-telegram-fill" text="blue-500"></i> Telegram Group: <a href="https://t.me/miaoergroup">喵二の交流</a></li>
+</ul>
 <p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
 ]]></content>
       <categories>
-        <category>硬路由</category>
+        <category>网络</category>
       </categories>
       <tags>
-        <tag>硬路由</tag>
-        <tag>固件</tag>
+        <tag>CatWrt</tag>
         <tag>OpenWrt</tag>
+        <tag>软路由</tag>
       </tags>
   </entry>
   <entry>
-    <title>博客更新啦</title>
-    <url>/2021/12/06/blog-update/</url>
-    <content><![CDATA[<h1 id="博客の变化"><a href="#博客の变化" class="headerlink" title="博客の变化"></a>博客の变化</h1><p>在今天(2021-12-6 21:09:43)，我更换了由前后端分离部署的 <a href="https://github.com/mx-space">Mix-space</a> ，可能熟悉我们原本Hexo博客的小伙伴会比较陌生，但是为了变化内容我还是写一点小白须知。</p>
-<p>这次主要更换了之间的二级域名，和内容上的变化;</p>
-<ul>
-<li><p>个人网站 (Hexo Yun 主题) 部署的域名从 <code>https://www.miaoer.xyz </code> &gt;&gt;&gt;  <code>https://blog.miaoer.xyz</code></p>
-</li>
-<li><p>个人博客 (Mix-space) 部署的域名从 <code>https://blog.miaoer.xyz</code>  &gt;&gt;&gt;  <code>https://www.miaoer.xyz </code> </p>
-</li>
-<li><p>短域名 miaoer.xyz 自动跳转到 Mix-space 上</p>
-</li>
-</ul>
-<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><img src="https://cdn.miaoer.xyz/images/Browser-blog.png" alt="功能详情图" loading="lazy"></p>
-<span id="more"></span>
-<p><em>更新后，<u>图片可点击放大查看详情</u></em></p>
-<p><strong>Banner</strong></p>
-<ul>
-<li>名字，签名，社交链接，一言</li>
-</ul>
-<p><strong>菜单栏</strong></p>
-<ul>
-<li>页面   博文   预览   友链   日记   动态   其余   开往</li>
-</ul>
-<p><strong>边栏</strong></p>
-<ul>
-<li>页面模式(夜间)，音乐，广播</li>
-</ul>
-<p><strong>页面</strong></p>
-<ul>
-<li>最新博文，日记，友链，了解更多</li>
-</ul>
-<p><strong>底栏</strong></p>
-<ul>
-<li><p>主页，Mix-space社区，ICP备案号</p>
-</li>
-<li><p>关于，留言，友链，RSS 订阅，站点地图，开往、同时在线小伙伴预览</p>
-</li>
-</ul>
-<h2 id="兼容"><a href="#兼容" class="headerlink" title="兼容"></a>兼容</h2><p>为 Hexo时代永久链接做出兼容动作 (可能按照文章内容跳转)。</p>
-<ul>
-<li>相对技术类的和主要对Hexo兼容的博客则跳转至Hexo博客中</li>
-<li>非技术类则不进行域名跳转</li>
-</ul>
-<p>为 Mix-space做最新的文章适配。</p>
-<ul>
-<li>将调整文章左右长度至Mix-space最舒服的大小</li>
-</ul>
-<p>为 Hexo继续同步最新的文章。</p>
-<ul>
-<li>将Mix-space中的文章再进行Hexo博客的分发至国内外</li>
-</ul>
-<h2 id="Thank"><a href="#Thank" class="headerlink" title="Thank"></a>Thank</h2><p>非常感谢他们，也感谢一直阅读我博客的小伙伴！【排列不分顺序】</p>
-<ul>
-<li><p>帮助解决主页的疑难杂症 <a href="https://innei.ren/">Innei</a></p>
-</li>
-<li><p>帮助解决问题 <a href="https://www.timochan.cn/">提莫酱</a></p>
-</li>
-<li><p>帮助使用主题等 <a href="https://www.yunyoujun.cn/">YunYouJun</a></p>
-</li>
-</ul>
-<h2 id="目前正在优化"><a href="#目前正在优化" class="headerlink" title="目前正在优化"></a>目前正在优化</h2><ul>
-<li><input checked disabled type="checkbox"> 重新优化查看搜索引擎的结果</li>
-<li><input checked disabled type="checkbox"> 通知友链更新</li>
-<li><input checked disabled type="checkbox"> 提供Hexo永久链接支持</li>
-</ul>
+    <title>扩展你的 CatWrt，轻松安装 iStore！</title>
+    <url>/2022/11/15/catwrt-v22.12-spread/</url>
+    <content><![CDATA[<p>在最新的 CatWrt-v22.11 固件中我们实现了早期提出模块化设计，可以缓解 CatWrt 过于臃肿。</p>
+<p>这次支持扩展 iStore 软件中心和 UA2F、英特尔无线网卡驱动，以及 DDNSTO 插件</p>
+<p>本教程可能不适用其他 OpenWrt/LEDE，除非内核版本一致</p>
+<p><a href="https://github.com/miaoermua/CatWrt"><i class="ri-github-fill"></i> CatWrt 仓库</a></p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>请先完成对 CatWrt 的扩容工作，需要扩容 overlay 分区和 Docker 分区，建议在分区时预留 200M 闲置硬盘空间用于未来的升级，其他分区可以尽可能的大。</p>
+<p>不扩容也能安装 iStore 软件中心，不过可能安装不了任何插件。</p>
+<p>还需要一个聪明的脑子，指令需要分段执行！</p>
+<p><strong>扩容教程</strong></p>
+<p><a href="https://www.miaoer.xyz/posts/network/openwrt-overlay">OpenWrt 扩容 overlay 分区教程</a></p>
+<p><a href="https://www.miaoer.xyz/posts/blog/expansion-overlay">软路由空间不够？扩容 overlay 的根</a></p>
+<blockquote>
+<p>插件过多可能会导致软路由不稳定！只保证你能安装使用不保证整体固件稳定性。</p>
+</blockquote>
+<hr>
+<h3 id="软件源"><a href="#软件源" class="headerlink" title="软件源"></a>软件源</h3><p>OpenWrt 是基于 Linux 开发的路由器系统，使用的 opkg 包管理器，自然有软件源可以用，目前在 CatWrt/LEDE 中使用的是腾讯源</p>
+<p>在使用以下插件安装时需要用到我自建的软件源，不仅简单还高效</p>
+<p>在 系统-软件包-配置 找到 自定义软件源，把这些复制进去</p>
+<pre class="language-none"><code class="language-none">src&#x2F;gz openwrt_core https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;targets&#x2F;x86&#x2F;64&#x2F;packages
+src&#x2F;gz openwrt_base https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;x86_64&#x2F;base
+src&#x2F;gz openwrt_luci https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;x86_64&#x2F;luci
+src&#x2F;gz openwrt_oui https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;x86_64&#x2F;oui
+src&#x2F;gz openwrt_packages https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;x86_64&#x2F;packages
+src&#x2F;gz openwrt_routing https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;x86_64&#x2F;routing
+src&#x2F;gz openwrt_telephony https:&#x2F;&#x2F;downloads.catwrt.miaoer.xyz&#x2F;x86_64&#x2F;telephony</code></pre>
+
+<blockquote>
+<p>在安装完插件后务必务必关闭我自建的软件源，因为每个月有免费限额流量超额将自动关闭服务</p>
+<p>除了 open-vm-tools 其他都在软件源里了</p>
+</blockquote>
+<p>关闭方法替换删除之前的自定义软件源内容，替换上去</p>
+<pre class="language-none"><code class="language-none"># add your custom package feeds here
+#
+# src&#x2F;gz example_feed_name http:&#x2F;&#x2F;www.example.com&#x2F;path&#x2F;to&#x2F;files</code></pre>
+
+<h2 id="open-vm-tools"><a href="#open-vm-tools" class="headerlink" title="open-vm-tools"></a>open-vm-tools</h2><p>在 CatWrt-v22.12 中因为编译兼容性的问题，暂时移除了 open-vm-tools，可以手动安装兼容 VMware 的功能。</p>
+<p>如正常的关机重启，ip 获取</p>
+<blockquote>
+<p>自建软件源没有包含此包，不需要自定义软件源</p>
+</blockquote>
+<pre class="language-bash" data-language="bash"><code class="language-bash">opkg update
+
+opkg <span class="token function">install</span> open-vm-tools</code></pre>
+
+<h2 id="iStore"><a href="#iStore" class="headerlink" title="iStore"></a>iStore</h2><p>iStore 是一个开源且标准的 OpenWRT 软件中心实现。是属于易有云团队产品 EasePi 的一部分。</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">opkg update
+
+opkg <span class="token function">install</span> luci-app-store</code></pre>
+
+<h2 id="UA2F"><a href="#UA2F" class="headerlink" title="UA2F"></a>UA2F</h2><p>在 OpenWrt 上修改 HTTP 流量的 UA</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">opkg update
+
+opkg <span class="token function">install</span> ua2f</code></pre>
+
+<h2 id="DDNSTO"><a href="#DDNSTO" class="headerlink" title="DDNSTO"></a>DDNSTO</h2><p>DDNSTO 由 KoolCenter @小宝 开发，是一款稳定、快速、简单易用的内网穿透工具。 让用户在公司、旅行途中都能够使用浏览器方便的访问家庭内的网络设备。</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">opkg update
+
+opkg <span class="token function">install</span> luci-app-ddnsto</code></pre>
+
+<p>官方脚本安装</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sh</span> -c <span class="token string">"<span class="token variable"><span class="token variable">$(</span><span class="token function">curl</span> -sSL http://fw.koolcenter.com/binary/ddnsto/openwrt/install_ddnsto.sh<span class="token variable">)</span></span>"</span></code></pre>
+
+<h2 id="无线驱动"><a href="#无线驱动" class="headerlink" title="无线驱动"></a>无线驱动</h2><p>目前仅支持以下英特尔驱动，距用户实测也只能当 WLAN 不能开热点，貌似是驱动层面限制。</p>
+<blockquote>
+<p>请先执行前置 kmod 指令安装其依赖，后选择无线网卡安装！</p>
+</blockquote>
+<pre class="language-bash" data-language="bash"><code class="language-bash">opkg update
+
+opkg <span class="token function">install</span> kmod-iwlwifi wpa-supplicant wpad</code></pre>
+
+<h3 id="ax200"><a href="#ax200" class="headerlink" title="ax200"></a>ax200</h3><pre class="language-bash" data-language="bash"><code class="language-bash">opkg <span class="token function">install</span> iwlwifi-firmware-ax200_20221012-1_x86_64.ipk</code></pre>
+
+<h3 id="ax201"><a href="#ax201" class="headerlink" title="ax201"></a>ax201</h3><pre class="language-bash" data-language="bash"><code class="language-bash">opkg <span class="token function">install</span> iwlwifi-firmware-ax201_20221012-1_x86_64.ipk</code></pre>
+
+<h3 id="ax210"><a href="#ax210" class="headerlink" title="ax210"></a>ax210</h3><pre class="language-bash" data-language="bash"><code class="language-bash">opkg <span class="token function">install</span> iwlwifi-firmware-ax210_20221012-1_x86_64.ipk</code></pre>
+
+<h2 id="ACME"><a href="#ACME" class="headerlink" title="ACME"></a>ACME</h2><p>用于申请 SSL 证书，实现软路由 https 访问。</p>
+<p><a href="https://www.miaoer.xyz/posts/network/openwrt-ssl">给 Openwrt 套 SSL 证书</a></p>
+<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> /tmp <span class="token operator">&amp;&amp;</span> opkg update
+
+<span class="token function">wget</span> https://downloads.catwrt.miaoer.xyz/x86_64/packages/acme_3.0.3-1_all.ipk <span class="token operator">&amp;&amp;</span> <span class="token function">wget</span> https://downloads.catwrt.miaoer.xyz/x86_64/luci/luci-app-acme_git-22.289.58375-2a380a3-1_all.ipk <span class="token operator">&amp;&amp;</span> <span class="token function">wget</span> https://downloads.catwrt.miaoer.xyz/x86_64/luci/luci-i18n-acme-zh-cn_git-22.289.58375-2a380a3-1_all.ipk
+
+opkg <span class="token function">install</span> acme_3.0.3-1_all.ipk luci-app-acme_git-22.289.58375-2a380a3-1_all.ipk luci-i18n-acme-zh-cn_git-22.289.58375-2a380a3-1_all.ipk</code></pre>
+
+<p>Enjoy~</p>
 ]]></content>
       <categories>
-        <category>Blog</category>
+        <category>网络</category>
       </categories>
       <tags>
-        <tag>Blog</tag>
+        <tag>CatWrt</tag>
+        <tag>OpenWrt</tag>
+        <tag>软路由</tag>
       </tags>
   </entry>
   <entry>
@@ -868,234 +1040,251 @@ chmod 777 nas     &#x2F;&#x2F;赋予文件夹777权限</code></pre>
         <category>网络</category>
       </categories>
       <tags>
+        <tag>CatWrt</tag>
         <tag>OpenWrt</tag>
         <tag>软路由</tag>
-        <tag>CatWrt</tag>
       </tags>
   </entry>
   <entry>
-    <title>拆卸AMD散热器，清灰</title>
-    <url>/2022/01/19/clean-amd-heatsink/</url>
-    <content><![CDATA[<p>今天闲着没事做给<a href="https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600">续集</a>上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。</p>
-<p>本文仅限 <strong>AMD “幽灵 Stealth” 散热器（无 LED 灯）</strong>  和 <strong>AMD“幽灵 Spire” 散热器（无 LED 灯）</strong> 详情预览: <a href="https://www.amd.com/zh-hans/technologies/cpu-cooler-solution">处理器散热解决方案 | “幽灵”散热器 | AMD</a></p>
-<p>需要准备:<br>毛巾，酒精，吹风机，可以高压冲洗的花洒（够强也可以用水龙头），一双勤劳的双手，PH1和PH0螺丝刀（至少需要一个PH1）</p>
+    <title>CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</title>
+    <url>/2022/08/10/catwrt-v22.7-newifid2/</url>
+    <content><![CDATA[<p>CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。</p>
+<h2 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h2><ul>
+<li>大雕源码最小化</li>
+<li>MTK 鸡血 wifi 无线驱动</li>
+<li>完全支持 IPv6</li>
+<li>基础网络加速</li>
+<li>普通远程管理</li>
+</ul>
 <span id="more"></span>
 
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746752.jpg" loading="lazy"></p>
-<h1 id="拆卸"><a href="#拆卸" class="headerlink" title="拆卸"></a>拆卸</h1><p>主板拆卸我直接引用上期内容了</p>
+<p>因为 Newifi D2 的存储空间过小只有可怜的 32m 所以专门做了个 CatWrt 最小化固件，和 x86 版 v22.7 基本上是一个源码，所以插件除了原版+内网穿透其他全部为打包好的插件有需要可以手动安装</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-09/newifid2-catwrt.png" loading="lazy"></p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认IP <code>192.168.1.4</code></p>
+<p>用户 <code>root</code></p>
+<p>密码 <code>password</code></p>
 <blockquote>
-<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
+<p>你也可以使用默认不修改，可选项；如果你的网络之前是别的网段请按照下方修改。</p>
 </blockquote>
-<p>然后拿下散热将印有 <strong>AMDlogo</strong> 凸起下的两螺丝拧下</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746774.jpg" loading="lazy"></p>
-<p>把印有 <strong>AMDlogo</strong> 的盖子拿开就看到风扇下的 <strong>酷冷</strong> 的标和<strong>四颗螺丝</strong>，拧开即可拿下铝制散热器；拿去找个带冲洗功能的花洒冲干净拿纸巾或者毛巾擦干净表面并清理上面的<strong>硅脂</strong>然后把毛巾垫底用吹风机烤一会，直到无水珠，再晾干。<br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746784.jpg" loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746805.jpg" loading="lazy"></p>
-<p><strong>风扇</strong>和<strong>壳子</strong>我打算用毛巾和纸巾、酒精擦拭，拿手指头卡着扇叶一个一个擦……随后再擦拭风扇外表的灰。<br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746764.jpg" loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746796.jpg" loading="lazy"></p>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642574006422.jpg" loading="lazy"><br>安装同理，<br>将散热鳍片上好四颗螺丝，随后将带有 logo 的壳子放底下用双手压好直到可以（能把螺丝左右的两颗卡扣卡好就行），然后上两小长螺丝，</p>
-<p>上好螺丝到正面将卡扣面向外拉，使卡扣卡好，再按着卡好的卡扣将另外一边也卡进去。</p>
-<p>主板上把背后的扣具找东西压着，或者找个工具人按着；给 CPU 上<strong>硅脂</strong>将四颗弹簧螺丝用力按进扣具并保持另外一边不要翘起太离谱进去转几下就拧对角线压平散热器，再拧紧两螺丝随后把另外两颗也压好，插上 CPU 风扇供电；擦腚楷机。</p>
+<h3 id="自动开启wifi"><a href="#自动开启wifi" class="headerlink" title="自动开启wifi"></a>自动开启wifi</h3><p>因为鸡血固件特性，只能通过这样的方式打开无线，以下方法都建议使用。</p>
+<p>电脑有线设置静态地址为 <code>192.168.1.x</code> 子网掩码 <code>255.255.255.0</code>,主要的网关/路由器地址填 <code>192.168.1.4</code>，DNS留空或者和网关一样</p>
+<h4 id="脚本"><a href="#脚本" class="headerlink" title="脚本"></a>脚本</h4><p>登录 OpenWrt 后台，在系统-启动项-本地启动脚本 插入 <code>/sbin/mtkwifi up</code> 在 <code>exit 0</code> 前面。</p>
+<p>完整脚本</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">/sbin/mtkwifi up
+
+<span class="token builtin class-name">exit</span> <span class="token number">0</span></code></pre>
+<h4 id="计划任务"><a href="#计划任务" class="headerlink" title="计划任务"></a>计划任务</h4><p>在系统-计划任务中填入 <code>0 * * * * /sbin/mtkwifi up</code> 计划任务。</p>
+<p>完整计划任务</p>
+<pre class="language-none"><code class="language-none">0 * * * * &#x2F;sbin&#x2F;mtkwifi up</code></pre>
+
+<h3 id="修改默认-IP"><a href="#修改默认-IP" class="headerlink" title="修改默认 IP"></a>修改默认 IP</h3><p>在 OpenWrt 终端中输入 <code>vi /etc/config/network</code> 在窗口修改 option ipaddr 行中的 IP 地址。</p>
+<p>完成后按 <code>Esc</code>，再按下冒号 <code>:</code>，在输入框中输入 <code>wq</code>；实际显示 <code>:wq</code></p>
+<p>返回后输入 <code>reboot</code> 重启。</p>
+<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code> 输入密码，后确认密码。</p>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote>
+<p>😸 仅供学习交流使用，请勿用于非法用途。</p>
+</blockquote>
+<p><i class="ri-folder-2-line"></i> 文件位置 <code>v22.7/targets/ramips/mt7621</code><br><br></p>
+<p>一般的只需要下载 <code>squashfs-sysupgrade.bin</code> 后缀，即 <code>openwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin</code>。</p>
+<h3 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h3><blockquote>
+<p>镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。</p>
+</blockquote>
+<p>链接: <a href="https://www.aliyundrive.com/s/a3uvrWWV4xa">https://www.aliyundrive.com/s/a3uvrWWV4xa</a><br>提取码: 91tt</p>
+<h3 id="天翼云"><a href="#天翼云" class="headerlink" title="天翼云"></a>天翼云</h3><p>链接: <a href="https://cloud.189.cn/web/share?code=VzAZFjVZFBry">https://cloud.189.cn/web/share?code=VzAZFjVZFBry</a><br>访问码: ojg7</p>
+<h3 id="中国移动云盘"><a href="#中国移动云盘" class="headerlink" title="中国移动云盘"></a>中国移动云盘</h3><p>链接: <a href="https://caiyun.139.com/m/i?0H5CKCXZggb0Y">https://caiyun.139.com/m/i?0H5CKCXZggb0Y</a><br>提取码: JHgq</p>
+<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>编译不是十全十美的活，难免会有 Bug，如遇到问题在下方评论留言或者在 <a href="https://www.miaoer.xyz/about">关于我</a> 寻找到实时聊天软件与我取得联系，使用了我的固件可以与本人进行简单免费的技术咨询，要是有偿是再好不过的，用别人的固件我不理！</p>
+<p>欢迎多多留言鼓励 ( ´･･)ﾉ(._.`)</p>
 ]]></content>
       <categories>
-        <category>电脑</category>
+        <category>硬路由</category>
       </categories>
       <tags>
-        <tag>电脑</tag>
+        <tag>OpenWrt</tag>
+        <tag>硬路由</tag>
+        <tag>固件</tag>
       </tags>
   </entry>
   <entry>
-    <title>FFmpeg 常见命令</title>
-    <url>/2022/09/28/ffmpeg/</url>
-    <content><![CDATA[<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>最近发现了并使用了 FFmpeg 发现他十分的强大，能做到各种音视频操作，有的软件也是引用的 <a href="https://ffmpeg.org/">FFmpeg</a> 主要是他是免费开源不需要授权的工具，这里就简单做一下 FFmpeg 常见的几个命令笔记，帮助小白读者轻松转换编码自己的视频！这里大部分内容都是参考网络上有的内容以标记引用源。</p>
-<p>来一起来玩一下吧 ฅ՞•ﻌ•՞ฅ</p>
-<h2 id="安装-FFmpeg"><a href="#安装-FFmpeg" class="headerlink" title="安装 FFmpeg"></a>安装 FFmpeg</h2><p><img src="https://avatars.githubusercontent.com/u/729418?s=280&v=4" loading="lazy"></p>
-<h3 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h3><p>因为 FFmpeg 只提供源码需要编译，但有大神编译好的 FFmepg 可以直接使用仓库中的发行版</p>
-<p><a href="https://github.com/BtbN/FFmpeg-Builds/releases">https://github.com/BtbN/FFmpeg-Builds/releases</a></p>
-<h3 id="Ubuntu"><a href="#Ubuntu" class="headerlink" title="Ubuntu"></a>Ubuntu</h3><pre class="language-none"><code class="language-none">sudo add-apt-repository universe
-sudo apt update
-sudo apt install ffmpeg</code></pre>
-
-<hr>
-<h2 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h2><h3 id="容器格式"><a href="#容器格式" class="headerlink" title="容器格式"></a>容器格式</h3><p>我们常见的视频文件格式本身其实就是一个容器，容器里面再包括视频轨道、音频轨道、元数据、字幕、标题、封面等等……<br>常见的视频容器格式有包括这些</p>
-<ul>
-<li>MP4 (MPEG 4)</li>
-<li>MKV (Matroska)</li>
-<li>WebM</li>
-<li>AVI (ASF)</li>
-<li>MOV (QuickTime)</li>
-</ul>
+    <title>软路由空间不够？扩容 overlay 的根</title>
+    <url>/2022/11/17/expansion-overlay/</url>
+    <content><![CDATA[<p>之前我分享的扩容 overlay 是复制原本 OpenWrt 的 /overlay 分区并且挂载作为外部 overlay 使用，但在最新的 OpenWrt/LEDE 以及基于 LEDE 编译的 CatWrt 也是扩容不了的，虽然说有的扩容成功了但成功率不高，这次分享的总结于 B 站 UP 主 <a href="https://space.bilibili.com/472755599">韩风Talk</a> 视频中的第一种方法，成功率也比较高因为第二种我在固件里没有刷新成功容量所以就放弃了。</p>
+<p>首先非常感谢韩风提供的方法，有需要可以查看他的视频我这里就做一个总结。</p>
+<p>在 v22.11 固件中就有 100M 可用空间强烈不推荐小白作为安装 OpenWrt 的必选项！是有门槛的而且数据无价有需要可以先做备份再进行操作，甚至你可以给虚拟机创建一个快照。</p>
 <br>
 
-<blockquote>
-<p>TOP: WebM 就是最近大火的 AV1、VP9、VP8 常用的容器，编解码需要特定的硬件加速</p>
-<p>例如 AIN 22年新品都支持 AV1 编解码硬件加速</p>
-</blockquote>
-<h3 id="编码"><a href="#编码" class="headerlink" title="编码"></a>编码</h3><p>常见的几种编码；包括了授权编码、无版权编码、音频编码格式</p>
-<p><strong>授权编码</strong></p>
-<ul>
-<li>H.262</li>
-<li>H.264</li>
-<li>H.265</li>
-</ul>
-<p><strong>无版权编码</strong></p>
-<ul>
-<li>VP8</li>
-<li>VP9</li>
-<li>AV1</li>
-</ul>
-<p><strong>音频编码格式</strong></p>
-<ul>
-<li>MP3</li>
-<li>AAC</li>
-</ul>
-<p><strong>视频编码器</strong></p>
-<ul>
-<li><code>libx264</code>: 最流行的开源 H.264 编码器</li>
-<li><code>NVENC</code>: 基于 NVIDIA GPU 的 H.264 编码器</li>
-<li><code>libx265</code>: 开源的 HEVC 编码器</li>
-<li><code>libvpx</code>: 谷歌的 VP8 和 VP9 编码器</li>
-<li><code>libaom</code>: AV1 编码器</li>
-</ul>
-<p><strong>音频编码器</strong></p>
-<ul>
-<li>libfdk-aac</li>
-<li>aac</li>
-</ul>
-<blockquote>
-<p>查看 FFmpeg 已安装的编码器</p>
-<p><code>ffmpeg -encoders</code></p>
-</blockquote>
-<h2 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h2><pre class="language-none"><code class="language-none">ffmpeg [1] [2] -i [3] [4] [5]</code></pre>
+<iframe src="https://api.paugram.com/bili?bv=BV1WK411Z79q&style=gray" style="height: 10em; width: 100%"></iframe>
 
-<p>[1] 全局参数</p>
-<p>[2] 输入文件参数</p>
-<p>[3] 输入文件</p>
-<p>[4] 输出文件参数</p>
-<p>[5] 输出文件</p>
-<h2 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h2><ul>
-<li><code>-c</code>: 指定编码器</li>
-<li><code>-c copy</code>: 直接复制不经过重新编码，更快</li>
-<li><code>-c:v</code>: 指定视频编码器</li>
-<li><code>-c:a</code>: 指定音频编码器</li>
-<li><code>-i</code>: 指定输入文件</li>
-<li><code>-an</code>: 去除音频流</li>
-<li><code>-vn</code>:  去除视频流</li>
-<li><code>-preset</code>: 视频编码质量 <code>ultrafast</code>, <code>superfast</code>, <code>veryfast</code>, <code>faster</code>, <code>fast</code>, <code>medium</code>, <code>slow</code>, <code>slower</code>, <code>veryslow</code></li>
-<li><code>-y</code>: 不经过确认，输出时直接覆盖同名文件</li>
-</ul>
-<p>更多: <a href="https://zh.m.wikipedia.org/zh-hans/FFmpeg">https://zh.m.wikipedia.org/zh-hans/FFmpeg</a></p>
+<p><br><br></p>
+<p>以前的靠作为外部 overlay 的可以参考我这期博客 <a href="https://www.miaoer.xyz/posts/network/openwrt-overlay">OpenWrt 扩容 overlay 分区教程</a></p>
+<span id="more"></span>
 <hr>
-<h2 id="文件信息"><a href="#文件信息" class="headerlink" title="文件信息"></a>文件信息</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.mp4
-
-只显示元信息，干净
-ffmpeg -i input.mp4 -hide_banner</code></pre>
-
-<h2 id="转格式"><a href="#转格式" class="headerlink" title="转格式"></a>转格式</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.avi output.mp4
-
-直接复制速度最快
-ffmpeg -i input.avi -c copy output.mp4</code></pre>
-
-<p>-i 输入文件</p>
-<p>-c copy 直接复制不转码速度更快</p>
-<h2 id="转码"><a href="#转码" class="headerlink" title="转码"></a>转码</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -c:v libx264 output.mp4
-
-选择 H.265 编码器
-ffmpeg -i input.mp4 -c:v libx265 output.mp4</code></pre>
-
-<p>-i 输入文件</p>
-<p>-c:v 转换编码器</p>
-<h2 id="剪片"><a href="#剪片" class="headerlink" title="剪片"></a>剪片</h2><pre class="language-none"><code class="language-none">ffmpeg -ss 00:00:00 -t 00:00:30 -i input.mp4 -vcodec copy -acodec copy output.mp4</code></pre>
-
-<p>-ss 开始时间</p>
-<p>-t 截取到时间</p>
-<p>-i 输入文件</p>
-<h2 id="码率"><a href="#码率" class="headerlink" title="码率"></a>码率</h2><p>本篇章过于专业，需要更深度的了解！这里只演示最简单的编码方式，不包括压片配置。</p>
-<h3 id="ABR-VBR-二次编码"><a href="#ABR-VBR-二次编码" class="headerlink" title="ABR (VBR)二次编码"></a>ABR (VBR)二次编码</h3><pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -c:v libx264 -b:v 1M -pass 1 -f null &#x2F;dev&#x2F;null
-ffmpeg -i input.mp4 -c:v libx264 -b:v 1M -pass 2 output.mp4
-
-当然也可以仅 VBR 一次
-ffmpeg -i input.mp4 -c:v libx264 -b:v 1M -pass 1 output.mp4</code></pre>
-
-<h3 id="CBR-恒定码率"><a href="#CBR-恒定码率" class="headerlink" title="CBR 恒定码率"></a>CBR 恒定码率</h3><pre class="language-none"><code class="language-none">压缩到 2M 码率
-ffmpeg -i input.mp4 -b:v 2M output.mp4
-
-压缩稳定到 2M 码率
-ffmpeg -i input.mp4 -b:v 2M -bufsize 2M output.mp4
-
-压缩稳定在 2M 比特率允许最大 2.5M 码率
-ffmpeg -i input.mp4 -b:v 2M -bufsize 2M -maxrate 2.5M output.mp4
-
-使用 libx264 解码器最小 1M 比特率，最大 2M 比特率，稳定在 1M 码率
-ffmpeg -i input.mp4 -c:v libx264 -b:v 1M -minrate 1M -maxrate 2M -bufsize 1M output.mp4</code></pre>
-
-<p>-i 输入文件</p>
-<p>-b:a 音频码率</p>
-<p>-b:v 视频码率</p>
-<p>-minrate 允许最小码率</p>
-<p>-maxrate 允许最大码率</p>
-<p>-bufsize 码率控制缓冲器</p>
-<h2 id="大小"><a href="#大小" class="headerlink" title="大小"></a>大小</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.avi -fs 114M output.mp4</code></pre>
-
-<p>-i 输入文件</p>
-<p>-fs 控制文件大小</p>
-<h2 id="分辨率"><a href="#分辨率" class="headerlink" title="分辨率"></a>分辨率</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -vf scale&#x3D;1920:1080 output.mp4
-
-保持长宽比是 -1
-ffmpeg -i input.mp4 -vf scale&#x3D;1920:-1 output.mp4</code></pre>
-
-<p>-i 输入文件<br>[保持长宽比 -1]</p>
-<h2 id="FPS"><a href="#FPS" class="headerlink" title="FPS"></a>FPS</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.avi -r 30 output.mp4</code></pre>
-
-<p>-i 输入文件</p>
-<p>-r 帧率值</p>
-<h2 id="提取音频"><a href="#提取音频" class="headerlink" title="提取音频"></a>提取音频</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -f mp3 -vn output.mp3</code></pre>
-
-<pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -acodec aac -vn output.mp3</code></pre>
-
-<p>-i 输入文件</p>
-<p>-f 输出格式</p>
-<p>-vn 不包含视频</p>
-<p>-acodec 设定声音编解码器</p>
-<h2 id="分离音视频"><a href="#分离音视频" class="headerlink" title="分离音视频"></a>分离音视频</h2><p><strong>分离视频</strong><br>ffmpeg -i input.mp4 -vcodec copy -an output.mp4</p>
-<p><strong>分离 acc 格式</strong><br>ffmpeg -i input.mp4 -acodec copy -vn output.m4a<br>ffmpeg -i m.m4a m.mp3</p>
-<p><strong>直接提取音频</strong><br>ffmpeg -i mavel4.mp4 m.mp3</p>
-<h2 id="音视频合并"><a href="#音视频合并" class="headerlink" title="音视频合并"></a>音视频合并</h2><pre class="language-none"><code class="language-none">ffmpeg -i video.mp4 -i audio.mp3 -c:v copy -c:a aac -strict experimental output.mp4</code></pre>
-
-<p>-i 输入文件</p>
-<p>-c:a 音频编码方式</p>
-<p>-c:v 视频编码方式</p>
-<h2 id="压缩音频"><a href="#压缩音频" class="headerlink" title="压缩音频"></a>压缩音频</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.wav -b:a 64k -acodec mp3 -ar 44100 -ac 1 output.mp3</code></pre>
-
-<p>-i 输入文件</p>
-<p>-b 码率</p>
-<p>-ar 采样率</p>
-<h2 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h2><p><strong>指定时间截图</strong></p>
-<pre class="language-none"><code class="language-none">ffmpeg -ss 00:11:45 -i input.mp4 -r 1 output.jpg </code></pre>
-
-<p><strong>从头开始抽帧截图</strong></p>
-<pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -r 1 -q:v 2 -f image2 output.jpg</code></pre>
-
-<p>-i 输入文件</p>
-<p>-r 几秒一帧</p>
-<p>-q:v 图像质量</p>
-<p>-f 输出格式</p>
-<h2 id="封面"><a href="#封面" class="headerlink" title="封面"></a>封面</h2><p><strong>视频封面</strong></p>
-<pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -i input.jpg -map 0 -map 1:0 -c copy -disposition:v:1 output.mp4</code></pre>
-
-<p><strong>音频封面</strong></p>
-<pre class="language-none"><code class="language-none">ffmpeg -i input.mp3 -i input.jpg -map 0:0 -map 1:0 -codec copy -id3v2_version 3 \ 
--metadata:s:v title&#x3D;&quot;Album cover&quot; -metadata:s:v comment&#x3D;&quot;Cover (front)&quot; output.mp3</code></pre>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>首先打开终端 SSH 连接到软路由，这里我使用 CatWrt EFI 启动固件自带的 ttyd</p>
+<p>先看看软路由的分区情况 <code>fdisk -l</code></p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># fdisk -l</span>
+Disk /dev/loop0: <span class="token number">184.88</span> MiB, <span class="token number">193855488</span> bytes, <span class="token number">378624</span> sectors
+Units: sectors of <span class="token number">1</span> * <span class="token number">512</span> <span class="token operator">=</span> <span class="token number">512</span> bytes
+Sector size <span class="token punctuation">(</span>logical/physical<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+I/O size <span class="token punctuation">(</span>minimum/optimal<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+GPT PMBR size mismatch <span class="token punctuation">(</span><span class="token number">852511</span> <span class="token operator">!=</span> <span class="token number">7129087</span><span class="token punctuation">)</span> will be corrected by write.
 
 
-<p>引用:<br><a href="https://www.ruanyifeng.com/blog/2020/01/ffmpeg">FFmpeg 视频处理入门教程</a></p>
-<p><a href="https://wxnacy.com/2019/04/16/ffmpeg-split-video-audio">使用 ffmpeg 分离视频流和音频流</a></p>
-<p><a href="http://blog.7cuu.com/aid/381">ffmpeg常用参数说明及例子</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/250585488">码率控制（一）：理解码率控制模式（x264,x264,vpx）</a></p>
+Disk /dev/sda: <span class="token number">3.4</span> GiB, <span class="token number">3650093056</span> bytes, <span class="token number">7129088</span> sectors
+Disk model: VMware Virtual I
+Units: sectors of <span class="token number">1</span> * <span class="token number">512</span> <span class="token operator">=</span> <span class="token number">512</span> bytes
+Sector size <span class="token punctuation">(</span>logical/physical<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+I/O size <span class="token punctuation">(</span>minimum/optimal<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+Disklabel type: gpt
+Disk identifier: 0EAC8D5A-F014-DB49-E8EB-FA846A473B00
+
+Device      Start    End Sectors  Size Type
+/dev/sda1     <span class="token number">512</span>  <span class="token number">33279</span>   <span class="token number">32768</span>   16M Linux filesystem
+/dev/sda2   <span class="token number">33280</span> <span class="token number">852479</span>  <span class="token number">819200</span>  400M Linux filesystem
+/dev/sda128    <span class="token number">34</span>    <span class="token number">511</span>     <span class="token number">478</span>  239K BIOS boot
+
+Partition table entries are not <span class="token keyword">in</span> disk order.</code></pre>
+
+<p>可以看到 EFI 版固件要比传统模式下多出一个 239k 的 /dev/sda128，但中止扇区还是在 819200，记住这个中止扇区，后续很多细节都是围绕这个中止点！</p>
+<p>下面进行分区工作，首先需要了解你的固件是否需要升级，在 CatWrt 里我们强烈建议预留 200M 空闲空间这个空间在现在看需要在 /dev/sda2 后面预留了</p>
+<p>首先进入分区管理工具，输入 <code>fdisk /dev/sda</code></p>
+<blockquote>
+<p>这里需要注意一下，扇区不能一定重复！</p>
+</blockquote>
+<p>随后输入 <code>n</code> 新建一个分区</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># fdisk /dev/sda</span>
+
+Welcome to <span class="token function">fdisk</span> <span class="token punctuation">(</span>util-linux <span class="token number">2.38</span><span class="token punctuation">)</span>.
+Changes will remain <span class="token keyword">in</span> memory only, <span class="token keyword">until</span> you decide to <span class="token function">write</span> them.
+Be careful before using the <span class="token function">write</span> command.
+
+GPT PMBR size mismatch <span class="token punctuation">(</span><span class="token number">852511</span> <span class="token operator">!=</span> <span class="token number">7129087</span><span class="token punctuation">)</span> will be corrected by write.
+This disk is currently <span class="token keyword">in</span> use - repartitioning is probably a bad idea.
+It's recommended to <span class="token function">umount</span> all <span class="token function">file</span> systems, and swapoff all swap
+partitions on this disk.
+
+
+Command <span class="token punctuation">(</span>m <span class="token keyword">for</span> <span class="token builtin class-name">help</span><span class="token punctuation">)</span>: _
+</code></pre>
+
+<p>这里让我们选择主要分区还是扩展分区，我们选择主要输入 <code>p</code>（这里我没遇到，不是所有人都有）</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Select <span class="token punctuation">(</span>default p<span class="token punctuation">)</span>: _</code></pre>
+
+<p>这里让我们选择一个分区，因为这个 OpenWrt 没有进行过任何分区操作，这里就选择为 <code>3</code></p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Partition number <span class="token punctuation">(</span><span class="token number">3</span>-127, default <span class="token number">3</span><span class="token punctuation">)</span>: _</code></pre>
+
+<p>这里让我们给 <code>/dev/sda3</code> 分区一个开始的扇区，这里按照未来升级的需要，我们将 /dev/sda2 分区的中止扇区加上 409600 ；</p>
+<p>也就是 2048 x 200 即 200M 分区，从中止点(≈852479) 860000 到 1269600 预留给升级，也就是我们要从 1270000 扇区开始分区。</p>
+<p>这里把 1270000 填上</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">First sector <span class="token punctuation">(</span><span class="token number">852480</span>-7129054, default <span class="token number">854016</span><span class="token punctuation">)</span>: _</code></pre>
+
+<p>新分区的中止分区我们这里可以直接用我们最熟悉的 g 单位开始了，这里创建建议填 +2g 起</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Last sector, +/-sectors or +/-size<span class="token punctuation">&#123;</span>K,M,G,T,P<span class="token punctuation">&#125;</span> <span class="token punctuation">(</span><span class="token number">1270000</span>-7129054, default <span class="token number">7127039</span><span class="token punctuation">)</span>: +2g</code></pre>
+
+<p>这里输入 <code>w</code> 回车就算是保存成功了</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Created a new partition <span class="token number">3</span> of <span class="token builtin class-name">type</span> <span class="token string">'Linux filesystem'</span> and of size <span class="token number">2</span> GiB.
+
+Command <span class="token punctuation">(</span>m <span class="token keyword">for</span> <span class="token builtin class-name">help</span><span class="token punctuation">)</span>: w
+The partition table has been altered.
+Syncing disks.
+
+root@CatWrt:~<span class="token comment"># </span></code></pre>
+
+<p>这样就创建成功了可以看看分区是否成功 <code>fdisk -l</code></p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">root@CatWrt:~<span class="token comment"># fdisk -l</span>
+Disk /dev/loop0: <span class="token number">184.88</span> MiB, <span class="token number">193855488</span> bytes, <span class="token number">378624</span> sectors
+Units: sectors of <span class="token number">1</span> * <span class="token number">512</span> <span class="token operator">=</span> <span class="token number">512</span> bytes
+Sector size <span class="token punctuation">(</span>logical/physical<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+I/O size <span class="token punctuation">(</span>minimum/optimal<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+
+
+Disk /dev/sda: <span class="token number">3.4</span> GiB, <span class="token number">3650093056</span> bytes, <span class="token number">7129088</span> sectors
+Disk model: VMware Virtual I
+Units: sectors of <span class="token number">1</span> * <span class="token number">512</span> <span class="token operator">=</span> <span class="token number">512</span> bytes
+Sector size <span class="token punctuation">(</span>logical/physical<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+I/O size <span class="token punctuation">(</span>minimum/optimal<span class="token punctuation">)</span>: <span class="token number">512</span> bytes / <span class="token number">512</span> bytes
+Disklabel type: gpt
+Disk identifier: 0EAC8D5A-F014-DB49-E8EB-FA846A473B00
+
+Device        Start     End Sectors  Size Type
+/dev/sda1       <span class="token number">512</span>   <span class="token number">33279</span>   <span class="token number">32768</span>   16M Linux filesystem
+/dev/sda2     <span class="token number">33280</span>  <span class="token number">852479</span>  <span class="token number">819200</span>  400M Linux filesystem
+/dev/sda3   <span class="token number">1270000</span> <span class="token number">5464063</span> <span class="token number">4194064</span>    2G Linux filesystem
+/dev/sda128      <span class="token number">34</span>     <span class="token number">511</span>     <span class="token number">478</span>  239K BIOS boot
+
+Partition table entries are not <span class="token keyword">in</span> disk order.</code></pre>
+
+<h2 id="格式化"><a href="#格式化" class="headerlink" title="格式化"></a>格式化</h2><p>到这里分区工作就完成了，不过还需要格式化为 ext4，输入 <code>mkfs.ext4 /dev/sda3</code> 并回车</p>
+<pre class="language-none"><code class="language-none">root@CatWrt:~# mkfs.ext4 &#x2F;dev&#x2F;sda3
+mke2fs 1.46.5 (30-Dec-2021)
+Creating filesystem with 524258 4k blocks and 131072 inodes
+Filesystem UUID: ff7a2c4a-fd56-42ad-a9ac-45ade1c5819a
+Superblock backups stored on blocks: 
+        32768, 98304, 163840, 229376, 294912
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (8192 blocks): done
+Writing superblocks and filesystem accounting information: done </code></pre>
+
+<h2 id="挂载"><a href="#挂载" class="headerlink" title="挂载"></a>挂载</h2><p>这样就算完成了，接下来到 LuCi 网页后台上操作，以此进入 系统-挂载点 找到 挂载点 处点击 <code>添加</code></p>
+<p>UUID 处选择刚刚创建好的分区我这里是 <code>ff7a2c4a-fd56-42ad-a9ac-45ade1c5819a (/dev/sda3, 2047 MB)</code></p>
+<p>挂载点选择 <code>作为根文件系统使用（/）</code></p>
+<p>打上启用此挂载点的勾 <code>√</code></p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-11-17/mount.png" loading="lazy"></p>
+<p>刚刚我们点击了挂载点选择根文件系统使用，在 根目录准备 中弹出一串代码，这可不是出问题了我们需要把这些指令稍做修改让根文件复制到挂载点里</p>
+<p>这里我已经修改好了，其实对比一下就知道只是样例中的 sda1 改成了 sda3，这里直接把这些命令打开终端给输上去就可以了</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">mkdir</span> -p /tmp/introot
+<span class="token function">mkdir</span> -p /tmp/extroot
+<span class="token function">mount</span> --bind / /tmp/introot
+<span class="token function">mount</span> /dev/sda3 /tmp/extroot
+<span class="token function">tar</span> -C /tmp/introot -cvf - <span class="token builtin class-name">.</span> <span class="token operator">|</span> <span class="token function">tar</span> -C /tmp/extroot -xf -
+<span class="token function">umount</span> /tmp/introot
+<span class="token function">umount</span> /tmp/extroot
+<span class="token function">reboot</span></code></pre>
+
+<p>最后一个命令是重启需要手动按一下回车。如果在接近结尾出现了和我不同的如出现了（find 啥的字样）不同以下字样请确保你没有跳过步骤导致错误或者固件问题导致。</p>
+<p>按照本篇是一定可以扩容成功的。</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">……
+./www/uuandriod.png
+./www/uuios.png
+./boot/
+./home/
+./home/ftp/
+./run/
+./run/docker/
+./run/docker/plugins/
+./run/mount/
+./run/blkid/
+./run/blkid/blkid.tab
+./run/blkid/blkid.tab.old
+root@CatWrt:~<span class="token comment"># umount /tmp/introot</span>
+root@CatWrt:~<span class="token comment"># umount /tmp/extroot</span>
+root@CatWrt:~<span class="token comment"># reboot</span></code></pre>
+
+<p>重启过后这里最简单的方式肯定是查看软件包里是否还有多余的空间，打开 系统-软件包 中如图扩容成功，如果你没扩容成功还是建议删掉 sda3 后重置配置 OpenWrt</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-11-17/packages.png" loading="lazy"></p>
+<hr>
+<h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><p>关于 Docker 分区，这里就说就不太细了可以结合上述内容，也参考之前扩容 overlay 的那期博文，这里也可以按照 fdisk 进行操作而不是 cfdisk</p>
+<p>输入 <code>fdisk /dev/sda</code></p>
+<p>新建一个分区 <code>n</code></p>
+<p>选择主要分区还是扩展分区，我们选择主要输入 <code>p</code>（这里我没遇到，不是所有人都有）</p>
+<pre class="language-shell" data-language="shell"><code class="language-shell">Select <span class="token punctuation">(</span>default p<span class="token punctuation">)</span>: _</code></pre>
+
+<p>选择一个分区，这里选 <code>4</code></p>
+<p>因为扩容 (/dev/sda3) 后中止扇区在 5464063 我们这里设置开始扇区为 <code>5466000</code> 回车</p>
+<p>下一步则是填写需要多少空间给 Docker 分区用，这里选择 <code>+10g</code></p>
+<p>这里输入 <code>w</code> 回车就算是保存成功了</p>
+<p>前往系统-挂载点，添加刚刚创建好的分区 /dev/sda4</p>
+<p>挂载点为 <code>作为 Docker 数据分区使用 (/opt)</code></p>
+<p>勾选 启用挂载点 √</p>
+<p>保存并应用，建议重启一下即可看到 Docker 分区已经被扩容成功了。</p>
 ]]></content>
       <categories>
-        <category>博客</category>
+        <category>网络</category>
       </categories>
       <tags>
-        <tag>水</tag>
-        <tag>笔记</tag>
+        <tag>CatWrt</tag>
+        <tag>OpenWrt</tag>
+        <tag>软路由</tag>
       </tags>
   </entry>
   <entry>
@@ -1124,6 +1313,34 @@ ffmpeg -i input.mp4 -vf scale&#x3D;1920:-1 output.mp4</code></pre>
       <tags>
         <tag>电脑</tag>
         <tag>装机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>拆卸AMD散热器，清灰</title>
+    <url>/2022/01/19/clean-amd-heatsink/</url>
+    <content><![CDATA[<p>今天闲着没事做给<a href="https://www.miaoer.xyz/posts/blog/dg-replace-ryzen3600">续集</a>上回换下来的锐龙 Ryzen3 2200g 的原装幽灵散热器清清灰，我自己的不敢这样玩。</p>
+<p>本文仅限 <strong>AMD “幽灵 Stealth” 散热器（无 LED 灯）</strong>  和 <strong>AMD“幽灵 Spire” 散热器（无 LED 灯）</strong> 详情预览: <a href="https://www.amd.com/zh-hans/technologies/cpu-cooler-solution">处理器散热解决方案 | “幽灵”散热器 | AMD</a></p>
+<p>需要准备:<br>毛巾，酒精，吹风机，可以高压冲洗的花洒（够强也可以用水龙头），一双勤劳的双手，PH1和PH0螺丝刀（至少需要一个PH1）</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746752.jpg" loading="lazy"></p>
+<h1 id="拆卸"><a href="#拆卸" class="headerlink" title="拆卸"></a>拆卸</h1><p>主板拆卸我直接引用上期内容了</p>
+<blockquote>
+<p>拆开机箱两侧盖板，螺丝刀沿对角线拧下螺丝，将处理器上的散热器拆下；把主板后面的盖板打开，扣具让工具人按好我拧对角线螺丝。</p>
+</blockquote>
+<p>然后拿下散热将印有 <strong>AMDlogo</strong> 凸起下的两螺丝拧下</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746774.jpg" loading="lazy"></p>
+<p>把印有 <strong>AMDlogo</strong> 的盖子拿开就看到风扇下的 <strong>酷冷</strong> 的标和<strong>四颗螺丝</strong>，拧开即可拿下铝制散热器；拿去找个带冲洗功能的花洒冲干净拿纸巾或者毛巾擦干净表面并清理上面的<strong>硅脂</strong>然后把毛巾垫底用吹风机烤一会，直到无水珠，再晾干。<br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746784.jpg" loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746805.jpg" loading="lazy"></p>
+<p><strong>风扇</strong>和<strong>壳子</strong>我打算用毛巾和纸巾、酒精擦拭，拿手指头卡着扇叶一个一个擦……随后再擦拭风扇外表的灰。<br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746764.jpg" loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642572746796.jpg" loading="lazy"></p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p><img src="https://cdn.miaoer.xyz/blog/22-01-19/1642574006422.jpg" loading="lazy"><br>安装同理，<br>将散热鳍片上好四颗螺丝，随后将带有 logo 的壳子放底下用双手压好直到可以（能把螺丝左右的两颗卡扣卡好就行），然后上两小长螺丝，</p>
+<p>上好螺丝到正面将卡扣面向外拉，使卡扣卡好，再按着卡好的卡扣将另外一边也卡进去。</p>
+<p>主板上把背后的扣具找东西压着，或者找个工具人按着；给 CPU 上<strong>硅脂</strong>将四颗弹簧螺丝用力按进扣具并保持另外一边不要翘起太离谱进去转几下就拧对角线压平散热器，再拧紧两螺丝随后把另外两颗也压好，插上 CPU 风扇供电；擦腚楷机。</p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>电脑</tag>
       </tags>
   </entry>
   <entry>
@@ -1177,177 +1394,6 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       </categories>
       <tags>
         <tag>电脑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>性价比很高，无线强否？新华三 NX54 简单对比测试</title>
-    <url>/2022/10/15/h3c-nx54/</url>
-    <content><![CDATA[<p>大家好，最近淘了一个 Wi-Fi6 无线路由器</p>
-<p>听说这款 NX54 非常强，同价位基本上是碾压级的存在</p>
-<p>所以我在某平台捡漏捡来的，这款新华三 NX54</p>
-<p>我也想知道 WiFi-5 和 WiFi-6 在速度和其他到底差别在哪里，那我们看看吧</p>
-<iframe src="https://api.paugram.com/bili?bv=BV1xt4y1F7cS&style=white" style="height: 10em; width: 100%"></iframe>
-
-<p><a href="https://www.youtube.com/watch?v=QTridQPsKYg"><i class="ri-youtube-line"></i> Youtube</a></p>
-<span id="more"></span>
-
-<p><br><br></p>
-<details>
-         <summary>视频使用:</summary>
-         <br>
-         <p>BGM:
-         <li>Happy - Justhea</li><br>
-         <li>Embrace - Sappheiros</li><br>
-         </p><br></details>
-
-<hr>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/box.jpg" loading="lazy"></p>
-<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><h3 id="硬件配置"><a href="#硬件配置" class="headerlink" title="硬件配置"></a>硬件配置</h3><p>先看看这款新华三 NX54 Wi-Fi6 路由器的硬件配置</p>
-<ul>
-<li>CPU: 高通 IPQ5018</li>
-<li>512M 内存</li>
-<li>128M Flash 闪存</li>
-<li>5G 芯片 QCA9074</li>
-<li>2.4G 芯片 处理器集成</li>
-</ul>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/2021_0531_151053_001-800x533.jpg" loading="lazy"></p>
-<h3 id="支持"><a href="#支持" class="headerlink" title="支持"></a>支持</h3><p>新华三 NX54 支持以下技术</p>
-<ul>
-<li>2.4GHz 2x2 MIMO</li>
-<li>5GHz 4x4 MIMO</li>
-<li>MU-MIMO</li>
-<li>Beamforming 定向天线技术</li>
-<li>4KQAM</li>
-<li>EasyMesh</li>
-<li>IEEE 802.11k/v</li>
-</ul>
-<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>测试地点是88平米的房子；</p>
-<p>对比对象是替换下来的小米 AC2100；</p>
-<p>他们俩确实不是一个价位的，但是可以对比 Wi-Fi5 和 Wi-Fi6 差别到底大不大</p>
-<p>设置这里华三 NX54 5G 频段下使用 160Mhz 无线频宽 2.4G 使用 20Mhz 无线频宽，开启 MU-MIMO，OFDMA<br>小米 AC2100 则开启穿墙模式进行测试</p>
-<p>接下来是 5G 频段频段速度测试，首先看看小米10的 Speedtest</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/speedtestnet.jpg" loading="lazy"></p>
-<p>额，是不是搞错了，其实不是和你们想的结果不一样，他们在外网的测速结果是完全一致的</p>
-<p>是因为我家办理的只有 300Mbps 的宽带，外网下使用的 speedtest 是跑不满的如果放在内网才是正片<br>所以我们使用 Docker 搭建内网 speedtest</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/dockerps.png" loading="lazy"></p>
-<h2 id="5G-频段测试"><a href="#5G-频段测试" class="headerlink" title="5G 频段测试"></a>5G 频段测试</h2><h3 id="笔记本-WiFi-5-和-WiFi-6"><a href="#笔记本-WiFi-5-和-WiFi-6" class="headerlink" title="笔记本 WiFi-5 和 WiFi-6"></a>笔记本 WiFi-5 和 WiFi-6</h3><p>接下来使用 NX54 配合 Wi-Fi5 网卡的 8822ce 笔记本 和 Wi-Fi6 网卡的 ax200 笔记本进行下面的对比测试</p>
-<p>这两款都是笔记本比较常见的无线网卡了，他们分别代表 Wi-Fi5 和 Wi-Fi6 的常见配置</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/pch5speedtest.jpg" loading="lazy"></p>
-<div align="center">
-**新华三 NX54 配合 Wi-Fi5 网卡的 8822ce**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 866 Mbps | 682 Mbps | 489 Mpbs | 2.0 ms | 0.68 ms |<br>| B | 520 Mbps | 461 Mbps | 155 Mpbs | 3.70 ms | 6.02 ms |<br>| C | 585 Mbps | 504 Mbps | 215 Mpbs | 3.70 ms | 2.58 ms |<br>| D | 866 Mbps | 641 Mbps | 493 Mpbs | 3.90 ms | 0.84 ms |<br>| E | 325 Mbps | 166 Mbps | 37.8 Mpbs | 5.20 ms | 2.23 ms |</p>
-<hr>
-<div align="center">
-**新华三 NX54 配合 Wi-Fi6 网卡的 ax200**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 2402 Mbps | 968 Mbps | 722 Mpbs | 1.60 ms | 0.16 ms |<br>| B | 1922/432 Mbps | 883 Mbps | 281 Mpbs | 1.60 ms | 0.20 ms |<br>| C | 1922/432 Mbps | 887 Mbps | 356 Mpbs | 1.70 ms | 0.87 ms |<br>| D | 2402/2162 Mbps | 921 Mbps | 631 Mpbs | 1.70 ms | 0.55 ms |<br>| E | 865/245 Mbps | 517 Mbps | 138 Mpbs | 1.70 ms | 1.07 ms |</p>
-<p>同样的地点 Wi-Fi5 的网卡跑出了下载 682Mbps ，Wi-Fi6 网卡就跑出了下载 968 Mbps 接近有线千兆网卡的水平了</p>
-<p>华三 NX54 无线不再是瓶颈反而千兆网口限制</p>
-<p>在远在客厅也有 887Mbps 的下载，在厨房也有比 Wi-Fi5 高出近3倍的下载速度</p>
-<p>其他房间也没有比较大的区别，基本能覆盖家里常见的几个点位也跑到了比较快的水准了</p>
-<p>而使用小米 AC2100，配合 Wi-Fi5 网卡的 8822ce 笔记本速度其实也和 NX54 测的 Wi-Fi5 网卡差一点点，这里简单贴一下吧</p>
-<div align="center">
-**小米 AC2100 配合 Wi-Fi5 网卡的 8822ce**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 866 Mbps | 585 Mbps | 409 Mpbs | 2.20 ms | 1.56 ms |<br>| B | 320 Mbps | 350 Mbps | 154 Mpbs | 2.30 ms | 0.21 ms |<br>| C | 866 Mbps | 525 Mbps | 365 Mpbs | 2.20 ms | 0.26 ms |<br>| D | 520 Mbps | 585 Mbps | 407 Mpbs | 2.20 ms | 1.56 ms |<br>| E | 325 Mbps | 274 Mbps | 61.9 Mpbs | 2.40 ms | 0.35 ms |</p>
-<h3 id="手机"><a href="#手机" class="headerlink" title="手机"></a>手机</h3><p>接下来看看手机的无线性能测试部分</p>
-<p>AC2100 和 NX54 也拉开了不小的差距，</p>
-<p>甚至小米10的上传有反超笔记本上的 ax200 的趋势，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/h5speedtest.jpg" loading="lazy"></p>
-<div align="center">
-**小米 AC2100 配合 小米10**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 866 Mbps | 589 Mbps | 680 Mpbs | 3.60 ms | 2.07 ms |<br>| B | 195 Mbps | 125 Mbps | 88.9 Mpbs | 4.00 ms | 13.4 ms |<br>| C | 866 Mbps | 498 Mbps | 383 Mpbs | 3.40 ms | 1.26 ns |<br>| D | 390 Mbps | 246 Mbps | 163 Mpbs | 3.90 ms | 4.35 ms |<br>| E | 65 Mbps | 25.3 Mbps | 14.1 Mpbs | 7.20 ms | 23.5 ms |</p>
-<hr>
-<div align="center">
-**新华三 NX54 配合 小米10**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 | dBm |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: | :-: |<br>| A | 1200 Mbps | 972 Mbps | 888 Mpbs | 2.90 ms | 5.41 ms| -30 dBm |<br>| B | 626 Mbps | 505 Mbps | 221 Mpbs | 3.20 ms | 2.63  ms| -55 dBm |<br>| C | 1200 Mbps | 970 Mbps | 863 Mpbs | 3.70 ms | 2.76 ms| -33 dBm |<br>| D | 1200 Mbps | 941 Mbps | 845 Mpbs | 3.30 ms | 0.66 ms| -36 dBm |<br>| E | 144 Mbps | 103 Mbps | 32.4 Mpbs | 2.90 ms | 1.75 ms| -69 dBm |</p>
-<p>使用 NX54 在 A 点跑出了下载 972Mbps 比起 AC2100 的 589Mbps，下载差近两倍</p>
-<p>在使用支持 WiFi-6 的 iPhone se3 上进行测试时也表现出不俗的差距，</p>
-<p>使用 NX54 在同样的 A 点位下载 912Mbps，使用 AC2100 仅有 433Mbps，在 NX54 下跑出的成绩对于 iPhone 来说应该算不错吧……</p>
-<div align="center">
-**新华三 NX54 配合 iPhone se3**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | - Mbps | 912 Mbps | 465 Mpbs | 3.00 ms | 4.65 ms |<br>| B | - Mbps | 538 Mbps | 265 Mpbs | 3.00 ms | 2.65 ms |<br>| C | - Mbps | 651 Mbps | 318 Mpbs | 2.00 ms | 0.47 ms |<br>| D | - Mbps | 897 Mbps | 460 Mpbs | 2.00 ms | 2.36 ms |<br>| E | - Mbps | 120 Mbps | 32.2 Mpbs | 3.00 ms | 2.12 ms |</p>
-<hr>
-<div align="center">
-**小米 AC2100 配合 iPhone se3**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | - | 433 Mbps | 396 Mpbs | 7.00 ms | 27.4 ms |<br>| B | - | 249 Mbps | 35.4 Mpbs | 3.00 ms | 0.21 ms |<br>| C | - | 285 Mbps | 346 Mpbs | 5.00 ms | 3.08 ns |<br>| D | - | 221 Mbps | 63.8 Mpbs | 7.00 ms | 3.24 ms |<br>| E | - | 4.10 Mbps | 0.30 Mpbs | 5.00 ms | 30.1 ms |</p>
-<h2 id="2-4G-频段测试"><a href="#2-4G-频段测试" class="headerlink" title="2.4G 频段测试"></a>2.4G 频段测试</h2><p>因为 2.4G 频段效果都不是很理想特别是小米 AC2100，延迟和速率都是过山车的情况，忽高忽低没有比较的意义，</p>
-<p>而且 2.4G 频段普遍兼容性要好些，不同平台差距较小。</p>
-<div align="center">
-**小米 AC2100 配合 小米10**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 300 Mbps | 26.9 Mbps | 54.3 Mpbs | 4.10 ms | 111 ms |<br>| B | 300 Mbps | 17.6 Mbps | 7.07 Mpbs | 9.40 ms | 132 ms |<br>| C | 300 Mbps | 24.3 Mbps | 18.6 Mpbs | 4.10 ms | 159 ms |<br>| E | 60 Mbps | 1.21 Mbps | 0.31 Mpbs | 10.4 ms | 214 ms |</p>
-<hr>
-<div align="center">
-**新华三 NX54 配合 小米10**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 | dBm |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: | :-: |<br>| A | 286 Mbps | 84.4 Mbps | 135 Mpbs | 6.80 ms | 6.09 ms| -13 dBm |<br>| B | 286 Mbps | 54.3 Mbps | 54.3 Mpbs | 5.50 ms | 463 ms| -44 dBm |<br>| C | 286 Mbps | 80.6 Mbps | 45.9 Mpbs | 4.10 ms | 9.76 ms| -38 dBm |<br>| E | 206 Mbps | 9.00 Mbps | 0.47 Mpbs | 6.00 ms | 18.3 ms| -59 dBm |</p>
-<p>先看看 NX54 测试机型小米10在A点跑到了 84.4Mbps 的下载速度</p>
-<p>而 AC2100 也只有 26.9Mbps……</p>
-<p>看到这差距用 NX54 就算是 20Mhz 无线频宽能凑合用了，AC2100 的 2.4G 也是种折磨，虽然都是连不支持 2.4G 频段的设备，稳定就好。</p>
-<p>其他实测数据具体看博文里的表格我这里就不赘述了。</p>
-<p>iPhone 和笔记本的对比测试，这里也和前面小米10的数据</p>
-<p>差不多这里也不写出来了；因为这点差距而且 2.4G 也都出现了表现不稳定的情况。</p>
-<p>总体 NX54 稍微占上风因为 AC2100 的 2.4G 频段抽风，NX54 可以在官方固件中调节频率来使得连接速率更高，虽然 AC2100 也可以刷入第三方 OpenWrt 固件来调节。</p>
-<p>这里就仅仅放上小米 AC2100 的 2.4G 频段测试数据供大家参考。</p>
-<div align="center">
-**小米 AC2100 配合 Wi-Fi5 网卡的 8822ce**
-</div><br>
-
-<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 300 Mbps | 79.2 Mbps | 6.26 Mpbs | 3.50 ms | 235 ms |<br>| B | 300 Mbps | 11.7 Mbps | 0.90 Mpbs | 3.80 ms | 77 ms |<br>| C | 300 Mbps | 17.7 Mbps | 2.99 Mpbs | 3.30 ms | 222 ms |<br>| E | - Mbps | - Mbps | - Mpbs | - ms | - ms |</p>
-<h2 id="无线信号覆盖"><a href="#无线信号覆盖" class="headerlink" title="无线信号覆盖"></a>无线信号覆盖</h2><p>信号方面，我也简单测一下</p>
-<p>测试使用小米10手机在 WiFiMan app 下测试无线信号覆盖</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/wuxianxinhaofugai.jpg" loading="lazy"></p>
-<p>可以看到 NX54 的信号覆盖也是相当好的，各点位与表格也对应大家可以参考一下</p>
-<p>手绘嘛大家做个对比就好，别在意</p>
-<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>有人会觉得你怎么和一台发售了两年的路由器进行测试呢，那确实我也不是硬路由的评测爱好者</p>
-<p>不会在用闲置的钱去购入无线路由器去做专门做评测视频</p>
-<p>为了弥补部分看官这里也推荐几个友情链接补充一下本篇不足的内容</p>
-<p>这次是分别是 acwifi 的 NX54 拆机与评测和卡卡的鼓捣日记详尽对比测试</p>
-<hr>
-<p><a href="https://www.acwifi.net/14664.html">acwifi - H3C Magic NX54拆机与评测</a></p>
-<br>
-
-<iframe src="https://api.paugram.com/bili?bv=BV1uv4y1u7jZ&style=gray" style="height: 10em; width: 100%"></iframe>
-
-<iframe src="https://api.paugram.com/bili?bv=BV1wv4y1w74C&style=gray" style="height: 10em; width: 100%"></iframe>
-
-<iframe src="https://api.paugram.com/bili?bv=BV1VF411b7RW&style=gray" style="height: 10em; width: 100%"></iframe>
-
-<hr>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>做个总结，这款华三 NX54，在测试完他的无线性能非常值得购买考虑到这也只是中端产品，尤其是他的售价，我看卡卡群里有300元左右就可以上车 NX54，即便是在京东上购买也有一定的竞争力至少在视频发出的时候依旧不差。</p>
-<p>不过华三路由器缺点就是固件可玩性较差，虽但可以用 SSH(R006 固件)，当主路由明显是不合格的，这也是我选择他的理由，搭配 J4105 软路由使用的原因，功能强大更稳定。</p>
-<p>新固件呢，华三考虑最近在22年第四季度换新版固件了界面也更美观实用，真心希望能把这个缺点给他补上，再者是 OpenWrt 系统难产的原因这里就不展开说了，暂时目前是没得刷的，小道消息目前不死固件已经有了。</p>
-<p>不过考虑到部分小白他是不会去管这些乱七八糟的东西；只需要无线性能强，那其实可以购买作为家里使用的无线路由器。</p>
-<p>在出这期视频博文时我的 NX54 电源坏了，联系新华三那边魔术家点点换直接给我换了个新的 NX54，不管你有没有听说过 H3C 但作为一个在商用赛道的老牌厂商在售后这点还是值得肯定的。</p>
-<hr>
-<h3 id="购买建议"><a href="#购买建议" class="headerlink" title="购买建议"></a>购买建议</h3><p>最后给出购买建议；</p>
-<p>你当前无线测试宽带也可以跑到你所办理的宽带速率可以暂时不进行升级，</p>
-<p>现在你用的中低端路由器并且最近想升级到 Wi-Fi6 的我会十分推荐这款华三 NX54，但 2.4G 真的只是能用考虑 2.4G 无线信号的可以看看 XDR 6088 和 XDR6080。</p>
-<p>本期内容虽然不是很深度，详尽对比的可以看关于链接的内容，这也是我第一次做无线路由器相关的节目，感谢大家能多多理解互相交流。</p>
-<p>喜欢我视频的别忘了点赞评论并且关注我，我们下期再见。</p>
-]]></content>
-      <categories>
-        <category>网络</category>
-      </categories>
-      <tags>
-        <tag>硬路由</tag>
-        <tag>视频博客</tag>
-        <tag>路由器</tag>
       </tags>
   </entry>
   <entry>
@@ -1579,6 +1625,203 @@ net.link.bridge.pfil_bridge &#x3D;0  ##	Packet filter on the bridge interface</c
       <tags>
         <tag>电脑</tag>
         <tag>视频博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>FFmpeg 常见命令</title>
+    <url>/2022/09/28/ffmpeg/</url>
+    <content><![CDATA[<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>最近发现了并使用了 FFmpeg 发现他十分的强大，能做到各种音视频操作，有的软件也是引用的 <a href="https://ffmpeg.org/">FFmpeg</a> 主要是他是免费开源不需要授权的工具，这里就简单做一下 FFmpeg 常见的几个命令笔记，帮助小白读者轻松转换编码自己的视频！这里大部分内容都是参考网络上有的内容以标记引用源。</p>
+<p>来一起来玩一下吧 ฅ՞•ﻌ•՞ฅ</p>
+<h2 id="安装-FFmpeg"><a href="#安装-FFmpeg" class="headerlink" title="安装 FFmpeg"></a>安装 FFmpeg</h2><p><img src="https://avatars.githubusercontent.com/u/729418?s=280&v=4" loading="lazy"></p>
+<h3 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h3><p>因为 FFmpeg 只提供源码需要编译，但有大神编译好的 FFmepg 可以直接使用仓库中的发行版</p>
+<p><a href="https://github.com/BtbN/FFmpeg-Builds/releases">https://github.com/BtbN/FFmpeg-Builds/releases</a></p>
+<h3 id="Ubuntu"><a href="#Ubuntu" class="headerlink" title="Ubuntu"></a>Ubuntu</h3><pre class="language-none"><code class="language-none">sudo add-apt-repository universe
+sudo apt update
+sudo apt install ffmpeg</code></pre>
+
+<hr>
+<h2 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h2><h3 id="容器格式"><a href="#容器格式" class="headerlink" title="容器格式"></a>容器格式</h3><p>我们常见的视频文件格式本身其实就是一个容器，容器里面再包括视频轨道、音频轨道、元数据、字幕、标题、封面等等……<br>常见的视频容器格式有包括这些</p>
+<ul>
+<li>MP4 (MPEG 4)</li>
+<li>MKV (Matroska)</li>
+<li>WebM</li>
+<li>AVI (ASF)</li>
+<li>MOV (QuickTime)</li>
+</ul>
+<br>
+
+<blockquote>
+<p>TOP: WebM 就是最近大火的 AV1、VP9、VP8 常用的容器，编解码需要特定的硬件加速</p>
+<p>例如 AIN 22年新品都支持 AV1 编解码硬件加速</p>
+</blockquote>
+<h3 id="编码"><a href="#编码" class="headerlink" title="编码"></a>编码</h3><p>常见的几种编码；包括了授权编码、无版权编码、音频编码格式</p>
+<p><strong>授权编码</strong></p>
+<ul>
+<li>H.262</li>
+<li>H.264</li>
+<li>H.265</li>
+</ul>
+<p><strong>无版权编码</strong></p>
+<ul>
+<li>VP8</li>
+<li>VP9</li>
+<li>AV1</li>
+</ul>
+<p><strong>音频编码格式</strong></p>
+<ul>
+<li>MP3</li>
+<li>AAC</li>
+</ul>
+<p><strong>视频编码器</strong></p>
+<ul>
+<li><code>libx264</code>: 最流行的开源 H.264 编码器</li>
+<li><code>NVENC</code>: 基于 NVIDIA GPU 的 H.264 编码器</li>
+<li><code>libx265</code>: 开源的 HEVC 编码器</li>
+<li><code>libvpx</code>: 谷歌的 VP8 和 VP9 编码器</li>
+<li><code>libaom</code>: AV1 编码器</li>
+</ul>
+<p><strong>音频编码器</strong></p>
+<ul>
+<li>libfdk-aac</li>
+<li>aac</li>
+</ul>
+<blockquote>
+<p>查看 FFmpeg 已安装的编码器</p>
+<p><code>ffmpeg -encoders</code></p>
+</blockquote>
+<h2 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h2><pre class="language-none"><code class="language-none">ffmpeg [1] [2] -i [3] [4] [5]</code></pre>
+
+<p>[1] 全局参数</p>
+<p>[2] 输入文件参数</p>
+<p>[3] 输入文件</p>
+<p>[4] 输出文件参数</p>
+<p>[5] 输出文件</p>
+<h2 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h2><ul>
+<li><code>-c</code>: 指定编码器</li>
+<li><code>-c copy</code>: 直接复制不经过重新编码，更快</li>
+<li><code>-c:v</code>: 指定视频编码器</li>
+<li><code>-c:a</code>: 指定音频编码器</li>
+<li><code>-i</code>: 指定输入文件</li>
+<li><code>-an</code>: 去除音频流</li>
+<li><code>-vn</code>:  去除视频流</li>
+<li><code>-preset</code>: 视频编码质量 <code>ultrafast</code>, <code>superfast</code>, <code>veryfast</code>, <code>faster</code>, <code>fast</code>, <code>medium</code>, <code>slow</code>, <code>slower</code>, <code>veryslow</code></li>
+<li><code>-y</code>: 不经过确认，输出时直接覆盖同名文件</li>
+</ul>
+<p>更多: <a href="https://zh.m.wikipedia.org/zh-hans/FFmpeg">https://zh.m.wikipedia.org/zh-hans/FFmpeg</a></p>
+<hr>
+<h2 id="文件信息"><a href="#文件信息" class="headerlink" title="文件信息"></a>文件信息</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.mp4
+
+只显示元信息，干净
+ffmpeg -i input.mp4 -hide_banner</code></pre>
+
+<h2 id="转格式"><a href="#转格式" class="headerlink" title="转格式"></a>转格式</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.avi output.mp4
+
+直接复制速度最快
+ffmpeg -i input.avi -c copy output.mp4</code></pre>
+
+<p>-i 输入文件</p>
+<p>-c copy 直接复制不转码速度更快</p>
+<h2 id="转码"><a href="#转码" class="headerlink" title="转码"></a>转码</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -c:v libx264 output.mp4
+
+选择 H.265 编码器
+ffmpeg -i input.mp4 -c:v libx265 output.mp4</code></pre>
+
+<p>-i 输入文件</p>
+<p>-c:v 转换编码器</p>
+<h2 id="剪片"><a href="#剪片" class="headerlink" title="剪片"></a>剪片</h2><pre class="language-none"><code class="language-none">ffmpeg -ss 00:00:00 -t 00:00:30 -i input.mp4 -vcodec copy -acodec copy output.mp4</code></pre>
+
+<p>-ss 开始时间</p>
+<p>-t 截取到时间</p>
+<p>-i 输入文件</p>
+<h2 id="码率"><a href="#码率" class="headerlink" title="码率"></a>码率</h2><p>本篇章过于专业，需要更深度的了解！这里只演示最简单的编码方式，不包括压片配置。</p>
+<h3 id="ABR-VBR-二次编码"><a href="#ABR-VBR-二次编码" class="headerlink" title="ABR (VBR)二次编码"></a>ABR (VBR)二次编码</h3><pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -c:v libx264 -b:v 1M -pass 1 -f null &#x2F;dev&#x2F;null
+ffmpeg -i input.mp4 -c:v libx264 -b:v 1M -pass 2 output.mp4
+
+当然也可以仅 VBR 一次
+ffmpeg -i input.mp4 -c:v libx264 -b:v 1M -pass 1 output.mp4</code></pre>
+
+<h3 id="CBR-恒定码率"><a href="#CBR-恒定码率" class="headerlink" title="CBR 恒定码率"></a>CBR 恒定码率</h3><pre class="language-none"><code class="language-none">压缩到 2M 码率
+ffmpeg -i input.mp4 -b:v 2M output.mp4
+
+压缩稳定到 2M 码率
+ffmpeg -i input.mp4 -b:v 2M -bufsize 2M output.mp4
+
+压缩稳定在 2M 比特率允许最大 2.5M 码率
+ffmpeg -i input.mp4 -b:v 2M -bufsize 2M -maxrate 2.5M output.mp4
+
+使用 libx264 解码器最小 1M 比特率，最大 2M 比特率，稳定在 1M 码率
+ffmpeg -i input.mp4 -c:v libx264 -b:v 1M -minrate 1M -maxrate 2M -bufsize 1M output.mp4</code></pre>
+
+<p>-i 输入文件</p>
+<p>-b:a 音频码率</p>
+<p>-b:v 视频码率</p>
+<p>-minrate 允许最小码率</p>
+<p>-maxrate 允许最大码率</p>
+<p>-bufsize 码率控制缓冲器</p>
+<h2 id="大小"><a href="#大小" class="headerlink" title="大小"></a>大小</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.avi -fs 114M output.mp4</code></pre>
+
+<p>-i 输入文件</p>
+<p>-fs 控制文件大小</p>
+<h2 id="分辨率"><a href="#分辨率" class="headerlink" title="分辨率"></a>分辨率</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -vf scale&#x3D;1920:1080 output.mp4
+
+保持长宽比是 -1
+ffmpeg -i input.mp4 -vf scale&#x3D;1920:-1 output.mp4</code></pre>
+
+<p>-i 输入文件<br>[保持长宽比 -1]</p>
+<h2 id="FPS"><a href="#FPS" class="headerlink" title="FPS"></a>FPS</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.avi -r 30 output.mp4</code></pre>
+
+<p>-i 输入文件</p>
+<p>-r 帧率值</p>
+<h2 id="提取音频"><a href="#提取音频" class="headerlink" title="提取音频"></a>提取音频</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -f mp3 -vn output.mp3</code></pre>
+
+<pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -acodec aac -vn output.mp3</code></pre>
+
+<p>-i 输入文件</p>
+<p>-f 输出格式</p>
+<p>-vn 不包含视频</p>
+<p>-acodec 设定声音编解码器</p>
+<h2 id="分离音视频"><a href="#分离音视频" class="headerlink" title="分离音视频"></a>分离音视频</h2><p><strong>分离视频</strong><br>ffmpeg -i input.mp4 -vcodec copy -an output.mp4</p>
+<p><strong>分离 acc 格式</strong><br>ffmpeg -i input.mp4 -acodec copy -vn output.m4a<br>ffmpeg -i m.m4a m.mp3</p>
+<p><strong>直接提取音频</strong><br>ffmpeg -i mavel4.mp4 m.mp3</p>
+<h2 id="音视频合并"><a href="#音视频合并" class="headerlink" title="音视频合并"></a>音视频合并</h2><pre class="language-none"><code class="language-none">ffmpeg -i video.mp4 -i audio.mp3 -c:v copy -c:a aac -strict experimental output.mp4</code></pre>
+
+<p>-i 输入文件</p>
+<p>-c:a 音频编码方式</p>
+<p>-c:v 视频编码方式</p>
+<h2 id="压缩音频"><a href="#压缩音频" class="headerlink" title="压缩音频"></a>压缩音频</h2><pre class="language-none"><code class="language-none">ffmpeg -i input.wav -b:a 64k -acodec mp3 -ar 44100 -ac 1 output.mp3</code></pre>
+
+<p>-i 输入文件</p>
+<p>-b 码率</p>
+<p>-ar 采样率</p>
+<h2 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h2><p><strong>指定时间截图</strong></p>
+<pre class="language-none"><code class="language-none">ffmpeg -ss 00:11:45 -i input.mp4 -r 1 output.jpg </code></pre>
+
+<p><strong>从头开始抽帧截图</strong></p>
+<pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -r 1 -q:v 2 -f image2 output.jpg</code></pre>
+
+<p>-i 输入文件</p>
+<p>-r 几秒一帧</p>
+<p>-q:v 图像质量</p>
+<p>-f 输出格式</p>
+<h2 id="封面"><a href="#封面" class="headerlink" title="封面"></a>封面</h2><p><strong>视频封面</strong></p>
+<pre class="language-none"><code class="language-none">ffmpeg -i input.mp4 -i input.jpg -map 0 -map 1:0 -c copy -disposition:v:1 output.mp4</code></pre>
+
+<p><strong>音频封面</strong></p>
+<pre class="language-none"><code class="language-none">ffmpeg -i input.mp3 -i input.jpg -map 0:0 -map 1:0 -codec copy -id3v2_version 3 \ 
+-metadata:s:v title&#x3D;&quot;Album cover&quot; -metadata:s:v comment&#x3D;&quot;Cover (front)&quot; output.mp3</code></pre>
+
+
+<p>引用:<br><a href="https://www.ruanyifeng.com/blog/2020/01/ffmpeg">FFmpeg 视频处理入门教程</a></p>
+<p><a href="https://wxnacy.com/2019/04/16/ffmpeg-split-video-audio">使用 ffmpeg 分离视频流和音频流</a></p>
+<p><a href="http://blog.7cuu.com/aid/381">ffmpeg常用参数说明及例子</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/250585488">码率控制（一）：理解码率控制模式（x264,x264,vpx）</a></p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>水</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -2185,178 +2428,174 @@ cd mx-space&#x2F;server</code></pre>
       </categories>
   </entry>
   <entry>
-    <title>【推荐】洗鞋神器-污渍干洗剂</title>
-    <url>/2022/09/25/nianba-ganxi/</url>
-    <content><![CDATA[<blockquote>
-<p>本篇内容没有商业支持，纯个推。</p>
-</blockquote>
-<p>“年廿八,洗邋遢”<br>是广府文化中传统，每年辞旧迎新的特殊节日，我家里也搞起了清洁，因为今年有点特殊鞋子可以不用换，绝对不是因为钱。2333</p>
-<p>某天在商场被强行推销，拿我的鞋子中脏的地方做演示，我期初还不信但擦完出乎意料，我用手指去摩擦居然还有新鞋子橡胶嘎吱嘎吱的响声，所以…我当时闲钱少我拒绝了，但后面不是要准备过年了嘛整了一瓶，</p>
+    <title>性价比很高，无线强否？新华三 NX54 简单对比测试</title>
+    <url>/2022/10/15/h3c-nx54/</url>
+    <content><![CDATA[<p>大家好，最近淘了一个 Wi-Fi6 无线路由器</p>
+<p>听说这款 NX54 非常强，同价位基本上是碾压级的存在</p>
+<p>所以我在某平台捡漏捡来的，这款新华三 NX54</p>
+<p>我也想知道 WiFi-5 和 WiFi-6 在速度和其他到底差别在哪里，那我们看看吧</p>
+<iframe src="https://api.paugram.com/bili?bv=BV1xt4y1F7cS&style=white" style="height: 10em; width: 100%"></iframe>
+
+<p><a href="https://www.youtube.com/watch?v=QTridQPsKYg"><i class="ri-youtube-line"></i> Youtube</a></p>
 <span id="more"></span>
 
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553805342.jpg" loading="lazy"></p>
-<p>不是推销的品牌，大概30块钱左右；稍微试了试确实有效果，也不是啥漂白剂，<br>[上图为没擦洗，下图为擦洗]</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553793449.jpg" loading="lazy"></p>
-<p>说是干洗，但是打湿了擦也行，干脆就洗澡一起洗了。<br>[图为刚刚洗完的效果]</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553837236.jpg" loading="lazy"></p>
-<p>【注; 31号晚点补干鞋图】</p>
-<p>优点: 可以洗往日留下的污渍，洗汽车胶内饰。<br>缺点: 网面干洗效果一般。</p>
-<p>商家信息已进行处理，需要可以评论留言可避免踩坑。</p>
-<p>本人不玩鞋，我没用过仅表达个人体验随便水一篇；所以觉得挺好用的，稍微写点推荐吧。</p>
+<p><br><br></p>
+<details>
+         <summary>视频使用:</summary>
+         <br>
+         <p>BGM:
+         <li>Happy - Justhea</li><br>
+         <li>Embrace - Sappheiros</li><br>
+         </p><br></details>
+
+<hr>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/box.jpg" loading="lazy"></p>
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><h3 id="硬件配置"><a href="#硬件配置" class="headerlink" title="硬件配置"></a>硬件配置</h3><p>先看看这款新华三 NX54 Wi-Fi6 路由器的硬件配置</p>
+<ul>
+<li>CPU: 高通 IPQ5018</li>
+<li>512M 内存</li>
+<li>128M Flash 闪存</li>
+<li>5G 芯片 QCA9074</li>
+<li>2.4G 芯片 处理器集成</li>
+</ul>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/2021_0531_151053_001-800x533.jpg" loading="lazy"></p>
+<h3 id="支持"><a href="#支持" class="headerlink" title="支持"></a>支持</h3><p>新华三 NX54 支持以下技术</p>
+<ul>
+<li>2.4GHz 2x2 MIMO</li>
+<li>5GHz 4x4 MIMO</li>
+<li>MU-MIMO</li>
+<li>Beamforming 定向天线技术</li>
+<li>4KQAM</li>
+<li>EasyMesh</li>
+<li>IEEE 802.11k/v</li>
+</ul>
+<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>测试地点是88平米的房子；</p>
+<p>对比对象是替换下来的小米 AC2100；</p>
+<p>他们俩确实不是一个价位的，但是可以对比 Wi-Fi5 和 Wi-Fi6 差别到底大不大</p>
+<p>设置这里华三 NX54 5G 频段下使用 160Mhz 无线频宽 2.4G 使用 20Mhz 无线频宽，开启 MU-MIMO，OFDMA<br>小米 AC2100 则开启穿墙模式进行测试</p>
+<p>接下来是 5G 频段频段速度测试，首先看看小米10的 Speedtest</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/speedtestnet.jpg" loading="lazy"></p>
+<p>额，是不是搞错了，其实不是和你们想的结果不一样，他们在外网的测速结果是完全一致的</p>
+<p>是因为我家办理的只有 300Mbps 的宽带，外网下使用的 speedtest 是跑不满的如果放在内网才是正片<br>所以我们使用 Docker 搭建内网 speedtest</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/dockerps.png" loading="lazy"></p>
+<h2 id="5G-频段测试"><a href="#5G-频段测试" class="headerlink" title="5G 频段测试"></a>5G 频段测试</h2><h3 id="笔记本-WiFi-5-和-WiFi-6"><a href="#笔记本-WiFi-5-和-WiFi-6" class="headerlink" title="笔记本 WiFi-5 和 WiFi-6"></a>笔记本 WiFi-5 和 WiFi-6</h3><p>接下来使用 NX54 配合 Wi-Fi5 网卡的 8822ce 笔记本 和 Wi-Fi6 网卡的 ax200 笔记本进行下面的对比测试</p>
+<p>这两款都是笔记本比较常见的无线网卡了，他们分别代表 Wi-Fi5 和 Wi-Fi6 的常见配置</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/pch5speedtest.jpg" loading="lazy"></p>
+<div align="center">
+**新华三 NX54 配合 Wi-Fi5 网卡的 8822ce**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 866 Mbps | 682 Mbps | 489 Mpbs | 2.0 ms | 0.68 ms |<br>| B | 520 Mbps | 461 Mbps | 155 Mpbs | 3.70 ms | 6.02 ms |<br>| C | 585 Mbps | 504 Mbps | 215 Mpbs | 3.70 ms | 2.58 ms |<br>| D | 866 Mbps | 641 Mbps | 493 Mpbs | 3.90 ms | 0.84 ms |<br>| E | 325 Mbps | 166 Mbps | 37.8 Mpbs | 5.20 ms | 2.23 ms |</p>
+<hr>
+<div align="center">
+**新华三 NX54 配合 Wi-Fi6 网卡的 ax200**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 2402 Mbps | 968 Mbps | 722 Mpbs | 1.60 ms | 0.16 ms |<br>| B | 1922/432 Mbps | 883 Mbps | 281 Mpbs | 1.60 ms | 0.20 ms |<br>| C | 1922/432 Mbps | 887 Mbps | 356 Mpbs | 1.70 ms | 0.87 ms |<br>| D | 2402/2162 Mbps | 921 Mbps | 631 Mpbs | 1.70 ms | 0.55 ms |<br>| E | 865/245 Mbps | 517 Mbps | 138 Mpbs | 1.70 ms | 1.07 ms |</p>
+<p>同样的地点 Wi-Fi5 的网卡跑出了下载 682Mbps ，Wi-Fi6 网卡就跑出了下载 968 Mbps 接近有线千兆网卡的水平了</p>
+<p>华三 NX54 无线不再是瓶颈反而千兆网口限制</p>
+<p>在远在客厅也有 887Mbps 的下载，在厨房也有比 Wi-Fi5 高出近3倍的下载速度</p>
+<p>其他房间也没有比较大的区别，基本能覆盖家里常见的几个点位也跑到了比较快的水准了</p>
+<p>而使用小米 AC2100，配合 Wi-Fi5 网卡的 8822ce 笔记本速度其实也和 NX54 测的 Wi-Fi5 网卡差一点点，这里简单贴一下吧</p>
+<div align="center">
+**小米 AC2100 配合 Wi-Fi5 网卡的 8822ce**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 866 Mbps | 585 Mbps | 409 Mpbs | 2.20 ms | 1.56 ms |<br>| B | 320 Mbps | 350 Mbps | 154 Mpbs | 2.30 ms | 0.21 ms |<br>| C | 866 Mbps | 525 Mbps | 365 Mpbs | 2.20 ms | 0.26 ms |<br>| D | 520 Mbps | 585 Mbps | 407 Mpbs | 2.20 ms | 1.56 ms |<br>| E | 325 Mbps | 274 Mbps | 61.9 Mpbs | 2.40 ms | 0.35 ms |</p>
+<h3 id="手机"><a href="#手机" class="headerlink" title="手机"></a>手机</h3><p>接下来看看手机的无线性能测试部分</p>
+<p>AC2100 和 NX54 也拉开了不小的差距，</p>
+<p>甚至小米10的上传有反超笔记本上的 ax200 的趋势，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/h5speedtest.jpg" loading="lazy"></p>
+<div align="center">
+**小米 AC2100 配合 小米10**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 866 Mbps | 589 Mbps | 680 Mpbs | 3.60 ms | 2.07 ms |<br>| B | 195 Mbps | 125 Mbps | 88.9 Mpbs | 4.00 ms | 13.4 ms |<br>| C | 866 Mbps | 498 Mbps | 383 Mpbs | 3.40 ms | 1.26 ns |<br>| D | 390 Mbps | 246 Mbps | 163 Mpbs | 3.90 ms | 4.35 ms |<br>| E | 65 Mbps | 25.3 Mbps | 14.1 Mpbs | 7.20 ms | 23.5 ms |</p>
+<hr>
+<div align="center">
+**新华三 NX54 配合 小米10**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 | dBm |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: | :-: |<br>| A | 1200 Mbps | 972 Mbps | 888 Mpbs | 2.90 ms | 5.41 ms| -30 dBm |<br>| B | 626 Mbps | 505 Mbps | 221 Mpbs | 3.20 ms | 2.63  ms| -55 dBm |<br>| C | 1200 Mbps | 970 Mbps | 863 Mpbs | 3.70 ms | 2.76 ms| -33 dBm |<br>| D | 1200 Mbps | 941 Mbps | 845 Mpbs | 3.30 ms | 0.66 ms| -36 dBm |<br>| E | 144 Mbps | 103 Mbps | 32.4 Mpbs | 2.90 ms | 1.75 ms| -69 dBm |</p>
+<p>使用 NX54 在 A 点跑出了下载 972Mbps 比起 AC2100 的 589Mbps，下载差近两倍</p>
+<p>在使用支持 WiFi-6 的 iPhone se3 上进行测试时也表现出不俗的差距，</p>
+<p>使用 NX54 在同样的 A 点位下载 912Mbps，使用 AC2100 仅有 433Mbps，在 NX54 下跑出的成绩对于 iPhone 来说应该算不错吧……</p>
+<div align="center">
+**新华三 NX54 配合 iPhone se3**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | - Mbps | 912 Mbps | 465 Mpbs | 3.00 ms | 4.65 ms |<br>| B | - Mbps | 538 Mbps | 265 Mpbs | 3.00 ms | 2.65 ms |<br>| C | - Mbps | 651 Mbps | 318 Mpbs | 2.00 ms | 0.47 ms |<br>| D | - Mbps | 897 Mbps | 460 Mpbs | 2.00 ms | 2.36 ms |<br>| E | - Mbps | 120 Mbps | 32.2 Mpbs | 3.00 ms | 2.12 ms |</p>
+<hr>
+<div align="center">
+**小米 AC2100 配合 iPhone se3**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | - | 433 Mbps | 396 Mpbs | 7.00 ms | 27.4 ms |<br>| B | - | 249 Mbps | 35.4 Mpbs | 3.00 ms | 0.21 ms |<br>| C | - | 285 Mbps | 346 Mpbs | 5.00 ms | 3.08 ns |<br>| D | - | 221 Mbps | 63.8 Mpbs | 7.00 ms | 3.24 ms |<br>| E | - | 4.10 Mbps | 0.30 Mpbs | 5.00 ms | 30.1 ms |</p>
+<h2 id="2-4G-频段测试"><a href="#2-4G-频段测试" class="headerlink" title="2.4G 频段测试"></a>2.4G 频段测试</h2><p>因为 2.4G 频段效果都不是很理想特别是小米 AC2100，延迟和速率都是过山车的情况，忽高忽低没有比较的意义，</p>
+<p>而且 2.4G 频段普遍兼容性要好些，不同平台差距较小。</p>
+<div align="center">
+**小米 AC2100 配合 小米10**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 300 Mbps | 26.9 Mbps | 54.3 Mpbs | 4.10 ms | 111 ms |<br>| B | 300 Mbps | 17.6 Mbps | 7.07 Mpbs | 9.40 ms | 132 ms |<br>| C | 300 Mbps | 24.3 Mbps | 18.6 Mpbs | 4.10 ms | 159 ms |<br>| E | 60 Mbps | 1.21 Mbps | 0.31 Mpbs | 10.4 ms | 214 ms |</p>
+<hr>
+<div align="center">
+**新华三 NX54 配合 小米10**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 | dBm |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: | :-: |<br>| A | 286 Mbps | 84.4 Mbps | 135 Mpbs | 6.80 ms | 6.09 ms| -13 dBm |<br>| B | 286 Mbps | 54.3 Mbps | 54.3 Mpbs | 5.50 ms | 463 ms| -44 dBm |<br>| C | 286 Mbps | 80.6 Mbps | 45.9 Mpbs | 4.10 ms | 9.76 ms| -38 dBm |<br>| E | 206 Mbps | 9.00 Mbps | 0.47 Mpbs | 6.00 ms | 18.3 ms| -59 dBm |</p>
+<p>先看看 NX54 测试机型小米10在A点跑到了 84.4Mbps 的下载速度</p>
+<p>而 AC2100 也只有 26.9Mbps……</p>
+<p>看到这差距用 NX54 就算是 20Mhz 无线频宽能凑合用了，AC2100 的 2.4G 也是种折磨，虽然都是连不支持 2.4G 频段的设备，稳定就好。</p>
+<p>其他实测数据具体看博文里的表格我这里就不赘述了。</p>
+<p>iPhone 和笔记本的对比测试，这里也和前面小米10的数据</p>
+<p>差不多这里也不写出来了；因为这点差距而且 2.4G 也都出现了表现不稳定的情况。</p>
+<p>总体 NX54 稍微占上风因为 AC2100 的 2.4G 频段抽风，NX54 可以在官方固件中调节频率来使得连接速率更高，虽然 AC2100 也可以刷入第三方 OpenWrt 固件来调节。</p>
+<p>这里就仅仅放上小米 AC2100 的 2.4G 频段测试数据供大家参考。</p>
+<div align="center">
+**小米 AC2100 配合 Wi-Fi5 网卡的 8822ce**
+</div><br>
+
+<p>| 地点\结果 | 连接速率 | 下载 | 上传 | 延迟 | 抖动 |<br>| :——: | :—–: | :–: | :–: | :–: | :-: | :-: |<br>| A | 300 Mbps | 79.2 Mbps | 6.26 Mpbs | 3.50 ms | 235 ms |<br>| B | 300 Mbps | 11.7 Mbps | 0.90 Mpbs | 3.80 ms | 77 ms |<br>| C | 300 Mbps | 17.7 Mbps | 2.99 Mpbs | 3.30 ms | 222 ms |<br>| E | - Mbps | - Mbps | - Mpbs | - ms | - ms |</p>
+<h2 id="无线信号覆盖"><a href="#无线信号覆盖" class="headerlink" title="无线信号覆盖"></a>无线信号覆盖</h2><p>信号方面，我也简单测一下</p>
+<p>测试使用小米10手机在 WiFiMan app 下测试无线信号覆盖</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-08-16/wuxianxinhaofugai.jpg" loading="lazy"></p>
+<p>可以看到 NX54 的信号覆盖也是相当好的，各点位与表格也对应大家可以参考一下</p>
+<p>手绘嘛大家做个对比就好，别在意</p>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>有人会觉得你怎么和一台发售了两年的路由器进行测试呢，那确实我也不是硬路由的评测爱好者</p>
+<p>不会在用闲置的钱去购入无线路由器去做专门做评测视频</p>
+<p>为了弥补部分看官这里也推荐几个友情链接补充一下本篇不足的内容</p>
+<p>这次是分别是 acwifi 的 NX54 拆机与评测和卡卡的鼓捣日记详尽对比测试</p>
+<hr>
+<p><a href="https://www.acwifi.net/14664.html">acwifi - H3C Magic NX54拆机与评测</a></p>
+<br>
+
+<iframe src="https://api.paugram.com/bili?bv=BV1uv4y1u7jZ&style=gray" style="height: 10em; width: 100%"></iframe>
+
+<iframe src="https://api.paugram.com/bili?bv=BV1wv4y1w74C&style=gray" style="height: 10em; width: 100%"></iframe>
+
+<iframe src="https://api.paugram.com/bili?bv=BV1VF411b7RW&style=gray" style="height: 10em; width: 100%"></iframe>
+
+<hr>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>做个总结，这款华三 NX54，在测试完他的无线性能非常值得购买考虑到这也只是中端产品，尤其是他的售价，我看卡卡群里有300元左右就可以上车 NX54，即便是在京东上购买也有一定的竞争力至少在视频发出的时候依旧不差。</p>
+<p>不过华三路由器缺点就是固件可玩性较差，虽但可以用 SSH(R006 固件)，当主路由明显是不合格的，这也是我选择他的理由，搭配 J4105 软路由使用的原因，功能强大更稳定。</p>
+<p>新固件呢，华三考虑最近在22年第四季度换新版固件了界面也更美观实用，真心希望能把这个缺点给他补上，再者是 OpenWrt 系统难产的原因这里就不展开说了，暂时目前是没得刷的，小道消息目前不死固件已经有了。</p>
+<p>不过考虑到部分小白他是不会去管这些乱七八糟的东西；只需要无线性能强，那其实可以购买作为家里使用的无线路由器。</p>
+<p>在出这期视频博文时我的 NX54 电源坏了，联系新华三那边魔术家点点换直接给我换了个新的 NX54，不管你有没有听说过 H3C 但作为一个在商用赛道的老牌厂商在售后这点还是值得肯定的。</p>
+<hr>
+<h3 id="购买建议"><a href="#购买建议" class="headerlink" title="购买建议"></a>购买建议</h3><p>最后给出购买建议；</p>
+<p>你当前无线测试宽带也可以跑到你所办理的宽带速率可以暂时不进行升级，</p>
+<p>现在你用的中低端路由器并且最近想升级到 Wi-Fi6 的我会十分推荐这款华三 NX54，但 2.4G 真的只是能用考虑 2.4G 无线信号的可以看看 XDR 6088 和 XDR6080。</p>
+<p>本期内容虽然不是很深度，详尽对比的可以看关于链接的内容，这也是我第一次做无线路由器相关的节目，感谢大家能多多理解互相交流。</p>
+<p>喜欢我视频的别忘了点赞评论并且关注我，我们下期再见。</p>
 ]]></content>
       <categories>
-        <category>生活</category>
+        <category>网络</category>
       </categories>
       <tags>
-        <tag>推荐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>给 Openwrt 套 SSL 证书</title>
-    <url>/2022/09/25/openwrt-ssl/</url>
-    <content><![CDATA[<blockquote>
-<p>没什么卵用内网看着爽，要是在外网访问就不一定了。</p>
-</blockquote>
-<p>给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL 也不需要，测的时候随手编译了默认以 https 访问的，正式版没用内网也启用感觉差点意思；</p>
-<p>给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png" loading="lazy"></p>
-<p>下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 <code>.key</code> 和 证书 <code>.crt</code></p>
-<p>用固件自带的 系统-文件管理 随便找一个地方放我这里选择 <code>/www</code>，上传文件俩文件 选择解压的位置 执行上传。</p>
-<p>用命令检查一下是否上传成功 <code>cd /www &amp;&amp; ls</code></p>
-<span id="more"></span>
-
-<p>固件没有文件管理可以使用你趁手的 ssh 工具 scp 上传；这里演示 Windows 终端的命令 <code>scp C:\Users\【用户】\Desktop\****.crt root@192.168.1.1:/www</code> 仅供参考哦。</p>
-<p>用vim 修改 <code>vi /etc/config/uhttpd</code></p>
-<pre class="language-none"><code class="language-none">config uhttpd &#39;main&#39;
-        list listen_http &#39;0.0.0.0:80&#39;
-        list listen_http &#39;[::]:80&#39;
-        list listen_https &#39;0.0.0.0:443&#39;
-        list listen_https &#39;[::]:443&#39;
-        option redirect_https &#39;0&#39;
-        option home &#39;&#x2F;www&#39;
-        option rfc1918_filter &#39;1&#39;
-        option max_connections &#39;100&#39;
-        option cert &#39;&#x2F;etc&#x2F;uhttpd.crt&#39;
-        option key &#39;&#x2F;etc&#x2F;uhttpd.key&#39;
-</code></pre>
-
-<p>将 <code>option cert &#39;/etc/uhttpd.crt&#39;</code> 中的 <code>/etc/uhttpd.crt</code> 替换为 <code>/www/****.crt</code><br>将 <code>option cert &#39;/etc/uhttpd.key&#39;</code> 中的 <code>/etc/uhttpd.key</code> 替换为 <code>/www/****.key</code></p>
-<p>如果你有公网 ip 可以看看运营商有没有封锁 443 端口如果有将 443 改为你喜欢的端口并且把 <code>list listen_https &#39;0.0.0.0:443&#39;</code> 中的 <code>&#39;0.0.0.0:443</code> 替换为你喜欢的端口。</p>
-<p>保存 Esc，Shift + ;(:) 输入 wq 退出 vim （<code>:wq</code>）</p>
-<p>接着重启 uhttpd <code>/etc/init.d/uhttpd restart</code></p>
-<p>内网和外网都测试一遍吧，记得做好端口映射、DDNS 域名解析；广移 IPv6 没有限制 443 可以正常访问。</p>
-<p>这样就把证书套成功了。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/openwrt-ssl.png" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>软路由</category>
-      </categories>
-      <tags>
-        <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
-    <url>/2022/09/25/optimize-windows-menu/</url>
-    <content><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p>
-<p>主要是做一些自己的文章，不依赖转载吃流量博眼球，才能吸引更多的新观众和高质友链</p>
-<p>本博文发布出来是做个链接方便后面的文章，有想关注的可以RSS订阅我的博客或者随时来博客玩hh</p>
-<p>RSS:<a href="https://www.miaoer.xyz/atom.xml">https://www.miaoer.xyz/atom.xml</a></p>
-<span id="more"></span>
-
-<p>【demo】</p>
-<p>因为讲解一次这些优化类的就要去重置一遍系统去还原定位问题，现在就从系统开始讲解保证小白也能看懂，不懂的我这里也会写出搜索的关键词</p>
-<blockquote>
-<p>当文章中出现搜索时他的格式是这样的</p>
-<p>这里的<code>品牌</code>是指<code>华硕</code>，<code>微星</code>，<code>华擎</code>等品牌板卡厂商(笔记本)，文章简称<code>品牌</code>保证搜索结果的一致性</p>
-<p>文章中: <code>品牌</code>bios怎么进</p>
-<p>您应该搜索: 品牌bios怎么进</p>
-</blockquote>
-<p>【demo】</p>
-<p>本章Windows优化目录</p>
-<p>1.系统篇</p>
-<ul>
-<li>重置、重装、驱动</li>
-</ul>
-<p>2.软件篇</p>
-<ul>
-<li>浏览器、官网、域名、推荐软件</li>
-</ul>
-<p>3.习惯篇</p>
-<ul>
-<li>搜索引擎、web端、下载站</li>
-</ul>
-<p>4.卸载和弹窗篇</p>
-<ul>
-<li>卸载软件、弹窗定位与删除</li>
-</ul>
-<p>本文首发在<a href="https://www.miaoer.xyz/">喵二の小博客</a>，转载请联系我并在文章明显初标记相关原文链接与作者名字</p>
-<p>暂时不会出视频教程篇，敬请关注，欢迎投喂</p>
-<p>【demo】</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>分享自己编译的OpenWrt软路由固件！</title>
-    <url>/2022/09/25/openwrtv2021.10.10/</url>
-    <content><![CDATA[<blockquote>
-<p>📣 最新版 v22.8 解决了英特尔 i225 2.5G 网卡表现不佳的问题，强烈建议使用 CatWrt v22.8</p>
-</blockquote>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>分享一个自编译 “ <code>稳定</code> <code>够用</code> <code>插件多</code> ” 的软路由OpenWrt固件。<br>目前只有 <code>x86-64</code> 的版本，固件插件够用，外带docker满足容器需求。<br>通吃旁路由，主路由，虚拟机!开箱即用。</p>
-<p>说明要看完！完整插件列表在 <code>插件</code> 段处。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-10-10/wrtluciv21.10.10.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<h1 id="默认设置"><a href="#默认设置" class="headerlink" title="默认设置"></a>默认设置</h1><p>默认分配300m给固件使用还有25m给linux内核使用<br>默认opernwrl luci后台地址: <code>192.168.1.2</code><br>账号: <code>root</code> 密码: <code>password</code></p>
-<h1 id="虚拟化-amp-分区"><a href="#虚拟化-amp-分区" class="headerlink" title="虚拟化&amp;分区"></a>虚拟化&amp;分区</h1><p>如果你是选择了虚拟化OpenWrt，你需要至少分配512m内存和512m的储存，如果设备较多开启了docker建议按照应用进行扩充运行内存和存储空间。<br>使用docker建议以G为单位越大越好，会玩的自然懂，如果没用过可以尝试分配1G安装内网speedtest，或者不分。<br>仅在vmware exsi下测试，pve和其他基于kvm未做测试但有pve和kvm的虚拟硬盘。</p>
-<p><a href="https://www.miaoer.xyz/network/openwrt-overlay">软路由Openwrt overlay分区</a></p>
-<h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><div class="success">
-
-<blockquote>
-<p>完整列表查看Github仓库，我们提供完整的插件列表您可以离线使用已编译的ipk。</p>
-</blockquote>
-</div>
-
-<p>插件仓库: <a href="https://github.com/miaoermua/catwrt">https://github.com/miaoermua/catwrt</a></p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-10-10/wrtv2021.10.10.jpg" loading="lazy"></p>
-<h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><p>固件在 <code>v21.10.10/targets/x86-64</code> 中</p>
-<p><code>squashfs-combined</code> 为传统BIOS启动</p>
-<p><code>squashfs-combined-efi</code> 为UEFI启动</p>
-<p><code>iso</code> 文件建议使用 <code>IMG写盘工具</code> 或者其他写盘工具进行安装</p>
-<p><code>qcow2</code> 文件是pve或kvm虚拟机的虚拟硬盘文件</p>
-<p><code>vmdk </code>文件是vmware虚拟机的虚拟硬盘文件</p>
-<h2 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h2><p><a href="https://www.aliyundrive.com/s/v8daqMUBG2y">https://www.aliyundrive.com/s/v8daqMUBG2y</a></p>
-<p>提取码: 3pf3</p>
-<blockquote>
-<p>注: 镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。<br>如：修改前 <code>openwrt-x86-64-generic-squashfs-combined.img.exe</code> &gt; 修改后 <code>openwrt-x86-64-generic-squashfs-combined.img</code></p>
-</blockquote>
-<h2 id="天翼云盘"><a href="#天翼云盘" class="headerlink" title="天翼云盘"></a>天翼云盘</h2><p><a href="https://cloud.189.cn/web/share?code=VvAnyi3EVrmu">https://cloud.189.cn/web/share?code=VvAnyi3EVrmu</a></p>
-<p>访问码：gkm6</p>
-<h1 id="支持"><a href="#支持" class="headerlink" title="支持"></a>支持</h1><h3 id="v21-10-10"><a href="#v21-10-10" class="headerlink" title="v21.10.10"></a>v21.10.10</h3><p>开放网友下载</p>
-<p>修复 luci-theme-argon 使用jerrykuku源码编译</p>
-<h3 id="v21-8-10"><a href="#v21-8-10" class="headerlink" title="v21.8.10"></a>v21.8.10</h3><p>支持 ipv6客户端</p>
-<p>支持 vmwaretools</p>
-<p>修复 uu加速器</p>
-<p>首次编译</p>
-<h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><h3 id="怎么修改Openwrt默认后台ip地址？"><a href="#怎么修改Openwrt默认后台ip地址？" class="headerlink" title="怎么修改Openwrt默认后台ip地址？"></a>怎么修改Openwrt默认后台ip地址？</h3><p><code>vi /etc/config/network</code>在窗口修改option ipaddr中的ip地址。</p>
-<p>完成后按<code>Esc</code>，再按下<code>:</code>，在输入框中输入wq！(强制保存退出</p>
-<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code>。</p>
-<h3 id="后续会保持更新吗？"><a href="#后续会保持更新吗？" class="headerlink" title="后续会保持更新吗？"></a>后续会保持更新吗？</h3><p>会！但是得有空，出新的协议或者软件可能会尝鲜一波再发布出来，一般的插件都可以在Openwrt中进行更新操作，更新只是解决依赖，固件稳定才是最重要的。</p>
-<h3 id="你是大佬吗，可以提供帮助吗？"><a href="#你是大佬吗，可以提供帮助吗？" class="headerlink" title="你是大佬吗，可以提供帮助吗？"></a>你是大佬吗，可以提供帮助吗？</h3><p>我不是大佬，我只是分享自编译的Openwrt固件，我觉得好用够用才分享给大家，仅能提供技术访问内的帮助。</p>
-<h3 id="有Bug，怎么反馈？"><a href="#有Bug，怎么反馈？" class="headerlink" title="有Bug，怎么反馈？"></a>有Bug，怎么反馈？</h3><p>可以在评论区向我提问进行排查，openclash和passwall貌似不能用？</p>
-<p>如果你想提出更多插件请在评论区描述。</p>
-<p>如果帮助到你可以在打赏里可以选择二维码给我打赏！</p>
-]]></content>
-      <categories>
-        <category>OpenWrt</category>
-      </categories>
-      <tags>
-        <tag>OpenWrt</tag>
+        <tag>硬路由</tag>
+        <tag>视频博客</tag>
+        <tag>路由器</tag>
       </tags>
   </entry>
   <entry>
@@ -2454,6 +2693,135 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       </tags>
   </entry>
   <entry>
+    <title>【推荐】洗鞋神器-污渍干洗剂</title>
+    <url>/2022/09/25/nianba-ganxi/</url>
+    <content><![CDATA[<blockquote>
+<p>本篇内容没有商业支持，纯个推。</p>
+</blockquote>
+<p>“年廿八,洗邋遢”<br>是广府文化中传统，每年辞旧迎新的特殊节日，我家里也搞起了清洁，因为今年有点特殊鞋子可以不用换，绝对不是因为钱。2333</p>
+<p>某天在商场被强行推销，拿我的鞋子中脏的地方做演示，我期初还不信但擦完出乎意料，我用手指去摩擦居然还有新鞋子橡胶嘎吱嘎吱的响声，所以…我当时闲钱少我拒绝了，但后面不是要准备过年了嘛整了一瓶，</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553805342.jpg" loading="lazy"></p>
+<p>不是推销的品牌，大概30块钱左右；稍微试了试确实有效果，也不是啥漂白剂，<br>[上图为没擦洗，下图为擦洗]</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553793449.jpg" loading="lazy"></p>
+<p>说是干洗，但是打湿了擦也行，干脆就洗澡一起洗了。<br>[图为刚刚洗完的效果]</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-01-30/1643553837236.jpg" loading="lazy"></p>
+<p>【注; 31号晚点补干鞋图】</p>
+<p>优点: 可以洗往日留下的污渍，洗汽车胶内饰。<br>缺点: 网面干洗效果一般。</p>
+<p>商家信息已进行处理，需要可以评论留言可避免踩坑。</p>
+<p>本人不玩鞋，我没用过仅表达个人体验随便水一篇；所以觉得挺好用的，稍微写点推荐吧。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>给 Openwrt 套 SSL 证书</title>
+    <url>/2022/09/25/openwrt-ssl/</url>
+    <content><![CDATA[<blockquote>
+<p>没什么卵用内网看着爽，要是在外网访问就不一定了。</p>
+</blockquote>
+<p>给 Openwrt 套 SSL 证书，并没有想象中的难，我固件没有编译 OpenSSL 也不需要，测的时候随手编译了默认以 https 访问的，正式版没用内网也启用感觉差点意思；</p>
+<p>给 Openwrt 套 SSL 证书，首先得有一个 SSL 的证书，我这里就用鹅云（ 里面免费申请的 SSL 证书，我这里就申请了一个加密算法为 ECC 256。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/txcloud-ssl.png" loading="lazy"></p>
+<p>下载；证书服务器类型选 Nginx，只需要用到压缩包里面的 密钥 <code>.key</code> 和 证书 <code>.crt</code></p>
+<p>用固件自带的 系统-文件管理 随便找一个地方放我这里选择 <code>/www</code>，上传文件俩文件 选择解压的位置 执行上传。</p>
+<p>用命令检查一下是否上传成功 <code>cd /www &amp;&amp; ls</code></p>
+<span id="more"></span>
+
+<p>固件没有文件管理可以使用你趁手的 ssh 工具 scp 上传；这里演示 Windows 终端的命令 <code>scp C:\Users\【用户】\Desktop\****.crt root@192.168.1.1:/www</code> 仅供参考哦。</p>
+<p>用vim 修改 <code>vi /etc/config/uhttpd</code></p>
+<pre class="language-none"><code class="language-none">config uhttpd &#39;main&#39;
+        list listen_http &#39;0.0.0.0:80&#39;
+        list listen_http &#39;[::]:80&#39;
+        list listen_https &#39;0.0.0.0:443&#39;
+        list listen_https &#39;[::]:443&#39;
+        option redirect_https &#39;0&#39;
+        option home &#39;&#x2F;www&#39;
+        option rfc1918_filter &#39;1&#39;
+        option max_connections &#39;100&#39;
+        option cert &#39;&#x2F;etc&#x2F;uhttpd.crt&#39;
+        option key &#39;&#x2F;etc&#x2F;uhttpd.key&#39;
+</code></pre>
+
+<p>将 <code>option cert &#39;/etc/uhttpd.crt&#39;</code> 中的 <code>/etc/uhttpd.crt</code> 替换为 <code>/www/****.crt</code><br>将 <code>option cert &#39;/etc/uhttpd.key&#39;</code> 中的 <code>/etc/uhttpd.key</code> 替换为 <code>/www/****.key</code></p>
+<p>如果你有公网 ip 可以看看运营商有没有封锁 443 端口如果有将 443 改为你喜欢的端口并且把 <code>list listen_https &#39;0.0.0.0:443&#39;</code> 中的 <code>&#39;0.0.0.0:443</code> 替换为你喜欢的端口。</p>
+<p>保存 Esc，Shift + ;(:) 输入 wq 退出 vim （<code>:wq</code>）</p>
+<p>接着重启 uhttpd <code>/etc/init.d/uhttpd restart</code></p>
+<p>内网和外网都测试一遍吧，记得做好端口映射、DDNS 域名解析；广移 IPv6 没有限制 443 可以正常访问。</p>
+<p>这样就把证书套成功了。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-10/openwrt-ssl.png" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>软路由</category>
+      </categories>
+      <tags>
+        <tag>OpenWrt</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分享自己编译的OpenWrt软路由固件！</title>
+    <url>/2022/09/25/openwrtv2021.10.10/</url>
+    <content><![CDATA[<blockquote>
+<p>📣 最新版 v22.8 解决了英特尔 i225 2.5G 网卡表现不佳的问题，强烈建议使用 CatWrt v22.8</p>
+</blockquote>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>分享一个自编译 “ <code>稳定</code> <code>够用</code> <code>插件多</code> ” 的软路由OpenWrt固件。<br>目前只有 <code>x86-64</code> 的版本，固件插件够用，外带docker满足容器需求。<br>通吃旁路由，主路由，虚拟机!开箱即用。</p>
+<p>说明要看完！完整插件列表在 <code>插件</code> 段处。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-10-10/wrtluciv21.10.10.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<h1 id="默认设置"><a href="#默认设置" class="headerlink" title="默认设置"></a>默认设置</h1><p>默认分配300m给固件使用还有25m给linux内核使用<br>默认opernwrl luci后台地址: <code>192.168.1.2</code><br>账号: <code>root</code> 密码: <code>password</code></p>
+<h1 id="虚拟化-amp-分区"><a href="#虚拟化-amp-分区" class="headerlink" title="虚拟化&amp;分区"></a>虚拟化&amp;分区</h1><p>如果你是选择了虚拟化OpenWrt，你需要至少分配512m内存和512m的储存，如果设备较多开启了docker建议按照应用进行扩充运行内存和存储空间。<br>使用docker建议以G为单位越大越好，会玩的自然懂，如果没用过可以尝试分配1G安装内网speedtest，或者不分。<br>仅在vmware exsi下测试，pve和其他基于kvm未做测试但有pve和kvm的虚拟硬盘。</p>
+<p><a href="https://www.miaoer.xyz/network/openwrt-overlay">软路由Openwrt overlay分区</a></p>
+<h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><div class="success">
+
+<blockquote>
+<p>完整列表查看Github仓库，我们提供完整的插件列表您可以离线使用已编译的ipk。</p>
+</blockquote>
+</div>
+
+<p>插件仓库: <a href="https://github.com/miaoermua/catwrt">https://github.com/miaoermua/catwrt</a></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-10-10/wrtv2021.10.10.jpg" loading="lazy"></p>
+<h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><p>固件在 <code>v21.10.10/targets/x86-64</code> 中</p>
+<p><code>squashfs-combined</code> 为传统BIOS启动</p>
+<p><code>squashfs-combined-efi</code> 为UEFI启动</p>
+<p><code>iso</code> 文件建议使用 <code>IMG写盘工具</code> 或者其他写盘工具进行安装</p>
+<p><code>qcow2</code> 文件是pve或kvm虚拟机的虚拟硬盘文件</p>
+<p><code>vmdk </code>文件是vmware虚拟机的虚拟硬盘文件</p>
+<h2 id="阿里云盘"><a href="#阿里云盘" class="headerlink" title="阿里云盘"></a>阿里云盘</h2><p><a href="https://www.aliyundrive.com/s/v8daqMUBG2y">https://www.aliyundrive.com/s/v8daqMUBG2y</a></p>
+<p>提取码: 3pf3</p>
+<blockquote>
+<p>注: 镜像文件格式不支持分享，阿里云盘的文件重命名为 <code>.exe</code>，使用前请重命名并删除 <code>.exe</code> 字段后再食用。<br>如：修改前 <code>openwrt-x86-64-generic-squashfs-combined.img.exe</code> &gt; 修改后 <code>openwrt-x86-64-generic-squashfs-combined.img</code></p>
+</blockquote>
+<h2 id="天翼云盘"><a href="#天翼云盘" class="headerlink" title="天翼云盘"></a>天翼云盘</h2><p><a href="https://cloud.189.cn/web/share?code=VvAnyi3EVrmu">https://cloud.189.cn/web/share?code=VvAnyi3EVrmu</a></p>
+<p>访问码：gkm6</p>
+<h1 id="支持"><a href="#支持" class="headerlink" title="支持"></a>支持</h1><h3 id="v21-10-10"><a href="#v21-10-10" class="headerlink" title="v21.10.10"></a>v21.10.10</h3><p>开放网友下载</p>
+<p>修复 luci-theme-argon 使用jerrykuku源码编译</p>
+<h3 id="v21-8-10"><a href="#v21-8-10" class="headerlink" title="v21.8.10"></a>v21.8.10</h3><p>支持 ipv6客户端</p>
+<p>支持 vmwaretools</p>
+<p>修复 uu加速器</p>
+<p>首次编译</p>
+<h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><h3 id="怎么修改Openwrt默认后台ip地址？"><a href="#怎么修改Openwrt默认后台ip地址？" class="headerlink" title="怎么修改Openwrt默认后台ip地址？"></a>怎么修改Openwrt默认后台ip地址？</h3><p><code>vi /etc/config/network</code>在窗口修改option ipaddr中的ip地址。</p>
+<p>完成后按<code>Esc</code>，再按下<code>:</code>，在输入框中输入wq！(强制保存退出</p>
+<h3 id="修改默认密码"><a href="#修改默认密码" class="headerlink" title="修改默认密码"></a>修改默认密码</h3><p>在终端里输入 <code>passwd</code>。</p>
+<h3 id="后续会保持更新吗？"><a href="#后续会保持更新吗？" class="headerlink" title="后续会保持更新吗？"></a>后续会保持更新吗？</h3><p>会！但是得有空，出新的协议或者软件可能会尝鲜一波再发布出来，一般的插件都可以在Openwrt中进行更新操作，更新只是解决依赖，固件稳定才是最重要的。</p>
+<h3 id="你是大佬吗，可以提供帮助吗？"><a href="#你是大佬吗，可以提供帮助吗？" class="headerlink" title="你是大佬吗，可以提供帮助吗？"></a>你是大佬吗，可以提供帮助吗？</h3><p>我不是大佬，我只是分享自编译的Openwrt固件，我觉得好用够用才分享给大家，仅能提供技术访问内的帮助。</p>
+<h3 id="有Bug，怎么反馈？"><a href="#有Bug，怎么反馈？" class="headerlink" title="有Bug，怎么反馈？"></a>有Bug，怎么反馈？</h3><p>可以在评论区向我提问进行排查，openclash和passwall貌似不能用？</p>
+<p>如果你想提出更多插件请在评论区描述。</p>
+<p>如果帮助到你可以在打赏里可以选择二维码给我打赏！</p>
+]]></content>
+      <categories>
+        <category>OpenWrt</category>
+      </categories>
+      <tags>
+        <tag>OpenWrt</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>软路由？值得买吗</title>
     <url>/2022/09/25/softrouter-de/</url>
     <content><![CDATA[<p>随着上网需求逐步提高，普通的无线路由器的性能不能仅满足于当今互联网健康的上网方式。</p>
@@ -2518,15 +2886,6 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       </tags>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/2020/08/12/test/</url>
-    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
-<ul>
-<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>StarWind V2V Converter 写盘教程</title>
     <url>/2022/08/17/starwind-converter/</url>
     <content><![CDATA[<p>在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启；</p>
@@ -2576,6 +2935,324 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       <tags>
         <tag>OpenWrt</tag>
         <tag>软路由</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手把手教你优化windows，还你一个纯净的系统 -目录【未完成】</title>
+    <url>/2022/09/25/optimize-windows-menu/</url>
+    <content><![CDATA[<p>目前还在制作本坑，工程量挺大的。需要大量实例和环境模拟，是在有空的时间做。</p>
+<p>主要是做一些自己的文章，不依赖转载吃流量博眼球，才能吸引更多的新观众和高质友链</p>
+<p>本博文发布出来是做个链接方便后面的文章，有想关注的可以RSS订阅我的博客或者随时来博客玩hh</p>
+<p>RSS:<a href="https://www.miaoer.xyz/atom.xml">https://www.miaoer.xyz/atom.xml</a></p>
+<span id="more"></span>
+
+<p>【demo】</p>
+<p>因为讲解一次这些优化类的就要去重置一遍系统去还原定位问题，现在就从系统开始讲解保证小白也能看懂，不懂的我这里也会写出搜索的关键词</p>
+<blockquote>
+<p>当文章中出现搜索时他的格式是这样的</p>
+<p>这里的<code>品牌</code>是指<code>华硕</code>，<code>微星</code>，<code>华擎</code>等品牌板卡厂商(笔记本)，文章简称<code>品牌</code>保证搜索结果的一致性</p>
+<p>文章中: <code>品牌</code>bios怎么进</p>
+<p>您应该搜索: 品牌bios怎么进</p>
+</blockquote>
+<p>【demo】</p>
+<p>本章Windows优化目录</p>
+<p>1.系统篇</p>
+<ul>
+<li>重置、重装、驱动</li>
+</ul>
+<p>2.软件篇</p>
+<ul>
+<li>浏览器、官网、域名、推荐软件</li>
+</ul>
+<p>3.习惯篇</p>
+<ul>
+<li>搜索引擎、web端、下载站</li>
+</ul>
+<p>4.卸载和弹窗篇</p>
+<ul>
+<li>卸载软件、弹窗定位与删除</li>
+</ul>
+<p>本文首发在<a href="https://www.miaoer.xyz/">喵二の小博客</a>，转载请联系我并在文章明显初标记相关原文链接与作者名字</p>
+<p>暂时不会出视频教程篇，敬请关注，欢迎投喂</p>
+<p>【demo】</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2020/08/12/test/</url>
+    <content><![CDATA[<h3 id="links"><a href="#links" class="headerlink" title="links"></a>links</h3><p>各大平台大致名字 <code>喵二</code> &amp; <code>喵二君丶</code> 或 <code>miaoer</code>，喜欢就去关注叭 ヾ(•ω•`)o</p>
+<ul>
+<li><i class="fa-brands fa-google"></i>Steam: <a href="https://steamcommunity.com/id/miaoermua">星野日向</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>小米10换电池再再钉子户</title>
+    <url>/2022/05/22/xiaomi10-battey/</url>
+    <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
+<blockquote>
+<p>8月更，翻车已经是笑话了 <a href="https://www.miaoer.xyz/notes/18">年轻人的第一次淘宝翻车</a>，以下内容为踩坑。</p>
+</blockquote>
+<h2 id="更换"><a href="#更换" class="headerlink" title="更换"></a>更换</h2><p>包裹里除了电池有 B7000 胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。<del>因为这样流下来的？</del></p>
+<p>关机后取出卡托（</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg" loading="lazy"></p>
+<span id="more"></span>
+
+<p>电池本体也和拆下的原装电池也无明显差别，比如字体不同，字号不致</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey.jpg" loading="lazy"></p>
+<p>对后盖进行加热后轻轻撬起后盖缝隙大的地方，我这里是摄像头和红外的位置，沿缝隙慢慢划开内侧密封胶，然后用一个翘片顶着缝隙再去另外旁边翘起缝隙，我看到翘片撬出的白色胶水我挺慌的，因为我买的二手机，我以前拆小米手机的时候没有见过白色的密封胶。</p>
+<p>这里我翻车了，太着急插入翘片受力点在摄像头那边爆了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/dismantling.jpg" loading="lazy"></p>
+<p>拆开可以看到NFC和无线充电线圈的散热？？，将左右扬声器的？？沿主板撕开即可见到螺丝，</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/point.jpg" loading="lazy"></p>
+<p>一手拿起屏蔽罩，用撬棒翘起电池排线断电；这里我把扬声器的 btb 不小心拔了出来。</p>
+<p>按照电池的说明卸下电池；先撕开 A 和 B 然后拉起 A，电池很轻松拿出来，取出后把电池上的易拉胶？电池中框上的电池贴纸撕下</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/yilajiao.jpg" loading="lazy"></p>
+<p>将新的电池对好位置贴上，扣上电池排线的btb 简单的扣好主板屏蔽罩和NFC无线充电线圈开机测试。 (此处没贴送的电池背胶)</p>
+<p>开机点亮显示 50% 电量，测试扬声器，无线充电NFC，振动，和有线27w快充；用创建快捷方式找到电池续航，剩余电池实际容量正常了</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/Screenshot.png" loading="lazy"></p>
+<p>电池续航为 MIUI13 内置有点像 AccuBattery)))</p>
+<blockquote>
+<p>这是用了半个月的，感觉不是太准确……<br>实际上从以前的一天三充到一天两充，而且用起来会比较安心，仅供参考。</p>
+</blockquote>
+<p>随后关机检查还有什么没扣上便安装上屏蔽罩，不要大力出奇迹~不要问我是怎么知道的</p>
+<p>稍微摆平NFC线圈安装上后盖，因为后盖爆了我就没打胶了后面方便更换，即便是没打胶缝隙也不是太大和拆机前无差。</p>
+<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/lie.jpg" loading="lazy"></p>
+<p>可惜这次爆了盖，哭唧唧。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>搞机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>简单编译一个属于自己的openwrt软路由系统</title>
+    <url>/2022/09/25/%E7%BC%96%E8%AF%91openwrt/</url>
+    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/%E5%B0%81%E9%9D%A2.jpg" loading="lazy"></p>
+<p>我一直想编译一个OpenWrt软路由系统，因为之前用<a href="https://www.youtube.com/c/eSirPlayGround/">esir大神</a>的高大全固件插件用的有点多，可能会不稳定还有高大全很多插件用不到，打算自己动手编译定制一个自己的openwrt固件，并且给大家分享一下怎么样给OpenWrt在Windows子系统Ubantu下进行编译。</p>
+<p>因为我的win11十分不稳定，我给重装了原来是ssd分了俩个盘这次单独给ssd一个盘装win11</p>
+<p>在windows里编译openwrt有两个办法</p>
+<ul>
+<li><p>WLS (windows linux subsystem)</p>
+</li>
+<li><p>虚拟机 (如: vmware，hyper-v)</p>
+</li>
+</ul>
+<p>我选择了WLS，这方法大概缺点就是需要占掉C盘空间，选择去微软商店安装ubuntu系统。</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.miaoer.xyz/blog/2021-08-23/microsoftstore-ubuntu.jpg" loading="lazy"></p>
+<h1 id="安装ubuntu"><a href="#安装ubuntu" class="headerlink" title="安装ubuntu"></a>安装ubuntu</h1><ol>
+<li>在微软商店搜索<code>ubuntu</code>，安装。(<code>Ubuntu 18.04 LTS</code>)</li>
+</ol>
+<p>然后信誓旦旦的打开ubuntu发现shell里直接报错，代码: 0x800701bc 按任意键退出ubuntu</p>
+<blockquote>
+<p>这里推荐安装Ubuntu 18.04 LTS，安装其他版本可能连编译的界面的进不了？因为仅测试了Ubuntu 18.04 LTS</p>
+</blockquote>
+<ol start="2">
+<li>解决报错安装wls。</li>
+</ol>
+<p>启用 WLS  在管理员权限下 *powershell *运行</p>
+<p><code>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</code></p>
+<p>启用 虚拟机平台 在管理员权限下 <em>powershell</em> 运行</p>
+<p><code>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart</code></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/setting.jpg" loading="lazy"></p>
+<p>重启电脑</p>
+<p>下载 Linux内核更新包</p>
+<p><a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi">https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi</a></p>
+<p>（无脑下一步</p>
+<p>设置 wls2位默认版本 在下 <em>powershell</em> 运行（不一定可选)</p>
+<p><code>wsl --set-default-version 2</code></p>
+<ol start="3">
+<li>继续打开Ubuntu<br> 然后就可以继续，设置账户和密码，<a href="https://github.com/coolsnowwolf/lede">Lean</a>大神的不能使用root用户进行编译！输入自己的用户名即可</li>
+</ol>
+<h1 id="第一次编译"><a href="#第一次编译" class="headerlink" title="第一次编译"></a>第一次编译</h1><ol>
+<li><p>命令行输入 <code>sudo apt-get update</code> ，然后输入 <code>sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync</code></p>
+</li>
+<li><p>使用 <code>git clone https://github.com/coolsnowwolf/lede</code> 命令下载好lean的源代码，然后 <code>cd lede</code> 进入lede目录</p>
+</li>
+<li><p><code>./scripts/feeds update -a</code><br><code>./scripts/feeds install -a</code><br><code>make menuconfig</code></p>
+<p>当<code>make menuconfig</code>能成功进去就可以退出添加插件</p>
+</li>
+</ol>
+<blockquote>
+<p>此步骤容易因为依赖不完全无法进行编译，请看有没有出现错误一直下不动的问题，可以考虑换源和重新安装Ubuntu子系统进行解决。</p>
+</blockquote>
+<h2 id="添加自己要的插件"><a href="#添加自己要的插件" class="headerlink" title="添加自己要的插件"></a>添加自己要的插件</h2><p>先添加kenzo的<a href="https://github.com/kenzok8/openwrt-packages">openwrt-packages</a>openwrt软件包和依赖包里面包括了很多用到的插件和依赖经测试都是可用的</p>
+<p>在lede根目录下找到<code>feeds.conf.default</code>文件使用笔记本打开并且添加</p>
+<p><code>src-git kenzo https://github.com/kenzok8/openwrt-packages</code><br><code>src-git small https://github.com/kenzok8/small</code></p>
+<p><del>包含了某些pass插件和所需依赖</del></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/feeds.jpg" loading="lazy"></p>
+<p>比如lean大神和kenzo的软件包里都没有的<a href="https://github.com/destan19/OpenAppFilter">OpenAppFilter</a></p>
+<p>需要单独下载源码保存到<code>lede/package</code>目录下</p>
+<p><code>cd package</code> </p>
+<p><code>git clone https://github.com/destan19/OpenAppFilter.git</code></p>
+<p><code>cd ..</code></p>
+<p>添加了插件feeds里就再重新进行一遍更新feeds，此时就下载kenzo仓库里的软件包了，单独git下载的不需要进行该步骤</p>
+<p><code>./scripts/feeds update -a</code><br><code>./scripts/feeds install -a</code><br><code>make menuconfig</code></p>
+<p>检查能进<code>make menuconfig</code>即可</p>
+<ol start="4">
+<li>下载dl库 <u><em><strong>需要科学上网</strong></em></u> <em>不然下载巨慢导致报错</em></li>
+</ol>
+<p><code>make -j8 download V=s</code></p>
+<ol start="5">
+<li>完成第一次编译 <em>仅限WLS</em> (-j1 后面是线程数。第一次编译推荐用单线程)</li>
+</ol>
+<p><code>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j1 V=s </code></p>
+<p><em>非WLS用户</em> <code>make -j1 V=s</code></p>
+<p>使用lean大神的源码未经过修改保证可以编译成功，第一次编译花费时间需要很久记得保持特殊网络环境下进行编译不然可能连第一次编译都过不了</p>
+<blockquote>
+<p><del>假如第一次编译就报错的重新开始直接</del> <code>rm -rf /home/用户/lede</code> <del>不要添加插件再进行编译，还是报错就没辙了毕竟lean源码第一次不添加任何插件是确实能过的，请回到依赖安装的步骤检查好了。</del></p>
+</blockquote>
+<ul>
+<li>✅ 当第一次编译过了，如果显示</li>
+</ul>
+<pre class="language-shell" data-language="shell"><code class="language-shell">signing package index<span class="token punctuation">..</span>.
+make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>:Leaving directory <span class="token variable"><span class="token variable">`</span>/home/user/lede<span class="token variable">`</span></span>
+make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>:Entering directory <span class="token variable"><span class="token variable">`</span>/home/user/lede<span class="token variable">`</span></span>
+make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>:Nothing directory <span class="token variable"><span class="token variable">`</span>/home/user/lede<span class="token variable">`</span></span>
+<span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span></code></pre>
+
+<ul>
+<li>❎ 即代表编译成功了，如果显示</li>
+</ul>
+<pre class="language-shell" data-language="shell"><code class="language-shell">make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>: *** <span class="token punctuation">[</span>package/feeds/packages/forked-daapd/compile<span class="token punctuation">]</span> Error <span class="token number">2</span>
+make<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>: *** <span class="token punctuation">[</span>/home/vk-op/lede/staging_dir/target-x86_64_musl/stamp/.package_compile<span class="token punctuation">]</span> Error <span class="token number">2</span></code></pre>
+
+<p>类似的带有Error字样的就是编译出错。</p>
+<h1 id="第二次编译"><a href="#第二次编译" class="headerlink" title="第二次编译"></a>第二次编译</h1><p><img src="https://cdn.miaoer.xyz/blog/21-08-23/openwrtbianyi.jpg" loading="lazy"></p>
+<blockquote>
+<p>推荐插件不要一下全选了，几个几个的选避免插件编译失败不好排查，编译的时候选你电脑最大的线程数进行编译就好。</p>
+</blockquote>
+<p>在<code>Luci---&gt;Applications</code>选择几个自己需要的插件，Luci-Theme选择自己需要的几个主题</p>
+<p>在<code>Target images</code>里选择Build GRUB images (Linux x86 or x86_64 host only)`就是BIOS启动默认不选择就是UEFI启动的</p>
+<p>在<code>Target images</code>里选择<code>Root filesystem partition size (in MB)</code>，可以设置默认overlay分区大小</p>
+<p>在<code>Target images</code>里选择<code>Kernel partition size (in MB)</code>，可以设置内核分区大小<del>(目前不知道这个干嘛的，设置了25MB)</del></p>
+<p>先简单编译一遍 <em>(线程数=处理器线程+1)</em></p>
+<p><code>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j13 V=s </code></p>
+<p>编译好了继续选择插件进行编译直到插件满足你的需求，一点点这样编译是因为怕插件编译错误可以一个个排查，如果一上来全点了报错了难排查</p>
+<p>已知smb和smb4一起编译会报错，其他插件报错可以善用搜索引擎搜索或者去github给作者提交issues或者去相关TG群里问。</p>
+<h1 id="编译完成"><a href="#编译完成" class="headerlink" title="编译完成"></a>编译完成</h1><p>编译好的固件在 <code>/home/user/lede/bin/targets/x86</code> 里，然后就可以通过各种方法安装在软路由上了，安装应该就不用说怎么安装了吧</p>
+<p>如果对我分享的博文有帮助可以给我评论或者打赏支持我！</p>
+<blockquote>
+<p>感谢！这是我为数不多没发平台进行推广或者原文宣传的博文，仅靠自己收集的资料整理而来就收获了150观看数比我想象中要多，按照步骤来一般没什么问题，如果配置的看不懂可以观看韩风大大的视频，编译其他插件按照博文里写的就没错了！附教程出的固件已经出了<a href="https://www.miaoer.xyz/network/openwrtv2021.10.10">请看这个: 分享自己编译的OpenWrt软路由固件！</a>。</p>
+</blockquote>
+<p>部分参见:</p>
+<ul>
+<li><p>Lean <a href="https://github.com/coolsnowwolf/lede">coolsnowwolf/lede</a></p>
+</li>
+<li><p>微软 <a href="https://docs.microsoft.com/zh-cn/windows/wsl/install-win10">适用于 Linux 的 Windows 子系统安装指南 (Windows 10)</a></p>
+</li>
+<li><p>韩风Talk <a href="https://www.bilibili.com/video/BV1Dv411B7MQ">【韩风Talk】Openwrt编译难么？不太难，主要是细节！</a></p>
+</li>
+<li><p>不吐不快 <a href="https://mianao.info/2020/05/05/%E7%BC%96%E8%AF%91%E6%9B%B4%E6%96%B0OpenWrt-PassWall%E5%92%8CSSR-plus%E6%8F%92%E4%BB%B6">编译更新OpenWrt PassWall和SSR-plus插件</a></p>
+</li>
+<li><p>BIGDONGDONG <a href="https://www.youtube.com/watch?v=yQoKpL4p06E">『299』 傻瓜式编译OpenWrt固件全流程丨Ubuntu下基于Lean源码编译融合各种插件</a></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>软路由</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>检查Windows为什么不能更新11</title>
+    <url>/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/</url>
+    <content><![CDATA[<h1 id="做好准备o-▽-o"><a href="#做好准备o-▽-o" class="headerlink" title="做好准备o(^▽^)o"></a>做好准备o(^▽^)o</h1><p>前几天Windows11放出预览版的时候，我下载了<a href="https://www.microsoft.com/windows/windows-11#pchealthcheck">电脑健康状况检查</a>官方链接挂了放一下副本<br><a href="https://github.com/miaoermua/miaoer-gitdown/raw/main/download/WindowsPCHealthCheckSetup.msi">电脑健康状况检查-blog副本下载</a><br>发现我根本不过，但是又不知道检查了什么不过…<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/notwin11-old.png" alt="notdate" loading="lazy"></p>
+<span id="more"></span>
+
+<h2 id="警告！∑-っ-°Д-°-っ"><a href="#警告！∑-っ-°Д-°-っ" class="headerlink" title="警告！∑(っ °Д °;)っ"></a>警告！∑(っ °Д °;)っ</h2><blockquote>
+<p>升级Windows11不保证软件稳定性，请进行备份系统盘里面的资料再升级操作，数据无价！请谨慎升级！</p>
+</blockquote>
+<p>如果升级后或者升级过程出现电脑无法正常使用的问题不承担任何法律责任！<br>把资料备份NAS，网盘里面安全第一！</p>
+<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>于是好心的基友发来了大神<a href="https://github.com/rcmaehl">rcmaehl</a>的检测软件WhyNotWin11<br><a href="https://github.com/rcmaehl/WhyNotWin11">Why Not Win11-Github</a></p>
+<h2 id="软件界面"><a href="#软件界面" class="headerlink" title="软件界面"></a>软件界面</h2><p><img src="https://user-images.githubusercontent.com/716581/123747880-7ded0c00-d881-11eb-9fdc-cd49a6ff74dc.png" alt="rcmaehl" loading="lazy"></p>
+<h2 id="WhyNotWin11下载教程"><a href="#WhyNotWin11下载教程" class="headerlink" title="WhyNotWin11下载教程"></a>WhyNotWin11下载教程</h2><p>下载<a href="https://github.com/rcmaehl/WhyNotWin11/releases">WhyNotWin11-releases</a><br>选择最新版的找到Assets，<code>32位</code>的系统选择 <code>WhyNotWin11.exe</code> ，<code>64位</code>选择 <code>WhyNotWin11_x86.exe </code><br><img src="https://cdn.miaoer.xyz/blog/21-06-30/whynotwin11-releases.jpg" alt="downwnw" loading="lazy"></p>
+<h1 id="检查"><a href="#检查" class="headerlink" title="检查"></a>检查</h1><p>发现我只有 <code>安全启动</code>、<code>CPU</code>、<code>TPM</code> 不过 (作者更新真快)。</p>
+<p>那时候找TPM教程是真的难，自己在主板里面折腾半天在CPU选项里找到了 <code>AMD fTPM</code> 。</p>
+<h2 id="TPM"><a href="#TPM" class="headerlink" title="TPM"></a>TPM</h2><p>TPMlist：</p>
+<p>AMD:<br>华擎-高级-CPU配置-AMD fTPM switch[AMD CPU fTPM]<br>华硕-高级-AMD fTPM设置-选择TPM设备[开启固件TPM]<br>MSI-设置-安全-可信任计算模块-AMD fTPM switch[AMD CPU fTPM]</p>
+<p>Intel:<br>华硕-Advanced-PCH-FW Configuration-Intel Platform Trust Technology[确认]<br>华硕-Advanced-PCH-FW Configuration-PTT-Enable<br>华硕-Advanced-PCH-FW Configuration-TPM Device Selection-Enable Firmware TPM</p>
+<p>这是华擎主板的bios开启AMD fTPM switch<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/1624961646440.jpg" alt="bios" loading="lazy"></p>
+<p>推荐可以去看B站up主: <a href="https://space.bilibili.com/947625">makazeu</a> 的视频演示了各种品牌的tpm开启方法。</p>
+<p>只收集到这些其他主板平台请善用搜索引擎。<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/baidutpm.jpg" alt="baidutpm" loading="lazy"><br>尝试搜索：主板(笔记本)名字{可选:型号}+处理器平台+bios开启tpm</p>
+<p>【如：技嘉x570主板AMD开启TPM】</p>
+<h2 id="安全启动-SecureBoot"><a href="#安全启动-SecureBoot" class="headerlink" title="安全启动 SecureBoot"></a>安全启动 SecureBoot</h2><p>华擎-安全-SecureBoot-安装默认安全密钥-安全引导[开启]<br>请先找到并且开启<code>安装默认安全密钥</code>再开启<code>安全引导</code><br><img src="https://cdn.miaoer.xyz/blog/21-06-30/1624963795259.jpg" alt="secureboot" loading="lazy"><br>其他主板大差不差，都一般在安全和引导里面开启密钥再开启安全引导<br>要么叫安全启动要么叫安全引导<code>SecureBoot</code><br>尝试搜索：主板+开启安全启动<br>【如：华硕主板开启安全启动】</p>
+<h2 id="硬盘-Disk"><a href="#硬盘-Disk" class="headerlink" title="硬盘 Disk"></a>硬盘 Disk</h2><p>一定是GPT的分区才能安装Win10和Win11，在使用以前系统分区是MBR的只能分区修改GPT的<br>这个也能在搜索引擎找到方法，一般正常在Win10iso里面安装都是GPT的<br>MBR的用户就没办法照顾了，分个区或者出现完整安装Win10iso再升级吧<br>Windows镜像下载MSDN,<a href="https://msdn.itellyou.cn/">我告诉你</a> 和 <a href="https://next.itellyou.cn/">新版我告诉你</a></p>
+<p>硬盘需要64GB+存储空间，安装时保留更多存储空间<br>GPT分区</p>
+<h2 id="CPU"><a href="#CPU" class="headerlink" title="CPU"></a>CPU</h2><p>我的CPU不在CPU支持list里面，但是一样可以更新，但是不一定更老的CPU是否后面会有限制。</p>
+<p>AMD list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors">Supported AMD Processors-AMD处理器平台支持列表</a></p>
+<p>Intel list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors">Supported Intel Processors-Intel英特尔处理器平台支持列表</a></p>
+<p>Qualcomm list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors">Supported Qualcomm Processors-Qualcomm高通处理器平台支持列表</a></p>
+<p>1 GHz+的处理器和64位的<br>暂时不知道支不支持32位x86的</p>
+<h2 id="显卡-amp-显示分辨率-DirectX-WDDM2"><a href="#显卡-amp-显示分辨率-DirectX-WDDM2" class="headerlink" title="显卡&amp;显示分辨率 DirectX+WDDM2"></a>显卡&amp;显示分辨率 DirectX+WDDM2</h2><p>支持 DirectX 12+，不知道老显卡支不支持？<br>分辨率是720P+<br>支持驱动程序模型 WDDM 2.0</p>
+<h2 id="内存-RAM"><a href="#内存-RAM" class="headerlink" title="内存 RAM"></a>内存 RAM</h2><p>4G+无限制频率和DDR版本</p>
+<h1 id="微软官方推荐配置"><a href="#微软官方推荐配置" class="headerlink" title="微软官方推荐配置"></a>微软官方推荐配置</h1><p><a href="https://www.microsoft.com/zh-cn/windows/windows-11-specifications">推荐配置</a><br>处理器：<br>1 GHz 或更快的支持 64 位的处理器（双核或多核）或系统单芯片 (SoC)</p>
+<p>RAM：<br>4 GB</p>
+<p>存储：<br>64 GB 或更大的存储设备</p>
+<p>系统固件：<br>支持 UEFI 安全启动</p>
+<p>TPM：<br><a href="https://docs.microsoft.com/zh-CN/windows/security/information-protection/tpm/trusted-platform-module-overview">受信任的平台模块 (TPM)</a> 版本 2.0</p>
+<p>显卡：<br>支持 DirectX 12 或更高版本，支持 WDDM 2.0 驱动程序</p>
+<p>显示屏：<br>对角线长大于 9 英寸的高清 (720p) 显示屏，每个颜色通道为 8 位</p>
+<p>Internet 连接和 Microsoft 帐户：<br>Windows 11 家庭版需要有 Internet 连接和 Microsoft 帐户才能在首次使用时完成设备设置。<br>将设备切换出 Windows 11 家庭版 S 模式也需要有 Internet 连接。<a href="https://support.microsoft.com/help/4020089/windows-10-in-s-mode-faq">在此处详细了解 S 模式</a>。<br>对于所有 Windows 11 版本，Internet 访问对于执行更新和某些功能的下载和使用都是必需的。</p>
+<h1 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h1><h3 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h3><p>在设置-更新-Windows预览体验计划中申请</p>
+<p>目前有且只有<code>Dev开发者版本</code>才能体验，其次开放win11体验才是<code>Beta</code>，更新时请三十而后行</p>
+<p>极其不推荐工作机更新Windows11!更新后不要清理降级恢复包!</p>
+<h3 id="恢复"><a href="#恢复" class="headerlink" title="恢复"></a>恢复</h3><p>设置-WindowsUpdate-高级选项-恢复</p>
+<h1 id="完成了-是时候秀一下了-・∀・"><a href="#完成了-是时候秀一下了-・∀・" class="headerlink" title="完成了,是时候秀一下了(・∀・*)"></a>完成了,是时候秀一下了(・∀・*)</h1><p><img src="https://cdn.miaoer.xyz/blog/21-06-30/1624960668163.jpg" alt="update..." loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/21-06-30/whynotwin11.jpg" alt="whynotwin11" loading="lazy"></p>
+<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>博文部分内容可能会做出修改，请善用搜索引擎搜索相关开启教程只收入部分开启方法<br>喜欢这个博文就分享出去吧，有能力可以向我打钱投喂ε(*´･∀･｀)зﾞ</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>海外转移国内服务器的坑</title>
+    <url>/2022/09/25/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/lp-meme.jpg" loading="lazy"></p>
+<p>前几天在阿里云上买了一台轻量应用的云服务器，准备要搭建我的博客的，结果…</p>
+<p>拿到机器先Ping了一下延迟，还行深圳到广州也就12ms左右，日本亚马逊的80ms左右</p>
+<p>就兴冲冲的去安装稍微有点熟悉的宝塔面板，那时候日本的服务器检查抽风挂逼没来得及对着抄配置，就搭好了，结果电脑上的chrome显示404进不去？折腾半天还是上日本的服务器看看结果又能进去了…一通操作猛如虎，还是404纳闷了，检查了宝塔和cloudflare正确啊，然后用手机输上域名好家伙直接显示我没有备案…然而大意了，傻乎乎的就买入了国内的服务器，没办法那就实名呗，大不了删一点内容</p>
+<span id="more"></span>
+
+<h1 id="大意"><a href="#大意" class="headerlink" title="大意"></a>大意</h1><p>只能认命了，之前也没弄过备案的服务器，一步步来结果服务器备案需要域名备案，域名备案还需要阿里云万网下，其他要在域名商那弄，但是我的域名商是<a href="https://www.namesilo.com/">namesilo</a>哪有什么备案相关的玩意啊，只能花36转移到阿里万网下了，按着别人博客写的内容一步步把namesilo转移，结果需要60天才能转移，那天才刚好30天，也只能等了</p>
+<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/kengdie-meme.jpg" loading="lazy"></p>
+<h1 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h1><p>接着去弄Frp内网穿透，在阿里上使用脚本搭建的Frp，绑定端口、Http和Https…</p>
+<p>然后去Openwrt设置Frp内网穿透服务</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/openwrtfrp.jpg" loading="lazy"></p>
+<p>然后就可以在我的世界服务器里输入ip:端口了，就找到我穿透出来的内网服务器</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/mcserverdaoshi.jpg" loading="lazy"></p>
+<p>因为是电脑本机做的服务器，难免会因为别人跑图使用红石破坏了我的游戏体验啊，我毕竟都上了<a href="https://irisshaders.net/">iris</a>不跑满高帧光影真说不过去</p>
+<p>于是我吧我家的软路由<del>利用</del>出来当我的世界服务器，只要不是故意跑图炸服也不会有啥问题了（<del>服务端开机慢</del></p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/exsi-mccentos.jpg" loading="lazy"></p>
+<p>使用的是一个J4105的低功耗CPU做的成品软路由，TDP功耗10w，待机功耗只有6.6w！满载功耗只有13w！起码不用怎么担心耗电了，性能吧还行纯生存是够了</p>
+<p><img src="/.xyz//blog/21-08-16/jackstone-j4105.jpg" alt="老白" loading="lazy"></p>
+<p>大概前前后后用了大概4天左右没有啥问题，最高6个人同时在线建筑也不过20-30%的CPU占用</p>
+<p>最重要是延迟真的很低了多人联机广东地区才20-40ms，四川地区50-60ms！</p>
+<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/2021-08-03_18.39.57.png" alt="daoshi" loading="lazy"></p>
+<p>等8月过了就换到阿里云了，域名和服务器应该会用个俩三年</p>
+<p>有兴趣Frp和我的世界可以联系我目前是白名单模式</p>
+<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>博客已经转移成功，备案也好了 <a href="https://www.miaoer.xyz/about">详情</a></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -2698,101 +3375,6 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       </categories>
       <tags>
         <tag>Magisk</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小米10换电池再再钉子户</title>
-    <url>/2022/05/22/xiaomi10-battey/</url>
-    <content><![CDATA[<h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>总感觉我的小米 10 手机电池不耐用，一天需要充3-4次电，原装 27 w 充电器虽然很快用得也快，在一次出门后我决定把我的小米10手机给换电池，我在淘宝寻找了一些店家发现有一家专门卖小米电池的商家，于是询问了一些问题之后我便拍下，等了两天快递来了，我拆开包裹查看了一下也没有什么异样，看起来像是小米售后流下来的，没看出啥异样</p>
-<blockquote>
-<p>8月更，翻车已经是笑话了 <a href="https://www.miaoer.xyz/notes/18">年轻人的第一次淘宝翻车</a>，以下内容为踩坑。</p>
-</blockquote>
-<h2 id="更换"><a href="#更换" class="headerlink" title="更换"></a>更换</h2><p>包裹里除了电池有 B7000 胶水，电池背胶，诺干拆机工具，电池的防静电袋像是拆开检查过后封的。<del>因为这样流下来的？</del></p>
-<p>关机后取出卡托（</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey-package.jpg" loading="lazy"></p>
-<span id="more"></span>
-
-<p>电池本体也和拆下的原装电池也无明显差别，比如字体不同，字号不致</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/battey.jpg" loading="lazy"></p>
-<p>对后盖进行加热后轻轻撬起后盖缝隙大的地方，我这里是摄像头和红外的位置，沿缝隙慢慢划开内侧密封胶，然后用一个翘片顶着缝隙再去另外旁边翘起缝隙，我看到翘片撬出的白色胶水我挺慌的，因为我买的二手机，我以前拆小米手机的时候没有见过白色的密封胶。</p>
-<p>这里我翻车了，太着急插入翘片受力点在摄像头那边爆了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/dismantling.jpg" loading="lazy"></p>
-<p>拆开可以看到NFC和无线充电线圈的散热？？，将左右扬声器的？？沿主板撕开即可见到螺丝，</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/point.jpg" loading="lazy"></p>
-<p>一手拿起屏蔽罩，用撬棒翘起电池排线断电；这里我把扬声器的 btb 不小心拔了出来。</p>
-<p>按照电池的说明卸下电池；先撕开 A 和 B 然后拉起 A，电池很轻松拿出来，取出后把电池上的易拉胶？电池中框上的电池贴纸撕下</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/yilajiao.jpg" loading="lazy"></p>
-<p>将新的电池对好位置贴上，扣上电池排线的btb 简单的扣好主板屏蔽罩和NFC无线充电线圈开机测试。 (此处没贴送的电池背胶)</p>
-<p>开机点亮显示 50% 电量，测试扬声器，无线充电NFC，振动，和有线27w快充；用创建快捷方式找到电池续航，剩余电池实际容量正常了</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/Screenshot.png" loading="lazy"></p>
-<p>电池续航为 MIUI13 内置有点像 AccuBattery)))</p>
-<blockquote>
-<p>这是用了半个月的，感觉不是太准确……<br>实际上从以前的一天三充到一天两充，而且用起来会比较安心，仅供参考。</p>
-</blockquote>
-<p>随后关机检查还有什么没扣上便安装上屏蔽罩，不要大力出奇迹~不要问我是怎么知道的</p>
-<p>稍微摆平NFC线圈安装上后盖，因为后盖爆了我就没打胶了后面方便更换，即便是没打胶缝隙也不是太大和拆机前无差。</p>
-<p><img src="https://cdn.miaoer.xyz/blog/22-05-03/lie.jpg" loading="lazy"></p>
-<p>可惜这次爆了盖，哭唧唧。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>搞机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>检查Windows为什么不能更新11</title>
-    <url>/2021/06/29/%E6%A3%80%E6%B5%8Bwin11%E6%9B%B4%E6%96%B0/</url>
-    <content><![CDATA[<h1 id="做好准备o-▽-o"><a href="#做好准备o-▽-o" class="headerlink" title="做好准备o(^▽^)o"></a>做好准备o(^▽^)o</h1><p>前几天Windows11放出预览版的时候，我下载了<a href="https://www.microsoft.com/windows/windows-11#pchealthcheck">电脑健康状况检查</a>官方链接挂了放一下副本<br><a href="https://github.com/miaoermua/miaoer-gitdown/raw/main/download/WindowsPCHealthCheckSetup.msi">电脑健康状况检查-blog副本下载</a><br>发现我根本不过，但是又不知道检查了什么不过…<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/notwin11-old.png" alt="notdate" loading="lazy"></p>
-<span id="more"></span>
-
-<h2 id="警告！∑-っ-°Д-°-っ"><a href="#警告！∑-っ-°Д-°-っ" class="headerlink" title="警告！∑(っ °Д °;)っ"></a>警告！∑(っ °Д °;)っ</h2><blockquote>
-<p>升级Windows11不保证软件稳定性，请进行备份系统盘里面的资料再升级操作，数据无价！请谨慎升级！</p>
-</blockquote>
-<p>如果升级后或者升级过程出现电脑无法正常使用的问题不承担任何法律责任！<br>把资料备份NAS，网盘里面安全第一！</p>
-<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>于是好心的基友发来了大神<a href="https://github.com/rcmaehl">rcmaehl</a>的检测软件WhyNotWin11<br><a href="https://github.com/rcmaehl/WhyNotWin11">Why Not Win11-Github</a></p>
-<h2 id="软件界面"><a href="#软件界面" class="headerlink" title="软件界面"></a>软件界面</h2><p><img src="https://user-images.githubusercontent.com/716581/123747880-7ded0c00-d881-11eb-9fdc-cd49a6ff74dc.png" alt="rcmaehl" loading="lazy"></p>
-<h2 id="WhyNotWin11下载教程"><a href="#WhyNotWin11下载教程" class="headerlink" title="WhyNotWin11下载教程"></a>WhyNotWin11下载教程</h2><p>下载<a href="https://github.com/rcmaehl/WhyNotWin11/releases">WhyNotWin11-releases</a><br>选择最新版的找到Assets，<code>32位</code>的系统选择 <code>WhyNotWin11.exe</code> ，<code>64位</code>选择 <code>WhyNotWin11_x86.exe </code><br><img src="https://cdn.miaoer.xyz/blog/21-06-30/whynotwin11-releases.jpg" alt="downwnw" loading="lazy"></p>
-<h1 id="检查"><a href="#检查" class="headerlink" title="检查"></a>检查</h1><p>发现我只有 <code>安全启动</code>、<code>CPU</code>、<code>TPM</code> 不过 (作者更新真快)。</p>
-<p>那时候找TPM教程是真的难，自己在主板里面折腾半天在CPU选项里找到了 <code>AMD fTPM</code> 。</p>
-<h2 id="TPM"><a href="#TPM" class="headerlink" title="TPM"></a>TPM</h2><p>TPMlist：</p>
-<p>AMD:<br>华擎-高级-CPU配置-AMD fTPM switch[AMD CPU fTPM]<br>华硕-高级-AMD fTPM设置-选择TPM设备[开启固件TPM]<br>MSI-设置-安全-可信任计算模块-AMD fTPM switch[AMD CPU fTPM]</p>
-<p>Intel:<br>华硕-Advanced-PCH-FW Configuration-Intel Platform Trust Technology[确认]<br>华硕-Advanced-PCH-FW Configuration-PTT-Enable<br>华硕-Advanced-PCH-FW Configuration-TPM Device Selection-Enable Firmware TPM</p>
-<p>这是华擎主板的bios开启AMD fTPM switch<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/1624961646440.jpg" alt="bios" loading="lazy"></p>
-<p>推荐可以去看B站up主: <a href="https://space.bilibili.com/947625">makazeu</a> 的视频演示了各种品牌的tpm开启方法。</p>
-<p>只收集到这些其他主板平台请善用搜索引擎。<br><img src="https://cdn.miaoer.xyz/blog/21-06-30/baidutpm.jpg" alt="baidutpm" loading="lazy"><br>尝试搜索：主板(笔记本)名字{可选:型号}+处理器平台+bios开启tpm</p>
-<p>【如：技嘉x570主板AMD开启TPM】</p>
-<h2 id="安全启动-SecureBoot"><a href="#安全启动-SecureBoot" class="headerlink" title="安全启动 SecureBoot"></a>安全启动 SecureBoot</h2><p>华擎-安全-SecureBoot-安装默认安全密钥-安全引导[开启]<br>请先找到并且开启<code>安装默认安全密钥</code>再开启<code>安全引导</code><br><img src="https://cdn.miaoer.xyz/blog/21-06-30/1624963795259.jpg" alt="secureboot" loading="lazy"><br>其他主板大差不差，都一般在安全和引导里面开启密钥再开启安全引导<br>要么叫安全启动要么叫安全引导<code>SecureBoot</code><br>尝试搜索：主板+开启安全启动<br>【如：华硕主板开启安全启动】</p>
-<h2 id="硬盘-Disk"><a href="#硬盘-Disk" class="headerlink" title="硬盘 Disk"></a>硬盘 Disk</h2><p>一定是GPT的分区才能安装Win10和Win11，在使用以前系统分区是MBR的只能分区修改GPT的<br>这个也能在搜索引擎找到方法，一般正常在Win10iso里面安装都是GPT的<br>MBR的用户就没办法照顾了，分个区或者出现完整安装Win10iso再升级吧<br>Windows镜像下载MSDN,<a href="https://msdn.itellyou.cn/">我告诉你</a> 和 <a href="https://next.itellyou.cn/">新版我告诉你</a></p>
-<p>硬盘需要64GB+存储空间，安装时保留更多存储空间<br>GPT分区</p>
-<h2 id="CPU"><a href="#CPU" class="headerlink" title="CPU"></a>CPU</h2><p>我的CPU不在CPU支持list里面，但是一样可以更新，但是不一定更老的CPU是否后面会有限制。</p>
-<p>AMD list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors">Supported AMD Processors-AMD处理器平台支持列表</a></p>
-<p>Intel list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors">Supported Intel Processors-Intel英特尔处理器平台支持列表</a></p>
-<p>Qualcomm list:<br><a href="https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-qualcomm-processors">Supported Qualcomm Processors-Qualcomm高通处理器平台支持列表</a></p>
-<p>1 GHz+的处理器和64位的<br>暂时不知道支不支持32位x86的</p>
-<h2 id="显卡-amp-显示分辨率-DirectX-WDDM2"><a href="#显卡-amp-显示分辨率-DirectX-WDDM2" class="headerlink" title="显卡&amp;显示分辨率 DirectX+WDDM2"></a>显卡&amp;显示分辨率 DirectX+WDDM2</h2><p>支持 DirectX 12+，不知道老显卡支不支持？<br>分辨率是720P+<br>支持驱动程序模型 WDDM 2.0</p>
-<h2 id="内存-RAM"><a href="#内存-RAM" class="headerlink" title="内存 RAM"></a>内存 RAM</h2><p>4G+无限制频率和DDR版本</p>
-<h1 id="微软官方推荐配置"><a href="#微软官方推荐配置" class="headerlink" title="微软官方推荐配置"></a>微软官方推荐配置</h1><p><a href="https://www.microsoft.com/zh-cn/windows/windows-11-specifications">推荐配置</a><br>处理器：<br>1 GHz 或更快的支持 64 位的处理器（双核或多核）或系统单芯片 (SoC)</p>
-<p>RAM：<br>4 GB</p>
-<p>存储：<br>64 GB 或更大的存储设备</p>
-<p>系统固件：<br>支持 UEFI 安全启动</p>
-<p>TPM：<br><a href="https://docs.microsoft.com/zh-CN/windows/security/information-protection/tpm/trusted-platform-module-overview">受信任的平台模块 (TPM)</a> 版本 2.0</p>
-<p>显卡：<br>支持 DirectX 12 或更高版本，支持 WDDM 2.0 驱动程序</p>
-<p>显示屏：<br>对角线长大于 9 英寸的高清 (720p) 显示屏，每个颜色通道为 8 位</p>
-<p>Internet 连接和 Microsoft 帐户：<br>Windows 11 家庭版需要有 Internet 连接和 Microsoft 帐户才能在首次使用时完成设备设置。<br>将设备切换出 Windows 11 家庭版 S 模式也需要有 Internet 连接。<a href="https://support.microsoft.com/help/4020089/windows-10-in-s-mode-faq">在此处详细了解 S 模式</a>。<br>对于所有 Windows 11 版本，Internet 访问对于执行更新和某些功能的下载和使用都是必需的。</p>
-<h1 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h1><h3 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h3><p>在设置-更新-Windows预览体验计划中申请</p>
-<p>目前有且只有<code>Dev开发者版本</code>才能体验，其次开放win11体验才是<code>Beta</code>，更新时请三十而后行</p>
-<p>极其不推荐工作机更新Windows11!更新后不要清理降级恢复包!</p>
-<h3 id="恢复"><a href="#恢复" class="headerlink" title="恢复"></a>恢复</h3><p>设置-WindowsUpdate-高级选项-恢复</p>
-<h1 id="完成了-是时候秀一下了-・∀・"><a href="#完成了-是时候秀一下了-・∀・" class="headerlink" title="完成了,是时候秀一下了(・∀・*)"></a>完成了,是时候秀一下了(・∀・*)</h1><p><img src="https://cdn.miaoer.xyz/blog/21-06-30/1624960668163.jpg" alt="update..." loading="lazy"><br><img src="https://cdn.miaoer.xyz/blog/21-06-30/whynotwin11.jpg" alt="whynotwin11" loading="lazy"></p>
-<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>博文部分内容可能会做出修改，请善用搜索引擎搜索相关开启教程只收入部分开启方法<br>喜欢这个博文就分享出去吧，有能力可以向我打钱投喂ε(*´･∀･｀)зﾞ</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -3011,174 +3593,6 @@ Writing superblocks and filesystem accounting information: <span class="token ke
       <tags>
         <tag>小米</tag>
         <tag>技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>海外转移国内服务器的坑</title>
-    <url>/2022/09/25/%E8%BD%AC%E7%A7%BB%E7%9A%84%E5%9D%91/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/lp-meme.jpg" loading="lazy"></p>
-<p>前几天在阿里云上买了一台轻量应用的云服务器，准备要搭建我的博客的，结果…</p>
-<p>拿到机器先Ping了一下延迟，还行深圳到广州也就12ms左右，日本亚马逊的80ms左右</p>
-<p>就兴冲冲的去安装稍微有点熟悉的宝塔面板，那时候日本的服务器检查抽风挂逼没来得及对着抄配置，就搭好了，结果电脑上的chrome显示404进不去？折腾半天还是上日本的服务器看看结果又能进去了…一通操作猛如虎，还是404纳闷了，检查了宝塔和cloudflare正确啊，然后用手机输上域名好家伙直接显示我没有备案…然而大意了，傻乎乎的就买入了国内的服务器，没办法那就实名呗，大不了删一点内容</p>
-<span id="more"></span>
-
-<h1 id="大意"><a href="#大意" class="headerlink" title="大意"></a>大意</h1><p>只能认命了，之前也没弄过备案的服务器，一步步来结果服务器备案需要域名备案，域名备案还需要阿里云万网下，其他要在域名商那弄，但是我的域名商是<a href="https://www.namesilo.com/">namesilo</a>哪有什么备案相关的玩意啊，只能花36转移到阿里万网下了，按着别人博客写的内容一步步把namesilo转移，结果需要60天才能转移，那天才刚好30天，也只能等了</p>
-<p><img src="https://cdn.jsdelivr.net/gh/miaoermua/miaoer-bloghub@latest/meme/kengdie-meme.jpg" loading="lazy"></p>
-<h1 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h1><p>接着去弄Frp内网穿透，在阿里上使用脚本搭建的Frp，绑定端口、Http和Https…</p>
-<p>然后去Openwrt设置Frp内网穿透服务</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/openwrtfrp.jpg" loading="lazy"></p>
-<p>然后就可以在我的世界服务器里输入ip:端口了，就找到我穿透出来的内网服务器</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/mcserverdaoshi.jpg" loading="lazy"></p>
-<p>因为是电脑本机做的服务器，难免会因为别人跑图使用红石破坏了我的游戏体验啊，我毕竟都上了<a href="https://irisshaders.net/">iris</a>不跑满高帧光影真说不过去</p>
-<p>于是我吧我家的软路由<del>利用</del>出来当我的世界服务器，只要不是故意跑图炸服也不会有啥问题了（<del>服务端开机慢</del></p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/exsi-mccentos.jpg" loading="lazy"></p>
-<p>使用的是一个J4105的低功耗CPU做的成品软路由，TDP功耗10w，待机功耗只有6.6w！满载功耗只有13w！起码不用怎么担心耗电了，性能吧还行纯生存是够了</p>
-<p><img src="/.xyz//blog/21-08-16/jackstone-j4105.jpg" alt="老白" loading="lazy"></p>
-<p>大概前前后后用了大概4天左右没有啥问题，最高6个人同时在线建筑也不过20-30%的CPU占用</p>
-<p>最重要是延迟真的很低了多人联机广东地区才20-40ms，四川地区50-60ms！</p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-16/2021-08-03_18.39.57.png" alt="daoshi" loading="lazy"></p>
-<p>等8月过了就换到阿里云了，域名和服务器应该会用个俩三年</p>
-<p>有兴趣Frp和我的世界可以联系我目前是白名单模式</p>
-<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>博客已经转移成功，备案也好了 <a href="https://www.miaoer.xyz/about">详情</a></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>简单编译一个属于自己的openwrt软路由系统</title>
-    <url>/2022/09/25/%E7%BC%96%E8%AF%91openwrt/</url>
-    <content><![CDATA[<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/%E5%B0%81%E9%9D%A2.jpg" loading="lazy"></p>
-<p>我一直想编译一个OpenWrt软路由系统，因为之前用<a href="https://www.youtube.com/c/eSirPlayGround/">esir大神</a>的高大全固件插件用的有点多，可能会不稳定还有高大全很多插件用不到，打算自己动手编译定制一个自己的openwrt固件，并且给大家分享一下怎么样给OpenWrt在Windows子系统Ubantu下进行编译。</p>
-<p>因为我的win11十分不稳定，我给重装了原来是ssd分了俩个盘这次单独给ssd一个盘装win11</p>
-<p>在windows里编译openwrt有两个办法</p>
-<ul>
-<li><p>WLS (windows linux subsystem)</p>
-</li>
-<li><p>虚拟机 (如: vmware，hyper-v)</p>
-</li>
-</ul>
-<p>我选择了WLS，这方法大概缺点就是需要占掉C盘空间，选择去微软商店安装ubuntu系统。</p>
-<span id="more"></span>
-
-<p><img src="https://cdn.miaoer.xyz/blog/2021-08-23/microsoftstore-ubuntu.jpg" loading="lazy"></p>
-<h1 id="安装ubuntu"><a href="#安装ubuntu" class="headerlink" title="安装ubuntu"></a>安装ubuntu</h1><ol>
-<li>在微软商店搜索<code>ubuntu</code>，安装。(<code>Ubuntu 18.04 LTS</code>)</li>
-</ol>
-<p>然后信誓旦旦的打开ubuntu发现shell里直接报错，代码: 0x800701bc 按任意键退出ubuntu</p>
-<blockquote>
-<p>这里推荐安装Ubuntu 18.04 LTS，安装其他版本可能连编译的界面的进不了？因为仅测试了Ubuntu 18.04 LTS</p>
-</blockquote>
-<ol start="2">
-<li>解决报错安装wls。</li>
-</ol>
-<p>启用 WLS  在管理员权限下 *powershell *运行</p>
-<p><code>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</code></p>
-<p>启用 虚拟机平台 在管理员权限下 <em>powershell</em> 运行</p>
-<p><code>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart</code></p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/setting.jpg" loading="lazy"></p>
-<p>重启电脑</p>
-<p>下载 Linux内核更新包</p>
-<p><a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi">https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi</a></p>
-<p>（无脑下一步</p>
-<p>设置 wls2位默认版本 在下 <em>powershell</em> 运行（不一定可选)</p>
-<p><code>wsl --set-default-version 2</code></p>
-<ol start="3">
-<li>继续打开Ubuntu<br> 然后就可以继续，设置账户和密码，<a href="https://github.com/coolsnowwolf/lede">Lean</a>大神的不能使用root用户进行编译！输入自己的用户名即可</li>
-</ol>
-<h1 id="第一次编译"><a href="#第一次编译" class="headerlink" title="第一次编译"></a>第一次编译</h1><ol>
-<li><p>命令行输入 <code>sudo apt-get update</code> ，然后输入 <code>sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync</code></p>
-</li>
-<li><p>使用 <code>git clone https://github.com/coolsnowwolf/lede</code> 命令下载好lean的源代码，然后 <code>cd lede</code> 进入lede目录</p>
-</li>
-<li><p><code>./scripts/feeds update -a</code><br><code>./scripts/feeds install -a</code><br><code>make menuconfig</code></p>
-<p>当<code>make menuconfig</code>能成功进去就可以退出添加插件</p>
-</li>
-</ol>
-<blockquote>
-<p>此步骤容易因为依赖不完全无法进行编译，请看有没有出现错误一直下不动的问题，可以考虑换源和重新安装Ubuntu子系统进行解决。</p>
-</blockquote>
-<h2 id="添加自己要的插件"><a href="#添加自己要的插件" class="headerlink" title="添加自己要的插件"></a>添加自己要的插件</h2><p>先添加kenzo的<a href="https://github.com/kenzok8/openwrt-packages">openwrt-packages</a>openwrt软件包和依赖包里面包括了很多用到的插件和依赖经测试都是可用的</p>
-<p>在lede根目录下找到<code>feeds.conf.default</code>文件使用笔记本打开并且添加</p>
-<p><code>src-git kenzo https://github.com/kenzok8/openwrt-packages</code><br><code>src-git small https://github.com/kenzok8/small</code></p>
-<p><del>包含了某些pass插件和所需依赖</del></p>
-<p><img src="https://cdn.miaoer.xyz/blog/21-08-23/feeds.jpg" loading="lazy"></p>
-<p>比如lean大神和kenzo的软件包里都没有的<a href="https://github.com/destan19/OpenAppFilter">OpenAppFilter</a></p>
-<p>需要单独下载源码保存到<code>lede/package</code>目录下</p>
-<p><code>cd package</code> </p>
-<p><code>git clone https://github.com/destan19/OpenAppFilter.git</code></p>
-<p><code>cd ..</code></p>
-<p>添加了插件feeds里就再重新进行一遍更新feeds，此时就下载kenzo仓库里的软件包了，单独git下载的不需要进行该步骤</p>
-<p><code>./scripts/feeds update -a</code><br><code>./scripts/feeds install -a</code><br><code>make menuconfig</code></p>
-<p>检查能进<code>make menuconfig</code>即可</p>
-<ol start="4">
-<li>下载dl库 <u><em><strong>需要科学上网</strong></em></u> <em>不然下载巨慢导致报错</em></li>
-</ol>
-<p><code>make -j8 download V=s</code></p>
-<ol start="5">
-<li>完成第一次编译 <em>仅限WLS</em> (-j1 后面是线程数。第一次编译推荐用单线程)</li>
-</ol>
-<p><code>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j1 V=s </code></p>
-<p><em>非WLS用户</em> <code>make -j1 V=s</code></p>
-<p>使用lean大神的源码未经过修改保证可以编译成功，第一次编译花费时间需要很久记得保持特殊网络环境下进行编译不然可能连第一次编译都过不了</p>
-<blockquote>
-<p><del>假如第一次编译就报错的重新开始直接</del> <code>rm -rf /home/用户/lede</code> <del>不要添加插件再进行编译，还是报错就没辙了毕竟lean源码第一次不添加任何插件是确实能过的，请回到依赖安装的步骤检查好了。</del></p>
-</blockquote>
-<ul>
-<li>✅ 当第一次编译过了，如果显示</li>
-</ul>
-<pre class="language-shell" data-language="shell"><code class="language-shell">signing package index<span class="token punctuation">..</span>.
-make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>:Leaving directory <span class="token variable"><span class="token variable">`</span>/home/user/lede<span class="token variable">`</span></span>
-make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>:Entering directory <span class="token variable"><span class="token variable">`</span>/home/user/lede<span class="token variable">`</span></span>
-make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>:Nothing directory <span class="token variable"><span class="token variable">`</span>/home/user/lede<span class="token variable">`</span></span>
-<span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span></code></pre>
-
-<ul>
-<li>❎ 即代表编译成功了，如果显示</li>
-</ul>
-<pre class="language-shell" data-language="shell"><code class="language-shell">make<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>: *** <span class="token punctuation">[</span>package/feeds/packages/forked-daapd/compile<span class="token punctuation">]</span> Error <span class="token number">2</span>
-make<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>: *** <span class="token punctuation">[</span>/home/vk-op/lede/staging_dir/target-x86_64_musl/stamp/.package_compile<span class="token punctuation">]</span> Error <span class="token number">2</span></code></pre>
-
-<p>类似的带有Error字样的就是编译出错。</p>
-<h1 id="第二次编译"><a href="#第二次编译" class="headerlink" title="第二次编译"></a>第二次编译</h1><p><img src="https://cdn.miaoer.xyz/blog/21-08-23/openwrtbianyi.jpg" loading="lazy"></p>
-<blockquote>
-<p>推荐插件不要一下全选了，几个几个的选避免插件编译失败不好排查，编译的时候选你电脑最大的线程数进行编译就好。</p>
-</blockquote>
-<p>在<code>Luci---&gt;Applications</code>选择几个自己需要的插件，Luci-Theme选择自己需要的几个主题</p>
-<p>在<code>Target images</code>里选择Build GRUB images (Linux x86 or x86_64 host only)`就是BIOS启动默认不选择就是UEFI启动的</p>
-<p>在<code>Target images</code>里选择<code>Root filesystem partition size (in MB)</code>，可以设置默认overlay分区大小</p>
-<p>在<code>Target images</code>里选择<code>Kernel partition size (in MB)</code>，可以设置内核分区大小<del>(目前不知道这个干嘛的，设置了25MB)</del></p>
-<p>先简单编译一遍 <em>(线程数=处理器线程+1)</em></p>
-<p><code>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j13 V=s </code></p>
-<p>编译好了继续选择插件进行编译直到插件满足你的需求，一点点这样编译是因为怕插件编译错误可以一个个排查，如果一上来全点了报错了难排查</p>
-<p>已知smb和smb4一起编译会报错，其他插件报错可以善用搜索引擎搜索或者去github给作者提交issues或者去相关TG群里问。</p>
-<h1 id="编译完成"><a href="#编译完成" class="headerlink" title="编译完成"></a>编译完成</h1><p>编译好的固件在 <code>/home/user/lede/bin/targets/x86</code> 里，然后就可以通过各种方法安装在软路由上了，安装应该就不用说怎么安装了吧</p>
-<p>如果对我分享的博文有帮助可以给我评论或者打赏支持我！</p>
-<blockquote>
-<p>感谢！这是我为数不多没发平台进行推广或者原文宣传的博文，仅靠自己收集的资料整理而来就收获了150观看数比我想象中要多，按照步骤来一般没什么问题，如果配置的看不懂可以观看韩风大大的视频，编译其他插件按照博文里写的就没错了！附教程出的固件已经出了<a href="https://www.miaoer.xyz/network/openwrtv2021.10.10">请看这个: 分享自己编译的OpenWrt软路由固件！</a>。</p>
-</blockquote>
-<p>部分参见:</p>
-<ul>
-<li><p>Lean <a href="https://github.com/coolsnowwolf/lede">coolsnowwolf/lede</a></p>
-</li>
-<li><p>微软 <a href="https://docs.microsoft.com/zh-cn/windows/wsl/install-win10">适用于 Linux 的 Windows 子系统安装指南 (Windows 10)</a></p>
-</li>
-<li><p>韩风Talk <a href="https://www.bilibili.com/video/BV1Dv411B7MQ">【韩风Talk】Openwrt编译难么？不太难，主要是细节！</a></p>
-</li>
-<li><p>不吐不快 <a href="https://mianao.info/2020/05/05/%E7%BC%96%E8%AF%91%E6%9B%B4%E6%96%B0OpenWrt-PassWall%E5%92%8CSSR-plus%E6%8F%92%E4%BB%B6">编译更新OpenWrt PassWall和SSR-plus插件</a></p>
-</li>
-<li><p>BIGDONGDONG <a href="https://www.youtube.com/watch?v=yQoKpL4p06E">『299』 傻瓜式编译OpenWrt固件全流程丨Ubuntu下基于Lean源码编译融合各种插件</a></p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>软路由</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
       </tags>
   </entry>
 </search>

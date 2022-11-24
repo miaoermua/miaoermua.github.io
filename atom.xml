@@ -6,7 +6,7 @@
   <link href="https://blog.miaoer.xyz/atom.xml" rel="self"/>
   
   <link href="https://blog.miaoer.xyz/"/>
-  <updated>2022-10-24T06:52:30.423Z</updated>
+  <updated>2022-11-24T15:31:33.582Z</updated>
   <id>https://blog.miaoer.xyz/</id>
   
   <author>
@@ -15,6 +15,104 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CatWrt-v22.12 扩展无“线”，NAT 小包加速组件更新！</title>
+    <link href="https://blog.miaoer.xyz/2022/11/23/catwrt-v22.12/"/>
+    <id>https://blog.miaoer.xyz/2022/11/23/catwrt-v22.12/</id>
+    <published>2022-11-23T12:07:35.000Z</published>
+    <updated>2022-11-24T15:31:33.582Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这次软路由固件适配工作遇到了不少坑，但是大部分都解决了，这次更新玩法更多了，加速功能更强大，依旧稳定开源。&lt;/p&gt;
+&lt;p&gt;更新了较新的大雕源码，支持了高性能模式全锥形 NAT，以及 Shortcut-FE ECM 加持。&lt;/p&gt;
+&lt;p&gt;本固件基于 &lt;a href=&quot;https://github.com/coolsnowwolf/lede&quot;&gt;Lean LEDE&lt;/a&gt; 拉取 &lt;a href=&quot;https://github.com/coolsnowwolf/lede/commit/58692d5c98169249eae7b8cb27b45ce6ecac1d92&quot;&gt;Nov 20, 2022 58692d5&lt;/a&gt; 的仓库编译打造！&lt;/p&gt;
+&lt;p&gt;在此感谢大雕和遇见大佬&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-11-23/v22.12-overview.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;特色功能&quot;&gt;&lt;a href=&quot;#特色功能&quot; class=&quot;headerlink&quot; title=&quot;特色功能&quot;&gt;&lt;/a&gt;特色功能&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 令人惊叹的远程管理&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 不乱改更稳定流畅&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 简单的固件支持&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 完全支持 IPv6&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 智能网络加速&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 负载均衡&lt;/li&gt;
+&lt;li&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; Docker&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="CatWrt" scheme="https://blog.miaoer.xyz/tags/CatWrt/"/>
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软路由空间不够？扩容 overlay 的根</title>
+    <link href="https://blog.miaoer.xyz/2022/11/17/expansion-overlay/"/>
+    <id>https://blog.miaoer.xyz/2022/11/17/expansion-overlay/</id>
+    <published>2022-11-17T12:58:02.000Z</published>
+    <updated>2022-11-24T15:34:50.569Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;之前我分享的扩容 overlay 是复制原本 OpenWrt 的 /overlay 分区并且挂载作为外部 overlay 使用，但在最新的 OpenWrt/LEDE 以及基于 LEDE 编译的 CatWrt 也是扩容不了的，虽然说有的扩容成功了但成功率不高，这次分享的总结于 B 站 UP 主 &lt;a href=&quot;https://space.bilibili.com/472755599&quot;&gt;韩风Talk&lt;/a&gt; 视频中的第一种方法，成功率也比较高因为第二种我在固件里没有刷新成功容量所以就放弃了。&lt;/p&gt;
+&lt;p&gt;首先非常感谢韩风提供的方法，有需要可以查看他的视频我这里就做一个总结。&lt;/p&gt;
+&lt;p&gt;在 v22.11 固件中就有 100M 可用空间强烈不推荐小白作为安装 OpenWrt 的必选项！是有门槛的而且数据无价有需要可以先做备份再进行操作，甚至你可以给虚拟机创建一个快照。&lt;/p&gt;
+&lt;br&gt;
+
+&lt;iframe src=&quot;https://api.paugram.com/bili?bv=BV1WK411Z79q&amp;style=gray&quot; style=&quot;height: 10em; width: 100%&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;以前的靠作为外部 overlay 的可以参考我这期博客 &lt;a href=&quot;https://www.miaoer.xyz/posts/network/openwrt-overlay&quot;&gt;OpenWrt 扩容 overlay 分区教程&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="CatWrt" scheme="https://blog.miaoer.xyz/tags/CatWrt/"/>
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>扩展你的 CatWrt，轻松安装 iStore！</title>
+    <link href="https://blog.miaoer.xyz/2022/11/15/catwrt-v22.12-spread/"/>
+    <id>https://blog.miaoer.xyz/2022/11/15/catwrt-v22.12-spread/</id>
+    <published>2022-11-15T00:37:47.000Z</published>
+    <updated>2022-11-24T15:32:55.688Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在最新的 CatWrt-v22.11 固件中我们实现了早期提出模块化设计，可以缓解 CatWrt 过于臃肿。&lt;/p&gt;
+&lt;p&gt;这次支持扩展 iStore 软件中心和 UA2F、英特尔无线网卡驱动，以及 DDNSTO 插件&lt;/p&gt;
+&lt;p&gt;本教程可能不适用其他</summary>
+        
+      
+    
+    
+    
+    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="CatWrt" scheme="https://blog.miaoer.xyz/tags/CatWrt/"/>
+    
+    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
+    
+    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>性价比很高，无线强否？新华三 NX54 简单对比测试</title>
@@ -429,91 +527,11 @@
     <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
-    
-    <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
     <category term="CatWrt" scheme="https://blog.miaoer.xyz/tags/CatWrt/"/>
     
-  </entry>
-  
-  <entry>
-    <title>StarWind V2V Converter 写盘教程</title>
-    <link href="https://blog.miaoer.xyz/2022/08/17/starwind-converter/"/>
-    <id>https://blog.miaoer.xyz/2022/08/17/starwind-converter/</id>
-    <published>2022-08-17T09:29:24.000Z</published>
-    <updated>2022-08-17T09:29:32.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;在 CatWrt 我们取消了输出提供的虚拟硬盘，因为 v22.8 使用的源码导出 VMDK 并不能重启后开机，只能在 EXSI 手动打开或者手动在 EXSI 重启；&lt;/p&gt;
-&lt;p&gt;但使用 StarWind V2V Converter 虚拟机写盘软件则不会有这个问题，所以我写了这篇博文。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网络" scheme="https://blog.miaoer.xyz/categories/%E7%BD%91%E7%BB%9C/"/>
-    
-    
     <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
     
     <category term="软路由" scheme="https://blog.miaoer.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CatWrt-Newifi D2 新路由3鸡血 MTK 无线固件</title>
-    <link href="https://blog.miaoer.xyz/2022/08/10/catwrt-v22.7-newifid2/"/>
-    <id>https://blog.miaoer.xyz/2022/08/10/catwrt-v22.7-newifid2/</id>
-    <published>2022-08-10T14:11:54.000Z</published>
-    <updated>2022-08-17T10:01:20.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;CatWrt For Newifi D2 新路由3鸡血 MTK 无线固件，因为市面上的新3的固件都不是太适合我。首先我需要鸡血无线和够用的功能也就是当无线 ap 使用，所以就有了这版固件。&lt;/p&gt;
-&lt;h2 id=&quot;特色功能&quot;&gt;&lt;a href=&quot;#特色功能&quot; class=&quot;headerlink&quot; title=&quot;特色功能&quot;&gt;&lt;/a&gt;特色功能&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;大雕源码最小化&lt;/li&gt;
-&lt;li&gt;MTK 鸡血 wifi 无线驱动&lt;/li&gt;
-&lt;li&gt;完全支持 IPv6&lt;/li&gt;
-&lt;li&gt;基础网络加速&lt;/li&gt;
-&lt;li&gt;普通远程管理&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="硬路由" scheme="https://blog.miaoer.xyz/categories/%E7%A1%AC%E8%B7%AF%E7%94%B1/"/>
-    
-    
-    <category term="硬路由" scheme="https://blog.miaoer.xyz/tags/%E7%A1%AC%E8%B7%AF%E7%94%B1/"/>
-    
-    <category term="固件" scheme="https://blog.miaoer.xyz/tags/%E5%9B%BA%E4%BB%B6/"/>
-    
-    <category term="OpenWrt" scheme="https://blog.miaoer.xyz/tags/OpenWrt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>今年618我都买了些啥</title>
-    <link href="https://blog.miaoer.xyz/2022/07/02/22-618/"/>
-    <id>https://blog.miaoer.xyz/2022/07/02/22-618/</id>
-    <published>2022-07-02T12:31:27.000Z</published>
-    <updated>2022-08-25T02:31:56.000Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;非商单，有需则购，警惕消费主义陷阱&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;今年618；噢不，应该是整个6月份我大大小小买或收到不少东西，有些是因为老久设备被迫进行消费升级的，也是随便写点记下今年618到底消费多少，本质上是一种分享总结，其实是想发日记的但这内容有点长算了……&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;iPhone-SE3&quot;&gt;&lt;a href=&quot;#iPhone-SE3&quot; class=&quot;headerlink&quot; title=&quot;iPhone SE3&quot;&gt;&lt;/a&gt;iPhone SE3&lt;/h2&gt;&lt;p&gt;这个是给我老妈换掉 iPhone 6 的机器，你没听错就是 iPhone 6 早在一年多前微信就已经放弃6代的升级了，iOS 也停摆在12因为屏幕触摸也不灵敏了，点不到左上角但是右上角又可以，真是百思不得其解。乘机换掉这个老爷机了，在京东以2588元购入的 64G 版，下午买第二天上午到，包装非常“环保”就一个手机和 lightning to type-c 数据线，还有卡片；到手果真很小一样大，到手先恢复发现不知道是版本太老了还是怎么不能同步一些数据，还好 iCloud 有备份。&lt;/p&gt;
-&lt;p&gt;其他没啥好说的，A15 很快估摸着又用到停更2333……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.miaoer.xyz/blog/22-07-01/1.jpg&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="博客" scheme="https://blog.miaoer.xyz/categories/%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="生活" scheme="https://blog.miaoer.xyz/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="购物" scheme="https://blog.miaoer.xyz/tags/%E8%B4%AD%E7%89%A9/"/>
     
   </entry>
   
